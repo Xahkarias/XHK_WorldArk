@@ -1,0 +1,43 @@
+
+overlay_icon = GFX_district_government
+exempt_from_ai_planet_specialization = yes
+has_primary_zone = yes
+
+zone_slots = {
+    slot_city_government
+    slot_city_01
+    slot_city_02
+}
+
+show_on_uncolonized = {
+    exists = from
+    from = { $OWNER_REQ$ }
+    uses_district_set = xhk_worldark
+}
+
+potential = {
+    exists = owner
+    owner = {
+        $OWNER_REQ$
+        NOT = { has_menace_perk = menp_behemoth_mind_meld }
+    }
+    uses_district_set = xhk_worldark
+}
+
+conversion_ratio = 1
+convert_to = {
+    district_xhk_worldark_city
+    district_xhk_worldark_nexus
+    district_xhk_worldark_hive
+    district_mindlink
+}
+
+resources = {
+    category = planet_districts_cities
+    cost = {
+        minerals = @xhk_worldark_city_cost
+    }
+    upkeep = {
+        energy = @xhk_worldark_city_upkeep
+    }
+}

@@ -1,0 +1,52 @@
+triggered_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            OR = {
+                has_active_tradition = tr_prosperity_public_works
+                has_active_tradition = tr_prosperity_extended_hives
+                has_active_tradition = tr_prosperity_optimized_nexus
+            }
+        }
+    }
+    modifier = {
+        planet_housing_add = $BASE$
+    }
+}
+
+triggered_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            has_technology = tech_housing_1
+        }
+    }
+    modifier = {
+        planet_housing_add = $BASE$
+    }
+}
+
+triggered_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            has_technology = tech_housing_2
+            NOT = { has_valid_civic = civic_agrarian_idyll }
+        }
+    }
+    modifier = {
+        planet_housing_add = $HOUSING2$
+    }
+}
+
+triggered_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            has_valid_civic = civic_agrarian_idyll
+        }
+    }
+    modifier = {
+        planet_housing_add = @[$BASE$ * -1]
+    }
+}

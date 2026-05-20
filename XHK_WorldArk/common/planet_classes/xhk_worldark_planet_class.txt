@@ -1,0 +1,46 @@
+pc_xhk_worldark = {
+    ringworld = yes # because the preview breaks if it's not, I guess... ffs
+    entity = giga_frameworld
+    entity_scale = 1.0
+    fixed_entity_scale = yes
+    enable_tilt = no
+    place_entity_on_planet_plane = no
+    icon = GFX_giga_frameworld_icon
+    icon_large = GFX_giga_frameworld_icon_big
+
+    district_set = xhk_worldark
+
+    atmosphere_color 		= hsv { 0.0 0.0 1.0 }
+    atmosphere_intensity 	= 1.0
+    atmosphere_width 		= 0.5
+
+    auto_trait_prio = {
+        trait_auto_pc_xhk_worldark_preference
+    }
+
+    city_color_lut = "gfx/portraits/misc/colorcorrection_neutral.dds"
+    spawn_odds = 0
+
+    modifier = {
+        pop_environment_tolerance = 0.7
+    }
+
+    extra_orbit_size = 0
+    extra_planet_count = 0
+
+    chance_of_ring = 0
+
+    planet_size = 20
+    moon_size = 1
+
+    starting_planet = no
+    orbit_lines = no
+    colonizable = yes
+    is_artificial_planet = yes
+    starting_district = district_xhk_worldark_city
+
+    uses_alternative_skies_for_moons = no
+    show_city = no
+
+    carry_cap_per_free_district = @carry_cap_low
+}
