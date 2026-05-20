@@ -1,0 +1,191 @@
+namespace = xhk_worldark_setup
+
+planet_event = {
+    id = xhk_worldark_setup.1
+    hide_window = yes
+    fire_only_once = yes
+
+    trigger = {
+        owner = {
+            xhk_has_worldark_civic = yes
+        }
+    }
+
+    immediate = {
+        change_pc = pc_xhk_worldark
+
+        # normal empire
+        if = {
+            limit = {
+                exists = owner
+                owner = {
+                    is_regular_empire = yes
+                }
+            }
+            if = {
+                limit = { NOT = { has_building = building_capital} }
+                upgrade_colony_shelter = yes
+            }
+            add_district_and_planet_size_if_needed_effect_amount = {
+                amount = 2
+                district = district_xhk_worldark_city
+            }
+            add_zone = {
+                district = district_xhk_worldark_city
+                zone = zone_research_unity
+                zone_slot = 1
+            }
+            add_zone = {
+                district = district_xhk_worldark_city
+                zone = zone_industrial
+                zone_slot = 2
+            }
+            add_building = {
+                building = building_factory_1
+                zone = zone_industrial
+            }
+        }
+
+        # machine
+        if = {
+            limit = {
+                exists = owner
+                owner = {
+                    is_machine_empire = yes
+                }
+            }
+            if = {
+                limit = { NOT = { has_building = building_deployment_post} }
+                upgrade_colony_shelter = yes
+            }
+            add_building = building_machine_capital
+            add_building = building_machine_assembly_plant
+            add_building = building_drone_storage
+
+            add_district_and_planet_size_if_needed_effect_amount = {
+                amount = 2
+                district = district_nexus
+            }
+
+            add_zone = {
+                district = district_nexus
+                zone = zone_research_unity
+                zone_slot = 1
+            }
+
+            if = {
+                limit = {
+                    owner = {
+                        OR = {
+                            has_valid_civic = civic_machine_servitor
+                            has_valid_civic = civic_machine_obsessional_directive
+                        }
+                    }
+                }
+                add_zone = {
+                    district = district_nexus
+                    zone = zone_industrial
+                    zone_slot = 2
+                }
+                add_building = {
+                    building = building_factory_1
+                    zone = zone_industrial
+                }
+            }
+            else = {
+                add_zone = {
+                    district = district_nexus
+                    zone = zone_foundry
+                    zone_slot = 2
+                }
+            }
+        }
+
+        # hive
+        if = {
+            limit = {
+                exists = owner
+                owner = {
+                    is_hive_empire = yes
+                    is_wilderness_empire = no
+                }
+            }
+            #add_building = building_hive_capital
+            if = {
+                limit = {
+                    owner = {
+                        NOT = {
+                            has_origin = origin_progenitor_hive
+                        }
+                    }
+                }
+                add_building = building_spawning_pool
+            }
+            else = {
+                add_building = building_offspring_nest
+            }
+            add_building = building_hive_warren
+            add_district_and_planet_size_if_needed_effect_amount = {
+                amount = 2
+                district = district_hive
+            }
+
+            add_zone = {
+                district = district_hive
+                zone = zone_research_unity
+                zone_slot = 1
+            }
+
+            add_zone = {
+                district = district_hive
+                zone = zone_foundry
+                zone_slot = 2
+            }
+        }
+
+        ## Ethic
+        inline_script = "game_start/ethic_spiritualist"
+        inline_script = "game_start/ethic_materialist"
+        inline_script = "game_start/ethic_pacifist"
+        inline_script = "game_start/ethic_militarist"
+        inline_script = "game_start/ethic_egalitarian"
+        inline_script = "game_start/ethic_authoritarian"
+        inline_script = "game_start/ethic_xenophile"
+        inline_script = "game_start/ethic_xenophobe"
+
+        # Shadows of the Shroud
+        inline_script = "game_start/origin_shroud_forged"
+            #inline_script = "game_start/origin_mindwarden"
+        # Grand Archive
+        inline_script = "game_start/origin_primal_calling"
+        # Machine Age
+        inline_script = "game_start/origin_cybernetic_creed"
+        inline_script = "game_start/origin_synthetic_fertility"
+            #inline_script = "game_start/origin_arc_welders"
+        # First Contact
+            #inline_script = "game_start/origin_payback"
+            #inline_script = "game_start/origin_broken_shackles"
+        # Toxoids
+            #inline_script = "game_start/origin_toxic_knights"
+        # Overlord
+        inline_script = "game_start/origin_progenitor_hive"
+            #inline_script = "game_start/origin_subterranean"
+        # Aquatics
+            #inline_script = "game_start/origin_ocean_paradise"
+        # Necroids
+        inline_script = "game_start/origin_necrophage"
+        # Federations
+            #inline_script = "game_start/origin_shattered_ring"
+            #inline_script = "game_start/origin_remnants"
+        ## for Void Dwellers see void_dweller_home_planet_setup
+        # Humanoids
+        inline_script = "game_start/origin_clone_army"
+        # Synthetic Dawn
+        inline_script = "game_start/origin_machine"
+        # Utopia
+        inline_script = "game_start/origin_mechanist"
+
+        ##Civics
+        inline_script = "game_start/civics"
+    }
+}

@@ -1,0 +1,25 @@
+civic_xhk_worldark = {
+    modification = no
+    playable = { always = yes }
+    ai_playable = { always = yes }
+    #description = "civic_tooltip_anglers_effects_xhk_voidframe"
+    potential = {
+        ethics = { NOT = { value = ethic_gestalt_consciousness } }
+        authority = { NOR = {
+            value = auth_corporate
+            value = auth_bugged_corporate_democratic
+            value = auth_bugged_corporate_imperial
+        } }
+        species_archetype = { NOT = { value = MACHINE } }
+    }
+    possible = {
+        species_archetype = { NOT = { value = MACHINE } }
+        # origin = {
+        #     value = origin_frameworld
+        #     # this is compat hazard
+        # }
+    }
+    random_weight = {
+        base = 0
+    }
+}

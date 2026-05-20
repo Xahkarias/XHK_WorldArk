@@ -1,0 +1,5 @@
+xhk_has_worldark_civic = {
+    OR = {
+        has_valid_civic = civic_xhk_worldark
+    }
+}

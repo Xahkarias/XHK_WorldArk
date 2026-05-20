@@ -1,0 +1,5 @@
+empire_init_capital_planet = {
+    events = {
+        xhk_worldark_setup.1
+    }
+}
