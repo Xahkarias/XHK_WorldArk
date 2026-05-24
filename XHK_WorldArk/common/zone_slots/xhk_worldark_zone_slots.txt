@@ -1,0 +1,12 @@
+
+slot_xhk_worldark_foundry = {
+    start = { zone_xhk_worldark_foundry }
+    include = {  }
+    unlock = { always = yes }
+}
+
+slot_xhk_worldark_factory = {
+    start = { zone_xhk_worldark_factory }
+    include = {  }
+    unlock = { always = yes }
+}

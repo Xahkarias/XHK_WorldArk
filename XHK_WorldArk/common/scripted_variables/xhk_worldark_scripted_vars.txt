@@ -25,5 +25,6 @@
 
 @xhk_worldark_half_district_jobs = 100
 
-@xhk_worldark_frame_city_housing = 1000
-@xhk_worldark_frame_hive_housing = 1200
+@xhk_worldark_city_housing = 1000
+@xhk_worldark_hive_housing = 1200
+@xhk_worldark_standard_housing = 200

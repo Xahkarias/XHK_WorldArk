@@ -1,0 +1,61 @@
+zone_xhk_worldark_foundry = {
+    icon = GFX_district_specialization_foundry
+    base_buildtime = @zone_buildtime
+    potential = { # planet scope
+        always = yes
+    }
+
+    unlock = { # planet scope
+        always = yes
+    }
+
+    resources = {
+        category = planet_zones
+        cost = {
+            minerals = @zone_cost
+        }
+    }
+
+    included_building_sets = {
+        foundry
+    }
+
+    planet_modifier = {
+        zone_building_slots_add = 3
+    }
+    max_buildings = 3
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+
+zone_xhk_worldark_factory = {
+    icon = GFX_district_specialization_factory
+    base_buildtime = @zone_buildtime
+    potential = { # planet scope
+        always = yes
+    }
+
+    unlock = { # planet scope
+        always = yes
+    }
+
+    resources = {
+        category = planet_zones
+        cost = {
+            minerals = @zone_cost
+        }
+    }
+
+    included_building_sets = {
+        factory
+    }
+
+    planet_modifier = {
+        zone_building_slots_add = 3
+    }
+    max_buildings = 3
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
