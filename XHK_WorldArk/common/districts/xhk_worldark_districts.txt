@@ -109,21 +109,6 @@ district_xhk_worldark_foundry = {
         upkeep = {
             energy = @xhk_worldark_city_upkeep
         }
-
-        # nanite upgrade
-        upkeep = {
-            trigger = {
-                frameworld_has_active_nanite_upgrade = yes
-            }
-            energy = 10
-            nanites = 1
-        }
-        produces = {
-            trigger = {
-                frameworld_has_active_nanite_upgrade = yes
-            }
-            alloys = 5
-        }
     }
 
     planet_modifier = {
@@ -159,21 +144,6 @@ district_xhk_worldark_factory = {
         upkeep = {
             energy = @xhk_worldark_city_upkeep
         }
-
-        # nanite upgrade
-        upkeep = {
-            trigger = {
-                frameworld_has_active_nanite_upgrade = yes
-            }
-            energy = 10
-            nanites = 1
-        }
-        produces = {
-            trigger = {
-                frameworld_has_active_nanite_upgrade = yes
-            }
-            alloys = 5
-        }
     }
 
     planet_modifier = {
@@ -185,3 +155,174 @@ district_xhk_worldark_factory = {
         AMOUNT = 300
     }
 }
+
+district_xhk_worldark_trade = {
+    base_buildtime = @xhk_worldark_city_time
+    icon = district_arcology_trade
+    gridbox = district_arcology_trade
+    is_capped_by_modifier = no
+    overlay_icon = GFX_district_trade
+
+    zone_slots = {
+        slot_xhk_worldark_trade
+    }
+
+    potential = {
+        always = yes
+    }
+
+    resources = {
+        category = planet_districts_hab_trade
+        cost = {
+            minerals = @xhk_worldark_city_cost
+        }
+        upkeep = {
+            energy = @xhk_worldark_city_upkeep
+        }
+    }
+
+    planet_modifier = {
+        planet_housing_add = @xhk_worldark_standard_housing
+    }
+
+    inline_script = {
+        script = jobs/trader_add
+        AMOUNT = 300
+    }
+}
+
+###############################################################################################################
+# RAW RESOURCES
+###############################################################################################################
+
+district_xhk_worldark_generator = {
+    base_buildtime = @xhk_worldark_city_time
+    icon = district_generator
+    gridbox = district_generator
+    is_capped_by_modifier = no
+    overlay_icon = GFX_district_energy
+
+    zone_slots = {
+        slot_xhk_worldark_generator
+    }
+
+    potential = {
+        always = yes
+    }
+
+    resources = {
+        category = planet_districts_generator
+        cost = {
+            minerals = @xhk_worldark_city_cost
+        }
+        upkeep = {
+            energy = @xhk_worldark_city_upkeep
+        }
+    }
+
+    planet_modifier = {
+        planet_housing_add = @xhk_worldark_standard_housing
+    }
+
+    inline_script = {
+        script = jobs/technicians_add
+        AMOUNT = 300
+    }
+}
+
+district_xhk_worldark_minerals = {
+    base_buildtime = @xhk_worldark_city_time
+    icon = district_mining
+    gridbox = district_mining
+    is_capped_by_modifier = no
+    overlay_icon = GFX_district_minerals
+
+    zone_slots = {
+        slot_xhk_worldark_mining
+    }
+
+    potential = {
+        always = yes
+    }
+
+    resources = {
+        category = planet_districts_mining
+        cost = {
+            minerals = @xhk_worldark_city_cost
+        }
+        upkeep = {
+            energy = @xhk_worldark_city_upkeep
+        }
+    }
+
+    planet_modifier = {
+        planet_housing_add = @xhk_worldark_standard_housing
+    }
+
+    inline_script = {
+        script = jobs/miners_add
+        AMOUNT = 300
+    }
+}
+
+district_xhk_worldark_farming = {
+    base_buildtime = @xhk_worldark_city_time
+    icon = district_farming
+    gridbox = district_farming
+    is_capped_by_modifier = no
+    overlay_icon = GFX_district_food
+
+    zone_slots = {
+        slot_xhk_worldark_farming
+    }
+
+    potential = {
+        always = yes
+    }
+
+    resources = {
+        category = planet_districts_farming
+        cost = {
+            minerals = @xhk_worldark_city_cost
+        }
+        upkeep = {
+            energy = @xhk_worldark_city_upkeep
+        }
+    }
+
+    planet_modifier = {
+        planet_housing_add = @xhk_worldark_standard_housing
+    }
+
+    inline_script = {
+        script = jobs/farmers_add
+        AMOUNT = 300
+    }
+}
+
+###############################################################################################################
+# INTELLECTUAL
+###############################################################################################################
+# UNITY
+# normal
+# spiritualist
+# hive
+# machine
+# servitor
+
+# SCIENCE
+
+# AMENITIES
+
+# ENFORCER
+
+###############################################################################################################
+# REFINED RESOURCES
+###############################################################################################################
+# REFINERY
+
+# SUPERTENSILES
+
+# NEG MASS
+
+# SENT METAL

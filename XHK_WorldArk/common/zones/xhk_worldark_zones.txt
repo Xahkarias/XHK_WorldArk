@@ -18,6 +18,7 @@ zone_xhk_worldark_foundry = {
 
     included_building_sets = {
         foundry
+        urban_automation
     }
 
     planet_modifier = {
@@ -49,6 +50,138 @@ zone_xhk_worldark_factory = {
 
     included_building_sets = {
         factory
+        urban_automation
+    }
+
+    planet_modifier = {
+        zone_building_slots_add = 3
+    }
+    max_buildings = 3
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+
+zone_xhk_worldark_trade = {
+    icon = GFX_district_specialization_trade
+    base_buildtime = @zone_buildtime
+    potential = { # planet scope
+        always = yes
+    }
+
+    unlock = { # planet scope
+        always = yes
+    }
+
+    resources = {
+        category = planet_zones
+        cost = {
+            minerals = @zone_cost
+        }
+    }
+
+    included_building_sets = {
+        trade
+        urban_automation
+    }
+
+    planet_modifier = {
+        zone_building_slots_add = 3
+    }
+    max_buildings = 3
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+
+zone_xhk_worldark_generator = {
+    icon = GFX_district_specialization_energy
+    base_buildtime = @zone_buildtime
+    potential = { # planet scope
+        always = yes
+    }
+
+    unlock = { # planet scope
+        always = yes
+    }
+
+    resources = {
+        category = planet_zones
+        cost = {
+            minerals = @zone_cost
+        }
+    }
+
+    included_building_sets = {
+        generator
+        generator_automation
+        fallen_empire_generator
+    }
+
+    planet_modifier = {
+        zone_building_slots_add = 3
+    }
+    max_buildings = 3
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+
+zone_xhk_worldark_mining = {
+    icon = GFX_district_specialization_minerals
+    base_buildtime = @zone_buildtime
+    potential = { # planet scope
+        always = yes
+    }
+
+    unlock = { # planet scope
+        always = yes
+    }
+
+    resources = {
+        category = planet_zones
+        cost = {
+            minerals = @zone_cost
+        }
+    }
+
+    included_building_sets = {
+        mining
+        mining_automation
+        fallen_empire_mining
+    }
+
+    planet_modifier = {
+        zone_building_slots_add = 3
+    }
+    max_buildings = 3
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+
+zone_xhk_worldark_farming = {
+    icon = GFX_district_specialization_food
+    base_buildtime = @zone_buildtime
+    potential = { # planet scope
+        always = yes
+    }
+
+    unlock = { # planet scope
+        always = yes
+    }
+
+    resources = {
+        category = planet_zones
+        cost = {
+            minerals = @zone_cost
+        }
+    }
+
+    included_building_sets = {
+        farming
+        farming_automation
+        fallen_empire_farming
     }
 
     planet_modifier = {
