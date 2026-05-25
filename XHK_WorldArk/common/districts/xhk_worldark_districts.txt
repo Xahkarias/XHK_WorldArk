@@ -100,6 +100,9 @@ district_xhk_worldark_foundry = {
     potential = {
         uses_district_set = xhk_worldark
     }
+    show_on_uncolonized = {
+        uses_district_set = xhk_worldark
+    }
 
     resources = {
         category = planet_districts_industrial
@@ -135,6 +138,9 @@ district_xhk_worldark_factory = {
     potential = {
         uses_district_set = xhk_worldark
     }
+    show_on_uncolonized = {
+        uses_district_set = xhk_worldark
+    }
 
     resources = {
         category = planet_districts_industrial
@@ -168,6 +174,9 @@ district_xhk_worldark_trade = {
     }
 
     potential = {
+        uses_district_set = xhk_worldark
+    }
+    show_on_uncolonized = {
         uses_district_set = xhk_worldark
     }
 
@@ -209,6 +218,9 @@ district_xhk_worldark_generator = {
     potential = {
         uses_district_set = xhk_worldark
     }
+    show_on_uncolonized = {
+        uses_district_set = xhk_worldark
+    }
 
     resources = {
         category = planet_districts_generator
@@ -244,6 +256,9 @@ district_xhk_worldark_minerals = {
     potential = {
         uses_district_set = xhk_worldark
     }
+    show_on_uncolonized = {
+        uses_district_set = xhk_worldark
+    }
 
     resources = {
         category = planet_districts_mining
@@ -277,6 +292,9 @@ district_xhk_worldark_farming = {
     }
 
     potential = {
+        uses_district_set = xhk_worldark
+    }
+    show_on_uncolonized = {
         uses_district_set = xhk_worldark
     }
 
