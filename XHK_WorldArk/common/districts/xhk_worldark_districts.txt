@@ -98,7 +98,7 @@ district_xhk_worldark_foundry = {
     }
 
     potential = {
-        always = yes
+        uses_district_set = xhk_worldark
     }
 
     resources = {
@@ -133,7 +133,7 @@ district_xhk_worldark_factory = {
     }
 
     potential = {
-        always = yes
+        uses_district_set = xhk_worldark
     }
 
     resources = {
@@ -168,7 +168,7 @@ district_xhk_worldark_trade = {
     }
 
     potential = {
-        always = yes
+        uses_district_set = xhk_worldark
     }
 
     resources = {
@@ -207,7 +207,7 @@ district_xhk_worldark_generator = {
     }
 
     potential = {
-        always = yes
+        uses_district_set = xhk_worldark
     }
 
     resources = {
@@ -242,7 +242,7 @@ district_xhk_worldark_minerals = {
     }
 
     potential = {
-        always = yes
+        uses_district_set = xhk_worldark
     }
 
     resources = {
@@ -277,7 +277,7 @@ district_xhk_worldark_farming = {
     }
 
     potential = {
-        always = yes
+        uses_district_set = xhk_worldark
     }
 
     resources = {
