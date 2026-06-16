@@ -1,36 +1,40 @@
 
 slot_xhk_worldark_foundry = {
-    start = zone_xhk_worldark_foundry
-    include = { zone_xhk_worldark_foundry }
+    included_zone_sets = {
+        xhk_worldark_foundry
+    }
     unlock = { always = yes }
 }
 
 slot_xhk_worldark_factory = {
-    start = zone_xhk_worldark_factory
-    include = { zone_xhk_worldark_factory }
+    included_zone_sets = {
+        xhk_worldark_factory
+    }
     unlock = { always = yes }
 }
 
 slot_xhk_worldark_trade = {
-    start = zone_xhk_worldark_trade
-    include = { zone_xhk_worldark_trade }
+    included_zone_sets = {
+        xhk_worldark_trade
+    }
     unlock = { always = yes }
 }
 
 slot_xhk_worldark_generator = {
-    start = zone_xhk_worldark_generator
-    include = { zone_xhk_worldark_generator }
+    included_zone_sets = { ark_reactor }
     unlock = { always = yes }
 }
 
 slot_xhk_worldark_mining = {
-    start = zone_xhk_worldark_mining
-    include = { zone_xhk_worldark_mining }
+    included_zone_sets = {
+        xhk_worldark_mining
+    }
     unlock = { always = yes }
 }
 
 slot_xhk_worldark_farming = {
-    start = zone_xhk_worldark_farming
-    include = { zone_xhk_worldark_farming }
+    included_zone_sets = {
+        xhk_worldark_farming
+    }
     unlock = { always = yes }
 }

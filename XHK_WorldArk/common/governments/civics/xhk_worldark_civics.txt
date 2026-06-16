@@ -1,8 +1,10 @@
 civic_xhk_worldark = {
     modification = no
-    playable = { always = yes }
-    ai_playable = { always = yes }
-    #description = "civic_tooltip_anglers_effects_xhk_voidframe"
+    playable = { has_nomads_dlc = yes }
+    ai_playable = { always = no }
+    possible = {
+        is_nomadic = yes
+    }
     potential = {
         ethics = { NOT = { value = ethic_gestalt_consciousness } }
         authority = { NOR = {

@@ -1,0 +1,8 @@
+xhk_arkship_megastructure = {
+    inline_script = {
+        script = megastructures/arkship
+        ENTITY = civilian_arkship_01_stage_1_ship_entity
+        TECHNOLOGY = xhk_tech_worldark_1
+        SHIP_SIZE = xhk_worldark
+    }
+}

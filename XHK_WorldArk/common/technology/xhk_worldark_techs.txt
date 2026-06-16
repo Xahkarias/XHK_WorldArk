@@ -1,0 +1,46 @@
+xhk_tech_worldark_1 = {
+    area = society
+    category = { new_worlds }
+    tier = 1
+    cost = @tier3cost1
+    weight = @tier3weight1
+
+    prerequisites = {
+        "tech_planetary_engineering"
+        "tech_arkship_construction"
+    }
+
+    potential = {
+        is_nomadic = yes
+        has_valid_civic = civic_xhk_worldark
+    }
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_UNLOCK_CIVILIAN_ARKSHIP_CONSTRUCTION_TITLE"
+            desc = "TECH_UNLOCK_CIVILIAN_ARKSHIP_CONSTRUCTION_DESC"
+        }
+    }
+
+    # weight_modifier = {
+    #     modifier = {
+    #         factor = 5
+    #         has_technology = tech_arkship_tier_2
+    #     }
+    #     modifier = {
+    #         factor = 5
+    #         has_technology = tech_arkship_tier_3
+    #     }
+    #     modifier = {
+    #         factor = 1.25
+    #         has_tradition = tr_expansion_adopt
+    #     }
+    # }
+
+    ai_weight = {
+        modifier = {
+            factor = 100
+            is_nomadic = yes
+        }
+    }
+}

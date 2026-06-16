@@ -1,9 +1,10 @@
 namespace = xhk_worldark_setup
 
-planet_event = {
+carrier_event = {
     id = xhk_worldark_setup.1
     hide_window = yes
     fire_only_once = yes
+    is_triggered_only = yes
 
     trigger = {
         owner = {
