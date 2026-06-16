@@ -5,3 +5,4 @@ create the buildings
 modify the ui for starbase
 modify the selection ui
 turn it into an origin
+find out how to make the ship bigger
