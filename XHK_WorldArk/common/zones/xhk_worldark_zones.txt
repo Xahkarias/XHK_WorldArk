@@ -470,3 +470,51 @@ zone_xhk_worldark_engineering = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
+
+zone_xhk_worldark_amenities = {
+    icon = GFX_district_specialization_entertainer
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+    }
+
+    include = {
+        building_luxury_residence
+        building_paradise_dome
+        building_communal_housing
+        building_communal_housing_large
+        # no gestalt stuff here nope
+        building_holo_theatres
+        building_hyper_entertainment_forum
+        building_medical_1
+        building_medical_2
+        building_genomic_facility
+        building_noble_estates
+        building_augmentation_bazaars
+        building_transcendental_retreat
+        building_augmentation_center
+        building_cyberdome
+        building_xeno_zoo
+        building_fe_clinic_1
+        building_fe_clinic_2
+        building_fe_entertainment_1
+        building_fe_entertainment_2
+
+        #PD
+        building_pd_eludium_floating_resort
+        building_pd_acean_medical_center
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_entertainers_add
+        AMOUNT = 100
+    }
+
+    zone_sets = {
+        xhk_worldark_amenities
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}

@@ -1,8 +1,10 @@
 potential = {
     uses_district_set = xhk_pc_worldark
+    $POTENTIAL$
 }
 show_on_uncolonized = {
     uses_district_set = xhk_pc_worldark
+    $POTENTIAL$
 }
 planet_modifier = {
     planet_housing_add = 250

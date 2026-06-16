@@ -54,3 +54,10 @@ slot_xhk_worldark_science = {
     }
     unlock = { always = yes }
 }
+
+slot_xhk_worldark_amenities = {
+    included_zone_sets = {
+        xhk_worldark_amenities
+    }
+    unlock = { always = yes }
+}

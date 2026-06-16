@@ -170,6 +170,7 @@ district_xhk_worldark_foundry = {
 
     inline_script = {
         script = xhk_worldark/districts/district_common
+        POTENTIAL = ""
     }
 
     resources = {
@@ -201,6 +202,7 @@ district_xhk_worldark_factory = {
 
     inline_script = {
         script = xhk_worldark/districts/district_common
+        POTENTIAL = ""
     }
 
     resources = {
@@ -232,6 +234,7 @@ district_xhk_worldark_trade = {
 
     inline_script = {
         script = xhk_worldark/districts/district_common
+        POTENTIAL = ""
     }
 
     resources = {
@@ -267,6 +270,7 @@ district_xhk_worldark_generator = {
 
     inline_script = {
         script = xhk_worldark/districts/district_common
+        POTENTIAL = ""
     }
 
     resources = {
@@ -298,6 +302,7 @@ district_xhk_worldark_minerals = {
 
     inline_script = {
         script = xhk_worldark/districts/district_common
+        POTENTIAL = ""
     }
 
     resources = {
@@ -329,6 +334,7 @@ district_xhk_worldark_farming = {
 
     inline_script = {
         script = xhk_worldark/districts/district_common
+        POTENTIAL = ""
     }
 
     resources = {
@@ -440,6 +446,7 @@ district_xhk_worldark_science = {
 
     inline_script = {
         script = xhk_worldark/districts/district_common
+        POTENTIAL = ""
     }
 
     resources = {
@@ -459,6 +466,39 @@ district_xhk_worldark_science = {
 }
 
 # AMENITIES
+district_xhk_worldark_amenities = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_arcology_leisure
+    gridbox = district_resort_secondary
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_district_amenities
+
+    zone_slots = {
+        slot_xhk_worldark_amenities
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        POTENTIAL = "
+            is_gestalt = no
+        "
+    }
+
+    resources = {
+        category = planet_districts
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    inline_script = {
+        script = jobs/entertainers_add
+        AMOUNT = 200
+    }
+}
 
 # ENFORCER
 
