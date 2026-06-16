@@ -366,3 +366,107 @@ zone_xhk_worldark_servitor = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
+
+zone_xhk_worldark_research = {
+    icon = GFX_district_specialization_research
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+    }
+
+    included_building_sets = {
+        research
+        urban_automation
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_researchers_add
+        AMOUNT = 30
+    }
+
+    zone_sets = {
+        xhk_worldark_science
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+zone_xhk_worldark_physics = {
+    icon = GFX_district_specialization_physics
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+    }
+
+    included_building_sets = {
+        research
+        physics
+        urban_automation
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_physicists_add
+        LARGE_AMOUNT = 100
+    }
+
+    zone_sets = {
+        xhk_worldark_science
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+zone_xhk_worldark_society = {
+    icon = GFX_district_specialization_society
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+    }
+
+    included_building_sets = {
+        research
+        society
+        urban_automation
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_biologists_add
+        LARGE_AMOUNT = 100
+    }
+
+    zone_sets = {
+        xhk_worldark_science
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+zone_xhk_worldark_engineering = {
+    icon = GFX_district_specialization_engineering
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+    }
+
+    included_building_sets = {
+        research
+        engineering
+        urban_automation
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_engineers_add
+        LARGE_AMOUNT = 100
+    }
+
+    zone_sets = {
+        xhk_worldark_science
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}

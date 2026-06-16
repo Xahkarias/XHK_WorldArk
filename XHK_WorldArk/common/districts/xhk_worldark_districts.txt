@@ -1,5 +1,6 @@
 
 
+@city_cost = 250
 
 ###############################################################################################################
 ###############################################################################################################
@@ -7,7 +8,150 @@
 ###############################################################################################################
 ###############################################################################################################
 
-# deleted
+district_xhk_worldark_city = {
+    base_buildtime = 360
+    exempt_from_ai_planet_specialization = yes
+
+    icon = district_ark_city
+    overlay_icon = GFX_district_government
+    district_background = district_city
+    gridbox = district_city
+
+    zone_slots = {
+        slot_city_government
+        slot_ark_city_01
+        slot_ark_city_02
+    }
+
+    show_on_uncolonized = {
+        exists = from
+        from = {
+            is_nomadic = yes
+        }
+        uses_district_set = xhk_pc_worldark
+        is_special_colony_type = no
+    }
+
+    potential = {
+        OR = {
+            NOT = { exists = owner } #this condition is needed for galaxy generation
+            uses_district_set = xhk_pc_worldark
+        }
+        NAND = {
+            is_capital = yes
+            owner = {
+                has_menace_perk = menp_behemoth_mind_meld
+            }
+        }
+    }
+
+    allow = {
+        uses_district_set = xhk_pc_worldark
+    }
+
+    conversion_ratio = 1
+    convert_to = {
+        district_mindlink
+        district_city
+        district_nexus
+        district_hive
+        district_hab_housing
+        district_arcology_housing
+        district_rw_city
+        district_rw_hive
+        district_rw_nexus
+    }
+
+    resources = {
+        category = planet_districts_cities
+        cost = {
+            alloys = @city_cost
+        }
+        upkeep = {
+            energy = 2
+        }
+    }
+
+    planet_modifier = {
+        planet_housing_add = 2500
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_valid_civic = civic_agrarian_idyll
+            }
+        }
+        modifier = {
+            planet_housing_add = -200
+        }
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { has_active_tradition = tr_prosperity_public_works_nomads }
+        }
+        modifier = {
+            planet_housing_add = 250
+        }
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_housing_1
+            }
+        }
+        modifier = {
+            planet_housing_add = 100
+        }
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_housing_2
+                NOT = { has_valid_civic = civic_agrarian_idyll }
+            }
+        }
+        modifier = {
+            planet_housing_add = 200
+        }
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { is_tankbound_empire = yes }
+        }
+        modifier = {
+            job_production_overseer_add = 200
+        }
+    }
+    triggered_desc = {
+        trigger = {
+            exists = owner
+            owner = { is_tankbound_empire = yes }
+        }
+        text = job_production_overseer_effect_desc
+    }
+
+    inline_script = {
+        script = districts/district_triggered_name_urban
+    }
+
+    inline_script = {
+        script = districts/district_triggered_flavor_desc_urban
+    }
+
+    inline_script = {
+        script = districts/ai_urban_district_extra_weighting
+    }
+}
 
 ###############################################################################################################
 # MANUFACTURED GOODS
@@ -283,6 +427,36 @@ district_xhk_worldark_servitor = {
 }
 
 # SCIENCE
+district_xhk_worldark_science = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_arcology_research
+    gridbox = district_arcology_research
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_district_research
+
+    zone_slots = {
+        slot_xhk_worldark_science
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+    }
+
+    resources = {
+        category = planet_districts_hab_research
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    inline_script = {
+        script = jobs/researchers_add
+        AMOUNT = 60
+    }
+}
 
 # AMENITIES
 
