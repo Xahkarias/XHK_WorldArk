@@ -269,3 +269,100 @@ zone_xhk_worldark_farming = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
+
+zone_xhk_worldark_unity = {
+    icon = GFX_district_specialization_unity
+    inline_script = {
+        script = xhk_worldark/zones/zone_empty_potential
+        NUM_BUILDINGS = 3
+        POTENTIAL = "
+            owner? = {
+                NOR = {
+                    has_valid_civic = civic_machine_servitor
+                    is_spiritualist = yes
+                }
+            }
+        "
+    }
+
+    included_building_sets = {
+        unity
+        urban_automation
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_unity_jobs_add
+        AMOUNT = 100
+    }
+
+    zone_sets = {
+        xhk_worldark_unity
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+zone_xhk_worldark_spiritualist = {
+    icon = GFX_district_specialization_unity
+    inline_script = {
+        script = xhk_worldark/zones/zone_empty_potential
+        NUM_BUILDINGS = 3
+        POTENTIAL = "
+            owner? = {
+                NOT = {
+                    has_valid_civic = civic_machine_servitor
+                }
+                is_spiritualist = yes
+            }
+        "
+    }
+
+    included_building_sets = {
+        unity
+        urban_automation
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_unity_jobs_add
+        AMOUNT = 100
+    }
+
+    zone_sets = {
+        xhk_worldark_unity
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+zone_xhk_worldark_servitor = {
+    icon = GFX_district_specialization_unity
+    inline_script = {
+        script = xhk_worldark/zones/zone_empty_potential
+        NUM_BUILDINGS = 3
+        POTENTIAL = "
+            owner? = {
+                has_valid_civic = civic_machine_servitor
+            }
+        "
+    }
+
+    included_building_sets = {
+        unity
+        urban_automation
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_unity_jobs_add
+        AMOUNT = 100
+    }
+
+    zone_sets = {
+        xhk_worldark_unity
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}

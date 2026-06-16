@@ -40,3 +40,10 @@ slot_xhk_worldark_farming = {
     }
     unlock = { always = yes }
 }
+
+slot_xhk_worldark_unity = {
+    included_zone_sets = {
+        xhk_worldark_unity
+    }
+    unlock = { always = yes }
+}

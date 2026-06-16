@@ -1,6 +1,5 @@
 
-@xhk_base_cost = 150
-@xhk_base_buildtime = 240
+
 
 ###############################################################################################################
 ###############################################################################################################
@@ -32,7 +31,7 @@ district_xhk_worldark_foundry = {
     resources = {
         category = planet_districts_industrial
         cost = {
-            alloys = @xhk_base_cost
+            alloys = @xhk_district_base_cost
         }
         upkeep = {
             energy = 1
@@ -63,7 +62,7 @@ district_xhk_worldark_factory = {
     resources = {
         category = planet_districts_industrial
         cost = {
-            alloys = @xhk_base_cost
+            alloys = @xhk_district_base_cost
         }
         upkeep = {
             energy = 1
@@ -94,7 +93,7 @@ district_xhk_worldark_trade = {
     resources = {
         category = planet_districts_hab_trade
         cost = {
-            alloys = @xhk_base_cost
+            alloys = @xhk_district_base_cost
         }
         upkeep = {
             energy = 1
@@ -129,7 +128,7 @@ district_xhk_worldark_generator = {
     resources = {
         category = planet_districts_generator
         cost = {
-            alloys = @xhk_base_cost
+            alloys = @xhk_district_base_cost
         }
         upkeep = {
             energy = 1
@@ -160,7 +159,7 @@ district_xhk_worldark_minerals = {
     resources = {
         category = planet_districts_mining
         cost = {
-            alloys = @xhk_base_cost
+            alloys = @xhk_district_base_cost
         }
         upkeep = {
             energy = 1
@@ -191,7 +190,7 @@ district_xhk_worldark_farming = {
     resources = {
         category = planet_districts_farming
         cost = {
-            alloys = @xhk_base_cost
+            alloys = @xhk_district_base_cost
         }
         upkeep = {
             energy = 1
@@ -208,11 +207,80 @@ district_xhk_worldark_farming = {
 # INTELLECTUAL
 ###############################################################################################################
 # UNITY
-# normal
-# spiritualist
-# hive
-# machine
-# servitor
+district_xhk_worldark_unity = {
+    inline_script = {
+        script = xhk_worldark/districts/district_unity
+        POTENTIAL = "
+            is_gestalt = no
+            is_spiritualist = no
+        "
+    }
+
+    inline_script = {
+        script = jobs/unity_jobs_add
+        AMOUNT = 200
+    }
+}
+district_xhk_worldark_spiritualist = {
+    inline_script = {
+        script = xhk_worldark/districts/district_unity
+        POTENTIAL = "
+            is_gestalt = no
+            is_spiritualist = yes
+        "
+    }
+
+    inline_script = {
+        script = jobs/unity_jobs_add
+        AMOUNT = 200
+    }
+}
+district_xhk_worldark_hive = {
+    inline_script = {
+        script = xhk_worldark/districts/district_unity
+        POTENTIAL = "
+            is_hive_empire = yes
+        "
+    }
+
+    inline_script = {
+        script = jobs/unity_jobs_add
+        AMOUNT = 200
+    }
+}
+district_xhk_worldark_machine = {
+    inline_script = {
+        script = xhk_worldark/districts/district_unity
+        POTENTIAL = "
+            is_machine_empire = yes
+            NOT = { has_valid_civic = civic_machine_servitor }
+        "
+    }
+
+    inline_script = {
+        script = jobs/unity_jobs_add
+        AMOUNT = 200
+    }
+}
+district_xhk_worldark_servitor = {
+    inline_script = {
+        script = xhk_worldark/districts/district_unity
+        POTENTIAL = "
+            is_machine_empire = yes
+            has_valid_civic = civic_machine_servitor
+        "
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_hospitality_servitor_empire = yes
+            }
+        }
+        job_bio_trophy_add = 1000
+    }
+}
 
 # SCIENCE
 
