@@ -33,7 +33,7 @@ xhk_pc_worldark = {
     extra_orbit_size = 0
     extra_planet_count = 0
 
-    planet_size = { min = 9 max = 9 }
+    planet_size = { min = 10 max = 10 }
 
     colonizable = yes
     district_set = xhk_pc_worldark

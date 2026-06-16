@@ -260,7 +260,7 @@ district_xhk_worldark_trade = {
 district_xhk_worldark_generator = {
     base_buildtime = @xhk_base_buildtime
     icon = district_ark_generator
-    gridbox = district_ark_generator
+    gridbox = district_generator
     is_uncapped = { always = yes }
     overlay_icon = GFX_district_energy
 
@@ -512,3 +512,39 @@ district_xhk_worldark_amenities = {
 # NEG MASS
 
 # SENT METAL
+
+###############################################################################################################
+# WAR
+###############################################################################################################
+# SOLDIER
+district_xhk_worldark_ordinance = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_ark_military
+    gridbox = district_arcology_fortress
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_district_fortress
+
+    zone_slots = {
+        slot_xhk_worldark_ordinance
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        POTENTIAL = ""
+    }
+
+    resources = {
+        category = planet_districts
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    inline_script = {
+        script = jobs/soldiers_add
+        AMOUNT = 200
+    }
+}

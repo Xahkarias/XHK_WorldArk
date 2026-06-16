@@ -1,0 +1,7 @@
+create the tiers
+do loc for everything
+create the modules
+create the buildings
+modify the ui for starbase
+modify the selection ui
+turn it into an origin

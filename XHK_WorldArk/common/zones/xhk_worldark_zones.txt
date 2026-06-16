@@ -1,3 +1,6 @@
+## FOUNDRY
+###########################################################
+# standard
 zone_xhk_worldark_foundry = {
     icon = GFX_district_specialization_foundry
     inline_script = {
@@ -24,6 +27,7 @@ zone_xhk_worldark_foundry = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
+# better ships
 zone_xhk_worldark_voidforge = {
     icon = GFX_district_specialization_foundry
     inline_script = {
@@ -58,6 +62,9 @@ zone_xhk_worldark_voidforge = {
     ai_priority = 10
 }
 
+## FACTORY
+###########################################################
+# standard
 zone_xhk_worldark_factory = {
     icon = GFX_district_specialization_factory
     inline_script = {
@@ -84,6 +91,9 @@ zone_xhk_worldark_factory = {
     ai_priority = 10
 }
 
+## TRADE
+###########################################################
+# standard
 zone_xhk_worldark_trade = {
     icon = GFX_district_specialization_trade
     inline_script = {
@@ -109,6 +119,7 @@ zone_xhk_worldark_trade = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
+# station cap
 zone_xhk_worldark_waylogi = {
     icon = GFX_district_specialization_trade
     inline_script = {
@@ -134,6 +145,9 @@ zone_xhk_worldark_waylogi = {
     ai_priority = 10
 }
 
+## GENERATOR
+###########################################################
+# standard
 zone_xhk_worldark_generator = {
     icon = GFX_district_specialization_energy
     inline_script = {
@@ -159,6 +173,7 @@ zone_xhk_worldark_generator = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
+# ship speed
 zone_xhk_worldark_reactspeed = {
     icon = GFX_district_specialization_ark_reactor
     inline_script = {
@@ -186,6 +201,7 @@ zone_xhk_worldark_reactspeed = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
+# ship shield
 zone_xhk_worldark_reactshield = {
     icon = GFX_district_specialization_exotic_gases
     inline_script = {
@@ -217,6 +233,9 @@ zone_xhk_worldark_reactshield = {
     ai_priority = 10
 }
 
+## MINERALS
+###########################################################
+# harvesting
 zone_xhk_worldark_mining = {
     icon = GFX_district_specialization_minerals
     inline_script = {
@@ -243,6 +262,9 @@ zone_xhk_worldark_mining = {
     ai_priority = 10
 }
 
+## FARM
+###########################################################
+# standard
 zone_xhk_worldark_farming = {
     icon = GFX_district_specialization_food
     inline_script = {
@@ -270,6 +292,9 @@ zone_xhk_worldark_farming = {
     ai_priority = 10
 }
 
+## UNITY
+###########################################################
+# standard
 zone_xhk_worldark_unity = {
     icon = GFX_district_specialization_unity
     inline_script = {
@@ -304,7 +329,7 @@ zone_xhk_worldark_unity = {
     ai_priority = 10
 }
 zone_xhk_worldark_spiritualist = {
-    icon = GFX_district_specialization_unity
+    icon = GFX_district_specialization_priest
     inline_script = {
         script = xhk_worldark/zones/zone_empty_potential
         NUM_BUILDINGS = 3
@@ -367,6 +392,9 @@ zone_xhk_worldark_servitor = {
     ai_priority = 10
 }
 
+## RESEARCH
+###########################################################
+# standard
 zone_xhk_worldark_research = {
     icon = GFX_district_specialization_research
     inline_script = {
@@ -471,6 +499,9 @@ zone_xhk_worldark_engineering = {
     ai_priority = 10
 }
 
+## AMENITIES
+###########################################################
+# standard
 zone_xhk_worldark_amenities = {
     icon = GFX_district_specialization_entertainer
     inline_script = {
@@ -513,6 +544,163 @@ zone_xhk_worldark_amenities = {
 
     zone_sets = {
         xhk_worldark_amenities
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+
+## ORDINANCE
+###########################################################
+zone_xhk_worldark_ordinance_naval = {
+    icon = GFX_district_specialization_ark_military
+    empire_limit = { 1 }
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+    }
+
+    included_building_sets = {
+        foundry
+        fortress
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_soldiers_add
+        AMOUNT = 100
+    }
+
+    planet_modifier = {
+        planet_soldiers_alloys_upkeep_add = 0.25
+        naval_cap_from_shipwright = 2
+        ship_build_speed_from_shipwright = 0.015
+    }
+
+    zone_sets = {
+        xhk_worldark_ordinance
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+zone_xhk_worldark_ordinance_missile_silos = {
+    planet_limit = 1
+    icon = GFX_district_specialization_missile
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+    }
+
+    included_building_sets = {
+        fortress
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_soldiers_add
+        AMOUNT = 100
+    }
+
+    planet_modifier = {
+        planet_soldiers_alloys_upkeep_add = 0.15
+        weapon_explosive_from_soldiers = 0.05
+    }
+
+    zone_sets = {
+        xhk_worldark_ordinance
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+
+
+}
+zone_xhk_worldark_ordinance_ammunition_lines = {
+    planet_limit = 1
+    icon = GFX_district_specialization_gun
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+    }
+
+    included_building_sets = {
+        fortress
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_soldiers_add
+        AMOUNT = 100
+    }
+
+    planet_modifier = {
+        planet_soldiers_alloys_upkeep_add = 0.15
+        weapon_kinetic_from_soldiers = 0.05
+    }
+
+    zone_sets = {
+        xhk_worldark_ordinance
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+zone_xhk_worldark_ordinance_laser_capacitors = {
+    planet_limit = 1
+    icon = GFX_district_specialization_laser
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+    }
+
+    included_building_sets = {
+        fortress
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_soldiers_add
+        AMOUNT = 100
+    }
+
+    planet_modifier = {
+        planet_soldiers_alloys_upkeep_add = 0.15
+        weapon_energy_from_soldiers = 0.05
+    }
+
+    zone_sets = {
+        xhk_worldark_ordinance
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+zone_xhk_worldark_ordinance_flight_decks = {
+    planet_limit = 1
+    icon = GFX_district_specialization_fighter
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+    }
+
+    included_building_sets = {
+        fortress
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_soldiers_add
+        AMOUNT = 100
+    }
+
+    planet_modifier = {
+        planet_soldiers_alloys_upkeep_add = 0.15
+        weapon_strike_craft_from_soldiers = 0.05
+    }
+
+    zone_sets = {
+        xhk_worldark_ordinance
     }
 
     ai_weight_coefficient = 0.5
