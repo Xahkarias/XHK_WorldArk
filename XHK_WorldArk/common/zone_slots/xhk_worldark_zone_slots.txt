@@ -21,7 +21,9 @@ slot_xhk_worldark_trade = {
 }
 
 slot_xhk_worldark_generator = {
-    included_zone_sets = { ark_reactor }
+    included_zone_sets = {
+        xhk_worldark_generator
+    }
     unlock = { always = yes }
 }
 

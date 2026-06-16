@@ -1,0 +1,9 @@
+potential = {
+    uses_district_set = xhk_pc_worldark
+}
+show_on_uncolonized = {
+    uses_district_set = xhk_pc_worldark
+}
+planet_modifier = {
+    planet_housing_add = 250
+}

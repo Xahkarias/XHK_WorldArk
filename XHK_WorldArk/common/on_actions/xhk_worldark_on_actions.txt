@@ -1,4 +1,4 @@
-empire_init_capital_planet = {
+empire_init_capital_colony = {
     events = {
         xhk_worldark_setup.1
     }

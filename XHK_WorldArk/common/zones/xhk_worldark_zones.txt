@@ -1,19 +1,8 @@
 zone_xhk_worldark_foundry = {
     icon = GFX_district_specialization_foundry
-    base_buildtime = @zone_buildtime
-    potential = { # planet scope
-        always = yes
-    }
-
-    unlock = { # planet scope
-        always = yes
-    }
-
-    resources = {
-        category = planet_zones
-        cost = {
-            minerals = @zone_cost
-        }
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
     }
 
     included_building_sets = {
@@ -21,10 +10,6 @@ zone_xhk_worldark_foundry = {
         urban_automation
     }
 
-    planet_modifier = {
-        zone_building_slots_add = 3
-    }
-    max_buildings = 3
     # doubled
     inline_script = {
         script = jobs/zone_foundry_add
@@ -41,20 +26,9 @@ zone_xhk_worldark_foundry = {
 }
 zone_xhk_worldark_voidforge = {
     icon = GFX_district_specialization_foundry
-    base_buildtime = @zone_buildtime
-    potential = { # planet scope
-        always = yes
-    }
-
-    unlock = { # planet scope
-        always = yes
-    }
-
-    resources = {
-        category = planet_zones
-        cost = {
-            minerals = @zone_cost
-        }
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
     }
 
     included_building_sets = {
@@ -63,13 +37,12 @@ zone_xhk_worldark_voidforge = {
     }
 
     planet_modifier = {
-        zone_building_slots_add = 3
         planet_metallurgists_minerals_upkeep_add = 1.5
         planet_metallurgists_alloys_produces_add = 0.75
         ship_armor_from_metallurgists = 0.02
         ship_hardening_from_metallurgists = 0.01
     }
-    max_buildings = 3
+
     # doubled
     inline_script = {
         script = jobs/zone_foundry_add
@@ -87,20 +60,9 @@ zone_xhk_worldark_voidforge = {
 
 zone_xhk_worldark_factory = {
     icon = GFX_district_specialization_factory
-    base_buildtime = @zone_buildtime
-    potential = { # planet scope
-        always = yes
-    }
-
-    unlock = { # planet scope
-        always = yes
-    }
-
-    resources = {
-        category = planet_zones
-        cost = {
-            minerals = @zone_cost
-        }
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
     }
 
     included_building_sets = {
@@ -108,10 +70,6 @@ zone_xhk_worldark_factory = {
         urban_automation
     }
 
-    planet_modifier = {
-        zone_building_slots_add = 3
-    }
-    max_buildings = 3
     # doubled
     inline_script = {
         script = jobs/zone_factory_add
@@ -128,20 +86,9 @@ zone_xhk_worldark_factory = {
 
 zone_xhk_worldark_trade = {
     icon = GFX_district_specialization_trade
-    base_buildtime = @zone_buildtime
-    potential = { # planet scope
-        always = yes
-    }
-
-    unlock = { # planet scope
-        always = yes
-    }
-
-    resources = {
-        category = planet_zones
-        cost = {
-            minerals = @zone_cost
-        }
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
     }
 
     included_building_sets = {
@@ -149,10 +96,6 @@ zone_xhk_worldark_trade = {
         urban_automation
     }
 
-    planet_modifier = {
-        zone_building_slots_add = 3
-    }
-    max_buildings = 3
     # doubled
     inline_script = {
         script = jobs/zone_trader_add
@@ -168,20 +111,9 @@ zone_xhk_worldark_trade = {
 }
 zone_xhk_worldark_waylogi = {
     icon = GFX_district_specialization_trade
-    base_buildtime = @zone_buildtime
-    potential = { # planet scope
-        always = yes
-    }
-
-    unlock = { # planet scope
-        always = yes
-    }
-
-    resources = {
-        category = planet_zones
-        cost = {
-            minerals = @zone_cost
-        }
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
     }
 
     included_building_sets = {
@@ -189,10 +121,6 @@ zone_xhk_worldark_waylogi = {
         urban_automation
     }
 
-    planet_modifier = {
-        zone_building_slots_add = 3
-    }
-    max_buildings = 3
     inline_script = {
         script = jobs/zone_ark_waystation_trader_add
         AMOUNT = 100
@@ -206,22 +134,94 @@ zone_xhk_worldark_waylogi = {
     ai_priority = 10
 }
 
+zone_xhk_worldark_generator = {
+    icon = GFX_district_specialization_energy
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+    }
+
+    included_building_sets = {
+        generator
+        generator_automation
+        fallen_empire_generator
+    }
+
+    inline_script = {
+        script = jobs/zone_technicians_add
+        AMOUNT = 100
+    }
+
+    zone_sets = {
+        xhk_worldark_generator
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+zone_xhk_worldark_reactspeed = {
+    icon = GFX_district_specialization_ark_reactor
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+    }
+
+    included_building_sets = {
+        generator
+        generator_automation
+        fallen_empire_generator
+    }
+    planet_modifier = {
+        ship_speed_from_technicians = 0.05 #does nothing by itself, check the technician job script
+    }
+    inline_script = {
+        script = jobs/zone_technicians_add
+        AMOUNT = 50
+    }
+
+    zone_sets = {
+        xhk_worldark_generator
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+zone_xhk_worldark_reactshield = {
+    icon = GFX_district_specialization_exotic_gases
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+    }
+
+    included_building_sets = {
+        generator
+        generator_automation
+        fallen_empire_generator
+    }
+    planet_modifier = {
+        planet_technician_exotic_gases_upkeep_add = 0.02
+        planet_technician_energy_produces_add = -1
+        ship_shield_from_technicians = 0.02 #does nothing by itself, check the technician job script
+        ship_shield_regen_from_technicians = 0.02
+    }
+    inline_script = {
+        script = jobs/zone_technicians_add
+        AMOUNT = 50
+    }
+
+    zone_sets = {
+        xhk_worldark_generator
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+
 zone_xhk_worldark_mining = {
     icon = GFX_district_specialization_minerals
-    base_buildtime = @zone_buildtime
-    potential = { # planet scope
-        always = yes
-    }
-
-    unlock = { # planet scope
-        always = yes
-    }
-
-    resources = {
-        category = planet_zones
-        cost = {
-            minerals = @zone_cost
-        }
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
     }
 
     included_building_sets = {
@@ -229,11 +229,6 @@ zone_xhk_worldark_mining = {
         mining_automation
         fallen_empire_mining
     }
-
-    planet_modifier = {
-        zone_building_slots_add = 3
-    }
-    max_buildings = 3
 
     inline_script = {
         script = jobs/zone_ark_harvester_add
@@ -250,20 +245,9 @@ zone_xhk_worldark_mining = {
 
 zone_xhk_worldark_farming = {
     icon = GFX_district_specialization_food
-    base_buildtime = @zone_buildtime
-    potential = { # planet scope
-        always = yes
-    }
-
-    unlock = { # planet scope
-        always = yes
-    }
-
-    resources = {
-        category = planet_zones
-        cost = {
-            minerals = @zone_cost
-        }
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
     }
 
     included_building_sets = {
@@ -272,10 +256,6 @@ zone_xhk_worldark_farming = {
         fallen_empire_farming
     }
 
-    planet_modifier = {
-        zone_building_slots_add = 3
-    }
-    max_buildings = 3
     # doubled
     inline_script = {
         script = jobs/zone_farmers_add

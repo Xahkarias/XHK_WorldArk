@@ -1,4 +1,6 @@
 
+@xhk_base_cost = 150
+@xhk_base_buildtime = 240
 
 ###############################################################################################################
 ###############################################################################################################
@@ -6,88 +8,14 @@
 ###############################################################################################################
 ###############################################################################################################
 
-district_xhk_worldark_city = {
-    base_buildtime = @xhk_worldark_city_time
-    icon = district_city
-    is_uncapped = { always = yes }
-
-    planet_modifier = {
-        planet_housing_add = @xhk_worldark_city_housing
-    }
-
-    inline_script = {
-        script = xhk_worldark/xhk_worldark_capital_part
-        OWNER_REQ = "is_gestalt = no"
-    }
-
-    inline_script = {
-        script = xhk_worldark/xhk_worldark_housing_modifiers
-        BASE = 100
-        HOUSING2 = 200
-    }
-
-    # tankbound
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_tankbound_empire = yes
-            }
-        }
-        modifier = {
-            job_production_overseer_add = 100
-        }
-    }
-}
-
-district_xhk_worldark_hive = {
-    base_buildtime = @xhk_worldark_city_time
-    icon = district_hive
-    is_uncapped = { always = yes }
-
-    planet_modifier = {
-        planet_housing_add = @xhk_worldark_hive_housing
-    }
-
-    inline_script = {
-        script = xhk_worldark/xhk_worldark_capital_part
-        OWNER_REQ = "is_hive_empire = yes"
-    }
-
-    inline_script = {
-        script = xhk_worldark/xhk_worldark_housing_modifiers
-        BASE = 100
-        HOUSING2 = 100
-    }
-}
-
-district_xhk_worldark_nexus = {
-    base_buildtime = @xhk_worldark_city_time
-    icon = district_nexus
-    is_uncapped = { always = yes }
-
-    planet_modifier = {
-        planet_housing_add = @xhk_worldark_city_housing
-    }
-
-    inline_script = {
-        script = xhk_worldark/xhk_worldark_capital_part
-        OWNER_REQ = "is_machine_empire = yes"
-    }
-
-    inline_script = {
-        script = xhk_worldark/xhk_worldark_housing_modifiers
-        BASE = 100
-        HOUSING2 = 200
-    }
-}
+# deleted
 
 ###############################################################################################################
 # MANUFACTURED GOODS
 ###############################################################################################################
 
 district_xhk_worldark_foundry = {
-    base_buildtime = @xhk_worldark_city_time
+    base_buildtime = @xhk_base_buildtime
     icon = district_arcology_arms_industry
     gridbox = district_arcology_arms_industry
     is_uncapped = { always = yes }
@@ -97,25 +25,18 @@ district_xhk_worldark_foundry = {
         slot_xhk_worldark_foundry
     }
 
-    potential = {
-        uses_district_set = xhk_pc_worldark
-    }
-    show_on_uncolonized = {
-        uses_district_set = xhk_pc_worldark
+    inline_script = {
+        script = xhk_worldark/districts/district_common
     }
 
     resources = {
         category = planet_districts_industrial
         cost = {
-            minerals = @xhk_worldark_city_cost
+            alloys = @xhk_base_cost
         }
         upkeep = {
-            energy = @xhk_worldark_city_upkeep
+            energy = 1
         }
-    }
-
-    planet_modifier = {
-        planet_housing_add = @xhk_worldark_standard_housing
     }
 
     inline_script = {
@@ -125,7 +46,7 @@ district_xhk_worldark_foundry = {
 }
 
 district_xhk_worldark_factory = {
-    base_buildtime = @xhk_worldark_city_time
+    base_buildtime = @xhk_base_buildtime
     icon = district_arcology_civilian_industry
     gridbox = district_arcology_civilian_industry
     is_uncapped = { always = yes }
@@ -135,25 +56,18 @@ district_xhk_worldark_factory = {
         slot_xhk_worldark_factory
     }
 
-    potential = {
-        uses_district_set = xhk_pc_worldark
-    }
-    show_on_uncolonized = {
-        uses_district_set = xhk_pc_worldark
+    inline_script = {
+        script = xhk_worldark/districts/district_common
     }
 
     resources = {
         category = planet_districts_industrial
         cost = {
-            minerals = @xhk_worldark_city_cost
+            alloys = @xhk_base_cost
         }
         upkeep = {
-            energy = @xhk_worldark_city_upkeep
+            energy = 1
         }
-    }
-
-    planet_modifier = {
-        planet_housing_add = @xhk_worldark_standard_housing
     }
 
     inline_script = {
@@ -163,7 +77,7 @@ district_xhk_worldark_factory = {
 }
 
 district_xhk_worldark_trade = {
-    base_buildtime = @xhk_worldark_city_time
+    base_buildtime = @xhk_base_buildtime
     icon = district_arcology_trade
     gridbox = district_arcology_trade
     is_uncapped = { always = yes }
@@ -173,25 +87,18 @@ district_xhk_worldark_trade = {
         slot_xhk_worldark_trade
     }
 
-    potential = {
-        uses_district_set = xhk_pc_worldark
-    }
-    show_on_uncolonized = {
-        uses_district_set = xhk_pc_worldark
+    inline_script = {
+        script = xhk_worldark/districts/district_common
     }
 
     resources = {
         category = planet_districts_hab_trade
         cost = {
-            minerals = @xhk_worldark_city_cost
+            alloys = @xhk_base_cost
         }
         upkeep = {
-            energy = @xhk_worldark_city_upkeep
+            energy = 1
         }
-    }
-
-    planet_modifier = {
-        planet_housing_add = @xhk_worldark_standard_housing
     }
 
     inline_script = {
@@ -205,7 +112,7 @@ district_xhk_worldark_trade = {
 ###############################################################################################################
 
 district_xhk_worldark_generator = {
-    base_buildtime = @xhk_worldark_city_time
+    base_buildtime = @xhk_base_buildtime
     icon = district_ark_generator
     gridbox = district_ark_generator
     is_uncapped = { always = yes }
@@ -215,25 +122,18 @@ district_xhk_worldark_generator = {
         slot_xhk_worldark_generator
     }
 
-    potential = {
-        uses_district_set = xhk_pc_worldark
-    }
-    show_on_uncolonized = {
-        uses_district_set = xhk_pc_worldark
+    inline_script = {
+        script = xhk_worldark/districts/district_common
     }
 
     resources = {
         category = planet_districts_generator
         cost = {
-            minerals = @xhk_worldark_city_cost
+            alloys = @xhk_base_cost
         }
         upkeep = {
-            energy = @xhk_worldark_city_upkeep
+            energy = 1
         }
-    }
-
-    planet_modifier = {
-        planet_housing_add = @xhk_worldark_standard_housing
     }
 
     inline_script = {
@@ -243,7 +143,7 @@ district_xhk_worldark_generator = {
 }
 
 district_xhk_worldark_minerals = {
-    base_buildtime = @xhk_worldark_city_time
+    base_buildtime = @xhk_base_buildtime
     icon = district_mining
     gridbox = district_mining
     is_uncapped = { always = yes }
@@ -253,35 +153,28 @@ district_xhk_worldark_minerals = {
         slot_xhk_worldark_mining
     }
 
-    potential = {
-        uses_district_set = xhk_pc_worldark
-    }
-    show_on_uncolonized = {
-        uses_district_set = xhk_pc_worldark
+    inline_script = {
+        script = xhk_worldark/districts/district_common
     }
 
     resources = {
         category = planet_districts_mining
         cost = {
-            minerals = @xhk_worldark_city_cost
+            alloys = @xhk_base_cost
         }
         upkeep = {
-            energy = @xhk_worldark_city_upkeep
+            energy = 1
         }
-    }
-
-    planet_modifier = {
-        planet_housing_add = @xhk_worldark_standard_housing
     }
 
     inline_script = {
         script = jobs/ark_harvester_add
-        AMOUNT = @building_static_jobs
+        AMOUNT = 200
     }
 }
 
 district_xhk_worldark_farming = {
-    base_buildtime = @xhk_worldark_city_time
+    base_buildtime = @xhk_base_buildtime
     icon = district_farming
     gridbox = district_farming
     is_uncapped = { always = yes }
@@ -291,25 +184,18 @@ district_xhk_worldark_farming = {
         slot_xhk_worldark_farming
     }
 
-    potential = {
-        uses_district_set = xhk_pc_worldark
-    }
-    show_on_uncolonized = {
-        uses_district_set = xhk_pc_worldark
+    inline_script = {
+        script = xhk_worldark/districts/district_common
     }
 
     resources = {
         category = planet_districts_farming
         cost = {
-            minerals = @xhk_worldark_city_cost
+            alloys = @xhk_base_cost
         }
         upkeep = {
-            energy = @xhk_worldark_city_upkeep
+            energy = 1
         }
-    }
-
-    planet_modifier = {
-        planet_housing_add = @xhk_worldark_standard_housing
     }
 
     inline_script = {

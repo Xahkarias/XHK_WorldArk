@@ -1,0 +1,19 @@
+base_buildtime = @zone_buildtime
+potential = { # planet scope
+    always = yes
+}
+
+unlock = { # planet scope
+    always = yes
+}
+
+resources = {
+    category = planet_zones
+    cost = {
+        minerals = @zone_cost
+    }
+}
+max_buildings = $NUM_BUILDINGS$
+planet_modifier = {
+    zone_building_slots_add = $NUM_BUILDINGS$
+}
