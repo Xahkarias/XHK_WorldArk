@@ -22,7 +22,7 @@ xhk_worldark_tier_1 = {
     collects_stockpile_to_country = yes
     accepts_all_modifiers = yes
 
-    use_shipnames_from = colonizer
+    use_shipnames_from = juggernaut
 
     potential_construction = {
         always = no
@@ -78,7 +78,7 @@ xhk_worldark_tier_1 = {
     fleet_slot_size = @arkship_slot_size_8
 
     #
-    is_designable = yes
+    is_designable = no
     num_target_locators = 0
     is_space_station = no
     can_have_federation_design = no

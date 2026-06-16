@@ -3,3 +3,9 @@ xhk_has_worldark_civic = {
         has_valid_civic = civic_xhk_worldark
     }
 }
+
+xhk_is_worldark_starbase = {
+    OR = {
+        has_starbase_size = xhk_worldark_tier_1
+    }
+}

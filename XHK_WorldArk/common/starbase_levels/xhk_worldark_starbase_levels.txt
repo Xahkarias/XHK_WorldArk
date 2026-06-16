@@ -1,0 +1,15 @@
+starbase_level_xhk_worldark_tier_1 = {
+    ship_size = xhk_worldark_tier_1
+    starbase_capacity_used = 1
+    #next_level = starbase_level_civilian_arkship_2
+    picture = "GFX_arkship_blueprint_civilian_tier_1"
+    show_in_outliner = yes
+    display_shipyard_button = no
+    ai_weight = { weight = 1 }
+    potential_home_base = yes
+    downgrade_potential = {
+        always = no
+    }
+    module_slots = { 1 2 }
+    building_slots = { 1 2 3 4 }
+}
