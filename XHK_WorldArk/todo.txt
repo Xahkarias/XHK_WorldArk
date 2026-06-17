@@ -4,5 +4,7 @@ turn it into an origin
 finish the districts
 find out how to make the ship bigger
 kill other arkships
+make all icons
+make pop growth bigger
 
 I HAVE TO OVERWRITE THE SHIP SECTIONS OR THEY WILL CRASH

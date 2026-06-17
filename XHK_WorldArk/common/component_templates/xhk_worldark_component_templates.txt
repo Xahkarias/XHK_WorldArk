@@ -1,0 +1,51 @@
+weapon_component_template = {
+    key = "XHK_ARKSHIP_HUNTER_WEAPON"
+    size = titanic
+    type = instant
+    prio_projectile = yes
+    hidden = yes
+
+    icon = "GFX_ship_part_arkship_devastator"
+    icon_frame = 1
+
+    potential = {
+        OR = {
+            is_ship_size = civilian_arkship_tier_3
+            is_ship_size = science_arkship_tier_3
+            is_ship_size = military_arkship_tier_3
+        }
+    }
+
+    resources = {
+        category = ship_components
+        upkeep = {
+            alloys = @titanic_t7_upkeep_alloys
+            energy = @titanic_t7_upkeep_energy
+        }
+    }
+
+    damage = {
+        min = 3000
+        max = 7000
+    }
+    windup = {
+        min = 50
+        max = 60
+    }
+    hull_damage = 1.5
+    shield_damage = 1.5
+    armor_damage = 1.5
+    total_fire_time = 80
+    range = 280
+    accuracy = 0.8
+    tracking = 0
+    size_damage_factor = 0.10
+    military_power_multiplier = 1
+
+    firing_arc = 15.0
+    min_range = 30.0
+
+    tags = { weapon_type_kinetic weapon_role_artillery t_slot }
+    component_set = "XHK_ARKSHIP_HUNTER_WEAPON"
+    projectile_gfx = "arkship_01_devastator_laser"
+}
