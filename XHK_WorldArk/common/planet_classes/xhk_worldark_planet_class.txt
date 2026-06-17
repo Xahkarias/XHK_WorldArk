@@ -15,7 +15,7 @@ xhk_pc_worldark = {
     initial = yes
 
     auto_trait_prio = {
-        trait_auto_pc_ark_preference
+        trait_auto_xhk_pc_worldark_preference
     }
 
     starting_planet = no

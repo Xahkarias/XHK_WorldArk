@@ -1,4 +1,4 @@
-empire_init_capital_colony = {
+on_game_start_country = {
     events = {
         xhk_worldark_setup.1
     }

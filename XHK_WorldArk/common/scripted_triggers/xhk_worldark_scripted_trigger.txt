@@ -1,6 +1,6 @@
-xhk_has_worldark_civic = {
+xhk_has_worldark_origin = {
     OR = {
-        has_valid_civic = civic_xhk_worldark
+        has_origin = origin_xhk_worldark
     }
 }
 

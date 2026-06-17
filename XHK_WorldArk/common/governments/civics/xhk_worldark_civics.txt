@@ -1,5 +1,5 @@
-civic_xhk_worldark = {
-    modification = no
+origin_xhk_worldark = {
+    is_origin = yes
     playable = { has_nomads_dlc = yes }
     ai_playable = { always = no }
     possible = {

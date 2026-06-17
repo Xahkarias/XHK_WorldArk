@@ -1,192 +1,348 @@
 namespace = xhk_worldark_setup
 
-carrier_event = {
+country_event = {
     id = xhk_worldark_setup.1
     hide_window = yes
     fire_only_once = yes
     is_triggered_only = yes
 
     trigger = {
-        owner = {
-            xhk_has_worldark_civic = yes
-        }
+        xhk_has_worldark_origin = yes
     }
 
     immediate = {
-        change_pc = pc_xhk_worldark
+        give_technology = {
+            tech = xhk_tech_worldark_1
+            message = no
+        }
 
-        # normal empire
-        if = {
-            limit = {
-                exists = owner
-                owner = {
-                    is_regular_empire = yes
+        # old capital scope
+        capital_scope = {
+            solar_system = {
+                save_event_target_as = target_system
+            }
+            save_event_target_as = xhk_old_arkcap_colony
+
+            ship = {
+                save_event_target_as = xhk_old_arkcap_ship
+
+                # make the new ship
+                create_fleet = {
+                    effect = {
+                        set_owner = root
+                        create_ship = {
+                            name = random
+                            random_existing_design = xhk_worldark_tier_1
+                            graphical_culture = xhk_worldark
+                            create_colony = yes
+                            effect = {
+                                save_event_target_as = xhk_new_worldark_ship
+                            }
+                        }
+                        set_location = event_target:target_system
+                    }
+                }
+
+                # # grab the governor
+                colony = {
+                    save_event_target_as = xhk_new_worldark_colony
+                    leader = {
+                        unassign_leader = this
+                        save_event_target_as = xhk_worldark_governor
+                    }
+                }
+
+                # grab the admiral
+                fleet = {
+                    leader = {
+                        unassign_leader = this
+                        save_event_target_as = xhk_worldark_admiral
+                    }
+                }
+
+
+                event_target:xhk_new_worldark_ship = {
+                    # put leaders in new ship
+                    colony = {
+                        assign_leader = event_target:xhk_worldark_governor
+
+                        #todo make it the capital
+                        set_capital = yes
+                    }
+                    fleet = {
+                        assign_leader = event_target:xhk_worldark_admiral
+                    }
+
+                    #put in the old module / systems
+                    initialize_arkship_starbase_effect = yes
+
+                    set_name = {
+                        key = "xhk_worldark_new_capital_name"
+                        variable_string = "[xhk_old_arkcap_colony.GetName]"
+                    }
                 }
             }
-            if = {
-                limit = { NOT = { has_building = building_capital} }
-                upgrade_colony_shelter = yes
-            }
-            add_district_and_planet_size_if_needed_effect_amount = {
-                amount = 2
-                district = district_xhk_worldark_city
-            }
-            add_zone = {
-                district = district_xhk_worldark_city
-                zone = zone_research_unity
-                zone_slot = 1
-            }
-            add_zone = {
-                district = district_xhk_worldark_city
-                zone = zone_industrial
-                zone_slot = 2
-            }
-            add_building = {
-                building = building_factory_1
-                zone = zone_industrial
+
+            #move the pops
+            # this is from the old capital scope to the new one
+            every_owned_pop_group = {
+                resettle_pop_group = {
+                    POP_GROUP = this
+                    PLANET = root.capital_scope
+                    PERCENTAGE = 100
+                }
             }
         }
 
-        # machine
-        if = {
-            limit = {
-                exists = owner
-                owner = {
-                    is_machine_empire = yes
-                }
-            }
-            if = {
-                limit = { NOT = { has_building = building_deployment_post} }
-                upgrade_colony_shelter = yes
-            }
-            add_building = building_machine_capital
-            add_building = building_machine_assembly_plant
-            add_building = building_drone_storage
+        # new capital scope
+        capital_scope = {
 
-            add_district_and_planet_size_if_needed_effect_amount = {
-                amount = 2
-                district = district_nexus
-            }
+            # HAVE TO DO THIS SHIT MANUALLY
+            ###################################################
 
-            add_zone = {
-                district = district_nexus
-                zone = zone_research_unity
-                zone_slot = 1
+            # basic resource init
+            set_variable = {
+                which = energy_districts
+                value = 2
+            }
+            set_variable = {
+                which = mining_districts
+                value = 2
+            }
+            set_variable = {
+                which = farming_districts
+                value = 3
             }
 
+
+            # from authority regular nomad
             if = {
                 limit = {
-                    owner = {
-                        OR = {
-                            has_valid_civic = civic_machine_servitor
-                            has_valid_civic = civic_machine_obsessional_directive
-                        }
+                    owner? = {
+                        is_regular_empire = yes
+                        is_nomadic = yes
                     }
                 }
+                add_district = district_xhk_worldark_city
+                add_district = district_xhk_worldark_city
                 add_zone = {
-                    district = district_nexus
-                    zone = zone_industrial
+                    district = district_xhk_worldark_city
+                    zone = zone_ark_research_unity
+                    zone_slot = 1
+                }
+                add_zone = {
+                    district = district_xhk_worldark_city
+                    zone = zone_ark_industrial
                     zone_slot = 2
                 }
                 add_building = {
                     building = building_factory_1
-                    zone = zone_industrial
+                    zone = zone_ark_industrial
                 }
             }
-            else = {
+            # from authorithy hive nomad
+            if = {
+                limit = {
+                    owner? = {
+                        is_hive_empire = yes
+                        is_wilderness_empire = no
+                        is_nomadic = yes
+                    }
+                }
+                add_building = building_hive_capital
+                if = {
+                    limit = {
+                        owner = {
+                            NOT = { has_origin = origin_progenitor_hive }
+                        }
+                    }
+                    add_building = building_spawning_pool
+                }
+                add_building = building_hive_warren
+
+                add_district = district_xhk_worldark_city
+                add_district = district_xhk_worldark_city
+
                 add_zone = {
-                    district = district_nexus
-                    zone = zone_foundry
+                    district = district_xhk_worldark_city
+                    zone = zone_ark_research_unity_gestalt
+                    zone_slot = 1
+                }
+                add_zone = {
+                    district = district_xhk_worldark_city
+                    zone = zone_ark_foundry
                     zone_slot = 2
                 }
             }
-        }
-
-        # hive
-        if = {
-            limit = {
-                exists = owner
-                owner = {
-                    is_hive_empire = yes
-                    is_wilderness_empire = no
-                }
-            }
-            #add_building = building_hive_capital
+            # from machine auth
             if = {
                 limit = {
-                    owner = {
-                        NOT = {
-                            has_origin = origin_progenitor_hive
-                        }
+                    owner? = {
+                        is_machine_empire = yes
+                        is_nomadic = yes
                     }
                 }
-                add_building = building_spawning_pool
+                add_building = building_machine_capital
+                add_building = building_machine_assembly_plant
+                add_building = building_drone_storage
+
+                add_district = district_xhk_worldark_city
+                add_district = district_xhk_worldark_city
+
+                add_zone = {
+                    district = district_xhk_worldark_city
+                    zone = zone_ark_research_unity_gestalt
+                    zone_slot = 1
+                }
+
+                if = {
+                    limit = {
+                        owner = {
+                            OR = {
+                                has_valid_civic = civic_machine_servitor
+                                has_valid_civic = civic_machine_obsessional_directive
+                            }
+                        }
+                    }
+                    add_zone = {
+                        district = district_xhk_worldark_city
+                        zone = zone_ark_industrial
+                        zone_slot = 2
+                    }
+                    add_building = {
+                        building = building_factory_1
+                        zone = zone_ark_industrial
+                    }
+                }
+                else = {
+                    add_zone = {
+                        district = district_xhk_worldark_city
+                        zone = zone_ark_foundry
+                        zone_slot = 2
+                    }
+                }
+
+
+                set_variable = {
+                    which = energy_districts
+                    value = 3
+                }
+                set_variable = {
+                    which = mining_districts
+                    value = 4
+                }
+                set_variable = {
+                    which = farming_districts
+                    value = 0
+                }
+            }
+
+            ## Species
+            inline_script = "game_start/species_lithoids"
+            inline_script = "game_start/species_infernals"
+            inline_script = "game_start/species_individual_machine"
+            inline_script = "game_start/species_subspecies" ## Set subspecies flags
+
+            # Shipsets
+            inline_script = "game_start/shipsets"
+
+            ## Ethic
+            inline_script = "game_start/ethic_spiritualist"
+            inline_script = "game_start/ethic_materialist"
+            inline_script = "game_start/ethic_pacifist"
+            inline_script = "game_start/ethic_militarist"
+            inline_script = "game_start/ethic_egalitarian"
+            inline_script = "game_start/ethic_authoritarian"
+            inline_script = "game_start/ethic_xenophile"
+            inline_script = "game_start/ethic_xenophobe"
+
+            ##Civics
+            inline_script = "game_start/civics"
+
+            # Tankbound civic (removes every farming districts so we want to do that at the end)
+            inline_script = "game_start/civic_tankbound"
+
+            # energy
+            if = {
+                limit = {
+                    is_planet_class = pc_ark
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            which = energy_districts
+                            value > 2
+                        }
+                    }
+                    set_variable = {
+                        which = energy_districts
+                        value = 2
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    check_variable = {
+                        which = energy_districts
+                        value >= 1
+                    }
+                }
+                add_district_and_planet_size_if_needed_effect_amount = {
+                    amount = energy_districts
+                    district = district_xhk_worldark_generator
+                }
+            }
+            # food or minerals
+            if = {
+                limit = {
+                    check_variable = {
+                        which = farming_districts
+                        value >= 1
+                    }
+                }
+                add_district = district_xhk_worldark_farming
+                add_zone = {
+                    district = district_xhk_worldark_farming
+                    zone = zone_xhk_worldark_farming
+                }
             }
             else = {
-                add_building = building_offspring_nest
-            }
-            add_building = building_hive_warren
-            add_district_and_planet_size_if_needed_effect_amount = {
-                amount = 2
-                district = district_hive
+                add_district = district_xhk_worldark_minerals
             }
 
-            add_zone = {
-                district = district_hive
-                zone = zone_research_unity
-                zone_slot = 1
+            # Clear variables and flags
+            clear_variable = energy_districts
+            clear_variable = mining_districts
+            clear_variable = farming_districts
+
+            # AT THE END IF NEEDED
+            upgrade_colony_shelter = yes
+
+            #kill the extra pops made by moving the ship
+            while = {
+                count = 10
+                random_owned_pop_group = {
+                    limit = {
+                        is_same_species = owner.species
+                    }
+                    kill_single_pop = yes
+                }
             }
 
-            add_zone = {
-                district = district_hive
-                zone = zone_foundry
-                zone_slot = 2
-            }
+
+            # control deposit
+            add_deposit = d_xhk_worldark_base
         }
 
-        ## Ethic
-        inline_script = "game_start/ethic_spiritualist"
-        inline_script = "game_start/ethic_materialist"
-        inline_script = "game_start/ethic_pacifist"
-        inline_script = "game_start/ethic_militarist"
-        inline_script = "game_start/ethic_egalitarian"
-        inline_script = "game_start/ethic_authoritarian"
-        inline_script = "game_start/ethic_xenophile"
-        inline_script = "game_start/ethic_xenophobe"
-
-        # Shadows of the Shroud
-        inline_script = "game_start/origin_shroud_forged"
-            #inline_script = "game_start/origin_mindwarden"
-        # Grand Archive
-        inline_script = "game_start/origin_primal_calling"
-        # Machine Age
-        inline_script = "game_start/origin_cybernetic_creed"
-        inline_script = "game_start/origin_synthetic_fertility"
-            #inline_script = "game_start/origin_arc_welders"
-        # First Contact
-            #inline_script = "game_start/origin_payback"
-            #inline_script = "game_start/origin_broken_shackles"
-        # Toxoids
-            #inline_script = "game_start/origin_toxic_knights"
-        # Overlord
-        inline_script = "game_start/origin_progenitor_hive"
-            #inline_script = "game_start/origin_subterranean"
-        # Aquatics
-            #inline_script = "game_start/origin_ocean_paradise"
-        # Necroids
-        inline_script = "game_start/origin_necrophage"
-        # Federations
-            #inline_script = "game_start/origin_shattered_ring"
-            #inline_script = "game_start/origin_remnants"
-        ## for Void Dwellers see void_dweller_home_planet_setup
-        # Humanoids
-        inline_script = "game_start/origin_clone_army"
-        # Synthetic Dawn
-        inline_script = "game_start/origin_machine"
-        # Utopia
-        inline_script = "game_start/origin_mechanist"
-
-        ##Civics
-        inline_script = "game_start/civics"
+        # homeworld fix
+        species = {
+            set_species_homeworld = event_target:xhk_new_worldark_colony
+        }
+        every_owned_pop_species = {
+            set_species_homeworld = event_target:xhk_new_worldark_colony
+        }
+        # giga_set_all_leaders_homeworld = {
+        #     planet = event_target:xhk_new_worldark_colony
+        # }
     }
 }

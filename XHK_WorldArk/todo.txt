@@ -6,6 +6,7 @@ find out how to make the ship bigger
 kill other arkships
 make all icons
 make pop growth bigger
+integrate with the readiness decision
 
 dystopian society
 survery speed zone

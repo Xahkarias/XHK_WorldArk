@@ -2,7 +2,7 @@ weight = 0
 
 potential = {
     is_nomadic = yes
-    has_valid_civic = civic_xhk_worldark
+    has_origin = origin_xhk_worldark
 }
 
 prereqfor_desc = {
