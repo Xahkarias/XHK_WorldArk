@@ -1,4 +1,4 @@
-# currently puts the base components on
+# currently puts the base ship components on
 is_arkship_ship = {
     OR = {
         is_ship_size = civilian_arkship_tier_1
@@ -11,6 +11,30 @@ is_arkship_ship = {
         is_ship_size = military_arkship_tier_2
         is_ship_size = military_arkship_tier_3
         is_ship_size = military_arkship_champions_forge
+        is_ship_size = xhk_worldark_tier_1
+        is_ship_size = xhk_worldark_tier_2
+        is_ship_size = xhk_worldark_tier_3
+        is_ship_size = xhk_worldark_tier_4
+        is_ship_size = xhk_worldark_tier_5
+        is_ship_size = xhk_worldark_tier_6
+        is_ship_size = xhk_worldark_tier_7
+        is_ship_size = xhk_worldark_tier_8
+    }
+}
+
+# handles the starbase side
+is_arkship_starbase = {
+    OR = {
+        has_starbase_size = civilian_arkship_tier_1
+        has_starbase_size = civilian_arkship_tier_2
+        has_starbase_size = civilian_arkship_tier_3
+        has_starbase_size = science_arkship_tier_1
+        has_starbase_size = science_arkship_tier_2
+        has_starbase_size = science_arkship_tier_3
+        has_starbase_size = military_arkship_tier_1
+        has_starbase_size = military_arkship_tier_2
+        has_starbase_size = military_arkship_tier_3
+        has_starbase_size = military_arkship_champions_forge
         is_ship_size = xhk_worldark_tier_1
         is_ship_size = xhk_worldark_tier_2
         is_ship_size = xhk_worldark_tier_3

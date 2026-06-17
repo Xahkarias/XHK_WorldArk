@@ -1,10 +1,8 @@
 
 do loc for everything
-create the modules
-create the buildings
-override spinals
-create the base components (remove the override)
 turn it into an origin
 finish the districts
 find out how to make the ship bigger
 kill other arkships
+
+I HAVE TO OVERWRITE THE SHIP SECTIONS OR THEY WILL CRASH

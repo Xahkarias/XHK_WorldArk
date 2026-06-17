@@ -1,9 +1,12 @@
+####
+# IF YOU GIVE SPINALS AND THEN MORE MODULES LATER THEN IT CAN BRICK AS THEY ARENT SHUFFLED PROPERLY
+
 # 16 modules
 # 4 spinals
 # 24 buildings left
 # 8 buildings bottom
 
-# +2 4
+# 2m 4b
 starbase_level_xhk_worldark_tier_1 = {
     inline_script = {
         script = xhk_worldark/starbase_levels/starbase_definition
@@ -15,7 +18,7 @@ starbase_level_xhk_worldark_tier_1 = {
     building_slots = { 1 2 3 4 }
 }
 
-# +2 4
+# 2m 4b
 starbase_level_xhk_worldark_tier_2 = {
     inline_script = {
         script = xhk_worldark/starbase_levels/starbase_definition
@@ -27,7 +30,7 @@ starbase_level_xhk_worldark_tier_2 = {
     building_slots = { 1 2 3 4 5 6 7 8 }
 }
 
-# +2 1 4
+# 2m 4b
 starbase_level_xhk_worldark_tier_3 = {
     inline_script = {
         script = xhk_worldark/starbase_levels/starbase_definition
@@ -37,14 +40,13 @@ starbase_level_xhk_worldark_tier_3 = {
     picture = "GFX_arkship_blueprint_military_tier_2"
     module_slots = {
         1 2 3 4 5 6		# Regular slots
-        spinal_mount_1	# Special slot
     }
     building_slots = {
         1 2 3 4 5 6 7 8 9 10 11 12
     }
 }
 
-# +2 4
+# 4m 4b
 starbase_level_xhk_worldark_tier_4 = {
     inline_script = {
         script = xhk_worldark/starbase_levels/starbase_definition
@@ -53,15 +55,14 @@ starbase_level_xhk_worldark_tier_4 = {
     }
     picture = "GFX_arkship_blueprint_military_tier_2"
     module_slots = {
-        1 2 3 4 5 6	7 8	# Regular slots
-        spinal_mount_1	# Special slot
+        1 2 3 4 5 6	7 8 9 10	# Regular slots
     }
     building_slots = {
         1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
     }
 }
 
-# +2 1 4
+# 4m 4b
 starbase_level_xhk_worldark_tier_5 = {
     inline_script = {
         script = xhk_worldark/starbase_levels/starbase_definition
@@ -70,16 +71,15 @@ starbase_level_xhk_worldark_tier_5 = {
     }
     picture = "GFX_arkship_blueprint_military_tier_2"
     module_slots = {
-        1 2 3 4 5 6	7 8	9 10 # Regular slots
-        spinal_mount_1 spinal_mount_1 # Special slot
+        1 2 3 4 5 6	7 8	9 10 12 13 14 # Regular slots
     }
     building_slots = {
-        1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+        1 2 3 4 5 6 7 8 9 10 11 12 13 14
         lower_1 lower_2 lower_3 lower_4
     }
 }
 
-# +2 4
+# 2m 1s 4b
 starbase_level_xhk_worldark_tier_6 = {
     inline_script = {
         script = xhk_worldark/starbase_levels/starbase_definition
@@ -88,8 +88,8 @@ starbase_level_xhk_worldark_tier_6 = {
     }
     picture = "GFX_arkship_blueprint_military_tier_2"
     module_slots = {
-        1 2 3 4 5 6	7 8	9 10 11 12 # Regular slots
-        spinal_mount_1 spinal_mount_1 # Special slot
+        1 2 3 4 5 6	7 8	9 10 11 12 13 14 15 16 # Regular slots
+        spinal_mount_1
     }
     building_slots = {
         1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
@@ -97,7 +97,7 @@ starbase_level_xhk_worldark_tier_6 = {
     }
 }
 
-# +2 1 4b
+# 1s 4b
 starbase_level_xhk_worldark_tier_7 = {
     inline_script = {
         script = xhk_worldark/starbase_levels/starbase_definition
@@ -106,8 +106,8 @@ starbase_level_xhk_worldark_tier_7 = {
     }
     picture = "GFX_arkship_blueprint_military_tier_3"
     module_slots = {
-        1 2 3 4 5 6	7 8	9 10 11 12 13 14# Regular slots
-        spinal_mount_1 spinal_mount_1 spinal_mount_1 # Special slot
+        1 2 3 4 5 6	7 8	9 10 11 12 13 14 15 16 # Regular slots
+        spinal_mount_1 spinal_mount_1
     }
     building_slots = {
         1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
@@ -115,7 +115,7 @@ starbase_level_xhk_worldark_tier_7 = {
     }
 }
 
-# +2 1 4b
+# 2s 4b
 starbase_level_xhk_worldark_tier_8 = {
     inline_script = {
         script = xhk_worldark/starbase_levels/starbase_definition_no_next

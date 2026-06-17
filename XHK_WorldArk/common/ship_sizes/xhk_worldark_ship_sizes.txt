@@ -73,8 +73,8 @@ xhk_worldark_tier_2 = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
         "2"		=	{ locator = "module_02" }
-        "3"		=	{ locator = "module_01" }
-        "4"		=	{ locator = "module_02" }
+        "3"		=	{ locator = "module_03" }
+        "4"		=	{ locator = "module_04" }
     }
     # Ship setup
     max_hitpoints = 5000
@@ -127,11 +127,10 @@ xhk_worldark_tier_3 = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
         "2"		=	{ locator = "module_02" }
-        "3"		=	{ locator = "module_01" }
-        "4"		=	{ locator = "module_02" }
-        "5"		=	{ locator = "module_01" }
-        "6"		=	{ locator = "module_02" }
-        "spinal_mount_1"	=	{ locator = "module_02" }
+        "3"		=	{ locator = "module_03" }
+        "4"		=	{ locator = "module_04" }
+        "5"		=	{ locator = "module_05" }
+        "6"		=	{ locator = "module_06" }
     }
     # Ship setup
     max_hitpoints = 10000
@@ -140,7 +139,7 @@ xhk_worldark_tier_3 = {
         ship_armor_add = 5000
         ship_shield_add = 5000
         ship_shield_regen_add_static = 20
-        starbase_module_capacity_add = 7
+        starbase_module_capacity_add = 6
         starbase_building_capacity_add = 12
         planet_max_districts_add = 10
 
@@ -187,13 +186,14 @@ xhk_worldark_tier_4 = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
         "2"		=	{ locator = "module_02" }
-        "3"		=	{ locator = "module_01" }
-        "4"		=	{ locator = "module_02" }
-        "5"		=	{ locator = "module_01" }
-        "6"		=	{ locator = "module_02" }
-        "7"		=	{ locator = "module_01" }
+        "3"		=	{ locator = "module_03" }
+        "4"		=	{ locator = "module_04" }
+        "5"		=	{ locator = "module_05" }
+        "6"		=	{ locator = "module_06" }
+        "7"	=	{ locator = "module_01" }
         "8"		=	{ locator = "module_02" }
-        "spinal_mount_1"	=	{ locator = "module_02" }
+        "9"	=	{ locator = "module_03" }
+        "10"		=	{ locator = "module_04" }
     }
     # Ship setup
     max_hitpoints = 15000
@@ -202,7 +202,7 @@ xhk_worldark_tier_4 = {
         ship_armor_add = 7500
         ship_shield_add = 7500
         ship_shield_regen_add_static = 30
-        starbase_module_capacity_add = 9
+        starbase_module_capacity_add = 10
         starbase_building_capacity_add = 16
         planet_max_districts_add = 15
 
@@ -249,16 +249,18 @@ xhk_worldark_tier_5 = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
         "2"		=	{ locator = "module_02" }
-        "3"		=	{ locator = "module_01" }
-        "4"		=	{ locator = "module_02" }
-        "5"		=	{ locator = "module_01" }
-        "6"		=	{ locator = "module_02" }
+        "3"		=	{ locator = "module_03" }
+        "4"		=	{ locator = "module_04" }
+        "5"		=	{ locator = "module_05" }
+        "6"		=	{ locator = "module_06" }
         "7"	=	{ locator = "module_01" }
         "8"		=	{ locator = "module_02" }
-        "9"	=	{ locator = "module_01" }
-        "10"		=	{ locator = "module_02" }
-        "spinal_mount_1"	=	{ locator = "module_02" }
-        "spinal_mount_1"	=	{ locator = "module_01" }
+        "9"	=	{ locator = "module_03" }
+        "10"		=	{ locator = "module_04" }
+        "11"	    =	{ locator = "module_05" }
+        "12"	=	{ locator = "module_06" }
+        "13"	    =	{ locator = "module_01" }
+        "14"		=	{ locator = "module_02" }
     }
     # Ship setup
     max_hitpoints = 20000
@@ -267,7 +269,7 @@ xhk_worldark_tier_5 = {
         ship_armor_add = 10000
         ship_shield_add = 10000
         ship_shield_regen_add_static = 40
-        starbase_module_capacity_add = 12
+        starbase_module_capacity_add = 14
         starbase_building_capacity_add = 20
         planet_max_districts_add = 20
 
@@ -314,18 +316,21 @@ xhk_worldark_tier_6 = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
         "2"		=	{ locator = "module_02" }
-        "3"		=	{ locator = "module_01" }
-        "4"		=	{ locator = "module_02" }
-        "5"		=	{ locator = "module_01" }
-        "6"		=	{ locator = "module_02" }
+        "3"		=	{ locator = "module_03" }
+        "4"		=	{ locator = "module_04" }
+        "5"		=	{ locator = "module_05" }
+        "6"		=	{ locator = "module_06" }
         "7"	=	{ locator = "module_01" }
         "8"		=	{ locator = "module_02" }
-        "9"	=	{ locator = "module_01" }
-        "10"		=	{ locator = "module_02" }
-        "11"	=	{ locator = "module_01" }
-        "12"		=	{ locator = "module_02" }
-        "spinal_mount_1"	=	{ locator = "module_02" }
-        "spinal_mount_1"	=	{ locator = "module_01" }
+        "9"	=	{ locator = "module_03" }
+        "10"		=	{ locator = "module_04" }
+        "11"	    =	{ locator = "module_05" }
+        "12"	=	{ locator = "module_06" }
+        "13"	    =	{ locator = "module_01" }
+        "14"		=	{ locator = "module_02" }
+        "15"	    =	{ locator = "module_03" }
+        "16"		=	{ locator = "module_04" }
+        "spinal_mount_1"	=	{ locator = "spinal_mount" }
     }
     # Ship setup
     max_hitpoints = 25000
@@ -334,7 +339,7 @@ xhk_worldark_tier_6 = {
         ship_armor_add = 12500
         ship_shield_add = 12500
         ship_shield_regen_add_static = 50
-        starbase_module_capacity_add = 14
+        starbase_module_capacity_add = 17
         starbase_building_capacity_add = 24
         planet_max_districts_add = 25
 
@@ -393,7 +398,8 @@ xhk_worldark_tier_7 = {
         "12"	=	{ locator = "module_06" }
         "13"	    =	{ locator = "module_01" }
         "14"		=	{ locator = "module_02" }
-        "spinal_mount_1"	=	{ locator = "spinal_mount" }
+        "15"	    =	{ locator = "module_03" }
+        "16"		=	{ locator = "module_04" }
         "spinal_mount_1"	=	{ locator = "spinal_mount" }
         "spinal_mount_1"	=	{ locator = "spinal_mount" }
     }
@@ -404,7 +410,7 @@ xhk_worldark_tier_7 = {
         ship_armor_add = 17500
         ship_shield_add = 17500
         ship_shield_regen_add_static = 70
-        starbase_module_capacity_add = 17
+        starbase_module_capacity_add = 18
         starbase_building_capacity_add = 28
         planet_max_districts_add = 35
 
