@@ -647,7 +647,7 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "modules_header_container"
-                position = { x = 372 y = 620 }
+                position = { x = 316 y = 620 }
 				size = { width = 136 height = 36 }
 				background = {
 					name = "modules_header_bg"
@@ -667,7 +667,7 @@ guiTypes = {
 			}
 			gridBoxType = {
 				name = "arkship_modules_grid"
-                position = { x = 311 y = 662 }
+                position = { x = 261 y = 662 }
                 size = { width = 240 height = 60 }
 				format = "UPPER_LEFT"
 				slotSize = { width = 60 height = 60 }
@@ -676,7 +676,7 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "spinal_header_container"
-				position = { x = 692 y = 441 }
+				position = { x = 505 y = 620 }
 				size = { width = 136 height = 36 }
 				background = {
 					name = "spinal_header_bg"
@@ -696,10 +696,10 @@ guiTypes = {
 			}
 			gridBoxType = {
 				name = "arkship_spinal_mount_grid"
-				position = { x = 732 y = 480 }
+				position = { x = 543 y = 662 }
 				size = { width = 60 height = 60 }
 				format = "UPPER_LEFT"
-				slotSize = { width = 58 height = 58 }
+				slotSize = { width = 60 height = 60 }
 				add_horizontal = yes
 				max_slots_horizontal = 1
 			}

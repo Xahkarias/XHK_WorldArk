@@ -1,3 +1,4 @@
+# currently puts the base components on
 is_arkship_ship = {
     OR = {
         is_ship_size = civilian_arkship_tier_1

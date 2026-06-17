@@ -18,6 +18,12 @@ collects_stockpile_from = {			# Arkships can collect resources from Waystations 
 collects_stockpile_to_country = yes
 accepts_all_modifiers = yes
 
+potential_construction = {
+    always = no
+}
+possible_construction = {
+    always = no
+}
 
 # Audio
 on_click_sound = "arkship_military_selection"
