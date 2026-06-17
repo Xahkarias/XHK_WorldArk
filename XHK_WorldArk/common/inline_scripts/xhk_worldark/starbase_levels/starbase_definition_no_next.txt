@@ -1,0 +1,9 @@
+ship_size = xhk_worldark_tier_$TIER$
+starbase_capacity_used = 1
+show_in_outliner = yes
+display_shipyard_button = no
+ai_weight = { weight = 1 }
+potential_home_base = yes
+downgrade_potential = {
+    always = no
+}

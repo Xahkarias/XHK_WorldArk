@@ -1,0 +1,5 @@
+inline_script = {
+    script = xhk_worldark/starbase_levels/starbase_definition_no_next
+    TIER = $TIER$
+}
+next_level = starbase_level_xhk_worldark_tier_$TIER_NEXT$

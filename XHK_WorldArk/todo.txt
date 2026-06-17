@@ -1,8 +1,11 @@
-create the tiers
+
 do loc for everything
 create the modules
 create the buildings
+override spinals
+create the base components (remove the override)
 modify the ui for starbase
-modify the selection ui
 turn it into an origin
+finish the districts
 find out how to make the ship bigger
+kill other arkships

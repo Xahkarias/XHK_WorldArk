@@ -7,5 +7,12 @@ xhk_has_worldark_civic = {
 xhk_is_worldark_starbase = {
     OR = {
         has_starbase_size = xhk_worldark_tier_1
+        has_starbase_size = xhk_worldark_tier_2
+        has_starbase_size = xhk_worldark_tier_3
+        has_starbase_size = xhk_worldark_tier_4
+        has_starbase_size = xhk_worldark_tier_5
+        has_starbase_size = xhk_worldark_tier_6
+        has_starbase_size = xhk_worldark_tier_7
+        has_starbase_size = xhk_worldark_tier_8
     }
 }

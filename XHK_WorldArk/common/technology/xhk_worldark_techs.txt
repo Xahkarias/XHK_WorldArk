@@ -3,44 +3,118 @@ xhk_tech_worldark_1 = {
     category = { new_worlds }
     tier = 1
     cost = @tier3cost1
-    weight = @tier3weight1
+
+    inline_script = {
+        script = xhk_worldark/technology/tech_ship_definition
+    }
 
     prerequisites = {
         "tech_planetary_engineering"
         "tech_arkship_construction"
     }
+}
 
-    potential = {
-        is_nomadic = yes
-        has_valid_civic = civic_xhk_worldark
+xhk_tech_worldark_2 = {
+    area = society
+    category = { new_worlds }
+    tier = 1
+    cost = @tier3cost1
+
+    inline_script = {
+        script = xhk_worldark/technology/tech_ship_definition
     }
 
-    prereqfor_desc = {
-        ship = {
-            title = "TECH_UNLOCK_CIVILIAN_ARKSHIP_CONSTRUCTION_TITLE"
-            desc = "TECH_UNLOCK_CIVILIAN_ARKSHIP_CONSTRUCTION_DESC"
-        }
+    prerequisites = {
+        xhk_tech_worldark_1
+    }
+}
+
+xhk_tech_worldark_3 = {
+    area = society
+    category = { new_worlds }
+    tier = 1
+    cost = @tier3cost1
+
+    inline_script = {
+        script = xhk_worldark/technology/tech_ship_definition
     }
 
-    # weight_modifier = {
-    #     modifier = {
-    #         factor = 5
-    #         has_technology = tech_arkship_tier_2
-    #     }
-    #     modifier = {
-    #         factor = 5
-    #         has_technology = tech_arkship_tier_3
-    #     }
-    #     modifier = {
-    #         factor = 1.25
-    #         has_tradition = tr_expansion_adopt
-    #     }
-    # }
+    prerequisites = {
+        xhk_tech_worldark_2
+    }
+}
 
-    ai_weight = {
-        modifier = {
-            factor = 100
-            is_nomadic = yes
-        }
+xhk_tech_worldark_4 = {
+    area = society
+    category = { new_worlds }
+    tier = 1
+    cost = @tier3cost1
+
+    inline_script = {
+        script = xhk_worldark/technology/tech_ship_definition
+    }
+
+    prerequisites = {
+        xhk_tech_worldark_3
+    }
+}
+
+xhk_tech_worldark_5 = {
+    area = society
+    category = { new_worlds }
+    tier = 1
+    cost = @tier3cost1
+
+    inline_script = {
+        script = xhk_worldark/technology/tech_ship_definition
+    }
+
+    prerequisites = {
+        xhk_tech_worldark_4
+    }
+}
+
+xhk_tech_worldark_6 = {
+    area = society
+    category = { new_worlds }
+    tier = 1
+    cost = @tier3cost1
+
+    inline_script = {
+        script = xhk_worldark/technology/tech_ship_definition
+    }
+
+    prerequisites = {
+        xhk_tech_worldark_5
+    }
+}
+
+xhk_tech_worldark_7 = {
+    area = society
+    category = { new_worlds }
+    tier = 1
+    cost = @tier3cost1
+
+    inline_script = {
+        script = xhk_worldark/technology/tech_ship_definition
+    }
+
+    prerequisites = {
+        xhk_tech_worldark_6
+    }
+}
+
+xhk_tech_worldark_8 = {
+    area = society
+    category = { new_worlds }
+    tier = 1
+    cost = @tier3cost1
+
+    inline_script = {
+        script = xhk_worldark/technology/tech_ship_definition
+    }
+
+    prerequisites = {
+        xhk_tech_worldark_7
     }
 }
