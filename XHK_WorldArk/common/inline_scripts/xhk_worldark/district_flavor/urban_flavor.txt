@@ -1,0 +1,80 @@
+
+
+# The First Node
+triggered_name = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_hive_empire = yes
+        }
+    }
+    text = city_first_hive_1
+}
+triggered_flavor_desc = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_hive_empire = yes
+        }
+    }
+    text = city_first_hive_1_desc
+}
+
+# Central Processing
+triggered_name = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_machine_empire = yes
+        }
+    }
+    text = city_machine_core_1
+}
+triggered_flavor_desc = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_machine_empire = yes
+        }
+    }
+    text = city_machine_core_1_desc
+}
+
+
+# Harmonious Enclave
+triggered_name = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_spiritualist = yes
+        }
+    }
+    text = city_research_temple_industrial_1
+}
+triggered_flavor_desc = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_spiritualist = yes
+        }
+    }
+    text = city_research_temple_industrial_1_desc
+}
+
+# Metropolitan Core
+triggered_name = {
+    trigger = {
+        exists = owner
+        is_capital = yes
+    }
+    text = city_research_bureaucracy_industrial_1
+}
+
+# # commented out so that it uses the default city descriptor
+# triggered_flavor_desc = {
+# 	trigger = {
+# 		exists = owner
+# 		is_capital = yes
+# 	}
+# 	text = city_research_bureaucracy_industrial_1_desc
+# }

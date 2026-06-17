@@ -1,0 +1,156 @@
+
+## GENERATOR SWAPS
+district_xhk_worldark_generator_speed = {
+    icon = district_ark_generator
+    overlay_icon = GFX_district_speed
+    gridbox = district_generator
+    inline_script = {
+        script = xhk_worldark/districts/district_swap
+    }
+
+    triggered_name = {
+        text = district_ark_engine_bypass_name
+    }
+    triggered_flavor_desc = {
+        text = district_ark_engine_bypass_flavor_desc
+    }
+}
+district_xhk_worldark_generator_shield = {
+    icon = district_ark_generator
+    overlay_icon = GFX_district_shield
+    gridbox = district_generator
+    inline_script = {
+        script = xhk_worldark/districts/district_swap
+    }
+
+    triggered_name = {
+        text = district_ark_shield_overloader_name
+    }
+    triggered_flavor_desc = {
+        text = district_ark_shield_overloader_flavor_desc
+    }
+}
+
+## RESEARCH SWAPS
+district_xhk_worldark_research_physics = {
+    icon = district_arcology_research
+    overlay_icon = GFX_district_physics
+    gridbox = district_arcology_research
+    inline_script = {
+        script = xhk_worldark/districts/district_swap
+    }
+
+    triggered_name = {
+        text = district_ark_generator_physics_name
+    }
+    triggered_flavor_desc = {
+        text = district_ark_generator_physics_flavor_desc
+    }
+}
+district_xhk_worldark_research_society = {
+    icon = district_arcology_research
+    overlay_icon = GFX_district_society
+    gridbox = district_arcology_research
+    inline_script = {
+        script = xhk_worldark/districts/district_swap
+    }
+
+    triggered_name = {
+        text = district_ark_basic_society_name
+    }
+    triggered_flavor_desc = {
+        text = district_ark_basic_society_flavor_desc
+    }
+}
+district_xhk_worldark_research_engineering = {
+    icon = district_arcology_research
+    overlay_icon = GFX_district_engineering
+    gridbox = district_arcology_research
+    inline_script = {
+        script = xhk_worldark/districts/district_swap
+    }
+
+    triggered_name = {
+        text = district_ark_military_engineering_name
+    }
+    triggered_flavor_desc = {
+        text = district_ark_military_engineering_flavor_desc
+    }
+}
+
+## ORDINANCE SWAPS
+district_xhk_worldark_ordinance_naval = {
+    icon = district_ark_military
+    gridbox = district_arcology_fortress
+    overlay_icon = GFX_district_ship
+    inline_script = {
+        script = xhk_worldark/districts/district_swap
+    }
+
+    triggered_name = {
+        text = zone_ark_shipwright
+    }
+    triggered_flavor_desc = {
+        text = zone_ark_shipwright_desc
+    }
+}
+district_xhk_worldark_ordinance_missile = {
+    icon = district_ark_military
+    gridbox = district_arcology_fortress
+    overlay_icon = GFX_district_damage
+    inline_script = {
+        script = xhk_worldark/districts/district_swap
+    }
+
+    triggered_name = {
+        text = zone_ark_missile_silos
+    }
+    triggered_flavor_desc = {
+        text = zone_ark_missile_silos_desc
+    }
+}
+district_xhk_worldark_ordinance_kinetic = {
+    icon = district_ark_military
+    gridbox = district_arcology_fortress
+    overlay_icon = GFX_district_damage
+    inline_script = {
+        script = xhk_worldark/districts/district_swap
+    }
+
+    triggered_name = {
+        text = zone_ark_ammunition_lines
+    }
+    triggered_flavor_desc = {
+        text = zone_ark_ammunition_lines_desc
+    }
+}
+district_xhk_worldark_ordinance_energy = {
+    icon = district_ark_military
+    gridbox = district_arcology_fortress
+    overlay_icon = GFX_district_damage
+    inline_script = {
+        script = xhk_worldark/districts/district_swap
+    }
+
+    triggered_name = {
+        text = zone_ark_laser_capacitors
+    }
+    triggered_flavor_desc = {
+        text = zone_ark_laser_capacitors_desc
+    }
+}
+district_xhk_worldark_ordinance_fighter = {
+    icon = district_ark_military
+    gridbox = district_arcology_fortress
+    overlay_icon = GFX_district_damage
+    inline_script = {
+        script = xhk_worldark/districts/district_swap
+    }
+
+    triggered_name = {
+        text = zone_ark_flight_decks
+    }
+    triggered_flavor_desc = {
+        text = zone_ark_flight_decks_desc
+    }
+}

@@ -1,0 +1,45 @@
+triggered_name = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_spiritualist = yes
+        }
+    }
+    text = city_temple_1
+}
+
+triggered_name = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_machine_empire = yes
+        }
+    }
+    text = city_unity_machine_1
+}
+
+triggered_name = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_machine_empire = yes
+            is_hospitality_servitor_empire = yes
+        }
+    }
+    text = city_unity_bio_trophy_machine_1
+}
+
+
+triggered_name = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_hive_empire = yes
+        }
+    }
+    text = city_synapse_hive_1
+}
+
+triggered_name = {
+    text = flavor_xhk_worldark_unity_name
+}

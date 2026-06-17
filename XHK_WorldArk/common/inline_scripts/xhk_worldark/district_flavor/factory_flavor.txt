@@ -1,0 +1,27 @@
+# Machine: Civilian Industry
+triggered_name = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_machine_empire= yes
+        }
+    }
+    text = city_factory_machine_1
+}
+triggered_flavor_desc = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_machine_empire= yes
+        }
+    }
+    text = city_factory_machine_1_desc
+}
+
+# Individual / (fallback Hive): Urban Foundries
+triggered_name = {
+    text = flavor_xhk_worldark_factory_name
+}
+triggered_flavor_desc = {
+    text = city_factory_1_desc
+}

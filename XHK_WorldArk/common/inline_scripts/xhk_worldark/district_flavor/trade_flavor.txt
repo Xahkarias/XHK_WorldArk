@@ -1,0 +1,15 @@
+
+triggered_name = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_waylogi }
+    }
+    text = flavor_xhk_worldark_waystation_trade_name
+}
+
+triggered_name = {
+    text = district_ark_waystation_trade_name
+}
+
+triggered_flavor_desc = {
+    text = district_ark_waystation_trade_flavor_desc
+}

@@ -1,0 +1,22 @@
+#####################################################################
+# NAME
+
+# Tankbound
+triggered_name = {
+    trigger = {
+        exists = owner
+        owner = { is_tankbound_empire = yes }
+    }
+    text = automated_farming
+}
+
+triggered_name = {
+    text = district_ark_hydroponics_name
+}
+
+
+#####################################################################
+# DESC
+triggered_flavor_desc = {
+    text = district_ark_hydroponics_flavor_desc
+}

@@ -1,0 +1,7 @@
+triggered_name = {
+    text = district_ark_harvest_name
+}
+
+triggered_flavor_desc = {
+    text = district_ark_harvest_flavor_desc
+}

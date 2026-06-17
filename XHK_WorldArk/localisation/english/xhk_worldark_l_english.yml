@@ -1,8 +1,162 @@
 ﻿l_english:
 
- # DISTRICTS
+ #########################################################################################################################################################################
+ # PRIMARY DISTRICTS
+ #########################################################################################################################################################################
+
+ ##################################################################
+ # City
+ ##################################################################
+
  district_xhk_worldark_city: "$district_ark_city$"
+ district_xhk_worldark_city_plural: "$district_ark_city_plural$"
+ district_xhk_worldark_city_desc: "$district_ark_city_desc$"
+
+ ##################################################################
+ # Foundry
+ ##################################################################
+
+ district_xhk_worldark_foundry: "Foundry Decks"
+ district_xhk_worldark_foundry_plural: "Foundry Decks"
+ district_xhk_worldark_foundry_desc: "Geared towards military industries, these decks filled with the roar of smelters and the clang of metallurgists."
+
+ flavor_xhk_worldark_foundry_name: "Furnace Arrays"
+
+ ##################################################################
+ # Factory
+ ##################################################################
+
+ district_xhk_worldark_factory: "Factory Decks"
+ district_xhk_worldark_factory_plural: "Factory Decks"
+ district_xhk_worldark_factory_desc: "Tessellated workshops filled with artisans and civilian industries, capable of crafting any manner of consumer products."
+
+ flavor_xhk_worldark_factory_name: "Retail Factories"
+
+ ##################################################################
+ # Trade
+ ##################################################################
+
+ district_xhk_worldark_trade: "$district_ark_waystation_trade$"
+ district_xhk_worldark_trade_plural: "$district_ark_waystation_trade_plural$"
+ district_xhk_worldark_trade_desc: "$district_ark_waystation_trade_flavor_desc$"
+
+ flavor_xhk_worldark_waystation_trade_name: "Network Logistics"
+
+ ##################################################################
+ # Generator
+ ##################################################################
+
+ district_xhk_worldark_generator: "$district_ark_generator$"
+ district_xhk_worldark_generator_plural: "$district_ark_generator_plural$"
+ district_xhk_worldark_generator_desc: "$district_ark_generator_desc$"
+
+ district_xhk_worldark_generator_speed: "$district_ark_engine_bypass$"
+ district_xhk_worldark_generator_speed_plural: "$district_ark_engine_bypass_plural$"
+ district_xhk_worldark_generator_speed_desc: "$district_ark_engine_bypass_desc$"
+
+ district_xhk_worldark_generator_shield: "$district_ark_shield_overloader$"
+ district_xhk_worldark_generator_shield_plural: "$district_ark_shield_overloader_plural$"
+ district_xhk_worldark_generator_shield_desc: "$district_ark_shield_overloader_desc$"
+
+ ##################################################################
+ # Mining
+ ##################################################################
+
+ district_xhk_worldark_minerals: "$district_ark_harvest$"
+ district_xhk_worldark_minerals_plural: "$district_ark_harvest_plural$"
+ district_xhk_worldark_minerals_desc: "$district_ark_harvest_desc$"
+
+ ##################################################################
+ # Farming
+ ##################################################################
+
+ district_xhk_worldark_farming: "$district_ark_food$"
+ district_xhk_worldark_farming_plural: "$district_ark_food_plural$"
+ district_xhk_worldark_farming_desc: "$district_ark_food_desc$"
+
+ ##################################################################
+ # Unity
+ ##################################################################
+
+ district_xhk_worldark_unity: "Administrative Sector"
+ district_xhk_worldark_unity_plural: "Administrative Sectors"
+ district_xhk_worldark_unity_desc: "$district_arcology_administrative_desc$"
+
+ flavor_xhk_worldark_unity_name: "Bureaucratic Nexus"
+
+ district_xhk_worldark_unity_spiritualist: "Ecclesiastical Sector"
+ district_xhk_worldark_unity_spiritualist_plural: "Ecclesiastical Sectors"
+ district_xhk_worldark_unity_spiritualist_desc: "$district_arcology_spiritualist_desc$"
+
+ district_xhk_worldark_unity_hive: "$district_hive_administrative$"
+ district_xhk_worldark_unity_hive_plural: "$district_hive_administrative_plural$"
+ district_xhk_worldark_unity_hive_desc: "$district_hive_administrative_desc$"
+
+ district_xhk_worldark_unity_machine: "$district_nexus_administrative$"
+ district_xhk_worldark_unity_machine_plural: "$district_nexus_administrative_plural$"
+ district_xhk_worldark_unity_machine_desc: "$district_nexus_administrative_desc$"
+
+ district_xhk_worldark_unity_servitor: "$district_nexus_organic_housing$"
+ district_xhk_worldark_unity_servitor_plural: "$district_nexus_organic_housing_plural$"
+ district_xhk_worldark_unity_servitor_desc: "$district_nexus_organic_housing_desc$"
+
+ ##################################################################
+ # Research
+ ##################################################################
+
+ district_xhk_worldark_research: "Research Sector"
+ district_xhk_worldark_research_plural: "Research Sectors"
+ district_xhk_worldark_research_desc: "Capitals of scientific discovery, these centers employ researchers from every field of study, no matter how niche."
+
+ district_xhk_worldark_research_physics: "$district_xhk_worldark_research$"
+ district_xhk_worldark_research_physics_plural: "$district_xhk_worldark_research_plural$"
+ district_xhk_worldark_research_physics_desc: "$district_xhk_worldark_research_desc$"
+
+ district_xhk_worldark_research_society: "$district_xhk_worldark_research$"
+ district_xhk_worldark_research_society_plural: "$district_xhk_worldark_research_plural$"
+ district_xhk_worldark_research_society_desc: "$district_xhk_worldark_research_desc$"
+
+ district_xhk_worldark_research_engineering: "$district_xhk_worldark_research$"
+ district_xhk_worldark_research_engineering_plural: "$district_xhk_worldark_research_plural$"
+ district_xhk_worldark_research_engineering_desc: "$district_xhk_worldark_research_desc$"
+
+ ##################################################################
+ # Amenities
+ ##################################################################
+
+ district_xhk_worldark_amenities: "Leisure Sector"
+ district_xhk_worldark_amenities_plural: "Leisure Sectors"
+ district_xhk_worldark_amenities_desc: "Large areas dedicated to relaxation and recreation, who needs terrestrial entertainment?"
+
+ ##################################################################
+ # Ordinance
+ ##################################################################
+
+ district_xhk_worldark_ordinance: "$district_ark_military$"
+ district_xhk_worldark_ordinance_plural: "$district_ark_military_plural$"
+ district_xhk_worldark_ordinance_desc: "$district_ark_military_desc$"
+
+ district_xhk_worldark_ordinance_naval: "$district_xhk_worldark_ordinance$"
+ district_xhk_worldark_ordinance_naval_plural: "$district_xhk_worldark_ordinance_plural$"
+ district_xhk_worldark_ordinance_naval_desc: "$district_xhk_worldark_ordinance_desc$"
+
+ district_xhk_worldark_ordinance_missile: "$district_xhk_worldark_ordinance$"
+ district_xhk_worldark_ordinance_missile_plural: "$district_xhk_worldark_ordinance_plural$"
+ district_xhk_worldark_ordinance_missile_desc: "$district_xhk_worldark_ordinance_desc$"
+
+ district_xhk_worldark_ordinance_kinetic: "$district_xhk_worldark_ordinance$"
+ district_xhk_worldark_ordinance_kinetic_plural: "$district_xhk_worldark_ordinance_plural$"
+ district_xhk_worldark_ordinance_kinetic_desc: "$district_xhk_worldark_ordinance_desc$"
+
+ district_xhk_worldark_ordinance_energy: "$district_xhk_worldark_ordinance$"
+ district_xhk_worldark_ordinance_energy_plural: "$district_xhk_worldark_ordinance_plural$"
+ district_xhk_worldark_ordinance_energy_desc: "$district_xhk_worldark_ordinance_desc$"
+
+ district_xhk_worldark_ordinance_fighter: "$district_xhk_worldark_ordinance$"
+ district_xhk_worldark_ordinance_fighter_plural: "$district_xhk_worldark_ordinance_plural$"
+ district_xhk_worldark_ordinance_fighter_desc: "$district_xhk_worldark_ordinance_desc$"
 
 
-
+ #########################################################################################################################################################################
  # ZONES
+ #########################################################################################################################################################################

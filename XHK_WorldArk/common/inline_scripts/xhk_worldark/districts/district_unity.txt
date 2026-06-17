@@ -29,3 +29,7 @@ resources = {
         energy = 1
     }
 }
+
+inline_script = {
+    script = xhk_worldark/district_flavor/unity_flavor
+}

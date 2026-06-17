@@ -1,0 +1,60 @@
+triggered_name = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_voidforge }
+    }
+    text = zone_ark_military_eco
+}
+triggered_flavor_desc = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_voidforge }
+    }
+    text = zone_ark_military_eco_desc
+}
+
+
+triggered_name = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_hive_empire = yes
+        }
+    }
+    text = city_foundry_hive_1
+}
+triggered_flavor_desc = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_hive_empire = yes
+        }
+    }
+    text = city_foundry_hive_1_desc
+}
+
+# Machine: Heavy Industry
+triggered_name = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_machine_empire= yes
+        }
+    }
+    text = city_foundry_machine_1
+}
+triggered_flavor_desc = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_machine_empire= yes
+        }
+    }
+    text = city_foundry_machine_1_desc
+}
+
+# Individual: Urban Foundries
+triggered_name = {
+    text = flavor_xhk_worldark_foundry_name
+}
+triggered_flavor_desc = {
+    text = city_foundry_1_desc
+}

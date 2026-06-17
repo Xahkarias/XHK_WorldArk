@@ -7,4 +7,7 @@ kill other arkships
 make all icons
 make pop growth bigger
 
+dystopian society
+survery speed zone
+
 I HAVE TO OVERWRITE THE SHIP SECTIONS OR THEY WILL CRASH

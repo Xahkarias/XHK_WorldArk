@@ -141,11 +141,7 @@ district_xhk_worldark_city = {
     }
 
     inline_script = {
-        script = districts/district_triggered_name_urban
-    }
-
-    inline_script = {
-        script = districts/district_triggered_flavor_desc_urban
+        script = xhk_worldark/district_flavor/urban_flavor
     }
 
     inline_script = {
@@ -187,6 +183,10 @@ district_xhk_worldark_foundry = {
         script = jobs/foundry_add
         AMOUNT = 200
     }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/foundry_flavor
+    }
 }
 
 district_xhk_worldark_factory = {
@@ -202,7 +202,17 @@ district_xhk_worldark_factory = {
 
     inline_script = {
         script = xhk_worldark/districts/district_common
-        POTENTIAL = ""
+        POTENTIAL = "
+            exists = owner
+            owner = {
+                OR = {
+                    is_gestalt = no
+                    has_valid_civic = civic_machine_servitor
+                    has_valid_civic = civic_machine_obsessional_directive
+                    country_uses_consumer_goods = yes
+                }
+            }
+        "
     }
 
     resources = {
@@ -218,6 +228,10 @@ district_xhk_worldark_factory = {
     inline_script = {
         script = jobs/factory_add
         AMOUNT = 200
+    }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/factory_flavor
     }
 }
 
@@ -250,6 +264,10 @@ district_xhk_worldark_trade = {
     inline_script = {
         script = jobs/trader_add
         AMOUNT = 200
+    }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/trade_flavor
     }
 }
 
@@ -287,6 +305,11 @@ district_xhk_worldark_generator = {
         script = jobs/technicians_add
         AMOUNT = 200
     }
+
+    #### FLAVOR
+    inline_script = {
+        script = xhk_worldark/district_flavor/generator_flavor
+    }
 }
 
 district_xhk_worldark_minerals = {
@@ -319,11 +342,15 @@ district_xhk_worldark_minerals = {
         script = jobs/ark_harvester_add
         AMOUNT = 200
     }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/mining_flavor
+    }
 }
 
 district_xhk_worldark_farming = {
     base_buildtime = @xhk_base_buildtime
-    icon = district_farming
+    icon = district_ark_hydroponics
     gridbox = district_farming
     is_uncapped = { always = yes }
     overlay_icon = GFX_district_food
@@ -351,6 +378,10 @@ district_xhk_worldark_farming = {
         script = jobs/farmers_add
         AMOUNT = 200
     }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/farming_flavor
+    }
 }
 
 ###############################################################################################################
@@ -361,8 +392,11 @@ district_xhk_worldark_unity = {
     inline_script = {
         script = xhk_worldark/districts/district_unity
         POTENTIAL = "
-            is_gestalt = no
-            is_spiritualist = no
+            exists = owner
+            owner = {
+                is_gestalt = no
+                is_spiritualist = no
+            }
         "
     }
 
@@ -371,12 +405,15 @@ district_xhk_worldark_unity = {
         AMOUNT = 200
     }
 }
-district_xhk_worldark_spiritualist = {
+district_xhk_worldark_unity_spiritualist = {
     inline_script = {
         script = xhk_worldark/districts/district_unity
         POTENTIAL = "
-            is_gestalt = no
-            is_spiritualist = yes
+            exists = owner
+            owner = {
+                is_gestalt = no
+                is_spiritualist = yes
+            }
         "
     }
 
@@ -385,11 +422,14 @@ district_xhk_worldark_spiritualist = {
         AMOUNT = 200
     }
 }
-district_xhk_worldark_hive = {
+district_xhk_worldark_unity_hive = {
     inline_script = {
         script = xhk_worldark/districts/district_unity
         POTENTIAL = "
-            is_hive_empire = yes
+            exists = owner
+            owner = {
+                is_hive_empire = yes
+            }
         "
     }
 
@@ -398,12 +438,15 @@ district_xhk_worldark_hive = {
         AMOUNT = 200
     }
 }
-district_xhk_worldark_machine = {
+district_xhk_worldark_unity_machine = {
     inline_script = {
         script = xhk_worldark/districts/district_unity
         POTENTIAL = "
-            is_machine_empire = yes
-            NOT = { has_valid_civic = civic_machine_servitor }
+            exists = owner
+            owner = {
+                is_machine_empire = yes
+                NOT = { has_valid_civic = civic_machine_servitor }
+            }
         "
     }
 
@@ -412,12 +455,15 @@ district_xhk_worldark_machine = {
         AMOUNT = 200
     }
 }
-district_xhk_worldark_servitor = {
+district_xhk_worldark_unity_servitor = {
     inline_script = {
         script = xhk_worldark/districts/district_unity
         POTENTIAL = "
-            is_machine_empire = yes
-            has_valid_civic = civic_machine_servitor
+            exists = owner
+            owner = {
+                is_machine_empire = yes
+                has_valid_civic = civic_machine_servitor
+            }
         "
     }
 
@@ -433,7 +479,7 @@ district_xhk_worldark_servitor = {
 }
 
 # SCIENCE
-district_xhk_worldark_science = {
+district_xhk_worldark_research = {
     base_buildtime = @xhk_base_buildtime
     icon = district_arcology_research
     gridbox = district_arcology_research
@@ -463,6 +509,10 @@ district_xhk_worldark_science = {
         script = jobs/researchers_add
         AMOUNT = 60
     }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/research_flavor
+    }
 }
 
 # AMENITIES
@@ -480,7 +530,10 @@ district_xhk_worldark_amenities = {
     inline_script = {
         script = xhk_worldark/districts/district_common
         POTENTIAL = "
-            is_gestalt = no
+            exists = owner
+            owner = {
+                is_gestalt = no
+            }
         "
     }
 
@@ -497,6 +550,13 @@ district_xhk_worldark_amenities = {
     inline_script = {
         script = jobs/entertainers_add
         AMOUNT = 200
+    }
+
+    triggered_name = {
+        text = zone_resort_entertainment
+    }
+    triggered_flavor_desc = {
+        text = zone_resort_entertainment_desc
     }
 }
 
@@ -546,5 +606,13 @@ district_xhk_worldark_ordinance = {
     inline_script = {
         script = jobs/soldiers_add
         AMOUNT = 200
+    }
+
+    triggered_name = {
+        text = district_ark_military_name
+    }
+
+    triggered_flavor_desc = {
+        text = district_ark_military_flavor_desc
     }
 }

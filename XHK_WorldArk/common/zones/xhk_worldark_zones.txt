@@ -198,6 +198,9 @@ zone_xhk_worldark_reactspeed = {
         xhk_worldark_generator
     }
 
+    swap_type =  district_xhk_worldark_generator_speed
+    swap_type_weight = 5
+
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
@@ -228,6 +231,9 @@ zone_xhk_worldark_reactshield = {
     zone_sets = {
         xhk_worldark_generator
     }
+
+    swap_type =  district_xhk_worldark_generator_shield
+    swap_type_weight = 5
 
     ai_weight_coefficient = 0.5
     ai_priority = 10
@@ -443,6 +449,9 @@ zone_xhk_worldark_physics = {
         xhk_worldark_science
     }
 
+    swap_type =  district_xhk_worldark_research_physics
+    swap_type_weight = 5
+
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
@@ -469,6 +478,9 @@ zone_xhk_worldark_society = {
         xhk_worldark_science
     }
 
+    swap_type =  district_xhk_worldark_research_society
+    swap_type_weight = 5
+
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
@@ -494,6 +506,9 @@ zone_xhk_worldark_engineering = {
     zone_sets = {
         xhk_worldark_science
     }
+
+    swap_type =  district_xhk_worldark_research_engineering
+    swap_type_weight = 5
 
     ai_weight_coefficient = 0.5
     ai_priority = 10
@@ -581,6 +596,9 @@ zone_xhk_worldark_ordinance_naval = {
         xhk_worldark_ordinance
     }
 
+    swap_type =  district_xhk_worldark_ordinance_naval
+    swap_type_weight = 5
+
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
@@ -611,10 +629,11 @@ zone_xhk_worldark_ordinance_missile_silos = {
         xhk_worldark_ordinance
     }
 
+    swap_type =  district_xhk_worldark_ordinance_missile
+    swap_type_weight = 5
+
     ai_weight_coefficient = 0.5
     ai_priority = 10
-
-
 }
 zone_xhk_worldark_ordinance_ammunition_lines = {
     planet_limit = 1
@@ -642,6 +661,9 @@ zone_xhk_worldark_ordinance_ammunition_lines = {
     zone_sets = {
         xhk_worldark_ordinance
     }
+
+    swap_type =  district_xhk_worldark_ordinance_kinetic
+    swap_type_weight = 5
 
     ai_weight_coefficient = 0.5
     ai_priority = 10
@@ -673,6 +695,9 @@ zone_xhk_worldark_ordinance_laser_capacitors = {
         xhk_worldark_ordinance
     }
 
+    swap_type =  district_xhk_worldark_ordinance_energy
+    swap_type_weight = 5
+
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
@@ -702,6 +727,9 @@ zone_xhk_worldark_ordinance_flight_decks = {
     zone_sets = {
         xhk_worldark_ordinance
     }
+
+    swap_type =  district_xhk_worldark_ordinance_fighter
+    swap_type_weight = 5
 
     ai_weight_coefficient = 0.5
     ai_priority = 10
