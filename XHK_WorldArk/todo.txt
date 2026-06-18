@@ -4,12 +4,16 @@ make the techs tied to a situation?
 finish the districts
 find out how to make the ship bigger
     arkship_harvest_resources
-    make my own
+    make my own action
 kill other arkships when you get them
+    need to make toast
+    need to make event for the first time you do it
+    give bonuses for doing so like size
 make all icons
 make pop growth bigger
 integrate with the readiness decision
 make sure the techs actually work
+think of mega integration
 write documentation
 
 check how deep sleep works

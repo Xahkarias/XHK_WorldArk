@@ -37,7 +37,7 @@ xhk_worldark_spinal_hunter_cannon = {
 
     component_set = XHK_ARKSHIP_HUNTER_WEAPON
     show_component_tooltips = yes
-    custom_tooltip = sm_arkship_spinal_hunter_mount_tt
+    custom_tooltip = xhk_worldark_spinal_hunter_cannon_tt
 
     ai_weight = {
         weight = 100 #use same weight here - ai weighting is done in starbase_types.txt

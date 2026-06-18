@@ -1,5 +1,13 @@
 on_game_start_country = {
     events = {
+        # setup
         xhk_worldark_setup.1
+    }
+}
+
+on_monthly_pulse_country = {
+    events = {
+        # eat other arkships
+        xhk_worldark_setup.100
     }
 }

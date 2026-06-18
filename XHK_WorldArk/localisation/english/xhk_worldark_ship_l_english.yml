@@ -7,3 +7,12 @@
  xhk_worldark_tier_6:0 "$xhk_pc_worldark$ VI"
  xhk_worldark_tier_7:0 "$xhk_pc_worldark$ VII"
  xhk_worldark_tier_8:0 "$xhk_pc_worldark$ VIII"
+
+
+ xhk_worldark_spinal_hunter_cannon: "Ukonvasara Mount"
+ xhk_worldark_spinal_hunter_cannon_desc: "Created not to hunt vermin, but to turn the hunters into the hunted. Its rounds shall pierce through the toughest defenses, and sunder the largest of foes."
+ xhk_worldark_spinal_hunter_cannon_tt: "$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$XHK_ARKSHIP_HUNTER_WEAPON$§!."
+ sm_xhk_worldark_spinal_hunter_cannon: "$xhk_worldark_spinal_hunter_cannon$"
+ sm_xhk_worldark_spinal_hunter_cannon_desc: "$xhk_worldark_spinal_hunter_cannon_desc$"
+
+ XHK_ARKSHIP_HUNTER_WEAPON:0 "Ukonvasara Hyperkinetic Driver"
