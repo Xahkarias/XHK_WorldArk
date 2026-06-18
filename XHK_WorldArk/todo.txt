@@ -5,17 +5,19 @@ finish the districts
 find out how to make the ship bigger
     arkship_harvest_resources
     make my own action
-kill other arkships when you get them
+kill other arkships when you get them - done
     need to make toast
     need to make event for the first time you do it
     give bonuses for doing so like size
+make more mounts
+    Horizonbreaker Battery spam missile launcher
 make all icons
+    weapon icons
 make pop growth bigger
 integrate with the readiness decision
 make sure the techs actually work
 think of mega integration
 write documentation
-
 check how deep sleep works
 check how recursive learners work
 survery speed zone

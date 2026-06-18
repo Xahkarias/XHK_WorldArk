@@ -807,10 +807,11 @@ guiTypes = {
 				vertical_alignment = center
 			}
 			instantTextBoxType = {
+                # XHK +200 Y
 				name = "arkship_activity_text"
 				font = "font_text_14"
 				text = "ACTIVITY"
-				position = { x = 35 y = 660 }
+				position = { x = 35 y = 860 }
 				maxWidth = 210
 				maxHeight = 64
 				fixedSize = yes
