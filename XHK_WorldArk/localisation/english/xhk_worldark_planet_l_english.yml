@@ -1,5 +1,8 @@
 ﻿l_english:
 
+ xhk_pc_worldark: "World Ark"
+ xhk_pc_worldark_desc: "$pc_ark_desc$"
+
  #########################################################################################################################################################################
  # PRIMARY DISTRICTS
  #########################################################################################################################################################################
@@ -160,3 +163,79 @@
  #########################################################################################################################################################################
  # ZONES
  #########################################################################################################################################################################
+
+ zone_xhk_worldark_foundry: "$zone_foundry$"
+ zone_xhk_worldark_foundry_desc: "$zone_foundry_desc$"
+
+ zone_xhk_worldark_voidforge: "$zone_ark_military_eco$"
+ zone_xhk_worldark_voidforge_desc: "$zone_ark_military_eco_desc$"
+
+ zone_xhk_worldark_factory: "$zone_factory$"
+ zone_xhk_worldark_factory_desc: "$zone_factory_desc$"
+
+ zone_xhk_worldark_trade: "$zone_trade$"
+ zone_xhk_worldark_trade_desc: "$zone_trade_desc$"
+
+ zone_xhk_worldark_waylogi: "$zone_ark_waystation_trade$"
+ zone_xhk_worldark_waylogi_desc: "$zone_ark_waystation_trade_desc$"
+
+ zone_xhk_worldark_generator: "$zone_energy$"
+ zone_xhk_worldark_generator_desc: "$zone_energy_desc$"
+
+ zone_xhk_worldark_reactspeed: "$zone_ark_engine_bypass$"
+ zone_xhk_worldark_reactspeed_desc: "$zone_ark_engine_bypass_desc$"
+
+ zone_xhk_worldark_reactshield: "$zone_ark_shield_overloader$"
+ zone_xhk_worldark_reactshield_desc: "$zone_ark_shield_overloader_desc$"
+
+ zone_xhk_worldark_mining: "Expanded $zone_ark_harvest$"
+ zone_xhk_worldark_mining_desc: "$zone_ark_harvest_desc$"
+
+ zone_xhk_worldark_farming: "Expanded $zone_ark_food$"
+ zone_xhk_worldark_farming_desc: "$zone_ark_food_desc$"
+
+ zone_xhk_worldark_unity: "$zone_unity$"
+ zone_xhk_worldark_unity_desc: "$zone_unity_desc$"
+
+ zone_xhk_worldark_spiritualist: "$zone_unity_spiritualist$"
+ zone_xhk_worldark_spiritualist_desc: "$zone_unity_spiritualist_desc$"
+
+ zone_xhk_worldark_servitor: "$zone_unity_bio_trophy$"
+ zone_xhk_worldark_servitor_desc: "$zone_unity_bio_trophy_desc$"
+
+ zone_xhk_worldark_research: "$zone_research$"
+ zone_xhk_worldark_research_desc: "$zone_research_desc$"
+
+ zone_xhk_worldark_physics: "$zone_research_physics$"
+ zone_xhk_worldark_physics_desc: "$zone_research_physics_desc$"
+
+ zone_xhk_worldark_society: "$zone_research_society$"
+ zone_xhk_worldark_society_desc: "$zone_research_society_desc$"
+
+ zone_xhk_worldark_engineering: "$zone_research_engineering$"
+ zone_xhk_worldark_engineering_desc: "$zone_research_engineering_desc$"
+
+ zone_xhk_worldark_amenities: "$zone_resort$"
+ zone_xhk_worldark_amenities_desc: "$zone_resort_desc$"
+
+ zone_xhk_worldark_ordinance_naval: "$zone_ark_shipwright$"
+ zone_xhk_worldark_ordinance_naval_desc: "$zone_ark_shipwright_desc$"
+
+ zone_xhk_worldark_ordinance_missile_silos: "$zone_ark_missile_silos$"
+ zone_xhk_worldark_ordinance_missile_silos_desc: "$zone_ark_missile_silos_desc$"
+
+ zone_xhk_worldark_ordinance_ammunition_lines: "$zone_ark_ammunition_lines$"
+ zone_xhk_worldark_ordinance_ammunition_lines_desc: "$zone_ark_ammunition_lines_desc$"
+
+ zone_xhk_worldark_ordinance_laser_capacitors: "$zone_ark_laser_capacitors$"
+ zone_xhk_worldark_ordinance_laser_capacitors_desc: "$zone_ark_laser_capacitors_desc$"
+
+ zone_xhk_worldark_ordinance_flight_decks: "$zone_ark_flight_decks$"
+ zone_xhk_worldark_ordinance_flight_decks_desc: "$zone_ark_flight_decks_desc$"
+
+ #########################################################################################################################################################################
+ # DEPOSITS
+ #########################################################################################################################################################################
+
+ d_xhk_worldark_base: "$xhk_pc_worldark$ Control"
+ d_xhk_worldark_base_desc: "Where the great $xhk_pc_worldark$ is helmed."
