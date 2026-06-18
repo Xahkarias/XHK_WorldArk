@@ -1,6 +1,6 @@
 
 do loc for everything
-turn it into an origin
+make the techs tied to a situation?
 finish the districts
 find out how to make the ship bigger
 kill other arkships
@@ -10,7 +10,8 @@ integrate with the readiness decision
 make sure the techs actually work
 write documentation
 
-dystopian society
+check how deep sleep works
+check how recursive learners work
 survery speed zone
 
 I HAVE TO OVERWRITE THE SHIP SECTIONS OR THEY WILL CRASH

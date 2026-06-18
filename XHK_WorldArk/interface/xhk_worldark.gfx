@@ -1,0 +1,7 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_origin_xhk_worldark"
+        texturefile = "gfx/event_pictures/origins/origin_xhk_worldark.dds"
+        alwaystransparent = yes
+    }
+}

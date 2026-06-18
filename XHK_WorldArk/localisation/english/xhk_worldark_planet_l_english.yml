@@ -131,6 +131,11 @@
  district_xhk_worldark_amenities_plural: "Leisure Sectors"
  district_xhk_worldark_amenities_desc: "Large areas dedicated to relaxation and recreation, who needs terrestrial entertainment?"
 
+ district_xhk_worldark_amenities_dystopian: "$district_xhk_worldark_amenities$"
+ district_xhk_worldark_amenities_dystopian_plural: "$district_xhk_worldark_amenities_plural$"
+ district_xhk_worldark_amenities_dystopian_desc: "$district_xhk_worldark_amenities_desc$"
+ district_xhk_worldark_amenities_dystopian_limit: "$district_xhk_worldark_amenities_dystopian_plural$ are limited to §Y1§! district per §Y10,000§! £pop£ Pops\n"
+
  ##################################################################
  # Ordinance
  ##################################################################
@@ -218,6 +223,9 @@
  zone_xhk_worldark_amenities: "$zone_resort$"
  zone_xhk_worldark_amenities_desc: "$zone_resort_desc$"
 
+ zone_xhk_worldark_amenities_dystopian: "Elite Resorts"
+ zone_xhk_worldark_amenities_dystopian_desc: "A place for the deserving to unwind and relax, surrounded by the opulence befitting their station."
+
  zone_xhk_worldark_ordinance_naval: "$zone_ark_shipwright$"
  zone_xhk_worldark_ordinance_naval_desc: "$zone_ark_shipwright_desc$"
 
@@ -239,3 +247,9 @@
 
  d_xhk_worldark_base: "$xhk_pc_worldark$ Control"
  d_xhk_worldark_base_desc: "Where the great $xhk_pc_worldark$ is helmed."
+
+ #########################################################################################################################################################################
+ # MODIFIERS
+ #########################################################################################################################################################################
+
+ mod_district_xhk_worldark_amenities_dystopian_max_add: "Max §G$district_xhk_worldark_amenities_dystopian_plural$§!"

@@ -10,4 +10,16 @@ d_xhk_worldark_base = {
     planet_modifier = {
         pop_environment_tolerance = 1.0
     }
+
+    # dystopian limit
+    triggered_planet_modifier = {
+        potential = {
+            owner? = {
+                is_regular_empire = yes
+                has_valid_civic = civic_dystopian_society
+            }
+        }
+        district_xhk_worldark_amenities_dystopian_max_add = 0.0001
+        multiplier = trigger:pop_amount
+    }
 }

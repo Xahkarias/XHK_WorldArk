@@ -533,6 +533,7 @@ district_xhk_worldark_amenities = {
             exists = owner
             owner = {
                 is_gestalt = no
+                NOT = { has_valid_civic = civic_dystopian_society }
             }
         "
     }
@@ -557,6 +558,53 @@ district_xhk_worldark_amenities = {
     }
     triggered_flavor_desc = {
         text = zone_resort_entertainment_desc
+    }
+}
+district_xhk_worldark_amenities_dystopian = {
+    shared_capacity_modifier = district_xhk_worldark_amenities_dystopian
+    base_buildtime = @xhk_base_buildtime
+    icon = district_arcology_leisure
+    gridbox = district_resort_secondary
+    is_uncapped = { always = no }
+    overlay_icon = GFX_district_amenities
+
+    zone_slots = {
+        slot_xhk_worldark_amenities
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        POTENTIAL = "
+            exists = owner
+            owner = {
+                is_gestalt = no
+                has_valid_civic = civic_dystopian_society
+            }
+        "
+    }
+
+    resources = {
+        category = planet_districts
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    triggered_desc = {
+        trigger = { always = yes }
+        text = district_xhk_worldark_amenities_dystopian_limit
+    }
+
+    inline_script = {
+        script = jobs/politician_add
+        AMOUNT = 50
+    }
+
+    triggered_name = {
+        text = zone_xhk_worldark_amenities_dystopian
     }
 }
 
