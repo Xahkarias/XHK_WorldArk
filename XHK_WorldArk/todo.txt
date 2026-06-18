@@ -3,7 +3,9 @@ do loc for everything
 make the techs tied to a situation?
 finish the districts
 find out how to make the ship bigger
-kill other arkships
+    arkship_harvest_resources
+    make my own
+kill other arkships when you get them
 make all icons
 make pop growth bigger
 integrate with the readiness decision

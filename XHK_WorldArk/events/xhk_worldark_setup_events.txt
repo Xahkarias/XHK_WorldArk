@@ -1,5 +1,6 @@
 namespace = xhk_worldark_setup
 
+# INITIAL SETUP
 country_event = {
     id = xhk_worldark_setup.1
     hide_window = yes
