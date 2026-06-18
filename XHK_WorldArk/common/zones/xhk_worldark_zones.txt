@@ -6,6 +6,8 @@ zone_xhk_worldark_foundry = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = ""
     }
 
     included_building_sets = {
@@ -33,6 +35,8 @@ zone_xhk_worldark_voidforge = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = ""
     }
 
     included_building_sets = {
@@ -70,6 +74,8 @@ zone_xhk_worldark_factory = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = ""
     }
 
     included_building_sets = {
@@ -99,6 +105,8 @@ zone_xhk_worldark_trade = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = ""
     }
 
     included_building_sets = {
@@ -125,7 +133,12 @@ zone_xhk_worldark_waylogi = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_waystation_2}"
     }
+
+    show_in_tech = tech_waystation_2
+    show_tech_unlock_if = { is_nomadic = yes }
 
     included_building_sets = {
         trade
@@ -153,6 +166,8 @@ zone_xhk_worldark_generator = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = ""
     }
 
     included_building_sets = {
@@ -179,7 +194,12 @@ zone_xhk_worldark_reactspeed = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_afterburners_1 }"
     }
+
+    show_in_tech = tech_afterburners_1
+    show_tech_unlock_if = { is_nomadic = yes }
 
     included_building_sets = {
         generator
@@ -210,7 +230,12 @@ zone_xhk_worldark_reactshield = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_shields_2 }"
     }
+
+    show_in_tech = tech_shields_2
+    show_tech_unlock_if = { is_nomadic = yes }
 
     included_building_sets = {
         generator
@@ -247,6 +272,8 @@ zone_xhk_worldark_mining = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = ""
     }
 
     included_building_sets = {
@@ -276,6 +303,8 @@ zone_xhk_worldark_farming = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = ""
     }
 
     included_building_sets = {
@@ -406,6 +435,8 @@ zone_xhk_worldark_research = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = ""
     }
 
     included_building_sets = {
@@ -431,7 +462,12 @@ zone_xhk_worldark_physics = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_physics_1 }"
     }
+
+    show_in_tech = tech_physics_1
+    show_tech_unlock_if = { is_nomadic = yes }
 
     included_building_sets = {
         research
@@ -460,7 +496,12 @@ zone_xhk_worldark_society = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_society_1 }"
     }
+
+    show_in_tech = tech_society_1
+    show_tech_unlock_if = { is_nomadic = yes }
 
     included_building_sets = {
         research
@@ -489,7 +530,12 @@ zone_xhk_worldark_engineering = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_engineering_1 }"
     }
+
+    show_in_tech = tech_engineering_1
+    show_tech_unlock_if = { is_nomadic = yes }
 
     included_building_sets = {
         research
@@ -522,6 +568,8 @@ zone_xhk_worldark_amenities = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { NOT = { has_valid_civic = civic_dystopian_society } }"
     }
 
     include = {
@@ -573,7 +621,12 @@ zone_xhk_worldark_ordinance_naval = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_doctrine_navy_size_1 }"
     }
+
+    show_in_tech = tech_doctrine_navy_size_1
+    show_tech_unlock_if = { is_nomadic = yes }
 
     included_building_sets = {
         foundry
@@ -608,7 +661,12 @@ zone_xhk_worldark_ordinance_missile_silos = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_missiles_2 }"
     }
+
+    show_in_tech = tech_missiles_2
+    show_tech_unlock_if = { is_nomadic = yes }
 
     included_building_sets = {
         fortress
@@ -641,7 +699,12 @@ zone_xhk_worldark_ordinance_ammunition_lines = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_mass_drivers_2 }"
     }
+
+    show_in_tech = tech_lasers_2
+    show_tech_unlock_if = { is_nomadic = yes }
 
     included_building_sets = {
         fortress
@@ -674,7 +737,12 @@ zone_xhk_worldark_ordinance_laser_capacitors = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_lasers_2 }"
     }
+
+    show_in_tech = tech_lasers_2
+    show_tech_unlock_if = { is_nomadic = yes }
 
     included_building_sets = {
         fortress
@@ -707,7 +775,12 @@ zone_xhk_worldark_ordinance_flight_decks = {
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_strike_craft_1 }"
     }
+
+    show_in_tech = tech_strike_craft_1
+    show_tech_unlock_if = { is_nomadic = yes }
 
     included_building_sets = {
         fortress

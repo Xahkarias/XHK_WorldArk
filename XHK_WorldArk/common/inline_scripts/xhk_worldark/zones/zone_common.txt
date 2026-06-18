@@ -1,10 +1,12 @@
 base_buildtime = @zone_buildtime
 potential = { # planet scope
-    always = yes
+    is_planet_class = xhk_pc_worldark
+    $POTENTIAL$
 }
 
 unlock = { # planet scope
-    always = yes
+    is_planet_class = xhk_pc_worldark
+    $UNLOCK$
 }
 
 resources = {
