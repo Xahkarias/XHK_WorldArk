@@ -7,7 +7,6 @@ kill other arkships
 make all icons
 make pop growth bigger
 integrate with the readiness decision
-give starbase upgrade time
 make sure the techs actually work
 write documentation
 

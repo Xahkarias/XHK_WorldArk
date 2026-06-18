@@ -72,6 +72,8 @@ resources = {
     }
 }
 
+base_buildtime = @[540 + (180 * $TIER$)]
+
 min_upgrade_cost = {
     alloys = 1
 }
