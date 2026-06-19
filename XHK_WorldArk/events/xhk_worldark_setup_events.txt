@@ -345,6 +345,36 @@ country_event = {
         # giga_set_all_leaders_homeworld = {
         #     planet = event_target:xhk_new_worldark_colony
         # }
+
+        #init mission setup fix
+        capital_scope = {
+            if = {
+                limit = { owner = { has_country_flag = checklist_shield_realignment }}
+                add_modifier = { modifier = checklist_unaligned_shields }
+            }
+            if = {
+                limit = { owner = { has_country_flag = checklist_sensors_calibration }}
+                add_modifier = { modifier = checklist_sensor_calibration }
+            }
+            if = {
+                limit = { owner = { has_country_flag = checklist_flush_coolant }}
+                add_modifier = { modifier = checklist_corrosive_coolant }
+            }
+            if = {
+                limit = { owner = { has_country_flag = checklist_cluttered_hangars }}
+                while = {
+                    count = 2
+                    add_deposit = d_cluttered_hangar_bay
+                }
+            }
+            if = {
+                limit = { owner = { has_country_flag = checklist_decipher_signal }}
+                add_modifier = {
+                    modifier = checklist_replicating_signal
+                    days = -1
+                }
+            }
+        }
     }
 }
 

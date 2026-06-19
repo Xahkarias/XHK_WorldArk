@@ -14,7 +14,6 @@ make more mounts
 make all icons
     weapon icons
 make pop growth bigger
-integrate with the readiness decision
 make sure the techs actually work
 think of mega integration
 write documentation
