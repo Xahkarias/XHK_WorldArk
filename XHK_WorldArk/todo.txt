@@ -2,6 +2,10 @@
 do loc for everything
 make the techs tied to a situation?
 finish the districts
+    refinery
+    enforcer
+    sent metal
+    neg energy
 find out how to make the ship bigger
     arkship_harvest_resources
     make my own action
@@ -9,8 +13,6 @@ kill other arkships when you get them - done
     need to make toast
     need to make event for the first time you do it
     give bonuses for doing so like size
-make more mounts
-    Horizonbreaker Battery spam missile launcher
 make all icons
     weapon icons
 make pop growth bigger

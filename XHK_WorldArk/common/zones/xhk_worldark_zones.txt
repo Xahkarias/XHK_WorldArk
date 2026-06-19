@@ -862,3 +862,49 @@ zone_xhk_worldark_ordinance_flight_decks = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
+
+## STORAGE
+###########################################################
+zone_xhk_worldark_storage = {
+    icon = GFX_district_specialization_industrial
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 1
+        UNLOCK = ""
+        POTENTIAL = ""
+    }
+
+    triggered_district_country_modifier = {
+        potential = {
+            always = yes
+        }
+        country_resource_max_add = 10000
+    }
+    triggered_district_country_modifier = {
+        potential = {
+            owner = { has_technology = tech_fe_silo_1 }
+        }
+        country_resource_max_minor_artifacts_add = 500
+    }
+    triggered_district_country_modifier = {
+        potential = {
+            owner = { has_technology = tech_fe_silo_2 }
+        }
+        country_resource_max_minor_artifacts_add = 500
+    }
+
+
+    included_building_sets = {
+        storage
+    }
+    include = {
+        building_resource_silo
+        building_fe_silo_1
+        building_fe_silo_2
+    }
+
+    zone_sets = {
+        xhk_worldark_storage
+    }
+
+}

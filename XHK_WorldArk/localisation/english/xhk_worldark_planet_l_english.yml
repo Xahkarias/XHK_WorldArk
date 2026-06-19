@@ -42,7 +42,6 @@
  district_xhk_worldark_trade: "$district_ark_waystation_trade$"
  district_xhk_worldark_trade_plural: "$district_ark_waystation_trade_plural$"
  district_xhk_worldark_trade_desc: "$district_ark_waystation_trade_flavor_desc$"
-
  flavor_xhk_worldark_waystation_trade_name: "Network Logistics"
 
  ##################################################################
@@ -84,7 +83,6 @@
  district_xhk_worldark_unity: "Administrative Sector"
  district_xhk_worldark_unity_plural: "Administrative Sectors"
  district_xhk_worldark_unity_desc: "$district_arcology_administrative_desc$"
-
  flavor_xhk_worldark_unity_name: "Bureaucratic Nexus"
 
  district_xhk_worldark_unity_spiritualist: "Ecclesiastical Sector"
@@ -164,6 +162,16 @@
  district_xhk_worldark_ordinance_fighter_plural: "$district_xhk_worldark_ordinance_plural$"
  district_xhk_worldark_ordinance_fighter_desc: "$district_xhk_worldark_ordinance_desc$"
 
+ ##################################################################
+ # Storage
+ ##################################################################
+
+ district_xhk_worldark_storage: "Storage Hold"
+ district_xhk_worldark_storage_plural: "Storage Holds"
+ district_xhk_worldark_storage_desc: "A large storage complex that would take up the size of a city on a terrestrial planet."
+ flavor_xhk_worldark_storage_name: "Deep Warehouses"
+ district_xhk_worldark_storage_effect: "The zone §Gincreases§! the country resource storage by £mod_country_resource_max_add£§G10000§!"
+
 
  #########################################################################################################################################################################
  # ZONES
@@ -240,6 +248,9 @@
 
  zone_xhk_worldark_ordinance_flight_decks: "$zone_ark_flight_decks$"
  zone_xhk_worldark_ordinance_flight_decks_desc: "$zone_ark_flight_decks_desc$"
+
+ zone_xhk_worldark_storage: "$district_xhk_worldark_storage$"
+ zone_xhk_worldark_storage_desc: "$district_xhk_worldark_storage_desc$"
 
  #########################################################################################################################################################################
  # DEPOSITS

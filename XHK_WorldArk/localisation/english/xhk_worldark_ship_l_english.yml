@@ -8,6 +8,15 @@
  xhk_worldark_tier_7:0 "$xhk_pc_worldark$ VII"
  xhk_worldark_tier_8:0 "$xhk_pc_worldark$ VIII"
 
+ xhk_worldark_tier_1_cap:0 "$xhk_worldark_tier_1$"
+ xhk_worldark_tier_2_cap:0 "$xhk_worldark_tier_2$"
+ xhk_worldark_tier_3_cap:0 "$xhk_worldark_tier_3$"
+ xhk_worldark_tier_4_cap:0 "$xhk_worldark_tier_4$"
+ xhk_worldark_tier_5_cap:0 "$xhk_worldark_tier_5$"
+ xhk_worldark_tier_6_cap:0 "$xhk_worldark_tier_6$"
+ xhk_worldark_tier_7_cap:0 "$xhk_worldark_tier_7$"
+ xhk_worldark_tier_8_cap:0 "$xhk_worldark_tier_8$"
+
 
  xhk_worldark_spinal_hunter_cannon: "Ukonvasara Mount"
  xhk_worldark_spinal_hunter_cannon_desc: "Created not to hunt vermin, but to turn the hunters into the hunted. Its rounds shall pierce through the toughest defenses, and sunder the largest of foes."
