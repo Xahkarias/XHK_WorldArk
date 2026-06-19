@@ -8,22 +8,29 @@ origin_xhk_worldark = {
     possible = {
         is_nomadic = yes
     }
-    potential = {
-        #ethics = { NOT = { value = ethic_gestalt_consciousness } }
-        # authority = { NOR = {
-        #     value = auth_corporate
-        #     value = auth_bugged_corporate_democratic
-        #     value = auth_bugged_corporate_imperial
-        # } }
-        #species_archetype = { NOT = { value = MACHINE } }
+    # potential = {
+    #     #ethics = { NOT = { value = ethic_gestalt_consciousness } }
+    #     # authority = { NOR = {
+    #     #     value = auth_corporate
+    #     #     value = auth_bugged_corporate_democratic
+    #     #     value = auth_bugged_corporate_imperial
+    #     # } }
+    #     #species_archetype = { NOT = { value = MACHINE } }
+    # }
+    # possible = {
+    #     #species_archetype = { NOT = { value = MACHINE } }
+    #     # origin = {
+    #     #     value = origin_frameworld
+    #     #     # this is compat hazard
+    #     # }
+    # }
+
+    modifier = {
+        # it's SO beneficial for frame that it should probably be nerfed real hard
+        planetary_ascension_effect_mult = -0.5
+        planetary_ascension_cost_mult = 1
     }
-    possible = {
-        #species_archetype = { NOT = { value = MACHINE } }
-        # origin = {
-        #     value = origin_frameworld
-        #     # this is compat hazard
-        # }
-    }
+
     description = "origin_xhk_worldark_tooltip_default_effects"
     random_weight = {
         base = 0
