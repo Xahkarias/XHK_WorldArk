@@ -25,12 +25,17 @@ carrier_event = {
             modifier = xhk_size_harvested_already
         }
 
-        # TODO MAKE IT SHRINK
+        if = {
+            limit = {
+                planet_size > 5
+            }
+            change_planet_size = -1
+        }
 
         # Always decrease opinion of system owner
         space_owner? = {
             add_opinion_modifier = {
-                modifier = opinion_arkship_harvested_resources
+                modifier = opinion_arkship_strip_mine
                 who = event_target:arkship.controller
             }
         }

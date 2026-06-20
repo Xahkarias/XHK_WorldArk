@@ -288,8 +288,14 @@
  # DEPOSITS
  #########################################################################################################################################################################
 
- d_xhk_worldark_base: "$xhk_pc_worldark$ Control"
+ d_xhk_worldark_base: "$xhk_pc_worldark$ Control Center"
  d_xhk_worldark_base_desc: "Where the great $xhk_pc_worldark$ is helmed."
+
+ d_xhk_worldark_harvest_size: "Planetary Harvest Expansion"
+ d_xhk_worldark_harvest_size_desc: "The World Ark has expanded by consuming those boring celestial bodies which boorishly move around their parent for eons."
+
+ d_xhk_worldark_consume_ark_size: "Arkship Consumption Expansion"
+ d_xhk_worldark_consume_ark_size_desc: "The World Ark has expanded by consuming the weaker Arkships of those who we have defeated in combat."
 
  #########################################################################################################################################################################
  # MODIFIERS

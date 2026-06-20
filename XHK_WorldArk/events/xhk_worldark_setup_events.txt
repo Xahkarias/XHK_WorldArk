@@ -68,7 +68,6 @@ country_event = {
                     colony = {
                         assign_leader = event_target:xhk_worldark_governor
 
-                        #todo make it the capital
                         set_capital = yes
                     }
                     fleet = {

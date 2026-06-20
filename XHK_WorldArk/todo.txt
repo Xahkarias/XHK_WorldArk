@@ -2,6 +2,7 @@
 do loc for everything
 make the techs tied to a situation?
 need to be able to eat habitats
+increase logistic ship cap
 
 need events for expanding first of each type
     planet, hab, arkship
