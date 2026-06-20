@@ -380,6 +380,32 @@ country_event = {
                 }
             }
         }
+
+        # setup docks
+        begin_event_chain = {
+            event_chain = xhk_worldark_docs_chain
+        }
+
+        create_point_of_interest = {
+            id = xhk_worldark_docs_chain.1
+            name = "xhk_worldark_docs_expansion"
+            desc = "xhk_worldark_docs_expansion_desc"
+            event_chain = "xhk_worldark_docs_chain"
+            #location = capital_scope
+        }
+
+        create_point_of_interest = {
+            id = xhk_worldark_docs_chain.2
+            name = "xhk_worldark_docs_population"
+            desc = "xhk_worldark_docs_population_desc"
+            event_chain = "xhk_worldark_docs_chain"
+            #location = capital_scope
+        }
+
+        start_situation = {
+            type = xhk_worldark_situation_main
+            target = capital_scope
+        }
     }
 }
 

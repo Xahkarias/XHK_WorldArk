@@ -1,0 +1,42 @@
+xhk_worldark_situation_main = {
+    picture = GFX_evt_arkship_bridge
+    situation_log_category = xhk_worldark_situation_category
+
+    category = neutral
+
+    abort_trigger = {
+        OR = {
+            NOT = { exists = owner }
+            owner = {
+                NOT = { has_origin = origin_xhk_worldark }
+            }
+        }
+    }
+
+    permanent = yes
+    show_in_outliner = no
+
+    monthly_progress = {
+        base = 0
+    }
+
+    initial_progress = 0
+
+    stages = {
+        xhk_worldark_situation_main_stage = {
+            icon = GFX_situation_stage_balanced
+            icon_background = GFX_situation_stage_frame_blue
+        }
+    }
+
+    approach = {
+        name = xhk_worldark_situation_main_approach
+        icon = GFX_situation_approach_balance_sheet
+        icon_background = GFX_situation_approach_bg_yellow
+        default = yes
+    }
+
+    #############################################################################################
+    # empire modifiers
+
+}

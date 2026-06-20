@@ -4,3 +4,31 @@
 
  XHK_TOAST_CONSUME_ARKSHIP_COMPLETE_TITLE: "$XHK_TOAST_HARVEST_SIZE_COMPLETE_TITLE$"
  XHK_TOAST_CONSUME_ARKSHIP_COMPLETE_DESC: "The §Y$PLANET$§! has expanded its size by consuming our recently acquired arkships."
+
+ #######################################################################################################################
+ # Situation log category
+ xhk_worldark_situation_category: "World Ark Matters"
+
+ # Situation
+ xhk_worldark_situation_main: "World Ark Status"
+ xhk_worldark_situation_main_desc: "This situation serves to track the special status of the World Ark and any special buffs / debuffs that are applied to it."
+
+ xhk_worldark_situation_main_stage: "Normal Stage"
+ xhk_worldark_situation_main_approach: "Standard Approach"
+
+ #######################################################################################################################
+ # Documentation
+ xhk_worldark_docs_chain_title: "World Ark Documentation"
+ xhk_worldark_docs_chain_desc: ""The §Y$xhk_pc_worldark$§! origin provides a \"One Planet\" play style, with heavy focus on a single capital arkship. You cannot build another arkship, and any that you gain are scuttled to buff the capital arkship. The $xhk_pc_worldark$ gains access to many powerful districts, modules, systems, and decisions."
+
+ #
+ xhk_worldark_docs_expansion: "Expansion"
+
+ xhk_worldark_docs_population: "Population"
+
+
+
+
+
+
+

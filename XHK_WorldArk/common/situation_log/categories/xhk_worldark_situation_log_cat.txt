@@ -1,0 +1,6 @@
+xhk_worldark_situation_category = {
+    collapsible = yes
+    priority = 2
+    localization = xhk_worldark_situation_category
+    icon = "GFX_category_tutorial"
+}
