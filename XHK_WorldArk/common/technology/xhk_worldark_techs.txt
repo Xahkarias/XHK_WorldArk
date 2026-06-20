@@ -24,6 +24,10 @@ xhk_tech_worldark_2 = {
         script = xhk_worldark/technology/tech_ship_definition
     }
 
+    modifier = {
+        nomadic_constructor_limit_add = 1
+    }
+
     prerequisites = {
         xhk_tech_worldark_1
     }
@@ -52,6 +56,10 @@ xhk_tech_worldark_4 = {
 
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
+    }
+
+    modifier = {
+        nomadic_constructor_limit_add = 1
     }
 
     prerequisites = {
@@ -84,6 +92,10 @@ xhk_tech_worldark_6 = {
         script = xhk_worldark/technology/tech_ship_definition
     }
 
+    modifier = {
+        nomadic_constructor_limit_add = 1
+    }
+
     prerequisites = {
         xhk_tech_worldark_5
     }
@@ -112,6 +124,10 @@ xhk_tech_worldark_8 = {
 
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
+    }
+
+    modifier = {
+        nomadic_constructor_limit_add = 1
     }
 
     prerequisites = {
