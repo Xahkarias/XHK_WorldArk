@@ -14,7 +14,6 @@ write documentation
 survery speed zone
 upgrade storage zone with waystation extraction bonus
 
-need to rename the fleet
 I HAVE TO OVERWRITE THE SHIP SECTIONS OR THEY WILL CRASH
 
 

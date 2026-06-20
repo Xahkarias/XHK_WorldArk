@@ -1,2 +1,3 @@
 ﻿l_english:
  xhk_worldark_new_capital_name:0 "[xhk_old_arkcap_colony.GetName]"
+ xhk_worldark_new_fleet_name:0 "[xhk_old_arkcap_fleet.GetName]"

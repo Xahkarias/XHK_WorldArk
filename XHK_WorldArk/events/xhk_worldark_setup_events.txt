@@ -26,6 +26,7 @@ country_event = {
 
             ship = {
                 save_event_target_as = xhk_old_arkcap_ship
+                fleet = { save_event_target_as = xhk_old_arkcap_fleet }
 
                 # make the new ship
                 create_fleet = {
@@ -72,6 +73,11 @@ country_event = {
                     }
                     fleet = {
                         assign_leader = event_target:xhk_worldark_admiral
+                        # set the fleet name
+                        set_name = {
+                            key = "xhk_worldark_new_fleet_name"
+                            variable_string = "[xhk_old_arkcap_fleet.GetName]"
+                        }
                     }
 
                     #put in the old module / systems
