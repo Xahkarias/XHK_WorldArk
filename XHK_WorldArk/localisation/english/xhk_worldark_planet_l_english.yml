@@ -142,6 +142,25 @@
  district_xhk_worldark_enforcer_desc: "Security forces operate from these specialized facilities, making sure that disruptive elements do not impede station functions."
 
  ##################################################################
+ # Refinery
+ ##################################################################
+
+ district_xhk_worldark_refinery: "Refinery Complex"
+ district_xhk_worldark_refinery_plural: "Refinery Complexes"
+ district_xhk_worldark_refinery_desc: "Nestled deep in the bowels of the World Ark, these specialized refineries allow for creation of specialized resources we would otherwise have to search the void for."
+ flavor_xhk_worldark_refinery_name: "$zone_xhk_worldark_refinery$"
+
+ district_xhk_worldark_refinery_motes: "Refinery Complex - Chemical Plants"
+ district_xhk_worldark_refinery_motes_plural: "Refinery Complex - Chemical Plants"
+ district_xhk_worldark_refinery_motes_desc: "Grants access to the $district_xhk_worldark_refinery$, with jobs that produce $volatile_motes$"
+ district_xhk_worldark_refinery_gases: "Refinery Complex - Exotic Gas Refineries"
+ district_xhk_worldark_refinery_gases_plural: "Refinery Complex - Exotic Gas Refineries"
+ district_xhk_worldark_refinery_gases_desc: "Grants access to the $district_xhk_worldark_refinery$, with jobs that produce $exotic_gases$"
+ district_xhk_worldark_refinery_crystals: "Refinery Complex - Synthetic Crystal Plants"
+ district_xhk_worldark_refinery_crystals_plural: "Refinery Complex - Synthetic Crystal Plants"
+ district_xhk_worldark_refinery_crystals_desc: "Grants access to the $district_xhk_worldark_refinery$, with jobs that produce $rare_crystals$"
+
+ ##################################################################
  # Ordinance
  ##################################################################
 
@@ -243,6 +262,9 @@
 
  zone_xhk_worldark_enforcer: "Enforcement Centers"
  zone_xhk_worldark_enforcer_desc: "Extra enforcement stations scattered around the World Ark to enforce discipline."
+
+ zone_xhk_worldark_refinery: "Resource Crucible"
+ zone_xhk_worldark_refinery_desc: "Advanced additions to the refinery allow us to produce more with less."
 
  zone_xhk_worldark_ordinance_naval: "$zone_ark_shipwright$"
  zone_xhk_worldark_ordinance_naval_desc: "$zone_ark_shipwright_desc$"

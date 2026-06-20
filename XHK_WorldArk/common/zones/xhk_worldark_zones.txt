@@ -759,6 +759,86 @@ zone_xhk_worldark_enforcer = {
     ai_priority = 10
 }
 
+## REFINERY
+###########################################################
+zone_xhk_worldark_refinery = {
+    icon = GFX_giga_district_specialization_strategic_resources
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = ""
+    }
+
+    included_building_sets = {
+        factory
+        foundry
+        industry
+    }
+
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = {
+                has_technology = tech_volatile_motes
+                is_gestalt = no
+            }
+        }
+        job_chemist_add = 30
+    }
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = {
+                has_technology = tech_volatile_motes
+                is_gestalt = yes
+            }
+        }
+        job_chemist_drone_add = 30
+    }
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = {
+                has_technology = tech_exotic_gases
+                is_gestalt = no
+            }
+        }
+        job_gas_refiner_add = 30
+    }
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = {
+                has_technology = tech_exotic_gases
+                is_gestalt = yes
+            }
+        }
+        job_gas_refiner_drone_add = 30
+    }
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = {
+                has_technology = tech_rare_crystals
+                is_gestalt = no
+            }
+        }
+        job_translucer_add = 30
+    }
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = {
+                has_technology = tech_rare_crystals
+                is_gestalt = yes
+            }
+        }
+        job_translucer_drone_add = 30
+    }
+
+    zone_sets = {
+        xhk_worldark_refinery
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+
 ## ORDINANCE
 ###########################################################
 zone_xhk_worldark_ordinance_naval = {

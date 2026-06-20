@@ -52,14 +52,7 @@ district_xhk_worldark_city = {
     conversion_ratio = 1
     convert_to = {
         district_mindlink
-        district_city
-        district_nexus
-        district_hive
-        district_hab_housing
-        district_arcology_housing
-        district_rw_city
-        district_rw_hive
-        district_rw_nexus
+        district_ark_city
     }
 
     resources = {
@@ -664,6 +657,241 @@ district_xhk_worldark_enforcer = {
 # REFINED RESOURCES
 ###############################################################################################################
 # REFINERY
+district_xhk_worldark_refinery = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_giga_refinery
+    gridbox = district_industrial
+    district_background = district_xhk_worldark_refinery
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_giga_district_strategic_resources
+
+    zone_slots = {
+        slot_xhk_worldark_refinery
+    }
+
+    potential = {
+        uses_district_set = xhk_pc_worldark
+        owner? = {
+            OR = {
+                has_technology = tech_volatile_motes
+                has_technology = tech_exotic_gases
+                has_technology = tech_rare_crystals
+            }
+        }
+    }
+    show_on_uncolonized = {
+        uses_district_set = xhk_pc_worldark
+        owner? = {
+            OR = {
+                has_technology = tech_volatile_motes
+                has_technology = tech_exotic_gases
+                has_technology = tech_rare_crystals
+            }
+        }
+    }
+    planet_modifier = {
+        planet_housing_add = 400
+    }
+
+    resources = {
+        category = planet_districts
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    # CHEMIST
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_volatile_motes
+                is_gestalt = no
+            }
+        }
+        job_chemist_add = 60
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_volatile_motes
+                is_gestalt = yes
+            }
+        }
+        job_chemist_drone_add = 60
+    }
+
+    # GAS
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_exotic_gases
+                is_gestalt = no
+            }
+        }
+        job_gas_refiner_add = 60
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_exotic_gases
+                is_gestalt = yes
+            }
+        }
+        job_gas_refiner_drone_add = 60
+    }
+
+    # CRYSTAL
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_rare_crystals
+                is_gestalt = no
+            }
+        }
+        job_translucer_add = 60
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_rare_crystals
+                is_gestalt = yes
+            }
+        }
+        job_translucer_drone_add = 60
+    }
+
+    triggered_name = {
+        text = flavor_xhk_worldark_refinery_name
+    }
+}
+# fake ones
+district_xhk_worldark_refinery_motes = {
+    zone_slots = { slot_empty }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_volatile_motes
+                is_gestalt = no
+            }
+        }
+        job_chemist_add = 60
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_volatile_motes
+                is_gestalt = yes
+            }
+        }
+        job_chemist_drone_add = 60
+    }
+
+    show_on_uncolonized = {
+        always = no
+    }
+
+    potential = {
+        always = no
+    }
+
+    prerequisites = {
+        tech_volatile_motes
+    }
+
+    show_tech_unlock_if = {
+        xhk_has_worldark_origin = yes
+    }
+}
+district_xhk_worldark_refinery_gases = {
+    zone_slots = { slot_empty }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_exotic_gases
+                is_gestalt = no
+            }
+        }
+        job_gas_refiner_add = 60
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_exotic_gases
+                is_gestalt = yes
+            }
+        }
+        job_gas_refiner_drone_add = 60
+    }
+
+    show_on_uncolonized = {
+        always = no
+    }
+
+    potential = {
+        always = no
+    }
+
+    prerequisites = {
+        tech_exotic_gases
+    }
+
+    show_tech_unlock_if = {
+        xhk_has_worldark_origin = yes
+    }
+}
+district_xhk_worldark_refinery_crystals = {
+    zone_slots = { slot_empty }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_rare_crystals
+                is_gestalt = no
+            }
+        }
+        job_translucer_add = 60
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_rare_crystals
+                is_gestalt = yes
+            }
+        }
+        job_translucer_drone_add = 60
+    }
+
+
+    show_on_uncolonized = {
+        always = no
+    }
+
+    potential = {
+        always = no
+    }
+
+    prerequisites = {
+        tech_rare_crystals
+    }
+
+    show_tech_unlock_if = {
+        xhk_has_worldark_origin = yes
+    }
+}
 
 # SUPERTENSILES
 

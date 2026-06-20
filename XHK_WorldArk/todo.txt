@@ -1,8 +1,6 @@
 
 do loc for everything
 make the techs tied to a situation?
-finish the important districts
-    refinery
 find out how to make the ship bigger
     arkship_harvest_resources
     make my own action
@@ -17,6 +15,7 @@ make sure the techs actually work
 think of mega integration
 write documentation
 survery speed zone
+upgrade storage zone with waystation extraction bonus
 
 I HAVE TO OVERWRITE THE SHIP SECTIONS OR THEY WILL CRASH
 
