@@ -7,18 +7,18 @@
 
  #######################################################################################################################
  # Situation log category
- xhk_worldark_situation_category: "World Ark Matters"
+ xhk_worldark_situation_category: "$xhk_pc_worldark$ Matters"
 
  # Situation
- xhk_worldark_situation_main: "World Ark Status"
- xhk_worldark_situation_main_desc: "This situation serves to track the special status of the World Ark and any special buffs / debuffs that are applied to it."
+ xhk_worldark_situation_main: "$xhk_pc_worldark$ Status"
+ xhk_worldark_situation_main_desc: "This situation serves to track the special status of the $xhk_pc_worldark$ and any special buffs / debuffs that are applied to it."
 
  xhk_worldark_situation_main_stage: "Normal Stage"
  xhk_worldark_situation_main_approach: "Standard Approach"
 
  #######################################################################################################################
  # Documentation
- xhk_worldark_docs_chain_title: "World Ark Documentation"
+ xhk_worldark_docs_chain_title: "$xhk_pc_worldark$ Documentation"
  xhk_worldark_docs_chain_desc: ""The §Y$xhk_pc_worldark$§! origin provides a \"One Planet\" play style, with heavy focus on a single capital arkship. You cannot build another arkship, and any that you gain are scuttled to buff the capital arkship. The $xhk_pc_worldark$ gains access to many powerful districts, modules, systems, and decisions."
 
  #

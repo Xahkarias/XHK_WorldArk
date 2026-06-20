@@ -1,9 +1,9 @@
 ﻿l_english:
  trait_auto_xhk_pc_worldark_preference:0 "$xhk_pc_worldark$ Mutations"
 
- origin_xhk_worldark: "The World Ark"
- origin_xhk_worldark_desc: "The World Ark is everything to this civilization. Generations have been born, have lived, and have died on it, and many more will do so in the future. They live on a vast, expandable, and mobile home, ready to visit wrath or grace on anyone who opposes them."
- origin_xhk_worldark_tooltip_default_effects: "Start on the §GWorld Ark§!, a massive §Iexpandable Arkship§! with many §Iunique districts, modules, and systems§!.\n\nHowever, they §Rcannot gain another Arkship or settle§!, thus their fate rests on utilizing their massive home well.\n\n\nNOTE: The Recursive Learners trait §RDOES NOT APPLY§! on the World Ark."
+ origin_xhk_worldark: "The $xhk_pc_worldark$"
+ origin_xhk_worldark_desc: "The $xhk_pc_worldark$ is everything to this civilization. Generations have been born, have lived, and have died on it, and many more will do so in the future. They live on a vast, expandable, and mobile home, ready to visit wrath or grace on anyone who opposes them."
+ origin_xhk_worldark_tooltip_default_effects: "Start on the §G$xhk_pc_worldark$§!, a massive §Iexpandable Arkship§! with many §Iunique districts, modules, and systems§!.\n\nHowever, they §Rcannot gain another Arkship or settle§!, thus their fate rests on utilizing their massive home well.\n\n\nNOTE: The Recursive Learners trait §RDOES NOT APPLY§! on the $xhk_pc_worldark$."
 
  civic_tooltip_not_deep_sleep: "Does §RNOT§! have an Deep Sleep Civic"
- worldark_not_compat_deep_sleep: "Does §RNOT§! have the World Ark Origin"
+ worldark_not_compat_deep_sleep: "Does §RNOT§! have the $xhk_pc_worldark$ Origin"

@@ -147,7 +147,7 @@
 
  district_xhk_worldark_refinery: "Refinery Complex"
  district_xhk_worldark_refinery_plural: "Refinery Complexes"
- district_xhk_worldark_refinery_desc: "Nestled deep in the bowels of the World Ark, these specialized refineries allow for creation of specialized resources we would otherwise have to search the void for."
+ district_xhk_worldark_refinery_desc: "Nestled deep in the bowels of the $xhk_pc_worldark$, these specialized refineries allow for creation of specialized resources we would otherwise have to search the void for."
  flavor_xhk_worldark_refinery_name: "$zone_xhk_worldark_refinery$"
 
  district_xhk_worldark_refinery_motes: "Refinery Complex - Chemical Plants"
@@ -261,7 +261,7 @@
  zone_xhk_worldark_amenities_dystopian_desc: "A place for the deserving to unwind and relax, surrounded by the opulence befitting their station."
 
  zone_xhk_worldark_enforcer: "Enforcement Centers"
- zone_xhk_worldark_enforcer_desc: "Extra enforcement stations scattered around the World Ark to enforce discipline."
+ zone_xhk_worldark_enforcer_desc: "Extra enforcement stations scattered around the $xhk_pc_worldark$ to enforce discipline."
 
  zone_xhk_worldark_refinery: "Resource Crucible"
  zone_xhk_worldark_refinery_desc: "Advanced additions to the refinery allow us to produce more with less."
@@ -292,13 +292,26 @@
  d_xhk_worldark_base_desc: "Where the great $xhk_pc_worldark$ is helmed."
 
  d_xhk_worldark_harvest_size: "Planetary Harvest Expansion"
- d_xhk_worldark_harvest_size_desc: "The World Ark has expanded by consuming those boring celestial bodies which boorishly move around their parent for eons."
+ d_xhk_worldark_harvest_size_desc: "The $xhk_pc_worldark$ has expanded by consuming those boring celestial bodies which boorishly move around their parent for eons."
 
  d_xhk_worldark_consume_ark_size: "Arkship Consumption Expansion"
- d_xhk_worldark_consume_ark_size_desc: "The World Ark has expanded by consuming the weaker Arkships of those who we have defeated in combat."
+ d_xhk_worldark_consume_ark_size_desc: "The $xhk_pc_worldark$ has expanded by consuming the weaker Arkships of those who we have defeated in combat."
+
+ d_xhk_worldark_expansion_tracker: "$xhk_pc_worldark$ Expansion Tracker"
+ d_xhk_worldark_expansion_tracker_desc: "Tracks bonuses gained from expanding the $xhk_pc_worldark$."
+
+ d_xhk_worldark_pop_standard: "$xhk_pc_worldark$ Population Growth - Standard"
+ d_xhk_worldark_pop_standard_desc: "Manages additional population growth capabilities."
+ d_xhk_worldark_pop_hive: "$xhk_pc_worldark$ Population Growth - Hive"
+ d_xhk_worldark_pop_hive_desc: "$d_xhk_worldark_pop_standard_desc$"
+ d_xhk_worldark_pop_machine: "$xhk_pc_worldark$ Population Growth - Machine"
+ d_xhk_worldark_pop_machine_desc: "$d_xhk_worldark_pop_standard_desc$"
+ d_xhk_worldark_pop_indiv_machine: "$xhk_pc_worldark$ Population Growth - Individualist Machine"
+ d_xhk_worldark_pop_indiv_machine_desc: "$d_xhk_worldark_pop_standard_desc$"
 
  #########################################################################################################################################################################
  # MODIFIERS
  #########################################################################################################################################################################
-
+ mod_xhk_worldark_expansion_count: "Number of Expansions"
+ mod_xhk_worldark_growth_job_add: "Bonus Growth Jobs"
  mod_district_xhk_worldark_amenities_dystopian_max_add: "Max §G$district_xhk_worldark_amenities_dystopian_plural$§!"

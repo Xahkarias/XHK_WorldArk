@@ -1,0 +1,14 @@
+xhk_worldark_growth_job_add = {
+    icon = mod_job_giga_extra_healthcare_add
+    max_decimals = 2
+    good = yes
+    category = colony
+}
+
+xhk_worldark_expansion_count = {
+    icon = mod_count
+    neutral = yes
+    max_decimals = 0
+    category = colony
+    no_diff = yes
+}

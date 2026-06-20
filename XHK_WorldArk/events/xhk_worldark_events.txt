@@ -12,6 +12,10 @@ carrier_event = {
                 save_event_target_as = arkship
             }
             event_target:arkship.colony = {
+                change_variable = {
+                    which = xhk_worldark_expansions
+                    value = 1
+                }
                 add_deposit = d_xhk_worldark_harvest_size
             }
         }
@@ -60,6 +64,10 @@ country_event = {
         while = {
             count = value:xhk_worldark_num_arkships_minus_1
             capital_scope = {
+                change_variable = {
+                    which = xhk_worldark_expansions
+                    value = 4
+                }
                 add_deposit = d_xhk_worldark_consume_ark_size
             }
         }

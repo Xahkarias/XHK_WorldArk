@@ -338,6 +338,34 @@ country_event = {
 
             # control deposit
             add_deposit = d_xhk_worldark_base
+
+            if = {
+                limit = {
+                    owner  = { is_machine_empire = yes }
+                }
+                add_deposit = d_xhk_worldark_pop_machine
+            }
+            else_if = {
+                limit = {
+                    owner  = { is_hive_empire = yes }
+                }
+                add_deposit = d_xhk_worldark_pop_hive
+            }
+            else_if = {
+                limit = {
+                    owner  = { is_individual_machine = yes }
+                }
+                add_deposit = d_xhk_worldark_pop_indiv_machine
+            }
+            else = {
+                add_deposit = d_xhk_worldark_pop_standard
+            }
+
+            set_variable = {
+                which = xhk_worldark_expansions
+                value = 0
+            }
+            add_deposit = d_xhk_worldark_expansion_tracker
         }
 
         # homeworld fix

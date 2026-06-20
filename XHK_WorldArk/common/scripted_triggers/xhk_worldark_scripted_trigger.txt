@@ -58,3 +58,20 @@ xhk_worldark_is_valid_size_harvest_target = {
         }
     }
 }
+
+
+# updated versions of frameworld triggers
+xhk_worldark_has_robot_assembly_facilities = {
+    or = {
+        has_building = building_robot_assembly_plant
+        has_building = building_robot_assembly_complex
+        has_building = building_fe_assembly_1
+        has_building = building_fe_assembly_2
+    }
+}
+xhk_worldark_has_cloning_assembly_facilities = {
+    has_building = building_clone_vats
+}
+xhk_worldark_has_zombie_assembly_facilities = {
+    has_building = building_posthumous_employment_center
+}

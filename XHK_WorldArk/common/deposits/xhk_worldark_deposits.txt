@@ -11,6 +11,10 @@ d_xhk_worldark_base = {
         pop_environment_tolerance = 1.0
     }
 
+    ########################################################################################################
+    # DISTRICT CONTROL
+    ########################################################################################################
+
     # dystopian limit
     triggered_planet_modifier = {
         potential = {
@@ -24,7 +28,328 @@ d_xhk_worldark_base = {
     }
 }
 
-d_xhk_worldark_harvest_size = {
+d_xhk_worldark_pop_standard = {
+    is_for_colonizable = yes
+    icon = d_frameworld_core
+    category = deposit_cat_rare
+    use_for_min_max_adjustments = yes
+
+    drop_weight = { weight = 0 }
+    potential = { always = no }
+
+    ################### NORMAL BIO EMPIRE ######################
+
+    # basic chud
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_regular_empire = yes
+                xhk_has_worldark_origin = yes
+                is_synthetic_empire = no
+            }
+        }
+        job_healthcare_add = 1
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+
+    # basic with robots
+    # replaces half of the healthcare jobs
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_regular_empire = yes
+                xhk_has_worldark_origin = yes
+                is_synthetic_empire = no
+            }
+            xhk_worldark_has_robot_assembly_facilities = yes
+        }
+        job_healthcare_add = -0.5
+        job_roboticist_add = 0.5
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+
+    # basic with clones
+    triggered_planet_pop_group_modifier_for_all = {
+        potential = {
+            exists = planet
+            planet = {
+                xhk_worldark_has_cloning_assembly_facilities = yes
+                exists = owner
+                owner = {
+                    is_regular_empire = yes
+                    xhk_has_worldark_origin = yes
+                    is_individual_machine = no
+                    is_synthetic_empire = no
+                }
+                # added stop if population controls
+                NOT = { has_modifier = planet_population_control }
+            }
+        }
+        bonus_pop_growth = 0.005
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+    triggered_planet_modifier = {
+        potential = {
+            xhk_worldark_has_cloning_assembly_facilities = yes
+            exists = owner
+            owner = {
+                is_regular_empire = yes
+                xhk_has_worldark_origin = yes
+                is_individual_machine = no
+                is_synthetic_empire = no
+            }
+            # added stop if population controls
+            NOT = { has_modifier = planet_population_control }
+        }
+        fake_pop_growth_mod = 0.005
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_regular_empire = yes
+                xhk_has_worldark_origin = yes
+                is_individual_machine = no
+                is_synthetic_empire = no
+            }
+            xhk_worldark_has_cloning_assembly_facilities = yes
+        }
+        job_healthcare_add = -0.5
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+
+    # has cloning ascension, increase cloning
+    triggered_planet_pop_group_modifier_for_all = {
+        potential = {
+            exists = planet
+            planet = {
+                xhk_worldark_has_cloning_assembly_facilities = yes
+                exists = owner
+                owner = {
+                    is_regular_empire = yes
+                    xhk_has_worldark_origin = yes
+                    is_individual_machine = no
+                    is_synthetic_empire = no
+                    has_cloning_tradition = yes
+                }
+                # added stop if population controls
+                NOT = { has_modifier = planet_population_control }
+            }
+        }
+        bonus_pop_growth = 0.005
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+    triggered_planet_modifier = {
+        potential = {
+            xhk_worldark_has_cloning_assembly_facilities = yes
+            exists = owner
+            owner = {
+                is_regular_empire = yes
+                xhk_has_worldark_origin = yes
+                is_individual_machine = no
+                is_synthetic_empire = no
+                has_cloning_tradition = yes
+            }
+            # added stop if population controls
+            NOT = { has_modifier = planet_population_control }
+        }
+        fake_pop_growth_mod = 0.005
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+
+    # synths
+    # just replace them all
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_regular_empire = yes
+                xhk_has_worldark_origin = yes
+                is_individual_machine = no
+                is_synthetic_empire = yes
+            }
+        }
+        job_roboticist_add = 1
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+
+    # zombies
+    # tack on top
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_regular_empire = yes
+                xhk_has_worldark_origin = yes
+                is_individual_machine = no
+            }
+            xhk_worldark_has_zombie_assembly_facilities = yes
+        }
+        job_reassigner_add = 0.25
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+}
+
+d_xhk_worldark_pop_hive = {
+    is_for_colonizable = yes
+    icon = d_frameworld_core
+    category = deposit_cat_rare
+    use_for_min_max_adjustments = yes
+
+    drop_weight = { weight = 0 }
+    potential = { always = no }
+
+    ################### HIVE ######################
+
+    # spawner
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_hive_empire = yes
+                xhk_has_worldark_origin = yes
+            }
+        }
+        job_spawning_drone_add = 1
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+
+    # cybernetic hive
+    # replaces half of the healthcare jobs
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_hive_empire = yes
+                xhk_has_worldark_origin = yes
+                is_cyborg_empire = yes
+            }
+        }
+        job_spawning_drone_add = -0.5
+        job_augmentor_drone_add = 0.5
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+}
+
+d_xhk_worldark_pop_machine = {
+    is_for_colonizable = yes
+    icon = d_frameworld_core
+    category = deposit_cat_rare
+    use_for_min_max_adjustments = yes
+
+    drop_weight = { weight = 0 }
+    potential = { always = no }
+
+    ################### MACHINE ######################
+
+    # spawner
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_machine_empire = yes
+                xhk_has_worldark_origin = yes
+            }
+        }
+        job_replicator_add = 1
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+
+    # cybernetic hive
+    # replaces half of the healthcare jobs
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_machine_empire = yes
+                xhk_has_worldark_origin = yes
+                has_valid_civic = civic_machine_assimilator
+                has_tradition = tr_cybernetics_assimilator_augmentation_centers
+            }
+        }
+        job_replicator_add = -0.5
+        job_augmentor_drone_add = 0.5
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+}
+
+d_xhk_worldark_pop_indiv_machine = {
+    is_for_colonizable = yes
+    icon = d_frameworld_core
+    category = deposit_cat_rare
+    use_for_min_max_adjustments = yes
+
+    drop_weight = { weight = 0 }
+    potential = { always = no }
+
+    ################### INDIVID MACHINE ######################
+
+    # spawner
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_individual_machine = yes
+                xhk_has_worldark_origin = yes
+            }
+        }
+        job_replicator_add = 1
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+
+    # if clone, replaces a third of the jobs
+    triggered_planet_pop_group_modifier_for_all = {
+        potential = {
+            exists = planet
+            planet = {
+                xhk_worldark_has_cloning_assembly_facilities = yes
+                exists = owner
+                owner = {
+                    is_individual_machine = yes
+                    xhk_has_worldark_origin = yes
+                }
+                # added stop if population controls
+                NOT = { has_modifier = planet_population_control }
+            }
+        }
+        bonus_pop_growth = 0.0033
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+    triggered_planet_modifier = {
+        potential = {
+            xhk_worldark_has_cloning_assembly_facilities = yes
+            exists = owner
+            owner = {
+                is_individual_machine = yes
+                xhk_has_worldark_origin = yes
+            }
+            # added stop if population controls
+            NOT = { has_modifier = planet_population_control }
+        }
+        fake_pop_growth_mod = 0.0033
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_individual_machine = yes
+                xhk_has_worldark_origin = yes
+            }
+            xhk_worldark_has_cloning_assembly_facilities = yes
+        }
+        job_replicator_add = -0.33
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+}
+
+########################################################
+# EXPANSION
+
+d_xhk_worldark_expansion_tracker = {
     is_for_colonizable = yes
     icon = d_engineering_research
     category = deposit_cat_rare
@@ -33,21 +358,35 @@ d_xhk_worldark_harvest_size = {
     drop_weight = { weight = 0 }
     potential = { always = no }
 
-    planet_modifier = {
-        planet_artificial_max_districts_add = 1
+    triggered_planet_modifier = {
+        potential = { always = yes }
+        xhk_worldark_expansion_count = 1
+        multiplier = xhk_worldark_expansions
     }
+
+    triggered_planet_modifier = {
+        planet_artificial_max_districts_add = 1
+        xhk_worldark_growth_job_add = 10
+        multiplier = xhk_worldark_expansions
+    }
+}
+
+d_xhk_worldark_harvest_size = {
+    is_for_colonizable = yes
+    icon = d_ship_in_orbit
+    category = deposit_cat_misc
+    use_for_min_max_adjustments = yes
+
+    drop_weight = { weight = 0 }
+    potential = { always = no }
 }
 
 d_xhk_worldark_consume_ark_size = {
     is_for_colonizable = yes
-    icon = d_engineering_research
-    category = deposit_cat_rare
+    icon = d_ship_in_orbit
+    category = deposit_cat_misc
     use_for_min_max_adjustments = yes
 
     drop_weight = { weight = 0 }
     potential = { always = no }
-
-    planet_modifier = {
-        planet_artificial_max_districts_add = 4
-    }
 }
