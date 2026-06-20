@@ -708,7 +708,7 @@ guiTypes = {
             containerWindowType = {
                 # XHK +200 Y
                 name = "view_contract_header_container"
-				position = { x = 608 y = 795 }
+				position = { x = 648 y = 795 }
                 size = { width = 220 height = 36 }
                 background = {
                     name = "view_contract_header_bg"
@@ -731,7 +731,7 @@ guiTypes = {
                 name = "view_contract"
                 size = { x = 170 y = 42 }
                 # XHK +200 Y
-				position = { x = 633 y = 836 }
+				position = { x = 673 y = 836 }
                 quadTextureSprite = "GFX_tiling_button_standard_seethrough"
                 buttonFont = "font_text_14"
                 clicksound = "tab_click"
@@ -739,7 +739,7 @@ guiTypes = {
             }
             containerWindowType = {
                 name = "lower_systems_header_container"
-                position = { x = 702 y = 201 }
+                position = { x = 742 y = 201 }
                 size = { width = 116 height = 36 }
                 background = {
                     name = "lower_systems_header_bg"
@@ -759,7 +759,7 @@ guiTypes = {
             }
             gridBoxType = {
                 name = "arkship_lower_buildings_grid"
-                position = { x = 702 y = 240 }
+                position = { x = 742 y = 240 }
                 size = { width = 120 height = 180 }
                 format = "UPPER_LEFT"
                 slotSize = { width = 58 height = 58 }
