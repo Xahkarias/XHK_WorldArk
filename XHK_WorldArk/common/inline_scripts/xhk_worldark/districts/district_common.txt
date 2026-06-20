@@ -7,5 +7,5 @@ show_on_uncolonized = {
     $POTENTIAL$
 }
 planet_modifier = {
-    planet_housing_add = 250
+    planet_housing_add = 400
 }

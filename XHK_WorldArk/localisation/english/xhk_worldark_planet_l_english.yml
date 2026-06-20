@@ -135,6 +135,13 @@
  district_xhk_worldark_amenities_dystopian_limit: "$district_xhk_worldark_amenities_dystopian_plural$ are limited to §Y1§! district per §Y10,000§! £pop£ Pops\n"
 
  ##################################################################
+ # Security
+ ##################################################################
+ district_xhk_worldark_enforcer: "Security Center"
+ district_xhk_worldark_enforcer_plural: "Security Centers"
+ district_xhk_worldark_enforcer_desc: "Security forces operate from these specialized facilities, making sure that disruptive elements do not impede station functions."
+
+ ##################################################################
  # Ordinance
  ##################################################################
 
@@ -233,6 +240,9 @@
 
  zone_xhk_worldark_amenities_dystopian: "Elite Resorts"
  zone_xhk_worldark_amenities_dystopian_desc: "A place for the deserving to unwind and relax, surrounded by the opulence befitting their station."
+
+ zone_xhk_worldark_enforcer: "Enforcement Centers"
+ zone_xhk_worldark_enforcer_desc: "Extra enforcement stations scattered around the World Ark to enforce discipline."
 
  zone_xhk_worldark_ordinance_naval: "$zone_ark_shipwright$"
  zone_xhk_worldark_ordinance_naval_desc: "$zone_ark_shipwright_desc$"

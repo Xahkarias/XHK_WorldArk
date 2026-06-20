@@ -668,6 +668,97 @@ zone_xhk_worldark_amenities_dystopian = {
     ai_priority = 10
 }
 
+## ENFORCER
+###########################################################
+# standard
+zone_xhk_worldark_enforcer = {
+    icon = GFX_district_specialization_urban
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = ""
+    }
+
+    included_building_sets = {
+        government
+    }
+    include = {
+        building_fe_security_1
+        building_fe_security_2
+    }
+    # the chance of that stupid acot bug with the moving capital is super low, but never 0
+    exclude = {
+        building_colony_shelter
+        building_capital
+        building_major_capital
+        building_system_capital
+
+        building_deployment_post
+        building_machine_capital
+        building_machine_major_capital
+        building_machine_system_capital
+
+        building_hive_capital
+        building_hive_major_capital
+
+        building_hab_capital
+        building_hab_major_capital
+        building_hab_system_capital
+
+        building_resort_capital
+        building_resort_major_capital
+        building_slave_capital
+        building_slave_major_capital
+
+        building_imperial_capital
+        building_imperial_machine_capital
+        building_imperial_hive_capital
+        building_imperial_capital_wilderness
+
+        building_colony_shelter_wilderness
+        building_capital_wilderness
+        building_major_capital_wilderness
+        building_system_capital_wilderness
+    }
+
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = {
+                is_gestalt = no
+                NOT = {
+                    has_valid_civic = civic_dystopian_society
+                }
+            }
+        }
+        job_enforcer_add = 100
+    }
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = {
+                is_gestalt = no
+                has_valid_civic = civic_dystopian_society
+            }
+        }
+        job_dystopian_enforcer_add = 100
+    }
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = {
+                is_gestalt = yes
+            }
+        }
+        job_patrol_drone_add = 100
+    }
+
+    zone_sets = {
+        xhk_worldark_enforcer
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+
 ## ORDINANCE
 ###########################################################
 zone_xhk_worldark_ordinance_naval = {
@@ -908,3 +999,4 @@ zone_xhk_worldark_storage = {
     }
 
 }
+# todo, give the ship mroe waystation transfer rate based on storage

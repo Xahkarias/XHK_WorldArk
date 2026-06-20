@@ -609,6 +609,56 @@ district_xhk_worldark_amenities_dystopian = {
 }
 
 # ENFORCER
+district_xhk_worldark_enforcer = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_giga_anticrime
+    gridbox = district_arcology_leisure
+    district_background = district_arcology_leisure
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_giga_district_crime
+
+    zone_slots = {
+        slot_xhk_worldark_enforcer
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        POTENTIAL = "
+            exists = owner
+            owner = {
+                has_technology = tech_colonial_centralization
+            }
+        "
+    }
+
+    resources = {
+        category = planet_districts
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    inline_script = {
+        script = jobs/enforcers_add
+        AMOUNT = 200
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { is_gestalt = yes }
+        }
+        modifier = {
+            job_patrol_drone_add = 200
+        }
+    }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/enforcer_flavor
+    }
+}
 
 ###############################################################################################################
 # REFINED RESOURCES

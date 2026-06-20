@@ -19,3 +19,7 @@ max_buildings = $NUM_BUILDINGS$
 planet_modifier = {
     zone_building_slots_add = $NUM_BUILDINGS$
 }
+
+inline_script = {
+    script = zones/shared_city_non_urban_zone_modifiers
+}
