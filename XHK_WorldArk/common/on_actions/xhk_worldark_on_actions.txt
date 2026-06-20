@@ -11,3 +11,11 @@ on_monthly_pulse_country = {
         xhk_worldark_setup.100
     }
 }
+
+
+#### CUSTOM
+xhk_on_size_harvest = {
+    events = {
+        xhk_worldark.1
+    }
+}

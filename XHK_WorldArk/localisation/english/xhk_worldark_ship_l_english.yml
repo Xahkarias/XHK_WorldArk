@@ -17,6 +17,34 @@
  xhk_worldark_tier_7_cap:0 "$xhk_worldark_tier_7$"
  xhk_worldark_tier_8_cap:0 "$xhk_worldark_tier_8$"
 
+ ########################################################################################################
+ # SCRIPTED ACTIONS
+ ########################################################################################################
+
+ # HARVEST FOR SIZE
+ xhk_worldark_size_harvest: "Expand the World Ark"
+ xhk_worldark_size_harvest_desc: "§LThe World Ark can be expanded by consuming a significant portion of the mass of a planetary body.§!"
+ xhk_worldark_size_harvest_effect: "$XHK_SIZE_HARVEST_EFFECTS_HEADER$ $xhk_worldark_size_harvest_base_effect$ $xhk_worldark_size_harvest_planet_effect$"
+ XHK_SIZE_HARVEST_EFFECTS_HEADER: "§E£text_icon_arkship£ §YWorld Ark Expansion§! Effects:§!"
+ xhk_worldark_size_harvest_base_effect: "$TABBED_NEW_LINE$- Number of available §IDistricts§! on the §IWorld Ark§!: §G+1§!."
+ xhk_worldark_size_harvest_planet_effect: "$DOUBLE_NEW_LINE$ $PLANET_EFFECTS_HEADER$ $TABBED_NEW_LINE$- §Y$xhk_size_harvested_already$§! modifier added: $TABBED_NEW_LINE$$t$ Prevents further harvesting for expansion by a World Ark"
+ xhk_worldark_size_harvest_ship_button: "$xhk_worldark_size_harvest_effect$\n\n$xhk_worldark_size_harvest_desc$"
+ xhk_worldark_size_harvest_activity_key: "Consuming Mass"
+ xhk_worldark_size_harvest_progress_activity_key: "Consuming Mass in Progress (§Y$PROGRESS$%§!)"
+ xhk_worldark_size_harvest_progress_progress_key: "£time£ $@arkship_harvest_resources_required_progress|0$ §WDays§!"
+
+ XHK_TOAST_HARVEST_SIZE_COMPLETE_TITLE: "World Ark Expanded"
+ XHK_TOAST_HARVEST_SIZE_COMPLETE_DESC: "The §Y$FLEET$§! has expanded its size by harvesting matter from §Y$TARGET_PLANET$§!."
+
+ xhk_size_harvested_already: "Harvested for Matter by World Ark"
+ xhk_size_harvested_already_tt: "§RUnable to be harvested by a World Ark for expansion§!"
+
+ # arkship_harvesting_in_progress_tt: "$TRIGGER_FAIL$Target already has a Resource Harvesting action queued or in progress."
+
+
+ ########################################################################################################
+ ### COMPONENTS
+ ########################################################################################################
 
  xhk_worldark_spinal_hunter_cannon: "Ukonvasara Mount"
  xhk_worldark_spinal_hunter_cannon_desc: "Created not to hunt vermin, but to turn the hunters into the hunted. Its rounds shall pierce through the toughest defenses, and sunder the largest of foes."
@@ -25,3 +53,4 @@
  sm_xhk_worldark_spinal_hunter_cannon_desc: "$xhk_worldark_spinal_hunter_cannon_desc$"
 
  XHK_ARKSHIP_HUNTER_WEAPON:0 "Ukonvasara Hyperkinetic Driver"
+

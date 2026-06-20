@@ -16,3 +16,45 @@ xhk_is_worldark_starbase = {
         has_starbase_size = xhk_worldark_tier_8
     }
 }
+
+# CANNOT TARGET ASTEROIDS
+xhk_worldark_is_valid_size_harvest_target = {
+    # Scope: planet
+    # Checks that a planet is a valid target for resource harvesting actions.
+    is_star = no
+    custom_tooltip = {
+        fail_text = arkship_target_habitable_world_fail_tt
+        habitable_planet = no
+    }
+    custom_tooltip = {
+        fail_text = arkship_target_artificial_world_fail_tt
+        is_artificial = no
+    }
+    custom_tooltip = {
+        fail_text = arkship_target_ring_world_fail_tt
+        is_ringworld = no
+    }
+    custom_tooltip = {
+        fail_text = arkship_target_astral_scar_fail_tt
+        NOT = {
+            is_planet_class = pc_astral_scar
+        }
+    }
+    custom_tooltip = {
+        fail_text = arkship_target_harvestable_resources_fail_tt
+        OR = {
+            is_planet_class = pc_barren
+            is_planet_class = pc_barren_cold
+            is_planet_class = pc_broken
+            is_planet_class = pc_shattered
+            is_planet_class = pc_shattered_2
+            is_planet_class = pc_junk
+            is_planet_class = pc_gas_giant
+            is_planet_class = pc_toxic
+            is_planet_class = pc_frozen
+            is_planet_class = pc_molten
+            is_planet_class = pc_gray_goo
+            is_planet_class = pc_shrouded
+        }
+    }
+}

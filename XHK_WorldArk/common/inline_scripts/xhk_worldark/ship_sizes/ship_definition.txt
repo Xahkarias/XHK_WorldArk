@@ -56,6 +56,9 @@ rotation_speed = @arkship_rotation_speed_15_percent
 construction_offset_mult = @arkship_construction_offset_2
 collision_radius = @arkship_collision_radius_4
 
+scripted_action = {
+    xhk_worldark_size_harvest
+}
 
 resources = {
     category = starbase_arkships

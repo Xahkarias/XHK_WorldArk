@@ -1,0 +1,38 @@
+namespace = xhk_worldark
+
+# Fired by xhk_on_size_harvest
+carrier_event = {
+    id = xhk_worldark.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = { # TARGET PLANET SCOPE
+        from = {
+            every_owned_ship = {
+                save_event_target_as = arkship
+            }
+            event_target:arkship.colony = {
+                add_deposit = d_xhk_worldark_harvest_size
+            }
+        }
+
+        # from.starbase.ship.carrier = { # ARKSHIP SCOPE
+        #     add_deposit = d_xhk_worldark_harvest_size
+        # }
+
+        # forever
+        add_modifier = {
+            modifier = xhk_size_harvested_already
+        }
+
+        # TODO MAKE IT SHRINK
+
+        # Always decrease opinion of system owner
+        space_owner? = {
+            add_opinion_modifier = {
+                modifier = opinion_arkship_harvested_resources
+                who = event_target:arkship.controller
+            }
+        }
+    }
+}

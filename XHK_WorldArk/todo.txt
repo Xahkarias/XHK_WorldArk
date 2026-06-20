@@ -1,9 +1,6 @@
 
 do loc for everything
 make the techs tied to a situation?
-find out how to make the ship bigger
-    arkship_harvest_resources
-    make my own action
 kill other arkships when you get them - done
     need to make toast
     need to make event for the first time you do it
@@ -17,6 +14,7 @@ write documentation
 survery speed zone
 upgrade storage zone with waystation extraction bonus
 
+need to rename the fleet
 I HAVE TO OVERWRITE THE SHIP SECTIONS OR THEY WILL CRASH
 
 

@@ -1,0 +1,7 @@
+xhk_size_harvested_already = {
+    icon = "gfx/interface/icons/planet_modifiers/pm_arkship_harvested_resources.dds"
+    icon_frame = 3
+    #station_gatherers_produces_mult = @arkship_harvest_resources_station_penalty
+    custom_tooltip = xhk_size_harvested_already_tt
+    show_only_custom_tooltip = no
+}
