@@ -17,13 +17,17 @@ origin_xhk_worldark = {
     #     # } }
     #     #species_archetype = { NOT = { value = MACHINE } }
     # }
-    # possible = {
-    #     #species_archetype = { NOT = { value = MACHINE } }
-    #     # origin = {
-    #     #     value = origin_frameworld
-    #     #     # this is compat hazard
-    #     # }
-    # }
+    possible = {
+        civics = {
+            NOT = {
+                text = civic_tooltip_not_deep_sleep
+                value = civic_deep_sleep
+                value = civic_corporate_deep_sleep
+                value = civic_machine_deep_sleep
+                value = civic_hive_deep_sleep
+            }
+        }
+    }
 
     modifier = {
         # it's SO beneficial for frame that it should probably be nerfed real hard

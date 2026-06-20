@@ -1,11 +1,8 @@
 
 do loc for everything
 make the techs tied to a situation?
-finish the districts
+finish the important districts
     refinery
-    enforcer
-    sent metal
-    neg energy
 find out how to make the ship bigger
     arkship_harvest_resources
     make my own action
@@ -19,8 +16,9 @@ make pop growth bigger
 make sure the techs actually work
 think of mega integration
 write documentation
-check how deep sleep works
-check how recursive learners work
 survery speed zone
 
 I HAVE TO OVERWRITE THE SHIP SECTIONS OR THEY WILL CRASH
+
+
+
