@@ -11,3 +11,17 @@ message_type = {
 
     category = other
 }
+
+message_type = {
+    key = "XHK_TOAST_CONSUME_ARKSHIP_COMPLETE"
+    icon = "GFX_toast_habitat_built"
+
+    name = "XHK_TOAST_CONSUME_ARKSHIP_COMPLETE_TITLE"
+    sound = "notification"
+    ping = "ping_notification_green"
+
+    default_notification = no
+    default_toast = yes
+
+    category = other
+}

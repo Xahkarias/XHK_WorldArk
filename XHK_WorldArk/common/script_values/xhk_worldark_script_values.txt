@@ -1,0 +1,9 @@
+xhk_worldark_num_arkships_minus_1 = {
+    base = 0
+    complex_trigger_modifier = {
+        trigger = count_owned_planet
+        trigger_scope = owner
+        mode = add
+    }
+    subtract = 1
+}

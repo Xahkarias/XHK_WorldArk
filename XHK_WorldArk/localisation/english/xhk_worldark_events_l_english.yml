@@ -1,3 +1,6 @@
 ﻿l_english:
  xhk_worldark_new_capital_name:0 "[xhk_old_arkcap_colony.GetName]"
  xhk_worldark_new_fleet_name:0 "[xhk_old_arkcap_fleet.GetName]"
+
+ XHK_TOAST_CONSUME_ARKSHIP_COMPLETE_TITLE: "$XHK_TOAST_HARVEST_SIZE_COMPLETE_TITLE$"
+ XHK_TOAST_CONSUME_ARKSHIP_COMPLETE_DESC: "The §Y$PLANET$§! has expanded its size by consuming our recently acquired arkships."
