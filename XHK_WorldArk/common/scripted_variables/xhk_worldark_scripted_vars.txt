@@ -1,2 +1,2 @@
 @xhk_district_base_cost = 150
-@xhk_base_buildtime = 240
+@xhk_base_buildtime = 360

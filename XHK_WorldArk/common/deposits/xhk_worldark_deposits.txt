@@ -1,6 +1,6 @@
 d_xhk_worldark_base = {
     is_for_colonizable = yes
-    icon = d_building_complex
+    icon = d_frameworld_core
     category = deposit_cat_rare
     use_for_min_max_adjustments = yes
 
@@ -26,7 +26,7 @@ d_xhk_worldark_base = {
 
 d_xhk_worldark_harvest_size = {
     is_for_colonizable = yes
-    icon = d_arc_furnace
+    icon = d_engineering_research
     category = deposit_cat_rare
     use_for_min_max_adjustments = yes
 
@@ -40,7 +40,7 @@ d_xhk_worldark_harvest_size = {
 
 d_xhk_worldark_consume_ark_size = {
     is_for_colonizable = yes
-    icon = d_arc_furnace
+    icon = d_engineering_research
     category = deposit_cat_rare
     use_for_min_max_adjustments = yes
 
