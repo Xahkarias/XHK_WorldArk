@@ -593,6 +593,10 @@ zone_xhk_worldark_amenities = {
         building_fe_clinic_2
         building_fe_entertainment_1
         building_fe_entertainment_2
+        galactic_history_holomuseum
+        aesthetic_wonders_holomuseum
+        xeno_geology_holomuseum
+
 
         #PD
         building_pd_eludium_floating_resort
@@ -643,6 +647,9 @@ zone_xhk_worldark_amenities_dystopian = {
         building_fe_clinic_2
         building_fe_entertainment_1
         building_fe_entertainment_2
+        galactic_history_holomuseum
+        aesthetic_wonders_holomuseum
+        xeno_geology_holomuseum
 
         #PD
         building_pd_eludium_floating_resort

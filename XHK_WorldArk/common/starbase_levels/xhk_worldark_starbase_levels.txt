@@ -74,7 +74,7 @@ starbase_level_xhk_worldark_tier_5 = {
         1 2 3 4 5 6	7 8	9 10 12 13 14 # Regular slots
     }
     building_slots = {
-        1 2 3 4 5 6 7 8 9 10 11 12 13 14
+        1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
         lower_1 lower_2 lower_3 lower_4
     }
 }

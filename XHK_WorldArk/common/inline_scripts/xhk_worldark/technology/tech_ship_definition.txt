@@ -3,12 +3,12 @@ potential = {
     has_origin = origin_xhk_worldark
 }
 
-# prereqfor_desc = {
-#     ship = {
-#         title = "TECH_UNLOCK_CIVILIAN_ARKSHIP_CONSTRUCTION_TITLE"
-#         desc = "TECH_UNLOCK_CIVILIAN_ARKSHIP_CONSTRUCTION_DESC"
-#     }
-# }
+prereqfor_desc = {
+    ship = {
+        title = "XHK_TECH_UPGRADE_WORLDARK_$TIER$_TITLE"
+        desc = "XHK_TECH_UPGRADE_WORLDARK_$TIER$_DESC"
+    }
+}
 
 # ai_weight = {
 #     modifier = {

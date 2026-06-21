@@ -6,6 +6,7 @@ xhk_tech_worldark_1 = {
 
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
+        TIER = 1
     }
 
     weight = 1000
@@ -22,6 +23,7 @@ xhk_tech_worldark_2 = {
 
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
+        TIER = 2
     }
 
     weight = 500
@@ -41,6 +43,7 @@ xhk_tech_worldark_3 = {
     weight = 400
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
+        TIER = 3
     }
 
     prerequisites = { "xhk_tech_worldark_2" }
@@ -55,6 +58,7 @@ xhk_tech_worldark_4 = {
     weight = 300
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
+        TIER = 4
     }
 
     modifier = {
@@ -73,6 +77,7 @@ xhk_tech_worldark_5 = {
     weight = 300
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
+        TIER = 5
     }
 
     prerequisites = { "xhk_tech_worldark_4" }
@@ -87,6 +92,7 @@ xhk_tech_worldark_6 = {
     weight = 300
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
+        TIER = 6
     }
 
     modifier = {
@@ -104,6 +110,7 @@ xhk_tech_worldark_7 = {
 
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
+        TIER = 7
     }
 
     weight = 200
@@ -119,6 +126,7 @@ xhk_tech_worldark_8 = {
     weight = 200
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
+        TIER = 8
     }
 
     modifier = {

@@ -25,3 +25,12 @@
  xhk_tech_worldark_6_desc: "Unlocks the $xhk_pc_worldark$ Tier VI Upgrade"
  xhk_tech_worldark_7_desc: "Unlocks the $xhk_pc_worldark$ Tier VII Upgrade"
  xhk_tech_worldark_8_desc: "Unlocks the $xhk_pc_worldark$ Tier VIII Upgrade"
+
+ XHK_TECH_UPGRADE_WORLDARK_1_TITLE: "$xhk_tech_worldark_1_desc$"
+ XHK_TECH_UPGRADE_WORLDARK_2_TITLE: "$xhk_tech_worldark_2_desc$"
+ XHK_TECH_UPGRADE_WORLDARK_3_TITLE: "$xhk_tech_worldark_3_desc$"
+ XHK_TECH_UPGRADE_WORLDARK_4_TITLE: "$xhk_tech_worldark_4_desc$"
+ XHK_TECH_UPGRADE_WORLDARK_5_TITLE: "$xhk_tech_worldark_5_desc$\nIncreases §GMax Districts§! gained from §I$xhk_worldark_size_harvest$§! by §G+1§!."
+ XHK_TECH_UPGRADE_WORLDARK_6_TITLE: "$xhk_tech_worldark_6_desc$"
+ XHK_TECH_UPGRADE_WORLDARK_7_TITLE: "$xhk_tech_worldark_7_desc$"
+ XHK_TECH_UPGRADE_WORLDARK_8_TITLE: "$xhk_tech_worldark_8_desc$"
