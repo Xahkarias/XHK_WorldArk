@@ -45,3 +45,75 @@ is_arkship_starbase = {
         is_ship_size = xhk_worldark_tier_8
     }
 }
+
+technician_is_fuel_chemist_trigger = {
+    planet = {
+        OR = {
+            has_zone = { zone = zone_ark_engine_bypass }
+            has_zone = { zone = zone_xhk_worldark_reactshield }
+        }
+    }
+}
+
+technician_is_shield_tuner_trigger = {
+    planet = {
+        OR = {
+            has_zone = { zone = zone_ark_shield_overloader }
+            has_zone = { zone = zone_xhk_worldark_reactshield }
+        }
+    }
+}
+
+metallurgist_is_void_forge_trigger = {
+    planet = {
+        OR = {
+            has_zone = { zone = zone_ark_military_eco }
+            has_zone = { zone = zone_xhk_worldark_voidforge }
+        }
+    }
+}
+
+soldier_is_shipwright_trigger = {
+    planet = {
+        OR = {
+            has_zone = { zone = zone_ark_shipwright }
+            has_zone = { zone = zone_xhk_worldark_ordinance_naval }
+        }
+    }
+}
+
+soldier_is_missile_crew_trigger = {
+    planet = {
+        OR = {
+            has_zone = { zone = zone_ark_missile_silos }
+            has_zone = { zone = zone_xhk_worldark_ordinance_missile_silos }
+        }
+    }
+}
+
+soldier_is_ammunition_loader_trigger = {
+    planet = {
+        OR = {
+            has_zone = { zone = zone_ark_ammunition_lines }
+            has_zone = { zone = zone_xhk_worldark_ordinance_ammunition_lines }
+        }
+    }
+}
+
+soldier_is_laser_gunner_trigger = {
+    planet = {
+        OR = {
+            has_zone = { zone = zone_ark_laser_capacitors }
+            has_zone = { zone = zone_xhk_worldark_ordinance_laser_capacitors }
+        }
+    }
+}
+
+soldier_is_flight_deck_crew_trigger = {
+    planet = {
+        OR = {
+            has_zone = { zone = zone_ark_flight_decks }
+            has_zone = { zone = zone_xhk_worldark_ordinance_flight_decks }
+        }
+    }
+}
