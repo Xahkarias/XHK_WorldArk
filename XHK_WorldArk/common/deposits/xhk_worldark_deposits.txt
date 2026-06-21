@@ -87,7 +87,7 @@ d_xhk_worldark_pop_standard = {
                 NOT = { has_modifier = planet_population_control }
             }
         }
-        bonus_pop_growth = 0.005
+        bonus_pop_growth = 0.0075
         multiplier = modifier:xhk_worldark_growth_job_add
     }
     triggered_planet_modifier = {
@@ -103,7 +103,7 @@ d_xhk_worldark_pop_standard = {
             # added stop if population controls
             NOT = { has_modifier = planet_population_control }
         }
-        fake_pop_growth_mod = 0.005
+        fake_pop_growth_mod = 0.0075
         multiplier = modifier:xhk_worldark_growth_job_add
     }
     triggered_planet_modifier = {
@@ -139,7 +139,7 @@ d_xhk_worldark_pop_standard = {
                 NOT = { has_modifier = planet_population_control }
             }
         }
-        bonus_pop_growth = 0.005
+        bonus_pop_growth = 0.0075
         multiplier = modifier:xhk_worldark_growth_job_add
     }
     triggered_planet_modifier = {
@@ -156,7 +156,7 @@ d_xhk_worldark_pop_standard = {
             # added stop if population controls
             NOT = { has_modifier = planet_population_control }
         }
-        fake_pop_growth_mod = 0.005
+        fake_pop_growth_mod = 0.0075
         multiplier = modifier:xhk_worldark_growth_job_add
     }
 
@@ -315,7 +315,7 @@ d_xhk_worldark_pop_indiv_machine = {
                 NOT = { has_modifier = planet_population_control }
             }
         }
-        bonus_pop_growth = 0.0033
+        bonus_pop_growth = 0.005
         multiplier = modifier:xhk_worldark_growth_job_add
     }
     triggered_planet_modifier = {
@@ -329,7 +329,7 @@ d_xhk_worldark_pop_indiv_machine = {
             # added stop if population controls
             NOT = { has_modifier = planet_population_control }
         }
-        fake_pop_growth_mod = 0.0033
+        fake_pop_growth_mod = 0.005
         multiplier = modifier:xhk_worldark_growth_job_add
     }
     triggered_planet_modifier = {
@@ -366,7 +366,7 @@ d_xhk_worldark_expansion_tracker = {
 
     triggered_planet_modifier = {
         planet_artificial_max_districts_add = 1
-        xhk_worldark_growth_job_add = 10
+        xhk_worldark_growth_job_add = 15
         multiplier = xhk_worldark_expansions
     }
 }
