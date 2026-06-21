@@ -6,3 +6,20 @@ defined_text = {
     }
     default = xhk_harvest_plus1
 }
+
+defined_text = {
+    name = xhk_worldark_getPopulationDocumentation
+    text = {
+        trigger = { is_individual_machine = yes }
+        localization_key = xhk_worldark_docs_population_desc_indiv_machine
+    }
+    text = {
+        trigger = { is_machine_empire = yes }
+        localization_key = xhk_worldark_docs_population_desc_machine
+    }
+    text = {
+        trigger = { is_hive_empire = yes }
+        localization_key = xhk_worldark_docs_population_desc_hive
+    }
+    default = xhk_worldark_docs_population_desc_norm
+}

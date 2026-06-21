@@ -311,7 +311,7 @@
 
  d_xhk_worldark_logistic_ship_bay: "Logistic Ship Control Room"
  d_xhk_worldark_logistic_ship_bay_desc: "A facility to help coordinate and command our web of logistic ships."
- xhk_worldark_increase_logistic_ship_tt: "§G+1§! £text_construction_ship_map£ Logistic Ship Cap\n§G+1§! £text_districtadd£Maximum Districts"
+ xhk_worldark_increase_logistic_ship_tt: "§G+1§! £construction_ship£ Logistic Ship Cap\n§G+1§! £districtadd£Maximum Districts"
 
 
  #########################################################################################################################################################################
@@ -319,7 +319,7 @@
  #########################################################################################################################################################################
 
  xhk_worldark_add_logistics_ship: "Increase Logistic Ship Capacity"
- xhk_worldark_add_logistics_ship_desc: "Increase £text_construction_ship_map£ Logistic Ship Capacity through the streamlining of command and control flow and harvesting schedules."
+ xhk_worldark_add_logistics_ship_desc: "Increase £construction_ship£ Logistic Ship Capacity through the streamlining of command and control flow and harvesting schedules."
 
  #########################################################################################################################################################################
  # MODIFIERS
