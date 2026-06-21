@@ -6,4 +6,4 @@ tags={
 	"Buildings"
 }
 name="XHK WorldArk"
-supported_version="v4.3.7"
+supported_version="v4.4.*"
