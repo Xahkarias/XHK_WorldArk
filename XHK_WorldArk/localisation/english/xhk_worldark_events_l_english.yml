@@ -23,13 +23,14 @@
 
  #
  xhk_worldark_docs_expansion: "1) Expansion"
- xhk_worldark_docs_expansion_desc: "$xhk_worldark_docs_expansion_desc_1$$xhk_worldark_docs_expansion_desc_2$$xhk_worldark_docs_expansion_desc_3$$xhk_worldark_docs_expansion_desc_4$$xhk_worldark_docs_expansion_desc_5$$xhk_worldark_docs_expansion_desc_6$"
+ xhk_worldark_docs_expansion_desc: "$xhk_worldark_docs_expansion_desc_1$$xhk_worldark_docs_expansion_desc_2$$xhk_worldark_docs_expansion_desc_3$$xhk_worldark_docs_expansion_desc_4$$xhk_worldark_docs_expansion_desc_5$$xhk_worldark_docs_expansion_desc_6$$xhk_worldark_docs_expansion_desc_7$"
  xhk_worldark_docs_expansion_desc_1: "The $xhk_pc_worldark$ expands through the dismantlement of other stellar objects. These are listed below:"
- xhk_worldark_docs_expansion_desc_2: "$TABBED_NEW_LINE$- §G+1 District§! from the special §I$xhk_worldark_size_harvest$§! arkship action, when used on a stellar body."
- xhk_worldark_docs_expansion_desc_3: "$TABBED_NEW_LINE$    Increases to §G+2 District§! when upgraded to at least §I$xhk_worldark_tier_5$§!."
- xhk_worldark_docs_expansion_desc_4: "$TABBED_NEW_LINE$- §G+4 Districts§! from each arkship claimed from another empire after a war, which are promptly dismantled."
- xhk_worldark_docs_expansion_desc_5: "$TABBED_NEW_LINE$- §G+5 Districts§! per $xhk_pc_worldark$ level. These do §RNOT grant extra growth jobs§!."
- xhk_worldark_docs_expansion_desc_6: "\n\nThe §I$xhk_worldark_size_harvest$§! action should be taken frequently in order to continue to grow the $xhk_pc_worldark$."
+ xhk_worldark_docs_expansion_desc_2: "$TABBED_NEW_LINE$- §G+1 £text_districtadd£District§! from the special §I$xhk_worldark_size_harvest$§! arkship action, when used on a stellar body."
+ xhk_worldark_docs_expansion_desc_3: "$TABBED_NEW_LINE$      Increases to §G+2 £text_districtadd£District§! when upgraded to at least §I$xhk_worldark_tier_5$§!."
+ xhk_worldark_docs_expansion_desc_4: "$TABBED_NEW_LINE$- §G+4 £text_districtadd£Districts§! from each arkship claimed from another empire after a war, which are promptly dismantled."
+ xhk_worldark_docs_expansion_desc_5: "$TABBED_NEW_LINE$- §G+1 £text_districtadd£District§! and §G+1 £text_construction_ship_map£Logistic Ship Capacity§! from the §I$xhk_worldark_add_logistics_ship$§! arkship decision."
+ xhk_worldark_docs_expansion_desc_6: "$TABBED_NEW_LINE$- §G+5 £text_districtadd£Districts§! per $xhk_pc_worldark$ level. These do §RNOT grant extra growth jobs§!."
+ xhk_worldark_docs_expansion_desc_7: "\n\nThe §I$xhk_worldark_size_harvest$§! action should be taken frequently in order to continue to grow the $xhk_pc_worldark$."
 
  xhk_worldark_docs_population: "2) Population"
 

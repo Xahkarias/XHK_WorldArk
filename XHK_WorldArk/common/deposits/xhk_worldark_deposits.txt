@@ -390,3 +390,13 @@ d_xhk_worldark_consume_ark_size = {
     drop_weight = { weight = 0 }
     potential = { always = no }
 }
+
+d_xhk_worldark_logistic_ship_bay = {
+    is_for_colonizable = yes
+    icon = d_ship_in_orbit
+    category = deposit_cat_misc
+    use_for_min_max_adjustments = yes
+
+    drop_weight = { weight = 0 }
+    potential = { always = no }
+}

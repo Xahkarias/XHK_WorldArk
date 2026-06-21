@@ -1,0 +1,45 @@
+xhk_worldark_add_logistics_ship = {
+    icon = decision_frameworld_reorganise
+    owned_planets_only = yes
+
+    enactment_time = 360
+
+    resources = {
+        category = decisions
+        cost = {
+            influence = 500
+            alloys = 200
+        }
+    }
+
+    potential = {
+        exists = owner
+        owner = {
+            xhk_has_worldark_origin = yes
+        }
+        is_planet_class = xhk_pc_worldark
+    }
+
+    effect = {
+        custom_tooltip = xhk_worldark_increase_logistic_ship_tt
+
+        hidden_effect = {
+            if = {
+                limit = { NOT = { has_deposit = d_xhk_worldark_logistic_ship_bay }}
+                add_deposit = d_xhk_worldark_logistic_ship_bay
+            }
+            change_variable = {
+                which = xhk_worldark_logistics
+                value = 1
+            }
+            change_variable = {
+                which = xhk_worldark_expansions
+                value = 1
+            }
+        }
+    }
+
+    ai_weight = {
+        weight = 1
+    }
+}

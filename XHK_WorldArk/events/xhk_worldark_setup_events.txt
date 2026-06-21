@@ -365,6 +365,11 @@ country_event = {
                 which = xhk_worldark_expansions
                 value = 0
             }
+            set_variable = {
+                which = xhk_worldark_logistics
+                value = 0
+            }
+
             add_deposit = d_xhk_worldark_expansion_tracker
         }
 
