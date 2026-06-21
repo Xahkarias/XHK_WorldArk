@@ -1,0 +1,8 @@
+defined_text = {
+    name = xhk_worldark_getDistrictIncreaseFromHarvest
+    text = {
+        trigger = { capital_scope.ship.starbase = { has_starbase_size >= xhk_worldark_tier_5 } }
+        localization_key = xhk_harvest_plus2
+    }
+    default = xhk_harvest_plus1
+}
