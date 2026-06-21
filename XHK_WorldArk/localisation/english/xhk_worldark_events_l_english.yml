@@ -67,6 +67,10 @@
  ####################
  # CIVICS
  xhk_worldark_docs_special_civic: "4) Civic Integration"
+ xhk_worldark_docs_special_civic_desc: "$xhk_worldark_docs_special_civic_desc_1$\n$xhk_worldark_docs_special_civic_desc_dystopia$"
+ xhk_worldark_docs_special_civic_desc_1: "The $xhk_pc_worldark$ has special integration with specific civics to better fit their fantasy and compensate for the one-planet playstyle."
+ xhk_worldark_docs_special_civic_desc_dystopia: "\n§EOppressive Autocracy§!: $district_xhk_worldark_amenities_plural$ give $job_politician_plural$ instead of $job_entertainer_plural$, and are capped based on population."
+
 
  ####################
  # MEGAS
