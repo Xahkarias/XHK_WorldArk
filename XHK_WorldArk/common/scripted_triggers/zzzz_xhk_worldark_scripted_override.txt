@@ -50,7 +50,7 @@ technician_is_fuel_chemist_trigger = {
     planet = {
         OR = {
             has_zone = { zone = zone_ark_engine_bypass }
-            has_zone = { zone = zone_xhk_worldark_reactshield }
+            has_zone = { zone = zone_xhk_worldark_reactspeed }
         }
     }
 }
