@@ -440,6 +440,38 @@ country_event = {
             #location = capital_scope
         }
 
+        create_point_of_interest = {
+            id = xhk_worldark_docs_chain.3
+            name = "xhk_worldark_docs_districts"
+            desc = "xhk_worldark_docs_districts_desc"
+            event_chain = "xhk_worldark_docs_chain"
+            #location = capital_scope
+        }
+
+        create_point_of_interest = {
+            id = xhk_worldark_docs_chain.4
+            name = "xhk_worldark_docs_special_civic"
+            desc = "xhk_worldark_docs_special_civic_desc"
+            event_chain = "xhk_worldark_docs_chain"
+            #location = capital_scope
+        }
+
+        create_point_of_interest = {
+            id = xhk_worldark_docs_chain.5
+            name = "xhk_worldark_docs_mega_integration"
+            desc = "xhk_worldark_docs_mega_integration_desc"
+            event_chain = "xhk_worldark_docs_chain"
+            #location = capital_scope
+        }
+
+        create_point_of_interest = {
+            id = xhk_worldark_docs_chain.6
+            name = "xhk_worldark_docs_crossmod"
+            desc = "xhk_worldark_docs_crossmod_desc"
+            event_chain = "xhk_worldark_docs_chain"
+            #location = capital_scope
+        }
+
         start_situation = {
             type = xhk_worldark_situation_main
             target = capital_scope

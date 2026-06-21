@@ -27,7 +27,7 @@
  xhk_worldark_size_harvest_effect: "$XHK_SIZE_HARVEST_EFFECTS_HEADER$ $xhk_worldark_size_harvest_base_effect$ $xhk_worldark_size_harvest_planet_effect$"
  XHK_SIZE_HARVEST_EFFECTS_HEADER: "§E£text_icon_arkship£ §Y$xhk_pc_worldark$ Expansion§! Effects:§!"
  xhk_worldark_size_harvest_base_effect: "$TABBED_NEW_LINE$- Number of available §IDistricts§! on the §I$xhk_pc_worldark$§!: §G+1§!."
- xhk_worldark_size_harvest_planet_effect: "$DOUBLE_NEW_LINE$ $PLANET_EFFECTS_HEADER$ $TABBED_NEW_LINE$- §Y$xhk_size_harvested_already$§! modifier added: $TABBED_NEW_LINE$$t$ Prevents further harvesting for expansion by a $xhk_pc_worldark$"
+ xhk_worldark_size_harvest_planet_effect: "$DOUBLE_NEW_LINE$ $PLANET_EFFECTS_HEADER$ $TABBED_NEW_LINE$- §Y$xhk_size_harvested_already$§! modifier added: $TABBED_NEW_LINE$$t$ §RPrevents further harvesting for expansion by a $xhk_pc_worldark$§!"
  xhk_worldark_size_harvest_ship_button: "$xhk_worldark_size_harvest_effect$\n\n$xhk_worldark_size_harvest_desc$"
  xhk_worldark_size_harvest_activity_key: "Consuming Mass"
  xhk_worldark_size_harvest_progress_activity_key: "Consuming Mass in Progress (§Y$PROGRESS$%§!)"

@@ -1,2 +1,4 @@
 @xhk_district_base_cost = 150
 @xhk_base_buildtime = 360
+
+@xhk_growth_job_per_increase = 15
