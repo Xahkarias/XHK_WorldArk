@@ -409,6 +409,16 @@ country_event = {
             }
         }
 
+        # ascensionists fix
+        if = {
+            limit = {
+                is_ascensionist_empire = yes
+            }
+            every_owned_planet = {
+                set_planetary_ascension_tier = 1
+            }
+        }
+
         # setup docks
         begin_event_chain = {
             event_chain = xhk_worldark_docs_chain
