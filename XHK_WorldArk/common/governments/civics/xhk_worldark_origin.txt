@@ -7,17 +7,6 @@ origin_xhk_worldark = {
     ai_playable = { always = no }
     possible = {
         is_nomadic = yes
-    }
-    # potential = {
-    #     #ethics = { NOT = { value = ethic_gestalt_consciousness } }
-    #     # authority = { NOR = {
-    #     #     value = auth_corporate
-    #     #     value = auth_bugged_corporate_democratic
-    #     #     value = auth_bugged_corporate_imperial
-    #     # } }
-    #     #species_archetype = { NOT = { value = MACHINE } }
-    # }
-    possible = {
         civics = {
             NOT = {
                 text = civic_tooltip_not_deep_sleep
