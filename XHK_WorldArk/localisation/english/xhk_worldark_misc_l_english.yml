@@ -7,3 +7,21 @@
 
  civic_tooltip_not_deep_sleep: "Does §RNOT§! have an Deep Sleep Civic"
  worldark_not_compat_deep_sleep: "Does §RNOT§! have the $xhk_pc_worldark$ Origin"
+
+ xhk_tech_worldark_1: "$xhk_pc_worldark$ Basics"
+ xhk_tech_worldark_2: "$xhk_pc_worldark$ Tier II Upgrade"
+ xhk_tech_worldark_3: "$xhk_pc_worldark$ Tier III Upgrade"
+ xhk_tech_worldark_4: "$xhk_pc_worldark$ Tier IV Upgrade"
+ xhk_tech_worldark_5: "$xhk_pc_worldark$ Tier V Upgrade"
+ xhk_tech_worldark_6: "$xhk_pc_worldark$ Tier VI Upgrade"
+ xhk_tech_worldark_7: "$xhk_pc_worldark$ Tier VII Upgrade"
+ xhk_tech_worldark_8: "$xhk_pc_worldark$ Tier VIII Upgrade"
+
+ xhk_tech_worldark_1_desc: "The basics of maintenance and expansions of the $xhk_pc_worldark$."
+ xhk_tech_worldark_2_desc: "Unlocks the $xhk_pc_worldark$ Tier II Upgrade"
+ xhk_tech_worldark_3_desc: "Unlocks the $xhk_pc_worldark$ Tier III Upgrade"
+ xhk_tech_worldark_4_desc: "Unlocks the $xhk_pc_worldark$ Tier IV Upgrade"
+ xhk_tech_worldark_5_desc: "Unlocks the $xhk_pc_worldark$ Tier V Upgrade"
+ xhk_tech_worldark_6_desc: "Unlocks the $xhk_pc_worldark$ Tier VI Upgrade"
+ xhk_tech_worldark_7_desc: "Unlocks the $xhk_pc_worldark$ Tier VII Upgrade"
+ xhk_tech_worldark_8_desc: "Unlocks the $xhk_pc_worldark$ Tier VIII Upgrade"

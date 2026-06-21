@@ -1,20 +1,18 @@
-weight = 0
-
 potential = {
     is_nomadic = yes
     has_origin = origin_xhk_worldark
 }
 
-prereqfor_desc = {
-    ship = {
-        title = "TECH_UNLOCK_CIVILIAN_ARKSHIP_CONSTRUCTION_TITLE"
-        desc = "TECH_UNLOCK_CIVILIAN_ARKSHIP_CONSTRUCTION_DESC"
-    }
-}
+# prereqfor_desc = {
+#     ship = {
+#         title = "TECH_UNLOCK_CIVILIAN_ARKSHIP_CONSTRUCTION_TITLE"
+#         desc = "TECH_UNLOCK_CIVILIAN_ARKSHIP_CONSTRUCTION_DESC"
+#     }
+# }
 
-ai_weight = {
-    modifier = {
-        factor = 100
-        is_nomadic = yes
-    }
-}
+# ai_weight = {
+#     modifier = {
+#         factor = 100
+#         is_nomadic = yes
+#     }
+# }

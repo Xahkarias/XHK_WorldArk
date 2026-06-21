@@ -1,6 +1,6 @@
 xhk_tech_worldark_1 = {
-    area = society
-    category = { new_worlds }
+    area = engineering
+    category = { voidcraft }
     tier = 1
     cost = @tier3cost1
 
@@ -8,8 +8,8 @@ xhk_tech_worldark_1 = {
         script = xhk_worldark/technology/tech_ship_definition
     }
 
+    weight = 1000
     prerequisites = {
-        "tech_planetary_engineering"
         "tech_arkship_construction"
     }
 }
@@ -17,43 +17,42 @@ xhk_tech_worldark_1 = {
 xhk_tech_worldark_2 = {
     area = society
     category = { new_worlds }
-    tier = 1
-    cost = @tier3cost1
+    tier = 2
+    cost = @tier2cost2
 
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
     }
 
+    weight = 500
     modifier = {
         nomadic_constructor_limit_add = 1
     }
 
-    prerequisites = {
-        xhk_tech_worldark_1
-    }
+    prerequisites = { "xhk_tech_worldark_1" }
 }
 
 xhk_tech_worldark_3 = {
-    area = society
-    category = { new_worlds }
-    tier = 1
-    cost = @tier3cost1
+    area = physics
+    category = { computing }
+    tier = 2
+    cost = @tier2cost3
 
+    weight = 400
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
     }
 
-    prerequisites = {
-        xhk_tech_worldark_2
-    }
+    prerequisites = { "xhk_tech_worldark_2" }
 }
 
 xhk_tech_worldark_4 = {
-    area = society
-    category = { new_worlds }
-    tier = 1
+    area = engineering
+    category = { industry }
+    tier = 3
     cost = @tier3cost1
 
+    weight = 300
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
     }
@@ -62,32 +61,30 @@ xhk_tech_worldark_4 = {
         nomadic_constructor_limit_add = 1
     }
 
-    prerequisites = {
-        xhk_tech_worldark_3
-    }
+    prerequisites = { "xhk_tech_worldark_3" }
 }
 
 xhk_tech_worldark_5 = {
     area = society
-    category = { new_worlds }
-    tier = 1
-    cost = @tier3cost1
+    category = { statecraft }
+    tier = 3
+    cost = @tier3cost2
 
+    weight = 300
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
     }
 
-    prerequisites = {
-        xhk_tech_worldark_4
-    }
+    prerequisites = { "xhk_tech_worldark_4" }
 }
 
 xhk_tech_worldark_6 = {
-    area = society
-    category = { new_worlds }
-    tier = 1
-    cost = @tier3cost1
+    area = physics
+    category = { field_manipulation }
+    tier = 4
+    cost = @tier4cost1
 
+    weight = 300
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
     }
@@ -96,32 +93,30 @@ xhk_tech_worldark_6 = {
         nomadic_constructor_limit_add = 1
     }
 
-    prerequisites = {
-        xhk_tech_worldark_5
-    }
+    prerequisites = { "xhk_tech_worldark_5" }
 }
 
 xhk_tech_worldark_7 = {
-    area = society
-    category = { new_worlds }
-    tier = 1
-    cost = @tier3cost1
+    area = physics
+    category = { particles }
+    tier = 5
+    cost = @tier5cost1
 
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
     }
 
-    prerequisites = {
-        xhk_tech_worldark_6
-    }
+    weight = 200
+    prerequisites = { "xhk_tech_worldark_6" }
 }
 
 xhk_tech_worldark_8 = {
-    area = society
-    category = { new_worlds }
-    tier = 1
-    cost = @tier3cost1
+    area = engineering
+    category = { voidcraft }
+    tier = 5
+    cost = @tier5cost2
 
+    weight = 200
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
     }
@@ -130,7 +125,5 @@ xhk_tech_worldark_8 = {
         nomadic_constructor_limit_add = 1
     }
 
-    prerequisites = {
-        xhk_tech_worldark_7
-    }
+    prerequisites = { "xhk_tech_worldark_7" }
 }
