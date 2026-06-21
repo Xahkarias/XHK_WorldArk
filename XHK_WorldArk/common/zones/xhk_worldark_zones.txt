@@ -929,7 +929,7 @@ zone_xhk_worldark_ordinance_ammunition_lines = {
         POTENTIAL = "owner? = { has_technology = tech_mass_drivers_2 }"
     }
 
-    show_in_tech = tech_lasers_2
+    show_in_tech = tech_mass_drivers_2
     show_tech_unlock_if = { is_nomadic = yes }
 
     included_building_sets = {
