@@ -296,7 +296,7 @@ d_xhk_worldark_pop_indiv_machine = {
                 xhk_has_worldark_origin = yes
             }
         }
-        job_replicator_add = 1
+        job_roboticist_add = 1
         multiplier = modifier:xhk_worldark_growth_job_add
     }
 
@@ -341,7 +341,7 @@ d_xhk_worldark_pop_indiv_machine = {
             }
             xhk_worldark_has_cloning_assembly_facilities = yes
         }
-        job_replicator_add = -0.33
+        job_roboticist_add = -0.33
         multiplier = modifier:xhk_worldark_growth_job_add
     }
 }
