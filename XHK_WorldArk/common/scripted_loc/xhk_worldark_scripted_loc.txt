@@ -23,3 +23,16 @@ defined_text = {
     }
     default = xhk_worldark_docs_population_desc_norm
 }
+
+defined_text = {
+    name = xhk_worldark_getCivicDocumentation
+    text = {
+        trigger = { is_machine_empire = yes }
+        localization_key = xhk_worldark_docs_special_civic_desc_machine
+    }
+    text = {
+        trigger = { is_hive_empire = yes }
+        localization_key = xhk_worldark_docs_special_civic_desc_hive
+    }
+    default = xhk_worldark_docs_special_civic_desc_norm
+}

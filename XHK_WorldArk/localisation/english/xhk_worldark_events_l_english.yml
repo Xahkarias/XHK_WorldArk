@@ -44,7 +44,7 @@
  xhk_worldark_docs_population_desc_norm_1: "\n§3Individualist Biological Empire§!: Base of §G1 $job_healthcare$§! per Growth Job."
  xhk_worldark_docs_population_desc_norm_2: "$TABBED_NEW_LINE$- Any §IRobot Assembly§! Building: Loses half $job_healthcare_plural$, replaces with §G$job_roboticist_plural$§!."
  xhk_worldark_docs_population_desc_norm_3: "$TABBED_NEW_LINE$- §IClone Vat§! Building: Loses half $job_healthcare_plural$, replaces with §G+0.0075 Organic Pop Growth§! per job."
- xhk_worldark_docs_population_desc_norm_4: "\n      §ICloning Tradition§! tree doubles this §GMonthly Organic Pop Growth§!."
+ xhk_worldark_docs_population_desc_norm_4: "\n$t$$t$§ICloning Tradition§! tree doubles this §GMonthly Organic Pop Growth§!."
  xhk_worldark_docs_population_desc_norm_5: "$TABBED_NEW_LINE$- Completed §ISynthetic Ascension§!: Swap all above effects to §G1 $job_roboticist_plural$§! per Growth Job."
  xhk_worldark_docs_population_desc_norm_6: "$TABBED_NEW_LINE$- Any §IZombie Assembly§! Building: Adds §G0.25 $job_reassigner_plural$§! per Growth Job, stacks with any above effect."
 
@@ -67,10 +67,22 @@
  ####################
  # CIVICS
  xhk_worldark_docs_special_civic: "4) Civic Integration"
- xhk_worldark_docs_special_civic_desc: "$xhk_worldark_docs_special_civic_desc_1$\n$xhk_worldark_docs_special_civic_desc_dystopia$"
+ xhk_worldark_docs_special_civic_desc: "$xhk_worldark_docs_special_civic_desc_1$\n$xhk_worldark_docs_special_civic_desc_dystopia$[Owner.xhk_worldark_getCivicDocumentation]"
  xhk_worldark_docs_special_civic_desc_1: "The $xhk_pc_worldark$ has special integration with specific civics to better fit their fantasy and compensate for the one-planet playstyle."
- xhk_worldark_docs_special_civic_desc_dystopia: "\n§EOppressive Autocracy§!: $district_xhk_worldark_amenities_plural$ give $job_politician_plural$ instead of $job_entertainer_plural$, and are capped based on population."
 
+ xhk_worldark_docs_special_civic_desc_norm: "\n§3Individualist Empire§!:$xhk_worldark_docs_special_civic_desc_norm_dystopia$$xhk_worldark_docs_special_civic_desc_norm_vampire$"
+ xhk_worldark_docs_special_civic_desc_norm_dystopia: "\n§1$civic_dystopian_society$§!: $district_xhk_worldark_amenities_plural$ give $job_politician_plural$ instead of $job_entertainer_plural$, and are capped based on population."
+ xhk_worldark_docs_special_civic_desc_norm_vampire: "\n§1$civic_entropy_drinkers$§!: $xhk_worldark_special_civic_doc_vampire_norm$"
+
+ xhk_worldark_docs_special_civic_desc_hive: "\n§3Gestalt Hive Empire§!:$xhk_worldark_docs_special_civic_desc_hive_vampire$"
+ xhk_worldark_docs_special_civic_desc_hive_vampire: "\n§1$civic_entropy_drinkers_hive_mind$§!: $xhk_worldark_special_civic_doc_vampire_gest$"
+
+ xhk_worldark_docs_special_civic_desc_machine: "\n§3Gestalt Machine Empire§!:$xhk_worldark_docs_special_civic_desc_machine_vampire$"
+ xhk_worldark_docs_special_civic_desc_machine_vampire: "\n§1$civic_entropy_drinkers_machine$§!: $xhk_worldark_special_civic_doc_vampire_gest$"
+
+
+ xhk_worldark_special_civic_doc_vampire_norm: "Gain §G1/3 $job_energy_thrall_plural$§! per growth job. This is additive to any other growth jobs."
+ xhk_worldark_special_civic_doc_vampire_gest: "Gain §G1/3 $job_drone_energy_thrall_plural$§! per growth job. This is additive to any other growth jobs."
 
  ####################
  # MEGAS

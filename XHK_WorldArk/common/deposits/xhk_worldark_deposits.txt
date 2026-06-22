@@ -191,6 +191,13 @@ d_xhk_worldark_pop_standard = {
         job_reassigner_add = 0.25
         multiplier = modifier:xhk_worldark_growth_job_add
     }
+
+    ##### CIVICS ###########
+    triggered_planet_modifier = {
+        potential = { owner = { is_entropy_drinkers_empire = yes } }
+        job_energy_thrall_add = 0.334
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
 }
 
 d_xhk_worldark_pop_hive = {
@@ -230,6 +237,13 @@ d_xhk_worldark_pop_hive = {
         }
         job_spawning_drone_add = -0.5
         job_augmentor_drone_add = 0.5
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+
+    ##### CIVICS ###########
+    triggered_planet_modifier = {
+        potential = { owner = { is_entropy_drinkers_empire = yes } }
+        job_drone_energy_thrall_add = 0.334
         multiplier = modifier:xhk_worldark_growth_job_add
     }
 }
@@ -272,6 +286,13 @@ d_xhk_worldark_pop_machine = {
         }
         job_replicator_add = -0.5
         job_augmentor_drone_add = 0.5
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+
+    ##### CIVICS ###########
+    triggered_planet_modifier = {
+        potential = { owner = { is_entropy_drinkers_empire = yes } }
+        job_drone_energy_thrall_add = 0.334
         multiplier = modifier:xhk_worldark_growth_job_add
     }
 }
@@ -341,7 +362,14 @@ d_xhk_worldark_pop_indiv_machine = {
             }
             xhk_worldark_has_cloning_assembly_facilities = yes
         }
-        job_roboticist_add = -0.33
+        job_roboticist_add = -0.333
+        multiplier = modifier:xhk_worldark_growth_job_add
+    }
+
+    ##### CIVICS ###########
+    triggered_planet_modifier = {
+        potential = { owner = { is_entropy_drinkers_empire = yes } }
+        job_energy_thrall_add = 0.334
         multiplier = modifier:xhk_worldark_growth_job_add
     }
 }

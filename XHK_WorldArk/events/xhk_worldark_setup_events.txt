@@ -339,6 +339,7 @@ country_event = {
             # control deposit
             add_deposit = d_xhk_worldark_base
 
+            # pop deposit
             if = {
                 limit = {
                     owner  = { is_machine_empire = yes }
@@ -361,6 +362,7 @@ country_event = {
                 add_deposit = d_xhk_worldark_pop_standard
             }
 
+            # var setup
             set_variable = {
                 which = xhk_worldark_expansions
                 value = 0
@@ -369,7 +371,6 @@ country_event = {
                 which = xhk_worldark_logistics
                 value = 0
             }
-
             add_deposit = d_xhk_worldark_expansion_tracker
         }
 
@@ -418,11 +419,23 @@ country_event = {
             }
         }
 
+        # galvanic fix
+        if = {
+            limit = {
+                is_galvanic_empire = yes
+                capital_scope = {
+                    NOT = { has_deposit = d_galvanic_living_metal }
+                }
+            }
+            capital_scope = {
+                add_deposit = d_galvanic_living_metal
+            }
+        }
+
         # setup docks
         begin_event_chain = {
             event_chain = xhk_worldark_docs_chain
         }
-
         create_point_of_interest = {
             id = xhk_worldark_docs_chain.1
             name = "xhk_worldark_docs_expansion"
@@ -430,7 +443,6 @@ country_event = {
             event_chain = "xhk_worldark_docs_chain"
             #location = capital_scope
         }
-
         create_point_of_interest = {
             id = xhk_worldark_docs_chain.2
             name = "xhk_worldark_docs_population"
@@ -438,7 +450,6 @@ country_event = {
             event_chain = "xhk_worldark_docs_chain"
             #location = capital_scope
         }
-
         create_point_of_interest = {
             id = xhk_worldark_docs_chain.3
             name = "xhk_worldark_docs_districts"
@@ -446,7 +457,6 @@ country_event = {
             event_chain = "xhk_worldark_docs_chain"
             #location = capital_scope
         }
-
         create_point_of_interest = {
             id = xhk_worldark_docs_chain.4
             name = "xhk_worldark_docs_special_civic"
@@ -454,7 +464,6 @@ country_event = {
             event_chain = "xhk_worldark_docs_chain"
             #location = capital_scope
         }
-
         create_point_of_interest = {
             id = xhk_worldark_docs_chain.5
             name = "xhk_worldark_docs_mega_integration"
@@ -462,7 +471,6 @@ country_event = {
             event_chain = "xhk_worldark_docs_chain"
             #location = capital_scope
         }
-
         create_point_of_interest = {
             id = xhk_worldark_docs_chain.6
             name = "xhk_worldark_docs_crossmod"
@@ -470,7 +478,6 @@ country_event = {
             event_chain = "xhk_worldark_docs_chain"
             #location = capital_scope
         }
-
         start_situation = {
             type = xhk_worldark_situation_main
             target = capital_scope
