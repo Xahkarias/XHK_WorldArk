@@ -405,13 +405,7 @@ country_event = {
                     add_deposit = d_cluttered_hangar_bay
                 }
             }
-            if = {
-                limit = { owner = { has_country_flag = checklist_decipher_signal }}
-                add_modifier = {
-                    modifier = checklist_replicating_signal
-                    days = -1
-                }
-            }
+            # checklist_decipher_signal
         }
 
         # ascensionists fix
