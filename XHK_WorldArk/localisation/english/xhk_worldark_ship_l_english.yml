@@ -54,3 +54,12 @@
 
  XHK_ARKSHIP_HUNTER_WEAPON:0 "Ukonvasara Hyperkinetic Driver"
 
+
+ mod_shipsize_xhk_worldark_tier_1_fire_rate_mult: "$xhk_worldark_tier_1$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_2_fire_rate_mult: "$xhk_worldark_tier_2$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_3_fire_rate_mult: "$xhk_worldark_tier_3$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_4_fire_rate_mult: "$xhk_worldark_tier_4$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_5_fire_rate_mult: "$xhk_worldark_tier_5$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_6_fire_rate_mult: "$xhk_worldark_tier_6$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_7_fire_rate_mult: "$xhk_worldark_tier_7$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_8_fire_rate_mult: "$xhk_worldark_tier_8$ Fire Rate"

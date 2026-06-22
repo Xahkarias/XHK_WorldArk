@@ -1,0 +1,20 @@
+arkship_fire_rate = {
+    custom_tooltip = nomads_arkship_fire_rate_tt
+    shipsize_civilian_arkship_tier_1_fire_rate_mult = 1
+    shipsize_civilian_arkship_tier_2_fire_rate_mult = 1
+    shipsize_civilian_arkship_tier_3_fire_rate_mult = 1
+    shipsize_science_arkship_tier_1_fire_rate_mult = 1
+    shipsize_science_arkship_tier_2_fire_rate_mult = 1
+    shipsize_science_arkship_tier_3_fire_rate_mult = 1
+    shipsize_military_arkship_tier_1_fire_rate_mult = 1
+    shipsize_military_arkship_tier_2_fire_rate_mult = 1
+    shipsize_military_arkship_tier_3_fire_rate_mult = 1
+    shipsize_xhk_worldark_tier_1_fire_rate_mult = 1
+    shipsize_xhk_worldark_tier_2_fire_rate_mult = 1
+    shipsize_xhk_worldark_tier_3_fire_rate_mult = 1
+    shipsize_xhk_worldark_tier_4_fire_rate_mult = 1
+    shipsize_xhk_worldark_tier_5_fire_rate_mult = 1
+    shipsize_xhk_worldark_tier_6_fire_rate_mult = 1
+    shipsize_xhk_worldark_tier_7_fire_rate_mult = 1
+    shipsize_xhk_worldark_tier_8_fire_rate_mult = 1
+}
