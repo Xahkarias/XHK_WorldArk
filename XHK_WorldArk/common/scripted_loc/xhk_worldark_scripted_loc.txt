@@ -34,5 +34,9 @@ defined_text = {
         trigger = { is_hive_empire = yes }
         localization_key = xhk_worldark_docs_special_civic_desc_hive
     }
+    text = {
+        trigger = { is_megacorp = yes }
+        localization_key = xhk_worldark_docs_special_civic_desc_corp
+    }
     default = xhk_worldark_docs_special_civic_desc_norm
 }
