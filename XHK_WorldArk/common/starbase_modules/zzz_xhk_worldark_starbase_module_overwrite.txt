@@ -1,0 +1,129 @@
+
+# ADDING LIMIT OF 1
+arkship_exodus_jump = {
+    icon = "GFX_arkship_exodus_jump"
+    section = "ARKSHIP_SPINAL_CATAPULT"
+    construction_days = @arkship_spinal_mount_build_time
+    starbase_type = arkship
+    category = sm_spinal_cat
+
+    potential = {
+        owner? = {
+        has_technology = tech_arkship_exodus_jump
+        }
+        is_arkship_starbase = yes
+    }
+
+    show_in_tech = "tech_arkship_exodus_jump"
+
+    show_tech_unlock_if = {
+        is_nomadic = yes
+    }
+
+    starbase_limit = {
+        base = 1
+    }
+
+    fits_on_slots = { spinal_mount_1 }
+
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            alloys = @arkship_cost_alloys_5000
+            rare_crystals = @arkship_cost_strategic_500
+            influence = @arkship_cost_influence_250
+        }
+
+        upkeep = {
+            energy = @arkship_upkeep_energy_10
+            rare_crystals = @arkship_upkeep_strategic_2
+        }
+    }
+
+    station_modifier = {
+        show_only_custom_tooltip = yes
+        catapult_spread_base = 25
+    }
+
+    triggered_station_modifier = {
+        potential = {
+            galaxy_radius <= 200 # tiny
+        }
+        catapult_range_base = 300
+    }
+
+    triggered_station_modifier = {
+        potential = {
+            galaxy_radius > 200
+            galaxy_radius <= 300 # small
+        }
+        catapult_range_base = 450
+    }
+
+    triggered_station_modifier = {
+        potential = {
+            galaxy_radius > 300
+            galaxy_radius <= 400 # medium
+        }
+        catapult_range_base = 600
+    }
+
+    triggered_station_modifier = {
+        potential = {
+            galaxy_radius > 400 # large or huge
+        }
+        catapult_range_base = 700
+    }
+
+    custom_tooltip = sm_arkship_exodus_jump_tt
+
+    ai_weight = {
+        weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
+    }
+}
+arkship_stellar_igniter = {
+    icon = "GFX_arkship_stellar_igniter"
+    section = "ARKSHIP_SPINAL_SCIENCE"
+    construction_days = @arkship_spinal_mount_build_time
+    starbase_type = arkship
+    category = sm_spinal_cat
+
+    potential = {
+        owner? = {
+        has_technology = tech_arkship_stellar_igniter
+        }
+        is_arkship_starbase = yes
+    }
+
+    show_in_tech = "tech_arkship_stellar_igniter"
+
+    show_tech_unlock_if = {
+        is_nomadic = yes
+    }
+
+    starbase_limit = {
+        base = 1
+    }
+
+    fits_on_slots = { spinal_mount_1 }
+
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            alloys = @arkship_cost_alloys_5000
+            exotic_gases = @arkship_cost_strategic_500
+            unity = @arkship_cost_unity_500
+        }
+
+        upkeep = {
+            energy = @arkship_upkeep_energy_5
+            exotic_gases = @arkship_upkeep_strategic_1
+        }
+    }
+
+    custom_tooltip = sm_arkship_stellar_igniter_tt
+
+    ai_weight = {
+        weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
+    }
+}
