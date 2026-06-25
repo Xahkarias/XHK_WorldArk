@@ -2,3 +2,149 @@
 @xhk_base_buildtime = 360
 
 @xhk_growth_job_per_increase = 15
+
+##### SHIP STATS ####
+@xhk_worldark_shipstat_modules_t1 = 4
+@xhk_worldark_shipstat_modules_t2 = 8
+@xhk_worldark_shipstat_modules_t3 = 12
+@xhk_worldark_shipstat_modules_t4 = 16
+@xhk_worldark_shipstat_modules_t5 = 16
+@xhk_worldark_shipstat_modules_t6 = 20
+@xhk_worldark_shipstat_modules_t7 = 24
+@xhk_worldark_shipstat_modules_t8 = 26
+@xhk_worldark_shipstat_modules_t9 = 28
+@xhk_worldark_shipstat_modules_t10 = 30
+
+@xhk_worldark_shipstat_buildings_t1 = 4
+@xhk_worldark_shipstat_buildings_t2 = 8
+@xhk_worldark_shipstat_buildings_t3 = 12
+@xhk_worldark_shipstat_buildings_t4 = 16
+@xhk_worldark_shipstat_buildings_t5 = 20
+@xhk_worldark_shipstat_buildings_t6 = 24
+@xhk_worldark_shipstat_buildings_t7 = 28
+@xhk_worldark_shipstat_buildings_t8 = 32
+@xhk_worldark_shipstat_buildings_t9 = 36
+@xhk_worldark_shipstat_buildings_t10 = 40
+
+@xhk_worldark_shipstat_collection_t1 = 250
+@xhk_worldark_shipstat_collection_t2 = 500
+@xhk_worldark_shipstat_collection_t3 = 1000
+@xhk_worldark_shipstat_collection_t4 = 1500
+@xhk_worldark_shipstat_collection_t5 = 2000
+@xhk_worldark_shipstat_collection_t6 = 2500
+@xhk_worldark_shipstat_collection_t7 = 3000
+@xhk_worldark_shipstat_collection_t8 = 3500
+@xhk_worldark_shipstat_collection_t9 = 4000
+@xhk_worldark_shipstat_collection_t10 = 5000
+
+@xhk_worldark_shipstat_hp_t1 = 2500
+@xhk_worldark_shipstat_hp_t2 = 5000
+@xhk_worldark_shipstat_hp_t3 = 10000
+@xhk_worldark_shipstat_hp_t4 = 15000
+@xhk_worldark_shipstat_hp_t5 = 20000
+@xhk_worldark_shipstat_hp_t6 = 25000
+@xhk_worldark_shipstat_hp_t7 = 35000
+@xhk_worldark_shipstat_hp_t8 = 50000
+@xhk_worldark_shipstat_hp_t9 = 70000
+@xhk_worldark_shipstat_hp_t10 = 90000
+
+# i cant use these to reference another one in an inline
+# chain referencing doesnt work
+@xhk_worldark_shipstat_armor_t1 = 1250
+@xhk_worldark_shipstat_armor_t2 = 2500
+@xhk_worldark_shipstat_armor_t3 = 5000
+@xhk_worldark_shipstat_armor_t4 = 7500
+@xhk_worldark_shipstat_armor_t5 = 10000
+@xhk_worldark_shipstat_armor_t6 = 12500
+@xhk_worldark_shipstat_armor_t7 = 17500
+@xhk_worldark_shipstat_armor_t8 = 25000
+@xhk_worldark_shipstat_armor_t9 = 35000
+@xhk_worldark_shipstat_armor_t10 = 45000
+
+@xhk_worldark_shipstat_shield_t1 = 1250
+@xhk_worldark_shipstat_shield_t2 = 2500
+@xhk_worldark_shipstat_shield_t3 = 5000
+@xhk_worldark_shipstat_shield_t4 = 7500
+@xhk_worldark_shipstat_shield_t5 = 10000
+@xhk_worldark_shipstat_shield_t6 = 12500
+@xhk_worldark_shipstat_shield_t7 = 17500
+@xhk_worldark_shipstat_shield_t8 = 25000
+@xhk_worldark_shipstat_shield_t9 = 35000
+@xhk_worldark_shipstat_shield_t10 = 45000
+
+@xhk_worldark_shipstat_shieldregen_t1 = 5
+@xhk_worldark_shipstat_shieldregen_t2 = 10
+@xhk_worldark_shipstat_shieldregen_t3 = 20
+@xhk_worldark_shipstat_shieldregen_t4 = 30
+@xhk_worldark_shipstat_shieldregen_t5 = 40
+@xhk_worldark_shipstat_shieldregen_t6 = 50
+@xhk_worldark_shipstat_shieldregen_t7 = 70
+@xhk_worldark_shipstat_shieldregen_t8 = 100
+@xhk_worldark_shipstat_shieldregen_t9 = 140
+@xhk_worldark_shipstat_shieldregen_t10 = 180
+
+@xhk_worldark_shipstat_sensor_t1 = 1
+@xhk_worldark_shipstat_sensor_t2 = 1
+@xhk_worldark_shipstat_sensor_t3 = 1
+@xhk_worldark_shipstat_sensor_t4 = 2
+@xhk_worldark_shipstat_sensor_t5 = 2
+@xhk_worldark_shipstat_sensor_t6 = 2
+@xhk_worldark_shipstat_sensor_t7 = 3
+@xhk_worldark_shipstat_sensor_t8 = 3
+@xhk_worldark_shipstat_sensor_t9 = 3
+@xhk_worldark_shipstat_sensor_t10 = 4
+
+@xhk_worldark_shipstat_hypersensor_t1 = 0
+@xhk_worldark_shipstat_hypersensor_t2 = 1
+@xhk_worldark_shipstat_hypersensor_t3 = 1
+@xhk_worldark_shipstat_hypersensor_t4 = 2
+@xhk_worldark_shipstat_hypersensor_t5 = 2
+@xhk_worldark_shipstat_hypersensor_t6 = 2
+@xhk_worldark_shipstat_hypersensor_t7 = 3
+@xhk_worldark_shipstat_hypersensor_t8 = 3
+@xhk_worldark_shipstat_hypersensor_t9 = 3
+@xhk_worldark_shipstat_hypersensor_t10 = 4
+
+@xhk_worldark_shipstat_districts_t1 = 0
+@xhk_worldark_shipstat_districts_t2 = 4
+@xhk_worldark_shipstat_districts_t3 = 8
+@xhk_worldark_shipstat_districts_t4 = 12
+@xhk_worldark_shipstat_districts_t5 = 16
+@xhk_worldark_shipstat_districts_t6 = 20
+@xhk_worldark_shipstat_districts_t7 = 24
+@xhk_worldark_shipstat_districts_t8 = 28
+@xhk_worldark_shipstat_districts_t9 = 34
+@xhk_worldark_shipstat_districts_t10 = 40
+
+@xhk_worldark_shipstat_reactor_t1 = 1
+@xhk_worldark_shipstat_reactor_t2 = 1.25
+@xhk_worldark_shipstat_reactor_t3 = 1.5
+@xhk_worldark_shipstat_reactor_t4 = 1.75
+@xhk_worldark_shipstat_reactor_t5 = 2
+@xhk_worldark_shipstat_reactor_t6 = 2.25
+@xhk_worldark_shipstat_reactor_t7 = 2.5
+@xhk_worldark_shipstat_reactor_t8 = 2.75
+@xhk_worldark_shipstat_reactor_t9 = 3
+@xhk_worldark_shipstat_reactor_t10 = 4.5
+
+@xhk_worldark_shipstat_harvest_t1 = 0
+@xhk_worldark_shipstat_harvest_t2 = 0.05
+@xhk_worldark_shipstat_harvest_t3 = 0.05
+@xhk_worldark_shipstat_harvest_t4 = 0.05
+@xhk_worldark_shipstat_harvest_t5 = 0.1
+@xhk_worldark_shipstat_harvest_t6 = 0.1
+@xhk_worldark_shipstat_harvest_t7 = 0.1
+@xhk_worldark_shipstat_harvest_t8 = 0.15
+@xhk_worldark_shipstat_harvest_t9 = 0.15
+@xhk_worldark_shipstat_harvest_t10 = 0.2
+
+@xhk_worldark_shipstat_weaponbonus_t1 = 0
+@xhk_worldark_shipstat_weaponbonus_t2 = 0
+@xhk_worldark_shipstat_weaponbonus_t3 = 0.05
+@xhk_worldark_shipstat_weaponbonus_t4 = 0.05
+@xhk_worldark_shipstat_weaponbonus_t5 = 0.05
+@xhk_worldark_shipstat_weaponbonus_t6 = 0.1
+@xhk_worldark_shipstat_weaponbonus_t7 = 0.1
+@xhk_worldark_shipstat_weaponbonus_t8 = 0.1
+@xhk_worldark_shipstat_weaponbonus_t9 = 0.15
+@xhk_worldark_shipstat_weaponbonus_t10 = 0.2

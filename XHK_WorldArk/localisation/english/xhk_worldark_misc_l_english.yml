@@ -16,6 +16,8 @@
  xhk_tech_worldark_6: "$xhk_pc_worldark$ Tier VI Upgrade"
  xhk_tech_worldark_7: "$xhk_pc_worldark$ Tier VII Upgrade"
  xhk_tech_worldark_8: "$xhk_pc_worldark$ Tier VIII Upgrade"
+ xhk_tech_worldark_9: "$xhk_pc_worldark$ Tier IX Upgrade"
+ xhk_tech_worldark_10: "$xhk_pc_worldark$ Tier X Upgrade"
 
  xhk_tech_worldark_1_desc: "The basics of maintenance and expansions of the $xhk_pc_worldark$."
  xhk_tech_worldark_2_desc: "Unlocks the $xhk_pc_worldark$ Tier II Upgrade"
@@ -25,6 +27,8 @@
  xhk_tech_worldark_6_desc: "Unlocks the $xhk_pc_worldark$ Tier VI Upgrade"
  xhk_tech_worldark_7_desc: "Unlocks the $xhk_pc_worldark$ Tier VII Upgrade"
  xhk_tech_worldark_8_desc: "Unlocks the $xhk_pc_worldark$ Tier VIII Upgrade"
+ xhk_tech_worldark_9_desc: "Unlocks the $xhk_pc_worldark$ Tier IX Upgrade"
+ xhk_tech_worldark_10_desc: "Unlocks the $xhk_pc_worldark$ Tier X Upgrade"
 
  XHK_TECH_UPGRADE_WORLDARK_1_TITLE: "$xhk_tech_worldark_1_desc$"
  XHK_TECH_UPGRADE_WORLDARK_2_TITLE: "$xhk_tech_worldark_2_desc$"
@@ -34,6 +38,8 @@
  XHK_TECH_UPGRADE_WORLDARK_6_TITLE: "$xhk_tech_worldark_6_desc$"
  XHK_TECH_UPGRADE_WORLDARK_7_TITLE: "$xhk_tech_worldark_7_desc$"
  XHK_TECH_UPGRADE_WORLDARK_8_TITLE: "$xhk_tech_worldark_8_desc$"
+ XHK_TECH_UPGRADE_WORLDARK_9_TITLE: "$xhk_tech_worldark_9_desc$"
+ XHK_TECH_UPGRADE_WORLDARK_10_TITLE: "$xhk_tech_worldark_10_desc$"
 
  xhk_harvest_plus1: "§G+1§!"
  xhk_harvest_plus2: "§G+2§!"

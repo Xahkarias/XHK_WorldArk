@@ -14,6 +14,8 @@ xhk_is_worldark_starbase = {
         has_starbase_size = xhk_worldark_tier_6
         has_starbase_size = xhk_worldark_tier_7
         has_starbase_size = xhk_worldark_tier_8
+        has_starbase_size = xhk_worldark_tier_9
+        has_starbase_size = xhk_worldark_tier_10
     }
 }
 

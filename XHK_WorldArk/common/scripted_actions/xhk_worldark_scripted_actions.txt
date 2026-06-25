@@ -53,8 +53,8 @@ xhk_worldark_size_harvest = {
     progress_activity_key = xhk_worldark_size_harvest_progress_activity_key
     required_progress_key = xhk_worldark_size_harvest_progress_progress_key
     cooldown = 540
-    category = harvest_resources
-    category_limit = 1
+    # category = harvest_resources
+    # category_limit = 1
 
     uses_vfx_type = harvest_effect
 

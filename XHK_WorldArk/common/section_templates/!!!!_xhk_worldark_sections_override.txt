@@ -8,23 +8,9 @@ ship_section_template = {
     entity = "construction_yard_01_entity"
     icon = "GFX_ship_part_core_mid"
 
-    ship_size = civilian_arkship_tier_1
-    ship_size = civilian_arkship_tier_2
-    ship_size = civilian_arkship_tier_3
-    ship_size = science_arkship_tier_1
-    ship_size = science_arkship_tier_2
-    ship_size = science_arkship_tier_3
-    ship_size = military_arkship_tier_1
-    ship_size = military_arkship_tier_2
-    ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_1
-    ship_size = xhk_worldark_tier_2
-    ship_size = xhk_worldark_tier_3
-    ship_size = xhk_worldark_tier_4
-    ship_size = xhk_worldark_tier_5
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
-    ship_size = xhk_worldark_tier_8
+    inline_script = {
+        script = xhk_worldark/section_templates/arkship_class_list
+    }
 
     fits_on_slot = "1"
     fits_on_slot = "2"
@@ -42,7 +28,14 @@ ship_section_template = {
     fits_on_slot = "14"
     fits_on_slot = "15"
     fits_on_slot = "16"
-
+    fits_on_slot = "17"
+    fits_on_slot = "18"
+    fits_on_slot = "19"
+    fits_on_slot = "20"
+    fits_on_slot = "20"
+    fits_on_slot = "21"
+    fits_on_slot = "22"
+    fits_on_slot = "23"
 
     should_draw_components = yes
 }
@@ -53,23 +46,9 @@ ship_section_template = {
     # but does not have the weapon component slots.
     icon = "GFX_ship_part_core_mid"
 
-    ship_size = civilian_arkship_tier_1
-    ship_size = civilian_arkship_tier_2
-    ship_size = civilian_arkship_tier_3
-    ship_size = science_arkship_tier_1
-    ship_size = science_arkship_tier_2
-    ship_size = science_arkship_tier_3
-    ship_size = military_arkship_tier_1
-    ship_size = military_arkship_tier_2
-    ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_1
-    ship_size = xhk_worldark_tier_2
-    ship_size = xhk_worldark_tier_3
-    ship_size = xhk_worldark_tier_4
-    ship_size = xhk_worldark_tier_5
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
-    ship_size = xhk_worldark_tier_8
+    inline_script = {
+        script = xhk_worldark/section_templates/arkship_class_list
+    }
 
     fits_on_slot = "1"
     fits_on_slot = "2"
@@ -87,6 +66,14 @@ ship_section_template = {
     fits_on_slot = "14"
     fits_on_slot = "15"
     fits_on_slot = "16"
+    fits_on_slot = "17"
+    fits_on_slot = "18"
+    fits_on_slot = "19"
+    fits_on_slot = "20"
+    fits_on_slot = "20"
+    fits_on_slot = "21"
+    fits_on_slot = "22"
+    fits_on_slot = "23"
 
     should_draw_components = yes
 }
@@ -96,23 +83,9 @@ ship_section_template = {
     entity = "living_space_01_entity"
     icon = "GFX_ship_part_core_mid"
 
-    ship_size = civilian_arkship_tier_1
-    ship_size = civilian_arkship_tier_2
-    ship_size = civilian_arkship_tier_3
-    ship_size = science_arkship_tier_1
-    ship_size = science_arkship_tier_2
-    ship_size = science_arkship_tier_3
-    ship_size = military_arkship_tier_1
-    ship_size = military_arkship_tier_2
-    ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_1
-    ship_size = xhk_worldark_tier_2
-    ship_size = xhk_worldark_tier_3
-    ship_size = xhk_worldark_tier_4
-    ship_size = xhk_worldark_tier_5
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
-    ship_size = xhk_worldark_tier_8
+    inline_script = {
+        script = xhk_worldark/section_templates/arkship_class_list
+    }
 
     fits_on_slot = "1"
     fits_on_slot = "2"
@@ -130,6 +103,14 @@ ship_section_template = {
     fits_on_slot = "14"
     fits_on_slot = "15"
     fits_on_slot = "16"
+    fits_on_slot = "17"
+    fits_on_slot = "18"
+    fits_on_slot = "19"
+    fits_on_slot = "20"
+    fits_on_slot = "20"
+    fits_on_slot = "21"
+    fits_on_slot = "22"
+    fits_on_slot = "23"
 
     should_draw_components = yes
 }
@@ -139,23 +120,9 @@ ship_section_template = {
     entity = "science_01_entity"
     icon = "GFX_ship_part_core_mid"
 
-    ship_size = civilian_arkship_tier_1
-    ship_size = civilian_arkship_tier_2
-    ship_size = civilian_arkship_tier_3
-    ship_size = science_arkship_tier_1
-    ship_size = science_arkship_tier_2
-    ship_size = science_arkship_tier_3
-    ship_size = military_arkship_tier_1
-    ship_size = military_arkship_tier_2
-    ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_1
-    ship_size = xhk_worldark_tier_2
-    ship_size = xhk_worldark_tier_3
-    ship_size = xhk_worldark_tier_4
-    ship_size = xhk_worldark_tier_5
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
-    ship_size = xhk_worldark_tier_8
+    inline_script = {
+        script = xhk_worldark/section_templates/arkship_class_list
+    }
 
     fits_on_slot = "1"
     fits_on_slot = "2"
@@ -173,6 +140,14 @@ ship_section_template = {
     fits_on_slot = "14"
     fits_on_slot = "15"
     fits_on_slot = "16"
+    fits_on_slot = "17"
+    fits_on_slot = "18"
+    fits_on_slot = "19"
+    fits_on_slot = "20"
+    fits_on_slot = "20"
+    fits_on_slot = "21"
+    fits_on_slot = "22"
+    fits_on_slot = "23"
 
     should_draw_components = yes
 }
@@ -183,23 +158,9 @@ ship_section_template = {
     # but does use the weapon component slots.
     icon = "GFX_ship_part_core_mid"
 
-    ship_size = civilian_arkship_tier_1
-    ship_size = civilian_arkship_tier_2
-    ship_size = civilian_arkship_tier_3
-    ship_size = science_arkship_tier_1
-    ship_size = science_arkship_tier_2
-    ship_size = science_arkship_tier_3
-    ship_size = military_arkship_tier_1
-    ship_size = military_arkship_tier_2
-    ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_1
-    ship_size = xhk_worldark_tier_2
-    ship_size = xhk_worldark_tier_3
-    ship_size = xhk_worldark_tier_4
-    ship_size = xhk_worldark_tier_5
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
-    ship_size = xhk_worldark_tier_8
+    inline_script = {
+        script = xhk_worldark/section_templates/arkship_class_list
+    }
 
     fits_on_slot = "1"
     fits_on_slot = "2"
@@ -217,6 +178,14 @@ ship_section_template = {
     fits_on_slot = "14"
     fits_on_slot = "15"
     fits_on_slot = "16"
+    fits_on_slot = "17"
+    fits_on_slot = "18"
+    fits_on_slot = "19"
+    fits_on_slot = "20"
+    fits_on_slot = "20"
+    fits_on_slot = "21"
+    fits_on_slot = "22"
+    fits_on_slot = "23"
 
     should_draw_components = yes
 
@@ -241,23 +210,9 @@ ship_section_template = {
     entity = "module_turret_XL_01_entity"
     icon = "GFX_ship_part_core_mid"
 
-    ship_size = civilian_arkship_tier_1
-    ship_size = civilian_arkship_tier_2
-    ship_size = civilian_arkship_tier_3
-    ship_size = science_arkship_tier_1
-    ship_size = science_arkship_tier_2
-    ship_size = science_arkship_tier_3
-    ship_size = military_arkship_tier_1
-    ship_size = military_arkship_tier_2
-    ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_1
-    ship_size = xhk_worldark_tier_2
-    ship_size = xhk_worldark_tier_3
-    ship_size = xhk_worldark_tier_4
-    ship_size = xhk_worldark_tier_5
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
-    ship_size = xhk_worldark_tier_8
+    inline_script = {
+        script = xhk_worldark/section_templates/arkship_class_list
+    }
 
     fits_on_slot = "1"
     fits_on_slot = "2"
@@ -275,6 +230,14 @@ ship_section_template = {
     fits_on_slot = "14"
     fits_on_slot = "15"
     fits_on_slot = "16"
+    fits_on_slot = "17"
+    fits_on_slot = "18"
+    fits_on_slot = "19"
+    fits_on_slot = "20"
+    fits_on_slot = "20"
+    fits_on_slot = "21"
+    fits_on_slot = "22"
+    fits_on_slot = "23"
 
     should_draw_components = no
 
@@ -290,23 +253,9 @@ ship_section_template = {
     entity = "module_turret_large_01_entity"
     icon = "GFX_ship_part_core_mid"
 
-    ship_size = civilian_arkship_tier_1
-    ship_size = civilian_arkship_tier_2
-    ship_size = civilian_arkship_tier_3
-    ship_size = science_arkship_tier_1
-    ship_size = science_arkship_tier_2
-    ship_size = science_arkship_tier_3
-    ship_size = military_arkship_tier_1
-    ship_size = military_arkship_tier_2
-    ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_1
-    ship_size = xhk_worldark_tier_2
-    ship_size = xhk_worldark_tier_3
-    ship_size = xhk_worldark_tier_4
-    ship_size = xhk_worldark_tier_5
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
-    ship_size = xhk_worldark_tier_8
+    inline_script = {
+        script = xhk_worldark/section_templates/arkship_class_list
+    }
 
     fits_on_slot = "1"
     fits_on_slot = "2"
@@ -324,6 +273,14 @@ ship_section_template = {
     fits_on_slot = "14"
     fits_on_slot = "15"
     fits_on_slot = "16"
+    fits_on_slot = "17"
+    fits_on_slot = "18"
+    fits_on_slot = "19"
+    fits_on_slot = "20"
+    fits_on_slot = "20"
+    fits_on_slot = "21"
+    fits_on_slot = "22"
+    fits_on_slot = "23"
 
     should_draw_components = yes
 
@@ -345,23 +302,9 @@ ship_section_template = {
     entity = "module_turret_medium_01_entity"
     icon = "GFX_ship_part_core_mid"
 
-    ship_size = civilian_arkship_tier_1
-    ship_size = civilian_arkship_tier_2
-    ship_size = civilian_arkship_tier_3
-    ship_size = science_arkship_tier_1
-    ship_size = science_arkship_tier_2
-    ship_size = science_arkship_tier_3
-    ship_size = military_arkship_tier_1
-    ship_size = military_arkship_tier_2
-    ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_1
-    ship_size = xhk_worldark_tier_2
-    ship_size = xhk_worldark_tier_3
-    ship_size = xhk_worldark_tier_4
-    ship_size = xhk_worldark_tier_5
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
-    ship_size = xhk_worldark_tier_8
+    inline_script = {
+        script = xhk_worldark/section_templates/arkship_class_list
+    }
 
     fits_on_slot = "1"
     fits_on_slot = "2"
@@ -379,6 +322,14 @@ ship_section_template = {
     fits_on_slot = "14"
     fits_on_slot = "15"
     fits_on_slot = "16"
+    fits_on_slot = "17"
+    fits_on_slot = "18"
+    fits_on_slot = "19"
+    fits_on_slot = "20"
+    fits_on_slot = "20"
+    fits_on_slot = "21"
+    fits_on_slot = "22"
+    fits_on_slot = "23"
 
     should_draw_components = yes
 
@@ -412,23 +363,9 @@ ship_section_template = {
     entity = "module_turret_medium_01_entity"
     icon = "GFX_ship_part_core_mid"
 
-    ship_size = civilian_arkship_tier_1
-    ship_size = civilian_arkship_tier_2
-    ship_size = civilian_arkship_tier_3
-    ship_size = science_arkship_tier_1
-    ship_size = science_arkship_tier_2
-    ship_size = science_arkship_tier_3
-    ship_size = military_arkship_tier_1
-    ship_size = military_arkship_tier_2
-    ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_1
-    ship_size = xhk_worldark_tier_2
-    ship_size = xhk_worldark_tier_3
-    ship_size = xhk_worldark_tier_4
-    ship_size = xhk_worldark_tier_5
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
-    ship_size = xhk_worldark_tier_8
+    inline_script = {
+        script = xhk_worldark/section_templates/arkship_class_list
+    }
 
     fits_on_slot = "1"
     fits_on_slot = "2"
@@ -446,6 +383,14 @@ ship_section_template = {
     fits_on_slot = "14"
     fits_on_slot = "15"
     fits_on_slot = "16"
+    fits_on_slot = "17"
+    fits_on_slot = "18"
+    fits_on_slot = "19"
+    fits_on_slot = "20"
+    fits_on_slot = "20"
+    fits_on_slot = "21"
+    fits_on_slot = "22"
+    fits_on_slot = "23"
 
     should_draw_components = yes
 
@@ -479,23 +424,9 @@ ship_section_template = {
     entity = "module_turret_small_01_entity"
     icon = "GFX_ship_part_core_mid"
 
-    ship_size = civilian_arkship_tier_1
-    ship_size = civilian_arkship_tier_2
-    ship_size = civilian_arkship_tier_3
-    ship_size = science_arkship_tier_1
-    ship_size = science_arkship_tier_2
-    ship_size = science_arkship_tier_3
-    ship_size = military_arkship_tier_1
-    ship_size = military_arkship_tier_2
-    ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_1
-    ship_size = xhk_worldark_tier_2
-    ship_size = xhk_worldark_tier_3
-    ship_size = xhk_worldark_tier_4
-    ship_size = xhk_worldark_tier_5
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
-    ship_size = xhk_worldark_tier_8
+    inline_script = {
+        script = xhk_worldark/section_templates/arkship_class_list
+    }
 
     fits_on_slot = "1"
     fits_on_slot = "2"
@@ -513,6 +444,14 @@ ship_section_template = {
     fits_on_slot = "14"
     fits_on_slot = "15"
     fits_on_slot = "16"
+    fits_on_slot = "17"
+    fits_on_slot = "18"
+    fits_on_slot = "19"
+    fits_on_slot = "20"
+    fits_on_slot = "20"
+    fits_on_slot = "21"
+    fits_on_slot = "22"
+    fits_on_slot = "23"
 
     should_draw_components = yes
 
@@ -570,23 +509,9 @@ ship_section_template = {
     entity = "module_turret_small_01_entity"
     icon = "GFX_ship_part_core_mid"
 
-    ship_size = civilian_arkship_tier_1
-    ship_size = civilian_arkship_tier_2
-    ship_size = civilian_arkship_tier_3
-    ship_size = science_arkship_tier_1
-    ship_size = science_arkship_tier_2
-    ship_size = science_arkship_tier_3
-    ship_size = military_arkship_tier_1
-    ship_size = military_arkship_tier_2
-    ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_1
-    ship_size = xhk_worldark_tier_2
-    ship_size = xhk_worldark_tier_3
-    ship_size = xhk_worldark_tier_4
-    ship_size = xhk_worldark_tier_5
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
-    ship_size = xhk_worldark_tier_8
+    inline_script = {
+        script = xhk_worldark/section_templates/arkship_class_list
+    }
 
     fits_on_slot = "1"
     fits_on_slot = "2"
@@ -604,6 +529,14 @@ ship_section_template = {
     fits_on_slot = "14"
     fits_on_slot = "15"
     fits_on_slot = "16"
+    fits_on_slot = "17"
+    fits_on_slot = "18"
+    fits_on_slot = "19"
+    fits_on_slot = "20"
+    fits_on_slot = "20"
+    fits_on_slot = "21"
+    fits_on_slot = "22"
+    fits_on_slot = "23"
 
     should_draw_components = yes
 
@@ -664,9 +597,9 @@ ship_section_template = {
     ship_size = civilian_arkship_tier_3
     ship_size = science_arkship_tier_3
     ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
     ship_size = xhk_worldark_tier_8
+    ship_size = xhk_worldark_tier_9
+    ship_size = xhk_worldark_tier_10
 
     fits_on_slot = "spinal_mount_1"
 
@@ -685,9 +618,9 @@ ship_section_template = {
     ship_size = civilian_arkship_tier_3
     ship_size = science_arkship_tier_3
     ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
     ship_size = xhk_worldark_tier_8
+    ship_size = xhk_worldark_tier_9
+    ship_size = xhk_worldark_tier_10
 
     fits_on_slot = "spinal_mount_1"
 }
@@ -700,9 +633,9 @@ ship_section_template = {
     ship_size = civilian_arkship_tier_3
     ship_size = science_arkship_tier_3
     ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
     ship_size = xhk_worldark_tier_8
+    ship_size = xhk_worldark_tier_9
+    ship_size = xhk_worldark_tier_10
 
     fits_on_slot = "spinal_mount_1"
 }
@@ -715,9 +648,9 @@ ship_section_template = {
     ship_size = civilian_arkship_tier_3
     ship_size = science_arkship_tier_3
     ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
     ship_size = xhk_worldark_tier_8
+    ship_size = xhk_worldark_tier_9
+    ship_size = xhk_worldark_tier_10
 
     fits_on_slot = "spinal_mount_1"
 }
@@ -730,9 +663,9 @@ ship_section_template = {
     ship_size = civilian_arkship_tier_3
     ship_size = science_arkship_tier_3
     ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
     ship_size = xhk_worldark_tier_8
+    ship_size = xhk_worldark_tier_9
+    ship_size = xhk_worldark_tier_10
 
     fits_on_slot = "spinal_mount_1"
 }
@@ -745,9 +678,9 @@ ship_section_template = {
     ship_size = civilian_arkship_tier_3
     ship_size = science_arkship_tier_3
     ship_size = military_arkship_tier_3
-    ship_size = xhk_worldark_tier_6
-    ship_size = xhk_worldark_tier_7
     ship_size = xhk_worldark_tier_8
+    ship_size = xhk_worldark_tier_9
+    ship_size = xhk_worldark_tier_10
 
     fits_on_slot = "spinal_mount_1"
 }

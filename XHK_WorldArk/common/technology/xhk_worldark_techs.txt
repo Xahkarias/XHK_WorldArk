@@ -135,3 +135,37 @@ xhk_tech_worldark_8 = {
 
     prerequisites = { "xhk_tech_worldark_7" }
 }
+
+xhk_tech_worldark_9 = {
+    area = engineering
+    category = { voidcraft }
+    tier = 5
+    cost = @tier5cost3
+
+    weight = 200
+    inline_script = {
+        script = xhk_worldark/technology/tech_ship_definition
+        TIER = 9
+    }
+
+    prerequisites = { "xhk_tech_worldark_8" }
+}
+
+xhk_tech_worldark_10 = {
+    area = engineering
+    category = { voidcraft }
+    tier = 5
+    cost = @tier5cost3
+
+    weight = 100
+    inline_script = {
+        script = xhk_worldark/technology/tech_ship_definition
+        TIER = 10
+    }
+
+    modifier = {
+        nomadic_constructor_limit_add = 1
+    }
+
+    prerequisites = { "xhk_tech_worldark_9" }
+}

@@ -7,6 +7,8 @@
  xhk_worldark_tier_6:0 "$xhk_pc_worldark$ VI"
  xhk_worldark_tier_7:0 "$xhk_pc_worldark$ VII"
  xhk_worldark_tier_8:0 "$xhk_pc_worldark$ VIII"
+ xhk_worldark_tier_9:0 "$xhk_pc_worldark$ IX"
+ xhk_worldark_tier_10:0 "$xhk_pc_worldark$ X"
 
  xhk_worldark_tier_1_cap:0 "$xhk_worldark_tier_1$"
  xhk_worldark_tier_2_cap:0 "$xhk_worldark_tier_2$"
@@ -16,6 +18,8 @@
  xhk_worldark_tier_6_cap:0 "$xhk_worldark_tier_6$"
  xhk_worldark_tier_7_cap:0 "$xhk_worldark_tier_7$"
  xhk_worldark_tier_8_cap:0 "$xhk_worldark_tier_8$"
+ xhk_worldark_tier_9_cap:0 "$xhk_worldark_tier_9$"
+ xhk_worldark_tier_10_cap:0 "$xhk_worldark_tier_10$"
 
  ########################################################################################################
  # SCRIPTED ACTIONS
@@ -25,8 +29,8 @@
  xhk_worldark_size_harvest: "Expand the $xhk_pc_worldark$"
  xhk_worldark_size_harvest_desc: "§LThe $xhk_pc_worldark$ can be expanded by consuming a significant portion of the mass of a planetary body.§!"
  xhk_worldark_size_harvest_effect: "$XHK_SIZE_HARVEST_EFFECTS_HEADER$ $xhk_worldark_size_harvest_base_effect$ $xhk_worldark_size_harvest_planet_effect$"
- XHK_SIZE_HARVEST_EFFECTS_HEADER: "§E£text_icon_arkship£ §Y$xhk_pc_worldark$ Expansion§! Effects:§!"
- xhk_worldark_size_harvest_base_effect: "$TABBED_NEW_LINE$- £text_districtadd£§IMax Districts§! on the §I$xhk_pc_worldark$§!: [Owner.xhk_worldark_getDistrictIncreaseFromHarvest]"
+ XHK_SIZE_HARVEST_EFFECTS_HEADER: "§E£icon_arkship£ §Y$xhk_pc_worldark$ Expansion§! Effects:§!"
+ xhk_worldark_size_harvest_base_effect: "$TABBED_NEW_LINE$- £districtadd£§IMax Districts§! on the §I$xhk_pc_worldark$§!: [Owner.xhk_worldark_getDistrictIncreaseFromHarvest]"
  xhk_worldark_size_harvest_planet_effect: "$DOUBLE_NEW_LINE$ $PLANET_EFFECTS_HEADER$ $TABBED_NEW_LINE$- §Y$xhk_size_harvested_already$§! modifier added: $TABBED_NEW_LINE$$t$ §RPrevents further harvesting for expansion by a $xhk_pc_worldark$§!"
  xhk_worldark_size_harvest_ship_button: "$xhk_worldark_size_harvest_effect$\n\n$xhk_worldark_size_harvest_desc$"
  xhk_worldark_size_harvest_activity_key: "Consuming Mass"
@@ -63,3 +67,5 @@
  mod_shipsize_xhk_worldark_tier_6_fire_rate_mult: "$xhk_worldark_tier_6$ Fire Rate"
  mod_shipsize_xhk_worldark_tier_7_fire_rate_mult: "$xhk_worldark_tier_7$ Fire Rate"
  mod_shipsize_xhk_worldark_tier_8_fire_rate_mult: "$xhk_worldark_tier_8$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_9_fire_rate_mult: "$xhk_worldark_tier_9$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_10_fire_rate_mult: "$xhk_worldark_tier_10$ Fire Rate"

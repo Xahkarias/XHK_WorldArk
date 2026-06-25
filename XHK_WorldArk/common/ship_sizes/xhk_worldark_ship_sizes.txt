@@ -25,27 +25,14 @@ xhk_worldark_tier_1 = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
         "2"		=	{ locator = "module_02" }
+        "3"		=	{ locator = "module_01" }
+        "4"		=	{ locator = "module_02" }
     }
     # Ship setup
-    max_hitpoints = 2500
-    modifier = {
-        ship_evasion_add = 5
-        ship_armor_add = 1250
-        ship_shield_add = 1250
-        ship_shield_regen_add_static = 5
-        starbase_module_capacity_add = 2
-        starbase_building_capacity_add = 4
-        planet_max_districts_add = 0
-        ship_sensor_range_add = 1
-
-        ship_reactor_power_mult = 1.00
+    inline_script = {
+        script = xhk_worldark/ship_sizes/ship_stats
+        TIER = 1
     }
-    ship_modifier = {
-        ship_starbase_stockpile_collection_rate_add = 125
-        arkship_harvest_resources_produces_mult = 0.05
-    }
-    size_multiplier = 80
-    fleet_slot_size = 8
 }
 
 xhk_worldark_tier_2 = {
@@ -77,30 +64,16 @@ xhk_worldark_tier_2 = {
         "2"		=	{ locator = "module_02" }
         "3"		=	{ locator = "module_03" }
         "4"		=	{ locator = "module_04" }
+        "5"		=	{ locator = "module_01" }
+        "6"		=	{ locator = "module_02" }
+        "7"	=	{ locator = "module_03" }
+        "8"		=	{ locator = "module_04" }
     }
     # Ship setup
-    max_hitpoints = 5000
-    modifier = {
-        ship_evasion_add = 5
-        ship_armor_add = 2500
-        ship_shield_add = 2500
-        ship_shield_regen_add_static = 10
-        starbase_module_capacity_add = 4
-        starbase_building_capacity_add = 8
-        planet_max_districts_add = 5
-
-        ship_reactor_power_mult = 1.00
-        # science
-        ship_sensor_range_add = 1
-        ship_hyperlane_range_add = 1
+    inline_script = {
+        script = xhk_worldark/ship_sizes/ship_stats
+        TIER = 2
     }
-    ship_modifier = {
-        ship_starbase_stockpile_collection_rate_add = 500
-        # civ
-        arkship_harvest_resources_produces_mult = 0.05
-    }
-    size_multiplier = 80
-    fleet_slot_size = 8
 }
 
 xhk_worldark_tier_3 = {
@@ -132,35 +105,20 @@ xhk_worldark_tier_3 = {
         "2"		=	{ locator = "module_02" }
         "3"		=	{ locator = "module_03" }
         "4"		=	{ locator = "module_04" }
-        "5"		=	{ locator = "module_05" }
-        "6"		=	{ locator = "module_06" }
+        "5"		=	{ locator = "module_01" }
+        "6"		=	{ locator = "module_02" }
+        "7"	=	{ locator = "module_03" }
+        "8"		=	{ locator = "module_04" }
+        "9"	=	{ locator = "module_01" }
+        "10"		=	{ locator = "module_02" }
+        "11"	    =	{ locator = "module_03" }
+        "12"	=	{ locator = "module_04" }
     }
     # Ship setup
-    max_hitpoints = 10000
-    modifier = {
-        ship_evasion_add = 5
-        ship_armor_add = 5000
-        ship_shield_add = 5000
-        ship_shield_regen_add_static = 20
-        starbase_module_capacity_add = 6
-        starbase_building_capacity_add = 12
-        planet_max_districts_add = 10
-
-        ship_reactor_power_mult = 1.50
-        # science
-        ship_sensor_range_add = 1
-        ship_hyperlane_range_add = 1
+    inline_script = {
+        script = xhk_worldark/ship_sizes/ship_stats
+        TIER = 3
     }
-    ship_modifier = {
-        ship_starbase_stockpile_collection_rate_add = 1000
-        # civ
-        arkship_harvest_resources_produces_mult = 0.05
-        # mil
-        ship_fire_rate_mult = 0.05
-        ship_weapon_range_mult = 0.05
-    }
-    size_multiplier = 100
-    fleet_slot_size = 8
 }
 
 xhk_worldark_tier_4 = {
@@ -192,39 +150,24 @@ xhk_worldark_tier_4 = {
         "2"		=	{ locator = "module_02" }
         "3"		=	{ locator = "module_03" }
         "4"		=	{ locator = "module_04" }
-        "5"		=	{ locator = "module_05" }
-        "6"		=	{ locator = "module_06" }
-        "7"	=	{ locator = "module_01" }
-        "8"		=	{ locator = "module_02" }
-        "9"	=	{ locator = "module_03" }
-        "10"		=	{ locator = "module_04" }
+        "5"		=	{ locator = "module_01" }
+        "6"		=	{ locator = "module_02" }
+        "7"	=	{ locator = "module_03" }
+        "8"		=	{ locator = "module_04" }
+        "9"	=	{ locator = "module_01" }
+        "10"		=	{ locator = "module_02" }
+        "11"	    =	{ locator = "module_03" }
+        "12"	=	{ locator = "module_04" }
+        "13"	    =	{ locator = "module_01" }
+        "14"		=	{ locator = "module_02" }
+        "15"	    =	{ locator = "module_03" }
+        "16"	    =	{ locator = "module_04" }
     }
     # Ship setup
-    max_hitpoints = 15000
-    modifier = {
-        ship_evasion_add = 5
-        ship_armor_add = 7500
-        ship_shield_add = 7500
-        ship_shield_regen_add_static = 30
-        starbase_module_capacity_add = 10
-        starbase_building_capacity_add = 16
-        planet_max_districts_add = 15
-
-        ship_reactor_power_mult = 1.50
-        # science
-        ship_sensor_range_add = 1
-        ship_hyperlane_range_add = 1
+    inline_script = {
+        script = xhk_worldark/ship_sizes/ship_stats
+        TIER = 4
     }
-    ship_modifier = {
-        ship_starbase_stockpile_collection_rate_add = 1500
-        # civ
-        arkship_harvest_resources_produces_mult = 0.10
-        # mil
-        ship_fire_rate_mult = 0.05
-        ship_weapon_range_mult = 0.05
-    }
-    size_multiplier = 100
-    fleet_slot_size = 8
 }
 
 xhk_worldark_tier_5 = {
@@ -251,6 +194,7 @@ xhk_worldark_tier_5 = {
     # 3D Art
     entity = military_arkship_01_stage_2_entity
     section_slots = {
+        # NO CHANGE THIS TIER
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
         "2"		=	{ locator = "module_02" }
@@ -266,33 +210,14 @@ xhk_worldark_tier_5 = {
         "12"	=	{ locator = "module_06" }
         "13"	    =	{ locator = "module_01" }
         "14"		=	{ locator = "module_02" }
+        "15"	    =	{ locator = "module_03" }
+        "16"	    =	{ locator = "module_04" }
     }
     # Ship setup
-    max_hitpoints = 20000
-    modifier = {
-        ship_evasion_add = 5
-        ship_armor_add = 10000
-        ship_shield_add = 10000
-        ship_shield_regen_add_static = 40
-        starbase_module_capacity_add = 14
-        starbase_building_capacity_add = 20
-        planet_max_districts_add = 20
-
-        ship_reactor_power_mult = 2.00
-        # science
-        ship_sensor_range_add = 2
-        ship_hyperlane_range_add = 2
+    inline_script = {
+        script = xhk_worldark/ship_sizes/ship_stats
+        TIER = 5
     }
-    ship_modifier = {
-        ship_starbase_stockpile_collection_rate_add = 2000
-        # civ
-        arkship_harvest_resources_produces_mult = 0.10
-        # mil
-        ship_fire_rate_mult = 0.05
-        ship_weapon_range_mult = 0.05
-    }
-    size_multiplier = 100
-    fleet_slot_size = 8
 }
 
 xhk_worldark_tier_6 = {
@@ -336,34 +261,16 @@ xhk_worldark_tier_6 = {
         "14"		=	{ locator = "module_02" }
         "15"	    =	{ locator = "module_03" }
         "16"		=	{ locator = "module_04" }
-        "spinal_mount_1"	=	{ locator = "spinal_mount" }
+        "17"	    =	{ locator = "module_05" }
+        "18"	    =	{ locator = "module_06" }
+        "19"	    =	{ locator = "module_01" }
+        "20"		=	{ locator = "module_02" }
     }
     # Ship setup
-    max_hitpoints = 25000
-    modifier = {
-        ship_evasion_add = 5
-        ship_armor_add = 12500
-        ship_shield_add = 12500
-        ship_shield_regen_add_static = 50
-        starbase_module_capacity_add = 17
-        starbase_building_capacity_add = 24
-        planet_max_districts_add = 25
-
-        ship_reactor_power_mult = 2.00
-        # science
-        ship_sensor_range_add = 2
-        ship_hyperlane_range_add = 2
+    inline_script = {
+        script = xhk_worldark/ship_sizes/ship_stats
+        TIER = 6
     }
-    ship_modifier = {
-        ship_starbase_stockpile_collection_rate_add = 2000
-        # civ
-        arkship_harvest_resources_produces_mult = 0.10
-        # mil
-        ship_fire_rate_mult = 0.10
-        ship_weapon_range_mult = 0.10
-    }
-    size_multiplier = 100
-    fleet_slot_size = 8
 }
 
 xhk_worldark_tier_7 = {
@@ -407,35 +314,20 @@ xhk_worldark_tier_7 = {
         "14"		=	{ locator = "module_02" }
         "15"	    =	{ locator = "module_03" }
         "16"		=	{ locator = "module_04" }
-        "spinal_mount_1"	=	{ locator = "spinal_mount" }
-        "spinal_mount_1"	=	{ locator = "spinal_mount" }
+        "17"	    =	{ locator = "module_05" }
+        "18"	    =	{ locator = "module_06" }
+        "19"	    =	{ locator = "module_01" }
+        "20"		=	{ locator = "module_02" }
+        "21"	    =	{ locator = "module_03" }
+        "22"		=	{ locator = "module_04" }
+        "23"	    =	{ locator = "module_05" }
+        "24"	    =	{ locator = "module_06" }
     }
     # Ship setup
-    max_hitpoints = 35000
-    modifier = {
-        ship_evasion_add = 5
-        ship_armor_add = 17500
-        ship_shield_add = 17500
-        ship_shield_regen_add_static = 70
-        starbase_module_capacity_add = 18
-        starbase_building_capacity_add = 28
-        planet_max_districts_add = 35
-
-        ship_reactor_power_mult = 2.50
-        # science
-        ship_sensor_range_add = 3
-        ship_hyperlane_range_add = 3
+    inline_script = {
+        script = xhk_worldark/ship_sizes/ship_stats
+        TIER = 7
     }
-    ship_modifier = {
-        ship_starbase_stockpile_collection_rate_add = 3000
-        # civ
-        arkship_harvest_resources_produces_mult = 0.15
-        # mil
-        ship_fire_rate_mult = 0.15
-        ship_weapon_range_mult = 0.15
-    }
-    size_multiplier = 120
-    fleet_slot_size = 8
 }
 
 xhk_worldark_tier_8 = {
@@ -479,35 +371,144 @@ xhk_worldark_tier_8 = {
         "14"		=	{ locator = "module_02" }
         "15"	    =	{ locator = "module_03" }
         "16"		=	{ locator = "module_04" }
+        "17"	    =	{ locator = "module_05" }
+        "18"	    =	{ locator = "module_06" }
+        "19"	    =	{ locator = "module_01" }
+        "20"		=	{ locator = "module_02" }
+        "21"	    =	{ locator = "module_03" }
+        "22"		=	{ locator = "module_04" }
+        "23"	    =	{ locator = "module_05" }
+        "24"	    =	{ locator = "module_06" }
+        "spinal_mount_1"	=	{ locator = "spinal_mount" }
+        "spinal_mount_1"	=	{ locator = "spinal_mount" }
+    }
+    # Ship setup
+    inline_script = {
+        script = xhk_worldark/ship_sizes/ship_stats
+        TIER = 8
+    }
+}
+
+xhk_worldark_tier_9 = {
+    inline_script = {
+        script = xhk_worldark/ship_sizes/ship_definition
+        TIER = 9
+    }
+    # Arkship specific stuff
+
+    graphical_culture = { "military_arkship" }
+    arkship_picture = "arkship_military"
+
+    # 2D Art
+    icon = ship_size_military_arkship_tier_3
+    icon_frame = 16
+    ship_class_icon_frame = 64
+    map_icon_override = {
+        normal = GFX_ship_icons_type_arkship
+        mixed = GFX_ship_icons_type_arkship_mixed
+        cloaked = GFX_ship_icons_type_arkship_cloaked
+        encamped = GFX_ship_icons_type_arkship_encamped
+    }
+
+    # 3D Art
+    entity = military_arkship_01_stage_3_entity
+    section_slots = {
+        "mid"	=	{ locator = "part1" }
+        "1"		=	{ locator = "module_01" }
+        "2"		=	{ locator = "module_02" }
+        "3"		=	{ locator = "module_03" }
+        "4"		=	{ locator = "module_04" }
+        "5"		=	{ locator = "module_05" }
+        "6"		=	{ locator = "module_06" }
+        "7"	=	{ locator = "module_01" }
+        "8"		=	{ locator = "module_02" }
+        "9"	=	{ locator = "module_03" }
+        "10"		=	{ locator = "module_04" }
+        "11"	    =	{ locator = "module_05" }
+        "12"	=	{ locator = "module_06" }
+        "13"	    =	{ locator = "module_01" }
+        "14"		=	{ locator = "module_02" }
+        "15"	    =	{ locator = "module_03" }
+        "16"		=	{ locator = "module_04" }
+        "17"	    =	{ locator = "module_05" }
+        "18"	    =	{ locator = "module_06" }
+        "19"	    =	{ locator = "module_01" }
+        "20"		=	{ locator = "module_02" }
+        "21"	    =	{ locator = "module_03" }
+        "22"		=	{ locator = "module_04" }
+        "23"	    =	{ locator = "module_05" }
+        "24"	    =	{ locator = "module_06" }
         "spinal_mount_1"	=	{ locator = "spinal_mount" }
         "spinal_mount_1"	=	{ locator = "spinal_mount" }
         "spinal_mount_1"	=	{ locator = "spinal_mount" }
         "spinal_mount_1"	=	{ locator = "spinal_mount" }
     }
     # Ship setup
-    max_hitpoints = 50000
-    modifier = {
-        ship_evasion_add = 5
-        ship_armor_add = 25000
-        ship_shield_add = 25000
-        ship_shield_regen_add_static = 100
-        starbase_module_capacity_add = 20
-        starbase_building_capacity_add = 32
-        planet_max_districts_add = 50
+    inline_script = {
+        script = xhk_worldark/ship_sizes/ship_stats
+        TIER = 9
+    }
+}
 
-        ship_reactor_power_mult = 2.50
-        # science
-        ship_sensor_range_add = 3
-        ship_hyperlane_range_add = 4
+xhk_worldark_tier_10 = {
+    inline_script = {
+        script = xhk_worldark/ship_sizes/ship_definition
+        TIER = 10
     }
-    ship_modifier = {
-        ship_starbase_stockpile_collection_rate_add = 4000
-        # civ
-        arkship_harvest_resources_produces_mult = 0.20
-        # mil
-        ship_fire_rate_mult = 0.15
-        ship_weapon_range_mult = 0.20
+    # Arkship specific stuff
+
+    graphical_culture = { "military_arkship" }
+    arkship_picture = "arkship_military"
+
+    # 2D Art
+    icon = ship_size_military_arkship_tier_3
+    icon_frame = 16
+    ship_class_icon_frame = 64
+    map_icon_override = {
+        normal = GFX_ship_icons_type_arkship
+        mixed = GFX_ship_icons_type_arkship_mixed
+        cloaked = GFX_ship_icons_type_arkship_cloaked
+        encamped = GFX_ship_icons_type_arkship_encamped
     }
-    size_multiplier = 120
-    fleet_slot_size = 8
+
+    # 3D Art
+    entity = military_arkship_01_stage_3_entity
+    section_slots = {
+        "mid"	=	{ locator = "part1" }
+        "1"		=	{ locator = "module_01" }
+        "2"		=	{ locator = "module_02" }
+        "3"		=	{ locator = "module_03" }
+        "4"		=	{ locator = "module_04" }
+        "5"		=	{ locator = "module_05" }
+        "6"		=	{ locator = "module_06" }
+        "7"	=	{ locator = "module_01" }
+        "8"		=	{ locator = "module_02" }
+        "9"	=	{ locator = "module_03" }
+        "10"		=	{ locator = "module_04" }
+        "11"	    =	{ locator = "module_05" }
+        "12"	=	{ locator = "module_06" }
+        "13"	    =	{ locator = "module_01" }
+        "14"		=	{ locator = "module_02" }
+        "15"	    =	{ locator = "module_03" }
+        "16"		=	{ locator = "module_04" }
+        "17"	    =	{ locator = "module_05" }
+        "18"	    =	{ locator = "module_06" }
+        "19"	    =	{ locator = "module_01" }
+        "20"		=	{ locator = "module_02" }
+        "21"	    =	{ locator = "module_03" }
+        "22"		=	{ locator = "module_04" }
+        "23"	    =	{ locator = "module_05" }
+        "24"	    =	{ locator = "module_06" }
+        "spinal_mount_1"	=	{ locator = "spinal_mount" }
+        "spinal_mount_1"	=	{ locator = "spinal_mount" }
+        "spinal_mount_1"	=	{ locator = "spinal_mount" }
+        "spinal_mount_1"	=	{ locator = "spinal_mount" }
+        "spinal_mount_1"	=	{ locator = "spinal_mount" }
+        "spinal_mount_1"	=	{ locator = "spinal_mount" }
+    }
+    # Ship setup
+    inline_script = {
+        script = xhk_worldark/ship_sizes/ship_stats
+        TIER = 10
+    }
 }
