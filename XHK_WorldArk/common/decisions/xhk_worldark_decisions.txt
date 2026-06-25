@@ -4,6 +4,14 @@ xhk_worldark_add_logistics_ship = {
 
     enactment_time = 360
 
+    prerequisites = {
+        tech_arkship_construction
+    }
+
+    show_tech_unlock_if = {
+        is_nomadic = yes
+    }
+
     resources = {
         category = decisions
         cost = {
