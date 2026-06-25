@@ -251,7 +251,7 @@ guiTypes = {
             }
             iconType = {
                 name = "arkship_header_background"
-                spriteType = "GFX_arkship_header_default"
+                spriteType = "GFX_arkship_planetview_header_civilian"
                 position = { x = 0 y = 0 }
                 alwaysTransparent = yes
             }
@@ -603,7 +603,7 @@ guiTypes = {
             buttonType = {
                 name = "arkship_inspect_ship"
                 quadTextureSprite = "GFX_tiling_button_standard_seethrough"
-                position = { x = 745 y = 5 }
+                position = { x = 743 y = 7 }
                 size = { x = 140 y = 52 }
                 buttonFont = "font_text_14"
                 clicksound = "tab_click"
@@ -612,7 +612,7 @@ guiTypes = {
             buttonType = {
                 name = "arkship_upgrade"
                 quadTextureSprite = "GFX_tiling_button_standard_seethrough"
-                position = { x = 745 y = 60 }
+                position = { x = 743 y = 64 }
                 size = { x = 140 y = 52 }
                 buttonFont = "font_text_14"
                 clicksound = "tab_click"
@@ -620,8 +620,8 @@ guiTypes = {
             }
             containerWindowType = {
                 name = "systems_header_container"
-                position = { x = 30 y = 201 }
-                size = { width = 136 height = 36 }
+                position = { x = 30 y = 199 }
+                size = { width = 136 height = 38 }
                 background = {
                     name = "systems_header_bg"
                     spriteType = "GFX_black_box_planet_view"
@@ -632,7 +632,7 @@ guiTypes = {
                     text = "SYSTEMS"
                     position = { x = 0 y = 0 }
                     maxWidth = 136
-                    maxHeight = 36
+                    maxHeight = 38
                     fixedSize = yes
                     format = center
                     vertical_alignment = center
@@ -650,18 +650,18 @@ guiTypes = {
             containerWindowType = {
                 name = "modules_header_container"
                 position = { x = 316 y = 620 }
-                size = { width = 136 height = 36 }
+                size = { width = 136 height = 38 }
                 background = {
                     name = "modules_header_bg"
                     spriteType = "GFX_black_box_planet_view"
                 }
                 instantTextBoxType = {
                     name = "modules_header"
-                    font = "font_text_14"
+                    font = "font_text_16"
                     text = "STARBASE_MODULES"
                     position = { x = 0 y = 0 }
                     maxWidth = 136
-                    maxHeight = 36
+                    maxHeight = 38
                     fixedSize = yes
                     format = center
                     vertical_alignment = center
@@ -678,19 +678,19 @@ guiTypes = {
             }
             containerWindowType = {
                 name = "spinal_header_container"
-				position = { x = 505 y = 620 }
-                size = { width = 136 height = 36 }
+                position = { x = 505 y = 620 }
+                size = { width = 136 height = 38 }
                 background = {
                     name = "spinal_header_bg"
                     spriteType = "GFX_black_box_planet_view"
                 }
                 instantTextBoxType = {
                     name = "spinal_mount_header"
-                    font = "font_text_14"
+                    font = "font_text_16"
                     text = "ARKSHIP_SPINAL_MOUNT"
                     position = { x = 0 y = 0 }
                     maxWidth = 136
-                    maxHeight = 36
+                    maxHeight = 38
                     fixedSize = yes
                     format = center
                     vertical_alignment = center
@@ -708,19 +708,19 @@ guiTypes = {
             containerWindowType = {
                 # XHK +200 Y
                 name = "view_contract_header_container"
-				position = { x = 648 y = 795 }
-                size = { width = 220 height = 36 }
+                position = { x = 648 y = 795 }
+                size = { width = 220 height = 38 }
                 background = {
                     name = "view_contract_header_bg"
                     spriteType = "GFX_black_box_planet_view"
                 }
                 instantTextBoxType = {
                     name = "view_contract_header"
-                    font = "font_text_14"
+                    font = "font_text_16"
                     text = "ARKSHIP_CONTROLS_VIEW_CONTRACT_HEADER"
                     position = { x = 0 y = 0 }
                     maxWidth = 220
-                    maxHeight = 36
+                    maxHeight = 38
                     fixedSize = yes
                     format = center
                     vertical_alignment = center
@@ -731,7 +731,7 @@ guiTypes = {
                 name = "view_contract"
                 size = { x = 170 y = 42 }
                 # XHK +200 Y
-				position = { x = 673 y = 836 }
+                position = { x = 673 y = 836 }
                 quadTextureSprite = "GFX_tiling_button_standard_seethrough"
                 buttonFont = "font_text_14"
                 clicksound = "tab_click"
@@ -740,18 +740,18 @@ guiTypes = {
             containerWindowType = {
                 name = "lower_systems_header_container"
                 position = { x = 742 y = 201 }
-                size = { width = 116 height = 36 }
+                size = { width = 136 height = 38 }
                 background = {
                     name = "lower_systems_header_bg"
                     spriteType = "GFX_black_box_planet_view"
                 }
                 instantTextBoxType = {
                     name = "lower_systems_header"
-                    font = "font_text_14"
+                    font = "font_text_16"
                     text = "SYSTEMS"
                     position = { x = 0 y = 0 }
-                    maxWidth = 116
-                    maxHeight = 36
+                    maxWidth = 136
+                    maxHeight = 38
                     fixedSize = yes
                     format = center
                     vertical_alignment = center
@@ -764,21 +764,14 @@ guiTypes = {
                 format = "UPPER_LEFT"
                 slotSize = { width = 58 height = 58 }
                 add_horizontal = yes
-				max_slots_horizontal = 2
-			}
-			buttonType = {
-				name = "arkship_inspect_ship"
-				quadTextureSprite = "GFX_fleetview_inspect_ship"
-				position = { x = 795 y = 77 }
-				orientation = upper_right
-				buttonFont = "font_text_14"
+                max_slots_horizontal = 2
             }
             # Arkship Fleet UI
             containerWindowType = {
                 name = "fleet_status_container"
                 # XHK +200 Y
 				position = { x = 30 y = 795 }
-                size = { width = 220 height = 36 }
+                size = { width = 220 height = 38 }
                 background = {
                     name = "fleet_status_bg"
                     spriteType = "GFX_black_box_planet_view"
@@ -789,7 +782,7 @@ guiTypes = {
                     text = "STATUS"
                     position = { x = 0 y = 0 }
                     maxWidth = 220
-                    maxHeight = 36
+                    maxHeight = 38
                     fixedSize = yes
                     format = center
                     vertical_alignment = center
@@ -803,7 +796,7 @@ guiTypes = {
                 text = "ORDERS"
 				position = { x = 35 y = 835 }
                 maxWidth = 210
-                maxHeight = 20
+                maxHeight = 32
                 fixedSize = yes
                 format = left
                 vertical_alignment = center
@@ -7234,13 +7227,6 @@ guiTypes = {
                     format = "UPPER_LEFT"
                     add_horizontal = yes
                 }
-                # Placeholder for the slider "tip"
-                buttonType = {
-                    name = "job_workforce_slider_setting"
-                    spriteType = "GFX_district_workforce_slider"
-                    position = { x = 5 y = 14 } # Used as the position of the leftmost slot.
-                    centerPosition = yes
-                }
                 containerWindowType = {
                     name = "job_workforce_buttons_background"
                     size = { width = 53 height = 30 }
@@ -7266,11 +7252,17 @@ guiTypes = {
                     orientation = upper_right
                     oversound = "no_sound"
                 }
-                # UIOD_WIP
                 buttonType = {
                     name = "job_automated_workforce_slider_setting"
                     spriteType = "GFX_district_automated_workforce_slider"
-                    position = { x = 0 y = 0 } # Used as the position of the leftmost slot; updated dynamically.
+                    position = { x = 12 y = 14 } # Used as the position of the leftmost slot; updated dynamically.
+                    centerPosition = yes
+                }
+                # Placeholder for the slider "tip"
+                buttonType = {
+                    name = "job_workforce_slider_setting"
+                    spriteType = "GFX_district_workforce_slider"
+                    position = { x = 5 y = 14 } # Used as the position of the leftmost slot.
                     centerPosition = yes
                 }
                 instantTextBoxType = {
