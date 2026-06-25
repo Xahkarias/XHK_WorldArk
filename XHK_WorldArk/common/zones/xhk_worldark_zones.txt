@@ -298,8 +298,6 @@ zone_xhk_worldark_mining = {
     }
 
     included_building_sets = {
-        mining_automation
-        fallen_empire_mining
         harvest
     }
 
