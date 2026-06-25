@@ -52,7 +52,7 @@ xhk_worldark_size_harvest = {
     required_progress = value:arkship_harvest_resources_required_progress_value
     progress_activity_key = xhk_worldark_size_harvest_progress_activity_key
     required_progress_key = xhk_worldark_size_harvest_progress_progress_key
-    cooldown = 540
+    cooldown = @xhk_worldark_harvest_cd
     # category = harvest_resources
     # category_limit = 1
 
@@ -70,7 +70,7 @@ xhk_worldark_size_harvest = {
         #This - Target Planet
         #From - Acting Fleet
         weight = {
-            base = 100 # REALLYT FUCKING HIGH
+            base = 10 # low so it doesnt lock up stuff
             modifier = {
                 factor = 0 #cannot afford
                 FROM.controller = {
@@ -81,13 +81,17 @@ xhk_worldark_size_harvest = {
                     }
                 }
             }
+            modifier = {
+                factor = 0
+                from = { has_fleet_flag = xhk_expand_harvest_cooldown }
+            }
             inline_script = {
                 script = scripted_actions/ai_distance_modifiers
                 LOCAL_SYSTEM_CHECK = "any_system_planet = { is_same_value = ROOT }"
             }
         }
-        max_jumps = @ai_action_weight_5
-        good_enough_weight = @ai_action_weight_30
+        max_jumps = 4
+        good_enough_weight = 15
         ai_minister = interior
     }
 }

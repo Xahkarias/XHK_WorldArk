@@ -35,6 +35,10 @@ carrier_event = {
                     add_deposit = d_xhk_worldark_harvest_size
                 }
             }
+            event_target:arkship.fleet = {
+                # this tags the fleet, easier to reference than the ship or the colony
+                set_timed_fleet_flag = { flag = xhk_expand_harvest_cooldown days = @xhk_worldark_harvest_cd }
+            }
         }
 
         # from.starbase.ship.carrier = { # ARKSHIP SCOPE

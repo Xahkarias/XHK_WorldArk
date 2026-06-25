@@ -148,3 +148,5 @@
 @xhk_worldark_shipstat_weaponbonus_t8 = 0.1
 @xhk_worldark_shipstat_weaponbonus_t9 = 0.15
 @xhk_worldark_shipstat_weaponbonus_t10 = 0.2
+
+@xhk_worldark_harvest_cd = 540
