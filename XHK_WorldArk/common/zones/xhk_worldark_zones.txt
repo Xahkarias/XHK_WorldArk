@@ -176,6 +176,13 @@ zone_xhk_worldark_generator = {
         fallen_empire_generator
     }
 
+    exclude = {
+        building_generator_districts_1
+        building_generator_districts_2
+        building_generator_districts_3
+        building_generator_districts_4
+    }
+
     inline_script = {
         script = jobs/zone_technicians_add
         AMOUNT = 100
@@ -212,6 +219,13 @@ zone_xhk_worldark_reactspeed = {
     inline_script = {
         script = jobs/zone_technicians_add
         AMOUNT = 50
+    }
+
+    exclude = {
+        building_generator_districts_1
+        building_generator_districts_2
+        building_generator_districts_3
+        building_generator_districts_4
     }
 
     zone_sets = {
@@ -253,6 +267,13 @@ zone_xhk_worldark_reactshield = {
         AMOUNT = 50
     }
 
+    exclude = {
+        building_generator_districts_1
+        building_generator_districts_2
+        building_generator_districts_3
+        building_generator_districts_4
+    }
+
     zone_sets = {
         xhk_worldark_generator
     }
@@ -277,9 +298,9 @@ zone_xhk_worldark_mining = {
     }
 
     included_building_sets = {
-        mining
         mining_automation
         fallen_empire_mining
+        harvest
     }
 
     inline_script = {
@@ -311,6 +332,14 @@ zone_xhk_worldark_farming = {
         farming
         farming_automation
         fallen_empire_farming
+        hydroponics
+    }
+
+    exclude = {
+        building_farming_districts_1
+        building_farming_districts_2
+        building_farming_districts_3
+        building_farming_districts_4
     }
 
     # doubled
