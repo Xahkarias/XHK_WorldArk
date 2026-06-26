@@ -43,5 +43,9 @@ xhk_worldark_situation_main = {
         multiplier = owner.capital_scope.xhk_worldark_logistics
     }
 
-
+    # stop yelling at me pls it works
+    triggered_modifier = {
+        situation_nomad_economy_max_progress_add = 5000
+        multiplier = owner.capital_scope.carrier.starbase.value:xhk_worldark_level
+    }
 }

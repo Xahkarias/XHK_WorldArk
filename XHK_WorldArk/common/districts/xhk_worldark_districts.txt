@@ -624,6 +624,11 @@ district_xhk_worldark_enforcer = {
         "
     }
 
+    prerequisites = { tech_colonial_centralization }
+    show_tech_unlock_if = {
+        is_nomadic = yes
+    }
+
     resources = {
         category = planet_districts
         cost = {
@@ -975,6 +980,11 @@ district_xhk_worldark_storage = {
                 has_technology = tech_construction_templates
             }
         "
+    }
+
+    prerequisites = { tech_construction_templates }
+    show_tech_unlock_if = {
+        is_nomadic = yes
     }
 
     resources = {

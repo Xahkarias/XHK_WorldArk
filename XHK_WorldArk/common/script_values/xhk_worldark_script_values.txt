@@ -7,3 +7,43 @@ xhk_worldark_num_arkships_minus_1 = {
     }
     subtract = 1
 }
+
+xhk_worldark_level = {
+    base = 1
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_2
+        add = 1
+    }
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_3
+        add = 2
+    }
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_4
+        add = 3
+    }
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_5
+        add = 4
+    }
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_6
+        add = 5
+    }
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_7
+        add = 6
+    }
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_8
+        add = 7
+    }
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_9
+        add = 8
+    }
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_10
+        add = 9
+    }
+}

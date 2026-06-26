@@ -1084,6 +1084,7 @@ zone_xhk_worldark_storage = {
             always = yes
         }
         country_resource_max_add = 10000
+        situation_nomad_economy_max_progress_add = 1000
     }
     triggered_district_country_modifier = {
         potential = {
@@ -1113,4 +1114,3 @@ zone_xhk_worldark_storage = {
     }
 
 }
-# todo, give the ship mroe waystation transfer rate based on storage
