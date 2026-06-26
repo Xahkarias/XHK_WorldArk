@@ -221,15 +221,16 @@ country_event = {
             # Shipsets
             inline_script = "game_start/shipsets"
 
+            # NOT ADDING THIS BECAUSE IT CAN OVERFLOW THE START ZONE
             ## Ethic
-            inline_script = "game_start/ethic_spiritualist"
-            inline_script = "game_start/ethic_materialist"
-            inline_script = "game_start/ethic_pacifist"
-            inline_script = "game_start/ethic_militarist"
-            inline_script = "game_start/ethic_egalitarian"
-            inline_script = "game_start/ethic_authoritarian"
-            inline_script = "game_start/ethic_xenophile"
-            inline_script = "game_start/ethic_xenophobe"
+            # inline_script = "game_start/ethic_spiritualist"
+            # inline_script = "game_start/ethic_materialist"
+            # inline_script = "game_start/ethic_pacifist"
+            # inline_script = "game_start/ethic_militarist"
+            # inline_script = "game_start/ethic_egalitarian"
+            # inline_script = "game_start/ethic_authoritarian"
+            # inline_script = "game_start/ethic_xenophile"
+            # inline_script = "game_start/ethic_xenophobe"
 
             ##Civics
             inline_script = "game_start/civics"
