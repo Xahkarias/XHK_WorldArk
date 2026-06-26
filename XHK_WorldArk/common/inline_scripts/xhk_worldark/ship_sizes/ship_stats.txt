@@ -1,3 +1,10 @@
+formation_priority = @arkship_formation_priority_4
+max_speed = @arkship_max_speed_100
+acceleration = @arkship_acceleration_20_percent
+rotation_speed = @arkship_rotation_speed_15_percent
+construction_offset_mult = @arkship_construction_offset_2
+collision_radius = @arkship_collision_radius_4
+
 max_hitpoints = @xhk_worldark_shipstat_hp_t$TIER$
 modifier = {
     # ship stats

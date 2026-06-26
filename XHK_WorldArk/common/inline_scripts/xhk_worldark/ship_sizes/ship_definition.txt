@@ -49,13 +49,6 @@ components_add_to_cost = no
 available_to_everyone = yes
 enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 
-formation_priority = @arkship_formation_priority_4
-max_speed = @arkship_max_speed_100
-acceleration = @arkship_acceleration_20_percent
-rotation_speed = @arkship_rotation_speed_15_percent
-construction_offset_mult = @arkship_construction_offset_2
-collision_radius = @arkship_collision_radius_4
-
 scripted_action = {
     xhk_worldark_size_harvest
 }

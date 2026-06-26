@@ -16,7 +16,10 @@ country_event = {
             message = no
         }
 
+        ################################################################################################################
         # old capital scope
+        # all about moving the pops, leaders, etc
+        ################################################################################################################
         capital_scope = {
             solar_system = {
                 save_event_target_as = target_system
@@ -78,9 +81,6 @@ country_event = {
                         }
                     }
 
-                    #put in the old module / systems
-                    initialize_arkship_starbase_effect = yes
-
                     set_name = {
                         key = "xhk_worldark_new_capital_name"
                         variable_string = "[xhk_old_arkcap_colony.GetName]"
@@ -99,11 +99,14 @@ country_event = {
             }
         }
 
+        ################################################################################################################
         # new capital scope
+        # district / starbase / deposit setup
+        ################################################################################################################
         capital_scope = {
 
             # HAVE TO DO THIS SHIT MANUALLY
-            ###################################################
+            ################################################################################
 
             # basic resource init
             set_variable = {
@@ -332,7 +335,13 @@ country_event = {
                 }
             }
 
+            ################################################################################
+            #put in the old module / systems
+            carrier = {
+                initialize_arkship_starbase_effect = yes
+            }
 
+            ################################################################################
             # control deposit
             add_deposit = d_xhk_worldark_base
 
@@ -371,6 +380,9 @@ country_event = {
             add_deposit = d_xhk_worldark_expansion_tracker
         }
 
+        ################################################################################################################
+        # MISC FIXES
+        ################################################################################################################
         # homeworld fix
         species = {
             set_species_homeworld = event_target:xhk_new_worldark_colony
@@ -381,7 +393,6 @@ country_event = {
         # giga_set_all_leaders_homeworld = {
         #     planet = event_target:xhk_new_worldark_colony
         # }
-
         #init mission setup fix
         capital_scope = {
             if = {
@@ -405,7 +416,6 @@ country_event = {
             }
             # checklist_decipher_signal
         }
-
         # ascensionists fix
         if = {
             limit = {
@@ -415,7 +425,6 @@ country_event = {
                 set_planetary_ascension_tier = 1
             }
         }
-
         # galvanic fix
         if = {
             limit = {
@@ -429,7 +438,9 @@ country_event = {
             }
         }
 
-        # setup docks
+        ################################################################################################################
+        # setup docs
+        ################################################################################################################
         begin_event_chain = {
             event_chain = xhk_worldark_docs_chain
         }
@@ -456,20 +467,27 @@ country_event = {
         }
         create_point_of_interest = {
             id = xhk_worldark_docs_chain.4
+            name = "xhk_worldark_docs_ship_levels"
+            desc = "xhk_worldark_docs_ship_levels_desc"
+            event_chain = "xhk_worldark_docs_chain"
+            #location = capital_scope
+        }
+        create_point_of_interest = {
+            id = xhk_worldark_docs_chain.5
             name = "xhk_worldark_docs_special_civic"
             desc = "xhk_worldark_docs_special_civic_desc"
             event_chain = "xhk_worldark_docs_chain"
             #location = capital_scope
         }
         create_point_of_interest = {
-            id = xhk_worldark_docs_chain.5
+            id = xhk_worldark_docs_chain.6
             name = "xhk_worldark_docs_mega_integration"
             desc = "xhk_worldark_docs_mega_integration_desc"
             event_chain = "xhk_worldark_docs_chain"
             #location = capital_scope
         }
         create_point_of_interest = {
-            id = xhk_worldark_docs_chain.6
+            id = xhk_worldark_docs_chain.7
             name = "xhk_worldark_docs_crossmod"
             desc = "xhk_worldark_docs_crossmod_desc"
             event_chain = "xhk_worldark_docs_chain"
