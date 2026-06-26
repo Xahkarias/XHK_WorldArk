@@ -4,14 +4,28 @@ slot_xhk_worldark_urban0 = {
     included_zone_sets = {
         xhk_worldark_urban0
     }
-    unlock = { planet_size >= 30 }
+    unlock = {
+        custom_tooltip = {
+            fail_text = zone_xhk_unavailable_tier3
+            owner.capital_scope.carrier.starbase = {
+                has_starbase_size >= xhk_worldark_tier_3
+            }
+        }
+    }
 }
 slot_xhk_worldark_urban1 = {
     include = { zone_urban }
     included_zone_sets = {
         xhk_worldark_urban1
     }
-    unlock = { planet_size >= 60 }
+    unlock = {
+        custom_tooltip = {
+            fail_text = zone_xhk_unavailable_tier6
+            owner.capital_scope.carrier.starbase = {
+                has_starbase_size >= xhk_worldark_tier_6
+            }
+        }
+    }
 }
 
 slot_xhk_worldark_foundry = {

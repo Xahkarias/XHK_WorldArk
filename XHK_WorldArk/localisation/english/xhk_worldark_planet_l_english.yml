@@ -203,6 +203,9 @@
  # ZONES
  #########################################################################################################################################################################
 
+ zone_xhk_unavailable_tier3: "£arkship£§Y$xhk_worldark_tier_3$§!"
+ zone_xhk_unavailable_tier6: "£arkship£§Y$xhk_worldark_tier_6$§!"
+
  zone_xhk_worldark_foundry: "$zone_foundry$"
  zone_xhk_worldark_foundry_desc: "$zone_foundry_desc$"
 
