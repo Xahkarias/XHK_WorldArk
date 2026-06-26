@@ -150,3 +150,6 @@
 @xhk_worldark_shipstat_weaponbonus_t10 = 0.2
 
 @xhk_worldark_harvest_cd = 540
+
+
+@xhk_worldark_housing_per_district = 300

@@ -1,4 +1,19 @@
 
+slot_xhk_worldark_urban0 = {
+    include = { zone_urban }
+    included_zone_sets = {
+        xhk_worldark_urban0
+    }
+    unlock = { planet_size >= 30 }
+}
+slot_xhk_worldark_urban1 = {
+    include = { zone_urban }
+    included_zone_sets = {
+        xhk_worldark_urban1
+    }
+    unlock = { planet_size >= 60 }
+}
+
 slot_xhk_worldark_foundry = {
     included_zone_sets = {
         xhk_worldark_foundry

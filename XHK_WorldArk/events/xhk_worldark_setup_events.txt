@@ -131,21 +131,13 @@ country_event = {
                         is_nomadic = yes
                     }
                 }
-                add_district = district_xhk_worldark_city
-                add_district = district_xhk_worldark_city
-                add_zone = {
-                    district = district_xhk_worldark_city
-                    zone = zone_ark_research_unity
-                    zone_slot = 1
-                }
-                add_zone = {
-                    district = district_xhk_worldark_city
-                    zone = zone_ark_industrial
-                    zone_slot = 2
-                }
+                add_district = district_xhk_worldark_research
+                add_district = district_xhk_worldark_unity
+                add_district = district_xhk_worldark_foundry
+                add_district = district_xhk_worldark_factory
+                add_district = district_xhk_worldark_trade
                 add_building = {
                     building = building_factory_1
-                    zone = zone_ark_industrial
                 }
             }
             # from authorithy hive nomad
@@ -167,19 +159,12 @@ country_event = {
                 }
                 add_building = building_hive_warren
 
-                add_district = district_xhk_worldark_city
-                add_district = district_xhk_worldark_city
+                add_district = district_xhk_worldark_research
+                add_district = district_xhk_worldark_unity
+                add_district = district_xhk_worldark_foundry
+                add_district = district_xhk_worldark_foundry
+                add_district = district_xhk_worldark_trade
 
-                add_zone = {
-                    district = district_xhk_worldark_city
-                    zone = zone_ark_research_unity_gestalt
-                    zone_slot = 1
-                }
-                add_zone = {
-                    district = district_xhk_worldark_city
-                    zone = zone_ark_foundry
-                    zone_slot = 2
-                }
             }
             # from machine auth
             if = {
@@ -192,14 +177,10 @@ country_event = {
                 add_building = building_machine_assembly_plant
                 add_building = building_drone_storage
 
-                add_district = district_xhk_worldark_city
-                add_district = district_xhk_worldark_city
-
-                add_zone = {
-                    district = district_xhk_worldark_city
-                    zone = zone_ark_research_unity_gestalt
-                    zone_slot = 1
-                }
+                add_district = district_xhk_worldark_research
+                add_district = district_xhk_worldark_unity
+                add_district = district_xhk_worldark_foundry
+                add_district = district_xhk_worldark_trade
 
                 if = {
                     limit = {
@@ -210,22 +191,10 @@ country_event = {
                             }
                         }
                     }
-                    add_zone = {
-                        district = district_xhk_worldark_city
-                        zone = zone_ark_industrial
-                        zone_slot = 2
-                    }
-                    add_building = {
-                        building = building_factory_1
-                        zone = zone_ark_industrial
-                    }
+                    add_district = district_xhk_worldark_factory
                 }
                 else = {
-                    add_zone = {
-                        district = district_xhk_worldark_city
-                        zone = zone_ark_foundry
-                        zone_slot = 2
-                    }
+                    add_district = district_xhk_worldark_foundry
                 }
 
 
@@ -499,5 +468,3 @@ country_event = {
         }
     }
 }
-
-

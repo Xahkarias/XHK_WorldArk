@@ -19,8 +19,8 @@ district_xhk_worldark_city = {
 
     zone_slots = {
         slot_city_government
-        slot_ark_city_01
-        slot_ark_city_02
+        slot_xhk_worldark_urban0
+        slot_xhk_worldark_urban1
     }
 
     show_on_uncolonized = {

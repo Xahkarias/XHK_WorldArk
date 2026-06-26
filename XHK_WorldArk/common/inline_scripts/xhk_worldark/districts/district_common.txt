@@ -7,5 +7,5 @@ show_on_uncolonized = {
     $POTENTIAL$
 }
 planet_modifier = {
-    planet_housing_add = 400
+    planet_housing_add = @xhk_worldark_housing_per_district
 }

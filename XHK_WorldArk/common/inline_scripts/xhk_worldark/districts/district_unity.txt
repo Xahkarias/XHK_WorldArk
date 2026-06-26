@@ -17,7 +17,7 @@ show_on_uncolonized = {
     $POTENTIAL$
 }
 planet_modifier = {
-    planet_housing_add = 400
+    planet_housing_add = @xhk_worldark_housing_per_district
 }
 
 resources = {
@@ -32,4 +32,12 @@ resources = {
 
 inline_script = {
     script = xhk_worldark/district_flavor/unity_flavor
+}
+
+convert_to = {
+    district_xhk_worldark_unity
+    district_xhk_worldark_unity_spiritualist
+    district_xhk_worldark_unity_hive
+    district_xhk_worldark_unity_machine
+    district_xhk_worldark_unity_servitor
 }
