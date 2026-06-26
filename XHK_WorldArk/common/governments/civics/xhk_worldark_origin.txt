@@ -22,7 +22,9 @@ origin_xhk_worldark = {
         # it's SO beneficial for frame that it should probably be nerfed real hard
         planetary_ascension_effect_mult = -0.5
         planetary_ascension_cost_mult = 1
-        shipsize_nomads_constructor_stockpile_capacity_mult = 0.25
+        shipsize_nomads_constructor_stockpile_capacity_mult = 0.5
+        # SPECIFICALLY TO PREVENT action.361
+        colony_start_urban_districts_add = -5
     }
 
     description = "origin_xhk_worldark_tooltip_default_effects"
