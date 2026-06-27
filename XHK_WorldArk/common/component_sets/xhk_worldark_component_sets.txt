@@ -3,3 +3,10 @@ component_set = {
     icon = "GFX_ship_part_arkship_devastator"
     icon_frame = 1
 }
+
+### COLOSSUS
+component_set = {
+    key = "XHK_ARKSHIP_SPINAL_PK_CRACKER_SET"
+    icon = "GFX_ship_part_world_cracker"
+    icon_frame = 1
+}

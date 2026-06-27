@@ -25,6 +25,7 @@
  # SCRIPTED ACTIONS
  ########################################################################################################
 
+ ##############################################
  # HARVEST FOR SIZE
  xhk_worldark_size_harvest: "Expand the $xhk_pc_worldark$"
  xhk_worldark_size_harvest_desc: "§LThe $xhk_pc_worldark$ can be expanded by consuming a significant portion of the mass of a planetary body.§!"
@@ -45,6 +46,19 @@
 
  # arkship_harvesting_in_progress_tt: "$TRIGGER_FAIL$Target already has a Resource Harvesting action queued or in progress."
 
+ ##############################################
+ # PLANET KILLER
+ xhk_pk_world_cracker_activity_key: "Firing $PLANET_KILLER_CRACKER$"
+ xhk_pk_world_cracker: "Integrated $PLANET_KILLER_CRACKER$"
+ xhk_pk_world_cracker_progress_activity_key: "Planet Killer Charging (§Y$PROGRESS$%§!)"
+ xhk_pk_world_cracker_progress_progress_key: "£time£120 §WDays§!"
+ xhk_pk_world_cracker_button: "Activate the §R$PLANET_KILLER_CRACKER$§!.\n\n§L$PLANET_KILLER_CRACKER_DESC$§!"
+
+ XHK_TOAST_PLANETKILLER_COMPLETE_TITLE: "World Cracked"
+ XHK_TOAST_PLANETKILLER_COMPLETE_DESC: "The §Y$FLEET$§! has cracked a planet."
+ sm_xhk_worldark_spinal_pk_cracker: "$PLANET_KILLER_CRACKER$"
+ sm_xhk_worldark_spinal_pk_cracker_desc: "$PLANET_KILLER_CRACKER_DESC$"
+ XHK_ARKSHIP_SPINAL_PK_CRACKER_WEAPON: "$PLANET_KILLER_CRACKER$"
 
  ########################################################################################################
  ### COMPONENTS
