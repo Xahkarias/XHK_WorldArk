@@ -47,3 +47,10 @@ xhk_worldark_level = {
         add = 9
     }
 }
+
+xhk_worldark_level_virtual_colony_size = {
+	weight = trigger:num_districts
+	divide = 25
+	subtract = 1
+	min = 0
+}

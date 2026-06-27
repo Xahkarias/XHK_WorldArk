@@ -8,6 +8,7 @@
  #######################################################################################################################
  # Situation log category
  xhk_worldark_situation_category: "$xhk_pc_worldark$ Matters"
+ xhk_worldark_null_text: ""
 
  # Situation
  xhk_worldark_situation_main: "$xhk_pc_worldark$ Status"
@@ -24,7 +25,7 @@
  ####################
  # EXPANSION
  xhk_worldark_docs_expansion: "1) Expansion"
- xhk_worldark_docs_expansion_desc: "$xhk_worldark_docs_expansion_desc_1$$xhk_worldark_docs_expansion_desc_2$$xhk_worldark_docs_expansion_desc_3$$xhk_worldark_docs_expansion_desc_4$$xhk_worldark_docs_expansion_desc_5$$xhk_worldark_docs_expansion_desc_6$$xhk_worldark_docs_expansion_desc_7$"
+ xhk_worldark_docs_expansion_desc: "$xhk_worldark_docs_expansion_desc_1$$xhk_worldark_docs_expansion_desc_2$$xhk_worldark_docs_expansion_desc_3$$xhk_worldark_docs_expansion_desc_4$$xhk_worldark_docs_expansion_desc_5$$xhk_worldark_docs_expansion_desc_6$$xhk_worldark_docs_expansion_desc_7$[owner.xhk_worldark_getVirtualDocumentation]"
  xhk_worldark_docs_expansion_desc_1: "The $xhk_pc_worldark$ expands through the dismantlement of other stellar objects. These are listed below:"
  xhk_worldark_docs_expansion_desc_2: "$TABBED_NEW_LINE$- §G+1 £districtadd£District§! from the special §I$xhk_worldark_size_harvest$§! arkship action, when used on a stellar body."
  xhk_worldark_docs_expansion_desc_3: "$TABBED_NEW_LINE$      Increases to §G+2 £districtadd£District§! when upgraded to at least §I$xhk_worldark_tier_5$§!."
@@ -32,6 +33,7 @@
  xhk_worldark_docs_expansion_desc_5: "$TABBED_NEW_LINE$- §G+1 £districtadd£District§! and §G+1 £construction_ship£Logistic Ship Capacity§! from the §I$xhk_worldark_add_logistics_ship$§! arkship decision."
  xhk_worldark_docs_expansion_desc_6: "$TABBED_NEW_LINE$- §G+5 £districtadd£Districts§! per $xhk_pc_worldark$ level. These do §RNOT grant extra growth jobs§!."
  xhk_worldark_docs_expansion_desc_7: "\n\nThe §I$xhk_worldark_size_harvest$§! action should be taken frequently in order to continue to grow the $xhk_pc_worldark$."
+ xhk_worldark_docs_expansion_desc_virt: "\n\nNote: For §IVirtual Empires§!, every built district §Rover 25§! counts as §R0.04 colonies§! for the purposes of the Virtual efficiency bonus."
 
  ####################
  # POPULATION

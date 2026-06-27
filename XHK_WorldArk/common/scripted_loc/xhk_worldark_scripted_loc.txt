@@ -40,3 +40,17 @@ defined_text = {
     }
     default = xhk_worldark_docs_special_civic_desc_norm
 }
+
+defined_text = {
+	name = xhk_worldark_getVirtualDocumentation
+	text = {
+		trigger = {
+			OR = {
+				is_machine_empire = yes
+				is_individual_machine = yes
+			}
+		}
+		localization_key = xhk_worldark_docs_expansion_desc_virt
+	}
+	default = xhk_worldark_null_text
+}
