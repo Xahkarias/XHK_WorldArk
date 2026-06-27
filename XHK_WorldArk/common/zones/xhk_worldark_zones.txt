@@ -299,12 +299,22 @@ zone_xhk_worldark_mining = {
 
     included_building_sets = {
         harvest
+		mining
+		fallen_empire_farming
+		mining_automation
     }
 
     inline_script = {
         script = jobs/zone_ark_harvester_add
         AMOUNT = 100
     }
+
+	exclude = {
+		building_mining_districts_1
+		building_mining_districts_2
+		building_mining_districts_3
+		building_mining_districts_4
+	}
 
     zone_sets = {
         xhk_worldark_mining
