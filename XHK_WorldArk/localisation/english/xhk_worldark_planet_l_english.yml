@@ -189,6 +189,15 @@
  district_xhk_worldark_ordinance_fighter_desc: "$district_xhk_worldark_ordinance_desc$"
 
  ##################################################################
+ # Dark Matter
+ ##################################################################
+
+ district_xhk_worldark_darkmatter: "Dark Matter Trawler"
+ district_xhk_worldark_darkmatter_plural: "Dark Matter Trawlers"
+ district_xhk_worldark_darkmatter_desc: "Creating special monofilament nets and having them trail behind the $xhk_pc_worldark$ allows for the collection of trace amounts of $sr_dark_matter$."
+ flavor_xhk_worldark_darkmatter_name: "Non-Baryonic Sieve"
+
+ ##################################################################
  # Storage
  ##################################################################
 
@@ -196,7 +205,7 @@
  district_xhk_worldark_storage_plural: "Storage Holds"
  district_xhk_worldark_storage_desc: "A large storage complex that would take up the size of a city on a terrestrial planet."
  flavor_xhk_worldark_storage_name: "Deep Warehouses"
- district_xhk_worldark_storage_effect: "The zone §Gincreases§! the country resource storage by £mod_country_resource_max_add£§G10000§!"
+ district_xhk_worldark_storage_effect: "The zone gives £mod_country_resource_max_add£§G+10000 Resource Storage§! and §G+1000 $mod_situation_nomad_economy_max_progress_add$§!"
 
 
  #########################################################################################################################################################################
@@ -283,6 +292,9 @@
 
  zone_xhk_worldark_ordinance_flight_decks: "$zone_ark_flight_decks$"
  zone_xhk_worldark_ordinance_flight_decks_desc: "$zone_ark_flight_decks_desc$"
+
+ zone_xhk_worldark_darkmatter: "$flavor_xhk_worldark_darkmatter_name$"
+ zone_xhk_worldark_darkmatter_desc: "$district_xhk_worldark_darkmatter_desc$"
 
  zone_xhk_worldark_storage: "$district_xhk_worldark_storage$"
  zone_xhk_worldark_storage_desc: "$district_xhk_worldark_storage_desc$"

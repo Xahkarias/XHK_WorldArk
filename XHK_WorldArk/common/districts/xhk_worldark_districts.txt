@@ -953,7 +953,58 @@ district_xhk_worldark_ordinance = {
 # SENT METAL
 
 # DARK MATTER
+district_xhk_worldark_darkmatter = {
+	base_buildtime = @xhk_base_buildtime
+	icon = district_cosmogenesis_world_science
+	district_background = district_xhk_worldark_darkmatter
+	gridbox = district_polytechnic
+	is_uncapped = { always = yes }
+	overlay_icon = GFX_giga_district_dark_matter
 
+	zone_slots = {
+		slot_xhk_worldark_darkmatter
+	}
+
+	inline_script = {
+		script = xhk_worldark/districts/district_common
+		POTENTIAL = "
+			exists = owner
+            owner = {
+                has_technology = tech_mine_dark_matter
+            }
+		"
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = @xhk_district_base_cost
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		job_giga_dark_matter_weaver_add = 200
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		job_giga_dark_matter_weaver_drone_add = 200
+	}
+
+	triggered_name = {
+		text = flavor_xhk_worldark_darkmatter_name
+	}
+}
 
 
 

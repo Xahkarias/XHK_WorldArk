@@ -112,6 +112,14 @@ slot_xhk_worldark_ordinance = {
     unlock = { always = yes }
 }
 
+slot_xhk_worldark_darkmatter = {
+	start = zone_xhk_worldark_darkmatter
+	included_zone_sets = {
+		xhk_worldark_darkmatter
+	}
+	unlock = { always = yes }
+}
+
 slot_xhk_worldark_storage = {
     start = zone_xhk_worldark_storage
     included_zone_sets = {
