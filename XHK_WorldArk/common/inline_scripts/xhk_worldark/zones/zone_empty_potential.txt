@@ -9,9 +9,9 @@ unlock = { # planet scope
 
 resources = {
     category = planet_zones
-    cost = {
-        minerals = @zone_cost
-    }
+	cost = {
+		alloys = 500
+	}
 }
 max_buildings = $NUM_BUILDINGS$
 planet_modifier = {
