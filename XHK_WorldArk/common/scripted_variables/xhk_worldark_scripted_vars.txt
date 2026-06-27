@@ -152,4 +152,4 @@
 @xhk_worldark_harvest_cd = 540
 
 
-@xhk_worldark_housing_per_district = 300
+@xhk_worldark_housing_per_district = 200
