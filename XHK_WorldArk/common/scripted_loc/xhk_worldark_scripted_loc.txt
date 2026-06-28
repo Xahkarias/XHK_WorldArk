@@ -121,3 +121,14 @@ defined_text = {
 	}
 	default = xhk_worldark_docs_districts_desc_amenities
 }
+
+defined_text = {
+	name = xhk_worldark_getDistrictDoc_EHOF
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ehof_disabled }
+		}
+		localization_key = xhk_worldark_docs_districts_desc_ehofcombine
+	}
+	default = xhk_worldark_null_text
+}

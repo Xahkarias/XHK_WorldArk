@@ -102,10 +102,13 @@
  xhk_worldark_docs_districts_desc_group_warfare_header: "\n§l------WARFARE-------------------------------------------§!"
  xhk_worldark_docs_districts_desc_ordinance: "\n£job_soldier£§G$district_xhk_worldark_ordinance$§!:  Provides [GetSoldier] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_naval$§!:  Provides $concept_naval_capacity$ and §YShip Build Speed§! bonuses.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_missile_silos$§!:  Provides §Y$xhk_pc_worldark$ Explosive Damage§! bonuses.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_ammunition_lines$§!:  Provides §Y$xhk_pc_worldark$ Kinetic Damage§! bonuses.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_laser_capacitors$§!:  Provides §Y$xhk_pc_worldark$ Energy Damage§! bonuses.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_flight_decks$§!:  Provides §Y$xhk_pc_worldark$ Strike Craft Damage§! bonuses."
 
- xhk_worldark_docs_districts_desc_group_strategicresource: "$xhk_worldark_docs_districts_desc_group_strategicresource_header$$xhk_worldark_docs_districts_desc_refinery$$xhk_worldark_docs_districts_desc_darkmatter$"
+ xhk_worldark_docs_districts_desc_group_strategicresource: "$xhk_worldark_docs_districts_desc_group_strategicresource_header$$xhk_worldark_docs_districts_desc_refinery$$xhk_worldark_docs_districts_desc_darkmatter$[owner.xhk_worldark_getDistrictDoc_EHOF]"
  xhk_worldark_docs_districts_desc_group_strategicresource_header: "\n§l------STRATEGIC-RESOURCES-------------------------------§!"
  xhk_worldark_docs_districts_desc_refinery: "\n£strategic_resource£§G$district_xhk_worldark_refinery$§!:  Provides a balanced distribution of [GetTranslucer], [GetChemist], and [GetRefiner] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_refinery$§!:  Adds [GetTranslucer], [GetChemist], and [GetRefiner] jobs."
  xhk_worldark_docs_districts_desc_darkmatter: "\n£sr_dark_matter£§G$district_xhk_worldark_darkmatter$§!:  Provides [get_dark_matter_weaver] jobs.$TABBED_NEW_LINE$- Built in zone provides Science and Unity building slots."
+ xhk_worldark_docs_districts_desc_ehofcombine: "$xhk_worldark_docs_districts_desc_negativemass$$xhk_worldark_docs_districts_desc_sentientmetal$"
+ xhk_worldark_docs_districts_desc_negativemass: "\n£giga_sr_negative_mass£§G$district_xhk_worldark_negativemass$§!:  Provides [get_ehof_energy_converter] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_negativemass$§!:  Adds [get_ehof_energy_converter] jobs."
+ xhk_worldark_docs_districts_desc_sentientmetal: "\n£giga_sr_sentient_metal£§G$district_xhk_worldark_sentientmetal$§!:  Provides [get_ehof_cultivator] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_sentientmetal$§!:  Adds [get_ehof_cultivator] jobs."
 
  xhk_worldark_docs_districts_desc_group_utility: "$xhk_worldark_docs_districts_desc_group_utility_header$$xhk_worldark_docs_districts_desc_storage$"
  xhk_worldark_docs_districts_desc_group_utility_header: "\n§l------UTILITY-------------------------------------------§!"
