@@ -1,0 +1,187 @@
+# traders
+defined_text = {
+	name = GetBaseTrader
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					NOT = {
+						is_scope_type = country
+					}
+					exists = owner
+					owner = {
+						is_gestalt = yes
+					}
+				}
+				AND = {
+					is_scope_type = country
+					is_gestalt = yes
+				}
+			}
+		}
+		localization_key = job_logistics_drone
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					NOT = {
+						is_scope_type = country
+					}
+					exists = owner
+					owner = {
+						is_gestalt = no
+					}
+				}
+				AND = {
+					is_scope_type = country
+					is_gestalt = no
+				}
+			}
+		}
+		localization_key = job_trader
+	}
+	default = job_trader
+}
+
+# harvesters
+defined_text = {
+	name = GetHarvester
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					NOT = {
+						is_scope_type = country
+					}
+					exists = owner
+					owner = {
+						is_gestalt = yes
+					}
+				}
+				AND = {
+					is_scope_type = country
+					is_gestalt = yes
+				}
+			}
+		}
+		localization_key = job_ark_harvester_gestalt
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					NOT = {
+						is_scope_type = country
+					}
+					exists = owner
+					owner = {
+						is_gestalt = no
+					}
+				}
+				AND = {
+					is_scope_type = country
+					is_gestalt = no
+				}
+			}
+		}
+		localization_key = job_ark_harvester
+	}
+	default = job_ark_harvester
+}
+
+# Chemists / Chemists Drones
+defined_text = {
+	name = GetChemist
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_regular_empire = yes
+		}
+		localization_key = job_chemist
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_gestalt = yes
+			is_wilderness_empire = no
+		}
+		localization_key = job_chemist_drone
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_wilderness_empire = yes
+		}
+		localization_key = job_motesymbiote
+	}
+	default = job_chemist
+}
+
+# Refiners / Refiners Drones
+defined_text = {
+	name = GetRefiner
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_regular_empire = yes
+		}
+		localization_key = job_gas_refiner
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_gestalt = yes
+			is_wilderness_empire = no
+		}
+		localization_key = job_gas_refiner_drone
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_wilderness_empire = yes
+		}
+		localization_key = job_gaseosymbiote
+	}
+	default = job_gas_refiner
+}
+
+# Translucers / Translucers Drones
+defined_text = {
+	name = GetTranslucer
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_regular_empire = yes
+		}
+		localization_key = job_translucer
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_gestalt = yes
+			is_wilderness_empire = no
+		}
+		localization_key = job_translucer_drone
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_wilderness_empire = yes
+		}
+		localization_key = job_crystalsymbiote
+	}
+	default = job_translucer
+}
+
+# enforcers
+defined_text = {
+	name = GetSecurityJob
+	text = {
+		trigger = {
+			is_gestalt = yes
+		}
+		localization_key = job_patrol_drone
+	}
+	default = job_enforcer
+}

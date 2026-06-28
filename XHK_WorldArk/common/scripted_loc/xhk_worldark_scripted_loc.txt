@@ -54,3 +54,70 @@ defined_text = {
 	}
 	default = xhk_worldark_null_text
 }
+
+##################################################################
+# DISTRICT DOCS
+defined_text = {
+	name = xhk_worldark_getDistrictDoc_Factory
+	text = {
+		trigger = {
+			OR = {
+				is_gestalt = no
+				has_valid_civic = civic_machine_servitor
+				has_valid_civic = civic_machine_obsessional_directive
+				country_uses_consumer_goods = yes
+			}
+		}
+		localization_key = xhk_worldark_docs_districts_desc_factory
+	}
+	default = xhk_worldark_null_text
+}
+
+defined_text = {
+	name = xhk_worldark_getDistrictDoc_Unity
+	text = {
+		trigger = {
+			is_hive_empire = yes
+		}
+		localization_key = xhk_worldark_docs_districts_desc_hive
+	}
+	text = {
+		trigger = {
+			is_machine_empire = yes
+			has_valid_civic = civic_machine_servitor
+		}
+		localization_key = xhk_worldark_docs_districts_desc_serv
+	}
+	text = {
+		trigger = {
+			is_machine_empire = yes
+			NOT = { has_valid_civic = civic_machine_servitor }
+		}
+		localization_key = xhk_worldark_docs_districts_desc_mach
+	}
+	text = {
+		trigger = {
+			is_gestalt = no
+			is_spiritualist = yes
+		}
+		localization_key = xhk_worldark_docs_districts_desc_spir
+	}
+	default = xhk_worldark_docs_districts_desc_admn
+}
+
+defined_text = {
+	name = xhk_worldark_getDistrictDoc_Amenities
+	text = {
+		trigger = {
+			is_gestalt = yes
+		}
+		localization_key = xhk_worldark_null_text
+	}
+	text = {
+		trigger = {
+			has_valid_civic = civic_dystopian_society
+		}
+		localization_key = xhk_worldark_docs_districts_desc_dystopian
+	}
+	default = xhk_worldark_docs_districts_desc_amenities
+}

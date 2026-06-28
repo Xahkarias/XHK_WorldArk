@@ -65,7 +65,51 @@
  ####################
  # DISTRICTS + ZONES
  xhk_worldark_docs_districts: "3) Districts and Zones"
- xhk_worldark_docs_districts_desc: "TODO DONT LOOK AT ME"
+ xhk_worldark_docs_districts_desc: "$xhk_worldark_docs_districts_desc_1$$xhk_worldark_docs_districts_desc_group_city$$xhk_worldark_docs_districts_desc_group_manufactured$$xhk_worldark_docs_districts_desc_group_intellectual$$xhk_worldark_docs_districts_desc_group_warfare$$xhk_worldark_docs_districts_desc_group_strategicresource$$xhk_worldark_docs_districts_desc_group_utility$"
+ xhk_worldark_docs_districts_desc_1: "The $xhk_pc_worldark$ contains many different districts and zones. Note that almost all districts are housing negative. Which ones are available to your empire are listed below (ignoring tech restrictions):\n"
+
+
+ xhk_worldark_docs_districts_desc_group_city: "$xhk_worldark_docs_districts_desc_group_city_header$$xhk_worldark_docs_districts_desc_city$"
+ xhk_worldark_docs_districts_desc_group_city_header: "\n§l------HOUSING--------------------------------------------§!"
+ xhk_worldark_docs_districts_desc_city: "\n£housing£§G$district_xhk_worldark_city$§!: Provides housing and building slots.$TABBED_NEW_LINE$- 2x §C$zone_urban$§!: Provides more housing and building slots."
+
+ xhk_worldark_docs_districts_desc_group_manufactured: "$xhk_worldark_docs_districts_desc_group_manufactured_header$$xhk_worldark_docs_districts_desc_foundry$[owner.xhk_worldark_getDistrictDoc_Factory]$xhk_worldark_docs_districts_desc_trade$"
+ xhk_worldark_docs_districts_desc_group_manufactured_header: "\n§l------MANUFACTURED-GOODS---------------------------------§!"
+ xhk_worldark_docs_districts_desc_foundry: "\n£alloys£§G$district_xhk_worldark_foundry$§!: Provides [GetAlloyProducer] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_foundry$§!: Adds [GetAlloyProducer] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_voidforge$§!: Provides §Y$xhk_pc_worldark$ Armor§! bonuses."
+ xhk_worldark_docs_districts_desc_factory: "\n£consumer_goods£§G$district_xhk_worldark_factory$§!: Provides [GetArtisan] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_factory$§!: Adds [GetArtisan] jobs."
+ xhk_worldark_docs_districts_desc_trade: "\n£trade£§G$district_xhk_worldark_trade$§!:  Provides [GetBaseTrader] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_trade$§!: Adds [GetBaseTrader] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_waylogi$§!: Increases the $waystation$ cap."
+
+ xhk_worldark_docs_districts_desc_group_raw: "$xhk_worldark_docs_districts_desc_group_raw_header$$xhk_worldark_docs_districts_desc_generator$$xhk_worldark_docs_districts_desc_harvester$$xhk_worldark_docs_districts_desc_farm$"
+ xhk_worldark_docs_districts_desc_group_raw_header: "\n§l------RAW-MATERIALS--------------------------------------§!"
+ xhk_worldark_docs_districts_desc_generator: "\n£energy£§G$district_xhk_worldark_generator$§!:  Provides [GetTechnician] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_generator$§!: Adds [GetTechnician] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_reactspeed$§!: Provides §Y$xhk_pc_worldark$ Speed§! bonuses.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_reactshield$§!: Provides §Y$xhk_pc_worldark$ Shield§! bonuses."
+ xhk_worldark_docs_districts_desc_harvester: "\n£minerals£§G$district_xhk_worldark_minerals$§!:  Provides [GetHarvester] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_mining$§!: Adds [GetHarvester] jobs."
+ xhk_worldark_docs_districts_desc_farm: "\n£food£§G$district_xhk_worldark_farming$§!:  Provides [GetFarmer] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_farming$§!: Adds [GetFarmer] jobs."
+
+ xhk_worldark_docs_districts_desc_group_intellectual: "$xhk_worldark_docs_districts_desc_group_intellectual_header$[owner.xhk_worldark_getDistrictDoc_Unity]$xhk_worldark_docs_districts_desc_research$[owner.xhk_worldark_getDistrictDoc_Amenities]$xhk_worldark_docs_districts_desc_enforcer$"
+ xhk_worldark_docs_districts_desc_group_intellectual_header: "\n§l------INTELLECTUAL---------------------------------------§!"
+ xhk_worldark_docs_districts_desc_admn: "\n£unity£§G$district_xhk_worldark_unity$§!:  Provides [GetBureaucrat] jobs.$xhk_worldark_docs_districts_desc_base_zone$."
+ xhk_worldark_docs_districts_desc_spir: "\n£unity£§G$district_xhk_worldark_unity_spiritualist$§!:  Provides [GetPriest] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_spiritualist$§!:  Adds [GetPriest] jobs."
+ xhk_worldark_docs_districts_desc_hive: "\n£unity£§G$district_xhk_worldark_unity_hive$§!:  Provides [GetBureaucrat] jobs.$xhk_worldark_docs_districts_desc_base_zone$"
+ xhk_worldark_docs_districts_desc_mach: "\n£unity£§G$district_xhk_worldark_unity$§!:  Provides [GetBureaucrat] jobs.$xhk_worldark_docs_districts_desc_base_zone$"
+ xhk_worldark_docs_districts_desc_serv: "\n£unity£§G$district_xhk_worldark_unity_servitor$§!:  Provides $job_bio_trophy$ jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_servitor$§!:  Adds $job_bio_trophy$ jobs."
+ xhk_worldark_docs_districts_desc_base_zone: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_unity$§!:  Adds [GetBureaucrat] jobs."
+ xhk_worldark_docs_districts_desc_research: "\n£research£§G$district_xhk_worldark_research$§!:  Provides a balanced distribution of [GetResearcher] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_research$§!: Adds [GetResearcher] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_physics$§!: Adds [GetPhysicsJob] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_society$§!: Adds [GetBiologyJob] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_engineering$§!: Adds [GetEngineerJob] jobs."
+ xhk_worldark_docs_districts_desc_amenities: "\n£amenities£§G$district_xhk_worldark_amenities$§!:  Provides $job_entertainer$ jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_amenities$§!:  Adds $job_entertainer$ jobs."
+ xhk_worldark_docs_districts_desc_dystopian: "\n£amenities£§G$district_xhk_worldark_amenities_dystopian$§!:  Provides small amount of $job_politician$ jobs. §RLimited by population size.§!$TABBED_NEW_LINE$- §C$zone_xhk_worldark_amenities_dystopian$§!:  Adds $job_politician$ jobs."
+ xhk_worldark_docs_districts_desc_enforcer: "\n£job_enforcer£§G$district_xhk_worldark_enforcer$§!:  Provides [GetSecurityJob] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_enforcer$§!:  Adds [GetSecurityJob] jobs."
+
+ xhk_worldark_docs_districts_desc_group_warfare: "$xhk_worldark_docs_districts_desc_group_warfare_header$$xhk_worldark_docs_districts_desc_ordinance$"
+ xhk_worldark_docs_districts_desc_group_warfare_header: "\n§l------WARFARE-------------------------------------------§!"
+ xhk_worldark_docs_districts_desc_ordinance: "\n£job_soldier£§G$district_xhk_worldark_ordinance$§!:  Provides [GetSoldier] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_naval$§!:  Provides $concept_naval_capacity$ and §YShip Build Speed§! bonuses.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_missile_silos$§!:  Provides §Y$xhk_pc_worldark$ Explosive Damage§! bonuses.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_ammunition_lines$§!:  Provides §Y$xhk_pc_worldark$ Kinetic Damage§! bonuses.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_laser_capacitors$§!:  Provides §Y$xhk_pc_worldark$ Energy Damage§! bonuses.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_flight_decks$§!:  Provides §Y$xhk_pc_worldark$ Strike Craft Damage§! bonuses."
+
+ xhk_worldark_docs_districts_desc_group_strategicresource: "$xhk_worldark_docs_districts_desc_group_strategicresource_header$$xhk_worldark_docs_districts_desc_refinery$$xhk_worldark_docs_districts_desc_darkmatter$"
+ xhk_worldark_docs_districts_desc_group_strategicresource_header: "\n§l------STRATEGIC-RESOURCES-------------------------------§!"
+ xhk_worldark_docs_districts_desc_refinery: "\n£strategic_resource£§G$district_xhk_worldark_refinery$§!:  Provides a balanced distribution of [GetTranslucer], [GetChemist], and [GetRefiner] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_refinery$§!:  Adds [GetTranslucer], [GetChemist], and [GetRefiner] jobs."
+ xhk_worldark_docs_districts_desc_darkmatter: "\n£sr_dark_matter£§G$district_xhk_worldark_darkmatter$§!:  Provides [get_dark_matter_weaver] jobs.$TABBED_NEW_LINE$- Built in zone provides Science and Unity building slots."
+
+ xhk_worldark_docs_districts_desc_group_utility: "$xhk_worldark_docs_districts_desc_group_utility_header$$xhk_worldark_docs_districts_desc_storage$"
+ xhk_worldark_docs_districts_desc_group_utility_header: "\n§l------UTILITY-------------------------------------------§!"
+ xhk_worldark_docs_districts_desc_storage: "\n£mod_country_resource_max_add£§G$district_xhk_worldark_storage$§!:  Provides £mod_country_resource_max_add£§YMaximum Resource Storage§! and §Y£operational_reserves£$mod_situation_nomad_economy_max_progress_add$§!"
 
  ####################
  # ARKSHIP LEVELS

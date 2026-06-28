@@ -239,10 +239,10 @@
  zone_xhk_worldark_reactshield: "$zone_ark_shield_overloader$"
  zone_xhk_worldark_reactshield_desc: "$zone_ark_shield_overloader_desc$"
 
- zone_xhk_worldark_mining: "Expanded $zone_ark_harvest$"
+ zone_xhk_worldark_mining: "Parallelized Extraction Operations"
  zone_xhk_worldark_mining_desc: "$zone_ark_harvest_desc$"
 
- zone_xhk_worldark_farming: "Expanded $zone_ark_food$"
+ zone_xhk_worldark_farming: "Expanded Hydroponics"
  zone_xhk_worldark_farming_desc: "$zone_ark_food_desc$"
 
  zone_xhk_worldark_unity: "$zone_unity$"
