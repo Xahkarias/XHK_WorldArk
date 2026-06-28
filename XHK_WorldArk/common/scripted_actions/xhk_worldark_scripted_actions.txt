@@ -70,7 +70,7 @@ xhk_worldark_size_harvest = {
         #This - Target Planet
         #From - Acting Fleet
         weight = {
-            base = 10 # low so it doesnt lock up stuff
+            base = 1000 # ME FIRST
             modifier = {
                 factor = 0 #cannot afford
                 FROM.controller = {
