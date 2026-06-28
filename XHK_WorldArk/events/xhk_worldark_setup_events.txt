@@ -132,13 +132,19 @@ country_event = {
                     }
                 }
                 add_district = district_xhk_worldark_research
-                add_district = district_xhk_worldark_unity
                 add_district = district_xhk_worldark_foundry
                 add_district = district_xhk_worldark_factory
                 add_district = district_xhk_worldark_trade
                 add_building = {
                     building = building_factory_1
                 }
+				if = {
+					limit = { owner = { is_spiritualist = yes }}
+					add_district = district_xhk_worldark_unity_spiritualist
+				}
+				else = {
+					add_district = district_xhk_worldark_unity
+				}
             }
             # from authorithy hive nomad
             if = {
@@ -160,7 +166,7 @@ country_event = {
                 add_building = building_hive_warren
 
                 add_district = district_xhk_worldark_research
-                add_district = district_xhk_worldark_unity
+                add_district = district_xhk_worldark_unity_hive
                 add_district = district_xhk_worldark_foundry
                 add_district = district_xhk_worldark_foundry
                 add_district = district_xhk_worldark_trade
@@ -178,7 +184,7 @@ country_event = {
                 add_building = building_drone_storage
 
                 add_district = district_xhk_worldark_research
-                add_district = district_xhk_worldark_unity
+
                 add_district = district_xhk_worldark_foundry
                 add_district = district_xhk_worldark_trade
 
@@ -192,8 +198,10 @@ country_event = {
                         }
                     }
                     add_district = district_xhk_worldark_factory
+					add_district = district_xhk_worldark_unity_servitor
                 }
                 else = {
+					add_district = district_xhk_worldark_unity_machine
                     add_district = district_xhk_worldark_foundry
                 }
 

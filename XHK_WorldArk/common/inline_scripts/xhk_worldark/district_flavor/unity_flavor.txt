@@ -7,7 +7,16 @@ triggered_name = {
     }
     text = city_temple_1
 }
-
+triggered_name = {
+	trigger = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+			has_valid_civic = civic_machine_servitor
+		}
+	}
+	text = city_unity_bio_trophy_machine_1
+}
 triggered_name = {
     trigger = {
         exists = owner
@@ -18,16 +27,7 @@ triggered_name = {
     text = city_unity_machine_1
 }
 
-triggered_name = {
-    trigger = {
-        exists = owner
-        owner = {
-            is_machine_empire = yes
-            is_hospitality_servitor_empire = yes
-        }
-    }
-    text = city_unity_bio_trophy_machine_1
-}
+
 
 
 triggered_name = {

@@ -464,7 +464,7 @@ district_xhk_worldark_unity_servitor = {
         potential = {
             exists = owner
             owner = {
-                is_hospitality_servitor_empire = yes
+				has_valid_civic = civic_machine_servitor
             }
         }
         job_bio_trophy_add = 1000
@@ -626,7 +626,7 @@ district_xhk_worldark_enforcer = {
 
     prerequisites = { tech_colonial_centralization }
     show_tech_unlock_if = {
-        is_nomadic = yes
+        xhk_has_worldark_origin = yes
     }
 
     resources = {
@@ -1161,7 +1161,7 @@ district_xhk_worldark_storage = {
 
     prerequisites = { tech_construction_templates }
     show_tech_unlock_if = {
-        is_nomadic = yes
+		xhk_has_worldark_origin = yes
     }
 
     resources = {

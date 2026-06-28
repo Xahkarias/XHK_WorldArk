@@ -8,9 +8,16 @@ zone_slots = {
     slot_xhk_worldark_unity
 }
 
-inline_script = {
-	script = xhk_worldark/districts/district_common
-	POTENTIAL = $POTENTIAL$
+potential = {
+	uses_district_set = xhk_pc_worldark
+	$POTENTIAL$
+}
+show_on_uncolonized = {
+	uses_district_set = xhk_pc_worldark
+	$POTENTIAL$
+}
+planet_modifier = {
+	planet_housing_add = @xhk_worldark_housing_per_district
 }
 
 resources = {
@@ -34,3 +41,4 @@ convert_to = {
     district_xhk_worldark_unity_machine
     district_xhk_worldark_unity_servitor
 }
+conversion_ratio = 1
