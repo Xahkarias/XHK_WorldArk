@@ -883,6 +883,108 @@ zone_xhk_worldark_refinery = {
     ai_priority = 10
 }
 
+## NEGATIVE MASS
+###########################################################
+zone_xhk_worldark_negativemass = {
+	icon = GFX_giga_district_specialization_negative_mass
+	inline_script = {
+		script = xhk_worldark/zones/zone_common
+		NUM_BUILDINGS = 3
+		UNLOCK = ""
+		POTENTIAL = ""
+	}
+
+	include = {
+		building_giga_institute_1
+		building_giga_institute_2
+		building_giga_supercomputer_1
+		building_giga_supercomputer_2
+		building_giga_energy_nexus_1
+		building_giga_energy_nexus_2
+		building_giga_energy_nexus_3
+		building_giga_planetary_shield_generator_2
+		building_negative_mass_factory_1
+		building_negative_mass_factory_2
+	}
+	included_building_sets = {
+		ehof
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		modifier = {
+			job_ehof_energy_converter_add = 100
+		}
+	}
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		modifier = {
+			job_ehof_energy_converter_drone_add = 100
+		}
+	}
+
+	zone_sets = {
+		xhk_worldark_negativemass
+	}
+}
+
+## SENTIENT METAL
+###########################################################
+zone_xhk_worldark_sentientmetal = {
+	icon = GFX_giga_district_specialization_sentient_metal
+	inline_script = {
+		script = xhk_worldark/zones/zone_common
+		NUM_BUILDINGS = 1
+		UNLOCK = ""
+		POTENTIAL = ""
+	}
+
+	include = {
+		building_ehof_sm_forge_1
+		building_ehof_sm_forge_2
+	}
+	included_building_sets = {
+		ehof
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		modifier = {
+			job_ehof_cultivator_add = 100
+		}
+	}
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		modifier = {
+			job_ehof_cultivation_drone_add = 100
+		}
+	}
+
+	zone_sets = {
+		xhk_worldark_sentientmetal
+	}
+}
+
 ## ORDINANCE
 ###########################################################
 zone_xhk_worldark_ordinance_naval = {

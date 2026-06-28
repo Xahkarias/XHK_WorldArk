@@ -120,6 +120,20 @@ slot_xhk_worldark_darkmatter = {
 	unlock = { always = yes }
 }
 
+slot_xhk_worldark_negativemass = {
+	included_zone_sets = {
+		xhk_worldark_negativemass
+	}
+	unlock = { always = yes }
+}
+
+slot_xhk_worldark_sentientmetal = {
+	included_zone_sets = {
+		xhk_worldark_sentientmetal
+	}
+	unlock = { always = yes }
+}
+
 slot_xhk_worldark_storage = {
     start = zone_xhk_worldark_storage
     included_zone_sets = {

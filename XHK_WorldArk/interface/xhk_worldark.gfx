@@ -55,6 +55,15 @@ spriteTypes = {
 		name = "GFX_district_xhk_worldark_darkmatter_bg"
 		texturefile = "gfx/interface/planetview/district_backgrounds/district_xhk_worldark_darkmatter_bg.dds"
 	}
+	corneredTileSpriteType = {
+		name = "GFX_district_xhk_worldark_negativemass_bg"
+		texturefile = "gfx/interface/planetview/district_backgrounds/district_xhk_worldark_negativemass_bg.dds"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_district_xhk_worldark_sentientmetal_bg"
+		texturefile = "gfx/interface/planetview/district_backgrounds/district_xhk_worldark_sentientmetal_bg.dds"
+	}
+
 
 
 	####################################################################################################################

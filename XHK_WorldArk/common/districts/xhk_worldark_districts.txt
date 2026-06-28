@@ -943,12 +943,6 @@ district_xhk_worldark_refinery_crystals = {
 	}
 }
 
-# SUPERTENSILES
-
-# NEG MASS
-
-# SENT METAL
-
 # DARK MATTER
 district_xhk_worldark_darkmatter = {
 	base_buildtime = @xhk_base_buildtime
@@ -982,6 +976,9 @@ district_xhk_worldark_darkmatter = {
 		}
 	}
 
+	prerequisites = { tech_mine_dark_matter }
+	show_tech_unlock_if = { xhk_has_worldark_origin = yes }
+
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -1000,6 +997,138 @@ district_xhk_worldark_darkmatter = {
 
 	triggered_name = {
 		text = flavor_xhk_worldark_darkmatter_name
+	}
+}
+
+# SUPERTENSILES
+
+# NEG MASS
+district_xhk_worldark_negativemass = {
+	base_buildtime = @xhk_base_buildtime
+	icon = district_giga_negative_mass
+	district_background = district_xhk_worldark_negativemass
+	gridbox = district_giga_birch_orykta_negative_mass
+	is_uncapped = { always = yes }
+	overlay_icon = GFX_giga_district_negative_mass
+
+	zone_slots = {
+		slot_xhk_worldark_negativemass
+	}
+
+	inline_script = {
+		script = xhk_worldark/districts/district_common
+		POTENTIAL = "
+			exists = owner
+            owner = {
+                has_technology = tech_nm_utilization_2
+            }
+		"
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = @xhk_district_base_cost
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	prerequisites = { tech_nm_utilization_2 }
+	show_tech_unlock_if = { xhk_has_worldark_origin = yes }
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		modifier = {
+			job_ehof_energy_converter_add = 200
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		modifier = {
+			job_ehof_energy_converter_drone_add = 200
+		}
+	}
+
+	triggered_name = {
+		text = flavor_xhk_worldark_negativemass_name
+	}
+}
+
+# SENT METAL
+district_xhk_worldark_sentientmetal = {
+	base_buildtime = @xhk_base_buildtime
+	icon = district_giga_sentient_metal
+	district_background = district_xhk_worldark_sentientmetal
+	gridbox = district_giga_birch_ktisma_sentient_metal
+	is_uncapped = { always = yes }
+	overlay_icon = GFX_giga_district_sentient_metal
+
+	zone_slots = {
+		slot_xhk_worldark_sentientmetal
+	}
+
+	inline_script = {
+		script = xhk_worldark/districts/district_common
+		POTENTIAL = "
+			exists = owner
+            owner = {
+                has_technology = tech_ehof_sentient_tier_3
+            }
+		"
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = @xhk_district_base_cost
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	prerequisites = { tech_ehof_sentient_tier_3 }
+	show_tech_unlock_if = { xhk_has_worldark_origin = yes }
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		modifier = {
+			job_ehof_cultivator_add = 200
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		modifier = {
+			job_ehof_cultivation_drone_add = 200
+		}
+	}
+
+	triggered_name = {
+		text = flavor_xhk_worldark_sentientmetal_name
 	}
 }
 

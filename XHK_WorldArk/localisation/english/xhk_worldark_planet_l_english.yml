@@ -198,6 +198,24 @@
  flavor_xhk_worldark_darkmatter_name: "Non-Baryonic Sieve"
 
  ##################################################################
+ # Negative Mass
+ ##################################################################
+
+ district_xhk_worldark_negativemass: "Negative Mass Lattice"
+ district_xhk_worldark_negativemass_plural: "Negative Mass Lattices"
+ district_xhk_worldark_negativemass_desc: "$building_negative_mass_factory_2_desc$"
+ flavor_xhk_worldark_negativemass_name: "Transmutation Array"
+
+ ##################################################################
+ # Sentient Metal
+ ##################################################################
+
+ district_xhk_worldark_sentientmetal: "Assimilator Field"
+ district_xhk_worldark_sentientmetal_plural: "Assimilator Fields"
+ district_xhk_worldark_sentientmetal_desc: "$building_ehof_sm_forge_1_desc$"
+ flavor_xhk_worldark_sentientmetal_name: "Sentient Foundries"
+
+ ##################################################################
  # Storage
  ##################################################################
 
@@ -295,6 +313,12 @@
 
  zone_xhk_worldark_darkmatter: "$flavor_xhk_worldark_darkmatter_name$"
  zone_xhk_worldark_darkmatter_desc: "$district_xhk_worldark_darkmatter_desc$"
+
+ zone_xhk_worldark_negativemass: "$flavor_xhk_worldark_negativemass_name$"
+ zone_xhk_worldark_negativemass_desc: "$district_xhk_worldark_negativemass_desc$"
+
+ zone_xhk_worldark_sentientmetal: "$flavor_xhk_worldark_sentientmetal_name$"
+ zone_xhk_worldark_sentientmetal_desc: "$district_xhk_worldark_sentientmetal_desc$"
 
  zone_xhk_worldark_storage: "$district_xhk_worldark_storage$"
  zone_xhk_worldark_storage_desc: "$district_xhk_worldark_storage_desc$"
