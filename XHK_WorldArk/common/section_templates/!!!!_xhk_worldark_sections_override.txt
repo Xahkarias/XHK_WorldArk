@@ -1,5 +1,7 @@
 # each one has to be overwritten to allow for the specific locators and ship type
 # or it will fucking crash
+# REMEMBER
+# I HAVE TO OVERWRITE THE SHIP SECTIONS OR THEY WILL CRASH
 
 # Arkship Modules
 

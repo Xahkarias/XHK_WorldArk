@@ -20,13 +20,13 @@ xhk_worldark_tier_1 = {
     }
 
     # 3D Art
-    entity = military_arkship_01_stage_1_entity
+    entity = xhk_worldark_entity
     section_slots = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
         "2"		=	{ locator = "module_02" }
-        "3"		=	{ locator = "module_01" }
-        "4"		=	{ locator = "module_02" }
+        "3"		=	{ locator = "module_03" }
+        "4"		=	{ locator = "module_04" }
     }
     # Ship setup
     inline_script = {
@@ -57,17 +57,17 @@ xhk_worldark_tier_2 = {
     }
 
     # 3D Art
-    entity = military_arkship_01_stage_1_entity
+    entity = xhk_worldark_entity
     section_slots = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
         "2"		=	{ locator = "module_02" }
         "3"		=	{ locator = "module_03" }
         "4"		=	{ locator = "module_04" }
-        "5"		=	{ locator = "module_01" }
-        "6"		=	{ locator = "module_02" }
-        "7"	=	{ locator = "module_03" }
-        "8"		=	{ locator = "module_04" }
+        "5"		=	{ locator = "module_05" }
+        "6"		=	{ locator = "module_06" }
+        "7"	=	{ locator = "module_07" }
+        "8"		=	{ locator = "module_08" }
     }
     # Ship setup
     inline_script = {
@@ -98,21 +98,21 @@ xhk_worldark_tier_3 = {
     }
 
     # 3D Art
-    entity = military_arkship_01_stage_2_entity
+    entity = xhk_worldark_entity
     section_slots = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
         "2"		=	{ locator = "module_02" }
         "3"		=	{ locator = "module_03" }
         "4"		=	{ locator = "module_04" }
-        "5"		=	{ locator = "module_01" }
-        "6"		=	{ locator = "module_02" }
-        "7"	=	{ locator = "module_03" }
-        "8"		=	{ locator = "module_04" }
-        "9"	=	{ locator = "module_01" }
-        "10"		=	{ locator = "module_02" }
-        "11"	    =	{ locator = "module_03" }
-        "12"	=	{ locator = "module_04" }
+        "5"		=	{ locator = "module_05" }
+        "6"		=	{ locator = "module_06" }
+        "7"	=	{ locator = "module_07" }
+        "8"		=	{ locator = "module_08" }
+        "9"	=	{ locator = "module_09" }
+        "10"		=	{ locator = "module_10" }
+        "11"	    =	{ locator = "module_11" }
+        "12"	=	{ locator = "module_12" }
     }
     # Ship setup
     inline_script = {
@@ -143,25 +143,25 @@ xhk_worldark_tier_4 = {
     }
 
     # 3D Art
-    entity = military_arkship_01_stage_2_entity
+    entity = xhk_worldark_entity
     section_slots = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
         "2"		=	{ locator = "module_02" }
         "3"		=	{ locator = "module_03" }
         "4"		=	{ locator = "module_04" }
-        "5"		=	{ locator = "module_01" }
-        "6"		=	{ locator = "module_02" }
-        "7"	=	{ locator = "module_03" }
-        "8"		=	{ locator = "module_04" }
-        "9"	=	{ locator = "module_01" }
-        "10"		=	{ locator = "module_02" }
-        "11"	    =	{ locator = "module_03" }
-        "12"	=	{ locator = "module_04" }
-        "13"	    =	{ locator = "module_01" }
-        "14"		=	{ locator = "module_02" }
-        "15"	    =	{ locator = "module_03" }
-        "16"	    =	{ locator = "module_04" }
+        "5"		=	{ locator = "module_05" }
+        "6"		=	{ locator = "module_06" }
+        "7"	=	{ locator = "module_07" }
+        "8"		=	{ locator = "module_08" }
+        "9"	=	{ locator = "module_09" }
+        "10"		=	{ locator = "module_10" }
+        "11"	    =	{ locator = "module_11" }
+        "12"	=	{ locator = "module_12" }
+        "13"	    =	{ locator = "module_13" }
+        "14"		=	{ locator = "module_14" }
+        "15"	    =	{ locator = "module_15" }
+        "16"	    =	{ locator = "module_16" }
     }
     # Ship setup
     inline_script = {
@@ -192,26 +192,26 @@ xhk_worldark_tier_5 = {
     }
 
     # 3D Art
-    entity = military_arkship_01_stage_2_entity
+    entity = xhk_worldark_entity
     section_slots = {
         # NO CHANGE THIS TIER
-        "mid"	=	{ locator = "part1" }
-        "1"		=	{ locator = "module_01" }
-        "2"		=	{ locator = "module_02" }
-        "3"		=	{ locator = "module_03" }
-        "4"		=	{ locator = "module_04" }
-        "5"		=	{ locator = "module_05" }
-        "6"		=	{ locator = "module_06" }
-        "7"	=	{ locator = "module_01" }
-        "8"		=	{ locator = "module_02" }
-        "9"	=	{ locator = "module_03" }
-        "10"		=	{ locator = "module_04" }
-        "11"	    =	{ locator = "module_05" }
-        "12"	=	{ locator = "module_06" }
-        "13"	    =	{ locator = "module_01" }
-        "14"		=	{ locator = "module_02" }
-        "15"	    =	{ locator = "module_03" }
-        "16"	    =	{ locator = "module_04" }
+		"mid"	=	{ locator = "part1" }
+		"1"		=	{ locator = "module_01" }
+		"2"		=	{ locator = "module_02" }
+		"3"		=	{ locator = "module_03" }
+		"4"		=	{ locator = "module_04" }
+		"5"		=	{ locator = "module_05" }
+		"6"		=	{ locator = "module_06" }
+		"7"	=	{ locator = "module_07" }
+		"8"		=	{ locator = "module_08" }
+		"9"	=	{ locator = "module_09" }
+		"10"		=	{ locator = "module_10" }
+		"11"	    =	{ locator = "module_11" }
+		"12"	=	{ locator = "module_12" }
+		"13"	    =	{ locator = "module_13" }
+		"14"		=	{ locator = "module_14" }
+		"15"	    =	{ locator = "module_15" }
+		"16"	    =	{ locator = "module_16" }
     }
     # Ship setup
     inline_script = {
@@ -242,29 +242,29 @@ xhk_worldark_tier_6 = {
     }
 
     # 3D Art
-    entity = military_arkship_01_stage_2_entity
+    entity = xhk_worldark_entity
     section_slots = {
-        "mid"	=	{ locator = "part1" }
-        "1"		=	{ locator = "module_01" }
-        "2"		=	{ locator = "module_02" }
-        "3"		=	{ locator = "module_03" }
-        "4"		=	{ locator = "module_04" }
-        "5"		=	{ locator = "module_05" }
-        "6"		=	{ locator = "module_06" }
-        "7"	=	{ locator = "module_01" }
-        "8"		=	{ locator = "module_02" }
-        "9"	=	{ locator = "module_03" }
-        "10"		=	{ locator = "module_04" }
-        "11"	    =	{ locator = "module_05" }
-        "12"	=	{ locator = "module_06" }
-        "13"	    =	{ locator = "module_01" }
-        "14"		=	{ locator = "module_02" }
-        "15"	    =	{ locator = "module_03" }
-        "16"		=	{ locator = "module_04" }
-        "17"	    =	{ locator = "module_05" }
-        "18"	    =	{ locator = "module_06" }
-        "19"	    =	{ locator = "module_01" }
-        "20"		=	{ locator = "module_02" }
+		"mid"	=	{ locator = "part1" }
+		"1"		=	{ locator = "module_01" }
+		"2"		=	{ locator = "module_02" }
+		"3"		=	{ locator = "module_03" }
+		"4"		=	{ locator = "module_04" }
+		"5"		=	{ locator = "module_05" }
+		"6"		=	{ locator = "module_06" }
+		"7"	=	{ locator = "module_07" }
+		"8"		=	{ locator = "module_08" }
+		"9"	=	{ locator = "module_09" }
+		"10"		=	{ locator = "module_10" }
+		"11"	    =	{ locator = "module_11" }
+		"12"	=	{ locator = "module_12" }
+		"13"	    =	{ locator = "module_13" }
+		"14"		=	{ locator = "module_14" }
+		"15"	    =	{ locator = "module_15" }
+		"16"	    =	{ locator = "module_16" }
+        "17"	    =	{ locator = "module_17" }
+        "18"	    =	{ locator = "module_18" }
+        "19"	    =	{ locator = "module_19" }
+        "20"		=	{ locator = "module_20" }
     }
     # Ship setup
     inline_script = {
@@ -295,33 +295,33 @@ xhk_worldark_tier_7 = {
     }
 
     # 3D Art
-    entity = military_arkship_01_stage_3_entity
+    entity = xhk_worldark_entity
     section_slots = {
-        "mid"	=	{ locator = "part1" }
-        "1"		=	{ locator = "module_01" }
-        "2"		=	{ locator = "module_02" }
-        "3"		=	{ locator = "module_03" }
-        "4"		=	{ locator = "module_04" }
-        "5"		=	{ locator = "module_05" }
-        "6"		=	{ locator = "module_06" }
-        "7"	=	{ locator = "module_01" }
-        "8"		=	{ locator = "module_02" }
-        "9"	=	{ locator = "module_03" }
-        "10"		=	{ locator = "module_04" }
-        "11"	    =	{ locator = "module_05" }
-        "12"	=	{ locator = "module_06" }
-        "13"	    =	{ locator = "module_01" }
-        "14"		=	{ locator = "module_02" }
-        "15"	    =	{ locator = "module_03" }
-        "16"		=	{ locator = "module_04" }
-        "17"	    =	{ locator = "module_05" }
-        "18"	    =	{ locator = "module_06" }
-        "19"	    =	{ locator = "module_01" }
-        "20"		=	{ locator = "module_02" }
-        "21"	    =	{ locator = "module_03" }
-        "22"		=	{ locator = "module_04" }
-        "23"	    =	{ locator = "module_05" }
-        "24"	    =	{ locator = "module_06" }
+		"mid"	=	{ locator = "part1" }
+		"1"		=	{ locator = "module_01" }
+		"2"		=	{ locator = "module_02" }
+		"3"		=	{ locator = "module_03" }
+		"4"		=	{ locator = "module_04" }
+		"5"		=	{ locator = "module_05" }
+		"6"		=	{ locator = "module_06" }
+		"7"	=	{ locator = "module_07" }
+		"8"		=	{ locator = "module_08" }
+		"9"	=	{ locator = "module_09" }
+		"10"		=	{ locator = "module_10" }
+		"11"	    =	{ locator = "module_11" }
+		"12"	=	{ locator = "module_12" }
+		"13"	    =	{ locator = "module_13" }
+		"14"		=	{ locator = "module_14" }
+		"15"	    =	{ locator = "module_15" }
+		"16"	    =	{ locator = "module_16" }
+		"17"	    =	{ locator = "module_17" }
+		"18"	    =	{ locator = "module_18" }
+		"19"	    =	{ locator = "module_19" }
+		"20"		=	{ locator = "module_20" }
+        "21"	    =	{ locator = "module_21" }
+        "22"		=	{ locator = "module_22" }
+        "23"	    =	{ locator = "module_23" }
+        "24"	    =	{ locator = "module_24" }
     }
     # Ship setup
     inline_script = {
@@ -352,7 +352,7 @@ xhk_worldark_tier_8 = {
     }
 
     # 3D Art
-    entity = military_arkship_01_stage_3_entity
+    entity = xhk_worldark_entity
     section_slots = {
 		"mid"	=	{ locator = "part1" }
 		"1"		=	{ locator = "module_01" }
@@ -361,26 +361,26 @@ xhk_worldark_tier_8 = {
 		"4"		=	{ locator = "module_04" }
 		"5"		=	{ locator = "module_05" }
 		"6"		=	{ locator = "module_06" }
-		"7"	=	{ locator = "module_01" }
-		"8"		=	{ locator = "module_02" }
-		"9"	=	{ locator = "module_03" }
-		"10"		=	{ locator = "module_04" }
-		"11"	    =	{ locator = "module_05" }
-		"12"	=	{ locator = "module_06" }
-		"13"	    =	{ locator = "module_01" }
-		"14"		=	{ locator = "module_02" }
-		"15"	    =	{ locator = "module_03" }
-		"16"		=	{ locator = "module_04" }
-		"17"	    =	{ locator = "module_05" }
-		"18"	    =	{ locator = "module_06" }
-		"19"	    =	{ locator = "module_01" }
-		"20"		=	{ locator = "module_02" }
-		"21"	    =	{ locator = "module_03" }
-		"22"		=	{ locator = "module_04" }
-		"23"	    =	{ locator = "module_05" }
-		"24"	    =	{ locator = "module_06" }
-        "spinal_mount_1"	=	{ locator = "spinal_mount" }
-        "spinal_mount_2"	=	{ locator = "spinal_mount" }
+		"7"	=	{ locator = "module_07" }
+		"8"		=	{ locator = "module_08" }
+		"9"	=	{ locator = "module_09" }
+		"10"		=	{ locator = "module_10" }
+		"11"	    =	{ locator = "module_11" }
+		"12"	=	{ locator = "module_12" }
+		"13"	    =	{ locator = "module_13" }
+		"14"		=	{ locator = "module_14" }
+		"15"	    =	{ locator = "module_15" }
+		"16"	    =	{ locator = "module_16" }
+		"17"	    =	{ locator = "module_17" }
+		"18"	    =	{ locator = "module_18" }
+		"19"	    =	{ locator = "module_19" }
+		"20"		=	{ locator = "module_20" }
+		"21"	    =	{ locator = "module_21" }
+		"22"		=	{ locator = "module_22" }
+		"23"	    =	{ locator = "module_23" }
+		"24"	    =	{ locator = "module_24" }
+        "spinal_mount_1"	=	{ locator = "spinal_mount_1" }
+        "spinal_mount_2"	=	{ locator = "spinal_mount_2" }
     }
     # Ship setup
     inline_script = {
@@ -411,7 +411,7 @@ xhk_worldark_tier_9 = {
     }
 
     # 3D Art
-    entity = military_arkship_01_stage_3_entity
+    entity = xhk_worldark_entity
     section_slots = {
 		"mid"	=	{ locator = "part1" }
 		"1"		=	{ locator = "module_01" }
@@ -420,28 +420,28 @@ xhk_worldark_tier_9 = {
 		"4"		=	{ locator = "module_04" }
 		"5"		=	{ locator = "module_05" }
 		"6"		=	{ locator = "module_06" }
-		"7"	=	{ locator = "module_01" }
-		"8"		=	{ locator = "module_02" }
-		"9"	=	{ locator = "module_03" }
-		"10"		=	{ locator = "module_04" }
-		"11"	    =	{ locator = "module_05" }
-		"12"	=	{ locator = "module_06" }
-		"13"	    =	{ locator = "module_01" }
-		"14"		=	{ locator = "module_02" }
-		"15"	    =	{ locator = "module_03" }
-		"16"		=	{ locator = "module_04" }
-		"17"	    =	{ locator = "module_05" }
-		"18"	    =	{ locator = "module_06" }
-		"19"	    =	{ locator = "module_01" }
-		"20"		=	{ locator = "module_02" }
-		"21"	    =	{ locator = "module_03" }
-		"22"		=	{ locator = "module_04" }
-		"23"	    =	{ locator = "module_05" }
-		"24"	    =	{ locator = "module_06" }
-        "spinal_mount_1"	=	{ locator = "spinal_mount" }
-        "spinal_mount_2"	=	{ locator = "spinal_mount" }
-        "spinal_mount_3"	=	{ locator = "spinal_mount" }
-        "spinal_mount_4"	=	{ locator = "spinal_mount" }
+		"7"	=	{ locator = "module_07" }
+		"8"		=	{ locator = "module_08" }
+		"9"	=	{ locator = "module_09" }
+		"10"		=	{ locator = "module_10" }
+		"11"	    =	{ locator = "module_11" }
+		"12"	=	{ locator = "module_12" }
+		"13"	    =	{ locator = "module_13" }
+		"14"		=	{ locator = "module_14" }
+		"15"	    =	{ locator = "module_15" }
+		"16"	    =	{ locator = "module_16" }
+		"17"	    =	{ locator = "module_17" }
+		"18"	    =	{ locator = "module_18" }
+		"19"	    =	{ locator = "module_19" }
+		"20"		=	{ locator = "module_20" }
+		"21"	    =	{ locator = "module_21" }
+		"22"		=	{ locator = "module_22" }
+		"23"	    =	{ locator = "module_23" }
+		"24"	    =	{ locator = "module_24" }
+        "spinal_mount_1"	=	{ locator = "spinal_mount_1" }
+        "spinal_mount_2"	=	{ locator = "spinal_mount_2" }
+        "spinal_mount_3"	=	{ locator = "spinal_mount_3" }
+        "spinal_mount_4"	=	{ locator = "spinal_mount_4" }
     }
     # Ship setup
     inline_script = {
@@ -472,39 +472,39 @@ xhk_worldark_tier_10 = {
     }
 
     # 3D Art
-    entity = military_arkship_01_stage_3_entity
+    entity = xhk_worldark_entity
     section_slots = {
-        "mid"	=	{ locator = "part1" }
-        "1"		=	{ locator = "module_01" }
-        "2"		=	{ locator = "module_02" }
-        "3"		=	{ locator = "module_03" }
-        "4"		=	{ locator = "module_04" }
-        "5"		=	{ locator = "module_05" }
-        "6"		=	{ locator = "module_06" }
-        "7"	=	{ locator = "module_01" }
-        "8"		=	{ locator = "module_02" }
-        "9"	=	{ locator = "module_03" }
-        "10"		=	{ locator = "module_04" }
-        "11"	    =	{ locator = "module_05" }
-        "12"	=	{ locator = "module_06" }
-        "13"	    =	{ locator = "module_01" }
-        "14"		=	{ locator = "module_02" }
-        "15"	    =	{ locator = "module_03" }
-        "16"		=	{ locator = "module_04" }
-        "17"	    =	{ locator = "module_05" }
-        "18"	    =	{ locator = "module_06" }
-        "19"	    =	{ locator = "module_01" }
-        "20"		=	{ locator = "module_02" }
-        "21"	    =	{ locator = "module_03" }
-        "22"		=	{ locator = "module_04" }
-        "23"	    =	{ locator = "module_05" }
-        "24"	    =	{ locator = "module_06" }
-        "spinal_mount_1"	=	{ locator = "spinal_mount" }
-        "spinal_mount_2"	=	{ locator = "spinal_mount" }
-        "spinal_mount_3"	=	{ locator = "spinal_mount" }
-        "spinal_mount_4"	=	{ locator = "spinal_mount" }
-        "spinal_mount_5"	=	{ locator = "spinal_mount" }
-        "spinal_mount_6"	=	{ locator = "spinal_mount" }
+		"mid"	=	{ locator = "part1" }
+		"1"		=	{ locator = "module_01" }
+		"2"		=	{ locator = "module_02" }
+		"3"		=	{ locator = "module_03" }
+		"4"		=	{ locator = "module_04" }
+		"5"		=	{ locator = "module_05" }
+		"6"		=	{ locator = "module_06" }
+		"7"	=	{ locator = "module_07" }
+		"8"		=	{ locator = "module_08" }
+		"9"	=	{ locator = "module_09" }
+		"10"		=	{ locator = "module_10" }
+		"11"	    =	{ locator = "module_11" }
+		"12"	=	{ locator = "module_12" }
+		"13"	    =	{ locator = "module_13" }
+		"14"		=	{ locator = "module_14" }
+		"15"	    =	{ locator = "module_15" }
+		"16"	    =	{ locator = "module_16" }
+		"17"	    =	{ locator = "module_17" }
+		"18"	    =	{ locator = "module_18" }
+		"19"	    =	{ locator = "module_19" }
+		"20"		=	{ locator = "module_20" }
+		"21"	    =	{ locator = "module_21" }
+		"22"		=	{ locator = "module_22" }
+		"23"	    =	{ locator = "module_23" }
+		"24"	    =	{ locator = "module_24" }
+        "spinal_mount_1"	=	{ locator = "spinal_mount_1" }
+        "spinal_mount_2"	=	{ locator = "spinal_mount_2" }
+        "spinal_mount_3"	=	{ locator = "spinal_mount_3" }
+        "spinal_mount_4"	=	{ locator = "spinal_mount_4" }
+        "spinal_mount_5"	=	{ locator = "spinal_mount_5" }
+        "spinal_mount_6"	=	{ locator = "spinal_mount_6" }
     }
     # Ship setup
     inline_script = {
