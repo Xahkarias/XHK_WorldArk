@@ -103,8 +103,8 @@ xhk_tech_worldark_6 = {
 }
 
 xhk_tech_worldark_7 = {
-    area = physics
-    category = { particles }
+    area = engineering
+    category = { materials }
     tier = 5
     cost = @tier5cost1
 
@@ -118,8 +118,8 @@ xhk_tech_worldark_7 = {
 }
 
 xhk_tech_worldark_8 = {
-    area = engineering
-    category = { voidcraft }
+    area = society
+    category = { military_theory }
     tier = 5
     cost = @tier5cost2
 
@@ -137,8 +137,8 @@ xhk_tech_worldark_8 = {
 }
 
 xhk_tech_worldark_9 = {
-    area = engineering
-    category = { voidcraft }
+    area = physics
+    category = { particles }
     tier = 5
     cost = @tier5cost3
 
@@ -153,7 +153,7 @@ xhk_tech_worldark_9 = {
 
 xhk_tech_worldark_10 = {
     area = engineering
-    category = { voidcraft }
+    category = { propulsion }
     tier = 5
     cost = @tier5cost3
 
