@@ -6,8 +6,8 @@ xhk_worldark_size_harvest = {
     automation_default_on = yes
     on_completed = xhk_on_size_harvest
     tooltip = xhk_worldark_size_harvest_ship_button
-    icon = GFX_fleet_action_button_arkship_harvest_resources
-    icon_selected = GFX_fleet_action_button_arkship_harvest_resources
+    icon = GFX_XHK_worldark_size_harvest_action
+    icon_selected = GFX_XHK_worldark_size_harvest_action
 
     possible = {
         NOT = {
