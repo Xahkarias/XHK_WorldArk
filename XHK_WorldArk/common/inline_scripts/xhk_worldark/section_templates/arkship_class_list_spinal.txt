@@ -4,6 +4,7 @@ ship_size = military_arkship_tier_3
 ship_size = xhk_worldark_tier_8
 ship_size = xhk_worldark_tier_9
 ship_size = xhk_worldark_tier_10
+ship_size = xhk_worldark_tier_11
 
 fits_on_slot = "spinal_mount_1"
 fits_on_slot = "spinal_mount_2"

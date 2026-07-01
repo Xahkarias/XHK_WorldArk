@@ -9,6 +9,7 @@
  xhk_worldark_tier_8:0 "$xhk_pc_worldark$ VIII"
  xhk_worldark_tier_9:0 "$xhk_pc_worldark$ IX"
  xhk_worldark_tier_10:0 "$xhk_pc_worldark$ X"
+ xhk_worldark_tier_11:0 "$xhk_pc_worldark$ XI"
 
  xhk_worldark_tier_1_cap:0 "$xhk_worldark_tier_1$"
  xhk_worldark_tier_2_cap:0 "$xhk_worldark_tier_2$"
@@ -20,6 +21,7 @@
  xhk_worldark_tier_8_cap:0 "$xhk_worldark_tier_8$"
  xhk_worldark_tier_9_cap:0 "$xhk_worldark_tier_9$"
  xhk_worldark_tier_10_cap:0 "$xhk_worldark_tier_10$"
+ xhk_worldark_tier_11_cap:0 "$xhk_worldark_tier_11$"
 
  ########################################################################################################
  # SCRIPTED ACTIONS
@@ -83,3 +85,4 @@
  mod_shipsize_xhk_worldark_tier_8_fire_rate_mult: "$xhk_worldark_tier_8$ Fire Rate"
  mod_shipsize_xhk_worldark_tier_9_fire_rate_mult: "$xhk_worldark_tier_9$ Fire Rate"
  mod_shipsize_xhk_worldark_tier_10_fire_rate_mult: "$xhk_worldark_tier_10$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_11_fire_rate_mult: "$xhk_worldark_tier_11$ Fire Rate"

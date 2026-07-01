@@ -7,6 +7,36 @@ xhk_worldark_large_turret = {
 	}
 }
 
+xhk_worldark_medium_turret = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "xhk_worldark_medium_kinetic_gun_entity"
+		weapon_type_energy = "xhk_worldark_medium_laser_gun_entity"
+		weapon_type_explosive = "xhk_worldark_missile_medium_entity"
+	}
+}
+
+xhk_worldark_small_turret = {
+	size = small
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "xhk_worldark_small_kinetic_gun_entity"
+		weapon_type_energy = "xhk_worldark_small_laser_gun_entity"
+		weapon_type_explosive = "xhk_worldark_small_missile_gun_entity"
+	}
+}
+
+xhk_worldark_medium_missile_turret = {
+	size = torpedo
+	component = weapon
+	entities = {
+		weapon_type_explosive = "xhk_worldark_missile_medium_entity"
+		weapon_type_kinetic = "xhk_worldark_missile_medium_entity" # Failsafe for saved "invalid designs"
+		weapon_type_energy = "xhk_worldark_missile_medium_entity" # Failsafe for saved "invalid designs"
+	}
+}
+
 xhk_worldark_pd_turret = {
 	size = point_defence
 	component = weapon

@@ -169,3 +169,18 @@ xhk_tech_worldark_10 = {
 
     prerequisites = { "xhk_tech_worldark_9" }
 }
+
+xhk_tech_worldark_11 = {
+	area = engineering
+	category = { propulsion }
+	tier = 5
+	cost = 50000
+
+	weight = 100
+	inline_script = {
+		script = xhk_worldark/technology/tech_ship_definition
+		TIER = 11
+	}
+
+	prerequisites = { "xhk_tech_worldark_10" }
+}

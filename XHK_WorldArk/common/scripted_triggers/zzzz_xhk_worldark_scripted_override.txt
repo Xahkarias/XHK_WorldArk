@@ -21,6 +21,7 @@ is_arkship_ship = {
         is_ship_size = xhk_worldark_tier_8
         is_ship_size = xhk_worldark_tier_9
         is_ship_size = xhk_worldark_tier_10
+		is_ship_size = xhk_worldark_tier_11
     }
 }
 
@@ -47,6 +48,7 @@ is_arkship_starbase = {
 		has_starbase_size = xhk_worldark_tier_8
 		has_starbase_size = xhk_worldark_tier_9
 		has_starbase_size = xhk_worldark_tier_10
+		has_starbase_size = xhk_worldark_tier_11
     }
 }
 

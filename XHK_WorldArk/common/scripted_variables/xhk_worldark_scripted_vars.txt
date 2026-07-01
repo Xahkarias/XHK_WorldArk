@@ -20,6 +20,7 @@
 @xhk_worldark_shipstat_modules_t8 = 26
 @xhk_worldark_shipstat_modules_t9 = 28
 @xhk_worldark_shipstat_modules_t10 = 30
+@xhk_worldark_shipstat_modules_t11 = 30
 
 @xhk_worldark_shipstat_buildings_t1 = 4
 @xhk_worldark_shipstat_buildings_t2 = 8
@@ -31,6 +32,7 @@
 @xhk_worldark_shipstat_buildings_t8 = 32
 @xhk_worldark_shipstat_buildings_t9 = 36
 @xhk_worldark_shipstat_buildings_t10 = 40
+@xhk_worldark_shipstat_buildings_t11 = 40
 
 @xhk_worldark_shipstat_collection_t1 = 250
 @xhk_worldark_shipstat_collection_t2 = 500
@@ -42,6 +44,7 @@
 @xhk_worldark_shipstat_collection_t8 = 3500
 @xhk_worldark_shipstat_collection_t9 = 4000
 @xhk_worldark_shipstat_collection_t10 = 5000
+@xhk_worldark_shipstat_collection_t11 = 7000
 
 @xhk_worldark_shipstat_hp_t1 = 2500
 @xhk_worldark_shipstat_hp_t2 = 5000
@@ -53,6 +56,7 @@
 @xhk_worldark_shipstat_hp_t8 = 50000
 @xhk_worldark_shipstat_hp_t9 = 70000
 @xhk_worldark_shipstat_hp_t10 = 90000
+@xhk_worldark_shipstat_hp_t11 = 150000
 
 # i cant use these to reference another one in an inline
 # chain referencing doesnt work
@@ -66,6 +70,7 @@
 @xhk_worldark_shipstat_armor_t8 = 25000
 @xhk_worldark_shipstat_armor_t9 = 35000
 @xhk_worldark_shipstat_armor_t10 = 45000
+@xhk_worldark_shipstat_armor_t11 = 75000
 
 @xhk_worldark_shipstat_shield_t1 = 1250
 @xhk_worldark_shipstat_shield_t2 = 2500
@@ -77,6 +82,7 @@
 @xhk_worldark_shipstat_shield_t8 = 25000
 @xhk_worldark_shipstat_shield_t9 = 35000
 @xhk_worldark_shipstat_shield_t10 = 45000
+@xhk_worldark_shipstat_shield_t11 = 75000
 
 @xhk_worldark_shipstat_shieldregen_t1 = 5
 @xhk_worldark_shipstat_shieldregen_t2 = 10
@@ -88,6 +94,7 @@
 @xhk_worldark_shipstat_shieldregen_t8 = 100
 @xhk_worldark_shipstat_shieldregen_t9 = 140
 @xhk_worldark_shipstat_shieldregen_t10 = 180
+@xhk_worldark_shipstat_shieldregen_t11 = 300
 
 @xhk_worldark_shipstat_sensor_t1 = 1
 @xhk_worldark_shipstat_sensor_t2 = 1
@@ -99,6 +106,7 @@
 @xhk_worldark_shipstat_sensor_t8 = 3
 @xhk_worldark_shipstat_sensor_t9 = 3
 @xhk_worldark_shipstat_sensor_t10 = 4
+@xhk_worldark_shipstat_sensor_t11 = 4
 
 @xhk_worldark_shipstat_hypersensor_t1 = 0
 @xhk_worldark_shipstat_hypersensor_t2 = 1
@@ -110,6 +118,7 @@
 @xhk_worldark_shipstat_hypersensor_t8 = 3
 @xhk_worldark_shipstat_hypersensor_t9 = 3
 @xhk_worldark_shipstat_hypersensor_t10 = 4
+@xhk_worldark_shipstat_hypersensor_t11 = 5
 
 @xhk_worldark_shipstat_districts_t1 = 0
 @xhk_worldark_shipstat_districts_t2 = 4
@@ -121,6 +130,7 @@
 @xhk_worldark_shipstat_districts_t8 = 28
 @xhk_worldark_shipstat_districts_t9 = 34
 @xhk_worldark_shipstat_districts_t10 = 40
+@xhk_worldark_shipstat_districts_t11 = 50
 
 @xhk_worldark_shipstat_reactor_t1 = 1
 @xhk_worldark_shipstat_reactor_t2 = 1.25
@@ -132,6 +142,7 @@
 @xhk_worldark_shipstat_reactor_t8 = 2.75
 @xhk_worldark_shipstat_reactor_t9 = 3
 @xhk_worldark_shipstat_reactor_t10 = 4.5
+@xhk_worldark_shipstat_reactor_t11 = 6
 
 @xhk_worldark_shipstat_harvest_t1 = 0
 @xhk_worldark_shipstat_harvest_t2 = 0.05
@@ -143,6 +154,7 @@
 @xhk_worldark_shipstat_harvest_t8 = 0.15
 @xhk_worldark_shipstat_harvest_t9 = 0.15
 @xhk_worldark_shipstat_harvest_t10 = 0.2
+@xhk_worldark_shipstat_harvest_t11 = 0.25
 
 @xhk_worldark_shipstat_weaponbonus_t1 = 0
 @xhk_worldark_shipstat_weaponbonus_t2 = 0
@@ -154,6 +166,7 @@
 @xhk_worldark_shipstat_weaponbonus_t8 = 0.1
 @xhk_worldark_shipstat_weaponbonus_t9 = 0.15
 @xhk_worldark_shipstat_weaponbonus_t10 = 0.2
+@xhk_worldark_shipstat_weaponbonus_t11 = 0.25
 
 
 ########################################################################################################

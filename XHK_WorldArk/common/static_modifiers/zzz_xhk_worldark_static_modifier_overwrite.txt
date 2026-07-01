@@ -19,4 +19,5 @@ arkship_fire_rate = {
     shipsize_xhk_worldark_tier_8_fire_rate_mult = 1
 	shipsize_xhk_worldark_tier_9_fire_rate_mult = 1
 	shipsize_xhk_worldark_tier_10_fire_rate_mult = 1
+	shipsize_xhk_worldark_tier_11_fire_rate_mult = 1
 }

@@ -46,6 +46,10 @@ xhk_worldark_level = {
         has_starbase_size = xhk_worldark_tier_10
         add = 9
     }
+	modifier = {
+		has_starbase_size = xhk_worldark_tier_11
+		add = 10
+	}
 }
 
 xhk_worldark_level_virtual_colony_size = {

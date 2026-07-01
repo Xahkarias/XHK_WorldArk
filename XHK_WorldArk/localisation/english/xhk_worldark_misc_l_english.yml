@@ -18,6 +18,7 @@
  xhk_tech_worldark_8: "$xhk_pc_worldark$ Tier VIII Upgrade"
  xhk_tech_worldark_9: "$xhk_pc_worldark$ Tier IX Upgrade"
  xhk_tech_worldark_10: "$xhk_pc_worldark$ Tier X Upgrade"
+ xhk_tech_worldark_11: "$xhk_pc_worldark$ Tier XI Upgrade"
 
  xhk_tech_worldark_1_desc: "The basics of maintenance and expansions of the $xhk_pc_worldark$."
  xhk_tech_worldark_2_desc: "Unlocks the §Y$xhk_pc_worldark$ Tier II Upgrade§!"
@@ -29,6 +30,7 @@
  xhk_tech_worldark_8_desc: "Unlocks the §Y$xhk_pc_worldark$ Tier VIII Upgrade§!"
  xhk_tech_worldark_9_desc: "Unlocks the §Y$xhk_pc_worldark$ Tier IX Upgrade§!"
  xhk_tech_worldark_10_desc: "Unlocks the §Y$xhk_pc_worldark$ Tier X Upgrade§!"
+ xhk_tech_worldark_11_desc: "Unlocks the §Y$xhk_pc_worldark$ Tier XI Upgrade§!"
 
  XHK_TECH_UPGRADE_WORLDARK_1_TITLE: "$xhk_tech_worldark_1_desc$"
  XHK_TECH_UPGRADE_WORLDARK_2_TITLE: "$xhk_tech_worldark_2_desc$"
@@ -40,6 +42,7 @@
  XHK_TECH_UPGRADE_WORLDARK_8_TITLE: "$xhk_tech_worldark_8_desc$"
  XHK_TECH_UPGRADE_WORLDARK_9_TITLE: "$xhk_tech_worldark_9_desc$"
  XHK_TECH_UPGRADE_WORLDARK_10_TITLE: "$xhk_tech_worldark_10_desc$"
+ XHK_TECH_UPGRADE_WORLDARK_11_TITLE: "$xhk_tech_worldark_11_desc$\n§GLarge Bonus§! to $xhk_pc_worldark$ §GCombat Strength§!."
 
  xhk_harvest_plus1: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_small]§!"
  xhk_harvest_plus2: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_large]§!"
