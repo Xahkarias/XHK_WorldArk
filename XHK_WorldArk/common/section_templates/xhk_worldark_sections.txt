@@ -164,22 +164,22 @@ ship_section_template = {
 
     component_slot = {
         name = "LARGE_GUN_01"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_02"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_03"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_04"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
 }
@@ -307,42 +307,42 @@ ship_section_template = {
 
     component_slot = {
         name = "LARGE_GUN_01"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_02"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_03"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_04"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_05"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_06"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_07"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_08"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
 }
@@ -500,62 +500,62 @@ ship_section_template = {
 
     component_slot = {
         name = "LARGE_GUN_01"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_02"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_03"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_04"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_05"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_06"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_07"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_08"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_09"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_10"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_11"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_12"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
 }
@@ -753,82 +753,82 @@ ship_section_template = {
 
     component_slot = {
         name = "LARGE_GUN_01"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_02"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_03"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_04"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_05"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_06"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_07"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_08"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_09"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_10"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_11"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_12"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_13"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_14"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_15"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_16"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
 }
@@ -1066,102 +1066,102 @@ ship_section_template = {
 
     component_slot = {
         name = "LARGE_GUN_01"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_02"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_03"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_04"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_05"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_06"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_07"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_08"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_09"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_10"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_11"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_12"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_13"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_14"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_15"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_16"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_17"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_18"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_19"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_20"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
 }
@@ -1419,122 +1419,122 @@ ship_section_template = {
 
     component_slot = {
         name = "LARGE_GUN_01"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_02"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_03"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_04"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_05"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_06"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_07"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_08"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_09"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_10"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_11"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_12"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_13"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_14"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_15"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_16"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_17"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_18"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_19"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_20"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_21"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_22"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_23"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_24"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
 }
@@ -1812,152 +1812,152 @@ ship_section_template = {
 
     component_slot = {
         name = "LARGE_GUN_01"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_02"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_03"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_04"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_05"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_06"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_07"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_08"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_09"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_10"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_11"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_12"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_13"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_14"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_15"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_16"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_17"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_18"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_19"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_20"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_21"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_22"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_23"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_24"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_25"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_26"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_27"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_28"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_29"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_30"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
 }
@@ -2275,182 +2275,182 @@ ship_section_template = {
 
     component_slot = {
         name = "LARGE_GUN_01"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_02"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_03"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_04"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_05"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_06"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_07"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_08"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_09"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_10"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_11"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_12"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_13"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_14"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_15"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_16"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_17"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_18"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_19"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_20"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_21"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_22"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_23"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_24"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_25"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_26"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_27"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_28"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_29"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_30"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_31"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_32"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_33"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_34"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_35"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_36"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
 }
@@ -2464,155 +2464,158 @@ ship_section_template = {
     entity = "xhk_worldark_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
+	#6 in each mouth slot
+	#4 in each upper wings
+	#2 in each lower wings
     component_slot = {
         name = "STRIKE_CRAFT_01"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_1"
     }
     component_slot = {
         name = "STRIKE_CRAFT_02"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_2"
     }
     component_slot = {
         name = "STRIKE_CRAFT_03"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_3"
     }
     component_slot = {
         name = "STRIKE_CRAFT_04"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_4"
     }
     component_slot = {
         name = "STRIKE_CRAFT_05"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_1"
     }
     component_slot = {
         name = "STRIKE_CRAFT_06"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_2"
     }
     component_slot = {
         name = "STRIKE_CRAFT_07"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_3"
     }
     component_slot = {
         name = "STRIKE_CRAFT_08"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_4"
     }
     component_slot = {
         name = "STRIKE_CRAFT_09"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_1"
     }
     component_slot = {
         name = "STRIKE_CRAFT_10"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_2"
     }
     component_slot = {
         name = "STRIKE_CRAFT_11"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_3"
     }
     component_slot = {
         name = "STRIKE_CRAFT_12"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_4"
     }
     component_slot = {
         name = "STRIKE_CRAFT_13"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_1"
     }
     component_slot = {
         name = "STRIKE_CRAFT_14"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_2"
     }
     component_slot = {
         name = "STRIKE_CRAFT_15"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_3"
     }
     component_slot = {
         name = "STRIKE_CRAFT_16"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_4"
     }
     component_slot = {
         name = "STRIKE_CRAFT_17"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_1"
     }
     component_slot = {
         name = "STRIKE_CRAFT_18"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_2"
     }
     component_slot = {
         name = "STRIKE_CRAFT_19"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_3"
     }
     component_slot = {
         name = "STRIKE_CRAFT_20"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_4"
     }
     component_slot = {
         name = "STRIKE_CRAFT_21"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_1"
     }
     component_slot = {
         name = "STRIKE_CRAFT_22"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_2"
     }
     component_slot = {
         name = "STRIKE_CRAFT_23"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_3"
     }
     component_slot = {
         name = "STRIKE_CRAFT_24"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_4"
     }
     component_slot = {
         name = "STRIKE_CRAFT_25"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_5"
     }
     component_slot = {
         name = "STRIKE_CRAFT_26"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_6"
     }
     component_slot = {
         name = "STRIKE_CRAFT_27"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_7"
     }
     component_slot = {
         name = "STRIKE_CRAFT_28"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_8"
     }
     component_slot = {
         name = "STRIKE_CRAFT_29"
         template = "large_strike_craft"
-        locatorname = "hangar_01"
+        locatorname = "hangar_5"
     }
     component_slot = {
         name = "STRIKE_CRAFT_30"
         template = "large_strike_craft"
-        locatorname = "hangar_02"
+        locatorname = "hangar_6"
     }
 
     component_slot = {
@@ -2818,202 +2821,202 @@ ship_section_template = {
 
     component_slot = {
         name = "LARGE_GUN_01"
-        template = "large_turret"
-        locatorname = "medium_turret_01"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_1"
     }
     component_slot = {
         name = "LARGE_GUN_02"
-        template = "large_turret"
-        locatorname = "medium_turret_02"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_2"
     }
     component_slot = {
         name = "LARGE_GUN_03"
-        template = "large_turret"
-        locatorname = "medium_turret_03"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_3"
     }
     component_slot = {
         name = "LARGE_GUN_04"
-        template = "large_turret"
-        locatorname = "medium_turret_04"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_4"
     }
     component_slot = {
         name = "LARGE_GUN_05"
-        template = "large_turret"
-        locatorname = "medium_turret_01"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_5"
     }
     component_slot = {
         name = "LARGE_GUN_06"
-        template = "large_turret"
-        locatorname = "medium_turret_02"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_6"
     }
     component_slot = {
         name = "LARGE_GUN_07"
-        template = "large_turret"
-        locatorname = "medium_turret_03"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_7"
     }
     component_slot = {
         name = "LARGE_GUN_08"
-        template = "large_turret"
-        locatorname = "medium_turret_04"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_8"
     }
     component_slot = {
         name = "LARGE_GUN_09"
-        template = "large_turret"
-        locatorname = "medium_turret_01"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_9"
     }
     component_slot = {
         name = "LARGE_GUN_10"
-        template = "large_turret"
-        locatorname = "medium_turret_02"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_10"
     }
     component_slot = {
         name = "LARGE_GUN_11"
-        template = "large_turret"
-        locatorname = "medium_turret_03"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_11"
     }
     component_slot = {
         name = "LARGE_GUN_12"
-        template = "large_turret"
-        locatorname = "medium_turret_04"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_12"
     }
     component_slot = {
         name = "LARGE_GUN_13"
-        template = "large_turret"
-        locatorname = "medium_turret_01"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_13"
     }
     component_slot = {
         name = "LARGE_GUN_14"
-        template = "large_turret"
-        locatorname = "medium_turret_02"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_14"
     }
     component_slot = {
         name = "LARGE_GUN_15"
-        template = "large_turret"
-        locatorname = "medium_turret_03"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_15"
     }
     component_slot = {
         name = "LARGE_GUN_16"
-        template = "large_turret"
-        locatorname = "medium_turret_04"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_16"
     }
     component_slot = {
         name = "LARGE_GUN_17"
-        template = "large_turret"
-        locatorname = "medium_turret_01"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_17"
     }
     component_slot = {
         name = "LARGE_GUN_18"
-        template = "large_turret"
-        locatorname = "medium_turret_02"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_18"
     }
     component_slot = {
         name = "LARGE_GUN_19"
-        template = "large_turret"
-        locatorname = "medium_turret_03"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_19"
     }
     component_slot = {
         name = "LARGE_GUN_20"
-        template = "large_turret"
-        locatorname = "medium_turret_04"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_20"
     }
     component_slot = {
         name = "LARGE_GUN_21"
-        template = "large_turret"
-        locatorname = "medium_turret_01"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_21"
     }
     component_slot = {
         name = "LARGE_GUN_22"
-        template = "large_turret"
-        locatorname = "medium_turret_02"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_22"
     }
     component_slot = {
         name = "LARGE_GUN_23"
-        template = "large_turret"
-        locatorname = "medium_turret_03"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_23"
     }
     component_slot = {
         name = "LARGE_GUN_24"
-        template = "large_turret"
-        locatorname = "medium_turret_04"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_24"
     }
     component_slot = {
         name = "LARGE_GUN_25"
-        template = "large_turret"
-        locatorname = "medium_turret_01"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_25"
     }
     component_slot = {
         name = "LARGE_GUN_26"
-        template = "large_turret"
-        locatorname = "medium_turret_02"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_26"
     }
     component_slot = {
         name = "LARGE_GUN_27"
-        template = "large_turret"
-        locatorname = "medium_turret_03"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_27"
     }
     component_slot = {
         name = "LARGE_GUN_28"
-        template = "large_turret"
-        locatorname = "medium_turret_04"
+        template = "xhk_worldark_large_turret"
+        locatorname = "large_28"
     }
     component_slot = {
         name = "LARGE_GUN_29"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_30"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_31"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_32"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_02"
     }
     component_slot = {
         name = "LARGE_GUN_33"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_34"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_35"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_36"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_37"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_38"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
     component_slot = {
         name = "LARGE_GUN_39"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_03"
     }
     component_slot = {
         name = "LARGE_GUN_40"
-        template = "large_turret"
+        template = "xhk_worldark_large_turret"
         locatorname = "medium_turret_04"
     }
 }

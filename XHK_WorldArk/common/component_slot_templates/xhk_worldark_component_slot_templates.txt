@@ -1,0 +1,8 @@
+xhk_worldark_large_turret = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "xhk_worldark_large_kinetic_gun_entity"
+		weapon_type_energy = "xhk_worldark_large_laser_gun_entity"
+	}
+}

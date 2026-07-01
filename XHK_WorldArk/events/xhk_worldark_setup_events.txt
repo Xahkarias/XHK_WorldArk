@@ -365,6 +365,7 @@ country_event = {
         # giga_set_all_leaders_homeworld = {
         #     planet = event_target:xhk_new_worldark_colony
         # }
+
         #init mission setup fix
         capital_scope = {
             if = {
@@ -421,6 +422,11 @@ country_event = {
 					zone = zone_urban
 				}
 			}
+		}
+
+		# graphical culture
+		event_target:xhk_new_worldark_ship = {
+			set_graphical_culture = military_arkship
 		}
 
         ################################################################################################################

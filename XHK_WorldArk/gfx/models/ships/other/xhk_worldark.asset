@@ -164,3 +164,25 @@ entity = {
 		emissive_recolor_crunch = 3.0
 	}
 }
+
+###############################################
+
+entity = {
+	name = "xhk_worldark_large_laser_gun_entity"
+	pdxmesh = "military_nomads_01_turret_large_mesh"
+
+	game_data = {
+		emissive_recolor_crunch = 3.0
+	}
+	scale = 1.5
+}
+
+entity = {
+	name = "xhk_worldark_large_kinetic_gun_entity"
+	pdxmesh = "military_nomads_01_turret_large_mesh"
+
+	game_data = {
+		emissive_recolor_crunch = 3.0
+	}
+	scale = 1.5
+}
