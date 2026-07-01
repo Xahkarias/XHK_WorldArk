@@ -6,6 +6,14 @@ defined_text = {
     }
     default = xhk_harvest_plus1
 }
+defined_text = {
+	name = xhk_worldark_getDistrictIncreaseFromHarvest_small
+	default = @xhk_worldark_harvest_size_small
+}
+defined_text = {
+	name = xhk_worldark_getDistrictIncreaseFromHarvest_large
+	value = @xhk_worldark_harvest_size_large
+}
 
 defined_text = {
     name = xhk_worldark_getPopulationDocumentation

@@ -1,9 +1,15 @@
+########################################################################################################
+##### PLANET STUFF ####
+########################################################################################################
 @xhk_district_base_cost = 150
 @xhk_base_buildtime = 360
 
 @xhk_growth_job_per_increase = 15
+@xhk_worldark_housing_per_district = 200
 
+########################################################################################################
 ##### SHIP STATS ####
+########################################################################################################
 @xhk_worldark_shipstat_modules_t1 = 4
 @xhk_worldark_shipstat_modules_t2 = 8
 @xhk_worldark_shipstat_modules_t3 = 12
@@ -149,7 +155,11 @@
 @xhk_worldark_shipstat_weaponbonus_t9 = 0.15
 @xhk_worldark_shipstat_weaponbonus_t10 = 0.2
 
-@xhk_worldark_harvest_cd = 540
 
+########################################################################################################
+##### SCRIPTED ACTIONS ####
+########################################################################################################
+@xhk_worldark_harvest_cd = 2160 # 6 yrs
+@xhk_worldark_harvest_size_small = 4
+@xhk_worldark_harvest_size_large = 8
 
-@xhk_worldark_housing_per_district = 200

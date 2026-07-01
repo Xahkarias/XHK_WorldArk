@@ -125,7 +125,7 @@
  xhk_worldark_docs_ship_levels_desc_T3_2: "\n$t$$t$Unlocks §GFirst $district_xhk_worldark_city$§! Specialization."
  xhk_worldark_docs_ship_levels_desc_T4: "\n§GT4§! - §YStarbase:§! 16 Modules / 16 Buildings / 0 Spinal | §YBase Districts:§! 22 | §YWeapons:§!  8H 20P 12L"
  xhk_worldark_docs_ship_levels_desc_T5: "\n§GT5§! - §YStarbase:§! 16 Modules / 20 Buildings / 0 Spinal | §YBase Districts:§! 26 | §YWeapons:§! 12H 24P 16L"
- xhk_worldark_docs_ship_levels_desc_T5_2: "\n$t$$t$Gains §GDouble£districtadd£Districts§! Increase when using §I$xhk_worldark_size_harvest$§!"
+ xhk_worldark_docs_ship_levels_desc_T5_2: "\n$t$$t$§I$xhk_worldark_size_harvest$§!: §GMax £districtadd£District Gain§! increases to §G+[xhk_worldark_getDistrictIncreaseFromHarvest_large]§!"
  xhk_worldark_docs_ship_levels_desc_T6: "\n§GT6§! - §YStarbase:§! 20 Modules / 24 Buildings / 0 Spinal | §YBase Districts:§! 30 | §YWeapons:§! 16H 28P 20L"
  xhk_worldark_docs_ship_levels_desc_T6_2: "\n$t$$t$Unlocks §GSecond $district_xhk_worldark_city$§! Specialization."
  xhk_worldark_docs_ship_levels_desc_T7: "\n§GT7§! - §YStarbase:§! 24 Modules / 28 Buildings / 0 Spinal | §YBase Districts:§! 34 | §YWeapons:§! 18H 30P 24L"

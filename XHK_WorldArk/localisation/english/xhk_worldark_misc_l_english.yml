@@ -41,5 +41,5 @@
  XHK_TECH_UPGRADE_WORLDARK_9_TITLE: "$xhk_tech_worldark_9_desc$"
  XHK_TECH_UPGRADE_WORLDARK_10_TITLE: "$xhk_tech_worldark_10_desc$"
 
- xhk_harvest_plus1: "§G+1§!"
- xhk_harvest_plus2: "§G+2§!"
+ xhk_harvest_plus1: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_small]§!"
+ xhk_harvest_plus2: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_large]§!"

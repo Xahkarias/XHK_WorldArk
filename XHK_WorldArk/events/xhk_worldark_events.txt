@@ -20,19 +20,24 @@ carrier_event = {
                 event_target:arkship.colony = {
                     change_variable = {
                         which = xhk_worldark_expansions
-                        value = 2
+                        value = @xhk_worldark_harvest_size_large
                     }
-                    add_deposit = d_xhk_worldark_harvest_size
-                    add_deposit = d_xhk_worldark_harvest_size
+					while = {
+						count = @xhk_worldark_harvest_size_large
+						add_deposit = d_xhk_worldark_harvest_size
+					}
                 }
             }
             else = {
                 event_target:arkship.colony = {
                     change_variable = {
                         which = xhk_worldark_expansions
-                        value = 1
+                        value = @xhk_worldark_harvest_size_small
                     }
-                    add_deposit = d_xhk_worldark_harvest_size
+					while = {
+						count = @xhk_worldark_harvest_size_small
+						add_deposit = d_xhk_worldark_harvest_size
+					}
                 }
             }
             event_target:arkship.fleet = {
