@@ -114,4 +114,11 @@ spriteTypes = {
 		name = "GFX_xhk_worldark_pk_world_cracker"
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_pk_world_cracker.dds"
 	}
+
+	####################################################################################################################
+	# BACKDROP
+	spriteType = {
+		name = "GFX_xhk_worldark_arkship_blueprint"
+		texturefile = "gfx/interface/planetview/arkship_blueprints/xhk_worldark_arkship_blueprint.dds"
+	}
 }

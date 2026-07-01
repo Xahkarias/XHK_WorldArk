@@ -12,7 +12,7 @@ starbase_level_xhk_worldark_tier_1 = {
         TIER = 1
         TIER_NEXT = 2
     }
-    picture = "GFX_arkship_blueprint_military_tier_1"
+    picture = "GFX_xhk_worldark_arkship_blueprint"
     module_slots = { 1 2 3 4 }
     building_slots = { 1 2 3 4 }
 }
@@ -23,7 +23,7 @@ starbase_level_xhk_worldark_tier_2 = {
         TIER = 2
         TIER_NEXT = 3
     }
-    picture = "GFX_arkship_blueprint_military_tier_1"
+    picture = "GFX_xhk_worldark_arkship_blueprint"
     module_slots = {
         1 2 3 4 5 6 7 8
     }
@@ -36,7 +36,7 @@ starbase_level_xhk_worldark_tier_3 = {
         TIER = 3
         TIER_NEXT = 4
     }
-    picture = "GFX_arkship_blueprint_military_tier_2"
+    picture = "GFX_xhk_worldark_arkship_blueprint"
     module_slots = {
         1 2 3 4 5 6 7 8 9 10 11 12
     }
@@ -51,7 +51,7 @@ starbase_level_xhk_worldark_tier_4 = {
         TIER = 4
         TIER_NEXT = 5
     }
-    picture = "GFX_arkship_blueprint_military_tier_2"
+    picture = "GFX_xhk_worldark_arkship_blueprint"
     module_slots = {
         1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
     }
@@ -66,7 +66,7 @@ starbase_level_xhk_worldark_tier_5 = {
         TIER = 5
         TIER_NEXT = 6
     }
-    picture = "GFX_arkship_blueprint_military_tier_2"
+    picture = "GFX_xhk_worldark_arkship_blueprint"
     module_slots = {
         1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
     }
@@ -81,7 +81,7 @@ starbase_level_xhk_worldark_tier_6 = {
         TIER = 6
         TIER_NEXT = 7
     }
-    picture = "GFX_arkship_blueprint_military_tier_2"
+    picture = "GFX_xhk_worldark_arkship_blueprint"
     module_slots = {
         1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
     }
@@ -97,7 +97,7 @@ starbase_level_xhk_worldark_tier_7 = {
         TIER = 7
         TIER_NEXT = 8
     }
-    picture = "GFX_arkship_blueprint_military_tier_3"
+    picture = "GFX_xhk_worldark_arkship_blueprint"
     module_slots = {
         1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
     }
@@ -113,7 +113,7 @@ starbase_level_xhk_worldark_tier_8 = {
         TIER = 8
         TIER_NEXT = 9
     }
-    picture = "GFX_arkship_blueprint_military_tier_3"
+    picture = "GFX_xhk_worldark_arkship_blueprint"
     module_slots = {
         1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
         spinal_mount_1 spinal_mount_1
@@ -130,7 +130,7 @@ starbase_level_xhk_worldark_tier_9 = {
         TIER = 9
         TIER_NEXT = 10
     }
-    picture = "GFX_arkship_blueprint_military_tier_3"
+    picture = "GFX_xhk_worldark_arkship_blueprint"
     module_slots = {
         1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
         spinal_mount_1 spinal_mount_1 spinal_mount_1 spinal_mount_1
@@ -148,7 +148,7 @@ starbase_level_xhk_worldark_tier_10 = {
         script = xhk_worldark/starbase_levels/starbase_definition_no_next
         TIER = 10
     }
-    picture = "GFX_arkship_blueprint_military_tier_3"
+    picture = "GFX_xhk_worldark_arkship_blueprint"
     module_slots = {
         1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
         spinal_mount_1 spinal_mount_1 spinal_mount_1 spinal_mount_1 spinal_mount_1 spinal_mount_1
