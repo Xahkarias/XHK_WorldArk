@@ -1,4 +1,14 @@
 triggered_name = {
+	trigger = {
+		exists = owner
+		owner = {
+			is_spiritualist = yes
+			is_death_cult_empire = yes
+		}
+	}
+	text = building_sacrificial_temple_1
+}
+triggered_name = {
     trigger = {
         exists = owner
         owner = {

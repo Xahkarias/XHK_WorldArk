@@ -140,17 +140,22 @@
  xhk_worldark_docs_special_civic_desc: "$xhk_worldark_docs_special_civic_desc_1$\n$xhk_worldark_docs_special_civic_desc_dystopia$[Owner.xhk_worldark_getCivicDocumentation]"
  xhk_worldark_docs_special_civic_desc_1: "The $xhk_pc_worldark$ has special integration with specific civics to better fit their fantasy and compensate for the one-planet playstyle."
 
- xhk_worldark_docs_special_civic_desc_norm: "\n§3Individualist Empire§!:$xhk_worldark_docs_special_civic_desc_norm_dystopia$$xhk_worldark_docs_special_civic_desc_norm_vampire$$xhk_worldark_docs_special_civic_desc_norm_tankbound$"
- xhk_worldark_docs_special_civic_desc_norm_dystopia: "\n§1$civic_dystopian_society$§!: $district_xhk_worldark_amenities_plural$ give $job_politician_plural$ instead of $job_entertainer_plural$, and are capped based on population."
+ xhk_worldark_docs_special_civic_desc_norm: "\n§3Individualist Empire§!:$xhk_worldark_docs_special_civic_desc_norm_dystopia$$xhk_worldark_docs_special_civic_desc_norm_vampire$$xhk_worldark_docs_special_civic_desc_norm_tankbound$$xhk_worldark_docs_special_civic_desc_norm_death$$xhk_worldark_docs_special_civic_desc_norm_experiment$"
+ xhk_worldark_docs_special_civic_desc_norm_dystopia: "\n§1$civic_dystopian_society$§!: §Y$district_xhk_worldark_amenities_plural$§! give §G$job_politician_plural$§! instead of §G$job_entertainer_plural$§!, and are §Rcapped based on population§!."
  xhk_worldark_docs_special_civic_desc_norm_vampire: "\n§1$civic_entropy_drinkers$§!: $xhk_worldark_special_civic_doc_vampire_norm$"
  xhk_worldark_docs_special_civic_desc_norm_tankbound: "\n§1$civic_tankbound$§!: $xhk_worldark_special_civic_doc_tankbound$"
+ xhk_worldark_docs_special_civic_desc_norm_death: "\n§1$civic_death_cult$§!: Each §Y$district_xhk_worldark_unity_spiritualist$§! grants §G50 $job_mortal_initiate_plural$§! if a building that grants them is present."
+ xhk_worldark_docs_special_civic_desc_norm_experiment: "\n§1$civic_twisted_experimenters$§!: Each §Y$district_xhk_worldark_research$§! grants §G25 $job_experiment_engineer_plural$§! and §G25 $job_test_subject_plural$§! if a building that grants them is present."
 
- xhk_worldark_docs_special_civic_desc_corp: "\n§3Megacorp Empire§!:$xhk_worldark_docs_special_civic_desc_corp_vampire$$xhk_worldark_docs_special_civic_desc_corp_tankbound$"
+ xhk_worldark_docs_special_civic_desc_corp: "\n§3Megacorp Empire§!:$xhk_worldark_docs_special_civic_desc_corp_vampire$$xhk_worldark_docs_special_civic_desc_corp_tankbound$$xhk_worldark_docs_special_civic_desc_corp_death$$xhk_worldark_docs_special_civic_desc_corp_experiment$"
  xhk_worldark_docs_special_civic_desc_corp_vampire: "\n§1$civic_entropy_drinkers_corporate$§!: $xhk_worldark_special_civic_doc_vampire_norm$"
  xhk_worldark_docs_special_civic_desc_corp_tankbound: "\n§1$civic_tankbound_corporate$§!: $xhk_worldark_special_civic_doc_tankbound$"
+ xhk_worldark_docs_special_civic_desc_corp_death: "\n§1$civic_death_cult_corporate$§!: Each §Y$district_xhk_worldark_unity_spiritualist$§! grants §G50 $job_mortal_initiate_plural$§! if a building that grants them is present."
+ xhk_worldark_docs_special_civic_desc_corp_experiment: "\n§1$civic_twisted_experimenters_corporate$§!: Each §Y$district_xhk_worldark_research$§! grants §G25 $job_experiment_engineer_plural$§! and §G25 $job_test_subject_plural$§! if a building that grants them is present."
 
- xhk_worldark_docs_special_civic_desc_hive: "\n§3Gestalt Hive Empire§!:$xhk_worldark_docs_special_civic_desc_hive_vampire$"
+ xhk_worldark_docs_special_civic_desc_hive: "\n§3Gestalt Hive Empire§!:$xhk_worldark_docs_special_civic_desc_hive_vampire$$xhk_worldark_docs_special_civic_desc_hive_experiment$"
  xhk_worldark_docs_special_civic_desc_hive_vampire: "\n§1$civic_entropy_drinkers_hive_mind$§!: $xhk_worldark_special_civic_doc_vampire_gest$"
+ xhk_worldark_docs_special_civic_desc_hive_experiment: "\n§1$civic_twisted_experimenters_hive_mind$§!: Each §Y$district_xhk_worldark_research$§! grants §G25 $job_experiment_engineer_drone_plural$§! and §G25 $job_test_subject_drone_plural$§! if a building that grants them is present."
 
  xhk_worldark_docs_special_civic_desc_machine: "\n§3Gestalt Machine Empire§!:$xhk_worldark_docs_special_civic_desc_machine_vampire$"
  xhk_worldark_docs_special_civic_desc_machine_vampire: "\n§1$civic_entropy_drinkers_machine$§!: $xhk_worldark_special_civic_doc_vampire_gest$"
@@ -158,7 +163,7 @@
  # auxilary
  xhk_worldark_special_civic_doc_vampire_norm: "Gain §G1/3 $job_energy_thrall_plural$§! per growth job. This is additive to any other growth jobs."
  xhk_worldark_special_civic_doc_vampire_gest: "Gain §G1/3 $job_drone_energy_thrall_plural$§! per growth job. This is additive to any other growth jobs."
- xhk_worldark_special_civic_doc_tankbound: "Urban districts provide §G200 $job_production_overseer_plural$§!."
+ xhk_worldark_special_civic_doc_tankbound: "§Y$district_xhk_worldark_city$§! provide §G200 $job_production_overseer_plural$§!."
 
  ####################
  # MEGAS

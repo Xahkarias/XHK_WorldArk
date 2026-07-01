@@ -1,4 +1,18 @@
 triggered_name = {
+	trigger = {
+		owner = {
+			is_twisted_experimenters_empire = yes
+		}
+		OR = {
+			has_building = building_experimentation_chambers_1
+			has_building = building_experimentation_chambers_2
+			has_building = building_experimentation_chambers_3
+		}
+	}
+	text = building_experimentation_chambers_1
+}
+
+triggered_name = {
     trigger = {
         owner = {
             is_hive_empire = yes
