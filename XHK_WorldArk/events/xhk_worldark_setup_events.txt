@@ -410,6 +410,19 @@ country_event = {
             }
         }
 
+		# remove zone if its there
+		capital_scope = {
+			if = {
+				limit = {
+					has_zone = { zone = zone_urban }
+				}
+				remove_zone = {
+					district = district_xhk_worldark_city
+					zone = zone_urban
+				}
+			}
+		}
+
         ################################################################################################################
         # setup docs
         ################################################################################################################
