@@ -6,3 +6,12 @@ xhk_worldark_large_turret = {
 		weapon_type_energy = "xhk_worldark_large_laser_gun_entity"
 	}
 }
+
+xhk_worldark_pd_turret = {
+	size = point_defence
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "xhk_worldark_turret_point_defence_entity"
+		weapon_type_energy = "xhk_worldark_turret_point_defence_entity"
+	}
+}

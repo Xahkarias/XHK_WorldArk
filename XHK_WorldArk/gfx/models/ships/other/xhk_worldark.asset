@@ -186,3 +186,13 @@ entity = {
 	}
 	scale = 1.5
 }
+
+entity = {
+	name = "xhk_worldark_turret_point_defence_entity"
+	pdxmesh = "military_nomads_01_pd_turret_mesh"
+
+	game_data = {
+		emissive_recolor_crunch = 3.0
+	}
+	scale = 2
+}
