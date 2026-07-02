@@ -26,7 +26,7 @@ xhk_tech_worldark_2 = {
         TIER = 2
     }
 
-    weight = 500
+    weight = 150
     modifier = {
         nomadic_constructor_limit_add = 1
     }
@@ -40,7 +40,7 @@ xhk_tech_worldark_3 = {
     tier = 2
     cost = @tier2cost3
 
-    weight = 400
+    weight = 130
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
         TIER = 3
@@ -55,7 +55,7 @@ xhk_tech_worldark_4 = {
     tier = 3
     cost = @tier3cost1
 
-    weight = 300
+    weight = 80
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
         TIER = 4
@@ -74,7 +74,7 @@ xhk_tech_worldark_5 = {
     tier = 3
     cost = @tier3cost2
 
-    weight = 300
+    weight = 60
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
         TIER = 5
@@ -89,7 +89,7 @@ xhk_tech_worldark_6 = {
     tier = 4
     cost = @tier4cost1
 
-    weight = 300
+    weight = 50
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
         TIER = 6
@@ -108,12 +108,12 @@ xhk_tech_worldark_7 = {
     tier = 5
     cost = @tier5cost1
 
+	weight = 50
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
         TIER = 7
     }
 
-    weight = 200
     prerequisites = { "xhk_tech_worldark_6" }
 }
 
@@ -123,7 +123,7 @@ xhk_tech_worldark_8 = {
     tier = 5
     cost = @tier5cost2
 
-    weight = 200
+    weight = 45
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
         TIER = 8
@@ -142,7 +142,7 @@ xhk_tech_worldark_9 = {
     tier = 5
     cost = @tier5cost3
 
-    weight = 200
+    weight = 40
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
         TIER = 9
@@ -157,7 +157,7 @@ xhk_tech_worldark_10 = {
     tier = 5
     cost = @tier5cost3
 
-    weight = 100
+    weight = 35
     inline_script = {
         script = xhk_worldark/technology/tech_ship_definition
         TIER = 10
@@ -176,11 +176,18 @@ xhk_tech_worldark_11 = {
 	tier = 5
 	cost = 50000
 
-	weight = 100
+	weight = 30
 	inline_script = {
 		script = xhk_worldark/technology/tech_ship_definition
 		TIER = 11
 	}
 
 	prerequisites = { "xhk_tech_worldark_10" }
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}
+	}
 }
