@@ -46,6 +46,31 @@ d_xhk_worldark_base = {
 	}
 }
 
+
+# note to self
+# clone vats give 1.5 or 3
+# spawn pools give 2
+# machine gets 1 or 2
+# indivmach gets 2 or 4
+
+# ok here's growth balancing
+# every district gives +15 jobs
+
+
+# hive = 1 spawning drone (0.02)
+	# 0.33 augmentor if cybernetic
+# machine = 1.5 replicator (0.015)
+	# 0.33 augmentor if cybernetic
+# biological indiv = 0.01 growth
+	# 0.25 roboticist if robot assembly (0.005)
+	# 0.01 if cloning facility
+	# 0.005 if cloning ascension
+# invid machine = 0.75 roboticists (0.015)
+
+# extra stuff:
+	# gets 0.25 reassigner if zombie
+	# gets 0.33 thralls if vampire
+
 d_xhk_worldark_pop_standard = {
     is_for_colonizable = yes
     icon = d_frameworld_core
@@ -58,22 +83,41 @@ d_xhk_worldark_pop_standard = {
     ################### INDIVID EMPIRE ######################
 
     # basic chud
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_regular_empire = yes
-                xhk_has_worldark_origin = yes
-                is_synthetic_empire = no
-                is_individual_machine = no
-            }
-        }
-        job_healthcare_add = 1
-        multiplier = modifier:xhk_worldark_growth_job_add
-    }
+	triggered_planet_pop_group_modifier_for_all = {
+		potential = {
+			exists = planet
+			planet = {
+				exists = owner
+				owner = {
+					is_regular_empire = yes
+					xhk_has_worldark_origin = yes
+					is_synthetic_empire = no
+					is_individual_machine = no
+				}
+				# added stop if population controls
+				NOT = { has_modifier = planet_population_control }
+			}
+		}
+		bonus_pop_growth = 0.01
+		multiplier = modifier:xhk_worldark_growth_job_add
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				xhk_has_worldark_origin = yes
+				is_synthetic_empire = no
+				is_individual_machine = no
+			}
+			# added stop if population controls
+			NOT = { has_modifier = planet_population_control }
+		}
+		fake_pop_growth_mod = 0.01
+		multiplier = modifier:xhk_worldark_growth_job_add
+	}
 
     # basic with robots
-    # replaces half of the healthcare jobs
     triggered_planet_modifier = {
         potential = {
             exists = owner
@@ -85,8 +129,7 @@ d_xhk_worldark_pop_standard = {
             }
             xhk_worldark_has_robot_assembly_facilities = yes
         }
-        job_healthcare_add = -0.5
-        job_roboticist_add = 0.5
+        job_roboticist_add = 0.25
         multiplier = modifier:xhk_worldark_growth_job_add
     }
 
@@ -107,7 +150,7 @@ d_xhk_worldark_pop_standard = {
                 NOT = { has_modifier = planet_population_control }
             }
         }
-        bonus_pop_growth = 0.0075
+        bonus_pop_growth = 0.01
         multiplier = modifier:xhk_worldark_growth_job_add
     }
     triggered_planet_modifier = {
@@ -123,21 +166,7 @@ d_xhk_worldark_pop_standard = {
             # added stop if population controls
             NOT = { has_modifier = planet_population_control }
         }
-        fake_pop_growth_mod = 0.0075
-        multiplier = modifier:xhk_worldark_growth_job_add
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_regular_empire = yes
-                xhk_has_worldark_origin = yes
-                is_individual_machine = no
-                is_synthetic_empire = no
-            }
-            xhk_worldark_has_cloning_assembly_facilities = yes
-        }
-        job_healthcare_add = -0.5
+        fake_pop_growth_mod = 0.01
         multiplier = modifier:xhk_worldark_growth_job_add
     }
 
@@ -159,7 +188,7 @@ d_xhk_worldark_pop_standard = {
                 NOT = { has_modifier = planet_population_control }
             }
         }
-        bonus_pop_growth = 0.0075
+        bonus_pop_growth = 0.005
         multiplier = modifier:xhk_worldark_growth_job_add
     }
     triggered_planet_modifier = {
@@ -176,7 +205,7 @@ d_xhk_worldark_pop_standard = {
             # added stop if population controls
             NOT = { has_modifier = planet_population_control }
         }
-        fake_pop_growth_mod = 0.0075
+        fake_pop_growth_mod = 0.005
         multiplier = modifier:xhk_worldark_growth_job_add
     }
 
@@ -192,7 +221,7 @@ d_xhk_worldark_pop_standard = {
                 is_synthetic_empire = yes
             }
         }
-        job_roboticist_add = 1
+        job_roboticist_add = 0.75
         multiplier = modifier:xhk_worldark_growth_job_add
     }
 
@@ -245,7 +274,6 @@ d_xhk_worldark_pop_hive = {
     }
 
     # cybernetic hive
-    # replaces half of the healthcare jobs
     triggered_planet_modifier = {
         potential = {
             exists = owner
@@ -255,8 +283,7 @@ d_xhk_worldark_pop_hive = {
                 is_cyborg_empire = yes
             }
         }
-        job_spawning_drone_add = -0.5
-        job_augmentor_drone_add = 0.5
+        job_augmentor_drone_add = 0.334
         multiplier = modifier:xhk_worldark_growth_job_add
     }
 
@@ -288,12 +315,11 @@ d_xhk_worldark_pop_machine = {
                 xhk_has_worldark_origin = yes
             }
         }
-        job_replicator_add = 1
+        job_replicator_add = 1.5
         multiplier = modifier:xhk_worldark_growth_job_add
     }
 
-    # cybernetic hive
-    # replaces half of the healthcare jobs
+    # cyber ascension
     triggered_planet_modifier = {
         potential = {
             exists = owner
@@ -304,8 +330,7 @@ d_xhk_worldark_pop_machine = {
                 has_tradition = tr_cybernetics_assimilator_augmentation_centers
             }
         }
-        job_replicator_add = -0.5
-        job_augmentor_drone_add = 0.5
+        job_augmentor_drone_add = 0.334
         multiplier = modifier:xhk_worldark_growth_job_add
     }
 

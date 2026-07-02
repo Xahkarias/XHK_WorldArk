@@ -43,31 +43,29 @@
  xhk_worldark_docs_population_desc_2: "\n\nPer £district£district increase, §G+15 Pop Growth§! jobs are added, which are then turned into actual jobs / buffs based on your empire and the buildings."
 
  xhk_worldark_docs_population_desc_norm: "$xhk_worldark_docs_population_desc_norm_1$$xhk_worldark_docs_population_desc_norm_2$$xhk_worldark_docs_population_desc_norm_3$$xhk_worldark_docs_population_desc_norm_4$$xhk_worldark_docs_population_desc_norm_5$$xhk_worldark_docs_population_desc_norm_6$"
- xhk_worldark_docs_population_desc_norm_1: "\n§3Individualist Biological Empire§!: Base of §G1 $job_healthcare$§! per Growth Job."
- xhk_worldark_docs_population_desc_norm_2: "$TABBED_NEW_LINE$- Any §IRobot Assembly§! Building: Loses half $job_healthcare_plural$, replaces with §G$job_roboticist_plural$§!."
- xhk_worldark_docs_population_desc_norm_3: "$TABBED_NEW_LINE$- §IClone Vat§! Building: Loses half $job_healthcare_plural$, replaces with §G+0.0075 Organic Pop Growth§! per job."
- xhk_worldark_docs_population_desc_norm_4: "\n$t$$t$§ICloning Tradition§! tree doubles this §GMonthly Organic Pop Growth§!."
- xhk_worldark_docs_population_desc_norm_5: "$TABBED_NEW_LINE$- Completed §ISynthetic Ascension§!: Swap all above effects to §G1 $job_roboticist_plural$§! per Growth Job."
- xhk_worldark_docs_population_desc_norm_6: "$TABBED_NEW_LINE$- Any §IZombie Assembly§! Building: Adds §G0.25 $job_reassigner_plural$§! per Growth Job, stacks with any above effect."
+ xhk_worldark_docs_population_desc_norm_1: "\n§3Individualist Biological Empire§!: Base of §G+1 $mod_fake_pop_growth_mod$§! per 100 Pop Growth Jobs. Below lines add extra effects."
+ xhk_worldark_docs_population_desc_norm_2: "$TABBED_NEW_LINE$- Any §IRobot Assembly§! Building: §G+25 $job_roboticist_plural$§! per 100 Pop Growth Jobs."
+ xhk_worldark_docs_population_desc_norm_3: "$TABBED_NEW_LINE$- §IClone Vat§! Building: §G+1 $mod_fake_pop_growth_mod$§! per 100 Pop Growth Jobs."
+ xhk_worldark_docs_population_desc_norm_4: "$TABBED_NEW_LINE$- Has §ICloning Tradition§!: §G+0.5 $mod_fake_pop_growth_mod$§! per 100 Pop Growth Jobs."
+ xhk_worldark_docs_population_desc_norm_5: "$TABBED_NEW_LINE$- Completed §ISynthetic Ascension§!: Replace all above effects to §G+75 $job_roboticist_plural$§! per 100 Pop Growth Jobs."
+ xhk_worldark_docs_population_desc_norm_6: "$TABBED_NEW_LINE$- Any §IZombie Assembly§! Building: §G+25 $job_reassigner_plural$§! per 100 Pop Growth Jobs."
 
  xhk_worldark_docs_population_desc_hive: "$xhk_worldark_docs_population_desc_hive_1$$xhk_worldark_docs_population_desc_hive_2$"
- xhk_worldark_docs_population_desc_hive_1: "\n§3Gestalt Hive Empire§!: Base of §G1 $job_spawning_drone$§! per Growth Job."
- xhk_worldark_docs_population_desc_hive_2: "$TABBED_NEW_LINE$- Completed §ICybernetic Ascension§!: Loses half $job_spawning_drone_plural$, replaces with §G$job_augmentor_drone_plural$§!."
+ xhk_worldark_docs_population_desc_hive_1: "\n§3Gestalt Hive Empire§!: Base of §G+100 $job_spawning_drone_plural$§! per 100 Pop Growth Jobs. Below lines add extra effects."
+ xhk_worldark_docs_population_desc_hive_2: "$TABBED_NEW_LINE$- Completed §ICybernetic Ascension§!: §G+33 $job_augmentor_drone_plural$§! per 100 Pop Growth Jobs!."
 
  xhk_worldark_docs_population_desc_machine: "$xhk_worldark_docs_population_desc_machine_1$$xhk_worldark_docs_population_desc_machine_2$"
- xhk_worldark_docs_population_desc_machine_1: "\n§3Gestalt Machine Empire§!: Base of §G1 $job_replicator$§! per Growth Job."
- xhk_worldark_docs_population_desc_machine_2: "$TABBED_NEW_LINE$- Completed §ICybernetic Ascension§!: Loses half $job_replicator_plural$, replaces with §G$job_augmentor_drone_plural$§!."
+ xhk_worldark_docs_population_desc_machine_1: "\n§3Gestalt Machine Empire§!: Base of §G+150 $job_replicator_plural$§! per 100 Pop Growth Jobs. Below lines add extra effects."
+ xhk_worldark_docs_population_desc_machine_2: "$TABBED_NEW_LINE$- Completed §ICybernetic Ascension§!: §G+33 $job_augmentor_drone_plural$§! per 100 Pop Growth Jobs!."
 
- xhk_worldark_docs_population_desc_indiv_machine: "$xhk_worldark_docs_population_desc_indiv_machine_1$$xhk_worldark_docs_population_desc_indiv_machine_2$"
- xhk_worldark_docs_population_desc_indiv_machine_1: "\n§3Individualist Machine Empire§!: Base of §G1 $job_roboticist$§! per Growth Job."
- xhk_worldark_docs_population_desc_indiv_machine_2: "$TABBED_NEW_LINE$- §IClone Vat§! Building: Loses a third of $job_roboticist_plural$, replaces with §G+0.005 Organic Pop Growth§! per job."
+ xhk_worldark_docs_population_desc_indiv_machine: "$xhk_worldark_docs_population_desc_indiv_machine_1$"
+ xhk_worldark_docs_population_desc_indiv_machine_1: "\n§3Individualist Machine Empire§!: Base of §G+75 $job_roboticist_plural$§! per 100 Pop Growth Jobs."
 
  ####################
  # DISTRICTS + ZONES
  xhk_worldark_docs_districts: "3) Districts and Zones"
  xhk_worldark_docs_districts_desc: "$xhk_worldark_docs_districts_desc_1$$xhk_worldark_docs_districts_desc_group_city$$xhk_worldark_docs_districts_desc_group_manufactured$$xhk_worldark_docs_districts_desc_group_intellectual$$xhk_worldark_docs_districts_desc_group_warfare$$xhk_worldark_docs_districts_desc_group_strategicresource$$xhk_worldark_docs_districts_desc_group_utility$"
  xhk_worldark_docs_districts_desc_1: "The $xhk_pc_worldark$ contains many different districts and zones. Note that almost all districts are housing negative. Which ones are available to your empire are listed below (ignoring tech restrictions):\n"
-
 
  xhk_worldark_docs_districts_desc_group_city: "$xhk_worldark_docs_districts_desc_group_city_header$$xhk_worldark_docs_districts_desc_city$"
  xhk_worldark_docs_districts_desc_group_city_header: "\n§l------HOUSING--------------------------------------------§!"
@@ -162,9 +160,9 @@
  xhk_worldark_docs_special_civic_desc_machine_vampire: "\n§1$civic_entropy_drinkers_machine$§!: $xhk_worldark_special_civic_doc_vampire_gest$"
 
  # auxilary
- xhk_worldark_special_civic_doc_vampire_norm: "Gain §G1/3 $job_energy_thrall_plural$§! per growth job. This is additive to any other growth jobs."
- xhk_worldark_special_civic_doc_vampire_gest: "Gain §G1/3 $job_drone_energy_thrall_plural$§! per growth job. This is additive to any other growth jobs."
- xhk_worldark_special_civic_doc_tankbound: "§Y$district_xhk_worldark_city$§! provide §G200 $job_production_overseer_plural$§!."
+ xhk_worldark_special_civic_doc_vampire_norm: "§G+33 $job_energy_thrall_plural$§! per 100 Pop Growth Jobs. This is additive to any other growth jobs."
+ xhk_worldark_special_civic_doc_vampire_gest: "§G+33 $job_drone_energy_thrall_plural$§! per 100 Pop Growth Jobs. This is additive to any other growth jobs.."
+ xhk_worldark_special_civic_doc_tankbound: "§Y$district_xhk_worldark_city$§! each provide §G200 $job_production_overseer_plural$§!."
 
  ####################
  # MEGAS
