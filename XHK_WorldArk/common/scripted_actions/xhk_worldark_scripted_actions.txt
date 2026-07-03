@@ -2,6 +2,14 @@ xhk_worldark_size_harvest = {
     user_scope = fleet
     scope = planet
 
+	automation = {
+		priority	= 2
+		default_on	= yes
+		tooltip		= xhk_worldark_size_harvest_automate_tt
+		options = {
+			inline_script = scripted_actions/harvest_automation_options
+		}
+	}
     automation_priority = 2
     automation_default_on = yes
     on_completed = xhk_on_size_harvest
