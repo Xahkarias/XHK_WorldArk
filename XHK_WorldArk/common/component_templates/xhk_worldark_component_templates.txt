@@ -5,7 +5,7 @@ weapon_component_template = {
     prio_projectile = yes
     hidden = yes
 
-    icon = "GFX_ship_part_arkship_devastator"
+    icon = "GFX_xhk_worldark_arkship_hunter"
     icon_frame = 1
 
     potential = {
@@ -29,8 +29,8 @@ weapon_component_template = {
     }
 
     damage = {
-        min = 3000
-        max = 7000
+        min = 5000
+        max = 8000
     }
     windup = {
         min = 50
@@ -51,7 +51,7 @@ weapon_component_template = {
 
     tags = { weapon_type_kinetic weapon_role_artillery t_slot }
     component_set = "XHK_ARKSHIP_HUNTER_WEAPON"
-    projectile_gfx = "arkship_01_devastator_laser"
+    projectile_gfx = "xhk_worldark_ukonvasara"
 }
 
 # COLOSSUS

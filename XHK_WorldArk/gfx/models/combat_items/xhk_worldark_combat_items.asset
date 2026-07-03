@@ -1,0 +1,34 @@
+entity = {
+	name = "xhk_worldark_ukonvasara_artillery_entity"
+
+	default_state = idle
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "living_metal_kinetic_artillery_idle_effect" keep_particle = yes }
+	}
+
+	scale = 15
+}
+
+entity = {
+	name = "xhk_worldark_ukonvasara_artillery_hit_entity"
+	cull_radius = 1.0
+
+	state = { name = "explode_med_hp" state_time = 5.0 looping = no
+		event = { time = 0.0 particle = "living_metal_kinetic_artillery_hit_effect" sound = { soundeffect = adv_kinectic_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_adv_kinectic_hit" } }
+	}
+	default_state = "explode_med_hp"
+	scale = 10
+}
+entity = {
+	name = "xhk_worldark_ukonvasara_artillery_shield_hit_entity"
+	cull_radius = 1.0
+
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 particle = "living_metal_kinetic_artillery_hit_effect" }
+		event = { time = 0.0 particle = "projectile_large_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } }
+	}
+	default_state = "explode_med_hp"
+	scale = 10
+}

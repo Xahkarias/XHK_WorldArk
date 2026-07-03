@@ -1,3 +1,5 @@
+## MODEL
+
 entity = {
 	name = "xhk_worldark_entity"
 	pdxmesh = "xhk_worldark_frame_mesh"
@@ -166,6 +168,7 @@ entity = {
 }
 
 ###############################################
+# TURRETS
 
 entity = {
 	name = "xhk_worldark_large_laser_gun_entity"

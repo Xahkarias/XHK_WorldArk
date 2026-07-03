@@ -1,6 +1,6 @@
 # SPINAL CANNON
 xhk_worldark_spinal_hunter_cannon = {
-    icon = "GFX_arkship_spinal_devastator_mount"
+    icon = "GFX_xhk_worldark_arkship_hunter_mount"
     section = "ARKSHIP_SPINAL_HUNTER"
     construction_days = @arkship_spinal_mount_build_time
     starbase_type = arkship

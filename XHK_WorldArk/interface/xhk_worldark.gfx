@@ -109,10 +109,21 @@ spriteTypes = {
 	}
 
 	####################################################################################################################
+	# WEAPONS
+	spriteType = {
+		name = "GFX_xhk_worldark_arkship_hunter"
+		texturefile = "gfx/interface/icons/ship_parts/nomads/xhk_ship_part_arkship_hunter.dds"
+	}
+
+	####################################################################################################################
 	# STARBASE ICONS
 	spriteType = {
 		name = "GFX_xhk_worldark_pk_world_cracker"
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_pk_world_cracker.dds"
+	}
+	spriteType = {
+		name = "GFX_xhk_worldark_arkship_hunter_mount"
+		texturefile = "gfx/interface/icons/modules/xhk_worldark_arkship_hunter_mount.dds"
 	}
 
 	####################################################################################################################
