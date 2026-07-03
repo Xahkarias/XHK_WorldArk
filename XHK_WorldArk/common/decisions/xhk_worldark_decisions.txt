@@ -16,7 +16,7 @@ xhk_worldark_add_logistics_ship = {
         category = decisions
         cost = {
             influence = 500
-            alloys = 200
+            alloys = 2000
         }
     }
 
