@@ -167,6 +167,11 @@ entity = {
 	}
 }
 
+animation = {
+	name = "xhk_worldark_idle_animation"
+	file = "xhk_worldark_idle.anim"
+}
+
 ###############################################
 # TURRETS
 
