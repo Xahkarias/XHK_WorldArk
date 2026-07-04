@@ -83,6 +83,18 @@ d_xhk_worldark_base = {
 		arkship_harvest_resources_produces_mult = 0.05
 		multiplier = xhk_worldark_civilian_upgrade_level
 	}
+
+	# logistic
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				xhk_has_worldark_origin = yes
+			}
+		}
+		ship_starbase_stockpile_collection_rate_add = 200
+		multiplier = xhk_worldark_logistics
+	}
 }
 
 

@@ -37,14 +37,14 @@
 @xhk_worldark_shipstat_collection_t1 = 250
 @xhk_worldark_shipstat_collection_t2 = 500
 @xhk_worldark_shipstat_collection_t3 = 1000
-@xhk_worldark_shipstat_collection_t4 = 1500
-@xhk_worldark_shipstat_collection_t5 = 2000
-@xhk_worldark_shipstat_collection_t6 = 2500
-@xhk_worldark_shipstat_collection_t7 = 3000
-@xhk_worldark_shipstat_collection_t8 = 3500
-@xhk_worldark_shipstat_collection_t9 = 4000
-@xhk_worldark_shipstat_collection_t10 = 5000
-@xhk_worldark_shipstat_collection_t11 = 7000
+@xhk_worldark_shipstat_collection_t4 = 1250
+@xhk_worldark_shipstat_collection_t5 = 1500
+@xhk_worldark_shipstat_collection_t6 = 1750
+@xhk_worldark_shipstat_collection_t7 = 2000
+@xhk_worldark_shipstat_collection_t8 = 2250
+@xhk_worldark_shipstat_collection_t9 = 2500
+@xhk_worldark_shipstat_collection_t10 = 3000
+@xhk_worldark_shipstat_collection_t11 = 3500
 
 @xhk_worldark_shipstat_hp_t1 = 2500
 @xhk_worldark_shipstat_hp_t2 = 5000
