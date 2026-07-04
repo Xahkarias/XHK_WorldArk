@@ -138,7 +138,7 @@ zone_xhk_worldark_waylogi = {
     }
 
     show_in_tech = tech_waystation_2
-    show_tech_unlock_if = { is_nomadic = yes }
+    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
 
     included_building_sets = {
         trade
@@ -206,7 +206,7 @@ zone_xhk_worldark_reactspeed = {
     }
 
     show_in_tech = tech_afterburners_1
-    show_tech_unlock_if = { is_nomadic = yes }
+    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
 
     included_building_sets = {
         generator
@@ -504,7 +504,7 @@ zone_xhk_worldark_physics = {
     }
 
     show_in_tech = tech_physics_1
-    show_tech_unlock_if = { is_nomadic = yes }
+    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
 
     included_building_sets = {
         research
@@ -538,7 +538,7 @@ zone_xhk_worldark_society = {
     }
 
     show_in_tech = tech_society_1
-    show_tech_unlock_if = { is_nomadic = yes }
+    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
 
     included_building_sets = {
         research
@@ -572,7 +572,7 @@ zone_xhk_worldark_engineering = {
     }
 
     show_in_tech = tech_engineering_1
-    show_tech_unlock_if = { is_nomadic = yes }
+    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
 
     included_building_sets = {
         research
@@ -998,7 +998,7 @@ zone_xhk_worldark_ordinance_naval = {
     }
 
     show_in_tech = tech_doctrine_navy_size_1
-    show_tech_unlock_if = { is_nomadic = yes }
+    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
 
     included_building_sets = {
         foundry
@@ -1038,7 +1038,7 @@ zone_xhk_worldark_ordinance_missile_silos = {
     }
 
     show_in_tech = tech_missiles_2
-    show_tech_unlock_if = { is_nomadic = yes }
+    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
 
     included_building_sets = {
         fortress
@@ -1076,7 +1076,7 @@ zone_xhk_worldark_ordinance_ammunition_lines = {
     }
 
     show_in_tech = tech_mass_drivers_2
-    show_tech_unlock_if = { is_nomadic = yes }
+    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
 
     included_building_sets = {
         fortress
@@ -1114,7 +1114,7 @@ zone_xhk_worldark_ordinance_laser_capacitors = {
     }
 
     show_in_tech = tech_lasers_2
-    show_tech_unlock_if = { is_nomadic = yes }
+    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
 
     included_building_sets = {
         fortress
@@ -1152,7 +1152,7 @@ zone_xhk_worldark_ordinance_flight_decks = {
     }
 
     show_in_tech = tech_strike_craft_1
-    show_tech_unlock_if = { is_nomadic = yes }
+    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
 
     included_building_sets = {
         fortress
