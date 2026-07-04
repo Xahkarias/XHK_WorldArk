@@ -137,9 +137,6 @@ zone_xhk_worldark_waylogi = {
         POTENTIAL = "owner? = { has_technology = tech_waystation_2}"
     }
 
-    show_in_tech = tech_waystation_2
-    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
-
     included_building_sets = {
         trade
         urban_automation
@@ -205,9 +202,6 @@ zone_xhk_worldark_reactspeed = {
         POTENTIAL = "owner? = { has_technology = tech_afterburners_1 }"
     }
 
-    show_in_tech = tech_afterburners_1
-    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
-
     included_building_sets = {
         generator
         generator_automation
@@ -247,9 +241,6 @@ zone_xhk_worldark_reactshield = {
         UNLOCK = ""
         POTENTIAL = "owner? = { has_technology = tech_shields_2 }"
     }
-
-    show_in_tech = tech_shields_2
-    show_tech_unlock_if = { is_nomadic = yes }
 
     included_building_sets = {
         generator
@@ -503,9 +494,6 @@ zone_xhk_worldark_physics = {
         POTENTIAL = "owner? = { has_technology = tech_physics_1 }"
     }
 
-    show_in_tech = tech_physics_1
-    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
-
     included_building_sets = {
         research
         physics
@@ -537,9 +525,6 @@ zone_xhk_worldark_society = {
         POTENTIAL = "owner? = { has_technology = tech_society_1 }"
     }
 
-    show_in_tech = tech_society_1
-    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
-
     included_building_sets = {
         research
         society
@@ -570,9 +555,6 @@ zone_xhk_worldark_engineering = {
         UNLOCK = ""
         POTENTIAL = "owner? = { has_technology = tech_engineering_1 }"
     }
-
-    show_in_tech = tech_engineering_1
-    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
 
     included_building_sets = {
         research
@@ -997,9 +979,6 @@ zone_xhk_worldark_ordinance_naval = {
         POTENTIAL = "owner? = { has_technology = tech_doctrine_navy_size_1 }"
     }
 
-    show_in_tech = tech_doctrine_navy_size_1
-    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
-
     included_building_sets = {
         foundry
         fortress
@@ -1037,9 +1016,6 @@ zone_xhk_worldark_ordinance_missile_silos = {
         POTENTIAL = "owner? = { has_technology = tech_missiles_2 }"
     }
 
-    show_in_tech = tech_missiles_2
-    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
-
     included_building_sets = {
         fortress
     }
@@ -1074,9 +1050,6 @@ zone_xhk_worldark_ordinance_ammunition_lines = {
         UNLOCK = ""
         POTENTIAL = "owner? = { has_technology = tech_mass_drivers_2 }"
     }
-
-    show_in_tech = tech_mass_drivers_2
-    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
 
     included_building_sets = {
         fortress
@@ -1113,9 +1086,6 @@ zone_xhk_worldark_ordinance_laser_capacitors = {
         POTENTIAL = "owner? = { has_technology = tech_lasers_2 }"
     }
 
-    show_in_tech = tech_lasers_2
-    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
-
     included_building_sets = {
         fortress
     }
@@ -1150,9 +1120,6 @@ zone_xhk_worldark_ordinance_flight_decks = {
         UNLOCK = ""
         POTENTIAL = "owner? = { has_technology = tech_strike_craft_1 }"
     }
-
-    show_in_tech = tech_strike_craft_1
-    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
 
     included_building_sets = {
         fortress

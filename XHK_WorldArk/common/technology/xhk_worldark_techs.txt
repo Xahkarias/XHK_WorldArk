@@ -30,6 +30,12 @@ xhk_tech_worldark_2 = {
     modifier = {
         nomadic_constructor_limit_add = 1
     }
+	weight_modifier = {
+		modifier = {
+			factor = 3
+			years_passed > 20
+		}
+	}
 
     prerequisites = { "xhk_tech_worldark_1" }
 }
@@ -45,6 +51,12 @@ xhk_tech_worldark_3 = {
         script = xhk_worldark/technology/tech_ship_definition
         TIER = 3
     }
+	weight_modifier = {
+		modifier = {
+			factor = 3
+			years_passed > 35
+		}
+	}
 
     prerequisites = { "xhk_tech_worldark_2" }
 }
@@ -64,6 +76,12 @@ xhk_tech_worldark_4 = {
     modifier = {
         nomadic_constructor_limit_add = 1
     }
+	weight_modifier = {
+		modifier = {
+			factor = 3
+			years_passed > 50
+		}
+	}
 
     prerequisites = { "xhk_tech_worldark_3" }
 }
@@ -79,6 +97,12 @@ xhk_tech_worldark_5 = {
         script = xhk_worldark/technology/tech_ship_definition
         TIER = 5
     }
+	weight_modifier = {
+		modifier = {
+			factor = 3
+			years_passed > 65
+		}
+	}
 
     prerequisites = { "xhk_tech_worldark_4" }
 }
@@ -98,6 +122,12 @@ xhk_tech_worldark_6 = {
     modifier = {
         nomadic_constructor_limit_add = 1
     }
+	weight_modifier = {
+		modifier = {
+			factor = 3
+			years_passed > 80
+		}
+	}
 
     prerequisites = { "xhk_tech_worldark_5" }
 }
@@ -113,6 +143,12 @@ xhk_tech_worldark_7 = {
         script = xhk_worldark/technology/tech_ship_definition
         TIER = 7
     }
+	weight_modifier = {
+		modifier = {
+			factor = 3
+			years_passed > 95
+		}
+	}
 
     prerequisites = { "xhk_tech_worldark_6" }
 }
@@ -128,6 +164,12 @@ xhk_tech_worldark_8 = {
         script = xhk_worldark/technology/tech_ship_definition
         TIER = 8
     }
+	weight_modifier = {
+		modifier = {
+			factor = 3
+			years_passed > 110
+		}
+	}
 
     modifier = {
         nomadic_constructor_limit_add = 1
@@ -147,6 +189,12 @@ xhk_tech_worldark_9 = {
         script = xhk_worldark/technology/tech_ship_definition
         TIER = 9
     }
+	weight_modifier = {
+		modifier = {
+			factor = 3
+			years_passed > 110
+		}
+	}
 
     prerequisites = { "xhk_tech_worldark_8" }
 }
@@ -166,6 +214,12 @@ xhk_tech_worldark_10 = {
     modifier = {
         nomadic_constructor_limit_add = 1
     }
+	weight_modifier = {
+		modifier = {
+			factor = 3
+			years_passed > 110
+		}
+	}
 
     prerequisites = { "xhk_tech_worldark_9" }
 }
@@ -188,6 +242,12 @@ xhk_tech_worldark_11 = {
 		modifier = {
 			factor = 0.1
 			NOT = { years_passed > 100 }
+		}
+		modifier = {
+			factor = 1000
+			any_playable_country = {
+				has_technology = giga_tech_war_moon_1
+			}
 		}
 	}
 }
