@@ -29,21 +29,23 @@ weapon_component_template = {
     }
 
     damage = {
-        min = 5000
-        max = 8000
+        min = 5500
+        max = 7000
     }
     windup = {
-        min = 50
-        max = 60
+        min = 40
+        max = 45
     }
     hull_damage = 1.5
     shield_damage = 1.5
     armor_damage = 1.5
-    total_fire_time = 80
-    range = 280
+    total_fire_time = 75
+    range = 320
     accuracy = 0.8
     tracking = 0
-    size_damage_factor = 0.10
+	# 100 size define, so 21x damage for a weapon that gets +20% per size
+	# this is 50x damage
+    size_damage_factor = 0.5
     military_power_multiplier = 1
 
     firing_arc = 15.0
