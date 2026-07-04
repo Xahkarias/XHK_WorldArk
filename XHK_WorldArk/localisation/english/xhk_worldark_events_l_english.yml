@@ -43,7 +43,7 @@
  xhk_worldark_docs_population_desc_2: "\n\nPer £district£district increase, §G+15 Pop Growth§! jobs are added, which are then turned into actual jobs / buffs based on your empire and the buildings."
 
  xhk_worldark_docs_population_desc_norm: "$xhk_worldark_docs_population_desc_norm_1$$xhk_worldark_docs_population_desc_norm_2$$xhk_worldark_docs_population_desc_norm_3$$xhk_worldark_docs_population_desc_norm_4$$xhk_worldark_docs_population_desc_norm_5$$xhk_worldark_docs_population_desc_norm_6$"
- xhk_worldark_docs_population_desc_norm_1: "\n§3Individualist Biological Empire§!: Base of §G+1 $mod_fake_pop_growth_mod$§! per 100 Pop Growth Jobs. Below lines add extra effects."
+ xhk_worldark_docs_population_desc_norm_1: "\n§3Individualist Biological Empire§!: Base of §G+0.5 $mod_fake_pop_growth_mod$§! per 100 Pop Growth Jobs. Below lines add extra effects."
  xhk_worldark_docs_population_desc_norm_2: "$TABBED_NEW_LINE$- Any §IRobot Assembly§! Building: §G+25 $job_roboticist_plural$§! per 100 Pop Growth Jobs."
  xhk_worldark_docs_population_desc_norm_3: "$TABBED_NEW_LINE$- §IClone Vat§! Building: §G+1 $mod_fake_pop_growth_mod$§! per 100 Pop Growth Jobs."
  xhk_worldark_docs_population_desc_norm_4: "$TABBED_NEW_LINE$- Has §ICloning Tradition§!: §G+0.5 $mod_fake_pop_growth_mod$§! per 100 Pop Growth Jobs."
@@ -54,9 +54,10 @@
  xhk_worldark_docs_population_desc_hive_1: "\n§3Gestalt Hive Empire§!: Base of §G+100 $job_spawning_drone_plural$§! per 100 Pop Growth Jobs. Below lines add extra effects."
  xhk_worldark_docs_population_desc_hive_2: "$TABBED_NEW_LINE$- Completed §ICybernetic Ascension§!: §G+33 $job_augmentor_drone_plural$§! per 100 Pop Growth Jobs!."
 
- xhk_worldark_docs_population_desc_machine: "$xhk_worldark_docs_population_desc_machine_1$$xhk_worldark_docs_population_desc_machine_2$"
+ xhk_worldark_docs_population_desc_machine: "$xhk_worldark_docs_population_desc_machine_1$$xhk_worldark_docs_population_desc_machine_2$$xhk_worldark_docs_population_desc_machine_3$"
  xhk_worldark_docs_population_desc_machine_1: "\n§3Gestalt Machine Empire§!: Base of §G+150 $job_replicator_plural$§! per 100 Pop Growth Jobs. Below lines add extra effects."
  xhk_worldark_docs_population_desc_machine_2: "$TABBED_NEW_LINE$- Completed §ICybernetic Ascension§!: §G+33 $job_augmentor_drone_plural$§! per 100 Pop Growth Jobs!."
+ xhk_worldark_docs_population_desc_machine_3: "$TABBED_NEW_LINE$- §IRogue Servitor§! Civic: §G+0.5 $mod_fake_pop_growth_mod$§! per 100 Pop Growth Jobs."
 
  xhk_worldark_docs_population_desc_indiv_machine: "$xhk_worldark_docs_population_desc_indiv_machine_1$"
  xhk_worldark_docs_population_desc_indiv_machine_1: "\n§3Individualist Machine Empire§!: Base of §G+75 $job_roboticist_plural$§! per 100 Pop Growth Jobs."

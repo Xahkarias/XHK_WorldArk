@@ -108,11 +108,13 @@ d_xhk_worldark_base = {
 # every district gives +15 jobs
 
 
+# these numbers are per singular job
 # hive = 1 spawning drone (0.02)
 	# 0.33 augmentor if cybernetic
 # machine = 1.5 replicator (0.015)
 	# 0.33 augmentor if cybernetic
-# biological indiv = 0.01 growth
+	# 0.005 if servitor
+# biological indiv = 0.005 growth
 	# 0.25 roboticist if robot assembly (0.005)
 	# 0.01 if cloning facility
 	# 0.005 if cloning ascension
@@ -149,7 +151,7 @@ d_xhk_worldark_pop_standard = {
 				NOT = { has_modifier = planet_population_control }
 			}
 		}
-		bonus_pop_growth = 0.01
+		bonus_pop_growth = 0.005
 		multiplier = modifier:xhk_worldark_growth_job_add
 	}
 	triggered_planet_modifier = {
@@ -164,7 +166,7 @@ d_xhk_worldark_pop_standard = {
 			# added stop if population controls
 			NOT = { has_modifier = planet_population_control }
 		}
-		fake_pop_growth_mod = 0.01
+		fake_pop_growth_mod = 0.005
 		multiplier = modifier:xhk_worldark_growth_job_add
 	}
 
@@ -384,6 +386,39 @@ d_xhk_worldark_pop_machine = {
         job_augmentor_drone_add = 0.334
         multiplier = modifier:xhk_worldark_growth_job_add
     }
+
+	# servitor
+	triggered_planet_pop_group_modifier_for_all = {
+		potential = {
+			exists = planet
+			planet = {
+				exists = owner
+				owner = {
+					is_machine_empire = yes
+					xhk_has_worldark_origin = yes
+					has_valid_civic = civic_machine_servitor
+				}
+				# added stop if population controls
+				NOT = { has_modifier = planet_population_control }
+			}
+		}
+		bonus_pop_growth = 0.005
+		multiplier = modifier:xhk_worldark_growth_job_add
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_machine_empire = yes
+				xhk_has_worldark_origin = yes
+				has_valid_civic = civic_machine_servitor
+			}
+			# added stop if population controls
+			NOT = { has_modifier = planet_population_control }
+		}
+		fake_pop_growth_mod = 0.005
+		multiplier = modifier:xhk_worldark_growth_job_add
+	}
 
     ##### CIVICS ###########
     triggered_planet_modifier = {
