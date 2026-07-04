@@ -17,109 +17,19 @@ objectTypes = {
 		# animation = { id = "death"					type = "civilian_arkship_01_stage_3_frame_death_animation" }
 		animation = { id = "idle"					type = "civilian_arkship_01_stage_3_frame_idle_animation" }
 
-		# prong mil shape
-		meshsettings = {
-			name = "wing_top_mil_shape"
-			index = 0
-			texture_diffuse = "military_arkship_01_diffuse.dds"
-			texture_normal = "military_arkship_01_normal.dds"
-			texture_specular = "military_arkship_01_specular.dds"
-			shader = "PdxMeshShip"
-		}
-		meshsettings = {
-			name = "wing_bot_mil_shape"
-			index = 0
-			texture_diffuse = "military_arkship_01_diffuse.dds"
-			texture_normal = "military_arkship_01_normal.dds"
-			texture_specular = "military_arkship_01_specular.dds"
-			shader = "PdxMeshShip"
-		}
-		meshsettings = {
-			name = "wing_2_mil_shape"
-			index = 0
-			texture_diffuse = "military_arkship_01_diffuse.dds"
-			texture_normal = "military_arkship_01_normal.dds"
-			texture_specular = "military_arkship_01_specular.dds"
-			shader = "PdxMeshShip"
-		}
-		meshsettings = {
-			name = "wing_4_mil_shape"
-			index = 0
-			texture_diffuse = "military_arkship_01_diffuse.dds"
-			texture_normal = "military_arkship_01_normal.dds"
-			texture_specular = "military_arkship_01_specular.dds"
-			shader = "PdxMeshShip"
-		}
-		meshsettings = {
-			name = "wing_10_mil_shape"
-			index = 0
-			texture_diffuse = "military_arkship_01_diffuse.dds"
-			texture_normal = "military_arkship_01_normal.dds"
-			texture_specular = "military_arkship_01_specular.dds"
-			shader = "PdxMeshShip"
-		}
-		meshsettings = {
-			name = "wing_8_mil_shape"
-			index = 0
-			texture_diffuse = "military_arkship_01_diffuse.dds"
-			texture_normal = "military_arkship_01_normal.dds"
-			texture_specular = "military_arkship_01_specular.dds"
-			shader = "PdxMeshShip"
-		}
-
-		# prong civ shape
-		meshsettings = {
-			name = "wing_top_civ_shape"
-			index = 0
-			texture_diffuse = "civilian_arkship_01_diffuse.dds"
-			texture_normal = "civilian_arkship_01_normal.dds"
-			texture_specular = "civilian_arkship_01_specular.dds"
-			shader = "PdxMeshShip"
-		}
-		meshsettings = {
-			name = "wing_bot_civ_shape"
-			index = 0
-			texture_diffuse = "civilian_arkship_01_diffuse.dds"
-			texture_normal = "civilian_arkship_01_normal.dds"
-			texture_specular = "civilian_arkship_01_specular.dds"
-			shader = "PdxMeshShip"
-		}
-		meshsettings = {
-			name = "wing_2_civ_shape"
-			index = 0
-			texture_diffuse = "civilian_arkship_01_diffuse.dds"
-			texture_normal = "civilian_arkship_01_normal.dds"
-			texture_specular = "civilian_arkship_01_specular.dds"
-			shader = "PdxMeshShip"
-		}
-		meshsettings = {
-			name = "wing_4_civ_shape"
-			index = 0
-			texture_diffuse = "civilian_arkship_01_diffuse.dds"
-			texture_normal = "civilian_arkship_01_normal.dds"
-			texture_specular = "civilian_arkship_01_specular.dds"
-			shader = "PdxMeshShip"
-		}
-		meshsettings = {
-			name = "wing_10_civ_shape"
-			index = 0
-			texture_diffuse = "civilian_arkship_01_diffuse.dds"
-			texture_normal = "civilian_arkship_01_normal.dds"
-			texture_specular = "civilian_arkship_01_specular.dds"
-			shader = "PdxMeshShip"
-		}
-		meshsettings = {
-			name = "wing_8_civ_shape"
-			index = 0
-			texture_diffuse = "civilian_arkship_01_diffuse.dds"
-			texture_normal = "civilian_arkship_01_normal.dds"
-			texture_specular = "civilian_arkship_01_specular.dds"
-			shader = "PdxMeshShip"
-		}
-
 		# prong civ land
+
+		# USE THE SHAPE NAME
 		meshsettings = {
 			name = "wing_top_civ_land"
+			index = 0
+			texture_diffuse = "continental_planet_arkship_01_diffuse.dds"
+			texture_normal = "continental_planet_arkship_01_normal.dds"
+			texture_specular = "continental_planet_arkship_01_specular.dds"
+			shader = "PdxMeshShipDiffuseEmissive"
+		}
+		meshsettings = {
+			name = "wing_top_mil_land"
 			index = 0
 			texture_diffuse = "continental_planet_arkship_01_diffuse.dds"
 			texture_normal = "continental_planet_arkship_01_normal.dds"
@@ -135,7 +45,23 @@ objectTypes = {
 			shader = "PdxMeshShipDiffuseEmissive"
 		}
 		meshsettings = {
+			name = "wing_bot_mil_land"
+			index = 0
+			texture_diffuse = "continental_planet_arkship_01_diffuse.dds"
+			texture_normal = "continental_planet_arkship_01_normal.dds"
+			texture_specular = "continental_planet_arkship_01_specular.dds"
+			shader = "PdxMeshShipDiffuseEmissive"
+		}
+		meshsettings = {
 			name = "wing_2_civ_land"
+			index = 0
+			texture_diffuse = "continental_planet_arkship_01_diffuse.dds"
+			texture_normal = "continental_planet_arkship_01_normal.dds"
+			texture_specular = "continental_planet_arkship_01_specular.dds"
+			shader = "PdxMeshShipDiffuseEmissive"
+		}
+		meshsettings = {
+			name = "wing_2_mil_land"
 			index = 0
 			texture_diffuse = "continental_planet_arkship_01_diffuse.dds"
 			texture_normal = "continental_planet_arkship_01_normal.dds"
@@ -151,7 +77,7 @@ objectTypes = {
 			shader = "PdxMeshShipDiffuseEmissive"
 		}
 		meshsettings = {
-			name = "wing_10_civ_land"
+			name = "wing_4_mil_land"
 			index = 0
 			texture_diffuse = "continental_planet_arkship_01_diffuse.dds"
 			texture_normal = "continental_planet_arkship_01_normal.dds"
@@ -166,19 +92,45 @@ objectTypes = {
 			texture_specular = "continental_planet_arkship_01_specular.dds"
 			shader = "PdxMeshShipDiffuseEmissive"
 		}
-
-		#
-		#
-		#
-		#
-		#
-		# meshsettings = {
-		# 	name = "wing_bot_mil_shape"
-		# 	index = 1
-		# 	texture_diffuse = "continental_planet_arkship_01_diffuse.dds"
-		# 	texture_normal = "continental_planet_arkship_01_normal.dds"
-		# 	texture_specular = "continental_planet_arkship_01_specular.dds"
-		# 	shader = "PdxMeshShipDiffuseEmissive"
-		# }
+		meshsettings = {
+			name = "wing_8_mil_land"
+			index = 0
+			texture_diffuse = "continental_planet_arkship_01_diffuse.dds"
+			texture_normal = "continental_planet_arkship_01_normal.dds"
+			texture_specular = "continental_planet_arkship_01_specular.dds"
+			shader = "PdxMeshShipDiffuseEmissive"
+		}
+		meshsettings = {
+			name = "wing_10_civ_land"
+			index = 0
+			texture_diffuse = "continental_planet_arkship_01_diffuse.dds"
+			texture_normal = "continental_planet_arkship_01_normal.dds"
+			texture_specular = "continental_planet_arkship_01_specular.dds"
+			shader = "PdxMeshShipDiffuseEmissive"
+		}
+		meshsettings = {
+			name = "wing_10_mil_land"
+			index = 0
+			texture_diffuse = "continental_planet_arkship_01_diffuse.dds"
+			texture_normal = "continental_planet_arkship_01_normal.dds"
+			texture_specular = "continental_planet_arkship_01_specular.dds"
+			shader = "PdxMeshShipDiffuseEmissive"
+		}
+		meshsettings = {
+			name = "L_sci_land"
+			index = 0
+			texture_diffuse = "continental_planet_arkship_01_diffuse.dds"
+			texture_normal = "continental_planet_arkship_01_normal.dds"
+			texture_specular = "continental_planet_arkship_01_specular.dds"
+			shader = "PdxMeshShipDiffuseEmissive"
+		}
+		meshsettings = {
+			name = "R_sci_land"
+			index = 0
+			texture_diffuse = "continental_planet_arkship_01_diffuse.dds"
+			texture_normal = "continental_planet_arkship_01_normal.dds"
+			texture_specular = "continental_planet_arkship_01_specular.dds"
+			shader = "PdxMeshShipDiffuseEmissive"
+		}
 	}
 }
