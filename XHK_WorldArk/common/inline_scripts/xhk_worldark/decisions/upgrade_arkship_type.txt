@@ -9,7 +9,7 @@ xhk_upgrade_arkship_$TYPE$_tier_1 = {
 	}
 
 	show_tech_unlock_if = {
-		xhk_has_worldark_origin = yes
+		owner = { xhk_has_worldark_origin = yes }
 	}
 
 	resources = {
@@ -53,7 +53,7 @@ xhk_upgrade_arkship_$TYPE$_tier_2 = {
 	}
 
 	show_tech_unlock_if = {
-		xhk_has_worldark_origin = yes
+		owner = { xhk_has_worldark_origin = yes }
 	}
 
 	resources = {
@@ -98,7 +98,7 @@ xhk_upgrade_arkship_$TYPE$_tier_3 = {
 	}
 
 	show_tech_unlock_if = {
-		xhk_has_worldark_origin = yes
+		owner = { xhk_has_worldark_origin = yes }
 	}
 
 	resources = {
