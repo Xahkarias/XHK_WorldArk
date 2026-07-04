@@ -1,0 +1,133 @@
+xhk_upgrade_arkship_$TYPE$_tier_1 = {
+	icon = decision_frameworld_reorganise
+	owned_planets_only = yes
+
+	enactment_time = 360
+
+	prerequisites = {
+		tech_$TYPE$_arkship
+	}
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			alloys = 2000
+		}
+	}
+
+	potential = {
+		exists = owner
+		owner = {
+			xhk_has_worldark_origin = yes
+		}
+		is_planet_class = xhk_pc_worldark
+		check_variable = { which = xhk_worldark_$TYPE$_upgrade_level value = 0 }
+	}
+
+	effect = {
+		custom_tooltip = xhk_worldark_upgrade_$TYPE$_tt1
+
+		hidden_effect = {
+			set_variable = { which = xhk_worldark_$TYPE$_upgrade_level value = 1 }
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+xhk_upgrade_arkship_$TYPE$_tier_2 = {
+	icon = decision_frameworld_reorganise
+	owned_planets_only = yes
+
+	enactment_time = 360
+
+	prerequisites = {
+		tech_arkship_tier_2
+	}
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			alloys = 2000
+		}
+	}
+
+	potential = {
+		exists = owner
+		owner = {
+			xhk_has_worldark_origin = yes
+			has_technology = tech_$TYPE$_arkship
+		}
+		is_planet_class = xhk_pc_worldark
+		check_variable = { which = xhk_worldark_$TYPE$_upgrade_level value = 1 }
+	}
+
+	effect = {
+		custom_tooltip = xhk_worldark_upgrade_$TYPE$_tt2
+
+		hidden_effect = {
+			set_variable = { which = xhk_worldark_$TYPE$_upgrade_level value = 2 }
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+xhk_upgrade_arkship_$TYPE$_tier_3 = {
+	icon = decision_frameworld_reorganise
+	owned_planets_only = yes
+
+	enactment_time = 360
+
+	prerequisites = {
+		tech_arkship_tier_3
+	}
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			alloys = 2000
+		}
+	}
+
+	potential = {
+		exists = owner
+		owner = {
+			xhk_has_worldark_origin = yes
+			has_technology = tech_$TYPE$_arkship
+		}
+		is_planet_class = xhk_pc_worldark
+		check_variable = { which = xhk_worldark_$TYPE$_upgrade_level value = 2 }
+	}
+
+	effect = {
+		custom_tooltip = xhk_worldark_upgrade_$TYPE$_tt3
+
+		hidden_effect = {
+			set_variable = { which = xhk_worldark_$TYPE$_upgrade_level value = 3 }
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}

@@ -319,6 +319,25 @@ country_event = {
                 initialize_arkship_starbase_effect = yes
             }
 
+			#give the initial variables
+			carrier = {
+				set_variable = { which = xhk_worldark_science_upgrade_level value = 0 }
+				set_variable = { which = xhk_worldark_military_upgrade_level value = 0 }
+				set_variable = { which = xhk_worldark_civilian_upgrade_level value = 0 }
+			}
+			if = {
+				limit = { owner = { has_country_flag = starting_civilian_arkship } }
+				set_variable = { which = xhk_worldark_civilian_upgrade_level value = 1 }
+			}
+			else_if = {
+				limit = { owner = { has_country_flag = starting_science_arkship } }
+				set_variable = { which = xhk_worldark_science_upgrade_level value = 1 }
+			}
+			else_if = {
+				limit = { owner = { has_country_flag = starting_military_arkship } }
+				set_variable = { which = xhk_worldark_military_upgrade_level value = 1 }
+			}
+
             ################################################################################
             # control deposit
             add_deposit = d_xhk_worldark_base
@@ -463,22 +482,29 @@ country_event = {
             event_chain = "xhk_worldark_docs_chain"
             #location = capital_scope
         }
+		create_point_of_interest = {
+			id = xhk_worldark_docs_chain.5
+			name = "xhk_worldark_docs_ship_upgrade"
+			desc = "xhk_worldark_docs_ship_upgrade_desc"
+			event_chain = "xhk_worldark_docs_chain"
+			#location = capital_scope
+		}
         create_point_of_interest = {
-            id = xhk_worldark_docs_chain.5
+            id = xhk_worldark_docs_chain.6
             name = "xhk_worldark_docs_special_civic"
             desc = "xhk_worldark_docs_special_civic_desc"
             event_chain = "xhk_worldark_docs_chain"
             #location = capital_scope
         }
+		create_point_of_interest = {
+			id = xhk_worldark_docs_chain.7
+			name = "xhk_worldark_docs_mega"
+			desc = "xhk_worldark_docs_mega_desc"
+			event_chain = "xhk_worldark_docs_chain"
+			#location = capital_scope
+		}
         create_point_of_interest = {
-            id = xhk_worldark_docs_chain.6
-            name = "xhk_worldark_docs_mega_integration"
-            desc = "xhk_worldark_docs_mega_integration_desc"
-            event_chain = "xhk_worldark_docs_chain"
-            #location = capital_scope
-        }
-        create_point_of_interest = {
-            id = xhk_worldark_docs_chain.7
+            id = xhk_worldark_docs_chain.8
             name = "xhk_worldark_docs_crossmod"
             desc = "xhk_worldark_docs_crossmod_desc"
             event_chain = "xhk_worldark_docs_chain"

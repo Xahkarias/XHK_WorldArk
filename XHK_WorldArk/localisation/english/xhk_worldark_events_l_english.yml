@@ -134,8 +134,20 @@
  xhk_worldark_docs_ship_levels_desc_T11: "\n§GT11§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal | §YBase Districts:§! 60 | §YWeapons:§! 30H 40P 4G 6XL 48L 12M 18S"
 
  ####################
+ # UPGRADES
+ xhk_worldark_docs_ship_upgrade: "5) Arkship Upgrades"
+ xhk_worldark_docs_ship_upgrade_desc: "$xhk_worldark_docs_ship_upgrade_type$"
+
+ xhk_worldark_docs_ship_upgrade_type: "$xhk_worldark_docs_ship_upgrade_type_1$$xhk_worldark_docs_ship_upgrade_type_2$$xhk_worldark_docs_ship_upgrade_type_3$$xhk_worldark_docs_ship_upgrade_type_4$$xhk_worldark_docs_ship_upgrade_type_5$"
+ xhk_worldark_docs_ship_upgrade_type_1: "The $xhk_pc_worldark$ begins with the bonuses provided by the Arkship type selected during empire creation. Further bonuses are granted via decisions granted via the following techs:"
+ xhk_worldark_docs_ship_upgrade_type_2: "$TABBED_NEW_LINE$- §YSpecialized Arkship Techs§!: Unlocks the T1 bonuses associated with the Arkship type."
+ xhk_worldark_docs_ship_upgrade_type_3: "$TABBED_NEW_LINE$- §Y$tech_arkship_tier_2$§!: Unlocks the T2 bonuses associated with each Arkship type."
+ xhk_worldark_docs_ship_upgrade_type_4: "$TABBED_NEW_LINE$- §Y$tech_arkship_tier_3$§!: Unlocks the T3 bonuses associated with each Arkship type."
+ xhk_worldark_docs_ship_upgrade_type_5: "$TABBED_NEW_LINE$- §Y$tech_arkship_construction$§!: Unlocks the $xhk_worldark_add_logistics_ship$ Decision."
+
+ ####################
  # CIVICS
- xhk_worldark_docs_special_civic: "5) Civic Integration"
+ xhk_worldark_docs_special_civic: "6) Civic Integration"
  xhk_worldark_docs_special_civic_desc: "$xhk_worldark_docs_special_civic_desc_1$\n$xhk_worldark_docs_special_civic_desc_dystopia$[Owner.xhk_worldark_getCivicDocumentation]"
  xhk_worldark_docs_special_civic_desc_1: "The $xhk_pc_worldark$ has special integration with specific civics to better fit their fantasy and compensate for the one-planet playstyle."
 
@@ -166,12 +178,13 @@
 
  ####################
  # MEGAS
- xhk_worldark_docs_mega_integration: "6) Megastructure Integration"
- xhk_worldark_docs_mega_integration_desc: "TODO DONT LOOK AT ME"
+ xhk_worldark_docs_mega: "7) Mega Integration"
+ xhk_worldark_docs_mega_desc: "TODO DONT LOOK AT ME"
+
 
  ####################
  # CROSSMOD
- xhk_worldark_docs_crossmod: "7) Cross-Mod Support"
+ xhk_worldark_docs_crossmod: "8) Cross-Mod Support"
  xhk_worldark_docs_crossmod_desc: "TODO DONT LOOK AT ME"
 
 

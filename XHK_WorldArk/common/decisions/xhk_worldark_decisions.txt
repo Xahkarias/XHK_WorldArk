@@ -51,3 +51,18 @@ xhk_worldark_add_logistics_ship = {
         weight = 1
     }
 }
+
+inline_script = {
+	script = xhk_worldark/decisions/upgrade_arkship_type
+	TYPE = science
+}
+
+inline_script = {
+	script = xhk_worldark/decisions/upgrade_arkship_type
+	TYPE = military
+}
+
+inline_script = {
+	script = xhk_worldark/decisions/upgrade_arkship_type
+	TYPE = civilian
+}

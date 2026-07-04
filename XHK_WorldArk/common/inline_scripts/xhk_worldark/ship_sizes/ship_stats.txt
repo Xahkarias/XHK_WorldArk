@@ -20,18 +20,9 @@ modifier = {
 
     # planet stuff
     planet_max_districts_add = @xhk_worldark_shipstat_districts_t$TIER$
-
-    # sci
-    ship_sensor_range_add = @xhk_worldark_shipstat_sensor_t$TIER$
-    ship_hyperlane_range_add = @xhk_worldark_shipstat_hypersensor_t$TIER$
 }
 ship_modifier = {
     ship_starbase_stockpile_collection_rate_add = @xhk_worldark_shipstat_collection_t$TIER$
-    # civ
-    arkship_harvest_resources_produces_mult = @xhk_worldark_shipstat_harvest_t$TIER$
-    # mil
-    ship_fire_rate_mult = @xhk_worldark_shipstat_weaponbonus_t$TIER$
-    ship_weapon_range_mult = @xhk_worldark_shipstat_weaponbonus_t$TIER$
 }
 # 80 to 120
 size_multiplier = @[(($TIER$ - 1) * 4) + 80]

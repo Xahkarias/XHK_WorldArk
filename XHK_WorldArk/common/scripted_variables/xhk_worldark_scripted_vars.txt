@@ -96,30 +96,6 @@
 @xhk_worldark_shipstat_shieldregen_t10 = 180
 @xhk_worldark_shipstat_shieldregen_t11 = 300
 
-@xhk_worldark_shipstat_sensor_t1 = 1
-@xhk_worldark_shipstat_sensor_t2 = 1
-@xhk_worldark_shipstat_sensor_t3 = 1
-@xhk_worldark_shipstat_sensor_t4 = 2
-@xhk_worldark_shipstat_sensor_t5 = 2
-@xhk_worldark_shipstat_sensor_t6 = 2
-@xhk_worldark_shipstat_sensor_t7 = 3
-@xhk_worldark_shipstat_sensor_t8 = 3
-@xhk_worldark_shipstat_sensor_t9 = 3
-@xhk_worldark_shipstat_sensor_t10 = 4
-@xhk_worldark_shipstat_sensor_t11 = 4
-
-@xhk_worldark_shipstat_hypersensor_t1 = 0
-@xhk_worldark_shipstat_hypersensor_t2 = 1
-@xhk_worldark_shipstat_hypersensor_t3 = 1
-@xhk_worldark_shipstat_hypersensor_t4 = 2
-@xhk_worldark_shipstat_hypersensor_t5 = 2
-@xhk_worldark_shipstat_hypersensor_t6 = 2
-@xhk_worldark_shipstat_hypersensor_t7 = 3
-@xhk_worldark_shipstat_hypersensor_t8 = 3
-@xhk_worldark_shipstat_hypersensor_t9 = 3
-@xhk_worldark_shipstat_hypersensor_t10 = 4
-@xhk_worldark_shipstat_hypersensor_t11 = 5
-
 @xhk_worldark_shipstat_districts_t1 = 0
 @xhk_worldark_shipstat_districts_t2 = 4
 @xhk_worldark_shipstat_districts_t3 = 8
@@ -143,31 +119,6 @@
 @xhk_worldark_shipstat_reactor_t9 = 3
 @xhk_worldark_shipstat_reactor_t10 = 4.5
 @xhk_worldark_shipstat_reactor_t11 = 6
-
-@xhk_worldark_shipstat_harvest_t1 = 0
-@xhk_worldark_shipstat_harvest_t2 = 0.05
-@xhk_worldark_shipstat_harvest_t3 = 0.05
-@xhk_worldark_shipstat_harvest_t4 = 0.05
-@xhk_worldark_shipstat_harvest_t5 = 0.1
-@xhk_worldark_shipstat_harvest_t6 = 0.1
-@xhk_worldark_shipstat_harvest_t7 = 0.1
-@xhk_worldark_shipstat_harvest_t8 = 0.15
-@xhk_worldark_shipstat_harvest_t9 = 0.15
-@xhk_worldark_shipstat_harvest_t10 = 0.2
-@xhk_worldark_shipstat_harvest_t11 = 0.25
-
-@xhk_worldark_shipstat_weaponbonus_t1 = 0
-@xhk_worldark_shipstat_weaponbonus_t2 = 0
-@xhk_worldark_shipstat_weaponbonus_t3 = 0.05
-@xhk_worldark_shipstat_weaponbonus_t4 = 0.05
-@xhk_worldark_shipstat_weaponbonus_t5 = 0.05
-@xhk_worldark_shipstat_weaponbonus_t6 = 0.1
-@xhk_worldark_shipstat_weaponbonus_t7 = 0.1
-@xhk_worldark_shipstat_weaponbonus_t8 = 0.1
-@xhk_worldark_shipstat_weaponbonus_t9 = 0.15
-@xhk_worldark_shipstat_weaponbonus_t10 = 0.2
-@xhk_worldark_shipstat_weaponbonus_t11 = 0.25
-
 
 ########################################################################################################
 ##### SCRIPTED ACTIONS ####

@@ -1,3 +1,5 @@
+## THE MAIN
+
 d_xhk_worldark_base = {
     is_for_colonizable = yes
     icon = d_frameworld_core
@@ -43,6 +45,43 @@ d_xhk_worldark_base = {
 		}
 		giga_virtual_colony_size = 1
 		multiplier = value:xhk_worldark_level_virtual_colony_size
+	}
+
+	########################################################################################################
+	# ADDING ARKSHIP TYPE BUFFS
+	########################################################################################################
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				xhk_has_worldark_origin = yes
+			}
+		}
+		ship_sensor_range_add = 1
+		ship_hyperlane_range_add = 1
+		science_ship_survey_speed = 0.05
+		multiplier = xhk_worldark_science_upgrade_level
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				xhk_has_worldark_origin = yes
+			}
+		}
+		ship_fire_rate_mult = 0.05
+		ship_weapon_range_mult = 0.05
+		multiplier = xhk_worldark_military_upgrade_level
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				xhk_has_worldark_origin = yes
+			}
+		}
+		arkship_harvest_resources_produces_mult = 0.05
+		multiplier = xhk_worldark_civilian_upgrade_level
 	}
 }
 
