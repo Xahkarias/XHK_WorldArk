@@ -705,7 +705,7 @@ guiTypes = {
                 format = "UPPER_LEFT"
 				slotSize = { width = 58 height = 58 }
                 add_horizontal = yes
-                max_slots_horizontal = 6
+                max_slots_horizontal = 7
             }
             containerWindowType = {
                 # XHK +200 Y

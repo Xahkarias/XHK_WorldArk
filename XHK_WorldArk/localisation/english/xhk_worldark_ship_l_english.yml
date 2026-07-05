@@ -10,6 +10,7 @@
  xhk_worldark_tier_9:0 "$xhk_pc_worldark$ IX"
  xhk_worldark_tier_10:0 "$xhk_pc_worldark$ X"
  xhk_worldark_tier_11:0 "$xhk_pc_worldark$ XI"
+ xhk_worldark_tier_12:0 "$xhk_pc_worldark$ XII"
 
  xhk_worldark_tier_1_cap:0 "$xhk_worldark_tier_1$"
  xhk_worldark_tier_2_cap:0 "$xhk_worldark_tier_2$"
@@ -22,6 +23,7 @@
  xhk_worldark_tier_9_cap:0 "$xhk_worldark_tier_9$"
  xhk_worldark_tier_10_cap:0 "$xhk_worldark_tier_10$"
  xhk_worldark_tier_11_cap:0 "$xhk_worldark_tier_11$"
+ xhk_worldark_tier_12_cap:0 "$xhk_worldark_tier_12$"
 
  ########################################################################################################
  # SCRIPTED ACTIONS
@@ -72,18 +74,14 @@
  xhk_worldark_spinal_hunter_cannon_tt: "$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$XHK_ARKSHIP_HUNTER_WEAPON$§!."
  sm_xhk_worldark_spinal_hunter_cannon: "$xhk_worldark_spinal_hunter_cannon$"
  sm_xhk_worldark_spinal_hunter_cannon_desc: "$xhk_worldark_spinal_hunter_cannon_desc$"
-
  XHK_ARKSHIP_HUNTER_WEAPON:0 "Ukonvasara Hyperkinetic Driver"
 
+ ################################## CORE SPINALS ################################
+ sm_corespinal_cat: "§RCore Spinal Mounts§!"
 
- mod_shipsize_xhk_worldark_tier_1_fire_rate_mult: "$xhk_worldark_tier_1$ Fire Rate"
- mod_shipsize_xhk_worldark_tier_2_fire_rate_mult: "$xhk_worldark_tier_2$ Fire Rate"
- mod_shipsize_xhk_worldark_tier_3_fire_rate_mult: "$xhk_worldark_tier_3$ Fire Rate"
- mod_shipsize_xhk_worldark_tier_4_fire_rate_mult: "$xhk_worldark_tier_4$ Fire Rate"
- mod_shipsize_xhk_worldark_tier_5_fire_rate_mult: "$xhk_worldark_tier_5$ Fire Rate"
- mod_shipsize_xhk_worldark_tier_6_fire_rate_mult: "$xhk_worldark_tier_6$ Fire Rate"
- mod_shipsize_xhk_worldark_tier_7_fire_rate_mult: "$xhk_worldark_tier_7$ Fire Rate"
- mod_shipsize_xhk_worldark_tier_8_fire_rate_mult: "$xhk_worldark_tier_8$ Fire Rate"
- mod_shipsize_xhk_worldark_tier_9_fire_rate_mult: "$xhk_worldark_tier_9$ Fire Rate"
- mod_shipsize_xhk_worldark_tier_10_fire_rate_mult: "$xhk_worldark_tier_10$ Fire Rate"
- mod_shipsize_xhk_worldark_tier_11_fire_rate_mult: "$xhk_worldark_tier_11$ Fire Rate"
+ xhk_worldark_corespinal_planetgun: "Oblivionis Celestial Decimator"
+ xhk_worldark_corespinal_planetgun_desc: "A Behemoth Planetcraft main weapon, grafted onto the heart of the $xhk_pc_worldark$. May it slay those foul enough to attempt to move the heavens against us."
+ xhk_worldark_gigaspinal_planetgun_tt: "$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$XHK_ARKSHIP_CORESPINAL_PLANETGUN_WEAPON$§!."
+ sm_xhk_worldark_corespinal_planetgun: "$xhk_worldark_corespinal_planetgun$"
+ sm_xhk_worldark_corespinal_planetgun_desc: "$xhk_worldark_corespinal_planetgun_desc$"
+ XHK_ARKSHIP_CORESPINAL_PLANETGUN_WEAPON:0 "Oblivionis Celestial Decimator"

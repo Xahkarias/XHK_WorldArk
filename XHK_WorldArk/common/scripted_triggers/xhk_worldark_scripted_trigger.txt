@@ -17,7 +17,24 @@ xhk_is_worldark_starbase = {
         has_starbase_size = xhk_worldark_tier_9
         has_starbase_size = xhk_worldark_tier_10
 		has_starbase_size = xhk_worldark_tier_11
+		has_starbase_size = xhk_worldark_tier_12
     }
+}
+
+xhk_worldark_has_spinal = {
+	OR = {
+		is_ship_size = xhk_worldark_tier_8
+		is_ship_size = xhk_worldark_tier_9
+		is_ship_size = xhk_worldark_tier_10
+		is_ship_size = xhk_worldark_tier_11
+		is_ship_size = xhk_worldark_tier_12
+	}
+}
+
+xhk_worldark_has_corespinal = {
+	OR = {
+		is_ship_size = xhk_worldark_tier_12
+	}
 }
 
 # CANNOT TARGET ASTEROIDS

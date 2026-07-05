@@ -95,3 +95,53 @@ xhk_worldark_spinal_pk_cracker = {
         weight = 10
     }
 }
+
+###### CORE SPINALS ######
+# you can see the other ones unless i override it with
+# cannot_fit_on_slots
+# PLANET CANNON
+xhk_worldark_corespinal_planetgun = {
+	icon = "GFX_xhk_worldark_corespinal_planetgun_mount"
+	section = "XHK_ARKSHIP_CORESPINAL_PLANETGUN_SECTION"
+	construction_days = @[arkship_spinal_mount_build_time * 4]
+	starbase_type = arkship
+	category = sm_corespinal_cat
+
+	potential = {
+		owner? = {
+			has_technology = xhk_tech_worldark_12
+		}
+		has_starbase_size = xhk_worldark_tier_12
+	}
+
+	show_in_tech = "xhk_tech_worldark_12"
+
+	show_tech_unlock_if = {
+		is_nomadic = yes
+	}
+
+	fits_on_slots = { spinal_mount_7 }
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = @[arkship_cost_alloys_5000 * 6]
+			volatile_motes = @[arkship_cost_strategic_500 * 6]
+			unity = @[arkship_cost_unity_500 * 3]
+			influence = 200
+		}
+
+		upkeep = {
+			energy = 50
+			volatile_motes = 20
+		}
+	}
+
+	component_set = XHK_ARKSHIP_GIGASPINAL_PLANETGUN_SET
+	show_component_tooltips = yes
+	custom_tooltip = xhk_worldark_gigaspinal_planetgun_tt
+
+	ai_weight = {
+		weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
+	}
+}

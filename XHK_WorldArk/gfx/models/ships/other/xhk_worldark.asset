@@ -260,3 +260,15 @@ entity = {
 	}
 	scale = 2.5
 }
+
+###############################################
+# CORE SPINALS
+entity = {
+	name = "xhk_worldark_corespinal_planetgun_entity"
+	pdxmesh = "civilian_arkship_spinal_module_devastator_01_mesh"
+
+	scale = 2.0
+	game_data = {
+		emissive_recolor_crunch = 3.0
+	}
+}

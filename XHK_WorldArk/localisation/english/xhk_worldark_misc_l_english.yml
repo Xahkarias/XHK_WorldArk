@@ -19,6 +19,7 @@
  xhk_tech_worldark_9: "$xhk_pc_worldark$ Tier IX Upgrade"
  xhk_tech_worldark_10: "$xhk_pc_worldark$ Tier X Upgrade"
  xhk_tech_worldark_11: "$xhk_pc_worldark$ Tier XI Upgrade"
+ xhk_tech_worldark_12: "$xhk_pc_worldark$ Tier XII Upgrade"
 
  xhk_tech_worldark_1_desc: "The basics of maintenance and expansions of the $xhk_pc_worldark$."
  xhk_tech_worldark_2_desc: "Unlocks the §Y$xhk_pc_worldark$ Tier II Upgrade§!"
@@ -31,6 +32,7 @@
  xhk_tech_worldark_9_desc: "Unlocks the §Y$xhk_pc_worldark$ Tier IX Upgrade§!"
  xhk_tech_worldark_10_desc: "Unlocks the §Y$xhk_pc_worldark$ Tier X Upgrade§!"
  xhk_tech_worldark_11_desc: "Unlocks the §Y$xhk_pc_worldark$ Tier XI Upgrade§!"
+ xhk_tech_worldark_12_desc: "Unlocks the §Y$xhk_pc_worldark$ Tier XII Upgrade§!"
 
  XHK_TECH_UPGRADE_WORLDARK_1_TITLE: "$xhk_tech_worldark_1_desc$"
  XHK_TECH_UPGRADE_WORLDARK_2_TITLE: "$xhk_tech_worldark_2_desc$"
@@ -43,6 +45,23 @@
  XHK_TECH_UPGRADE_WORLDARK_9_TITLE: "$xhk_tech_worldark_9_desc$"
  XHK_TECH_UPGRADE_WORLDARK_10_TITLE: "$xhk_tech_worldark_10_desc$"
  XHK_TECH_UPGRADE_WORLDARK_11_TITLE: "$xhk_tech_worldark_11_desc$\n§GLarge Bonus§! to $xhk_pc_worldark$ §GCombat Strength§!."
+ XHK_TECH_UPGRADE_WORLDARK_12_TITLE: "$xhk_tech_worldark_12_desc$\nThe powerful §GCore Spinal§! is §Gunlocked§!."
 
  xhk_harvest_plus1: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_small]§!"
  xhk_harvest_plus2: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_large]§!"
+
+ ############################################################
+ # random modifiers
+
+ mod_shipsize_xhk_worldark_tier_1_fire_rate_mult: "$xhk_worldark_tier_1$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_2_fire_rate_mult: "$xhk_worldark_tier_2$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_3_fire_rate_mult: "$xhk_worldark_tier_3$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_4_fire_rate_mult: "$xhk_worldark_tier_4$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_5_fire_rate_mult: "$xhk_worldark_tier_5$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_6_fire_rate_mult: "$xhk_worldark_tier_6$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_7_fire_rate_mult: "$xhk_worldark_tier_7$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_8_fire_rate_mult: "$xhk_worldark_tier_8$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_9_fire_rate_mult: "$xhk_worldark_tier_9$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_10_fire_rate_mult: "$xhk_worldark_tier_10$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_11_fire_rate_mult: "$xhk_worldark_tier_11$ Fire Rate"
+ mod_shipsize_xhk_worldark_tier_12_fire_rate_mult: "$xhk_worldark_tier_12$ Fire Rate"

@@ -125,6 +125,10 @@ spriteTypes = {
 		name = "GFX_xhk_worldark_arkship_hunter_mount"
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_arkship_hunter_mount.dds"
 	}
+	spriteType = {
+		name = "GFX_xhk_worldark_corespinal_planetgun_mount"
+		texturefile = "gfx/interface/icons/modules/xhk_worldark_corespinal_planetgun_mount.dds"
+	}
 
 	####################################################################################################################
 	# BACKDROP

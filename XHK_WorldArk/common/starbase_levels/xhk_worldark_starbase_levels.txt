@@ -107,6 +107,8 @@ starbase_level_xhk_worldark_tier_7 = {
     }
 }
 
+# IF THEY ARENT NAMED EXACTLY spinal_mount_1 then they allow other stuff
+# naming them not spinal mount 1 allows you to be unique, but also allows the non spinals
 starbase_level_xhk_worldark_tier_8 = {
     inline_script = {
         script = xhk_worldark/starbase_levels/starbase_definition
@@ -164,13 +166,32 @@ starbase_level_xhk_worldark_tier_10 = {
 # NO CHANGE
 starbase_level_xhk_worldark_tier_11 = {
 	inline_script = {
-		script = xhk_worldark/starbase_levels/starbase_definition_no_next
+		script = xhk_worldark/starbase_levels/starbase_definition
 		TIER = 11
+		TIER_NEXT = 12
 	}
 	picture = "GFX_xhk_worldark_arkship_blueprint"
 	module_slots = {
 		1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
 		spinal_mount_1 spinal_mount_1 spinal_mount_1 spinal_mount_1 spinal_mount_1 spinal_mount_1
+	}
+	building_slots = {
+		1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+		lower_1 lower_2 lower_3 lower_4 lower_5 lower_6 lower_7 lower_8 lower_9 lower_10 lower_11 lower_12
+		lower_13 lower_14 lower_15 lower_16 lower_17 lower_18 lower_19 lower_20
+	}
+}
+
+# NO CHANGE
+starbase_level_xhk_worldark_tier_12 = {
+	inline_script = {
+		script = xhk_worldark/starbase_levels/starbase_definition_no_next
+		TIER = 12
+	}
+	picture = "GFX_xhk_worldark_arkship_blueprint"
+	module_slots = {
+		1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+		spinal_mount_1 spinal_mount_1 spinal_mount_1 spinal_mount_1 spinal_mount_1 spinal_mount_1 spinal_mount_7
 	}
 	building_slots = {
 		1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20

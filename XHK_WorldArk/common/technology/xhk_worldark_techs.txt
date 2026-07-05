@@ -225,8 +225,8 @@ xhk_tech_worldark_10 = {
 }
 
 xhk_tech_worldark_11 = {
-	area = engineering
-	category = { propulsion }
+	area = physics
+	category = { particles }
 	tier = 5
 	cost = 50000
 
@@ -244,9 +244,49 @@ xhk_tech_worldark_11 = {
 			NOT = { years_passed > 100 }
 		}
 		modifier = {
-			factor = 1000
+			factor = 100
 			any_playable_country = {
 				has_technology = giga_tech_war_moon_1
+			}
+		}
+	}
+}
+
+xhk_tech_worldark_12 = {
+	area = engineering
+	category = { voidcraft }
+	tier = 5
+	cost = 100000
+
+	weight = 20
+	inline_script = {
+		script = xhk_worldark/technology/tech_ship_definition
+		TIER = 12
+	}
+
+	prerequisites = {
+		"xhk_tech_worldark_11"
+		"tech_mega_engineering"
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.01
+			NOT = { years_passed > 120 }
+		}
+		modifier = {
+			factor = 100
+			any_playable_country = {
+				has_technology = giga_tech_war_planet
+			}
+		}
+		modifier = {
+			factor = 100
+			OR = {
+				has_global_flag = aeternum_awakening_started
+				has_global_flag = aeternum_awakening_ongoing
+				has_global_flag = pre_emptive_aeternum_war
+				has_global_flag = premature_aeternum_awakening
 			}
 		}
 	}

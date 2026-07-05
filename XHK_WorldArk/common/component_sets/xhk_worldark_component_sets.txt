@@ -10,3 +10,10 @@ component_set = {
     icon = "GFX_ship_part_world_cracker"
     icon_frame = 1
 }
+
+############ CORE SPINALS #############
+component_set = {
+	key = "XHK_ARKSHIP_GIGASPINAL_PLANETGUN_SET"
+	icon = "GFX_ship_part_planet_lance"
+	icon_frame = 1
+}

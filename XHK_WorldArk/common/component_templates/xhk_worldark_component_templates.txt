@@ -17,6 +17,7 @@ weapon_component_template = {
 			is_ship_size = xhk_worldark_tier_9
 			is_ship_size = xhk_worldark_tier_10
 			is_ship_size = xhk_worldark_tier_11
+			is_ship_size = xhk_worldark_tier_12
         }
     }
 
@@ -68,12 +69,7 @@ weapon_component_template = {
     icon_frame = 1
 
     potential = {
-        OR = {
-            is_ship_size = xhk_worldark_tier_8
-            is_ship_size = xhk_worldark_tier_9
-            is_ship_size = xhk_worldark_tier_10
-			is_ship_size = xhk_worldark_tier_11
-        }
+		xhk_worldark_has_spinal = yes
     }
 
     scripted_action = {
@@ -92,4 +88,51 @@ weapon_component_template = {
     tags = { weapon_type_kinetic weapon_role_artillery t_slot }
     component_set = "XHK_ARKSHIP_SPINAL_PK_CRACKER_SET"
     projectile_gfx = "arkship_01_devastator_laser"
+}
+
+######### CORE SPINAL #########
+weapon_component_template = {
+	key = "XHK_ARKSHIP_CORESPINAL_PLANETGUN_WEAPON"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	icon = "GFX_ship_part_planet_lance"
+	icon_frame = 1
+	power = -5000
+	component_set = "XHK_ARKSHIP_GIGASPINAL_PLANETGUN_SET"
+	projectile_gfx = "giga_super_omega_laser"
+	prerequisites = { "xhk_tech_worldark_12" }
+	tags = {  weapon_role_artillery t_slot }
+	potential = { xhk_worldark_has_corespinal = yes }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+
+	firing_arc = 10
+	min_range = 10.0
+
+	damage = { min = 125000 max = 250000 }
+	windup = { min = 145 max = 150 }
+	range = 250
+	tracking = 0
+	accuracy = 0.85
+	total_fire_time = 75
+	shield_damage = 0.75
+	armor_damage = 1.50
+	hull_damage = 1.25
+	ship_limit = 1
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titanic_t7_cost
+			rare_crystals = @titanic_t7_rare
+		}
+		upkeep = {
+			alloys = @titanic_t7_upkeep_alloys
+			energy = @titanic_t7_upkeep_energy
+		}
+	}
+
+	collateral_damage = @giga_super_omega_lance_1_fleet_damage
+	collateral_range = @ion_cannon_collateral_range
 }
