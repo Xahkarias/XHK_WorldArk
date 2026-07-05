@@ -1,0 +1,30 @@
+overwrites:
+
+common/buildings:
+	building_cryovault: shared with frame fix
+common/game_rules:
+	can_nomad_settle: low prio to prevent settling
+common/inline_scripts:
+	megastructures/arkship: disable arkship construction for worldark
+common/scripted_triggers:
+	nomad_can_settle_trigger: low prio to prevent settling
+	is_arkship_ship: to make the world ark considered an arkship
+	is_arkship_starbase: to make the world ark considered an arkship
+	technician_is_fuel_chemist_trigger:
+	technician_is_shield_tuner_trigger:
+	metallurgist_is_void_forge_trigger:
+	soldier_is_shipwright_trigger:
+	soldier_is_missile_crew_trigger:
+	soldier_is_ammunition_loader_trigger:
+	soldier_is_laser_gunner_trigger:
+	soldier_is_flight_deck_crew_trigger: ALL THE ABOVE FOR ZONE COMPAT
+	orbital_ring_and_arkship_equivalent_absent: add world ark to the planet class list
+common/section_templates
+	all the arkship sections: need to change the ship type allowed and module slot
+common/starbase_modules
+	low prio overwrite of all non spinals to prevent loading into core spinals
+	overwrite of exodus jump and igniter to limit to 1
+common/static_modifiers
+	arkship_fire_rate: add world ark to the modifier
+interface
+	planet_view.gui: for the arkship ui
