@@ -971,7 +971,7 @@ zone_xhk_worldark_sentientmetal = {
 ###########################################################
 zone_xhk_worldark_ordinance_naval = {
     icon = GFX_district_specialization_ark_military
-    empire_limit = { 1 }
+    empire_limit = { base = 5 }
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3

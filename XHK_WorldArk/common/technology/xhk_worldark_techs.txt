@@ -240,8 +240,8 @@ xhk_tech_worldark_11 = {
 
 	weight_modifier = {
 		modifier = {
-			factor = 0.1
-			NOT = { years_passed > 100 }
+			factor = 0.01
+			NOT = { mid_game_years_passed > 0 }
 		}
 		modifier = {
 			factor = 100
@@ -272,7 +272,7 @@ xhk_tech_worldark_12 = {
 	weight_modifier = {
 		modifier = {
 			factor = 0.01
-			NOT = { years_passed > 120 }
+			NOT = { mid_game_years_passed > 0 }
 		}
 		modifier = {
 			factor = 100
