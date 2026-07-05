@@ -4,6 +4,22 @@ xhk_has_worldark_origin = {
     }
 }
 
+xhk_is_worldark_ship = {
+	OR = {
+		is_ship_size = xhk_worldark_tier_1
+		is_ship_size = xhk_worldark_tier_2
+		is_ship_size = xhk_worldark_tier_3
+		is_ship_size = xhk_worldark_tier_4
+		is_ship_size = xhk_worldark_tier_5
+		is_ship_size = xhk_worldark_tier_6
+		is_ship_size = xhk_worldark_tier_7
+		is_ship_size = xhk_worldark_tier_8
+		is_ship_size = xhk_worldark_tier_9
+		is_ship_size = xhk_worldark_tier_10
+		is_ship_size = xhk_worldark_tier_11
+		is_ship_size = xhk_worldark_tier_12
+	}
+}
 xhk_is_worldark_starbase = {
     OR = {
         has_starbase_size = xhk_worldark_tier_1

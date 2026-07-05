@@ -1,9 +1,7 @@
 ﻿l_english:
- trait_auto_xhk_pc_worldark_preference:0 "$xhk_pc_worldark$ Mutations"
-
  origin_xhk_worldark: "The $xhk_pc_worldark$"
  origin_xhk_worldark_desc: "The $xhk_pc_worldark$ is everything to this civilization. Generations have been born, have lived, and have died on it, and many more will do so in the future. They live on a vast, expandable, and mobile home, ready to visit wrath or grace on anyone who opposes them."
- origin_xhk_worldark_tooltip_default_effects: "Start on the §G$xhk_pc_worldark$§!, a massive §Iexpandable Arkship§! with many §Iunique districts, modules, and systems§!.\n\nHowever, they §Rcannot gain another Arkship or settle§!, thus their fate rests on utilizing their massive home well.\n\n\nNOTE: The §IRecursive Learners§! and §IStructural Awareness§! trait §RDOES NOT APPLY§! on the $xhk_pc_worldark$."
+ origin_xhk_worldark_tooltip_default_effects: "Start on the §G$xhk_pc_worldark$§!, a massive §Iexpandable Arkship§! with many §Iunique districts, modules, and systems§!.\n\nHowever, they §Rcannot gain another Arkship or settle§!, thus their fate rests on utilizing their massive home well.\n\nNOTE: The §IRecursive Learners§! and §IStructural Awareness§! traits have special $xhk_pc_worldark$ variations that are automatically swapped."
 
  # civic_tooltip_not_deep_sleep: "Does §RNOT§! have an Deep Sleep Civic"
  worldark_not_compat_deep_sleep: "Does §RNOT§! have the $xhk_pc_worldark$ Origin"
@@ -65,3 +63,15 @@
  mod_shipsize_xhk_worldark_tier_10_fire_rate_mult: "$xhk_worldark_tier_10$ Fire Rate"
  mod_shipsize_xhk_worldark_tier_11_fire_rate_mult: "$xhk_worldark_tier_11$ Fire Rate"
  mod_shipsize_xhk_worldark_tier_12_fire_rate_mult: "$xhk_worldark_tier_12$ Fire Rate"
+
+ ############################################################
+ # traits
+ trait_auto_xhk_pc_worldark_preference:0 "$xhk_pc_worldark$ Mutations"
+ trait_auto_xhk_pc_worldark_preference_desc:0 "$trait_auto_hab_preference_desc$"
+
+ trait_xhk_worldark_recursive_learners_effects: "Grants §G+0.5%§! Specialist and Complex Drone $MOD_POP_BONUS_WORKFORCE_MULT$ per £district£ §Y$DISTRICT$§! (up to §G+25%§!) on the $xhk_pc_worldark$."
+
+ trait_xhk_worldark_recursive_learners: "$trait_recursive_learners$ - World Ark"
+ trait_xhk_worldark_recursive_learners_desc: "$trait_recursive_learners_desc$"
+ trait_xhk_worldark_structural_awareness: "$trait_structural_awareness$ - World Ark"
+ trait_xhk_worldark_structural_awareness_desc: "$trait_structural_awareness_desc$"

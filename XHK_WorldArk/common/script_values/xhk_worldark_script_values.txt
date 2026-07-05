@@ -56,9 +56,19 @@ xhk_worldark_level = {
 	}
 }
 
-xhk_worldark_level_virtual_colony_size = {
+_level_virtual_colony_size = {
 	weight = trigger:num_districts
 	divide = 25
 	subtract = 1
 	min = 0
+}
+
+xhk_worldark_recursive_learners_value = {
+	base = 0.005
+	complex_trigger_modifier = {
+		trigger = num_districts
+		parameters = { type = any }
+		mode = mult
+	}
+	max = 0.25
 }

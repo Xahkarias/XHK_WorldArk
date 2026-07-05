@@ -26,3 +26,71 @@ trait_auto_xhk_pc_worldark_preference = {
         pc_volcanic_habitability 		= @auto_penalty
     }
 }
+
+trait_xhk_worldark_recursive_learners = {
+	host_has_dlc = "Nomads"
+	cost = 1
+	icon = "gfx/interface/icons/traits/trait_recursive_learners.dds"
+	initial = yes
+	species_possible_add = {
+		can_add_genetic_traits = yes
+		from = {
+			has_origin = origin_xhk_worldark
+		}
+	}
+	species_possible_remove = {
+		always = yes
+	} # can be negative if ur not a wark
+	allowed_planet_classes = { pc_ark }
+	localized_tags = { SPECIES_TRAIT_NOMAD }
+	randomized = no
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	tags = { organic positive pop_output research }
+	opposites = { trait_recursive_learners  trait_natural_sociologists trait_natural_engineers }
+	custom_tooltip = trait_xhk_worldark_recursive_learners_effects
+	triggered_pop_group_modifier = {
+		potential = { planet.ship? = { xhk_is_worldark_ship = yes } }
+		specialist_and_complex_drone_cat_bonus_workforce_mult = 1
+		mult = planet.ship.value:xhk_worldark_recursive_learners_value
+	}
+	ai_weight = { weight = 0 }
+	slave_cost = { trade = 250 }
+}
+
+trait_xhk_worldark_structural_awareness = {
+	host_has_dlc = "Nomads"
+	cost = 1
+	icon = "gfx/interface/icons/traits/trait_structural_awareness.dds"
+	initial = yes
+	species_possible_add = {
+		from = {
+			has_origin = origin_xhk_worldark
+		}
+	}
+	allowed_planet_classes = { pc_ark }
+	localized_tags = { SPECIES_TRAIT_NOMAD }
+	randomized = yes
+	allowed_archetypes = { MACHINE ROBOT }
+	tags = { machine positive pop_output research }
+	opposites = { trait_structural_awareness trait_robot_artificial_sociologists trait_robot_artificial_engineers }
+	custom_tooltip = trait_xhk_worldark_recursive_learners_effects
+	triggered_pop_group_modifier = {
+		potential = { planet.ship? = { xhk_is_worldark_ship = yes } }
+		specialist_and_complex_drone_cat_bonus_workforce_mult = 1
+		mult = planet.ship.value:xhk_worldark_recursive_learners_value
+	}
+	ai_weight = { weight = 0 }
+	slave_cost = { trade = 250 }
+	assembly_score = {
+		modifier = {
+			add = 1.5
+			from = { uses_district_set = xhk_pc_worldark }
+		}
+		modifier = {
+			subtract = 1.5
+			from = {
+				NOT = { uses_district_set = xhk_pc_worldark }
+			}
+		}
+	}
+}
