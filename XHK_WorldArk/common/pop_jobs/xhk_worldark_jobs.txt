@@ -1,0 +1,195 @@
+xhk_worldark_extra_healthcare = {
+	category = specialist
+	swappable_data = {
+		default = {
+			condition_string = SPECIALIST_JOB_TRIGGER
+			building_icon = building_medical_3
+		}
+	}
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+
+	resources = {
+		category = planet_doctors
+		upkeep = {
+			consumer_goods = 1
+		}
+	}
+	# base
+	triggered_planet_pop_group_modifier_for_all = {
+		potential = {
+			exists = planet
+			planet = {
+				exists = owner
+				owner = {
+					is_regular_empire = yes
+					xhk_has_worldark_origin = yes
+					is_synthetic_empire = no
+					is_individual_machine = no
+				}
+				# added stop if population controls
+				NOT = { has_modifier = planet_population_control }
+			}
+		}
+		bonus_pop_growth = 0.5
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				xhk_has_worldark_origin = yes
+				is_synthetic_empire = no
+				is_individual_machine = no
+			}
+			# added stop if population controls
+			NOT = { has_modifier = planet_population_control }
+		}
+		fake_pop_growth_mod = 0.5
+	}
+	# clone
+	triggered_planet_pop_group_modifier_for_all = {
+		potential = {
+			exists = planet
+			planet = {
+				xhk_worldark_has_cloning_assembly_facilities = yes
+				exists = owner
+				owner = {
+					is_regular_empire = yes
+					xhk_has_worldark_origin = yes
+					is_individual_machine = no
+					is_synthetic_empire = no
+				}
+				# added stop if population controls
+				NOT = { has_modifier = planet_population_control }
+			}
+		}
+		bonus_pop_growth = 1
+	}
+	triggered_planet_modifier = {
+		potential = {
+			xhk_worldark_has_cloning_assembly_facilities = yes
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				xhk_has_worldark_origin = yes
+				is_individual_machine = no
+				is_synthetic_empire = no
+			}
+			# added stop if population controls
+			NOT = { has_modifier = planet_population_control }
+		}
+		fake_pop_growth_mod = 1
+	}
+	# clone asc
+	triggered_planet_pop_group_modifier_for_all = {
+		potential = {
+			exists = planet
+			planet = {
+				xhk_worldark_has_cloning_assembly_facilities = yes
+				exists = owner
+				owner = {
+					is_regular_empire = yes
+					xhk_has_worldark_origin = yes
+					is_individual_machine = no
+					is_synthetic_empire = no
+					has_cloning_tradition = yes
+				}
+				# added stop if population controls
+				NOT = { has_modifier = planet_population_control }
+			}
+		}
+		bonus_pop_growth = 0.5
+	}
+	triggered_planet_modifier = {
+		potential = {
+			xhk_worldark_has_cloning_assembly_facilities = yes
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				xhk_has_worldark_origin = yes
+				is_individual_machine = no
+				is_synthetic_empire = no
+				has_cloning_tradition = yes
+			}
+			# added stop if population controls
+			NOT = { has_modifier = planet_population_control }
+		}
+		fake_pop_growth_mod = 0.5
+	}
+
+	weight = {
+		weight = 3000
+	}
+
+	inline_script = jobs/automodding_priority_charisma
+}
+
+xhk_worldark_extra_healthcare_drone = {
+	category = complex_drone
+	swappable_data = {
+		default = {
+			condition_string = DRONE_JOB_TRIGGER
+			building_icon = building_medical_3
+		}
+	}
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_drone_job
+
+	resources = {
+		category = planet_doctors
+		upkeep = {
+			energy = 2
+		}
+	}
+	# base
+	triggered_planet_pop_group_modifier_for_all = {
+		potential = {
+			exists = planet
+			planet = {
+				exists = owner
+				owner = {
+					is_gestalt = yes
+					xhk_has_worldark_origin = yes
+				}
+				# added stop if population controls
+				NOT = { has_modifier = planet_population_control }
+			}
+		}
+		bonus_pop_growth = 0.5
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+				xhk_has_worldark_origin = yes
+			}
+			# added stop if population controls
+			NOT = { has_modifier = planet_population_control }
+		}
+		fake_pop_growth_mod = 0.5
+	}
+
+	weight = {
+		weight = 3000
+	}
+
+	inline_script = jobs/automodding_priority_charisma
+}

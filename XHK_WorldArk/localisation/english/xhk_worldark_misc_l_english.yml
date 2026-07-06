@@ -77,3 +77,16 @@
  trait_xhk_worldark_recursive_learners_desc: "$trait_recursive_learners_desc$"
  trait_xhk_worldark_structural_awareness: "$trait_structural_awareness$ - World Ark"
  trait_xhk_worldark_structural_awareness_desc: "$trait_structural_awareness_desc$"
+
+
+ ###############################################################
+ # jobs
+ job_xhk_worldark_extra_healthcare: "$xhk_pc_worldark$ Doctor"
+ job_xhk_worldark_extra_healthcare_plural: "$xhk_pc_worldark$ Doctors"
+ job_xhk_worldark_extra_healthcare_desc: "Extra medical personnel to ensure optimal living conditions for population growth."
+ mod_job_xhk_worldark_extra_healthcare_add: "$job_xhk_worldark_extra_healthcare$ Jobs"
+
+ job_xhk_worldark_extra_healthcare_drone: "$xhk_pc_worldark$ Nursing Drone"
+ job_xhk_worldark_extra_healthcare_drone_plural: "$xhk_pc_worldark$ Nursing Drones"
+ job_xhk_worldark_extra_healthcare_drone_desc: "Extra medical drones to ensure optimal living conditions for organic population growth."
+ mod_job_xhk_worldark_extra_healthcare_drone_add: "$job_xhk_worldark_extra_healthcare_drone$ Jobs"
