@@ -116,18 +116,18 @@
 @xhk_worldark_shipstat_districts_t11 = 50
 @xhk_worldark_shipstat_districts_t12 = 60
 
-@xhk_worldark_shipstat_reactor_t1 = 1
-@xhk_worldark_shipstat_reactor_t2 = 1.25
-@xhk_worldark_shipstat_reactor_t3 = 1.5
-@xhk_worldark_shipstat_reactor_t4 = 1.75
-@xhk_worldark_shipstat_reactor_t5 = 2
-@xhk_worldark_shipstat_reactor_t6 = 2.25
-@xhk_worldark_shipstat_reactor_t7 = 2.5
-@xhk_worldark_shipstat_reactor_t8 = 2.75
-@xhk_worldark_shipstat_reactor_t9 = 3
-@xhk_worldark_shipstat_reactor_t10 = 4.5
-@xhk_worldark_shipstat_reactor_t11 = 6
-@xhk_worldark_shipstat_reactor_t12 = 7
+@xhk_worldark_shipstat_reactor_t1 = 1.5
+@xhk_worldark_shipstat_reactor_t2 = 1.75
+@xhk_worldark_shipstat_reactor_t3 = 2
+@xhk_worldark_shipstat_reactor_t4 = 2.25
+@xhk_worldark_shipstat_reactor_t5 = 2.5
+@xhk_worldark_shipstat_reactor_t6 = 2.75
+@xhk_worldark_shipstat_reactor_t7 = 3
+@xhk_worldark_shipstat_reactor_t8 = 4
+@xhk_worldark_shipstat_reactor_t9 = 5
+@xhk_worldark_shipstat_reactor_t10 = 6
+@xhk_worldark_shipstat_reactor_t11 = 7
+@xhk_worldark_shipstat_reactor_t12 = 8
 
 ########################################################################################################
 ##### SCRIPTED ACTIONS ####
