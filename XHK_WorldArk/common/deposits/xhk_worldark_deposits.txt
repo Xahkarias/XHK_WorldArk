@@ -300,6 +300,13 @@ d_xhk_worldark_pop_standard = {
         job_energy_thrall_add = 0.334
         multiplier = modifier:xhk_worldark_growth_job_add
     }
+
+	##### AUTO MOD ######
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		auto_mod_monthly_add = 1
+		multiplier = modifier:xhk_worldark_growth_job_add
+	}
 }
 
 d_xhk_worldark_pop_hive = {
@@ -346,6 +353,13 @@ d_xhk_worldark_pop_hive = {
         job_drone_energy_thrall_add = 0.334
         multiplier = modifier:xhk_worldark_growth_job_add
     }
+
+	##### AUTO MOD ######
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		auto_mod_monthly_add = 1
+		multiplier = modifier:xhk_worldark_growth_job_add
+	}
 }
 
 d_xhk_worldark_pop_machine = {
@@ -426,6 +440,13 @@ d_xhk_worldark_pop_machine = {
         job_drone_energy_thrall_add = 0.334
         multiplier = modifier:xhk_worldark_growth_job_add
     }
+
+	##### AUTO MOD ######
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		auto_mod_monthly_add = 1
+		multiplier = modifier:xhk_worldark_growth_job_add
+	}
 }
 
 ########################################################

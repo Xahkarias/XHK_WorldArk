@@ -38,9 +38,10 @@
  ####################
  # POPULATION
  xhk_worldark_docs_population: "2) Population"
- xhk_worldark_docs_population_desc: "$xhk_worldark_docs_population_desc_1$$xhk_worldark_docs_population_desc_2$\n[Owner.xhk_worldark_getPopulationDocumentation]"
+ xhk_worldark_docs_population_desc: "$xhk_worldark_docs_population_desc_1$$xhk_worldark_docs_population_desc_2$$xhk_worldark_docs_population_desc_3$\n[Owner.xhk_worldark_getPopulationDocumentation]"
  xhk_worldark_docs_population_desc_1: "In order to keep the population of the $xhk_pc_worldark$ mildly competitive, it gains extra growth jobs based on the size of the $xhk_pc_worldark$."
  xhk_worldark_docs_population_desc_2: "\n\nPer £district£district increase, §G+15 Pop Growth§! jobs are added, which are then turned into actual jobs / buffs based on your empire and the buildings."
+ xhk_worldark_docs_population_desc_3: "\nEach §GPop Growth§! job also grants +1 $MOD_AUTO_MOD_MONTHLY_ADD$."
 
  xhk_worldark_docs_population_desc_norm: "$xhk_worldark_docs_population_desc_norm_1$$xhk_worldark_docs_population_desc_norm_2$$xhk_worldark_docs_population_desc_norm_3$$xhk_worldark_docs_population_desc_norm_4$$xhk_worldark_docs_population_desc_norm_5$$xhk_worldark_docs_population_desc_norm_6$"
  xhk_worldark_docs_population_desc_norm_1: "\n§3Individualist Biological Empire§!: Base of §G+0.5 $mod_fake_pop_growth_mod$§! per 100 Pop Growth Jobs. Below lines add extra effects."
