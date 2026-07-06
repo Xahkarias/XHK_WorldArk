@@ -49,6 +49,8 @@
  xhk_size_harvested_already: "Harvested for Matter by $xhk_pc_worldark$"
  xhk_size_harvested_already_tt: "§RUnable to be harvested by a $xhk_pc_worldark$ for expansion§!"
 
+ XHK_TOAST_HARVEST_SIZE_READY_TITLE: "$xhk_pc_worldark$ Ready to Expand"
+ XHK_TOAST_HARVEST_SIZE_READY_DESC: "§I$xhk_worldark_size_harvest$§! is off cooldown and ready to harvest."
  # arkship_harvesting_in_progress_tt: "$TRIGGER_FAIL$Target already has a Resource Harvesting action queued or in progress."
 
  ##############################################

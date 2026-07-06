@@ -44,6 +44,8 @@ carrier_event = {
                 # this tags the fleet, easier to reference than the ship or the colony
                 set_timed_fleet_flag = { flag = xhk_expand_harvest_cooldown days = @xhk_worldark_harvest_cd }
             }
+
+			owner = { country_event = { id = xhk_worldark.2 days = @xhk_worldark_harvest_cd } }
         }
 
         # from.starbase.ship.carrier = { # ARKSHIP SCOPE
@@ -71,7 +73,20 @@ carrier_event = {
         }
     }
 }
+country_event = {
+	id = xhk_worldark.2
+	hide_window = yes
+	is_triggered_only = yes
 
+	immediate = { # TARGET PLANET SCOPE
+		create_message = {
+			type = XHK_TOAST_HARVEST_SIZE_READY
+			localization = XHK_TOAST_HARVEST_SIZE_READY_DESC
+			days = 30 (-1 is infinite)
+			target = capital_scope
+		}
+	}
+}
 
 # EAT THE OTHER SHIP
 # triggered monthly

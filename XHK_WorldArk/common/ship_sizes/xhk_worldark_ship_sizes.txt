@@ -631,7 +631,6 @@ xhk_worldark_tier_12 = {
 		"spinal_mount_4"	=	{ locator = "spinal_mount_4" }
 		"spinal_mount_5"	=	{ locator = "spinal_mount_5" }
 		"spinal_mount_6"	=	{ locator = "spinal_mount_6" }
-		# if i name it something else it goes into the modules
 		"spinal_mount_7"	=	{ locator = "giga_spinal_01" }
 	}
 	# Ship setup
