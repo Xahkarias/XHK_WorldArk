@@ -45,8 +45,8 @@ weapon_component_template = {
     accuracy = 0.8
     tracking = 0
 	# 100 size define, so 21x damage for a weapon that gets +20% per size
-	# this is 50x damage
-    size_damage_factor = 0.5
+	# this is 21x damage
+    size_damage_factor = 0.2
     military_power_multiplier = 1
 
     firing_arc = 15.0
