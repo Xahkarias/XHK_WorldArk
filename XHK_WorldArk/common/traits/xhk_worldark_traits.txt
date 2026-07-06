@@ -6,7 +6,7 @@ trait_auto_xhk_pc_worldark_preference = {
     modifier = {
         # KEEP IT LOW SO IT DOESNT GET BUSTED WITH THE OVERCAP HAB
         # +50% from base trait + 100% from worldark
-        xhk_pc_worldark_habitability = -0.20
+        xhk_pc_worldark_habitability = 0.20
         # Dry
         pc_desert_habitability 			= @auto_penalty
         pc_arid_habitability 			= @auto_penalty
@@ -38,6 +38,7 @@ trait_xhk_worldark_recursive_learners = {
 			has_origin = origin_xhk_worldark
 		}
 	}
+	allowed_origins = { origin_xhk_worldark }
 	species_possible_remove = {
 		always = yes
 	} # can be negative if ur not a wark
@@ -67,6 +68,7 @@ trait_xhk_worldark_structural_awareness = {
 			has_origin = origin_xhk_worldark
 		}
 	}
+	allowed_origins = { origin_xhk_worldark }
 	allowed_planet_classes = { pc_ark }
 	localized_tags = { SPECIES_TRAIT_NOMAD }
 	randomized = yes
