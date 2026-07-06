@@ -20,7 +20,7 @@ xhk_worldark_spinal_hunter_cannon = {
         is_nomadic = yes
     }
 
-	fits_on_slots = { spinal_mount_1 spinal_mount_2 spinal_mount_3 spinal_mount_4 spinal_mount_5 spinal_mount_6}
+	fits_on_slots = { spinal_mount_1 }
 
     resources = {
         category = starbase_arkship_upgrades
@@ -61,6 +61,10 @@ xhk_worldark_spinal_pk_cracker = {
         xhk_is_worldark_starbase = yes
     }
 
+	possible = {
+		xhk_has_colossus_integrated = no
+	}
+
 	starbase_limit = {
 		base = 1
 	}
@@ -71,7 +75,7 @@ xhk_worldark_spinal_pk_cracker = {
 		xhk_has_worldark_origin = yes
     }
 
-    fits_on_slots = { spinal_mount_1 spinal_mount_2 spinal_mount_3 spinal_mount_4 spinal_mount_5 spinal_mount_6}
+    fits_on_slots = { spinal_mount_1 }
 
     resources = {
         category = starbase_arkship_upgrades
@@ -94,6 +98,59 @@ xhk_worldark_spinal_pk_cracker = {
     ai_weight = {
         weight = 10
     }
+}
+xhk_worldark_spinal_pk_shielder = {
+	icon = "GFX_xhk_worldark_pk_global_pacifier"
+	section = "XHK_ARKSHIP_SPINAL_PK_SHIELDER_SECTION"
+	construction_days = @arkship_spinal_mount_build_time
+	starbase_type = arkship
+	category = sm_spinal_cat
+
+	potential = {
+		owner? = {
+			has_technology = tech_pk_cracker
+		}
+		has_apocalypse_dlc = yes
+		xhk_is_worldark_starbase = yes
+	}
+
+	possible = {
+		xhk_has_colossus_integrated = no
+	}
+
+	starbase_limit = {
+		base = 1
+	}
+
+	show_in_tech = "tech_pk_shielder"
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+	fits_on_slots = { spinal_mount_1 }
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = @arkship_cost_alloys_5000
+			volatile_motes = @arkship_cost_strategic_500
+			unity = @arkship_cost_unity_500
+		}
+
+		upkeep = {
+			energy = @arkship_upkeep_energy_5
+			volatile_motes = @arkship_upkeep_strategic_1
+		}
+	}
+
+	component_set = XHK_ARKSHIP_SPINAL_PK_SHIELDER_SET
+	show_component_tooltips = yes
+	custom_tooltip = xhk_worldark_spinal_planet_shielder_tt
+
+	ai_weight = {
+		weight = 10
+	}
 }
 
 ###### CORE SPINALS ######

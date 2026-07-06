@@ -48,6 +48,8 @@
  xhk_harvest_plus1: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_small]§!"
  xhk_harvest_plus2: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_large]§!"
 
+ xhk_worldark_dummy_error: "You shouldnt be seeing this, let me know if you see this: Error AB"
+ xhk_worldark_dummy_error2: "You shouldnt be seeing this, let me know if you see this: Error AC"
  ############################################################
  # random modifiers
 

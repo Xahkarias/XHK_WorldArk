@@ -55,15 +55,27 @@
  # PLANET KILLER
  xhk_pk_world_cracker_activity_key: "Firing $PLANET_KILLER_CRACKER$"
  xhk_pk_world_cracker: "Integrated $PLANET_KILLER_CRACKER$"
- xhk_pk_world_cracker_progress_activity_key: "Planet Killer Charging (§Y$PROGRESS$%§!)"
+ xhk_worldark_spinal_planet_cracker_tt: "$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$PLANET_KILLER_CRACKER$§!."
+ xhk_pk_world_cracker_progress_activity_key: "$PLANET_KILLER_CRACKER$ Charging (§Y$PROGRESS$%§!)"
  xhk_pk_world_cracker_progress_progress_key: "£time£120 §WDays§!"
  xhk_pk_world_cracker_button: "Activate the §R$PLANET_KILLER_CRACKER$§!.\n\n§L$PLANET_KILLER_CRACKER_DESC$§!"
-
  XHK_TOAST_PLANETKILLER_COMPLETE_TITLE: "World Cracked"
  XHK_TOAST_PLANETKILLER_COMPLETE_DESC: "The §Y$FLEET$§! has cracked a planet."
  sm_xhk_worldark_spinal_pk_cracker: "$PLANET_KILLER_CRACKER$"
  sm_xhk_worldark_spinal_pk_cracker_desc: "$PLANET_KILLER_CRACKER_DESC$"
  XHK_ARKSHIP_SPINAL_PK_CRACKER_WEAPON: "$PLANET_KILLER_CRACKER$"
+
+ xhk_pk_global_pacifier_activity_key: "Firing $PLANET_KILLER_SHIELDER$"
+ xhk_pk_global_pacifier: "Integrated $PLANET_KILLER_SHIELDER$"
+ xhk_worldark_spinal_planet_shielder_tt: "$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$PLANET_KILLER_SHIELDER$§!."
+ xhk_pk_global_pacifier_progress_activity_key: "$PLANET_KILLER_SHIELDER$ Charging (§Y$PROGRESS$%§!)"
+ xhk_pk_global_pacifier_progress_progress_key: "£time£120 §WDays§!"
+ xhk_pk_global_pacifier_button: "Activate the §R$PLANET_KILLER_SHIELDER$§!.\n\n§L$PLANET_KILLER_SHIELDER_DESC$§!"
+ XHK_TOAST_PLANETSHIELDER_COMPLETE_TITLE: "Planet Shielded"
+ XHK_TOAST_PLANETSHIELDER_COMPLETE_DESC: "The §Y$FLEET$§! has permanently encased a planet."
+ sm_xhk_worldark_spinal_pk_shielder: "$PLANET_KILLER_SHIELDER$"
+ sm_xhk_worldark_spinal_pk_shielder_desc: "$PLANET_KILLER_SHIELDER_DESC$"
+ XHK_ARKSHIP_SPINAL_PK_SHIELDER_WEAPON: "$PLANET_KILLER_SHIELDER$"
 
  ########################################################################################################
  ### COMPONENTS

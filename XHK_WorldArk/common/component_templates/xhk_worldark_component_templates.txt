@@ -85,9 +85,40 @@ weapon_component_template = {
     }
 
 
-    tags = { weapon_type_kinetic weapon_role_artillery t_slot }
+    tags = { t_slot }
     component_set = "XHK_ARKSHIP_SPINAL_PK_CRACKER_SET"
     projectile_gfx = "arkship_01_devastator_laser"
+}
+weapon_component_template = {
+	key = "XHK_ARKSHIP_SPINAL_PK_SHIELDER_WEAPON"
+	size = titanic
+	type = instant
+	prio_projectile = yes
+	hidden = yes
+
+	icon = "GFX_ship_part_global_pacifier"
+	icon_frame = 1
+
+	potential = {
+		xhk_worldark_has_spinal = yes
+	}
+
+	scripted_action = {
+		xhk_worldark_pk_global_pacifier
+	}
+
+	resources = {
+		category = ship_components
+		upkeep = {
+			alloys = @titanic_t7_upkeep_alloys
+			energy = @titanic_t7_upkeep_energy
+		}
+	}
+
+
+	tags = { t_slot }
+	component_set = "XHK_ARKSHIP_SPINAL_PK_SHIELDER_SET"
+	projectile_gfx = "arkship_01_devastator_laser"
 }
 
 ######### CORE SPINAL #########

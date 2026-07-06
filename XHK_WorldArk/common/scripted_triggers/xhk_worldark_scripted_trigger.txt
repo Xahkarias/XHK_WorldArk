@@ -37,6 +37,13 @@ xhk_is_worldark_starbase = {
     }
 }
 
+xhk_has_colossus_integrated = {
+	OR = {
+		has_starbase_module = xhk_worldark_spinal_pk_cracker
+		has_starbase_module = xhk_worldark_spinal_pk_shielder
+	}
+}
+
 xhk_worldark_has_spinal = {
 	OR = {
 		is_ship_size = xhk_worldark_tier_8

@@ -38,5 +38,18 @@ xhk_pk_world_cracker = {
         planet_destruction.100 # goes last because it can kill a country, making some trigger checks impossible
         awareness.150 # Planet cracker used OR planet terraformed, chance to gain 20 awareness.
         timeline.27         # Milestone First Destroyed Planet
+		giga_paluush.103  # Paluush unaffected by cracker
     }
+}
+# on_destroy_planet_with_PLANET_KILLER_SHIELDER
+xhk_pk_global_pacifier = {
+	events = {
+		crisis.5015 # Menace Objective - Destroy World/Empire
+		toxoids.8016 #Destroyed knight Keep placed up here so events fire while it's a planet
+		planet_destruction.200
+		planet_destruction.600 # frag holy world
+		origin.3245
+		awareness.150 # Planet cracker used OR planet terraformed, chance to gain 20 awareness.
+		giga_paluush.101 # Paluush destroy shield
+	}
 }

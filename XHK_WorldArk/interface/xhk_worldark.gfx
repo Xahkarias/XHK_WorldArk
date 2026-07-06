@@ -117,18 +117,25 @@ spriteTypes = {
 
 	####################################################################################################################
 	# STARBASE ICONS
+	# spinals
 	spriteType = {
 		name = "GFX_xhk_worldark_pk_world_cracker"
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_pk_world_cracker.dds"
 	}
 	spriteType = {
+		name = "GFX_xhk_worldark_pk_global_pacifier"
+		texturefile = "gfx/interface/icons/modules/xhk_worldark_pk_global_pacifier.dds"
+	}
+	spriteType = {
 		name = "GFX_xhk_worldark_arkship_hunter_mount"
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_arkship_hunter_mount.dds"
 	}
+	# core spinals
 	spriteType = {
 		name = "GFX_xhk_worldark_corespinal_planetgun_mount"
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_corespinal_planetgun_mount.dds"
 	}
+
 
 	####################################################################################################################
 	# BACKDROP
