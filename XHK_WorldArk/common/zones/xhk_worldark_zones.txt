@@ -1035,8 +1035,9 @@ zone_xhk_worldark_ordinance_missile_silos = {
 
     planet_modifier = {
         planet_soldiers_alloys_upkeep_add = 0.15
-        weapon_explosive_from_soldiers = 0.05
-    }
+		planet_soldiers_volatile_motes_upkeep_add = 0.15
+		weapon_explosive_from_soldiers = 0.05
+	}
 
     zone_sets = {
         xhk_worldark_ordinance
@@ -1070,6 +1071,7 @@ zone_xhk_worldark_ordinance_ammunition_lines = {
 
     planet_modifier = {
         planet_soldiers_alloys_upkeep_add = 0.15
+		planet_soldiers_volatile_motes_upkeep_add = 0.15
         weapon_kinetic_from_soldiers = 0.05
     }
 
@@ -1105,6 +1107,7 @@ zone_xhk_worldark_ordinance_laser_capacitors = {
 
     planet_modifier = {
         planet_soldiers_alloys_upkeep_add = 0.15
+		planet_soldiers_rare_crystals_upkeep_add = 0.15
         weapon_energy_from_soldiers = 0.05
     }
 
@@ -1140,6 +1143,7 @@ zone_xhk_worldark_ordinance_flight_decks = {
 
     planet_modifier = {
         planet_soldiers_alloys_upkeep_add = 0.15
+		planet_soldiers_exotic_gases_upkeep_add = 0.15
         weapon_strike_craft_from_soldiers = 0.05
     }
 
