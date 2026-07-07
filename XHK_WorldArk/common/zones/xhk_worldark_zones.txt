@@ -440,6 +440,10 @@ zone_xhk_worldark_servitor = {
         unity
         urban_automation
     }
+	include = {
+		building_fe_sky_dome
+		building_fe_dome
+	}
 
     # doubled
     inline_script = {
@@ -612,10 +616,11 @@ zone_xhk_worldark_amenities = {
         building_fe_clinic_2
         building_fe_entertainment_1
         building_fe_entertainment_2
+		building_fe_sky_dome
+		building_fe_dome
         galactic_history_holomuseum
         aesthetic_wonders_holomuseum
         xeno_geology_holomuseum
-
 
         #PD
         building_pd_eludium_floating_resort
@@ -666,6 +671,8 @@ zone_xhk_worldark_amenities_dystopian = {
         building_fe_clinic_2
         building_fe_entertainment_1
         building_fe_entertainment_2
+		building_fe_sky_dome
+		building_fe_dome
         galactic_history_holomuseum
         aesthetic_wonders_holomuseum
         xeno_geology_holomuseum

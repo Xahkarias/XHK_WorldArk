@@ -5,7 +5,7 @@ trait_auto_xhk_pc_worldark_preference = {
     }
     modifier = {
         # KEEP IT LOW SO IT DOESNT GET BUSTED WITH THE OVERCAP HAB
-        # +50% from base trait + 100% from worldark
+        # +20% from trait + 100% from worldark
         xhk_pc_worldark_habitability = 0.20
         # Dry
         pc_desert_habitability 			= @auto_penalty
