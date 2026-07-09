@@ -15,6 +15,26 @@ component_set = {
 	icon = "GFX_ship_part_global_pacifier"
 	icon_frame = 1
 }
+component_set = {
+	key = "XHK_ARKSHIP_SPINAL_PK_NEUTRON_SET"
+	icon = "GFX_ship_part_neutron_sweep"
+	icon_frame = 1
+}
+component_set = {
+	key = "XHK_ARKSHIP_SPINAL_PK_GODRAY_SET"
+	icon = "GFX_ship_part_divine_enforcer"
+	icon_frame = 1
+}
+component_set = {
+	key = "XHK_ARKSHIP_SPINAL_PK_NANOBOTS_SET"
+	icon = "GFX_ship_part_nanobot_diffuser"
+	icon_frame = 1
+}
+component_set = {
+	key = "XHK_ARKSHIP_SPINAL_PK_DEVOLUTION_SET"
+	icon = "GFX_ship_part_devolution_beam"
+	icon_frame = 1
+}
 
 ############ CORE SPINALS #############
 component_set = {

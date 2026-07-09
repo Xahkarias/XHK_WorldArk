@@ -53,3 +53,39 @@ xhk_pk_global_pacifier = {
 		giga_paluush.101 # Paluush destroy shield
 	}
 }
+# on_destroy_planet_with_PLANET_KILLER_NEUTRON
+xhk_pk_neutron_sweep = {
+	events = {
+		planet_destruction.300
+		origin.3245
+		awareness.150 # Planet cracker used OR planet terraformed, chance to gain 20 awareness.
+		giga_paluush.102 # Paluush unaffected by neutron
+	}
+}
+# on_destroy_planet_with_PLANET_KILLER_GODRAY
+xhk_pk_divine_enforcer = {
+	events = {
+		planet_destruction.400
+		origin.3245
+		awareness.150 # Planet cracker used OR planet terraformed, chance to gain 20 awareness.
+		giga_paluush.104  # Paluush unaffected by godray
+	}
+}
+# on_destroy_planet_with_PLANET_KILLER_NANOBOTS
+xhk_pk_nanobot_diffuser = {
+	events = {
+		crisis.5015 # Menace Objective - Destroy World/Empire
+		planet_destruction.500
+		origin.3245
+		awareness.150 # Planet cracker used OR planet terraformed, chance to gain 20 awareness.
+		giga_paluush.105  # Paluush unaffected by nanobots
+	}
+}
+# on_destroy_planet_with_PLANET_KILLER_DEVOLUTION = {
+xhk_pk_devolution_beam = {
+	events = {
+		planet_destruction.900
+		origin.3245
+		awareness.150 # Planet cracker used OR planet terraformed, chance to gain 20 awareness.
+	}
+}

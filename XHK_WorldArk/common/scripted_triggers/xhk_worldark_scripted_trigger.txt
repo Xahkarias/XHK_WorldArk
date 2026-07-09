@@ -41,6 +41,10 @@ xhk_has_colossus_integrated = {
 	OR = {
 		has_starbase_module = xhk_worldark_spinal_pk_cracker
 		has_starbase_module = xhk_worldark_spinal_pk_shielder
+		has_starbase_module = xhk_worldark_spinal_pk_neutron
+		has_starbase_module = xhk_worldark_spinal_pk_godray
+		has_starbase_module = xhk_worldark_spinal_pk_nanobots
+		has_starbase_module = xhk_worldark_spinal_pk_devolution
 	}
 }
 

@@ -4663,7 +4663,6 @@ ship_section_template = {
         locatorname = "xl_gun_01"
     }
 }
-
 ship_section_template = {
 	key = "XHK_ARKSHIP_SPINAL_PK_SHIELDER_SECTION"
 	entity = "spinal_module_mini_catapult_01_entity"
@@ -4675,6 +4674,66 @@ ship_section_template = {
 
 	component_slot = {
 		name = "XHK_ARKSHIP_SPINAL_PK_SHIELDER_WEAPON"
+		template = "invisible_titanic_turret"
+		locatorname = "xl_gun_01"
+	}
+}
+ship_section_template = {
+	key = "XHK_ARKSHIP_SPINAL_PK_NEUTRON_SECTION"
+	entity = "spinal_module_mini_catapult_01_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	inline_script = {
+		script = xhk_worldark/section_templates/arkship_class_list_spinal
+	}
+
+	component_slot = {
+		name = "XHK_ARKSHIP_SPINAL_PK_NEUTRON_WEAPON"
+		template = "invisible_titanic_turret"
+		locatorname = "xl_gun_01"
+	}
+}
+ship_section_template = {
+	key = "XHK_ARKSHIP_SPINAL_PK_GODRAY_SECTION"
+	entity = "spinal_module_mini_catapult_01_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	inline_script = {
+		script = xhk_worldark/section_templates/arkship_class_list_spinal
+	}
+
+	component_slot = {
+		name = "XHK_ARKSHIP_SPINAL_PK_GODRAY_WEAPON"
+		template = "invisible_titanic_turret"
+		locatorname = "xl_gun_01"
+	}
+}
+ship_section_template = {
+	key = "XHK_ARKSHIP_SPINAL_PK_NANOBOTS_SECTION"
+	entity = "spinal_module_mini_catapult_01_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	inline_script = {
+		script = xhk_worldark/section_templates/arkship_class_list_spinal
+	}
+
+	component_slot = {
+		name = "XHK_ARKSHIP_SPINAL_PK_NANOBOT_WEAPON"
+		template = "invisible_titanic_turret"
+		locatorname = "xl_gun_01"
+	}
+}
+ship_section_template = {
+	key = "XHK_ARKSHIP_SPINAL_PK_DEVOLUTION_SECTION"
+	entity = "spinal_module_mini_catapult_01_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	inline_script = {
+		script = xhk_worldark/section_templates/arkship_class_list_spinal
+	}
+
+	component_slot = {
+		name = "XHK_ARKSHIP_SPINAL_PK_DEVOLUTION_WEAPON"
 		template = "invisible_titanic_turret"
 		locatorname = "xl_gun_01"
 	}

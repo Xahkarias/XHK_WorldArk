@@ -92,7 +92,6 @@ xhk_worldark_spinal_pk_cracker = {
     }
 
     component_set = XHK_ARKSHIP_SPINAL_PK_CRACKER_SET
-    show_component_tooltips = yes
     custom_tooltip = xhk_worldark_spinal_planet_cracker_tt
 
     ai_weight = {
@@ -145,8 +144,215 @@ xhk_worldark_spinal_pk_shielder = {
 	}
 
 	component_set = XHK_ARKSHIP_SPINAL_PK_SHIELDER_SET
-	show_component_tooltips = yes
 	custom_tooltip = xhk_worldark_spinal_planet_shielder_tt
+
+	ai_weight = {
+		weight = 10
+	}
+}
+xhk_worldark_spinal_pk_neutron = {
+	icon = "GFX_xhk_worldark_pk_neutron_sweep"
+	section = "XHK_ARKSHIP_SPINAL_PK_NEUTRON_SECTION"
+	construction_days = @arkship_spinal_mount_build_time
+	starbase_type = arkship
+	category = sm_spinal_cat
+
+	potential = {
+		owner? = {
+			has_technology = tech_pk_neutron
+		}
+		has_apocalypse_dlc = yes
+		xhk_is_worldark_starbase = yes
+	}
+
+	possible = {
+		xhk_has_colossus_integrated = no
+	}
+
+	starbase_limit = {
+		base = 1
+	}
+
+	show_in_tech = "tech_pk_neutron"
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+	fits_on_slots = { spinal_mount_1 }
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = @arkship_cost_alloys_5000
+			volatile_motes = @arkship_cost_strategic_500
+			unity = @arkship_cost_unity_500
+		}
+
+		upkeep = {
+			energy = @arkship_upkeep_energy_5
+			volatile_motes = @arkship_upkeep_strategic_1
+		}
+	}
+
+	component_set = XHK_ARKSHIP_SPINAL_PK_NEUTRON_SET
+	custom_tooltip = xhk_worldark_spinal_planet_neutron_tt
+
+	ai_weight = {
+		weight = 10
+	}
+}
+xhk_worldark_spinal_pk_godray = {
+	icon = "GFX_xhk_worldark_pk_divine_enforcer"
+	section = "XHK_ARKSHIP_SPINAL_PK_GODRAY_SECTION"
+	construction_days = @arkship_spinal_mount_build_time
+	starbase_type = arkship
+	category = sm_spinal_cat
+
+	potential = {
+		owner? = {
+			has_technology = tech_pk_godray
+		}
+		has_apocalypse_dlc = yes
+		xhk_is_worldark_starbase = yes
+	}
+
+	possible = {
+		xhk_has_colossus_integrated = no
+	}
+
+	starbase_limit = {
+		base = 1
+	}
+
+	show_in_tech = "tech_pk_godray"
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+	fits_on_slots = { spinal_mount_1 }
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = @arkship_cost_alloys_5000
+			volatile_motes = @arkship_cost_strategic_500
+			unity = @arkship_cost_unity_500
+		}
+
+		upkeep = {
+			energy = @arkship_upkeep_energy_5
+			volatile_motes = @arkship_upkeep_strategic_1
+		}
+	}
+
+	component_set = XHK_ARKSHIP_SPINAL_PK_GODRAY_SET
+	custom_tooltip = xhk_worldark_spinal_planet_godray_tt
+
+	ai_weight = {
+		weight = 10
+	}
+}
+xhk_worldark_spinal_pk_nanobots = {
+	icon = "GFX_xhk_worldark_pk_nanobot_diffuser"
+	section = "XHK_ARKSHIP_SPINAL_PK_NANOBOTS_SECTION"
+	construction_days = @arkship_spinal_mount_build_time
+	starbase_type = arkship
+	category = sm_spinal_cat
+
+	potential = {
+		owner? = {
+			has_technology = tech_pk_nanobots
+		}
+		has_apocalypse_dlc = yes
+		xhk_is_worldark_starbase = yes
+	}
+
+	possible = {
+		xhk_has_colossus_integrated = no
+	}
+
+	starbase_limit = {
+		base = 1
+	}
+
+	show_in_tech = "tech_pk_nanobots"
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+	fits_on_slots = { spinal_mount_1 }
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = @arkship_cost_alloys_5000
+			volatile_motes = @arkship_cost_strategic_500
+			unity = @arkship_cost_unity_500
+		}
+
+		upkeep = {
+			energy = @arkship_upkeep_energy_5
+			volatile_motes = @arkship_upkeep_strategic_1
+		}
+	}
+
+	component_set = XHK_ARKSHIP_SPINAL_PK_NANOBOTS_SET
+	custom_tooltip = xhk_worldark_spinal_planet_nanobots_tt
+
+	ai_weight = {
+		weight = 10
+	}
+}
+xhk_worldark_spinal_pk_devolution = {
+	icon = "GFX_xhk_worldark_pk_devolution_beam"
+	section = "XHK_ARKSHIP_SPINAL_PK_DEVOLUTION_SECTION"
+	construction_days = @arkship_spinal_mount_build_time
+	starbase_type = arkship
+	category = sm_spinal_cat
+
+	potential = {
+		owner? = {
+			has_technology = tech_archaeo_pk_devolving_beam
+		}
+		has_apocalypse_dlc = yes
+		xhk_is_worldark_starbase = yes
+	}
+
+	possible = {
+		xhk_has_colossus_integrated = no
+	}
+
+	starbase_limit = {
+		base = 1
+	}
+
+	show_in_tech = "tech_archaeo_pk_devolving_beam"
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+	fits_on_slots = { spinal_mount_1 }
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = @arkship_cost_alloys_5000
+			volatile_motes = @arkship_cost_strategic_500
+			unity = @arkship_cost_unity_500
+		}
+
+		upkeep = {
+			energy = @arkship_upkeep_energy_5
+			volatile_motes = @arkship_upkeep_strategic_1
+		}
+	}
+
+	component_set = XHK_ARKSHIP_SPINAL_PK_DEVOLUTION_SET
+	custom_tooltip = xhk_worldark_spinal_planet_devolution_tt
 
 	ai_weight = {
 		weight = 10

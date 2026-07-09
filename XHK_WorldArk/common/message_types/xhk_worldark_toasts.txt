@@ -66,3 +66,55 @@ message_type = {
 
 	category = other
 }
+message_type = {
+	key = "XHK_TOAST_PLANETNEUTRON_COMPLETE"
+	icon = "GFX_toast_reprocess_planet_complete"
+
+	name = "XHK_TOAST_PLANETNEUTRON_COMPLETE_TITLE"
+	sound = "notification"
+	ping = "ping_notification_green"
+
+	default_notification = yes
+	default_toast = no
+
+	category = other
+}
+message_type = {
+	key = "XHK_TOAST_PLANETGODRAY_COMPLETE"
+	icon = "GFX_toast_reprocess_planet_complete"
+
+	name = "XHK_TOAST_PLANETGODRAY_COMPLETE_TITLE"
+	sound = "notification"
+	ping = "ping_notification_green"
+
+	default_notification = yes
+	default_toast = no
+
+	category = other
+}
+message_type = {
+	key = "XHK_TOAST_PLANETNANOBOT_COMPLETE"
+	icon = "GFX_toast_reprocess_planet_complete"
+
+	name = "XHK_TOAST_PLANETNANOBOT_COMPLETE_TITLE"
+	sound = "notification"
+	ping = "ping_notification_green"
+
+	default_notification = yes
+	default_toast = no
+
+	category = other
+}
+message_type = {
+	key = "XHK_TOAST_PLANETDEVOLVE_COMPLETE"
+	icon = "GFX_toast_reprocess_planet_complete"
+
+	name = "XHK_TOAST_PLANETDEVOLVE_COMPLETE_TITLE"
+	sound = "notification"
+	ping = "ping_notification_green"
+
+	default_notification = yes
+	default_toast = no
+
+	category = other
+}

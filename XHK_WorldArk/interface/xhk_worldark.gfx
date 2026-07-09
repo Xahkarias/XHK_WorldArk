@@ -127,6 +127,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_pk_global_pacifier.dds"
 	}
 	spriteType = {
+		name = "GFX_xhk_worldark_pk_neutron_sweep"
+		texturefile = "gfx/interface/icons/modules/xhk_worldark_pk_neutron_sweep.dds"
+	}
+	spriteType = {
+		name = "GFX_xhk_worldark_pk_divine_enforcer"
+		texturefile = "gfx/interface/icons/modules/xhk_worldark_pk_divine_enforcer.dds"
+	}
+	spriteType = {
+		name = "GFX_xhk_worldark_pk_nanobot_diffuser"
+		texturefile = "gfx/interface/icons/modules/xhk_worldark_pk_nanobot_diffuser.dds"
+	}
+	spriteType = {
+		name = "GFX_xhk_worldark_pk_devolution_beam"
+		texturefile = "gfx/interface/icons/modules/xhk_worldark_pk_devolution_beam.dds"
+	}
+	spriteType = {
 		name = "GFX_xhk_worldark_arkship_hunter_mount"
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_arkship_hunter_mount.dds"
 	}

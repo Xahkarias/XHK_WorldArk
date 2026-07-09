@@ -225,3 +225,243 @@ xhk_worldark_pk_global_pacifier = {
 		weight = 0
 	}
 }
+xhk_worldark_pk_neutron_sweep = {
+	user_scope = fleet
+	scope = planet
+
+	# automation_priority = 10
+	# automation_default_on = no
+	on_completed = xhk_pk_neutron_sweep
+	tooltip = xhk_pk_neutron_sweep_button
+	icon = GFX_XHK_fleet_order_blow_up_planet_action
+	icon_selected = GFX_XHK_fleet_order_blow_up_planet_action
+
+	possible = {
+		can_destroy_planet_with_PLANET_KILLER_NEUTRON = yes
+	}
+
+	hide_from_context_menu = {
+		always = yes
+	}
+
+	button_visible = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error
+			starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_neutron
+			}
+		}
+	}
+
+	button_clickable = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error2
+			starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_neutron
+			}
+		}
+	}
+
+	activity_key = xhk_pk_neutron_sweep_activity_key
+	context_menu_name = xhk_pk_neutron_sweep
+	required_progress = 120
+	progress_activity_key = xhk_pk_neutron_sweep_progress_activity_key
+	required_progress_key = xhk_pk_neutron_sweep_progress_progress_key
+	cooldown = 1
+	# category = harvest_resources
+	# category_limit = 1
+
+	uses_vfx_type = harvest_effect
+
+	cost = {
+		energy = 50
+	}
+	slot = 5
+
+	completion_message_type = XHK_TOAST_PLANETNEUTRON_COMPLETE
+	completion_message_localization = XHK_TOAST_PLANETNEUTRON_COMPLETE_DESC
+
+	ai = {
+		weight = 0
+	}
+}
+xhk_worldark_pk_divine_enforcer = {
+	user_scope = fleet
+	scope = planet
+
+	# automation_priority = 10
+	# automation_default_on = no
+	on_completed = xhk_pk_divine_enforcer
+	tooltip = xhk_pk_divine_enforcer_button
+	icon = GFX_XHK_fleet_order_blow_up_planet_action
+	icon_selected = GFX_XHK_fleet_order_blow_up_planet_action
+
+	possible = {
+		can_destroy_planet_with_PLANET_KILLER_GODRAY = yes
+	}
+
+	hide_from_context_menu = {
+		always = yes
+	}
+
+	button_visible = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error
+			starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_godray
+			}
+		}
+	}
+
+	button_clickable = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error2
+			starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_godray
+			}
+		}
+	}
+
+	activity_key = xhk_pk_divine_enforcer_activity_key
+	context_menu_name = xhk_pk_divine_enforcer
+	required_progress = 120
+	progress_activity_key = xhk_pk_divine_enforcer_progress_activity_key
+	required_progress_key = xhk_pk_divine_enforcer_progress_progress_key
+	cooldown = 1
+	# category = harvest_resources
+	# category_limit = 1
+
+	uses_vfx_type = harvest_effect
+
+	cost = {
+		energy = 50
+	}
+	slot = 5
+
+	completion_message_type = XHK_TOAST_PLANETGODRAY_COMPLETE
+	completion_message_localization = XHK_TOAST_PLANETGODRAY_COMPLETE_DESC
+
+	ai = {
+		weight = 0
+	}
+}
+xhk_worldark_pk_nanobot_diffuser = {
+	user_scope = fleet
+	scope = planet
+
+	# automation_priority = 10
+	# automation_default_on = no
+	on_completed = xhk_pk_nanobot_diffuser
+	tooltip = xhk_pk_nanobot_diffuser_button
+	icon = GFX_XHK_fleet_order_blow_up_planet_action
+	icon_selected = GFX_XHK_fleet_order_blow_up_planet_action
+
+	possible = {
+		can_destroy_planet_with_PLANET_KILLER_NANOBOTS = yes
+	}
+
+	hide_from_context_menu = {
+		always = yes
+	}
+
+	button_visible = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error
+			starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_nanobots
+			}
+		}
+	}
+
+	button_clickable = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error2
+			starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_nanobots
+			}
+		}
+	}
+
+	activity_key = xhk_pk_nanobot_diffuser_activity_key
+	context_menu_name = xhk_pk_nanobot_diffuser
+	required_progress = 120
+	progress_activity_key = xhk_pk_nanobot_diffuser_progress_activity_key
+	required_progress_key = xhk_pk_nanobot_diffuser_progress_progress_key
+	cooldown = 1
+	# category = harvest_resources
+	# category_limit = 1
+
+	uses_vfx_type = harvest_effect
+
+	cost = {
+		energy = 50
+	}
+	slot = 5
+
+	completion_message_type = XHK_TOAST_PLANETNANOBOT_COMPLETE
+	completion_message_localization = XHK_TOAST_PLANETNANOBOT_COMPLETE_DESC
+
+	ai = {
+		weight = 0
+	}
+}
+xhk_worldark_pk_devolution_beam = {
+	user_scope = fleet
+	scope = planet
+
+	# automation_priority = 10
+	# automation_default_on = no
+	on_completed = xhk_pk_devolution_beam
+	tooltip = xhk_pk_devolution_beam_button
+	icon = GFX_XHK_fleet_order_blow_up_planet_action
+	icon_selected = GFX_XHK_fleet_order_blow_up_planet_action
+
+	possible = {
+		can_destroy_planet_with_PLANET_KILLER_DEVOLUTION = yes
+	}
+
+	hide_from_context_menu = {
+		always = yes
+	}
+
+	button_visible = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error
+			starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_devolution
+			}
+		}
+	}
+
+	button_clickable = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error2
+			starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_devolution
+			}
+		}
+	}
+
+	activity_key = xhk_pk_devolution_beam_activity_key
+	context_menu_name = xhk_pk_devolution_beam
+	required_progress = 120
+	progress_activity_key = xhk_pk_devolution_beam_progress_activity_key
+	required_progress_key = xhk_pk_devolution_beam_progress_progress_key
+	cooldown = 1
+	# category = harvest_resources
+	# category_limit = 1
+
+	uses_vfx_type = harvest_effect
+
+	cost = {
+		energy = 50
+	}
+	slot = 5
+
+	completion_message_type = XHK_TOAST_PLANETDEVOLVE_COMPLETE
+	completion_message_localization = XHK_TOAST_PLANETDEVOLVE_COMPLETE_DESC
+
+	ai = {
+		weight = 0
+	}
+}
