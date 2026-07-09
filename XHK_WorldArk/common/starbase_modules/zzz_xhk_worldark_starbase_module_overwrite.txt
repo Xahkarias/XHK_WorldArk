@@ -24,7 +24,7 @@ arkship_exodus_jump = {
         base = 1
     }
 
-	fits_on_slots = { spinal_mount_1 spinal_mount_2 spinal_mount_3 spinal_mount_4 spinal_mount_5 spinal_mount_6}
+	fits_on_slots = { spinal_mount_1 }
 
     resources = {
         category = starbase_arkship_upgrades
@@ -105,7 +105,7 @@ arkship_stellar_igniter = {
         base = 1
     }
 
-	fits_on_slots = { spinal_mount_1 spinal_mount_2 spinal_mount_3 spinal_mount_4 spinal_mount_5 spinal_mount_6}
+	fits_on_slots = { spinal_mount_1 }
 
     resources = {
         category = starbase_arkship_upgrades
