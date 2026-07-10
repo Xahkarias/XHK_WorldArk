@@ -305,6 +305,8 @@ ship_section_template = {
     }
 }
 
+##### SPINALS ####
+
 ship_section_template = {
     key = "ARKSHIP_SPINAL_DEVASTATOR"
     entity = "spinal_module_devastator_01_entity"

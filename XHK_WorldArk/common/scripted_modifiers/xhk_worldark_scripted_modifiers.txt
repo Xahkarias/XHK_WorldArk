@@ -12,3 +12,25 @@ xhk_worldark_expansion_count = {
     category = colony
     no_diff = yes
 }
+
+xhk_worldark_science_upgrade = {
+	icon = mod_count
+	neutral = yes
+	max_decimals = 0
+	category = colony
+	no_diff = yes
+}
+xhk_worldark_civilian_upgrade = {
+	icon = mod_count
+	neutral = yes
+	max_decimals = 0
+	category = colony
+	no_diff = yes
+}
+xhk_worldark_military_upgrade = {
+	icon = mod_count
+	neutral = yes
+	max_decimals = 0
+	category = colony
+	no_diff = yes
+}
