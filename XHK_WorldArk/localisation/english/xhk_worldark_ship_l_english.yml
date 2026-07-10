@@ -150,4 +150,4 @@
 
  sm_xhk_worldark_corespinal_blackhole: "Atrahasis Penrose Decompressor"
  sm_xhk_worldark_corespinal_blackhole_desc: "A black hole, stolen from the inky void and turned into a chained heart for the $xhk_pc_worldark$. Produces a prodigious amount of matter and energy for us to utilize."
- xhk_worldark_gigaspinal_blackhole_tt: "Swaps the §IReactor§! and §IHarvester§! Districts for §GPenrose§! and §GDecompressor§! upgrades."
+ xhk_worldark_gigaspinal_blackhole_tt: "\nSwaps the §IReactor§! and §IHarvester§! Districts for §GPenrose§! and §GDecompressor§! upgrades. These have higher jobs per district compared to their normal variations.\n$mod_planet_technician_energy_produces_add$: §G+2§!\n$mod_planet_miners_minerals_produces_add$: §G+2§!"
