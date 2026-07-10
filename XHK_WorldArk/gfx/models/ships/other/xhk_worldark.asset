@@ -272,3 +272,34 @@ entity = {
 		emissive_recolor_crunch = 3.0
 	}
 }
+
+entity = {
+	name = "xhk_worldark_corespinal_blackhole_entity"
+	pdxmesh = "xhk_worldark_blackhole_mesh"
+
+	scale = 2.0
+	game_data = {
+		emissive_recolor_crunch = 3.0
+		bloom_factor = 2
+	}
+
+	attach = { "core" = "xhk_worldark_black_hole_rings_entity" }
+	attach = { "core" = "black_hole_grav_lens_entity" }
+	attach = { "core" = "black_hole_grav_animation_entity" }
+}
+entity = { #scaled up vanilla
+	name = "xhk_worldark_black_hole_rings_entity"
+	pdxmesh = "black_hole_rings_mesh"
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+
+	scale = 3.0
+		# was 2.0
+
+	game_data = {
+		#uv_animation_speed   = -0.025
+		uv_animation_speed   = -0.1
+		uv_animation_direction  = { 0.4 0.4 }
+	}
+}

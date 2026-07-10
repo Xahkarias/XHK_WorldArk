@@ -48,4 +48,20 @@ objectTypes = {
 			shader = "PdxMeshShipDiffuseEmissive"
 		}
 	}
+
+	pdxmesh = {
+		name = "xhk_worldark_blackhole_mesh"
+		file = "gfx/models/ships/other/xhk_worldark_blackhole.mesh"
+		scale = 1
+
+		# USE THE SHAPE NAME
+		meshsettings = {
+			name = "corespinal_blackhole"
+			index = 0
+			texture_diffuse = "black_hole_new_diffuse.dds"
+			texture_normal = "black_hole_new_normal.dds"
+			texture_specular = "black_hole_new_specular.dds"
+			shader = "PdxMeshBlackHole"
+		}
+	}
 }

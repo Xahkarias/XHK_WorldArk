@@ -4756,3 +4756,12 @@ ship_section_template = {
 		locatorname = "xl_gun_01"
 	}
 }
+
+ship_section_template = {
+	key = "XHK_ARKSHIP_CORESPINAL_BLACKHOLE_SECTION"
+	entity = "xhk_worldark_corespinal_blackhole_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	ship_size = xhk_worldark_tier_12
+	fits_on_slot = spinal_mount_7
+}
