@@ -375,12 +375,12 @@ country_event = {
         # MISC FIXES
         ################################################################################################################
         # homeworld fix
-        species = {
-            set_species_homeworld = event_target:xhk_new_worldark_colony
-        }
-        every_owned_pop_species = {
-            set_species_homeworld = event_target:xhk_new_worldark_colony
-        }
+		every_owned_species = {
+			set_species_homeworld = event_target:xhk_new_worldark_colony
+		}
+        # every_owned_pop_species = {
+        #     set_species_homeworld = event_target:xhk_new_worldark_colony
+        # }
         # giga_set_all_leaders_homeworld = {
         #     planet = event_target:xhk_new_worldark_colony
         # }
