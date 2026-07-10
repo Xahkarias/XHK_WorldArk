@@ -87,7 +87,8 @@ weapon_component_template = {
 
     tags = { t_slot }
     component_set = "XHK_ARKSHIP_SPINAL_PK_CRACKER_SET"
-    projectile_gfx = "arkship_01_devastator_laser"
+	damage = { min = 0 max = 0 } # As to not artificially inflate fleet power with 1k daily damage
+	projectile_gfx = "arkship_01_devastator_laser"
 }
 weapon_component_template = {
 	key = "XHK_ARKSHIP_SPINAL_PK_SHIELDER_WEAPON"
@@ -118,6 +119,7 @@ weapon_component_template = {
 
 	tags = { t_slot }
 	component_set = "XHK_ARKSHIP_SPINAL_PK_SHIELDER_SET"
+	damage = { min = 0 max = 0 } # As to not artificially inflate fleet power with 1k daily damage
 	projectile_gfx = "arkship_01_devastator_laser"
 }
 weapon_component_template = {
@@ -149,6 +151,7 @@ weapon_component_template = {
 
 	tags = { t_slot }
 	component_set = "XHK_ARKSHIP_SPINAL_PK_NEUTRON_SET"
+	damage = { min = 0 max = 0 } # As to not artificially inflate fleet power with 1k daily damage
 	projectile_gfx = "arkship_01_devastator_laser"
 }
 weapon_component_template = {
@@ -180,6 +183,7 @@ weapon_component_template = {
 
 	tags = { t_slot }
 	component_set = "XHK_ARKSHIP_SPINAL_PK_GODRAY_SET"
+	damage = { min = 0 max = 0 } # As to not artificially inflate fleet power with 1k daily damage
 	projectile_gfx = "arkship_01_devastator_laser"
 }
 weapon_component_template = {
@@ -211,6 +215,7 @@ weapon_component_template = {
 
 	tags = { t_slot }
 	component_set = "XHK_ARKSHIP_SPINAL_PK_NANOBOTS_SET"
+	damage = { min = 0 max = 0 } # As to not artificially inflate fleet power with 1k daily damage
 	projectile_gfx = "arkship_01_devastator_laser"
 }
 weapon_component_template = {
@@ -242,6 +247,7 @@ weapon_component_template = {
 
 	tags = { t_slot }
 	component_set = "XHK_ARKSHIP_SPINAL_PK_DEVOLUTION_SET"
+	damage = { min = 0 max = 0 } # As to not artificially inflate fleet power with 1k daily damage
 	projectile_gfx = "arkship_01_devastator_laser"
 }
 
