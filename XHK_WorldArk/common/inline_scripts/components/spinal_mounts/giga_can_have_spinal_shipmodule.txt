@@ -1,0 +1,1 @@
+fits_on_slots = { spinal_mount_1 spinal_mount_2 spinal_mount_3 spinal_mount_4 spinal_mount_5 spinal_mount_6}

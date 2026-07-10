@@ -1,0 +1,13 @@
+# For use in arkship_empty_spine overwrite button_visible NOR block
+
+has_starbase_module = giga_arkship_ehof
+has_starbase_module = giga_arkship_neutronium_harvester
+# added
+has_starbase_module = xhk_worldark_spinal_hunter_cannon
+has_starbase_module = xhk_worldark_spinal_pk_cracker
+has_starbase_module = xhk_worldark_spinal_pk_shielder
+has_starbase_module = xhk_worldark_spinal_pk_neutron
+has_starbase_module = xhk_worldark_spinal_pk_godray
+has_starbase_module = xhk_worldark_spinal_pk_nanobots
+has_starbase_module = xhk_worldark_spinal_pk_devolution
+has_starbase_module = xhk_worldark_corespinal_planetgun

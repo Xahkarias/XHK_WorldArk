@@ -151,3 +151,19 @@ orbital_ring_and_arkship_equivalent_absent = {
 		}
 	}
 }
+
+
+
+gigas_can_have_spinal_mount = {
+	OR = {
+		is_ship_size = civilian_arkship_tier_3
+		is_ship_size = science_arkship_tier_3
+		is_ship_size = military_arkship_tier_3
+
+		is_ship_size = xhk_worldark_tier_8
+		is_ship_size = xhk_worldark_tier_9
+		is_ship_size = xhk_worldark_tier_10
+		is_ship_size = xhk_worldark_tier_11
+		is_ship_size = xhk_worldark_tier_12
+	}
+}
