@@ -165,6 +165,7 @@ d_xhk_worldark_pop_standard = {
 				xhk_has_worldark_origin = yes
 				is_synthetic_empire = no
 				is_individual_machine = no
+				is_virtual_empire = no
 			}
 		}
 		job_xhk_worldark_extra_healthcare_add = 1
@@ -180,6 +181,7 @@ d_xhk_worldark_pop_standard = {
                 xhk_has_worldark_origin = yes
                 is_synthetic_empire = no
                 is_individual_machine = no
+				is_virtual_empire = no
             }
             xhk_worldark_has_robot_assembly_facilities = yes
         }
@@ -197,6 +199,7 @@ d_xhk_worldark_pop_standard = {
                 is_regular_empire = yes
                 xhk_has_worldark_origin = yes
                 is_synthetic_empire = yes
+				is_virtual_empire = no
             }
         }
         job_roboticist_add = 0.75
@@ -212,6 +215,7 @@ d_xhk_worldark_pop_standard = {
                 is_regular_empire = yes
                 xhk_has_worldark_origin = yes
                 is_individual_machine = no
+				is_virtual_empire = no
             }
             xhk_worldark_has_zombie_assembly_facilities = yes
         }
@@ -305,6 +309,7 @@ d_xhk_worldark_pop_machine = {
             owner = {
                 is_machine_empire = yes
                 xhk_has_worldark_origin = yes
+				is_virtual_empire = no
             }
         }
         job_replicator_add = 1.5
@@ -320,6 +325,7 @@ d_xhk_worldark_pop_machine = {
                 xhk_has_worldark_origin = yes
                 has_valid_civic = civic_machine_assimilator
                 has_tradition = tr_cybernetics_assimilator_augmentation_centers
+				is_virtual_empire = no
             }
         }
         job_augmentor_drone_add = 0.334
