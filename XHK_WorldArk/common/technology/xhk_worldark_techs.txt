@@ -146,7 +146,7 @@ xhk_tech_worldark_7 = {
 	weight_modifier = {
 		modifier = {
 			factor = 3
-			years_passed > 95
+			years_passed > 85
 		}
 	}
 
@@ -167,7 +167,7 @@ xhk_tech_worldark_8 = {
 	weight_modifier = {
 		modifier = {
 			factor = 3
-			years_passed > 110
+			years_passed > 90
 		}
 	}
 
@@ -192,7 +192,7 @@ xhk_tech_worldark_9 = {
 	weight_modifier = {
 		modifier = {
 			factor = 3
-			years_passed > 110
+			years_passed > 100
 		}
 	}
 
