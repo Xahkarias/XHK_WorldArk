@@ -88,6 +88,15 @@
  district_xhk_worldark_minerals_desc: "$district_ark_harvest_desc$"
 
  ##################################################################
+ # Decompressor
+ ##################################################################
+
+ district_xhk_worldark_decompressor: "Decompressor Array"
+ district_xhk_worldark_decompressor_plural: "Decompressor Arrays"
+ district_xhk_worldark_decompressor_desc: "A grid of decompressor nodes serves to drain the black holes of matter for use in fueling the $xhk_pc_worldark$. They will last longer than our feeble bodies, ensuring a constant flow of matter."
+ xhk_worldark_decompressor_subtitle: "Extraction Operations"
+
+ ##################################################################
  # Farming
  ##################################################################
 

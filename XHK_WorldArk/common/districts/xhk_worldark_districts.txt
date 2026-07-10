@@ -363,8 +363,12 @@ district_xhk_worldark_minerals = {
 
     inline_script = {
         script = xhk_worldark/districts/district_common
-        POTENTIAL = ""
+        POTENTIAL = "starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole } }"
     }
+	convert_to = {
+		district_xhk_worldark_decompressor
+	}
+	conversion_ratio = 0.5
 
     resources = {
         category = planet_districts_mining
@@ -384,6 +388,50 @@ district_xhk_worldark_minerals = {
     inline_script = {
         script = xhk_worldark/district_flavor/mining_flavor
     }
+}
+district_xhk_worldark_decompressor = {
+	base_buildtime = @xhk_base_buildtime
+	icon = district_giga_frameworld_decompressor
+	district_background = district_xhk_worldark_decompressor
+	gridbox = district_mining
+	is_uncapped = { always = yes }
+	overlay_icon = GFX_district_minerals
+
+	zone_slots = {
+		slot_xhk_worldark_mining
+	}
+
+	inline_script = {
+		script = xhk_worldark/districts/district_common
+		POTENTIAL = "starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole }"
+	}
+	convert_to = {
+		district_xhk_worldark_minerals
+	}
+	conversion_ratio = 2
+
+	resources = {
+		category = planet_districts_mining
+		cost = {
+			alloys = @[xhk_district_base_cost * 2]
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	inline_script = {
+		script = jobs/ark_harvester_add
+		AMOUNT = 100
+	}
+	inline_script = {
+		script = jobs/miners_add
+		AMOUNT = 800
+	}
+
+	triggered_name = {
+		text = xhk_worldark_decompressor_subtitle
+	}
 }
 
 district_xhk_worldark_farming = {
