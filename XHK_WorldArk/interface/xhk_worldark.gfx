@@ -151,6 +151,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_pk_devolution_beam.dds"
 	}
 	spriteType = {
+		name = "GFX_xhk_worldark_pk_planet_smelter"
+		texturefile = "gfx/interface/icons/modules/xhk_worldark_pk_planet_smelter.dds"
+	}
+	spriteType = {
 		name = "GFX_xhk_worldark_arkship_hunter_mount"
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_arkship_hunter_mount.dds"
 	}

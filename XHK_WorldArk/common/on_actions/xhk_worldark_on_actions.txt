@@ -89,3 +89,13 @@ xhk_pk_devolution_beam = {
 		awareness.150 # Planet cracker used OR planet terraformed, chance to gain 20 awareness.
 	}
 }
+# on_destroy_planet_with_PLANET_KILLER_SMELTER = {
+xhk_pk_planet_smelter = {
+	events = {
+		planet_destruction.110 # Burning Sol
+		origin.3245 # Glassing a Progenitors Nest
+		planet_destruction.600 # frag holy world
+		infernals.36 # goes last because it can kill a country, making some trigger checks impossible
+		awareness.150 # Planet cracker used OR planet terraformed, chance to gain 20 awareness.
+	}
+}

@@ -465,3 +465,63 @@ xhk_worldark_pk_devolution_beam = {
 		weight = 0
 	}
 }
+xhk_worldark_pk_planet_smelter = {
+	user_scope = fleet
+	scope = planet
+
+	# automation_priority = 10
+	# automation_default_on = no
+	on_completed = xhk_pk_planet_smelter
+	tooltip = xhk_pk_planet_smelter_button
+	icon = GFX_XHK_fleet_order_blow_up_planet_action
+	icon_selected = GFX_XHK_fleet_order_blow_up_planet_action
+
+	possible = {
+		can_destroy_planet_with_PLANET_KILLER_SMELTER = yes
+	}
+
+	hide_from_context_menu = {
+		always = yes
+	}
+
+	button_visible = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error
+			starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_smelter
+			}
+		}
+	}
+
+	button_clickable = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error2
+			starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_smelter
+			}
+		}
+	}
+
+	activity_key = xhk_pk_planet_smelter_activity_key
+	context_menu_name = xhk_pk_planet_smelter
+	required_progress = 120
+	progress_activity_key = xhk_pk_planet_smelter_progress_activity_key
+	required_progress_key = xhk_pk_planet_smelter_progress_progress_key
+	cooldown = 1
+	# category = harvest_resources
+	# category_limit = 1
+
+	uses_vfx_type = harvest_effect
+
+	cost = {
+		energy = 50
+	}
+	slot = 5
+
+	completion_message_type = XHK_TOAST_PLANETSMELTER_COMPLETE
+	completion_message_localization = XHK_TOAST_PLANETSMELTER_COMPLETE_DESC
+
+	ai = {
+		weight = 0
+	}
+}

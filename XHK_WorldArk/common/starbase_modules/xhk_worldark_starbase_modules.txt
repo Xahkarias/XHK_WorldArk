@@ -358,6 +358,58 @@ xhk_worldark_spinal_pk_devolution = {
 		weight = 10
 	}
 }
+xhk_worldark_spinal_pk_smelter = {
+	icon = "GFX_xhk_worldark_pk_planet_smelter"
+	section = "XHK_ARKSHIP_SPINAL_PK_SMELTER_SECTION"
+	construction_days = @arkship_spinal_mount_build_time
+	starbase_type = arkship
+	category = sm_spinal_cat
+
+	potential = {
+		owner? = {
+			has_technology = tech_archaeo_pk_devolving_beam
+		}
+		has_apocalypse_dlc = yes
+		xhk_is_worldark_starbase = yes
+	}
+
+	possible = {
+		xhk_has_colossus_integrated = no
+	}
+
+	starbase_limit = {
+		base = 1
+	}
+
+	show_in_tech = "tech_pk_smelter"
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+	fits_on_slots = { spinal_mount_1 spinal_mount_2 spinal_mount_3 spinal_mount_4 spinal_mount_5 spinal_mount_6 }
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = @arkship_cost_alloys_5000
+			volatile_motes = @arkship_cost_strategic_500
+			unity = @arkship_cost_unity_500
+		}
+
+		upkeep = {
+			energy = @arkship_upkeep_energy_5
+			volatile_motes = @arkship_upkeep_strategic_1
+		}
+	}
+
+	component_set = XHK_ARKSHIP_SPINAL_PK_SMELTER_SET
+	custom_tooltip = xhk_worldark_spinal_planet_smelter_tt
+
+	ai_weight = {
+		weight = 10
+	}
+}
 
 ###### CORE SPINALS ######
 # you can see the other ones unless i override it with

@@ -4738,6 +4738,21 @@ ship_section_template = {
 		locatorname = "xl_gun_01"
 	}
 }
+ship_section_template = {
+	key = "XHK_ARKSHIP_SPINAL_PK_SMELTER_SECTION"
+	entity = "spinal_module_mini_catapult_01_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	inline_script = {
+		script = xhk_worldark/section_templates/arkship_class_list_spinal
+	}
+
+	component_slot = {
+		name = "XHK_ARKSHIP_SPINAL_PK_SMELTER_WEAPON"
+		template = "invisible_titanic_turret"
+		locatorname = "xl_gun_01"
+	}
+}
 
 #################################################################
 ### CORE SPINALS
