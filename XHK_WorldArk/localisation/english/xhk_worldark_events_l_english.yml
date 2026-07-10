@@ -33,7 +33,7 @@
  xhk_worldark_docs_expansion_desc_5: "$TABBED_NEW_LINE$- §G+1 £districtadd£District§! and §G+1 £construction_ship£Logistic Ship Capacity§! from the §I$xhk_worldark_add_logistics_ship$§! arkship decision."
  xhk_worldark_docs_expansion_desc_6: "$TABBED_NEW_LINE$- §G+5 £districtadd£Districts§! per $xhk_pc_worldark$ level. These do §RNOT grant extra growth jobs§!."
  xhk_worldark_docs_expansion_desc_7: "\n\nThe §I$xhk_worldark_size_harvest$§! action should be taken frequently in order to continue to grow the $xhk_pc_worldark$."
- xhk_worldark_docs_expansion_desc_virt: "\n\nNote: For §IVirtual Empires§!, every built district §Rover 25§! counts as §R0.04 colonies§! for the purposes of the Virtual efficiency bonus."
+ xhk_worldark_docs_expansion_desc_virt: "\n\nNote: For §IVirtual Empires§!, every built district §Rover 25§! counts as §R0.05 colonies§! for the purposes of the Virtual efficiency bonus."
 
  ####################
  # POPULATION

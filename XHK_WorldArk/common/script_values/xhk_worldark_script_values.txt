@@ -56,9 +56,9 @@ xhk_worldark_level = {
 	}
 }
 
-_level_virtual_colony_size = {
+xhk_worldark_level_virtual_colony_size = {
 	weight = trigger:num_districts
-	divide = 25
+	divide = 20
 	subtract = 1
 	min = 0
 }

@@ -37,7 +37,7 @@ d_xhk_worldark_base = {
 		potential = {
 			exists = owner
 			owner = {
-				or = {
+				OR = {
 					is_machine_empire = yes
 					is_individual_machine = yes
 				}
@@ -94,6 +94,28 @@ d_xhk_worldark_base = {
 		}
 		ship_starbase_stockpile_collection_rate_add = 200
 		multiplier = xhk_worldark_logistics
+	}
+
+	########################################################################################################
+	# TECH ALTERNATIVE FIXES
+	########################################################################################################
+	triggered_planet_modifier = {
+		potential = {
+			owner? = { has_technology = tech_planetary_infrastructure_1 }
+		}
+		planet_artificial_max_districts_add = 1
+	}
+	triggered_planet_modifier = {
+		potential = {
+			owner? = { has_technology = tech_planetary_infrastructure_2 }
+		}
+		planet_artificial_max_districts_add = 1
+	}
+	triggered_planet_modifier = {
+		potential = {
+			owner? = { has_ascension_perk = ap_voidborn }
+		}
+		planet_artificial_max_districts_add = 2
 	}
 }
 
