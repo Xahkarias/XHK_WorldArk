@@ -199,8 +199,14 @@ zone_xhk_worldark_reactspeed = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        POTENTIAL = "owner? = { has_technology = tech_afterburners_1 }"
+        POTENTIAL = "
+			owner? = { has_technology = tech_afterburners_1 }
+			carrier.starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole } }
+		"
     }
+	convert_to = {
+		zone_xhk_worldark_reactspeed_penrose
+	}
 
     included_building_sets = {
         generator
@@ -232,6 +238,52 @@ zone_xhk_worldark_reactspeed = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
+zone_xhk_worldark_reactspeed_penrose = {
+	icon = GFX_district_specialization_ark_reactor
+	inline_script = {
+		script = xhk_worldark/zones/zone_common
+		NUM_BUILDINGS = 3
+		UNLOCK = ""
+		POTENTIAL = "
+			owner? = { has_technology = tech_afterburners_1 }
+			carrier.starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole }
+		"
+	}
+	convert_to = {
+		zone_xhk_worldark_reactspeed
+	}
+
+	included_building_sets = {
+		generator
+		generator_automation
+		fallen_empire_generator
+	}
+	planet_modifier = {
+		ship_speed_from_technicians = 0.05 #does nothing by itself, check the technician job script
+	}
+	inline_script = {
+		script = jobs/zone_technicians_add
+		AMOUNT = 50
+	}
+
+	exclude = {
+		building_generator_districts_1
+		building_generator_districts_2
+		building_generator_districts_3
+		building_generator_districts_4
+	}
+
+	zone_sets = {
+		xhk_worldark_generator
+	}
+
+	swap_type =  district_xhk_worldark_penrose_speed
+	swap_type_weight = 5
+
+	ai_weight_coefficient = 0.5
+	ai_priority = 10
+}
+
 # ship shield
 zone_xhk_worldark_reactshield = {
     icon = GFX_district_specialization_exotic_gases
@@ -239,8 +291,14 @@ zone_xhk_worldark_reactshield = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        POTENTIAL = "owner? = { has_technology = tech_shields_2 }"
+        POTENTIAL = "
+			owner? = { has_technology = tech_shields_2 }
+			carrier.starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole } }
+		"
     }
+	convert_to = {
+		zone_xhk_worldark_reactshield_penrose
+	}
 
     included_building_sets = {
         generator
@@ -274,6 +332,54 @@ zone_xhk_worldark_reactshield = {
 
     ai_weight_coefficient = 0.5
     ai_priority = 10
+}
+zone_xhk_worldark_reactshield_penrose = {
+	icon = GFX_district_specialization_exotic_gases
+	inline_script = {
+		script = xhk_worldark/zones/zone_common
+		NUM_BUILDINGS = 3
+		UNLOCK = ""
+		POTENTIAL = "
+			owner? = { has_technology = tech_shields_2 }
+			carrier.starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole }
+		"
+	}
+	convert_to = {
+		zone_xhk_worldark_reactshield
+	}
+
+	included_building_sets = {
+		generator
+		generator_automation
+		fallen_empire_generator
+	}
+	planet_modifier = {
+		planet_technician_exotic_gases_upkeep_add = 0.02
+		planet_technician_energy_produces_add = -1
+		ship_shield_from_technicians = 0.02 #does nothing by itself, check the technician job script
+		ship_shield_regen_from_technicians = 0.02
+	}
+	inline_script = {
+		script = jobs/zone_technicians_add
+		AMOUNT = 50
+	}
+
+	exclude = {
+		building_generator_districts_1
+		building_generator_districts_2
+		building_generator_districts_3
+		building_generator_districts_4
+	}
+
+	zone_sets = {
+		xhk_worldark_generator
+	}
+
+	swap_type =  district_xhk_worldark_penrose_shield
+	swap_type_weight = 5
+
+	ai_weight_coefficient = 0.5
+	ai_priority = 10
 }
 
 ## MINERALS

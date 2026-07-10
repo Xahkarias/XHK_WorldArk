@@ -281,8 +281,12 @@ district_xhk_worldark_generator = {
 
     inline_script = {
         script = xhk_worldark/districts/district_common
-        POTENTIAL = ""
+        POTENTIAL = "starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole } }"
     }
+	convert_to = {
+		district_xhk_worldark_penrose
+	}
+	conversion_ratio = 0.5
 
     resources = {
         category = planet_districts_generator
@@ -303,6 +307,47 @@ district_xhk_worldark_generator = {
     inline_script = {
         script = xhk_worldark/district_flavor/generator_flavor
     }
+}
+district_xhk_worldark_penrose = {
+	base_buildtime = @xhk_base_buildtime
+	icon = district_giga_frameworld_penrose
+	district_background = district_xhk_worldark_penrose
+	gridbox = district_generator
+	is_uncapped = { always = yes }
+	overlay_icon = GFX_district_energy
+
+	zone_slots = {
+		slot_xhk_worldark_generator
+	}
+
+	inline_script = {
+		script = xhk_worldark/districts/district_common
+		POTENTIAL = "starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole }"
+	}
+	convert_to = {
+		district_xhk_worldark_generator
+	}
+	conversion_ratio = 2
+
+	resources = {
+		category = planet_districts_generator
+		cost = {
+			alloys = @[xhk_district_base_cost*2]
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	inline_script = {
+		script = jobs/technicians_add
+		AMOUNT = 800
+	}
+
+	#### FLAVOR
+	triggered_name = {
+		text = xhk_worldark_penrose_subtitle
+	}
 }
 
 district_xhk_worldark_minerals = {

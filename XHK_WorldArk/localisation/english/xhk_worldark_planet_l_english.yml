@@ -61,6 +61,25 @@
  district_xhk_worldark_generator_shield_desc: "$district_ark_shield_overloader_desc$"
 
  ##################################################################
+ # Penrose
+ ##################################################################
+
+ district_xhk_worldark_penrose: "Penrose Harvester"
+ district_xhk_worldark_penrose_plural: "Penrose Harvesters"
+ district_xhk_worldark_penrose_desc: "Consisting of large panels of special void-forged alloy inscribed with intricate superconducting cable, these continent sized plates generate energy from the caged black hole."
+ xhk_worldark_penrose_subtitle: "Ergosphere Harvesters"
+
+ district_xhk_worldark_penrose_speed: "Penrose Distorter"
+ district_xhk_worldark_penrose_speed_plural: "Penrose Distorters"
+ district_xhk_worldark_penrose_speed_desc: "By using the extreme gravitational energies of the black hole as a starting point, these nodes warp space time around the $xhk_pc_worldark$ to violate some laws of energy, allowing it to move faster."
+ xhk_worldark_penrose_speed_subtitle: "Alcubierre Nodes"
+
+ district_xhk_worldark_penrose_shield: "Penrose Deflector"
+ district_xhk_worldark_penrose_shield_plural: "Penrose Deflectors"
+ district_xhk_worldark_penrose_shield_desc: "These relays bend the flow of space time to match our shields, increasing their efficiency by dynamically altering the path hostile attacks must travel."
+ xhk_worldark_penrose_shield_subtitle: "Singularity Relays"
+
+ ##################################################################
  # Mining
  ##################################################################
 
@@ -253,9 +272,13 @@
 
  zone_xhk_worldark_reactspeed: "$zone_ark_engine_bypass$"
  zone_xhk_worldark_reactspeed_desc: "$zone_ark_engine_bypass_desc$"
+ zone_xhk_worldark_reactspeed_penrose: "$xhk_worldark_speed_penrose_subtitle$"
+ zone_xhk_worldark_reactspeed_penrose_desc: "$district_xhk_worldark_penrose_speed_desc$"
 
  zone_xhk_worldark_reactshield: "$zone_ark_shield_overloader$"
  zone_xhk_worldark_reactshield_desc: "$zone_ark_shield_overloader_desc$"
+ zone_xhk_worldark_reactshield_penrose: "$xhk_worldark_shield_penrose_subtitle$"
+ zone_xhk_worldark_reactshield_penrose_desc: "$district_xhk_worldark_penrose_shield_desc$"
 
  zone_xhk_worldark_mining: "Parallelized Extraction Operations"
  zone_xhk_worldark_mining_desc: "$zone_ark_harvest_desc$"

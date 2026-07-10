@@ -451,4 +451,7 @@ xhk_worldark_corespinal_blackhole = {
 	ai_weight = {
 		weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
 	}
+
+	on_finished = { hidden_effect = { colony = { validate_planet_buildings_and_districts = yes } } }
+	on_destroyed = { hidden_effect = { colony = { validate_planet_buildings_and_districts = yes } } }
 }
