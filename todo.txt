@@ -1,0 +1,12 @@
+4.5 changes
+	Increased soldier alloy upkeep for arkship military zones by 0.1
+	Scientific Arkships now have +5% Deep Scanning Success Chance per Tier
+
+
+
+
+NOTES:
+TO MAKE MODULES WORK:
+	the module must be applyable
+	the section must fit
+	the components must fit
