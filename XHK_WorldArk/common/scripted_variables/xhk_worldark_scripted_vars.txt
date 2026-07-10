@@ -135,4 +135,4 @@
 @xhk_worldark_harvest_cd = 2160 # 6 yrs
 @xhk_worldark_harvest_size_small = 4
 @xhk_worldark_harvest_size_large = 8
-
+@xhk_worldark_harvest_size_vlarge = 12

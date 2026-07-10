@@ -11,7 +11,24 @@ carrier_event = {
             every_owned_ship = {
                 save_event_target_as = arkship
             }
-            if = {
+			if = {
+				limit = {
+					event_target:arkship.starbase = {
+						has_starbase_size >= xhk_worldark_tier_11
+					}
+				}
+				event_target:arkship.colony = {
+					change_variable = {
+						which = xhk_worldark_expansions
+						value = @xhk_worldark_harvest_size_vlarge
+					}
+					while = {
+						count = @xhk_worldark_harvest_size_vlarge
+						add_deposit = d_xhk_worldark_harvest_size
+					}
+				}
+			}
+            else_if = {
                 limit = {
                     event_target:arkship.starbase = {
                         has_starbase_size >= xhk_worldark_tier_5

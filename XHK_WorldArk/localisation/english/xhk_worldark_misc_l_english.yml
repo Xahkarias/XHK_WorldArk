@@ -45,8 +45,9 @@
  XHK_TECH_UPGRADE_WORLDARK_11_TITLE: "$xhk_tech_worldark_11_desc$\n§GLarge Bonus§! to $xhk_pc_worldark$ §GCombat Strength§!."
  XHK_TECH_UPGRADE_WORLDARK_12_TITLE: "$xhk_tech_worldark_12_desc$\nThe powerful §GCore Spinal§! is §Gunlocked§!."
 
- xhk_harvest_plus1: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_small]§!"
- xhk_harvest_plus2: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_large]§!"
+ xhk_harvest_plus_small: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_small]§!"
+ xhk_harvest_plus_large: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_large]§!"
+ xhk_harvest_plus_vlarge: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_vlarge]§!"
 
  xhk_worldark_dummy_error: "You shouldnt be seeing this, let me know if you see this: Error AB"
  xhk_worldark_dummy_error2: "You shouldnt be seeing this, let me know if you see this: Error AC"

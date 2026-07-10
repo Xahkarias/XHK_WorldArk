@@ -119,7 +119,7 @@
  ####################
  # ARKSHIP LEVELS
  xhk_worldark_docs_ship_levels: "4) $xhk_pc_worldark$ Ship Levels"
- xhk_worldark_docs_ship_levels_desc: "$xhk_worldark_docs_ship_levels_desc_1$$xhk_worldark_docs_ship_levels_desc_2$$xhk_worldark_docs_ship_levels_desc_T1$$xhk_worldark_docs_ship_levels_desc_T2$$xhk_worldark_docs_ship_levels_desc_T3$$xhk_worldark_docs_ship_levels_desc_T3_2$$xhk_worldark_docs_ship_levels_desc_T4$$xhk_worldark_docs_ship_levels_desc_T5$$xhk_worldark_docs_ship_levels_desc_T5_2$$xhk_worldark_docs_ship_levels_desc_T6$$xhk_worldark_docs_ship_levels_desc_T6_2$$xhk_worldark_docs_ship_levels_desc_T7$$xhk_worldark_docs_ship_levels_desc_T8$$xhk_worldark_docs_ship_levels_desc_T9$$xhk_worldark_docs_ship_levels_desc_T10$$xhk_worldark_docs_ship_levels_desc_midgame$$xhk_worldark_docs_ship_levels_desc_T11$$xhk_worldark_docs_ship_levels_desc_T12$"
+ xhk_worldark_docs_ship_levels_desc: "$xhk_worldark_docs_ship_levels_desc_1$$xhk_worldark_docs_ship_levels_desc_2$$xhk_worldark_docs_ship_levels_desc_T1$$xhk_worldark_docs_ship_levels_desc_T2$$xhk_worldark_docs_ship_levels_desc_T3$$xhk_worldark_docs_ship_levels_desc_T3_2$$xhk_worldark_docs_ship_levels_desc_T4$$xhk_worldark_docs_ship_levels_desc_T5$$xhk_worldark_docs_ship_levels_desc_T5_2$$xhk_worldark_docs_ship_levels_desc_T6$$xhk_worldark_docs_ship_levels_desc_T6_2$$xhk_worldark_docs_ship_levels_desc_T7$$xhk_worldark_docs_ship_levels_desc_T8$$xhk_worldark_docs_ship_levels_desc_T9$$xhk_worldark_docs_ship_levels_desc_T10$$xhk_worldark_docs_ship_levels_desc_midgame$$xhk_worldark_docs_ship_levels_desc_T11$$xhk_worldark_docs_ship_levels_desc_T11_2$$xhk_worldark_docs_ship_levels_desc_T12$"
  xhk_worldark_docs_ship_levels_desc_1: "The $xhk_pc_worldark$ gains multiple bonuses when leveling up the ship itself. While it gains bonuses such as increasingly larger defensive stats, and a mixture of the vanilla arkship bonuses, this list below notes the starbase, district, and weapons per level.\n"
  xhk_worldark_docs_ship_levels_desc_2: "\nFurthermore, gain §G+5000 $mod_situation_nomad_economy_max_progress_add$§! per $xhk_pc_worldark$ level.\n"
  xhk_worldark_docs_ship_levels_desc_T1: "\n§GT1§! - §YStarbase:§!  4 Modules /  4 Buildings / 0 Spinal | §YBase Districts:§! 10 | §YWeapons:§!  2H  4P  4M"
@@ -135,8 +135,9 @@
  xhk_worldark_docs_ship_levels_desc_T8: "\n§GT8§! - §YStarbase:§! 24 Modules / 32 Buildings / 2 Spinal | §YBase Districts:§! 38 | §YWeapons:§! 20H 32P 30L"
  xhk_worldark_docs_ship_levels_desc_T9: "\n§GT9§! - §YStarbase:§! 24 Modules / 36 Buildings / 4 Spinal | §YBase Districts:§! 44 | §YWeapons:§! 24H 36P 36L"
  xhk_worldark_docs_ship_levels_desc_T10: "\n§GT10§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal | §YBase Districts:§! 50 | §YWeapons:§! 30H 40P 40L"
- xhk_worldark_docs_ship_levels_desc_midgame: "\n§OThe following levels are locked until the midgame year:§!"
+ xhk_worldark_docs_ship_levels_desc_midgame: "\n§RThe following levels are locked until the midgame year:§!"
  xhk_worldark_docs_ship_levels_desc_T11: "\n§GT11§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal | §YBase Districts:§! 60 | §YWeapons:§! 30H 40P 4G 6XL 48L 12M 18S"
+ xhk_worldark_docs_ship_levels_desc_T11_2: "\n$t$$t$§I$xhk_worldark_size_harvest$§!: §GMax £districtadd£District Gain§! increases to §G+[xhk_worldark_getDistrictIncreaseFromHarvest_vlarge]§!"
  xhk_worldark_docs_ship_levels_desc_T12: "\n§GT12§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal / 1 Core Spinal | §YBase Districts:§! 70 | §YWeapons:§! No Change"
 
  ####################

@@ -1,10 +1,23 @@
 defined_text = {
     name = xhk_worldark_getDistrictIncreaseFromHarvest
+	text = {
+		trigger = {
+			capital_scope.ship.starbase = {
+				has_starbase_size >= xhk_worldark_tier_11
+			}
+		}
+		localization_key = xhk_harvest_plus_vlarge
+	}
     text = {
-        trigger = { capital_scope.ship.starbase = { has_starbase_size >= xhk_worldark_tier_5 } }
-        localization_key = xhk_harvest_plus2
+        trigger = {
+			capital_scope.ship.starbase = {
+				has_starbase_size >= xhk_worldark_tier_5
+				NOT = { has_starbase_size >= xhk_worldark_tier_11  }
+			}
+		}
+        localization_key = xhk_harvest_plus_large
     }
-    default = xhk_harvest_plus1
+    default = xhk_harvest_plus_small
 }
 defined_text = {
 	name = xhk_worldark_getDistrictIncreaseFromHarvest_small
@@ -13,6 +26,10 @@ defined_text = {
 defined_text = {
 	name = xhk_worldark_getDistrictIncreaseFromHarvest_large
 	value = @xhk_worldark_harvest_size_large
+}
+defined_text = {
+	name = xhk_worldark_getDistrictIncreaseFromHarvest_vlarge
+	value = @xhk_worldark_harvest_size_vlarge
 }
 
 defined_text = {
