@@ -376,7 +376,7 @@ country_event = {
         ################################################################################################################
         # homeworld fix
 		every_owned_species = {
-			set_species_homeworld = event_target:xhk_new_worldark_colony
+			set_species_homeworld = event_target:xhk_new_worldark_colony.ship
 		}
         # every_owned_pop_species = {
         #     set_species_homeworld = event_target:xhk_new_worldark_colony
