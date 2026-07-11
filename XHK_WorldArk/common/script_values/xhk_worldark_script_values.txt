@@ -63,11 +63,13 @@ xhk_worldark_level = {
 # gets the virtual size of the world ark
 # colony scope
 xhk_worldark_level_virtual_colony_size = {
+	base = 0
 	complex_trigger_modifier = {
 		trigger = num_districts
 		parameters = {
 			type = any
 		}
+		mode = add
 	}
 	divide = 20
 	subtract = 1
