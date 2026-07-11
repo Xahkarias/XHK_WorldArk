@@ -303,3 +303,16 @@ entity = { #scaled up vanilla
 		uv_animation_direction  = { 0.4 0.4 }
 	}
 }
+
+entity = {
+	name = "xhk_worldark_corespinal_nanite_entity"
+	pdxmesh = "civilian_arkship_spinal_module_scanner_01_mesh"
+
+	scale = 2.0
+	game_data = {
+		emissive_recolor_crunch = 3.0
+	}
+	# fuck you particles
+	#attach = { "scanner_01" = "xhk_worldark_particle_storm_entity" }
+}
+

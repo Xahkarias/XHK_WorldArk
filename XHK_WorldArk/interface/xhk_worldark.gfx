@@ -167,6 +167,10 @@ spriteTypes = {
 		name = "GFX_xhk_worldark_corespinal_blackhole_mount"
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_corespinal_blackhole.dds"
 	}
+	spriteType = {
+		name = "GFX_xhk_worldark_corespinal_nanite_mount"
+		texturefile = "gfx/interface/icons/modules/xhk_worldark_corespinal_nanite.dds"
+	}
 
 
 

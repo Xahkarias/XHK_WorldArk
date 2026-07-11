@@ -152,7 +152,7 @@ country_event = {
     }
 }
 
-
+# triggered monthly
 # remove wark structural awareness trait
 country_event = {
 	id = xhk_worldark.200
@@ -222,6 +222,102 @@ country_event = {
 				add_trait = trait_xhk_worldark_structural_awareness
 				add_traits_at_start_of_list = yes
 			}
+		}
+	}
+}
+
+# triggered on killing another ship
+# for the nanite spawn
+country_event = {
+	id = xhk_worldark.300
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		xhk_has_worldark_origin = yes
+		fromfrom.starbase = {
+			has_starbase_module = xhk_worldark_corespinal_nanite
+		}
+	}
+	immediate = {
+		FROMFROMFROM = { save_event_target_as = xhk_worldark_destroyed_ship }
+
+		# increment the var
+		FROMFROM = {
+			change_variable = {
+				which = xhk_worldark_nanite_num_killcap
+				value = event_target:xhk_worldark_destroyed_ship.value:ship_naval_cap
+			}
+		}
+
+		# spawn the fleet
+		while = {
+			limit = {
+				FROMFROM = {
+					check_variable = {
+						which = xhk_worldark_nanite_num_killcap
+						value >= 100
+					}
+				}
+			}
+			create_fleet = {
+				name = "NAME_XHK_WORLDARK_NANITE_SPAWN"
+				effect = {
+					set_owner = root
+					create_ship = {
+						random_existing_design = nanite_interdictor
+					}
+					while = {
+						count = 15
+						create_ship = {
+							random_existing_design = nanite_swarmer
+						}
+					}
+					set_location = root.FromFrom
+					set_fleet_stance = aggressive
+					set_fleet_flag = xhk_worldark_nanite_core_spinal_fleet
+				}
+			}
+			FROMFROM = {
+				change_variable = {
+					which = xhk_worldark_nanite_num_killcap
+					value = -100
+				}
+			}
+		}
+	}
+}
+#
+# i cant use on space battle won / lost, inconsistent
+# so just check every month
+country_event = {
+	id = xhk_worldark.301
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		xhk_has_worldark_origin = yes
+		has_tradition = tr_nanotech_finish
+		any_controlled_fleet = {
+			has_fleet_flag = xhk_worldark_nanite_core_spinal_fleet
+			is_in_combat = no
+		}
+	}
+	immediate = {
+		every_controlled_fleet = {
+			limit = {
+				has_fleet_flag = xhk_worldark_nanite_core_spinal_fleet
+				is_in_combat = no
+			}
+			# grants 200 nanites per naval cap
+			# 40% of value
+			from = {
+				add_resource = {
+					nanites = 200
+					multiplier = prev.value:ship_naval_cap
+				}
+			}
+			destroy_fleet = this
 		}
 	}
 }

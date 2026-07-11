@@ -512,3 +512,60 @@ xhk_worldark_corespinal_blackhole = {
 	on_finished = { hidden_effect = { colony = { validate_planet_buildings_and_districts = yes } } }
 	on_destroyed = { hidden_effect = { colony = { validate_planet_buildings_and_districts = yes } } }
 }
+
+xhk_worldark_corespinal_nanite = {
+	icon = "GFX_xhk_worldark_corespinal_nanite_mount"
+	section = "XHK_ARKSHIP_CORESPINAL_NANITE_SECTION"
+	construction_days = @[arkship_spinal_mount_build_time * 4]
+	starbase_type = arkship
+	category = sm_corespinal_cat
+
+	potential = {
+		owner? = {
+			has_technology = xhk_tech_worldark_12
+			has_tradition = tr_nanotech_finish
+		}
+		has_starbase_size = xhk_worldark_tier_12
+	}
+
+	fits_on_slots = { spinal_mount_7 }
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = @[arkship_cost_alloys_5000 * 6]
+			nanites = @[arkship_cost_strategic_500 * 6]
+			unity = @[arkship_cost_unity_500 * 3]
+			influence = 200
+		}
+
+		upkeep = {
+			energy = 50
+			nanites = 20
+		}
+	}
+
+	planet_modifier = {
+		planet_technician_nanites_produces_add = 0.1
+		planet_farmers_nanites_produces_add = 0.2
+	}
+
+	custom_tooltip = xhk_worldark_gigaspinal_nanite_tt
+
+	on_finished = {
+		ship = {
+			set_variable = {
+				which = xhk_worldark_nanite_num_killcap
+				value = 0
+			}
+		}
+	}
+	on_destroyed = {
+		ship = {
+			clear_variable = xhk_worldark_nanite_num_killcap
+		}
+	}
+	ai_weight = {
+		weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
+	}
+}

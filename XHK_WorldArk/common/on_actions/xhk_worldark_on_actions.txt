@@ -15,11 +15,30 @@ on_monthly_pulse_country = {
 		# trait swap
 		xhk_worldark.200
 		xhk_worldark.201
+		# kill nanites
+		xhk_worldark.301
     }
 }
 
+# This = owner of ship 1 (combatant)
+# From = owner of ship 2 (destroyed)
+# FromFrom = ship 1 # can be invalid if damage is done via other methods (like scripted action)
+# FromFromFrom = ship 2
+on_ship_destroyed_perp = {
+	events = {
+		xhk_worldark.300
+	}
+}
 
-#### CUSTOM
+
+
+
+
+########################################################################
+########################################################################
+#### CUSTOM ON ACTIONS
+########################################################################
+########################################################################
 xhk_on_size_harvest = {
     events = {
         xhk_worldark.1
