@@ -1,0 +1,437 @@
+﻿l_polish:
+  
+  xhk_pc_worldark:99 "World Ark"
+  xhk_pc_worldark_desc:99 "$pc_ark_desc$"
+  
+  #########################################################################################################################################################################
+  # PRIMARY DISTRICTS
+  #########################################################################################################################################################################
+  
+  ##################################################################
+  # City
+  ##################################################################
+  
+  district_xhk_worldark_city:99 "$district_ark_city$"
+  district_xhk_worldark_city_plural:99 "$district_ark_city_plural$"
+  district_xhk_worldark_city_desc:99 "$district_ark_city_desc$"
+  
+  ##################################################################
+  # Foundry
+  ##################################################################
+  
+  district_xhk_worldark_foundry:99 "Foundry Decks"
+  district_xhk_worldark_foundry_plural:99 "Foundry Decks"
+  district_xhk_worldark_foundry_desc:99 "Geared towards military industries, these decks filled with the roar of smelters and the clang of metallurgists."
+  
+  flavor_xhk_worldark_foundry_name:99 "Blast Furnace Arrays"
+  
+  ##################################################################
+  # Factory
+  ##################################################################
+  
+  district_xhk_worldark_factory:99 "Factory Decks"
+  district_xhk_worldark_factory_plural:99 "Factory Decks"
+  district_xhk_worldark_factory_desc:99 "Tessellated workshops filled with artisans and civilian industries, capable of crafting any manner of consumer products."
+  
+  flavor_xhk_worldark_factory_name:99 "Retail Factories"
+  
+  ##################################################################
+  # Trade
+  ##################################################################
+  
+  district_xhk_worldark_trade:99 "$district_ark_waystation_trade$"
+  district_xhk_worldark_trade_plural:99 "$district_ark_waystation_trade_plural$"
+  district_xhk_worldark_trade_desc:99 "$district_ark_waystation_trade_flavor_desc$"
+  flavor_xhk_worldark_waystation_trade_name:99 "Network Logistics"
+  
+  ##################################################################
+  # Generator
+  ##################################################################
+  
+  district_xhk_worldark_generator:99 "$district_ark_generator$"
+  district_xhk_worldark_generator_plural:99 "$district_ark_generator_plural$"
+  district_xhk_worldark_generator_desc:99 "$district_ark_generator_desc$"
+  
+  district_xhk_worldark_generator_speed:99 "$district_ark_engine_bypass$"
+  district_xhk_worldark_generator_speed_plural:99 "$district_ark_engine_bypass_plural$"
+  district_xhk_worldark_generator_speed_desc:99 "$district_ark_engine_bypass_desc$"
+  
+  district_xhk_worldark_generator_shield:99 "$district_ark_shield_overloader$"
+  district_xhk_worldark_generator_shield_plural:99 "$district_ark_shield_overloader_plural$"
+  district_xhk_worldark_generator_shield_desc:99 "$district_ark_shield_overloader_desc$"
+  
+  ##################################################################
+  # Penrose
+  ##################################################################
+  
+  district_xhk_worldark_penrose:99 "Penrose Harvester"
+  district_xhk_worldark_penrose_plural:99 "Penrose Harvesters"
+  district_xhk_worldark_penrose_desc:99 "Consisting of large panels of special void-forged alloy inscribed with intricate superconducting cable, these continent sized plates generate energy from the caged black hole."
+  xhk_worldark_penrose_subtitle:99 "Ergosphere Harvesters"
+  
+  district_xhk_worldark_penrose_speed:99 "Penrose Distorter"
+  district_xhk_worldark_penrose_speed_plural:99 "Penrose Distorters"
+  district_xhk_worldark_penrose_speed_desc:99 "By using the extreme gravitational energies of the black hole as a starting point, these nodes warp space time around the $xhk_pc_worldark$ to violate some laws of energy, allowing it to move faster."
+  xhk_worldark_penrose_speed_subtitle:99 "Alcubierre Nodes"
+  
+  district_xhk_worldark_penrose_shield:99 "Penrose Deflector"
+  district_xhk_worldark_penrose_shield_plural:99 "Penrose Deflectors"
+  district_xhk_worldark_penrose_shield_desc:99 "These relays bend the flow of space time to match our shields, increasing their efficiency by dynamically altering the path hostile attacks must travel."
+  xhk_worldark_penrose_shield_subtitle:99 "Singularity Relays"
+  
+  ##################################################################
+  # Mining
+  ##################################################################
+  
+  district_xhk_worldark_minerals:99 "$district_ark_harvest$"
+  district_xhk_worldark_minerals_plural:99 "$district_ark_harvest_plural$"
+  district_xhk_worldark_minerals_desc:99 "$district_ark_harvest_desc$"
+  
+  ##################################################################
+  # Decompressor
+  ##################################################################
+  
+  district_xhk_worldark_decompressor:99 "Decompressor Array"
+  district_xhk_worldark_decompressor_plural:99 "Decompressor Arrays"
+  district_xhk_worldark_decompressor_desc:99 "A grid of decompressor nodes serves to drain the black holes of matter for use in fueling the $xhk_pc_worldark$. They will last longer than our feeble bodies, ensuring a constant flow of matter."
+  xhk_worldark_decompressor_subtitle:99 "Extraction Operations"
+  
+  ##################################################################
+  # Farming
+  ##################################################################
+  
+  district_xhk_worldark_farming:99 "$district_ark_food$"
+  district_xhk_worldark_farming_plural:99 "$district_ark_food_plural$"
+  district_xhk_worldark_farming_desc:99 "$district_ark_food_desc$"
+  
+  ##################################################################
+  # Unity
+  ##################################################################
+  
+  district_xhk_worldark_unity:99 "Administrative Sector"
+  district_xhk_worldark_unity_plural:99 "Administrative Sectors"
+  district_xhk_worldark_unity_desc:99 "$district_arcology_administrative_desc$"
+  flavor_xhk_worldark_unity_name:99 "Bureaucratic Nexus"
+  
+  district_xhk_worldark_unity_spiritualist:99 "Ecclesiastical Sector"
+  district_xhk_worldark_unity_spiritualist_plural:99 "Ecclesiastical Sectors"
+  district_xhk_worldark_unity_spiritualist_desc:99 "$district_arcology_spiritualist_desc$"
+  
+  district_xhk_worldark_unity_hive:99 "$district_hive_administrative$"
+  district_xhk_worldark_unity_hive_plural:99 "$district_hive_administrative_plural$"
+  district_xhk_worldark_unity_hive_desc:99 "$district_hive_administrative_desc$"
+  
+  district_xhk_worldark_unity_machine:99 "$district_nexus_administrative$"
+  district_xhk_worldark_unity_machine_plural:99 "$district_nexus_administrative_plural$"
+  district_xhk_worldark_unity_machine_desc:99 "$district_nexus_administrative_desc$"
+  
+  district_xhk_worldark_unity_servitor:99 "$district_nexus_organic_housing$"
+  district_xhk_worldark_unity_servitor_plural:99 "$district_nexus_organic_housing_plural$"
+  district_xhk_worldark_unity_servitor_desc:99 "$district_nexus_organic_housing_desc$"
+  
+  ##################################################################
+  # Research
+  ##################################################################
+  
+  district_xhk_worldark_research:99 "Research Sector"
+  district_xhk_worldark_research_plural:99 "Research Sectors"
+  district_xhk_worldark_research_desc:99 "Capitals of scientific discovery, these centers employ researchers from every field of study, no matter how niche."
+  
+  district_xhk_worldark_research_physics:99 "$district_xhk_worldark_research$"
+  district_xhk_worldark_research_physics_plural:99 "$district_xhk_worldark_research_plural$"
+  district_xhk_worldark_research_physics_desc:99 "$district_xhk_worldark_research_desc$"
+  
+  district_xhk_worldark_research_society:99 "$district_xhk_worldark_research$"
+  district_xhk_worldark_research_society_plural:99 "$district_xhk_worldark_research_plural$"
+  district_xhk_worldark_research_society_desc:99 "$district_xhk_worldark_research_desc$"
+  
+  district_xhk_worldark_research_engineering:99 "$district_xhk_worldark_research$"
+  district_xhk_worldark_research_engineering_plural:99 "$district_xhk_worldark_research_plural$"
+  district_xhk_worldark_research_engineering_desc:99 "$district_xhk_worldark_research_desc$"
+  
+  ##################################################################
+  # Amenities
+  ##################################################################
+  
+  district_xhk_worldark_amenities:99 "Leisure Sector"
+  district_xhk_worldark_amenities_plural:99 "Leisure Sectors"
+  district_xhk_worldark_amenities_desc:99 "Large areas dedicated to relaxation and recreation, who needs terrestrial entertainment?"
+  
+  district_xhk_worldark_amenities_dystopian:99 "$district_xhk_worldark_amenities$"
+  district_xhk_worldark_amenities_dystopian_plural:99 "$district_xhk_worldark_amenities_plural$"
+  district_xhk_worldark_amenities_dystopian_desc:99 "$district_xhk_worldark_amenities_desc$"
+  district_xhk_worldark_amenities_dystopian_limit:99 "$district_xhk_worldark_amenities_dystopian_plural$ are limited to §Y1§! district per §Y10,000§! £pop£ Pops\n"
+  
+  ##################################################################
+  # Security
+  ##################################################################
+  district_xhk_worldark_enforcer:99 "Security Center"
+  district_xhk_worldark_enforcer_plural:99 "Security Centers"
+  district_xhk_worldark_enforcer_desc:99 "Security forces operate from these specialized facilities, making sure that disruptive elements do not impede station functions."
+  
+  ##################################################################
+  # Refinery
+  ##################################################################
+  
+  district_xhk_worldark_refinery:99 "Refinery Complex"
+  district_xhk_worldark_refinery_plural:99 "Refinery Complexes"
+  district_xhk_worldark_refinery_desc:99 "Nestled deep in the bowels of the $xhk_pc_worldark$, these specialized refineries allow for creation of specialized resources we would otherwise have to search the void for."
+  flavor_xhk_worldark_refinery_name:99 "$zone_xhk_worldark_refinery$"
+  
+  district_xhk_worldark_refinery_motes:99 "Refinery Complex - Chemical Plants"
+  district_xhk_worldark_refinery_motes_plural:99 "Refinery Complex - Chemical Plants"
+  district_xhk_worldark_refinery_motes_desc:99 "Grants access to the $district_xhk_worldark_refinery$, with jobs that produce $volatile_motes$"
+  district_xhk_worldark_refinery_gases:99 "Refinery Complex - Exotic Gas Refineries"
+  district_xhk_worldark_refinery_gases_plural:99 "Refinery Complex - Exotic Gas Refineries"
+  district_xhk_worldark_refinery_gases_desc:99 "Grants access to the $district_xhk_worldark_refinery$, with jobs that produce $exotic_gases$"
+  district_xhk_worldark_refinery_crystals:99 "Refinery Complex - Synthetic Crystal Plants"
+  district_xhk_worldark_refinery_crystals_plural:99 "Refinery Complex - Synthetic Crystal Plants"
+  district_xhk_worldark_refinery_crystals_desc:99 "Grants access to the $district_xhk_worldark_refinery$, with jobs that produce $rare_crystals$"
+  
+  ##################################################################
+  # Ordinance
+  ##################################################################
+  
+  district_xhk_worldark_ordinance:99 "$district_ark_military$"
+  district_xhk_worldark_ordinance_plural:99 "$district_ark_military_plural$"
+  district_xhk_worldark_ordinance_desc:99 "$district_ark_military_desc$"
+  
+  district_xhk_worldark_ordinance_naval:99 "$district_xhk_worldark_ordinance$"
+  district_xhk_worldark_ordinance_naval_plural:99 "$district_xhk_worldark_ordinance_plural$"
+  district_xhk_worldark_ordinance_naval_desc:99 "$district_xhk_worldark_ordinance_desc$"
+  
+  district_xhk_worldark_ordinance_missile:99 "$district_xhk_worldark_ordinance$"
+  district_xhk_worldark_ordinance_missile_plural:99 "$district_xhk_worldark_ordinance_plural$"
+  district_xhk_worldark_ordinance_missile_desc:99 "$district_xhk_worldark_ordinance_desc$"
+  
+  district_xhk_worldark_ordinance_kinetic:99 "$district_xhk_worldark_ordinance$"
+  district_xhk_worldark_ordinance_kinetic_plural:99 "$district_xhk_worldark_ordinance_plural$"
+  district_xhk_worldark_ordinance_kinetic_desc:99 "$district_xhk_worldark_ordinance_desc$"
+  
+  district_xhk_worldark_ordinance_energy:99 "$district_xhk_worldark_ordinance$"
+  district_xhk_worldark_ordinance_energy_plural:99 "$district_xhk_worldark_ordinance_plural$"
+  district_xhk_worldark_ordinance_energy_desc:99 "$district_xhk_worldark_ordinance_desc$"
+  
+  district_xhk_worldark_ordinance_fighter:99 "$district_xhk_worldark_ordinance$"
+  district_xhk_worldark_ordinance_fighter_plural:99 "$district_xhk_worldark_ordinance_plural$"
+  district_xhk_worldark_ordinance_fighter_desc:99 "$district_xhk_worldark_ordinance_desc$"
+  
+  ##################################################################
+  # Dark Matter
+  ##################################################################
+  
+  district_xhk_worldark_darkmatter:99 "Dark Matter Trawler"
+  district_xhk_worldark_darkmatter_plural:99 "Dark Matter Trawlers"
+  district_xhk_worldark_darkmatter_desc:99 "Creating special monofilament nets and having them trail behind the $xhk_pc_worldark$ allows for the collection of trace amounts of $sr_dark_matter$."
+  flavor_xhk_worldark_darkmatter_name:99 "Non-Baryonic Sieve"
+  
+  ##################################################################
+  # Negative Mass
+  ##################################################################
+  
+  district_xhk_worldark_negativemass:99 "Negative Mass Lattice"
+  district_xhk_worldark_negativemass_plural:99 "Negative Mass Lattices"
+  district_xhk_worldark_negativemass_desc:99 "$building_negative_mass_factory_2_desc$"
+  flavor_xhk_worldark_negativemass_name:99 "Transmutation Array"
+  
+  ##################################################################
+  # Sentient Metal
+  ##################################################################
+  
+  district_xhk_worldark_sentientmetal:99 "Assimilator Field"
+  district_xhk_worldark_sentientmetal_plural:99 "Assimilator Fields"
+  district_xhk_worldark_sentientmetal_desc:99 "$building_ehof_sm_forge_1_desc$"
+  flavor_xhk_worldark_sentientmetal_name:99 "Sentient Foundries"
+  
+  ##################################################################
+  # Storage
+  ##################################################################
+  
+  district_xhk_worldark_storage:99 "Storage Hold"
+  district_xhk_worldark_storage_plural:99 "Storage Holds"
+  district_xhk_worldark_storage_desc:99 "A large storage complex that would take up the size of a city on a terrestrial planet."
+  flavor_xhk_worldark_storage_name:99 "Deep Warehouses"
+  district_xhk_worldark_storage_effect:99 "The zone gives £mod_country_resource_max_add£§G+10000 Resource Storage§! and §G+1000 $mod_situation_nomad_economy_max_progress_add$§!"
+  
+  
+  #########################################################################################################################################################################
+  # ZONES
+  #########################################################################################################################################################################
+  
+  zone_xhk_unavailable_tier3:99 "£arkship£§Y$xhk_worldark_tier_3$§! Upgrade"
+  zone_xhk_unavailable_tier6:99 "£arkship£§Y$xhk_worldark_tier_6$§! Upgrade"
+  
+  zone_xhk_worldark_foundry:99 "$zone_foundry$"
+  zone_xhk_worldark_foundry_desc:99 "$zone_foundry_desc$"
+  
+  zone_xhk_worldark_voidforge:99 "$zone_ark_military_eco$"
+  zone_xhk_worldark_voidforge_desc:99 "$zone_ark_military_eco_desc$"
+  
+  zone_xhk_worldark_factory:99 "$zone_factory$"
+  zone_xhk_worldark_factory_desc:99 "$zone_factory_desc$"
+  
+  zone_xhk_worldark_trade:99 "$zone_trade$"
+  zone_xhk_worldark_trade_desc:99 "$zone_trade_desc$"
+  
+  zone_xhk_worldark_waylogi:99 "$zone_ark_waystation_trade$"
+  zone_xhk_worldark_waylogi_desc:99 "$zone_ark_waystation_trade_desc$"
+  
+  zone_xhk_worldark_generator:99 "$zone_energy$"
+  zone_xhk_worldark_generator_desc:99 "$zone_energy_desc$"
+  
+  zone_xhk_worldark_reactspeed:99 "$zone_ark_engine_bypass$"
+  zone_xhk_worldark_reactspeed_desc:99 "$zone_ark_engine_bypass_desc$"
+  zone_xhk_worldark_reactspeed_penrose:99 "$xhk_worldark_speed_penrose_subtitle$"
+  zone_xhk_worldark_reactspeed_penrose_desc:99 "$district_xhk_worldark_penrose_speed_desc$"
+  
+  zone_xhk_worldark_reactshield:99 "$zone_ark_shield_overloader$"
+  zone_xhk_worldark_reactshield_desc:99 "$zone_ark_shield_overloader_desc$"
+  zone_xhk_worldark_reactshield_penrose:99 "$xhk_worldark_shield_penrose_subtitle$"
+  zone_xhk_worldark_reactshield_penrose_desc:99 "$district_xhk_worldark_penrose_shield_desc$"
+  
+  zone_xhk_worldark_mining:99 "Parallelized Extraction Operations"
+  zone_xhk_worldark_mining_desc:99 "$zone_ark_harvest_desc$"
+  
+  zone_xhk_worldark_farming:99 "Expanded Hydroponics"
+  zone_xhk_worldark_farming_desc:99 "$zone_ark_food_desc$"
+  
+  zone_xhk_worldark_unity:99 "$zone_unity$"
+  zone_xhk_worldark_unity_desc:99 "$zone_unity_desc$"
+  
+  zone_xhk_worldark_spiritualist:99 "$zone_unity_spiritualist$"
+  zone_xhk_worldark_spiritualist_desc:99 "$zone_unity_spiritualist_desc$"
+  
+  zone_xhk_worldark_servitor:99 "$zone_unity_bio_trophy$"
+  zone_xhk_worldark_servitor_desc:99 "$zone_unity_bio_trophy_desc$"
+  
+  zone_xhk_worldark_research:99 "$zone_research$"
+  zone_xhk_worldark_research_desc:99 "$zone_research_desc$"
+  
+  zone_xhk_worldark_physics:99 "$zone_research_physics$"
+  zone_xhk_worldark_physics_desc:99 "$zone_research_physics_desc$"
+  
+  zone_xhk_worldark_society:99 "$zone_research_society$"
+  zone_xhk_worldark_society_desc:99 "$zone_research_society_desc$"
+  
+  zone_xhk_worldark_engineering:99 "$zone_research_engineering$"
+  zone_xhk_worldark_engineering_desc:99 "$zone_research_engineering_desc$"
+  
+  zone_xhk_worldark_amenities:99 "$zone_resort$"
+  zone_xhk_worldark_amenities_desc:99 "$zone_resort_desc$"
+  
+  zone_xhk_worldark_amenities_dystopian:99 "Elite Resorts"
+  zone_xhk_worldark_amenities_dystopian_desc:99 "A place for the deserving to unwind and relax, surrounded by the opulence befitting their station."
+  
+  zone_xhk_worldark_enforcer:99 "Enforcement Centers"
+  zone_xhk_worldark_enforcer_desc:99 "Extra enforcement stations scattered around the $xhk_pc_worldark$ to enforce discipline."
+  
+  zone_xhk_worldark_refinery:99 "Resource Crucible"
+  zone_xhk_worldark_refinery_desc:99 "Advanced additions to the refinery allow us to produce more with less."
+  
+  zone_xhk_worldark_ordinance_naval:99 "$zone_ark_shipwright$"
+  zone_xhk_worldark_ordinance_naval_desc:99 "$zone_ark_shipwright_desc$"
+  
+  zone_xhk_worldark_ordinance_missile_silos:99 "$zone_ark_missile_silos$"
+  zone_xhk_worldark_ordinance_missile_silos_desc:99 "$zone_ark_missile_silos_desc$"
+  
+  zone_xhk_worldark_ordinance_ammunition_lines:99 "$zone_ark_ammunition_lines$"
+  zone_xhk_worldark_ordinance_ammunition_lines_desc:99 "$zone_ark_ammunition_lines_desc$"
+  
+  zone_xhk_worldark_ordinance_laser_capacitors:99 "$zone_ark_laser_capacitors$"
+  zone_xhk_worldark_ordinance_laser_capacitors_desc:99 "$zone_ark_laser_capacitors_desc$"
+  
+  zone_xhk_worldark_ordinance_flight_decks:99 "$zone_ark_flight_decks$"
+  zone_xhk_worldark_ordinance_flight_decks_desc:99 "$zone_ark_flight_decks_desc$"
+  
+  zone_xhk_worldark_darkmatter:99 "$flavor_xhk_worldark_darkmatter_name$"
+  zone_xhk_worldark_darkmatter_desc:99 "$district_xhk_worldark_darkmatter_desc$"
+  
+  zone_xhk_worldark_negativemass:99 "$flavor_xhk_worldark_negativemass_name$"
+  zone_xhk_worldark_negativemass_desc:99 "$district_xhk_worldark_negativemass_desc$"
+  
+  zone_xhk_worldark_sentientmetal:99 "$flavor_xhk_worldark_sentientmetal_name$"
+  zone_xhk_worldark_sentientmetal_desc:99 "$district_xhk_worldark_sentientmetal_desc$"
+  
+  zone_xhk_worldark_storage:99 "$district_xhk_worldark_storage$"
+  zone_xhk_worldark_storage_desc:99 "$district_xhk_worldark_storage_desc$"
+  
+  #########################################################################################################################################################################
+  # DEPOSITS
+  #########################################################################################################################################################################
+  
+  d_xhk_worldark_base:99 "$xhk_pc_worldark$ Control Center"
+  d_xhk_worldark_base_desc:99 "Where the great $xhk_pc_worldark$ is helmed."
+  
+  d_xhk_worldark_harvest_size:99 "Planetary Harvest Expansion"
+  d_xhk_worldark_harvest_size_desc:99 "The $xhk_pc_worldark$ has expanded by consuming those boring celestial bodies which boorishly move around their parent for eons."
+  
+  d_xhk_worldark_consume_ark_size:99 "Arkship Consumption Expansion"
+  d_xhk_worldark_consume_ark_size_desc:99 "The $xhk_pc_worldark$ has expanded by consuming the weaker Arkships of those who we have defeated in combat."
+  
+  d_xhk_worldark_expansion_tracker:99 "$xhk_pc_worldark$ Expansion Tracker"
+  d_xhk_worldark_expansion_tracker_desc:99 "Tracks bonuses gained from expanding the $xhk_pc_worldark$."
+  
+  d_xhk_worldark_pop_standard:99 "$xhk_pc_worldark$ Population Growth - Standard"
+  d_xhk_worldark_pop_standard_desc:99 "Manages additional population growth capabilities."
+  d_xhk_worldark_pop_hive:99 "$xhk_pc_worldark$ Population Growth - Hive"
+  d_xhk_worldark_pop_hive_desc:99 "$d_xhk_worldark_pop_standard_desc$"
+  d_xhk_worldark_pop_machine:99 "$xhk_pc_worldark$ Population Growth - Machine"
+  d_xhk_worldark_pop_machine_desc:99 "$d_xhk_worldark_pop_standard_desc$"
+  d_xhk_worldark_pop_indiv_machine:99 "$xhk_pc_worldark$ Population Growth - Individualist Machine"
+  d_xhk_worldark_pop_indiv_machine_desc:99 "$d_xhk_worldark_pop_standard_desc$"
+  
+  d_xhk_worldark_logistic_ship_bay:99 "Logistic Ship Control Room"
+  d_xhk_worldark_logistic_ship_bay_desc:99 "A facility to help coordinate and command our web of logistic ships."
+  xhk_worldark_increase_logistic_ship_tt:99 "§G+1§! £construction_ship£ Logistic Ship Cap\n§G+1§! £districtadd£Maximum Districts\n§G+200§! Waystation Resources Transferred per Month"
+  
+  
+  #########################################################################################################################################################################
+  # DECISIONS
+  #########################################################################################################################################################################
+  
+  xhk_worldark_add_logistics_ship:99 "Increase Logistic Ship Capacity"
+  xhk_worldark_add_logistics_ship_desc:99 "Increase £construction_ship£ Logistic Ship Capacity through the streamlining of command and control flow and harvesting schedules."
+  
+  xhk_upgrade_arkship_type_generic_desc:99 "We have learned from other nomads how they specialize their arks, let us apply this to our own."
+  
+  xhk_upgrade_arkship_science_tier_1:99 "$xhk_pc_worldark$ Upgrade: Science T1"
+  xhk_upgrade_arkship_science_tier_1_desc:99 "$xhk_upgrade_arkship_type_generic_desc$"
+  xhk_worldark_upgrade_science_tt1:99 "Grants the $xhk_pc_worldark$ bonuses associated with a T1 Science Arkship.\n\n$MOD_SHIP_SENSOR_RANGE_ADD$: §G+1§!\n$MOD_SHIP_HYPERLANE_RANGE_ADD$: §G+1§!\n$MOD_SHIP_SCIENCE_SURVEY_SPEED$: §G+5%§!"
+  xhk_upgrade_arkship_science_tier_2:99 "$xhk_pc_worldark$ Upgrade: Science T2"
+  xhk_upgrade_arkship_science_tier_2_desc:99 "$xhk_upgrade_arkship_type_generic_desc$"
+  xhk_worldark_upgrade_science_tt2:99 "Grants the $xhk_pc_worldark$ bonuses associated with a T2 Science Arkship.\n\n$MOD_SHIP_SENSOR_RANGE_ADD$: §G+2§!\n$MOD_SHIP_HYPERLANE_RANGE_ADD$: §G+2§!\n$MOD_SHIP_SCIENCE_SURVEY_SPEED$: §G+10%§!"
+  xhk_upgrade_arkship_science_tier_3:99 "$xhk_pc_worldark$ Upgrade: Science T3"
+  xhk_upgrade_arkship_science_tier_3_desc:99 "$xhk_upgrade_arkship_type_generic_desc$"
+  xhk_worldark_upgrade_science_tt3:99 "Grants the $xhk_pc_worldark$ bonuses associated with a T3 Science Arkship.\n\n$MOD_SHIP_SENSOR_RANGE_ADD$: §G+3§!\n$MOD_SHIP_HYPERLANE_RANGE_ADD$: §G+3§!\n$MOD_SHIP_SCIENCE_SURVEY_SPEED$: §G+15%§!"
+  
+  xhk_upgrade_arkship_military_tier_1:99 "$xhk_pc_worldark$ Upgrade: Military T1"
+  xhk_upgrade_arkship_military_tier_1_desc:99 "$xhk_upgrade_arkship_type_generic_desc$"
+  xhk_worldark_upgrade_military_tt1:99 "Grants the $xhk_pc_worldark$ bonuses associated with a T1 Military Arkship.\n\n$MOD_SHIP_FIRE_RATE_MULT$: §G+5%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$: §G+5%§!"
+  xhk_upgrade_arkship_military_tier_2:99 "$xhk_pc_worldark$ Upgrade: Military T2"
+  xhk_upgrade_arkship_military_tier_2_desc:99 "$xhk_upgrade_arkship_type_generic_desc$"
+  xhk_worldark_upgrade_military_tt2:99 "Grants the $xhk_pc_worldark$ bonuses associated with a T2 Military Arkship.\n\n$MOD_SHIP_FIRE_RATE_MULT$: §G+10%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$: §G+10%§!"
+  xhk_upgrade_arkship_military_tier_3:99 "$xhk_pc_worldark$ Upgrade: Military T3"
+  xhk_upgrade_arkship_military_tier_3_desc:99 "$xhk_upgrade_arkship_type_generic_desc$"
+  xhk_worldark_upgrade_military_tt3:99 "Grants the $xhk_pc_worldark$ bonuses associated with a T3 Military Arkship.\n\n$MOD_SHIP_FIRE_RATE_MULT$: §G+15%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$: §G+15%§!"
+  
+  xhk_upgrade_arkship_civilian_tier_1:99 "$xhk_pc_worldark$ Upgrade: Civilian T1"
+  xhk_upgrade_arkship_civilian_tier_1_desc:99 "$xhk_upgrade_arkship_type_generic_desc$"
+  xhk_worldark_upgrade_civilian_tt1:99 "Grants the $xhk_pc_worldark$ bonuses associated with a T1 Civilian Arkship.\n\n$mod_arkship_harvest_resources_produces_mult$: §G+5%§!"
+  xhk_upgrade_arkship_civilian_tier_2:99 "$xhk_pc_worldark$ Upgrade: Civilian T2"
+  xhk_upgrade_arkship_civilian_tier_2_desc:99 "$xhk_upgrade_arkship_type_generic_desc$"
+  xhk_worldark_upgrade_civilian_tt2:99 "Grants the $xhk_pc_worldark$ bonuses associated with a T2 Civilian Arkship.\n\n$mod_arkship_harvest_resources_produces_mult$: §G+10%§!"
+  xhk_upgrade_arkship_civilian_tier_3:99 "$xhk_pc_worldark$ Upgrade: Civilian T3"
+  xhk_upgrade_arkship_civilian_tier_3_desc:99 "$xhk_upgrade_arkship_type_generic_desc$"
+  xhk_worldark_upgrade_civilian_tt3:99 "Grants the $xhk_pc_worldark$ bonuses associated with a T3 Civilian Arkship.\n\n$mod_arkship_harvest_resources_produces_mult$: §G+15%§!"
+  
+  #########################################################################################################################################################################
+  # MODIFIERS
+  #########################################################################################################################################################################
+  mod_xhk_worldark_expansion_count:99 "Number of Expansions"
+  mod_xhk_worldark_growth_job_add:99 "Bonus Growth Jobs"
+  mod_district_xhk_worldark_amenities_dystopian_max_add:99 "Max §G$district_xhk_worldark_amenities_dystopian_plural$§!"
+  
+  mod_xhk_worldark_science_upgrade:99 "§IScience Arkship Tier§!"
+  mod_xhk_worldark_civilian_upgrade:99 "§ICivilian Arkship Tier§!"
+  mod_xhk_worldark_military_upgrade:99 "§IMilitary Arkship Tier§!"
+  

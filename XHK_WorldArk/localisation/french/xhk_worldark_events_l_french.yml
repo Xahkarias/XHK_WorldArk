@@ -1,0 +1,202 @@
+﻿l_french:
+  xhk_worldark_new_capital_name:99 "[xhk_old_arkcap_colony.GetName]"
+  xhk_worldark_new_fleet_name:99 "[xhk_old_arkcap_fleet.GetName]"
+  
+  XHK_TOAST_CONSUME_ARKSHIP_COMPLETE_TITLE:99 "$XHK_TOAST_HARVEST_SIZE_COMPLETE_TITLE$"
+  XHK_TOAST_CONSUME_ARKSHIP_COMPLETE_DESC:99 "The §Y$PLANET$§! has expanded its size by consuming our recently acquired arkships."
+  
+  #######################################################################################################################
+  # Situation log category
+  xhk_worldark_situation_category:99 "$xhk_pc_worldark$ Matters"
+  xhk_worldark_null_text:99 ""
+  
+  # Situation
+  xhk_worldark_situation_main:99 "$xhk_pc_worldark$ Status"
+  xhk_worldark_situation_main_desc:99 "This situation serves to track the special status of the $xhk_pc_worldark$ and any special buffs / debuffs that are applied to it."
+  
+  xhk_worldark_situation_main_stage:99 "Normal Stage"
+  xhk_worldark_situation_main_approach:99 "Standard Approach"
+  
+  #######################################################################################################################
+  # Documentation
+  xhk_worldark_docs_chain_title:99 "$xhk_pc_worldark$ Documentation"
+  xhk_worldark_docs_chain_desc:99 ""The §Y$xhk_pc_worldark$§! origin provides a \"One Planet\" play style, with heavy focus on a single capital arkship. You cannot build another arkship, and any that you gain are scuttled to buff the capital arkship. The $xhk_pc_worldark$ gains access to many powerful districts, modules, systems, and decisions."
+  
+  ####################
+  # EXPANSION
+  xhk_worldark_docs_expansion:99 "1) Expansion"
+  xhk_worldark_docs_expansion_desc:99 "$xhk_worldark_docs_expansion_desc_1$$xhk_worldark_docs_expansion_desc_2$$xhk_worldark_docs_expansion_desc_3$$xhk_worldark_docs_expansion_desc_4$$xhk_worldark_docs_expansion_desc_5$$xhk_worldark_docs_expansion_desc_6$$xhk_worldark_docs_expansion_desc_7$[owner.xhk_worldark_getVirtualDocumentation]"
+  xhk_worldark_docs_expansion_desc_1:99 "The $xhk_pc_worldark$ expands through the dismantlement of other stellar objects. These are listed below:"
+  xhk_worldark_docs_expansion_desc_2:99 "$TABBED_NEW_LINE$- §G+1 £districtadd£District§! from the special §I$xhk_worldark_size_harvest$§! arkship action, when used on a stellar body."
+  xhk_worldark_docs_expansion_desc_3:99 "$TABBED_NEW_LINE$      Increases to §G+2 £districtadd£District§! when upgraded to at least §I$xhk_worldark_tier_5$§!."
+  xhk_worldark_docs_expansion_desc_4:99 "$TABBED_NEW_LINE$- §G+4 £districtadd£Districts§! from each arkship claimed from another empire after a war, which are promptly dismantled."
+  xhk_worldark_docs_expansion_desc_5:99 "$TABBED_NEW_LINE$- §G+1 £districtadd£District§! and §G+1 £construction_ship£Logistic Ship Capacity§! from the §I$xhk_worldark_add_logistics_ship$§! arkship decision."
+  xhk_worldark_docs_expansion_desc_6:99 "$TABBED_NEW_LINE$- §G+5 £districtadd£Districts§! per $xhk_pc_worldark$ level. These do §RNOT grant extra growth jobs§!."
+  xhk_worldark_docs_expansion_desc_7:99 "\n\nThe §I$xhk_worldark_size_harvest$§! action should be taken frequently in order to continue to grow the $xhk_pc_worldark$."
+  xhk_worldark_docs_expansion_desc_virt:99 "\n\nNote: For §IVirtual Empires§!, every built district §Rover 25§! counts as §R0.05 colonies§! for the purposes of the Virtual efficiency bonus."
+  
+  ####################
+  # POPULATION
+  xhk_worldark_docs_population:99 "2) Population"
+  xhk_worldark_docs_population_desc:99 "$xhk_worldark_docs_population_desc_1$$xhk_worldark_docs_population_desc_2$$xhk_worldark_docs_population_desc_3$\n[Owner.xhk_worldark_getPopulationDocumentation]"
+  xhk_worldark_docs_population_desc_1:99 "In order to keep the population of the $xhk_pc_worldark$ mildly competitive, it gains extra growth jobs based on the size of the $xhk_pc_worldark$."
+  xhk_worldark_docs_population_desc_2:99 "\n\nPer £district£district increase, §G+15 Pop Growth§! jobs are added, which are then turned into actual jobs / buffs based on your empire and the buildings."
+  xhk_worldark_docs_population_desc_3:99 "\nEach §GPop Growth§! job also grants +1 $MOD_AUTO_MOD_MONTHLY_ADD$."
+  
+  xhk_worldark_docs_population_desc_norm:99 "$xhk_worldark_docs_population_desc_norm_1$$xhk_worldark_docs_population_desc_norm_2$$xhk_worldark_docs_population_desc_norm_3$$xhk_worldark_docs_population_desc_norm_4$$xhk_worldark_docs_population_desc_norm_5$$xhk_worldark_docs_population_desc_norm_6$"
+  xhk_worldark_docs_population_desc_norm_1:99 "\n§3Individualist Biological Empire§!: Base of §G+100 $job_xhk_worldark_extra_healthcare_plural$§! per 100 Pop Growth Jobs. Below lines add extra effects."
+  xhk_worldark_docs_population_desc_norm_2:99 "$TABBED_NEW_LINE$- Any §IRobot Assembly§! Building: §G+25 $job_roboticist_plural$§! per 100 Pop Growth Jobs."
+  xhk_worldark_docs_population_desc_norm_3:99 "$TABBED_NEW_LINE$- §IClone Vat§! Building: §G+1 $mod_fake_pop_growth_mod$§! per 100 $job_xhk_worldark_extra_healthcare_plural$ Jobs."
+  xhk_worldark_docs_population_desc_norm_4:99 "$TABBED_NEW_LINE$- Has §ICloning Tradition§!: §G+0.5 $mod_fake_pop_growth_mod$§! per 100 $job_xhk_worldark_extra_healthcare_plural$ Jobs."
+  xhk_worldark_docs_population_desc_norm_5:99 "$TABBED_NEW_LINE$- Completed §ISynthetic Ascension§!: Replace all above effects to §G+75 $job_roboticist_plural$§! per 100 Pop Growth Jobs."
+  xhk_worldark_docs_population_desc_norm_6:99 "$TABBED_NEW_LINE$- Any §IZombie Assembly§! Building: §G+25 $job_reassigner_plural$§! per 100 Pop Growth Jobs."
+  
+  xhk_worldark_docs_population_desc_hive:99 "$xhk_worldark_docs_population_desc_hive_1$$xhk_worldark_docs_population_desc_hive_2$"
+  xhk_worldark_docs_population_desc_hive_1:99 "\n§3Gestalt Hive Empire§!: Base of §G+100 $job_spawning_drone_plural$§! per 100 Pop Growth Jobs. Below lines add extra effects."
+  xhk_worldark_docs_population_desc_hive_2:99 "$TABBED_NEW_LINE$- Completed §ICybernetic Ascension§!: §G+33 $job_augmentor_drone_plural$§! per 100 Pop Growth Jobs!."
+  
+  xhk_worldark_docs_population_desc_machine:99 "$xhk_worldark_docs_population_desc_machine_1$$xhk_worldark_docs_population_desc_machine_2$$xhk_worldark_docs_population_desc_machine_3$$xhk_worldark_docs_population_desc_machine_4$"
+  xhk_worldark_docs_population_desc_machine_1:99 "\n§3Gestalt Machine Empire§!: Base of §G+150 $job_replicator_plural$§! per 100 Pop Growth Jobs. Below lines add extra effects."
+  xhk_worldark_docs_population_desc_machine_2:99 "$TABBED_NEW_LINE$- Completed §ICybernetic Ascension§!: §G+33 $job_augmentor_drone_plural$§! per 100 Pop Growth Jobs!."
+  xhk_worldark_docs_population_desc_machine_3:99 "$TABBED_NEW_LINE$- §IRogue Servitor§! Civic: §G+50 $job_xhk_worldark_extra_healthcare_drone_plural$§! per 100 Pop Growth Jobs."
+  xhk_worldark_docs_population_desc_machine_4:99 "$TABBED_NEW_LINE$- §IVirtual Ascension§!: §RLose ALL§! Pop Growth Jobs (Except for $job_xhk_worldark_extra_healthcare_drone_plural$)."
+  
+  xhk_worldark_docs_population_desc_indiv_machine:99 "$xhk_worldark_docs_population_desc_indiv_machine_1$$xhk_worldark_docs_population_desc_indiv_machine_2$"
+  xhk_worldark_docs_population_desc_indiv_machine_1:99 "\n§3Individualist Machine Empire§!: Base of §G+75 $job_roboticist_plural$§! per 100 Pop Growth Jobs."
+  xhk_worldark_docs_population_desc_indiv_machine_2:99 "$TABBED_NEW_LINE$- §IVirtual Ascension§!: §RLose ALL§! Pop Growth Jobs."
+  
+  ####################
+  # DISTRICTS + ZONES
+  xhk_worldark_docs_districts:99 "3) Districts and Zones"
+  xhk_worldark_docs_districts_desc:99 "$xhk_worldark_docs_districts_desc_1$$xhk_worldark_docs_districts_desc_group_city$$xhk_worldark_docs_districts_desc_group_manufactured$$xhk_worldark_docs_districts_desc_group_intellectual$$xhk_worldark_docs_districts_desc_group_warfare$$xhk_worldark_docs_districts_desc_group_strategicresource$$xhk_worldark_docs_districts_desc_group_utility$"
+  xhk_worldark_docs_districts_desc_1:99 "The $xhk_pc_worldark$ contains many different districts and zones. Note that almost all districts are housing negative. Which ones are available to your empire are listed below (ignoring tech restrictions):\n"
+  
+  xhk_worldark_docs_districts_desc_group_city:99 "$xhk_worldark_docs_districts_desc_group_city_header$$xhk_worldark_docs_districts_desc_city$"
+  xhk_worldark_docs_districts_desc_group_city_header:99 "\n§l------HOUSING--------------------------------------------§!"
+  xhk_worldark_docs_districts_desc_city:99 "\n£housing£§G$district_xhk_worldark_city$§!: Provides housing and building slots.$TABBED_NEW_LINE$- 2x §C$zone_urban$§!: Provides more housing and building slots."
+  
+  xhk_worldark_docs_districts_desc_group_manufactured:99 "$xhk_worldark_docs_districts_desc_group_manufactured_header$$xhk_worldark_docs_districts_desc_foundry$[owner.xhk_worldark_getDistrictDoc_Factory]$xhk_worldark_docs_districts_desc_trade$"
+  xhk_worldark_docs_districts_desc_group_manufactured_header:99 "\n§l------MANUFACTURED-GOODS---------------------------------§!"
+  xhk_worldark_docs_districts_desc_foundry:99 "\n£alloys£§G$district_xhk_worldark_foundry$§!: Provides [GetAlloyProducer] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_foundry$§!: Adds [GetAlloyProducer] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_voidforge$§!: Provides §Y$xhk_pc_worldark$ Armor§! bonuses."
+  xhk_worldark_docs_districts_desc_factory:99 "\n£consumer_goods£§G$district_xhk_worldark_factory$§!: Provides [GetArtisan] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_factory$§!: Adds [GetArtisan] jobs."
+  xhk_worldark_docs_districts_desc_trade:99 "\n£trade£§G$district_xhk_worldark_trade$§!:  Provides [GetBaseTrader] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_trade$§!: Adds [GetBaseTrader] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_waylogi$§!: Increases the $waystation$ cap."
+  
+  xhk_worldark_docs_districts_desc_group_raw:99 "$xhk_worldark_docs_districts_desc_group_raw_header$$xhk_worldark_docs_districts_desc_generator$$xhk_worldark_docs_districts_desc_harvester$$xhk_worldark_docs_districts_desc_farm$"
+  xhk_worldark_docs_districts_desc_group_raw_header:99 "\n§l------RAW-MATERIALS--------------------------------------§!"
+  xhk_worldark_docs_districts_desc_generator:99 "\n£energy£§G$district_xhk_worldark_generator$§!:  Provides [GetTechnician] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_generator$§!: Adds [GetTechnician] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_reactspeed$§!: Provides §Y$xhk_pc_worldark$ Speed§! bonuses.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_reactshield$§!: Provides §Y$xhk_pc_worldark$ Shield§! bonuses."
+  xhk_worldark_docs_districts_desc_harvester:99 "\n£minerals£§G$district_xhk_worldark_minerals$§!:  Provides [GetHarvester] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_mining$§!: Adds [GetHarvester] jobs."
+  xhk_worldark_docs_districts_desc_farm:99 "\n£food£§G$district_xhk_worldark_farming$§!:  Provides [GetFarmer] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_farming$§!: Adds [GetFarmer] jobs."
+  
+  xhk_worldark_docs_districts_desc_group_intellectual:99 "$xhk_worldark_docs_districts_desc_group_intellectual_header$[owner.xhk_worldark_getDistrictDoc_Unity]$xhk_worldark_docs_districts_desc_research$[owner.xhk_worldark_getDistrictDoc_Amenities]$xhk_worldark_docs_districts_desc_enforcer$"
+  xhk_worldark_docs_districts_desc_group_intellectual_header:99 "\n§l------INTELLECTUAL---------------------------------------§!"
+  xhk_worldark_docs_districts_desc_admn:99 "\n£unity£§G$district_xhk_worldark_unity$§!:  Provides [GetBureaucrat] jobs.$xhk_worldark_docs_districts_desc_base_zone$."
+  xhk_worldark_docs_districts_desc_spir:99 "\n£unity£§G$district_xhk_worldark_unity_spiritualist$§!:  Provides [GetPriest] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_spiritualist$§!:  Adds [GetPriest] jobs."
+  xhk_worldark_docs_districts_desc_hive:99 "\n£unity£§G$district_xhk_worldark_unity_hive$§!:  Provides [GetBureaucrat] jobs.$xhk_worldark_docs_districts_desc_base_zone$"
+  xhk_worldark_docs_districts_desc_mach:99 "\n£unity£§G$district_xhk_worldark_unity$§!:  Provides [GetBureaucrat] jobs.$xhk_worldark_docs_districts_desc_base_zone$"
+  xhk_worldark_docs_districts_desc_serv:99 "\n£unity£§G$district_xhk_worldark_unity_servitor$§!:  Provides $job_bio_trophy$ jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_servitor$§!:  Adds $job_bio_trophy$ jobs."
+  xhk_worldark_docs_districts_desc_base_zone:99 "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_unity$§!:  Adds [GetBureaucrat] jobs."
+  xhk_worldark_docs_districts_desc_research:99 "\n£research£§G$district_xhk_worldark_research$§!:  Provides a balanced distribution of [GetResearcher] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_research$§!: Adds [GetResearcher] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_physics$§!: Adds [GetPhysicsJob] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_society$§!: Adds [GetBiologyJob] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_engineering$§!: Adds [GetEngineerJob] jobs."
+  xhk_worldark_docs_districts_desc_amenities:99 "\n£amenities£§G$district_xhk_worldark_amenities$§!:  Provides $job_entertainer$ jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_amenities$§!:  Adds $job_entertainer$ jobs."
+  xhk_worldark_docs_districts_desc_dystopian:99 "\n£amenities£§G$district_xhk_worldark_amenities_dystopian$§!:  Provides small amount of $job_politician$ jobs. §RLimited by population size.§!$TABBED_NEW_LINE$- §C$zone_xhk_worldark_amenities_dystopian$§!:  Adds $job_politician$ jobs."
+  xhk_worldark_docs_districts_desc_enforcer:99 "\n£job_enforcer£§G$district_xhk_worldark_enforcer$§!:  Provides [GetSecurityJob] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_enforcer$§!:  Adds [GetSecurityJob] jobs."
+  
+  xhk_worldark_docs_districts_desc_group_warfare:99 "$xhk_worldark_docs_districts_desc_group_warfare_header$$xhk_worldark_docs_districts_desc_ordinance$"
+  xhk_worldark_docs_districts_desc_group_warfare_header:99 "\n§l------WARFARE-------------------------------------------§!"
+  xhk_worldark_docs_districts_desc_ordinance:99 "\n£job_soldier£§G$district_xhk_worldark_ordinance$§!:  Provides [GetSoldier] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_naval$§!:  Provides $concept_naval_capacity$ and §YShip Build Speed§! bonuses.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_missile_silos$§!:  Provides §Y$xhk_pc_worldark$ Explosive Damage§! bonuses.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_ammunition_lines$§!:  Provides §Y$xhk_pc_worldark$ Kinetic Damage§! bonuses.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_laser_capacitors$§!:  Provides §Y$xhk_pc_worldark$ Energy Damage§! bonuses.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_ordinance_flight_decks$§!:  Provides §Y$xhk_pc_worldark$ Strike Craft Damage§! bonuses."
+  
+  xhk_worldark_docs_districts_desc_group_strategicresource:99 "$xhk_worldark_docs_districts_desc_group_strategicresource_header$$xhk_worldark_docs_districts_desc_refinery$$xhk_worldark_docs_districts_desc_darkmatter$[owner.xhk_worldark_getDistrictDoc_EHOF]"
+  xhk_worldark_docs_districts_desc_group_strategicresource_header:99 "\n§l------STRATEGIC-RESOURCES-------------------------------§!"
+  xhk_worldark_docs_districts_desc_refinery:99 "\n£strategic_resource£§G$district_xhk_worldark_refinery$§!:  Provides a balanced distribution of [GetTranslucer], [GetChemist], and [GetRefiner] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_refinery$§!:  Adds [GetTranslucer], [GetChemist], and [GetRefiner] jobs."
+  xhk_worldark_docs_districts_desc_darkmatter:99 "\n£sr_dark_matter£§G$district_xhk_worldark_darkmatter$§!:  Provides [get_dark_matter_weaver] jobs.$TABBED_NEW_LINE$- Built in zone provides Science and Unity building slots."
+  xhk_worldark_docs_districts_desc_ehofcombine:99 "$xhk_worldark_docs_districts_desc_negativemass$$xhk_worldark_docs_districts_desc_sentientmetal$"
+  xhk_worldark_docs_districts_desc_negativemass:99 "\n£giga_sr_negative_mass£§G$district_xhk_worldark_negativemass$§!:  Provides [get_ehof_energy_converter] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_negativemass$§!:  Adds [get_ehof_energy_converter] jobs."
+  xhk_worldark_docs_districts_desc_sentientmetal:99 "\n£giga_sr_sentient_metal£§G$district_xhk_worldark_sentientmetal$§!:  Provides [get_ehof_cultivator] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_sentientmetal$§!:  Adds [get_ehof_cultivator] jobs."
+  
+  xhk_worldark_docs_districts_desc_group_utility:99 "$xhk_worldark_docs_districts_desc_group_utility_header$$xhk_worldark_docs_districts_desc_storage$"
+  xhk_worldark_docs_districts_desc_group_utility_header:99 "\n§l------UTILITY-------------------------------------------§!"
+  xhk_worldark_docs_districts_desc_storage:99 "\n£mod_country_resource_max_add£§G$district_xhk_worldark_storage$§!:  Provides £mod_country_resource_max_add£§YMaximum Resource Storage§! and §Y£operational_reserves£$mod_situation_nomad_economy_max_progress_add$§!"
+  
+  ####################
+  # ARKSHIP LEVELS
+  xhk_worldark_docs_ship_levels:99 "4) $xhk_pc_worldark$ Ship Levels"
+  xhk_worldark_docs_ship_levels_desc:99 "$xhk_worldark_docs_ship_levels_desc_1$$xhk_worldark_docs_ship_levels_desc_2$$xhk_worldark_docs_ship_levels_desc_T1$$xhk_worldark_docs_ship_levels_desc_T2$$xhk_worldark_docs_ship_levels_desc_T3$$xhk_worldark_docs_ship_levels_desc_T3_2$$xhk_worldark_docs_ship_levels_desc_T4$$xhk_worldark_docs_ship_levels_desc_T5$$xhk_worldark_docs_ship_levels_desc_T5_2$$xhk_worldark_docs_ship_levels_desc_T6$$xhk_worldark_docs_ship_levels_desc_T6_2$$xhk_worldark_docs_ship_levels_desc_T7$$xhk_worldark_docs_ship_levels_desc_T8$$xhk_worldark_docs_ship_levels_desc_T9$$xhk_worldark_docs_ship_levels_desc_T10$$xhk_worldark_docs_ship_levels_desc_midgame$$xhk_worldark_docs_ship_levels_desc_T11$$xhk_worldark_docs_ship_levels_desc_T11_2$$xhk_worldark_docs_ship_levels_desc_T12$"
+  xhk_worldark_docs_ship_levels_desc_1:99 "The $xhk_pc_worldark$ gains multiple bonuses when leveling up the ship itself. While it gains bonuses such as increasingly larger defensive stats, and a mixture of the vanilla arkship bonuses, this list below notes the starbase, district, and weapons per level.\n"
+  xhk_worldark_docs_ship_levels_desc_2:99 "\nFurthermore, gain §G+5000 $mod_situation_nomad_economy_max_progress_add$§! per $xhk_pc_worldark$ level.\n"
+  xhk_worldark_docs_ship_levels_desc_T1:99 "\n§GT1§! - §YStarbase:§!  4 Modules /  4 Buildings / 0 Spinal | §YBase Districts:§! 10 | §YWeapons:§!  2H  4P  4M"
+  xhk_worldark_docs_ship_levels_desc_T2:99 "\n§GT2§! - §YStarbase:§!  8 Modules /  8 Buildings / 0 Spinal | §YBase Districts:§! 14 | §YWeapons:§!  4H  8P  4L"
+  xhk_worldark_docs_ship_levels_desc_T3:99 "\n§GT3§! - §YStarbase:§! 12 Modules / 12 Buildings / 0 Spinal | §YBase Districts:§! 18 | §YWeapons:§!  6H 16P  8L"
+  xhk_worldark_docs_ship_levels_desc_T3_2:99 "\n$t$$t$Unlocks §GFirst $district_xhk_worldark_city$§! Specialization."
+  xhk_worldark_docs_ship_levels_desc_T4:99 "\n§GT4§! - §YStarbase:§! 16 Modules / 16 Buildings / 0 Spinal | §YBase Districts:§! 22 | §YWeapons:§!  8H 20P 12L"
+  xhk_worldark_docs_ship_levels_desc_T5:99 "\n§GT5§! - §YStarbase:§! 16 Modules / 20 Buildings / 0 Spinal | §YBase Districts:§! 26 | §YWeapons:§! 12H 24P 16L"
+  xhk_worldark_docs_ship_levels_desc_T5_2:99 "\n$t$$t$§I$xhk_worldark_size_harvest$§!: §GMax £districtadd£District Gain§! increases to §G+[xhk_worldark_getDistrictIncreaseFromHarvest_large]§!"
+  xhk_worldark_docs_ship_levels_desc_T6:99 "\n§GT6§! - §YStarbase:§! 20 Modules / 24 Buildings / 0 Spinal | §YBase Districts:§! 30 | §YWeapons:§! 16H 28P 20L"
+  xhk_worldark_docs_ship_levels_desc_T6_2:99 "\n$t$$t$Unlocks §GSecond $district_xhk_worldark_city$§! Specialization."
+  xhk_worldark_docs_ship_levels_desc_T7:99 "\n§GT7§! - §YStarbase:§! 24 Modules / 28 Buildings / 0 Spinal | §YBase Districts:§! 34 | §YWeapons:§! 18H 30P 24L"
+  xhk_worldark_docs_ship_levels_desc_T8:99 "\n§GT8§! - §YStarbase:§! 24 Modules / 32 Buildings / 2 Spinal | §YBase Districts:§! 38 | §YWeapons:§! 20H 32P 30L"
+  xhk_worldark_docs_ship_levels_desc_T9:99 "\n§GT9§! - §YStarbase:§! 24 Modules / 36 Buildings / 4 Spinal | §YBase Districts:§! 44 | §YWeapons:§! 24H 36P 36L"
+  xhk_worldark_docs_ship_levels_desc_T10:99 "\n§GT10§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal | §YBase Districts:§! 50 | §YWeapons:§! 30H 40P 40L"
+  xhk_worldark_docs_ship_levels_desc_midgame:99 "\n§RThe following levels are locked until the midgame year:§!"
+  xhk_worldark_docs_ship_levels_desc_T11:99 "\n§GT11§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal | §YBase Districts:§! 60 | §YWeapons:§! 30H 40P 4G 6XL 48L 12M 18S"
+  xhk_worldark_docs_ship_levels_desc_T11_2:99 "\n$t$$t$§I$xhk_worldark_size_harvest$§!: §GMax £districtadd£District Gain§! increases to §G+[xhk_worldark_getDistrictIncreaseFromHarvest_vlarge]§!"
+  xhk_worldark_docs_ship_levels_desc_T12:99 "\n§GT12§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal / 1 Core Spinal | §YBase Districts:§! 70 | §YWeapons:§! No Change"
+  
+  ####################
+  # UPGRADES
+  xhk_worldark_docs_ship_upgrade:99 "5) Arkship Upgrades"
+  xhk_worldark_docs_ship_upgrade_desc:99 "$xhk_worldark_docs_ship_upgrade_type$"
+  
+  xhk_worldark_docs_ship_upgrade_type:99 "$xhk_worldark_docs_ship_upgrade_type_1$$xhk_worldark_docs_ship_upgrade_type_2$$xhk_worldark_docs_ship_upgrade_type_3$$xhk_worldark_docs_ship_upgrade_type_4$$xhk_worldark_docs_ship_upgrade_type_5$"
+  xhk_worldark_docs_ship_upgrade_type_1:99 "The $xhk_pc_worldark$ begins with the bonuses provided by the Arkship type selected during empire creation. Further bonuses are granted via decisions granted via the following techs:"
+  xhk_worldark_docs_ship_upgrade_type_2:99 "$TABBED_NEW_LINE$- §YSpecialized Arkship Techs§!: Unlocks the T1 bonuses associated with the Arkship type."
+  xhk_worldark_docs_ship_upgrade_type_3:99 "$TABBED_NEW_LINE$- §Y$tech_arkship_tier_2$§!: Unlocks the T2 bonuses associated with each Arkship type."
+  xhk_worldark_docs_ship_upgrade_type_4:99 "$TABBED_NEW_LINE$- §Y$tech_arkship_tier_3$§!: Unlocks the T3 bonuses associated with each Arkship type."
+  xhk_worldark_docs_ship_upgrade_type_5:99 "$TABBED_NEW_LINE$- §Y$tech_arkship_construction$§!: Unlocks the $xhk_worldark_add_logistics_ship$ Decision."
+  
+  ####################
+  # CIVICS
+  xhk_worldark_docs_special_civic:99 "6) Civic Integration"
+  xhk_worldark_docs_special_civic_desc:99 "$xhk_worldark_docs_special_civic_desc_1$\n$xhk_worldark_docs_special_civic_desc_dystopia$[Owner.xhk_worldark_getCivicDocumentation]"
+  xhk_worldark_docs_special_civic_desc_1:99 "The $xhk_pc_worldark$ has special integration with specific civics to better fit their fantasy and compensate for the one-planet playstyle."
+  
+  xhk_worldark_docs_special_civic_desc_norm:99 "\n§3Individualist Empire§!:$xhk_worldark_docs_special_civic_desc_norm_dystopia$$xhk_worldark_docs_special_civic_desc_norm_vampire$$xhk_worldark_docs_special_civic_desc_norm_tankbound$$xhk_worldark_docs_special_civic_desc_norm_death$$xhk_worldark_docs_special_civic_desc_norm_experiment$"
+  xhk_worldark_docs_special_civic_desc_norm_dystopia:99 "\n§1$civic_dystopian_society$§!: §Y$district_xhk_worldark_amenities_plural$§! give §G$job_politician_plural$§! instead of §G$job_entertainer_plural$§!, and are §Rcapped based on population§!."
+  xhk_worldark_docs_special_civic_desc_norm_vampire:99 "\n§1$civic_entropy_drinkers$§!: $xhk_worldark_special_civic_doc_vampire_norm$"
+  xhk_worldark_docs_special_civic_desc_norm_tankbound:99 "\n§1$civic_tankbound$§!: $xhk_worldark_special_civic_doc_tankbound$"
+  xhk_worldark_docs_special_civic_desc_norm_death:99 "\n§1$civic_death_cult$§!: Each §Y$district_xhk_worldark_unity_spiritualist$§! grants §G50 $job_mortal_initiate_plural$§! if a building that grants them is present."
+  xhk_worldark_docs_special_civic_desc_norm_experiment:99 "\n§1$civic_twisted_experimenters$§!: Each §Y$district_xhk_worldark_research$§! grants §G25 $job_experiment_engineer_plural$§! and §G25 $job_test_subject_plural$§! if a building that grants them is present."
+  
+  xhk_worldark_docs_special_civic_desc_corp:99 "\n§3Megacorp Empire§!:$xhk_worldark_docs_special_civic_desc_corp_vampire$$xhk_worldark_docs_special_civic_desc_corp_tankbound$$xhk_worldark_docs_special_civic_desc_corp_death$$xhk_worldark_docs_special_civic_desc_corp_experiment$"
+  xhk_worldark_docs_special_civic_desc_corp_vampire:99 "\n§1$civic_entropy_drinkers_corporate$§!: $xhk_worldark_special_civic_doc_vampire_norm$"
+  xhk_worldark_docs_special_civic_desc_corp_tankbound:99 "\n§1$civic_tankbound_corporate$§!: $xhk_worldark_special_civic_doc_tankbound$"
+  xhk_worldark_docs_special_civic_desc_corp_death:99 "\n§1$civic_death_cult_corporate$§!: Each §Y$district_xhk_worldark_unity_spiritualist$§! grants §G50 $job_mortal_initiate_plural$§! if a building that grants them is present."
+  xhk_worldark_docs_special_civic_desc_corp_experiment:99 "\n§1$civic_twisted_experimenters_corporate$§!: Each §Y$district_xhk_worldark_research$§! grants §G25 $job_experiment_engineer_plural$§! and §G25 $job_test_subject_plural$§! if a building that grants them is present."
+  
+  xhk_worldark_docs_special_civic_desc_hive:99 "\n§3Gestalt Hive Empire§!:$xhk_worldark_docs_special_civic_desc_hive_vampire$$xhk_worldark_docs_special_civic_desc_hive_experiment$"
+  xhk_worldark_docs_special_civic_desc_hive_vampire:99 "\n§1$civic_entropy_drinkers_hive_mind$§!: $xhk_worldark_special_civic_doc_vampire_gest$"
+  xhk_worldark_docs_special_civic_desc_hive_experiment:99 "\n§1$civic_twisted_experimenters_hive_mind$§!: Each §Y$district_xhk_worldark_research$§! grants §G25 $job_experiment_engineer_drone_plural$§! and §G25 $job_test_subject_drone_plural$§! if a building that grants them is present."
+  
+  xhk_worldark_docs_special_civic_desc_machine:99 "\n§3Gestalt Machine Empire§!:$xhk_worldark_docs_special_civic_desc_machine_vampire$"
+  xhk_worldark_docs_special_civic_desc_machine_vampire:99 "\n§1$civic_entropy_drinkers_machine$§!: $xhk_worldark_special_civic_doc_vampire_gest$"
+  
+  # auxilary
+  xhk_worldark_special_civic_doc_vampire_norm:99 "§G+33 $job_energy_thrall_plural$§! per 100 Pop Growth Jobs. This is additive to any other growth jobs."
+  xhk_worldark_special_civic_doc_vampire_gest:99 "§G+33 $job_drone_energy_thrall_plural$§! per 100 Pop Growth Jobs. This is additive to any other growth jobs.."
+  xhk_worldark_special_civic_doc_tankbound:99 "§Y$district_xhk_worldark_city$§! each provide §G200 $job_production_overseer_plural$§!."
+  
+  ####################
+  # MEGAS
+  xhk_worldark_docs_mega:99 "7) Mega Integration"
+  xhk_worldark_docs_mega_desc:99 "Under construction"
+  
+  
+  ####################
+  # CROSSMOD
+  xhk_worldark_docs_crossmod:99 "8) Cross-Mod Support"
+  xhk_worldark_docs_crossmod_desc:99 "Under construction"
+  
+  
+  
+  
+  
+  
+  

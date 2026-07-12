@@ -1,0 +1,93 @@
+﻿l_russian:
+  origin_xhk_worldark:99 "The $xhk_pc_worldark$"
+  origin_xhk_worldark_desc:99 "The $xhk_pc_worldark$ is everything to this civilization. Generations have been born, have lived, and have died on it, and many more will do so in the future. They live on a vast, expandable, and mobile home, ready to visit wrath or grace on anyone who opposes them."
+  origin_xhk_worldark_tooltip_default_effects:99 "Start on the §G$xhk_pc_worldark$§!, a massive §Iexpandable Arkship§! with many §Iunique districts, modules, and systems§!.\n\nHowever, they §Rcannot gain another Arkship or settle§!, thus their fate rests on utilizing their massive home well.\n\nNOTE: The §IRecursive Learners§! and §IStructural Awareness§! traits have special $xhk_pc_worldark$ variations that are automatically swapped."
+  
+  # civic_tooltip_not_deep_sleep: "Does §RNOT§! have an Deep Sleep Civic"
+  worldark_not_compat_deep_sleep:99 "Does §RNOT§! have the $xhk_pc_worldark$ Origin"
+  
+  xhk_tech_worldark_1:99 "$xhk_pc_worldark$ Basics"
+  xhk_tech_worldark_2:99 "$xhk_pc_worldark$ Tier II Upgrade"
+  xhk_tech_worldark_3:99 "$xhk_pc_worldark$ Tier III Upgrade"
+  xhk_tech_worldark_4:99 "$xhk_pc_worldark$ Tier IV Upgrade"
+  xhk_tech_worldark_5:99 "$xhk_pc_worldark$ Tier V Upgrade"
+  xhk_tech_worldark_6:99 "$xhk_pc_worldark$ Tier VI Upgrade"
+  xhk_tech_worldark_7:99 "$xhk_pc_worldark$ Tier VII Upgrade"
+  xhk_tech_worldark_8:99 "$xhk_pc_worldark$ Tier VIII Upgrade"
+  xhk_tech_worldark_9:99 "$xhk_pc_worldark$ Tier IX Upgrade"
+  xhk_tech_worldark_10:99 "$xhk_pc_worldark$ Tier X Upgrade"
+  xhk_tech_worldark_11:99 "$xhk_pc_worldark$ Tier XI Upgrade"
+  xhk_tech_worldark_12:99 "$xhk_pc_worldark$ Tier XII Upgrade"
+  
+  xhk_tech_worldark_1_desc:99 "The basics of maintenance and expansions of the $xhk_pc_worldark$."
+  xhk_tech_worldark_2_desc:99 "Unlocks the §Y$xhk_pc_worldark$ Tier II Upgrade§!"
+  xhk_tech_worldark_3_desc:99 "Unlocks the §Y$xhk_pc_worldark$ Tier III Upgrade§!"
+  xhk_tech_worldark_4_desc:99 "Unlocks the §Y$xhk_pc_worldark$ Tier IV Upgrade§!"
+  xhk_tech_worldark_5_desc:99 "Unlocks the §Y$xhk_pc_worldark$ Tier V Upgrade§!"
+  xhk_tech_worldark_6_desc:99 "Unlocks the §Y$xhk_pc_worldark$ Tier VI Upgrade§!"
+  xhk_tech_worldark_7_desc:99 "Unlocks the §Y$xhk_pc_worldark$ Tier VII Upgrade§!"
+  xhk_tech_worldark_8_desc:99 "Unlocks the §Y$xhk_pc_worldark$ Tier VIII Upgrade§!"
+  xhk_tech_worldark_9_desc:99 "Unlocks the §Y$xhk_pc_worldark$ Tier IX Upgrade§!"
+  xhk_tech_worldark_10_desc:99 "Unlocks the §Y$xhk_pc_worldark$ Tier X Upgrade§!"
+  xhk_tech_worldark_11_desc:99 "Unlocks the §Y$xhk_pc_worldark$ Tier XI Upgrade§!"
+  xhk_tech_worldark_12_desc:99 "Unlocks the §Y$xhk_pc_worldark$ Tier XII Upgrade§!"
+  
+  XHK_TECH_UPGRADE_WORLDARK_1_TITLE:99 "$xhk_tech_worldark_1_desc$"
+  XHK_TECH_UPGRADE_WORLDARK_2_TITLE:99 "$xhk_tech_worldark_2_desc$"
+  XHK_TECH_UPGRADE_WORLDARK_3_TITLE:99 "$xhk_tech_worldark_3_desc$\nUnlocks §GFirst $district_xhk_worldark_city$§! Specialization."
+  XHK_TECH_UPGRADE_WORLDARK_4_TITLE:99 "$xhk_tech_worldark_4_desc$"
+  XHK_TECH_UPGRADE_WORLDARK_5_TITLE:99 "$xhk_tech_worldark_5_desc$\n§GDoubles§! £text_districtadd£§GMax Districts§! gained from §I$xhk_worldark_size_harvest$§!."
+  XHK_TECH_UPGRADE_WORLDARK_6_TITLE:99 "$xhk_tech_worldark_6_desc$\nUnlocks §GSecond $district_xhk_worldark_city$§! Specialization."
+  XHK_TECH_UPGRADE_WORLDARK_7_TITLE:99 "$xhk_tech_worldark_7_desc$"
+  XHK_TECH_UPGRADE_WORLDARK_8_TITLE:99 "$xhk_tech_worldark_8_desc$"
+  XHK_TECH_UPGRADE_WORLDARK_9_TITLE:99 "$xhk_tech_worldark_9_desc$"
+  XHK_TECH_UPGRADE_WORLDARK_10_TITLE:99 "$xhk_tech_worldark_10_desc$"
+  XHK_TECH_UPGRADE_WORLDARK_11_TITLE:99 "$xhk_tech_worldark_11_desc$\n§GLarge Bonus§! to $xhk_pc_worldark$ §GCombat Strength§!."
+  XHK_TECH_UPGRADE_WORLDARK_12_TITLE:99 "$xhk_tech_worldark_12_desc$\nThe powerful §GCore Spinal§! is §Gunlocked§!."
+  
+  xhk_harvest_plus_small:99 "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_small]§!"
+  xhk_harvest_plus_large:99 "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_large]§!"
+  xhk_harvest_plus_vlarge:99 "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_vlarge]§!"
+  
+  xhk_worldark_dummy_error:99 "You shouldnt be seeing this, let me know if you see this: Error AB"
+  xhk_worldark_dummy_error2:99 "You shouldnt be seeing this, let me know if you see this: Error AC"
+  ############################################################
+  # random modifiers
+  
+  mod_shipsize_xhk_worldark_tier_1_fire_rate_mult:99 "$xhk_worldark_tier_1$ Fire Rate"
+  mod_shipsize_xhk_worldark_tier_2_fire_rate_mult:99 "$xhk_worldark_tier_2$ Fire Rate"
+  mod_shipsize_xhk_worldark_tier_3_fire_rate_mult:99 "$xhk_worldark_tier_3$ Fire Rate"
+  mod_shipsize_xhk_worldark_tier_4_fire_rate_mult:99 "$xhk_worldark_tier_4$ Fire Rate"
+  mod_shipsize_xhk_worldark_tier_5_fire_rate_mult:99 "$xhk_worldark_tier_5$ Fire Rate"
+  mod_shipsize_xhk_worldark_tier_6_fire_rate_mult:99 "$xhk_worldark_tier_6$ Fire Rate"
+  mod_shipsize_xhk_worldark_tier_7_fire_rate_mult:99 "$xhk_worldark_tier_7$ Fire Rate"
+  mod_shipsize_xhk_worldark_tier_8_fire_rate_mult:99 "$xhk_worldark_tier_8$ Fire Rate"
+  mod_shipsize_xhk_worldark_tier_9_fire_rate_mult:99 "$xhk_worldark_tier_9$ Fire Rate"
+  mod_shipsize_xhk_worldark_tier_10_fire_rate_mult:99 "$xhk_worldark_tier_10$ Fire Rate"
+  mod_shipsize_xhk_worldark_tier_11_fire_rate_mult:99 "$xhk_worldark_tier_11$ Fire Rate"
+  mod_shipsize_xhk_worldark_tier_12_fire_rate_mult:99 "$xhk_worldark_tier_12$ Fire Rate"
+  
+  ############################################################
+  # traits
+  trait_auto_xhk_pc_worldark_preference:99 "$xhk_pc_worldark$ Mutations"
+  trait_auto_xhk_pc_worldark_preference_desc:99 "$trait_auto_hab_preference_desc$"
+  
+  trait_xhk_worldark_recursive_learners_effects:99 "Grants §G+0.5%§! Specialist and Complex Drone $MOD_POP_BONUS_WORKFORCE_MULT$ per £district£ §Y$DISTRICT$§! (up to §G+25%§!) on the $xhk_pc_worldark$."
+  
+  trait_xhk_worldark_recursive_learners:99 "$trait_recursive_learners$ - World Ark"
+  trait_xhk_worldark_recursive_learners_desc:99 "$trait_recursive_learners_desc$"
+  trait_xhk_worldark_structural_awareness:99 "$trait_structural_awareness$ - World Ark"
+  trait_xhk_worldark_structural_awareness_desc:99 "$trait_structural_awareness_desc$"
+  
+  
+  ###############################################################
+  # jobs
+  job_xhk_worldark_extra_healthcare:99 "$xhk_pc_worldark$ Doctor"
+  job_xhk_worldark_extra_healthcare_plural:99 "$xhk_pc_worldark$ Doctors"
+  job_xhk_worldark_extra_healthcare_desc:99 "Extra medical personnel to ensure optimal living conditions for population growth."
+  mod_job_xhk_worldark_extra_healthcare_add:99 "$job_xhk_worldark_extra_healthcare$ Jobs"
+  
+  job_xhk_worldark_extra_healthcare_drone:99 "$xhk_pc_worldark$ Nursing Drone"
+  job_xhk_worldark_extra_healthcare_drone_plural:99 "$xhk_pc_worldark$ Nursing Drones"
+  job_xhk_worldark_extra_healthcare_drone_desc:99 "Extra medical drones to ensure optimal living conditions for organic population growth."
+  mod_job_xhk_worldark_extra_healthcare_drone_add:99 "$job_xhk_worldark_extra_healthcare_drone$ Jobs"
