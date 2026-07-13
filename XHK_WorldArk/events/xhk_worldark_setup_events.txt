@@ -198,13 +198,22 @@ country_event = {
                         }
                     }
                     add_district = district_xhk_worldark_factory
-					add_district = district_xhk_worldark_unity_servitor
                 }
                 else = {
-					add_district = district_xhk_worldark_unity_machine
                     add_district = district_xhk_worldark_foundry
                 }
 
+				if = {
+					limit = {
+						owner = {
+							has_valid_civic = civic_machine_servitor
+						}
+					}
+					add_district = district_xhk_worldark_unity_servitor
+				}
+				else = {
+					add_district = district_xhk_worldark_unity_machine
+				}
 
                 set_variable = {
                     which = energy_districts
