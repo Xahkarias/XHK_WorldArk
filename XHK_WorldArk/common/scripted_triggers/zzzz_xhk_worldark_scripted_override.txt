@@ -55,25 +55,27 @@ is_arkship_starbase = {
 }
 
 technician_is_fuel_chemist_trigger = {
-    planet = {
+    colony = {
         OR = {
             has_zone = { zone = zone_ark_engine_bypass }
             has_zone = { zone = zone_xhk_worldark_reactspeed }
+			has_zone = { zone = zone_xhk_worldark_reactspeed_penrose }
         }
     }
 }
 
 technician_is_shield_tuner_trigger = {
-    planet = {
+	colony = {
         OR = {
             has_zone = { zone = zone_ark_shield_overloader }
             has_zone = { zone = zone_xhk_worldark_reactshield }
+			has_zone = { zone = zone_xhk_worldark_reactshield_penrose }
         }
     }
 }
 
 metallurgist_is_void_forge_trigger = {
-    planet = {
+	colony = {
         OR = {
             has_zone = { zone = zone_ark_military_eco }
             has_zone = { zone = zone_xhk_worldark_voidforge }
@@ -82,7 +84,7 @@ metallurgist_is_void_forge_trigger = {
 }
 
 soldier_is_shipwright_trigger = {
-    planet = {
+	colony = {
         OR = {
             has_zone = { zone = zone_ark_shipwright }
             has_zone = { zone = zone_xhk_worldark_ordinance_naval }
@@ -91,7 +93,7 @@ soldier_is_shipwright_trigger = {
 }
 
 soldier_is_missile_crew_trigger = {
-    planet = {
+	colony = {
         OR = {
             has_zone = { zone = zone_ark_missile_silos }
             has_zone = { zone = zone_xhk_worldark_ordinance_missile_silos }
@@ -100,7 +102,7 @@ soldier_is_missile_crew_trigger = {
 }
 
 soldier_is_ammunition_loader_trigger = {
-    planet = {
+	colony = {
         OR = {
             has_zone = { zone = zone_ark_ammunition_lines }
             has_zone = { zone = zone_xhk_worldark_ordinance_ammunition_lines }
@@ -109,7 +111,7 @@ soldier_is_ammunition_loader_trigger = {
 }
 
 soldier_is_laser_gunner_trigger = {
-    planet = {
+	colony = {
         OR = {
             has_zone = { zone = zone_ark_laser_capacitors }
             has_zone = { zone = zone_xhk_worldark_ordinance_laser_capacitors }
@@ -118,7 +120,7 @@ soldier_is_laser_gunner_trigger = {
 }
 
 soldier_is_flight_deck_crew_trigger = {
-    planet = {
+	colony = {
         OR = {
             has_zone = { zone = zone_ark_flight_decks }
             has_zone = { zone = zone_xhk_worldark_ordinance_flight_decks }
