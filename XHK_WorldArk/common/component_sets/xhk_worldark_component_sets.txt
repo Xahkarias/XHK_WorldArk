@@ -43,7 +43,7 @@ component_set = {
 
 ############ CORE SPINALS #############
 component_set = {
-	key = "XHK_ARKSHIP_GIGASPINAL_PLANETGUN_SET"
+	key = "XHK_ARKSHIP_CORESPINAL_PLANETGUN_SET"
 	icon = "GFX_ship_part_planet_lance"
 	icon_frame = 1
 }

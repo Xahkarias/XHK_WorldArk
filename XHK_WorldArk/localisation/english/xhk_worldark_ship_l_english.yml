@@ -170,18 +170,18 @@
 
  xhk_worldark_corespinal_planetgun: "Oblivionis Celestial Decimator"
  xhk_worldark_corespinal_planetgun_desc: "A Behemoth Planetcraft main weapon, grafted onto the heart of the $xhk_pc_worldark$. May it slay those foul enough to attempt to move the heavens against us."
- xhk_worldark_gigaspinal_planetgun_tt: "\n$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$XHK_ARKSHIP_CORESPINAL_PLANETGUN_WEAPON$§!."
+ xhk_worldark_corespinal_planetgun_tt: "\n$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$XHK_ARKSHIP_CORESPINAL_PLANETGUN_WEAPON$§!."
  sm_xhk_worldark_corespinal_planetgun: "$xhk_worldark_corespinal_planetgun$"
  sm_xhk_worldark_corespinal_planetgun_desc: "$xhk_worldark_corespinal_planetgun_desc$"
  XHK_ARKSHIP_CORESPINAL_PLANETGUN_WEAPON:0 "Oblivionis Celestial Decimator"
 
  sm_xhk_worldark_corespinal_blackhole: "Atrahasis Penrose Decompressor"
- sm_xhk_worldark_corespinal_blackhole_desc: "A black hole, stolen from the inky void and turned into a chained heart for the $xhk_pc_worldark$. Produces a prodigious amount of matter and energy for us to utilize."
- xhk_worldark_gigaspinal_blackhole_tt: "\n§IColony Effect:§!\nSwaps the §IReactor§! and §IHarvester§! Districts for §GPenrose§! and §GDecompressor§! upgrades. These have over double jobs per district compared to their normal variations."
+ sm_xhk_worldark_corespinal_blackhole_desc: "A black hole, stolen from the inky void and turned ianto a chained heart for the $xhk_pc_worldark$. Produces a prodigious amount of matter and energy for us to utilize."
+ xhk_worldark_corespinal_blackhole_tt: "\n§IColony Effect:§!\nSwaps the §IReactor§! and §IHarvester§! Districts for §GPenrose§! and §GDecompressor§! upgrades. These have over double jobs per district compared to their normal variations."
 
  sm_xhk_worldark_corespinal_nanite: "Draupnir Nanite Crucible"
  sm_xhk_worldark_corespinal_nanite_desc: "This module constantly leaks nanites into the surrounding system. They are not powerful enough to affect functional ships, but upon reaching a wreck they devour it, creating temporary vessels from their materials."
- xhk_worldark_gigaspinal_nanite_tt: "\n§ICombat Effect:§!\nFor every §G100 $concept_naval_capacity$§! destroyed in combat, creates a fleet of §G25§! $nanite_swarmer_plural$ and §G1§! $nanite_interdictor$ using §Irandom designs§! from your empire. §RThese ships are destroyed a month after combat ends.§!"
+ xhk_worldark_corespinal_nanite_tt: "\n§ICombat Effect:§!\nFor every §G100 $concept_naval_capacity$§! destroyed in combat, creates a fleet of §G25§! $nanite_swarmer_plural$ and §G1§! $nanite_interdictor$ using §Irandom designs§! from your empire. §RThese ships are destroyed a month after combat ends.§!"
  NAME_XHK_WORLDARK_NANITE_SPAWN: "Temporary Nanite Swarm"
 
  sm_xhk_worldark_corespinal_virtual: "Trimegistus Omniscence Engine"

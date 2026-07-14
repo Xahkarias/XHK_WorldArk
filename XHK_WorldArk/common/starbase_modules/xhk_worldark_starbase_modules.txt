@@ -452,9 +452,9 @@ xhk_worldark_corespinal_planetgun = {
 		}
 	}
 
-	component_set = XHK_ARKSHIP_GIGASPINAL_PLANETGUN_SET
+	component_set = XHK_ARKSHIP_CORESPINAL_PLANETGUN_SET
 	show_component_tooltips = yes
-	custom_tooltip = xhk_worldark_gigaspinal_planetgun_tt
+	custom_tooltip = xhk_worldark_corespinal_planetgun_tt
 
 	ai_weight = {
 		weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
@@ -505,7 +505,7 @@ xhk_worldark_corespinal_blackhole = {
 		miner_jobs_bonus_workforce_mult = 0.15
 	}
 
-	custom_tooltip_with_modifiers = xhk_worldark_gigaspinal_blackhole_tt
+	custom_tooltip_with_modifiers = xhk_worldark_corespinal_blackhole_tt
 
 	ai_weight = {
 		weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
@@ -552,7 +552,7 @@ xhk_worldark_corespinal_nanite = {
 		planet_farmers_nanites_produces_add = 0.2
 	}
 
-	custom_tooltip_with_modifiers = xhk_worldark_gigaspinal_nanite_tt
+	custom_tooltip_with_modifiers = xhk_worldark_corespinal_nanite_tt
 
 	on_finished = {
 		ship = {
