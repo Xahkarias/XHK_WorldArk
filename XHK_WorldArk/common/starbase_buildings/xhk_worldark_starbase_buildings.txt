@@ -9,7 +9,7 @@ xhk_worldark_science_nexus = {
 	}
 
 	potential = {
-		is_arkship_starbase = yes
+		xhk_is_worldark_starbase = yes
 		owner? = {
 			has_technology = xhk_tech_worldark_science_nexus
 		}
@@ -62,7 +62,7 @@ xhk_worldark_strategic_coordination = {
 	}
 
 	potential = {
-		is_arkship_starbase = yes
+		xhk_is_worldark_starbase = yes
 		owner? = {
 			has_technology = xhk_tech_worldark_strategic_coordination
 		}
@@ -113,7 +113,7 @@ xhk_worldark_interstellar_assembly = {
 	}
 
 	potential = {
-		is_arkship_starbase = yes
+		xhk_is_worldark_starbase = yes
 		owner? = {
 			has_technology = xhk_tech_worldark_interstellar_assembly
 		}
