@@ -28,7 +28,7 @@ xhk_worldark_science_nexus = {
 	resources = {
 		category = starbase_arkship_upgrades
 		cost = {
-			alloys = 7500
+			alloys = 20000
 			unity = 2000
 		}
 		upkeep = {
@@ -81,7 +81,7 @@ xhk_worldark_strategic_coordination = {
 	resources = {
 		category = starbase_arkship_upgrades
 		cost = {
-			alloys = 7500
+			alloys = 20000
 			unity = 2000
 		}
 		upkeep = {
@@ -92,9 +92,9 @@ xhk_worldark_strategic_coordination = {
 	triggered_country_modifier = {
 		country_naval_cap_add = 100
 		ship_fire_rate_mult = 0.10
-		ship_damage_against_starbases_mult = 0.15
+		ship_damage_against_starbases_mult = 0.10
 		country_starbase_capacity_add = 6
-		ship_speed_mult = 0.15
+		ship_speed_mult = 0.10
 	}
 
 	ai_weight = {
@@ -132,7 +132,7 @@ xhk_worldark_interstellar_assembly = {
 	resources = {
 		category = starbase_arkship_upgrades
 		cost = {
-			alloys = 7500
+			alloys = 20000
 			unity = 2000
 		}
 		upkeep = {
