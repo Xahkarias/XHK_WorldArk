@@ -571,3 +571,48 @@ xhk_worldark_corespinal_nanite = {
 		weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
 	}
 }
+
+xhk_worldark_corespinal_virtual = {
+	icon = "GFX_xhk_worldark_corespinal_virtual_mount"
+	section = "XHK_ARKSHIP_CORESPINAL_VIRTUAL_SECTION"
+	construction_days = @[arkship_spinal_mount_build_time * 4]
+	starbase_type = arkship
+	category = sm_corespinal_cat
+
+	potential = {
+		owner? = {
+			has_technology = xhk_tech_worldark_12
+			has_tradition = tr_virtuality_finish
+		}
+		has_starbase_size = xhk_worldark_tier_12
+	}
+
+	fits_on_slots = { spinal_mount_7 }
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = @[arkship_cost_alloys_5000 * 6]
+			exotic_gases = @[arkship_cost_strategic_500 * 3]
+			volatile_motes = @[arkship_cost_strategic_500 * 3]
+			rare_crystals = @[arkship_cost_strategic_500 * 3]
+			unity = @[arkship_cost_unity_500 * 3]
+			influence = 200
+		}
+
+		upkeep = {
+			energy = 100
+			exotic_gases = 10
+			volatile_motes = 10
+			rare_crystals = 10
+		}
+	}
+
+	planet_modifier = {
+		giga_virtual_colony_efficiency = 1
+	}
+
+	ai_weight = {
+		weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
+	}
+}

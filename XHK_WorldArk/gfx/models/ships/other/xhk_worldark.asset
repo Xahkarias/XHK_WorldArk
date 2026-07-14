@@ -316,3 +316,12 @@ entity = {
 	#attach = { "scanner_01" = "xhk_worldark_particle_storm_entity" }
 }
 
+entity = {
+	name = "xhk_worldark_corespinal_virtual_entity"
+	pdxmesh = "xhk_worldark_virtual_mesh"
+
+	scale = 2.0
+	game_data = {
+		emissive_recolor_crunch = 3.0
+	}
+}

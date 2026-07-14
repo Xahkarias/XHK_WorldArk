@@ -64,4 +64,10 @@ objectTypes = {
 			shader = "PdxMeshBlackHole"
 		}
 	}
+
+	pdxmesh = {
+		name = "xhk_worldark_virtual_mesh"
+		file = "gfx/models/ships/other/xhk_worldark_virtual.mesh"
+		scale = 1
+	}
 }

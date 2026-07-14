@@ -183,3 +183,6 @@
  sm_xhk_worldark_corespinal_nanite_desc: "This module constantly leaks nanites into the surrounding system. They are not powerful enough to affect functional ships, but upon reaching a wreck they devour it, creating temporary vessels from their materials."
  xhk_worldark_gigaspinal_nanite_tt: "\n§ICombat Effect:§!\nFor every §G100 $concept_naval_capacity$§! destroyed in combat, creates a fleet of §G25§! $nanite_swarmer_plural$ and §G1§! $nanite_interdictor$ using §Irandom designs§! from your empire. §RThese ships are destroyed a month after combat ends.§!"
  NAME_XHK_WORLDARK_NANITE_SPAWN: "Temporary Nanite Swarm"
+
+ sm_xhk_worldark_corespinal_virtual: "Trimegistus Omniscence Engine"
+ sm_xhk_worldark_corespinal_virtual_desc: "A labyrinth of spindly radiator fins surrounds a processing server of immense power. In order to power it, a slurry of exotic materials must be used as coolant and vented into space. Wasteful, but the processing power is undeniable."

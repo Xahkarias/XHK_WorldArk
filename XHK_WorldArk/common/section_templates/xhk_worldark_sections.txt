@@ -4790,3 +4790,11 @@ ship_section_template = {
 	fits_on_slot = spinal_mount_7
 }
 
+ship_section_template = {
+	key = "XHK_ARKSHIP_CORESPINAL_VIRTUAL_SECTION"
+	entity = "xhk_worldark_corespinal_virtual_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	ship_size = xhk_worldark_tier_12
+	fits_on_slot = spinal_mount_7
+}
