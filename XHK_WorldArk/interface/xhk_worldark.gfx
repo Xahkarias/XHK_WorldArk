@@ -172,7 +172,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_corespinal_nanite.dds"
 	}
 
-
+	####################################################################################################################
+	# SYSTEMS
+	spriteType = {
+		name = "GFX_xhk_worldark_interstellar_assembly"
+		texturefile = "gfx/interface/icons/modules/xhk_worldark_interstellar_assembly.dds"
+	}
 
 	####################################################################################################################
 	# BACKDROP

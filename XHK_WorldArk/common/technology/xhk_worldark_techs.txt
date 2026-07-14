@@ -291,3 +291,189 @@ xhk_tech_worldark_12 = {
 		}
 	}
 }
+
+#######################################
+############ OTHER TECH ###############
+#######################################
+
+xhk_tech_worldark_science_nexus = {
+	icon = tech_science_nexus
+	area = physics
+	cost = @tier5cost3
+	tier = 5
+	category = { computing }
+	ai_update_type = all
+	prerequisites = { "tech_mega_engineering" xhk_tech_worldark_7 }
+	weight = @tier5weight3
+	is_rare = yes
+
+	potential = {
+		is_nomadic = yes
+		xhk_has_worldark_origin = yes
+	}
+
+	weight_modifier = {
+		factor = 0.25
+		modifier = {
+			factor = 2
+			OR = {
+				has_trait_in_council = { TRAIT = leader_trait_maniacal }
+				has_trait_in_council = { TRAIT = leader_trait_maniacal_2 }
+				has_trait_in_council = { TRAIT = leader_trait_maniacal_3 }
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_trait_in_council = { TRAIT = leader_trait_spark_of_genius }
+				has_trait_in_council = { TRAIT = leader_trait_spark_of_genius_2 }
+			}
+		}
+		modifier = {
+			factor = 2
+			has_galactic_wonders = yes
+		}
+		modifier = {
+			factor = 6
+			has_ascension_perk = ap_master_builders
+		}
+		modifier = {
+			factor = 9
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		inline_script = {
+			script = technologies/rare_technologies_weight_modifiers
+			TECHNOLOGY = tech_science_nexus
+		}
+	}
+
+	ai_weight = {
+		factor = @best_megastructure_ai_tech_factor
+	}
+}
+
+xhk_tech_worldark_strategic_coordination = {
+	icon = tech_strategic_coordination
+	area = society
+	cost = @tier5cost3
+	tier = 5
+	category = { military_theory }
+	ai_update_type = all
+	prerequisites = { "tech_mega_engineering" xhk_tech_worldark_7 }
+	weight = @tier5weight3
+	is_rare = yes
+
+	potential = {
+		has_megacorp = yes
+		is_nomadic = yes
+		xhk_has_worldark_origin = yes
+	}
+
+	weight_modifier = {
+		factor = 0.25
+		modifier = {
+			factor = 0.5
+			is_pacifist = yes
+		}
+		modifier = {
+			factor = 2
+			is_militarist = yes
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_trait_in_council = { TRAIT = leader_trait_maniacal }
+				has_trait_in_council = { TRAIT = leader_trait_maniacal_2 }
+				has_trait_in_council = { TRAIT = leader_trait_maniacal_3 }
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_trait_in_council = { TRAIT = leader_trait_spark_of_genius }
+				has_trait_in_council = { TRAIT = leader_trait_spark_of_genius_2 }
+			}
+		}
+		modifier = {
+			factor = 2
+			has_galactic_wonders = yes
+		}
+		modifier = {
+			factor = 6
+			has_ascension_perk = ap_master_builders
+		}
+		modifier = {
+			factor = 6
+			has_ascension_perk = ap_eternal_vigilance
+		}
+		inline_script = {
+			script = technologies/rare_technologies_weight_modifiers
+			TECHNOLOGY = tech_strategic_coordination
+		}
+	}
+
+	ai_weight = {
+
+	}
+}
+
+xhk_tech_worldark_interstellar_assembly = {
+	icon = tech_interstellar_assembly
+	area = society
+	cost = @tier5cost3
+	tier = 5
+	category = { statecraft }
+	ai_update_type = all
+	prerequisites = { "tech_mega_engineering" xhk_tech_worldark_7 }
+	weight = @tier5weight3
+	is_rare = yes
+
+	potential = {
+		has_megacorp = yes
+		is_nomadic = yes
+		xhk_has_worldark_origin = yes
+	}
+
+	weight_modifier = {
+		factor = 0.25
+		modifier = {
+			factor = 0.5
+			is_xenophobe = yes
+		}
+		modifier = {
+			factor = 2
+			is_xenophile = yes
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_trait_in_council = { TRAIT = leader_trait_maniacal }
+				has_trait_in_council = { TRAIT = leader_trait_maniacal_2 }
+				has_trait_in_council = { TRAIT = leader_trait_maniacal_3 }
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_trait_in_council = { TRAIT = leader_trait_spark_of_genius }
+				has_trait_in_council = { TRAIT = leader_trait_spark_of_genius_2 }
+			}
+		}
+		modifier = {
+			factor = 2
+			has_galactic_wonders = yes
+		}
+		modifier = {
+			factor = 6
+			has_ascension_perk = ap_master_builders
+		}
+		inline_script = {
+			script = technologies/rare_technologies_weight_modifiers
+			TECHNOLOGY = tech_interstellar_assembly
+		}
+	}
+
+	ai_weight = {
+
+	}
+}

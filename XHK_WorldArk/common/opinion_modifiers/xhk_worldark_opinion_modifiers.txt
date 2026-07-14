@@ -1,0 +1,13 @@
+triggered_opinion_of_xhk_worldark_interstellar_assembly = {
+	trigger = {
+		FROM = {
+			xhk_has_worldark_origin = yes
+			capital_scope.ship.starbase = {
+				has_starbase_building = xhk_worldark_interstellar_assembly
+			}
+		}
+	}
+	opinion = {
+		base = 100
+	}
+}

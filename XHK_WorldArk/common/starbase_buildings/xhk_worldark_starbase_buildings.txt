@@ -1,0 +1,154 @@
+xhk_worldark_science_nexus = {
+	icon = "GFX_waystation_research_module"
+	starbase_type = arkship
+	construction_days = 360
+	category = sm_worldark_integrated_mega_cat
+
+	starbase_limit = {
+		base = 1
+	}
+
+	potential = {
+		is_arkship_starbase = yes
+		owner? = {
+			has_technology = xhk_tech_worldark_science_nexus
+		}
+	}
+
+	show_in_tech = "xhk_tech_worldark_science_nexus"
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+	possible = {
+		has_starbase_size >= xhk_worldark_tier_7
+	}
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = 7500
+			unity = 2000
+		}
+		upkeep = {
+			energy = 30
+		}
+	}
+
+	triggered_country_modifier = {
+		all_technology_research_speed = 0.15
+	}
+
+	planet_modifier = {
+		planet_physicists_physics_research_produces_add = 1
+		planet_biologists_society_research_produces_add = 1
+		planet_engineers_engineering_research_produces_add = 1
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+xhk_worldark_strategic_coordination = {
+	icon = "GFX_starbase_defense_grid_supercomputer"
+	starbase_type = arkship
+	construction_days = 360
+	category = sm_worldark_integrated_mega_cat
+
+	starbase_limit = {
+		base = 1
+	}
+
+	potential = {
+		is_arkship_starbase = yes
+		owner? = {
+			has_technology = xhk_tech_worldark_strategic_coordination
+		}
+	}
+
+	show_in_tech = "xhk_tech_worldark_strategic_coordination"
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+	possible = {
+		has_starbase_size >= xhk_worldark_tier_7
+	}
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = 7500
+			unity = 2000
+		}
+		upkeep = {
+			energy = 30
+		}
+	}
+
+	triggered_country_modifier = {
+		country_naval_cap_add = 100
+		ship_fire_rate_mult = 0.10
+		ship_damage_against_starbases_mult = 0.15
+		country_starbase_capacity_add = 6
+		ship_speed_mult = 0.15
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+xhk_worldark_interstellar_assembly = {
+	icon = "GFX_xhk_worldark_interstellar_assembly"
+	starbase_type = arkship
+	construction_days = 360
+	category = sm_worldark_integrated_mega_cat
+
+	starbase_limit = {
+		base = 1
+	}
+
+	potential = {
+		is_arkship_starbase = yes
+		owner? = {
+			has_technology = xhk_tech_worldark_interstellar_assembly
+		}
+	}
+
+	show_in_tech = "xhk_tech_worldark_interstellar_assembly"
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+	possible = {
+		has_starbase_size >= xhk_worldark_tier_7
+	}
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = 7500
+			unity = 2000
+		}
+		upkeep = {
+			energy = 30
+		}
+	}
+
+	triggered_country_modifier = {
+		empire_size_mult = -0.1
+		envoys_add = 2
+		diplo_weight_mult = 0.2
+	}
+
+	custom_tooltip_with_modifiers = triggered_opinion_of_xhk_worldark_interstellar_assembly_tt
+
+	ai_weight = {
+		weight = 100
+	}
+}

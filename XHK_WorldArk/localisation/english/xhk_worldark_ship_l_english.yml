@@ -140,7 +140,22 @@
  XHK_ARKSHIP_SPINAL_PK_SMELTER_WEAPON: "$PLANET_KILLER_SMELTER$"
 
  ########################################################################################################
- ### COMPONENTS
+ ### SYSTEMS
+ ########################################################################################################
+ sm_worldark_integrated_mega_cat: "§RIntegrated Megastructures§!"
+
+ sm_xhk_worldark_science_nexus: "Science Coordination Nexus"
+ sm_xhk_worldark_science_nexus_desc: "A centralized hub for all research conducted on the $xhk_pc_worldark$, organizing information and encouraging inter-disciplinary cooperation."
+
+ sm_xhk_worldark_strategic_coordination: "Strategic Siege Center"
+ sm_xhk_worldark_strategic_coordination_desc: "A centralized hub for coordinating military operations, with a focus on outmanuvering and dismantling the defenses of settled empires."
+
+ sm_xhk_worldark_interstellar_assembly: "Interstellar Congress"
+ sm_xhk_worldark_interstellar_assembly_desc: "A centralized hub for diplomacy open to all empires, with the benefit of bringing us prestige and goodwill."
+
+
+ ########################################################################################################
+ ### MODULES
  ########################################################################################################
 
  xhk_worldark_spinal_hunter_cannon: "Ukonvasara Mount"
