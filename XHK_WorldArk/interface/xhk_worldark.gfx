@@ -122,6 +122,10 @@ spriteTypes = {
 		name = "GFX_xhk_worldark_arkship_hunter"
 		texturefile = "gfx/interface/icons/ship_parts/nomads/xhk_ship_part_arkship_hunter.dds"
 	}
+	spriteType = {
+		name = "GFX_xhk_worldark_antisystem_weapon"
+		texturefile = "gfx/interface/icons/ship_parts/nomads/xhk_ship_part_antisystem.dds"
+	}
 
 	####################################################################################################################
 	# STARBASE ICONS
@@ -175,6 +179,11 @@ spriteTypes = {
 		name = "GFX_xhk_worldark_corespinal_virtual_mount"
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_corespinal_virtual.dds"
 	}
+	spriteType = {
+		name = "GFX_xhk_worldark_corespinal_antisystem_mount"
+		texturefile = "gfx/interface/icons/modules/xhk_worldark_corespinal_antisystem_mount.dds"
+	}
+
 
 	####################################################################################################################
 	# SYSTEMS

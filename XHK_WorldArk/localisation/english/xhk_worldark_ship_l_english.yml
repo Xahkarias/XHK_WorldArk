@@ -186,3 +186,10 @@
 
  sm_xhk_worldark_corespinal_virtual: "Trimegistus Omniscence Engine"
  sm_xhk_worldark_corespinal_virtual_desc: "A labyrinth of spindly radiator fins surrounds a processing server of immense power. In order to power it, a slurry of exotic materials must be used as coolant and vented into space. Wasteful, but the processing power is undeniable."
+
+ xhk_worldark_corespinal_antisystem: "Xiuhcoatl Heaven Piercer"
+ xhk_worldark_corespinal_antisystem_desc: "In order to counter the terrifying power of a $war_system_5$, we must equip the $xhk_pc_worldark$ with a weapon strong enough to slay them. Never before have we created a weapon as destructive, and may we never need it again."
+ xhk_worldark_corespinal_antisystem_tt: "\n$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_WEAPON$§!."
+ sm_xhk_worldark_corespinal_antisystem: "$xhk_worldark_corespinal_antisystem$"
+ sm_xhk_worldark_corespinal_antisystem_desc: "$xhk_worldark_corespinal_antisystem_desc$"
+ XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_WEAPON:0 "Xiuhcoatl Heaven Piercer"

@@ -4798,3 +4798,18 @@ ship_section_template = {
 	ship_size = xhk_worldark_tier_12
 	fits_on_slot = spinal_mount_7
 }
+
+ship_section_template = {
+	key = "XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_SECTION"
+	entity = "xhk_worldark_corespinal_planetgun_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	ship_size = xhk_worldark_tier_12
+	fits_on_slot = spinal_mount_7
+
+	component_slot = {
+		name = "XHK_ARKSHIP_CORESPINAL_PLANETGUN_WEAPON"
+		template = "invisible_titanic_turret"
+		locatorname = "xl_gun_01"
+	}
+}
