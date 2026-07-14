@@ -130,30 +130,34 @@ soldier_is_flight_deck_crew_trigger = {
 
 # Planet-scope allow check: true when the matching $RING$ / $ARKSHIP$ starbase variant is absent.
 orbital_ring_and_arkship_equivalent_absent = {
-	if = {
-		limit = {
-			or = {
-				is_planet_class = pc_ark
-				is_planet_class = xhk_pc_worldark
+	carrier = {
+		if = {
+			limit = {
+				or = {
+					is_planet_class = pc_ark
+					is_planet_class = xhk_pc_worldark
+				}
+			}
+			fleet.starbase? = {
+				NOR = {
+					has_starbase_building = $ARKSHIP$
+					is_starbase_building_building = $ARKSHIP$
+				}
 			}
 		}
-		fleet.starbase? = {
-			NOR = {
-				has_starbase_building = $ARKSHIP$
-				is_starbase_building_building = $ARKSHIP$
+		if = {
+			limit = {
+				exists = orbital_defence
 			}
-		}
-	}
-	else = {
-		orbital_defence.starbase? = {
-			NOR = {
-				has_starbase_building = $RING$
-				is_starbase_building_building = $RING$
+			orbital_defence.starbase? = {
+				NOR = {
+					has_starbase_building = $RING$
+					is_starbase_building_building = $RING$
+				}
 			}
 		}
 	}
 }
-
 
 
 gigas_can_have_spinal_mount = {
