@@ -352,7 +352,7 @@ xhk_worldark_spinal_pk_devolution = {
 	}
 
 	component_set = XHK_ARKSHIP_SPINAL_PK_DEVOLUTION_SET
-	custom_tooltip = xhk_worldark_spinal_planet_devolution_tt
+	custom_tooltip = xhk_worldark_spinal_planet_devolver_tt
 
 	ai_weight = {
 		weight = 10

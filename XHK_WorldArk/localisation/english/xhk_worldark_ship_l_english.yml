@@ -174,6 +174,8 @@
  sm_xhk_worldark_corespinal_planetgun: "$xhk_worldark_corespinal_planetgun$"
  sm_xhk_worldark_corespinal_planetgun_desc: "$xhk_worldark_corespinal_planetgun_desc$"
  XHK_ARKSHIP_CORESPINAL_PLANETGUN_WEAPON:0 "Oblivionis Celestial Decimator"
+ XHK_ARKSHIP_CORESPINAL_PLANETGUN_SET: "$xhk_worldark_corespinal_planetgun$"
+ XHK_ARKSHIP_CORESPINAL_PLANETGUN_SET_DESC: "$xhk_worldark_corespinal_planetgun_desc$"
 
  sm_xhk_worldark_corespinal_blackhole: "Atrahasis Penrose Decompressor"
  sm_xhk_worldark_corespinal_blackhole_desc: "A black hole, stolen from the inky void and turned ianto a chained heart for the $xhk_pc_worldark$. Produces a prodigious amount of matter and energy for us to utilize."
@@ -193,3 +195,5 @@
  sm_xhk_worldark_corespinal_antisystem: "$xhk_worldark_corespinal_antisystem$"
  sm_xhk_worldark_corespinal_antisystem_desc: "$xhk_worldark_corespinal_antisystem_desc$"
  XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_WEAPON:0 "Xiuhcoatl Heaven Piercer"
+ XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_SET: "$xhk_worldark_corespinal_antisystem$"
+ XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_SET_DESC: "$xhk_worldark_corespinal_antisystem_desc$"
