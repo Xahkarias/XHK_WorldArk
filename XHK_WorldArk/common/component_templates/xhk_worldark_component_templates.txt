@@ -339,7 +339,7 @@ weapon_component_template = {
 	icon_frame = 1
 	power = -5000
 	component_set = "XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_SET"
-	projectile_gfx = "giga_super_omega_laser"
+	projectile_gfx = "xhk_worldark_xiuhcoatl"
 	prerequisites = { "xhk_tech_worldark_12" }
 	tags = {  weapon_role_artillery t_slot }
 	potential = { xhk_worldark_has_corespinal = yes }

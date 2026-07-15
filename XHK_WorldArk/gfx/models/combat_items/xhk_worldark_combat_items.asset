@@ -32,3 +32,15 @@ entity = {
 	default_state = "explode_med_hp"
 	scale = 10
 }
+
+entity = {
+	name = "xhk_worldark_xiuhcoatl_artillery_entity"
+	pdxmesh = "adv_kinetic_artillery_tracer_round_mesh"
+
+	default_state = idle
+	state = { name = "idle"
+		#event = { time = 0 particle = "kinetic_artillery_idle_particle" keep_particle = yes }
+	}
+
+	scale = 35
+}

@@ -160,6 +160,9 @@ orbital_ring_and_arkship_equivalent_absent = {
 }
 
 
+
+
+# GIGAS OVERRIDE
 gigas_can_have_spinal_mount = {
 	OR = {
 		is_ship_size = civilian_arkship_tier_3
