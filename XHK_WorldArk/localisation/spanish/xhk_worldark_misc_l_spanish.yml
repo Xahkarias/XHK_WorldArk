@@ -45,6 +45,18 @@
   XHK_TECH_UPGRADE_WORLDARK_11_TITLE:99 "$xhk_tech_worldark_11_desc$\n§GLarge Bonus§! to $xhk_pc_worldark$ §GCombat Strength§!."
   XHK_TECH_UPGRADE_WORLDARK_12_TITLE:99 "$xhk_tech_worldark_12_desc$\nThe powerful §GCore Spinal§! is §Gunlocked§!."
   
+  xhk_tech_worldark_science_nexus:99 "Integrated Science Nexus"
+  xhk_tech_worldark_science_nexus_desc:99 "Studies of settled empires have shown the value in concentrating scientific research in an isolated area, especially when coupled with advanced equipment."
+  
+  xhk_tech_worldark_strategic_coordination:99 "Integrated Strategic Coordination Center"
+  xhk_tech_worldark_strategic_coordination_desc:99 "Studies of settled empires have given us insight into their naval tactics. While most of these are not applicable to us, we can still learn on how to use this knowledge against them."
+  
+  xhk_tech_worldark_interstellar_assembly:99 "Integrated Interstellar Assembly"
+  xhk_tech_worldark_interstellar_assembly_desc:99 "Studies of settled empires have shown us the wisdom of having a stable forum for diplomacy. But stable does not necessarily mean immovable."
+  triggered_opinion_of_xhk_worldark_interstellar_assembly:99 "Interstellar Congress"
+  triggered_opinion_of_xhk_worldark_interstellar_assembly_tt:99 "$t$Grants §G+100§! Opinion from all Empires"
+  
+  
   xhk_harvest_plus_small:99 "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_small]§!"
   xhk_harvest_plus_large:99 "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_large]§!"
   xhk_harvest_plus_vlarge:99 "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_vlarge]§!"
