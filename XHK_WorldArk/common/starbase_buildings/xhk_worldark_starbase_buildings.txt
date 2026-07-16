@@ -1,7 +1,181 @@
+
+xhk_worldark_resort_system = {
+	icon = "GFX_waystation_trade_module"
+	starbase_type = arkship
+	construction_days = 360
+	category = sm_colony_cat
+
+	starbase_limit = {
+		base = 1
+	}
+
+	potential = {
+		xhk_is_worldark_starbase = yes
+		owner? = {
+			has_ascension_perk = ap_wanderlust
+			is_gestalt = no
+		}
+	}
+
+	possible = {
+		has_starbase_size >= xhk_worldark_tier_4
+	}
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = 1000
+			unity = 500
+		}
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	planet_modifier = {
+		job_resort_worker_add = 300
+	}
+	triggered_planet_modifier = {
+		potential = {
+			owner? = {
+				calc_true_if = {
+					amount >= 4
+					OR = {
+						has_country_flag = ancient_wonders_completed
+						check_variable = { which = ancient_wonders_system_count value = 0 }
+					}
+					OR = {
+						has_country_flag = antique_threat_completed
+						check_variable = { which = antique_threat_system_count value = 0 }
+					}
+					OR = {
+						has_country_flag = enclave_completed
+						check_variable = { which = enclave_system_count value = 0 }
+					}
+					OR = {
+						has_country_flag = galactic_landmark_completed
+						check_variable = { which = galactic_landmark_system_count value = 0 }
+					}
+					OR = {
+						has_country_flag = marauder_completed
+						check_variable = { which = marauder_system_count value = 0 }
+					}
+					OR = {
+						has_country_flag = natural_spectacle_completed
+						check_variable = { which = natural_spectacle_system_count value = 0 }
+					}
+					OR = {
+						has_country_flag = precursor_completed
+						check_variable = { which = precursor_system_count value = 0 }
+					}
+					OR = {
+						has_country_flag = space_ecology_completed
+						check_variable = { which = space_ecology_system_count value = 0 }
+					}
+				}
+			}
+		}
+		job_resort_worker_add = 300
+	}
+
+	custom_tooltip_with_modifiers = xhk_worldark_wanderlust_system_tt
+
+	ai_weight = {
+		weight = 100
+	}
+}
+xhk_worldark_resort_system_gestalt = {
+	icon = "GFX_waystation_trade_module"
+	starbase_type = arkship
+	construction_days = 360
+	category = sm_colony_cat
+
+	starbase_limit = {
+		base = 1
+	}
+
+	potential = {
+		xhk_is_worldark_starbase = yes
+		owner? = {
+			has_ascension_perk = ap_wanderlust
+			is_gestalt = yes
+		}
+	}
+
+	possible = {
+		has_starbase_size >= xhk_worldark_tier_4
+	}
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = 1000
+			unity = 500
+		}
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	planet_modifier = {
+		job_evaluator_add = 500
+	}
+	triggered_planet_modifier = {
+		potential = {
+			owner? = {
+				calc_true_if = {
+					amount >= 4
+					OR = {
+						has_country_flag = ancient_wonders_completed
+						check_variable = { which = ancient_wonders_system_count value = 0 }
+					}
+					OR = {
+						has_country_flag = antique_threat_completed
+						check_variable = { which = antique_threat_system_count value = 0 }
+					}
+					OR = {
+						has_country_flag = enclave_completed
+						check_variable = { which = enclave_system_count value = 0 }
+					}
+					OR = {
+						has_country_flag = galactic_landmark_completed
+						check_variable = { which = galactic_landmark_system_count value = 0 }
+					}
+					OR = {
+						has_country_flag = marauder_completed
+						check_variable = { which = marauder_system_count value = 0 }
+					}
+					OR = {
+						has_country_flag = natural_spectacle_completed
+						check_variable = { which = natural_spectacle_system_count value = 0 }
+					}
+					OR = {
+						has_country_flag = precursor_completed
+						check_variable = { which = precursor_system_count value = 0 }
+					}
+					OR = {
+						has_country_flag = space_ecology_completed
+						check_variable = { which = space_ecology_system_count value = 0 }
+					}
+				}
+			}
+		}
+		job_evaluator_add = 500
+	}
+
+	custom_tooltip_with_modifiers = xhk_worldark_wanderlust_system_tt
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+############################################################
+### MEGA INTEGRATION
 xhk_worldark_science_nexus = {
 	icon = "GFX_waystation_research_module"
 	starbase_type = arkship
-	construction_days = 360
+	construction_days = 1080
 	category = sm_worldark_integrated_mega_cat
 
 	starbase_limit = {
@@ -54,7 +228,7 @@ xhk_worldark_science_nexus = {
 xhk_worldark_strategic_coordination = {
 	icon = "GFX_starbase_defense_grid_supercomputer"
 	starbase_type = arkship
-	construction_days = 360
+	construction_days = 1080
 	category = sm_worldark_integrated_mega_cat
 
 	starbase_limit = {
@@ -105,7 +279,7 @@ xhk_worldark_strategic_coordination = {
 xhk_worldark_interstellar_assembly = {
 	icon = "GFX_xhk_worldark_interstellar_assembly"
 	starbase_type = arkship
-	construction_days = 360
+	construction_days = 1080
 	category = sm_worldark_integrated_mega_cat
 
 	starbase_limit = {

@@ -142,6 +142,14 @@
  ########################################################################################################
  ### SYSTEMS
  ########################################################################################################
+ sm_xhk_worldark_resort_system: "Resort Sector"
+ sm_xhk_worldark_resort_system_desc: "Our travels throughout the void have shown us many different marvels of the universe. Here we can recreate it even for a short time, and relive the beauty of the cosmos."
+ sm_xhk_worldark_resort_system_gestalt: "Cosmic Analysis Sector"
+ sm_xhk_worldark_resort_system_gestalt_desc: "Our travels throughout the void have shown us many different marvels of the universe. Here we can ponder it even for a short time, and relive the beauty of the cosmos."
+ xhk_worldark_wanderlust_system_tt: "\n§GDoubles§! in potency once §GFour§! of the §I$ap_wanderlust$ Objectives§! are completed."
+
+
+
  sm_worldark_integrated_mega_cat: "§RIntegrated Megastructures§!"
 
  sm_xhk_worldark_science_nexus: "Science Coordination Nexus"
