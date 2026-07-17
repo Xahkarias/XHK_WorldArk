@@ -6,7 +6,7 @@
 @xhk_district_base_cost = 150
 @xhk_base_buildtime = 360
 
-@xhk_growth_job_per_increase = 15
+@xhk_growth_job_per_increase = 10
 @xhk_worldark_housing_per_district = 200
 
 ########################################################################################################
@@ -134,7 +134,7 @@
 ########################################################################################################
 ##### SCRIPTED ACTIONS ####
 ########################################################################################################
-@xhk_worldark_harvest_cd = 2160 # 6 yrs
-@xhk_worldark_harvest_size_small = 4
-@xhk_worldark_harvest_size_large = 8
-@xhk_worldark_harvest_size_vlarge = 12
+@xhk_worldark_harvest_cd = 3600 # 10 yrs
+@xhk_worldark_harvest_size_small = 6
+@xhk_worldark_harvest_size_large = 10
+@xhk_worldark_harvest_size_vlarge = 20
