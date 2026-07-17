@@ -118,3 +118,15 @@ xhk_pk_planet_smelter = {
 		awareness.150 # Planet cracker used OR planet terraformed, chance to gain 20 awareness.
 	}
 }
+
+###### CORE SPINAL
+xhk_onaction_corespinal_planeteater = {
+	events = {
+		xhk_worldark.2000		# Arkship Lithoid Consume World - Start / Resume
+	}
+}
+xhk_onaction_corespinal_planeteater_cancelled = {
+	events = {
+		xhk_worldark.2001		# Arkship Lithoid Consume World - Cancelled
+	}
+}

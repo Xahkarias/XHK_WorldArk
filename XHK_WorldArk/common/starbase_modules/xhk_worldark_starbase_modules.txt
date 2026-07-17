@@ -515,6 +515,65 @@ xhk_worldark_corespinal_blackhole = {
 	on_destroyed = { hidden_effect = { colony = { validate_planet_buildings_and_districts = yes } } }
 }
 
+xhk_worldark_corespinal_planeteater = {
+	icon = "GFX_xhk_worldark_corespinal_planeteater_mount"
+	section = "XHK_ARKSHIP_CORESPINAL_PLANETEATER_SECTION"
+	construction_days = @[arkship_spinal_mount_build_time * 2]
+	starbase_type = arkship
+	category = sm_corespinal_cat
+
+	potential = {
+		owner? = {
+			has_technology = xhk_tech_worldark_12
+		}
+		has_starbase_size = xhk_worldark_tier_12
+	}
+
+	show_in_tech = "xhk_tech_worldark_12"
+
+	show_tech_unlock_if = {
+		is_nomadic = yes
+	}
+
+	fits_on_slots = { spinal_mount_7 }
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = @[arkship_cost_alloys_5000 * 6]
+			exotic_gases = @[arkship_cost_strategic_500 * 3]
+			volatile_motes = @[arkship_cost_strategic_500 * 3]
+			rare_crystals = @[arkship_cost_strategic_500 * 3]
+			unity = @[arkship_cost_unity_500 * 3]
+			influence = 200
+		}
+
+		upkeep = {
+			energy = 100
+			exotic_gases = 10
+			volatile_motes = 10
+			rare_crystals = 10
+		}
+	}
+
+	station_modifier = {
+		show_only_custom_tooltip = no
+		arkship_harvest_resources_produces_mult = 0.5
+	}
+
+	country_modifier = {
+		country_resource_max_add = 50000
+		situation_nomad_economy_max_progress_add = 50000
+	}
+
+	component_set = XHK_ARKSHIP_CORESPINAL_PLANETEATER_SET
+	custom_tooltip_with_modifiers = xhk_worldark_corespinal_planeteater_tt
+
+	ai_weight = {
+		weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
+	}
+}
+
 xhk_worldark_corespinal_nanite = {
 	icon = "GFX_xhk_worldark_corespinal_nanite_mount"
 	section = "XHK_ARKSHIP_CORESPINAL_NANITE_SECTION"

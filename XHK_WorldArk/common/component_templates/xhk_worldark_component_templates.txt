@@ -331,6 +331,43 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
+	key = "XHK_ARKSHIP_CORESPINAL_PLANETEATER_WEAPON"
+	size = titanic
+	type = instant
+	prio_projectile = yes
+	hidden = yes
+
+	icon = "GFX_ship_part_world_cracker"
+	icon_frame = 1
+
+	potential = {
+		xhk_worldark_has_corespinal = yes
+	}
+
+	scripted_action = {
+		xhk_worldark_corespinal_planeteater_dismantle_world
+	}
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+			rare_crystals = 10
+		}
+		upkeep = {
+			alloys = @titanic_t7_upkeep_alloys
+			energy = 50
+		}
+	}
+
+
+	tags = { t_slot }
+	component_set = "XHK_ARKSHIP_CORESPINAL_PLANETEATER_SET"
+	damage = { min = 0 max = 0 } # As to not artificially inflate fleet power with 1k daily damage
+	projectile_gfx = "arkship_01_devastator_laser"
+}
+
+weapon_component_template = {
 	key = "XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_WEAPON"
 	size = titanic
 	entity = "invisible_turret_entity"

@@ -131,3 +131,27 @@ message_type = {
 
 	category = other
 }
+
+### CORE SPINALS
+message_type = {
+	key = "XHK_MESSAGE_PLANETEATER_PROCESS"
+	icon = "GFX_message_terraforming"
+	icon_frame = 1
+
+	name = "XHK_MESSAGE_PLANETEATER_PROCESS_TITLE"
+	sound = "notification"
+	ping = "ping_notification_green"
+
+	category = planets
+}
+message_type = {
+	key = "XHK_MESSAGE_PLANETEATER_COMPLETE"
+	icon = "GFX_message_terraforming"
+	icon_frame = 1
+
+	name = "XHK_MESSAGE_PLANETEATER_COMPLETE_TITLE"
+	sound = "notification"
+	ping = "ping_notification_green"
+
+	category = planets
+}

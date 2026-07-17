@@ -49,3 +49,93 @@ xhk_worldark_situation_main = {
         multiplier = owner.capital_scope.carrier.starbase.value:xhk_worldark_level
     }
 }
+
+# core spinal planet eater
+xhk_worldark_situation_planeteater = {
+	complete_icon_frame = GFX_situation_outcome_frame_green
+	complete_icon = GFX_situation_exploding_planet
+	situation_log_category = xhk_worldark_situation_category
+
+	inline_script = "situations/consume_world_planet_pictures"
+
+	stages = {
+		stage_1 = {
+			icon = GFX_situation_stage_1
+			icon_background = GFX_situation_stage_frame_green
+			end = 1000
+			custom_tooltip = xhk_worldark_stage_planeteater
+		}
+	}
+
+	category = positive
+	initial_progress = 0
+
+	on_progress_complete = {
+		custom_tooltip = xhk_worldark_corespinal_planeteater_finish_tt
+		hidden_effect = {
+			situation_event = { id = xhk_worldark.2003 }
+		}
+	}
+	on_monthly = {
+		events = {
+			xhk_worldark.2002
+		}
+	}
+	on_abort = {
+		owner = {
+			every_owned_fleet = {
+				limit = { has_fleet_flag = consuming_world_arkship@root.target }
+				remove_fleet_flag = consuming_world_arkship@root.target
+			}
+		}
+		target = {
+			remove_carrier_flag = being_devoured
+			remove_modifier = xhk_worldark_being_devoured_modifier
+			remove_carrier_flag = arkship_absent_grace
+			remove_carrier_flag = colony_event
+		}
+	}
+
+	approach = {
+		name = approach_xhk_planeteater
+		on_select = { custom_tooltip = xhk_worldark_stage_planeteater_effect }
+		default = yes
+		icon = GFX_situation_approach_amenities
+		icon_background = GFX_situation_approach_bg_green
+		ai_weight = { base = 10 }
+	}
+
+	monthly_progress = {
+		base = 0
+		modifier = {
+			add = value:xhk_worldark_dismantle_progress
+			desc = string_terravore_progress
+		}
+		modifier = {
+			desc = string_arkship_absent_grace
+			mult = 0
+			target = { has_carrier_flag = arkship_absent_grace }
+		}
+	}
+
+	triggered_blocked_desc = {
+		trigger = {
+			target = { has_carrier_flag = arkship_absent_grace }
+		}
+		text = situation_arkship_consuming_world_absent_desc
+	}
+
+	abort_trigger = {
+		OR = {
+			NOT = { exists = target }
+			target = {
+				NOR = {
+					has_carrier_flag = arkship_absent_grace
+					any_fleet_in_orbit = {
+						has_fleet_flag = consuming_world_arkship@root.target
+					}
+				}
+			}
+		}
+	}
+}

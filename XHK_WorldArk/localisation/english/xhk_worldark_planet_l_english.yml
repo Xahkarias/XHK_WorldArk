@@ -365,6 +365,9 @@
  d_xhk_worldark_harvest_size: "Planetary Harvest Expansion"
  d_xhk_worldark_harvest_size_desc: "The $xhk_pc_worldark$ has expanded by consuming those boring celestial bodies which boorishly move around their parent for eons."
 
+ d_xhk_worldark_dismantle_size: "Planetary Dismantlement Expansion"
+ d_xhk_worldark_dismantle_size_desc: "More expedient than harvesting, dismantling celestial bodies proves to be a quicker way of expansion."
+
  d_xhk_worldark_consume_ark_size: "Arkship Consumption Expansion"
  d_xhk_worldark_consume_ark_size_desc: "The $xhk_pc_worldark$ has expanded by consuming the weaker Arkships of those who we have defeated in combat."
 

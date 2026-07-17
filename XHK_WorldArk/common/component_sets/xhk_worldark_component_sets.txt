@@ -48,6 +48,11 @@ component_set = {
 	icon_frame = 1
 }
 component_set = {
+	key = "XHK_ARKSHIP_CORESPINAL_PLANETEATER_SET"
+	icon = "GFX_ship_part_planet_lance"
+	icon_frame = 1
+}
+component_set = {
 	key = "XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_SET"
 	icon = "GFX_ship_part_planet_lance"
 	icon_frame = 1

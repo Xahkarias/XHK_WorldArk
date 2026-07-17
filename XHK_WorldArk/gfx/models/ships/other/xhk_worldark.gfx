@@ -49,6 +49,9 @@ objectTypes = {
 		}
 	}
 
+	###########################################################
+	### SPINALS #############################
+
 	pdxmesh = {
 		name = "xhk_worldark_blackhole_mesh"
 		file = "gfx/models/ships/other/xhk_worldark_blackhole.mesh"
@@ -63,6 +66,12 @@ objectTypes = {
 			texture_specular = "black_hole_new_specular.dds"
 			shader = "PdxMeshBlackHole"
 		}
+	}
+
+	pdxmesh = {
+		name = "xhk_worldark_planeteater_mesh"
+		file = "gfx/models/ships/other/xhk_worldark_planeteater.mesh"
+		scale = 1
 	}
 
 	pdxmesh = {

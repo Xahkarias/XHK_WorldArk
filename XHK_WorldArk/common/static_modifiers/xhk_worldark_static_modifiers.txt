@@ -5,3 +5,8 @@ xhk_size_harvested_already = {
     custom_tooltip = xhk_size_harvested_already_tt
     show_only_custom_tooltip = no
 }
+
+xhk_worldark_being_devoured_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_shattered_planet.dds"
+	icon_frame = 3
+}

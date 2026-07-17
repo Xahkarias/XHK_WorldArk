@@ -400,6 +400,16 @@ d_xhk_worldark_harvest_size = {
     potential = { always = no }
 }
 
+d_xhk_worldark_dismantle_size = {
+	is_for_colonizable = yes
+	icon = d_crater
+	category = deposit_cat_misc
+	use_for_min_max_adjustments = yes
+
+	drop_weight = { weight = 0 }
+	potential = { always = no }
+}
+
 d_xhk_worldark_consume_ark_size = {
     is_for_colonizable = yes
     icon = d_ship_in_orbit

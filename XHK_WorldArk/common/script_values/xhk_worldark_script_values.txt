@@ -87,3 +87,31 @@ xhk_worldark_recursive_learners_value = {
 	}
 	max = 0.25
 }
+
+# gets the progress to dismantle planet
+# planet scope
+xhk_worldark_dismantle_progress = {
+	# this consumes every yr
+	# everything below this needs to evaluate to how many months it takes to eat it
+	#ex: 2 districts per 6 months = 1 district every 3 months
+	base = 1
+	# what is the size
+	modifier = {
+		mult = target.num_districts_xhk_worldark_consume
+	}
+	# divide by how how much it shrinks by each pulse, now you have number of pulses
+	modifier = {
+		divide = @xhk_worldark_dismantle_size_decrease
+	}
+	# multiple by pulse cooldown in days
+	modifier = {
+		multiply = @xhk_worldark_dismantle_pulse_cooldown
+	}
+	# now turn that into years
+	modifier = {
+		divide = 30
+	}
+	## END MONTH CALC
+	pow = -1
+	mult = 1000
+}
