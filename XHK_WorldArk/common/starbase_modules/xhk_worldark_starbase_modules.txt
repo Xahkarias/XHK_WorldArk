@@ -418,7 +418,7 @@ xhk_worldark_spinal_pk_smelter = {
 xhk_worldark_corespinal_planetgun = {
 	icon = "GFX_xhk_worldark_corespinal_planetgun_mount"
 	section = "XHK_ARKSHIP_CORESPINAL_PLANETGUN_SECTION"
-	construction_days = @[arkship_spinal_mount_build_time * 4]
+	construction_days = @[arkship_spinal_mount_build_time * 2]
 	starbase_type = arkship
 	category = sm_corespinal_cat
 
@@ -464,7 +464,7 @@ xhk_worldark_corespinal_planetgun = {
 xhk_worldark_corespinal_blackhole = {
 	icon = "GFX_xhk_worldark_corespinal_blackhole_mount"
 	section = "XHK_ARKSHIP_CORESPINAL_BLACKHOLE_SECTION"
-	construction_days = @[arkship_spinal_mount_build_time * 4]
+	construction_days = @[arkship_spinal_mount_build_time * 2]
 	starbase_type = arkship
 	category = sm_corespinal_cat
 
@@ -518,7 +518,7 @@ xhk_worldark_corespinal_blackhole = {
 xhk_worldark_corespinal_nanite = {
 	icon = "GFX_xhk_worldark_corespinal_nanite_mount"
 	section = "XHK_ARKSHIP_CORESPINAL_NANITE_SECTION"
-	construction_days = @[arkship_spinal_mount_build_time * 4]
+	construction_days = @[arkship_spinal_mount_build_time * 2]
 	starbase_type = arkship
 	category = sm_corespinal_cat
 
@@ -575,7 +575,7 @@ xhk_worldark_corespinal_nanite = {
 xhk_worldark_corespinal_virtual = {
 	icon = "GFX_xhk_worldark_corespinal_virtual_mount"
 	section = "XHK_ARKSHIP_CORESPINAL_VIRTUAL_SECTION"
-	construction_days = @[arkship_spinal_mount_build_time * 4]
+	construction_days = @[arkship_spinal_mount_build_time * 2]
 	starbase_type = arkship
 	category = sm_corespinal_cat
 
@@ -620,7 +620,7 @@ xhk_worldark_corespinal_virtual = {
 xhk_worldark_corespinal_antisystem = {
 	icon = "GFX_xhk_worldark_corespinal_antisystem_mount"
 	section = "XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_SECTION"
-	construction_days = @[arkship_spinal_mount_build_time * 4]
+	construction_days = @[arkship_spinal_mount_build_time * 2]
 	starbase_type = arkship
 	category = sm_corespinal_cat
 
