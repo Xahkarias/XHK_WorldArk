@@ -141,3 +141,11 @@ slot_xhk_worldark_storage = {
     }
     unlock = { always = yes }
 }
+
+slot_xhk_worldark_utilbay = {
+	start = zone_xhk_worldark_utilbay
+	included_zone_sets = {
+		xhk_worldark_utilbay
+	}
+	unlock = { always = yes }
+}

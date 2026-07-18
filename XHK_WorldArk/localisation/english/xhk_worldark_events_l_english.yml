@@ -115,9 +115,10 @@
  xhk_worldark_docs_districts_desc_negativemass: "\n£giga_sr_negative_mass£§G$district_xhk_worldark_negativemass$§!:  Provides [get_ehof_energy_converter] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_negativemass$§!:  Adds [get_ehof_energy_converter] jobs."
  xhk_worldark_docs_districts_desc_sentientmetal: "\n£giga_sr_sentient_metal£§G$district_xhk_worldark_sentientmetal$§!:  Provides [get_ehof_cultivator] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_sentientmetal$§!:  Adds [get_ehof_cultivator] jobs."
 
- xhk_worldark_docs_districts_desc_group_utility: "$xhk_worldark_docs_districts_desc_group_utility_header$$xhk_worldark_docs_districts_desc_storage$"
+ xhk_worldark_docs_districts_desc_group_utility: "$xhk_worldark_docs_districts_desc_group_utility_header$$xhk_worldark_docs_districts_desc_storage$$xhk_worldark_docs_districts_desc_utilbay$"
  xhk_worldark_docs_districts_desc_group_utility_header: "\n§l------UTILITY-------------------------------------------§!"
  xhk_worldark_docs_districts_desc_storage: "\n£mod_country_resource_max_add£§G$district_xhk_worldark_storage$§!:  Provides £mod_country_resource_max_add£§YMaximum Resource Storage§! and §Y£operational_reserves£$mod_situation_nomad_economy_max_progress_add$§!"
+ xhk_worldark_docs_districts_desc_utilbay: "\n£housing£§G$district_xhk_worldark_utilbay$§!:  Provides extra unlocked building slots."
 
  ####################
  # ARKSHIP LEVELS

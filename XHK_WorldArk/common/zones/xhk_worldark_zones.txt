@@ -1336,3 +1336,37 @@ zone_xhk_worldark_storage = {
     }
 
 }
+
+## UTILITY BAY
+###########################################################
+zone_xhk_worldark_utilbay = {
+	icon = GFX_district_specialization_urban
+	inline_script = {
+		script = xhk_worldark/zones/zone_common
+		NUM_BUILDINGS = 3
+		UNLOCK = ""
+		POTENTIAL = ""
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			owner? = { is_gestalt = no}
+		}
+		job_clerk_add = 400
+	}
+	triggered_district_planet_modifier = {
+		potential = {
+			owner? = { is_gestalt = yes }
+		}
+		job_evaluator_add = 200
+		job_technician_drone_add = 200
+	}
+
+	include = {
+		all
+	}
+
+	zone_sets = {
+		xhk_worldark_utilbay
+	}
+}

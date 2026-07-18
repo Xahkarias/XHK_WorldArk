@@ -251,8 +251,16 @@
  district_xhk_worldark_storage_plural: "Storage Holds"
  district_xhk_worldark_storage_desc: "A large storage complex that would take up the size of a city on a terrestrial planet."
  flavor_xhk_worldark_storage_name: "Deep Warehouses"
- district_xhk_worldark_storage_effect: "The zone gives £mod_country_resource_max_add£§G+10000 Resource Storage§! and §G+1000 $mod_situation_nomad_economy_max_progress_add$§!"
+ district_xhk_worldark_storage_effect: "Attached Zone gives £mod_country_resource_max_add£§G+10000 Resource Storage§! and §G+1000 $mod_situation_nomad_economy_max_progress_add$§!"
 
+ ##################################################################
+ # Util Bay
+ ##################################################################
+
+ district_xhk_worldark_utilbay: "Utility Bay"
+ district_xhk_worldark_utilbay_plural: "Utility Bays"
+ district_xhk_worldark_utilbay_desc: "Large bays that are relatively close to most areas on the $xhk_pc_worldark$. Makes for a natural crossroads between sections."
+ flavor_xhk_worldark_utilbay_name: "Auxiliary Complex"
 
  #########################################################################################################################################################################
  # ZONES
@@ -354,6 +362,9 @@
 
  zone_xhk_worldark_storage: "$district_xhk_worldark_storage$"
  zone_xhk_worldark_storage_desc: "$district_xhk_worldark_storage_desc$"
+
+ zone_xhk_worldark_utilbay: "$district_xhk_worldark_utilbay$"
+ zone_xhk_worldark_utilbay_desc: "$district_xhk_worldark_utilbay_desc$"
 
  #########################################################################################################################################################################
  # DEPOSITS

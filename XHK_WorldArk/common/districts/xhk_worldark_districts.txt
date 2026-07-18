@@ -1324,3 +1324,45 @@ district_xhk_worldark_storage = {
         text = flavor_xhk_worldark_storage_name
     }
 }
+# building holder
+district_xhk_worldark_utilbay = {
+	base_buildtime = @xhk_base_buildtime
+	icon = district_xhk_worldark_utilbay
+	gridbox = district_arcology_fortress
+	is_uncapped = {
+		always = no
+	}
+	base_cap_amount = 1
+	overlay_icon = GFX_district_housing
+
+	zone_slots = {
+		slot_xhk_worldark_utilbay
+	}
+
+	inline_script = {
+		script = xhk_worldark/districts/district_common
+		POTENTIAL = "
+            exists = owner
+            owner = {
+                has_technology = tech_construction_templates
+            }
+        "
+	}
+
+	prerequisites = { tech_construction_templates }
+	show_tech_unlock_if = { xhk_has_worldark_origin = yes }
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = @xhk_district_base_cost
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	triggered_name = {
+		text = flavor_xhk_worldark_utilbay_name
+	}
+}
