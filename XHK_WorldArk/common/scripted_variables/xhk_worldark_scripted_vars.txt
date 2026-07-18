@@ -7,7 +7,7 @@
 @xhk_base_buildtime = 360
 
 @xhk_growth_job_per_increase = 10
-@xhk_worldark_housing_per_district = 200
+@xhk_worldark_housing_per_district = 400
 
 ########################################################################################################
 ##### SHIP STATS ####
