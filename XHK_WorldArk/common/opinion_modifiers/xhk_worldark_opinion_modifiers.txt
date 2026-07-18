@@ -12,14 +12,29 @@ triggered_opinion_of_xhk_worldark_interstellar_assembly = {
 	}
 }
 
-opinion_xhk_worldark_planeteater = {
+opinion_xhk_worldark_planeteater_habitable = {
 	opinion = {
 		base = -25
 	} # per pulse
 
 	accumulative = yes
 
-	min = -2000
+	min = -1000
+	decay = {
+		base = 1.0
+		modifier = {
+			factor = value:negative_opinion_decay_rate
+		}
+	}
+}
+opinion_xhk_worldark_planeteater_barren = {
+	opinion = {
+		base = -5
+	} # per pulse
+
+	accumulative = yes
+
+	min = -1000
 	decay = {
 		base = 1.0
 		modifier = {

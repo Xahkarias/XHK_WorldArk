@@ -192,7 +192,7 @@
  #### PLANET EATER ####
  xhk_worldark_corespinal_planeteater: "Beelzebub Planetary Dismantler"
  xhk_worldark_corespinal_planeteater_desc: "A massive array of furnaces and processing facilities, fed by an even larger arrangement of grinders, slicers, crushers, all at a scale large enough to render planets into their constituent materials."
- xhk_worldark_corespinal_planeteater_tt: "$ARKSHIP_ACTION_HEADER$ $TABBED_NEW_LINE$['scripted_action:xhk_worldark_corespinal_planeteater_dismantle_world']"
+ xhk_worldark_corespinal_planeteater_tt: "$ARKSHIP_ACTION_HEADER$ $TABBED_NEW_LINE$['scripted_action:xhk_worldark_corespinal_planeteater_dismantle_world']\n\n§RTHIS ACTION IS CALLED FROM THE RIGHT-CLICK MENU, NOT AS A BUTTON IN THE SHIP MENU§!"
  sm_xhk_worldark_corespinal_planeteater: "$xhk_worldark_corespinal_planeteater$"
  sm_xhk_worldark_corespinal_planeteater_desc: "$xhk_worldark_corespinal_planeteater_desc$"
  XHK_ARKSHIP_CORESPINAL_PLANETEATER_WEAPON:0 "$xhk_worldark_corespinal_planeteater$"
@@ -201,7 +201,7 @@
  ## ALL THE SCRIPTED ACTION PAIN THAT COMES WITH IT
  xhk_worldark_corespinal_planeteater_dismantle_world: "Dismantle Planet"
  xhk_worldark_corespinal_planeteater_dismantle_world_desc: "§LEngulf the planetary body with the large maw of the $xhk_worldark_corespinal_planeteater$, slowly breaking it down into resources and expanding the $xhk_pc_worldark$.§!"
- xhk_worldark_corespinal_planeteater_dismantle_world_effect: "$PLANET_EFFECTS_HEADER$$TABBED_NEW_LINE$- Planet is gradually consumed increasing §E£arkship£§!§Y$xhk_pc_worldark$ Maximum Districts§!.$TABBED_NEW_LINE$- The $xhk_pc_worldark$ gains §G+1 Maximum Districts§! per 4 Planet Size.$TABBED_NEW_LINE$- Gain $alloys_with_icon$ and $minerals_with_icon$ during dismantlement.$TABBED_NEW_LINE$- Target is shrunk during the process and §Rdeleted§! on completion.$TABBED_NEW_LINE$- Other empires will §Rlose opinion§! every time target is shrunk."
+ xhk_worldark_corespinal_planeteater_dismantle_world_effect: "$PLANET_EFFECTS_HEADER$$TABBED_NEW_LINE$- Planet is gradually consumed increasing §E£arkship£§!§Y$xhk_pc_worldark$ Maximum Districts§!.$TABBED_NEW_LINE$- The $xhk_pc_worldark$ gains §G+1 Maximum Districts§! per 4 Planet Size.$TABBED_NEW_LINE$- Gain $alloys_with_icon$ and $minerals_with_icon$ during dismantlement.$TABBED_NEW_LINE$- Target is shrunk during the process and §Rdeleted§! on completion.$TABBED_NEW_LINE$- Other empires will §Rlose opinion§! (extra if the target is habitable) every time the target is shrunk."
  xhk_worldark_corespinal_planeteater_dismantle_world_ship_button: "$xhk_worldark_corespinal_planeteater_dismantle_world_effect$\n\n$xhk_worldark_corespinal_planeteater_dismantle_world_desc$"
  xhk_worldark_corespinal_planeteater_dismantle_world_activity_key: "Dismantling Planet"
  xhk_worldark_corespinal_planeteater_dismantle_world_progress_activity_key: "Dismantling Planet (§Y$PROGRESS$%§!)"
@@ -225,8 +225,10 @@
  XHK_MESSAGE_PLANETEATER_COMPLETE_TITLE: "World Dismantled"
  XHK_MESSAGE_PLANETEATER_COMPLETE_DESC: "§Y$ARKSHIP$§! has completely dismantled §Y$PLANET$§!."
  # opinion
- opinion_xhk_worldark_planeteater: "Dismantled Planet"
+ opinion_xhk_worldark_planeteater_habitable: "Dismantled Habitable Planet"
+ opinion_xhk_worldark_planeteater_barren: "Dismantled Uninhabitable Planet"
  xhk_worldark_is_star_fail_tt: "$TRIGGER_FAIL$Target cannot be a §HStar§!"
+ xhk_worldark_is_shielded_fail_tt: "$TRIGGER_FAIL$Target cannot be a §HShielded Planet§!"
 
 
  sm_xhk_worldark_corespinal_nanite: "Draupnir Nanite Crucible"

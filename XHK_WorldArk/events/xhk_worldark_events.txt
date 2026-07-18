@@ -433,7 +433,7 @@ situation_event = {
 				}
 			}
 			random_list = {
-				10 = { # Nanites - large yield
+				10 = {
 					modifier = {
 						factor = 0
 						target = { planet_size <= @xhk_worldark_dismantle_size_decrease }
@@ -458,17 +458,39 @@ situation_event = {
 							variable = { type = name localization = PLANET scope = root.target }
 						}
 						save_event_target_as = xhk_worldark_consuming_empire
-						every_country = {
+
+						# check if habitable
+						if = {
 							limit = {
-								is_nomadic = no
-								NOT = { is_same_value = event_target:xhk_worldark_consuming_empire }
-								has_communications = event_target:xhk_worldark_consuming_empire
+								root.target = { colonizable_planet = yes }
 							}
-							add_opinion_modifier = {
-								modifier = opinion_xhk_worldark_planeteater
-								who = event_target:xhk_worldark_consuming_empire
+							every_country = {
+								limit = {
+									is_nomadic = no
+									NOT = { is_same_value = event_target:xhk_worldark_consuming_empire }
+									has_communications = event_target:xhk_worldark_consuming_empire
+								}
+								add_opinion_modifier = {
+									modifier = opinion_xhk_worldark_planeteater_habitable
+									who = event_target:xhk_worldark_consuming_empire
+								}
 							}
 						}
+						else = {
+							every_country = {
+								limit = {
+									is_nomadic = no
+									NOT = { is_same_value = event_target:xhk_worldark_consuming_empire }
+									has_communications = event_target:xhk_worldark_consuming_empire
+								}
+								add_opinion_modifier = {
+									modifier = opinion_xhk_worldark_planeteater_barren
+									who = event_target:xhk_worldark_consuming_empire
+								}
+							}
+						}
+
+
 						capital_scope = {
 							change_variable = {
 								which = xhk_worldark_expansions
@@ -493,6 +515,37 @@ situation_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		## opinion change
+		if = {
+			limit = {
+				root.target = { colonizable_planet = yes }
+			}
+			every_country = {
+				limit = {
+					is_nomadic = no
+					NOT = { is_same_value = event_target:xhk_worldark_consuming_empire }
+					has_communications = event_target:xhk_worldark_consuming_empire
+				}
+				add_opinion_modifier = {
+					modifier = opinion_xhk_worldark_planeteater_habitable
+					who = event_target:xhk_worldark_consuming_empire
+				}
+			}
+		}
+		else = {
+			every_country = {
+				limit = {
+					is_nomadic = no
+					NOT = { is_same_value = event_target:xhk_worldark_consuming_empire }
+					has_communications = event_target:xhk_worldark_consuming_empire
+				}
+				add_opinion_modifier = {
+					modifier = opinion_xhk_worldark_planeteater_barren
+					who = event_target:xhk_worldark_consuming_empire
+				}
+			}
+		}
+		# kill it
 		target = {
 			# just to be nice and clean
 			remove_carrier_flag = being_devoured
@@ -517,17 +570,7 @@ situation_event = {
 				variable = { type = name localization = ARKSHIP scope = event_target:consuming_fleet }
 			}
 		}
-		every_country = {
-			limit = {
-				is_nomadic = no
-				NOT = { is_same_value = event_target:xhk_worldark_consuming_empire }
-				has_communications = event_target:xhk_worldark_consuming_empire
-			}
-			add_opinion_modifier = {
-				modifier = opinion_xhk_worldark_planeteater
-				who = event_target:xhk_worldark_consuming_empire
-			}
-		}
+
 		destroy_situation = this
 	}
 }

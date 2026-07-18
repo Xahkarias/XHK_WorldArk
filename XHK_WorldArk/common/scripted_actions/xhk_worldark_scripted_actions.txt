@@ -547,6 +547,10 @@ xhk_worldark_corespinal_planeteater_dismantle_world = {
 			is_star = no
 		}
 		custom_tooltip = {
+			fail_text = xhk_worldark_is_shielded_fail_tt
+			NOT = { is_planet_class = pc_shielded }
+		}
+		custom_tooltip = {
 			fail_text = arkship_lithoid_consume_world_uninhabited_fail_tt
 			is_colony = no
 		}
