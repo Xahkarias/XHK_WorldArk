@@ -2,7 +2,7 @@ origin_xhk_worldark = {
     is_origin = yes
     icon = "gfx/interface/icons/origins/origin_xhk_worldark.dds"
     picture = GFX_origin_xhk_worldark
-
+	flags = { custom_start_screen }
     playable = { has_nomads_dlc = yes }
     ai_playable = { always = no }
     possible = {

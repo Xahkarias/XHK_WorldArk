@@ -1,0 +1,108 @@
+################################################################################################
+# Regular Empires
+
+part = {
+	location = 0
+	localization = start_screen_xhk_worldark_regular
+
+	trigger = {
+		xhk_has_worldark_origin = yes
+		is_regular_empire = yes
+		is_individual_machine = no
+	}
+}
+
+part = {
+	location = 0
+	localization = start_screen_xhk_worldark_individual_machine
+
+	trigger = {
+		xhk_has_worldark_origin = yes
+		is_regular_empire = yes
+		is_individual_machine = yes
+	}
+}
+
+################################################################################################
+# Hive
+
+# normal hive
+part = {
+	location = 0
+	localization = start_screen_xhk_worldark_hive
+
+	trigger = {
+		xhk_has_worldark_origin = yes
+		is_hive_empire = yes
+		nor = {
+			has_valid_civic = civic_hive_devouring_swarm
+		}
+	}
+}
+
+# devouring swarm / terravore
+part = {
+	location = 0
+	localization = start_screen_xhk_worldark_hive_genocidal
+
+	trigger = {
+		xhk_has_worldark_origin = yes
+		is_hive_empire = yes
+		has_valid_civic = civic_hive_devouring_swarm
+	}
+}
+
+################################################################################################
+# Machines
+
+# normal machines
+part = {
+	location = 0
+	localization = start_screen_xhk_worldark_machine
+
+	trigger = {
+		xhk_has_worldark_origin = yes
+		is_machine_empire = yes
+		nor = {
+			has_valid_civic = civic_machine_servitor
+			has_valid_civic = civic_machine_terminator
+			has_valid_civic = civic_machine_assimilator
+		}
+	}
+}
+
+# servitors
+part = {
+	location = 0
+	localization = start_screen_xhk_worldark_machine_servitor
+
+	trigger = {
+		xhk_has_worldark_origin = yes
+		is_machine_empire = yes
+		has_valid_civic = civic_machine_servitor
+	}
+}
+
+# exterminators
+part = {
+	location = 0
+	localization = start_screen_xhk_worldark_machine_terminator
+
+	trigger = {
+		xhk_has_worldark_origin = yes
+		is_machine_empire = yes
+		has_valid_civic = civic_machine_terminator
+	}
+}
+
+# assimilators
+part = {
+	location = 0
+	localization = start_screen_xhk_worldark_machine_assimilator
+
+	trigger = {
+		xhk_has_worldark_origin = yes
+		is_machine_empire = yes
+		has_valid_civic = civic_machine_assimilator
+	}
+}
