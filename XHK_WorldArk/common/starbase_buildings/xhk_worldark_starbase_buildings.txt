@@ -33,7 +33,7 @@ xhk_worldark_resort_system = {
 	}
 
 	planet_modifier = {
-		job_resort_worker_add = 300
+		job_resort_worker_add = 200
 	}
 	triggered_planet_modifier = {
 		potential = {
@@ -75,7 +75,7 @@ xhk_worldark_resort_system = {
 				}
 			}
 		}
-		job_resort_worker_add = 300
+		job_resort_worker_add = 200
 	}
 
 	custom_tooltip_with_modifiers = xhk_worldark_wanderlust_system_tt
