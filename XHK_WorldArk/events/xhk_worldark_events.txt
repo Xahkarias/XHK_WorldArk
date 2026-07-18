@@ -11,6 +11,7 @@ carrier_event = {
             every_owned_ship = {
                 save_event_target_as = arkship
             }
+			###### TIER 11 UPGRADE
 			if = {
 				limit = {
 					event_target:arkship.starbase = {
@@ -27,7 +28,19 @@ carrier_event = {
 						add_deposit = d_xhk_worldark_harvest_size
 					}
 				}
+				root = {
+					if = {
+						limit = {
+							planet_size > @xhk_worldark_harvest_size_vlarge
+						}
+						change_planet_size = @[xhk_worldark_harvest_size_vlarge * -1]
+					}
+					else = {
+						set_planet_size = 1
+					}
+				}
 			}
+			###### TIER 5 UPGRADE
             else_if = {
                 limit = {
                     event_target:arkship.starbase = {
@@ -44,7 +57,19 @@ carrier_event = {
 						add_deposit = d_xhk_worldark_harvest_size
 					}
                 }
+				root = {
+					if = {
+						limit = {
+							planet_size > @xhk_worldark_harvest_size_large
+						}
+						change_planet_size = @[xhk_worldark_harvest_size_large * -1]
+					}
+					else = {
+						set_planet_size = 1
+					}
+				}
             }
+			###### NO UPGRADE
             else = {
                 event_target:arkship.colony = {
                     change_variable = {
@@ -56,12 +81,24 @@ carrier_event = {
 						add_deposit = d_xhk_worldark_harvest_size
 					}
                 }
+				root = {
+					if = {
+						limit = {
+							planet_size > @xhk_worldark_harvest_size_small
+						}
+						change_planet_size = @[xhk_worldark_harvest_size_small * -1]
+					}
+					else = {
+						set_planet_size = 1
+					}
+				}
             }
             event_target:arkship.fleet = {
                 # this tags the fleet, easier to reference than the ship or the colony
                 set_timed_fleet_flag = { flag = xhk_expand_harvest_cooldown days = @xhk_worldark_harvest_cd }
             }
 
+			#cooldown toaster
 			owner = { country_event = { id = xhk_worldark.2 days = @xhk_worldark_harvest_cd } }
         }
 
@@ -72,13 +109,6 @@ carrier_event = {
         # forever
         add_modifier = {
             modifier = xhk_size_harvested_already
-        }
-
-        if = {
-            limit = {
-                planet_size > 5
-            }
-            change_planet_size = -1
         }
 
         # Always decrease opinion of system owner
@@ -99,7 +129,7 @@ country_event = {
 		create_message = {
 			type = XHK_TOAST_HARVEST_SIZE_READY
 			localization = XHK_TOAST_HARVEST_SIZE_READY_DESC
-			days = 30 (-1 is infinite)
+			days = 30
 			target = capital_scope
 		}
 	}
@@ -412,17 +442,13 @@ situation_event = {
 						change_planet_size = @[xhk_worldark_dismantle_size_decrease * -1]
 					}
 					owner = {
-						add_monthly_resource_mult = {
-							resource = minerals
-							value = 3
-							min = 4000
-							max = 6000
+						add_resource = {
+							minerals = 4000
+							mult = value:xhk_worldark_dismantle_res_boost
 						}
-						add_monthly_resource_mult = {
-							resource = alloys
-							value = 3
-							min = 1000
-							max = 2000
+						add_resource = {
+							alloys = 4000
+							mult = value:xhk_worldark_dismantle_res_boost
 						}
 						create_message = {
 							type = XHK_MESSAGE_PLANETEATER_PROCESS

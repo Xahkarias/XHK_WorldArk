@@ -115,3 +115,11 @@ xhk_worldark_dismantle_progress = {
 	pow = -1
 	mult = 1000
 }
+# gets harvested resource boost
+# country scope
+xhk_worldark_dismantle_res_boost = {
+	base = 1
+	modifier = {
+		add = capital_scope.modifier:arkship_harvest_resources_produces_mult
+	}
+}
