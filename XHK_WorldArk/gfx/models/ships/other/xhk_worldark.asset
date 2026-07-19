@@ -20,6 +20,81 @@ entity = {
 
 	scale = 1.0
 
+	attach = { district_01 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_02 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_03 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_04 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_05 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_06 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_07 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_08 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_09 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_10 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_11 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_12 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_13 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_14 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_15 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_16 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_17 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_18 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_19 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_20 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_21 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_22 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_23 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_24 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_25 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_26 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_27 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_28 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_29 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_30 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_31 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_32 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_33 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_34 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_35 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_36 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_37 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_38 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_39 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_40 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_41 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_42 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_43 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_44 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_45 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_46 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_47 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_48 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_49 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_50 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_51 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_52 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_53 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_54 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_55 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_56 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_57 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_58 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_59 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_60 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_61 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_62 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_63 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_64 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_65 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_66 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_67 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_68 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_69 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_70 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_71 = "xhk_worldark_ship_living_space_entity" }
+	attach = { district_72 = "xhk_worldark_ship_living_space_entity" }
+
+
+
     default_state = "idle"
     state = { name = "idle" animation = "idle" looping = no animation_speed = 0.5 next_state = "idle" animation_blend_time = 0.5
 		chance = {
@@ -162,6 +237,16 @@ entity = {
 		}
 	}
 
+	game_data = {
+		emissive_recolor_crunch = 3.0
+	}
+}
+
+entity = {
+	name = "xhk_worldark_ship_living_space_entity"
+	pdxmesh = "civilian_arkship_district_living_space_01_mesh"
+	
+	scale = 1.7
 	game_data = {
 		emissive_recolor_crunch = 3.0
 	}
