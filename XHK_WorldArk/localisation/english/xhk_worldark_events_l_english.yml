@@ -159,7 +159,7 @@
  ####################
  # CIVICS
  xhk_worldark_docs_special_civic: "6) Civic Integration"
- xhk_worldark_docs_special_civic_desc: "$xhk_worldark_docs_special_civic_desc_1$\n$xhk_worldark_docs_special_civic_desc_dystopia$[Owner.xhk_worldark_getCivicDocumentation]"
+ xhk_worldark_docs_special_civic_desc: "$xhk_worldark_docs_special_civic_desc_1$\n[Owner.xhk_worldark_getCivicDocumentation]"
  xhk_worldark_docs_special_civic_desc_1: "The $xhk_pc_worldark$ has special integration with specific civics to better fit their fantasy and compensate for the one-planet playstyle."
 
  xhk_worldark_docs_special_civic_desc_norm: "\n§3Individualist Empire§!:$xhk_worldark_docs_special_civic_desc_norm_dystopia$$xhk_worldark_docs_special_civic_desc_norm_vampire$$xhk_worldark_docs_special_civic_desc_norm_tankbound$$xhk_worldark_docs_special_civic_desc_norm_death$$xhk_worldark_docs_special_civic_desc_norm_experiment$"

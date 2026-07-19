@@ -33,7 +33,10 @@ xhk_tech_worldark_2 = {
 	weight_modifier = {
 		modifier = {
 			factor = 3
-			years_passed > 20
+			OR = {
+				years_passed > 20
+				mid_game_years_passed > 0
+			}
 		}
 	}
 
@@ -54,7 +57,10 @@ xhk_tech_worldark_3 = {
 	weight_modifier = {
 		modifier = {
 			factor = 3
-			years_passed > 35
+			OR = {
+				years_passed > 35
+				mid_game_years_passed > 0
+			}
 		}
 	}
 
@@ -79,7 +85,10 @@ xhk_tech_worldark_4 = {
 	weight_modifier = {
 		modifier = {
 			factor = 3
-			years_passed > 50
+			OR = {
+				years_passed > 50
+				mid_game_years_passed > 0
+			}
 		}
 	}
 
@@ -100,7 +109,10 @@ xhk_tech_worldark_5 = {
 	weight_modifier = {
 		modifier = {
 			factor = 3
-			years_passed > 65
+			OR = {
+				years_passed > 70
+				mid_game_years_passed > 0
+			}
 		}
 	}
 
@@ -125,7 +137,10 @@ xhk_tech_worldark_6 = {
 	weight_modifier = {
 		modifier = {
 			factor = 3
-			years_passed > 80
+			OR = {
+				years_passed > 80
+				mid_game_years_passed > 0
+			}
 		}
 	}
 
@@ -146,7 +161,10 @@ xhk_tech_worldark_7 = {
 	weight_modifier = {
 		modifier = {
 			factor = 3
-			years_passed > 85
+			OR = {
+				years_passed > 85
+				mid_game_years_passed > 0
+			}
 		}
 	}
 
@@ -167,7 +185,10 @@ xhk_tech_worldark_8 = {
 	weight_modifier = {
 		modifier = {
 			factor = 3
-			years_passed > 90
+			OR = {
+				years_passed > 90
+				mid_game_years_passed > 0
+			}
 		}
 	}
 
@@ -192,7 +213,10 @@ xhk_tech_worldark_9 = {
 	weight_modifier = {
 		modifier = {
 			factor = 3
-			years_passed > 100
+			OR = {
+				years_passed > 100
+				mid_game_years_passed > 0
+			}
 		}
 	}
 
@@ -216,8 +240,8 @@ xhk_tech_worldark_10 = {
     }
 	weight_modifier = {
 		modifier = {
-			factor = 3
-			years_passed > 110
+			factor = 0.01
+			NOT = { mid_game_years_passed > 0 }
 		}
 	}
 
