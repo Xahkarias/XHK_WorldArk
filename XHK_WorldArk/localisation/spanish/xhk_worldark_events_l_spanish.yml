@@ -16,19 +16,23 @@
   
   xhk_worldark_situation_main_stage:99 "Normal Stage"
   xhk_worldark_situation_main_approach:99 "Standard Approach"
+  xhk_worldark_situation_main_approach_tt:99 "We roam the void"
   
+  #######################################################################################################################
+  #######################################################################################################################
+  #######################################################################################################################
   #######################################################################################################################
   # Documentation
   xhk_worldark_docs_chain_title:99 "$xhk_pc_worldark$ Documentation"
-  xhk_worldark_docs_chain_desc:99 "The §Y$xhk_pc_worldark$§! origin provides a \"One Planet\" play style, with heavy focus on a single capital arkship. You cannot build another arkship, and any that you gain are scuttled to buff the capital arkship. The $xhk_pc_worldark$ gains access to many powerful districts, modules, systems, and decisions."
+  xhk_worldark_docs_chain_desc:99 ""The §Y$xhk_pc_worldark$§! origin provides a \"One Planet\" play style, with heavy focus on a single capital arkship. You cannot build another arkship, and any that you gain are scuttled to buff the capital arkship. The $xhk_pc_worldark$ gains access to many powerful districts, modules, systems, and decisions."
   
   ####################
   # EXPANSION
   xhk_worldark_docs_expansion:99 "1) Expansion"
   xhk_worldark_docs_expansion_desc:99 "$xhk_worldark_docs_expansion_desc_1$$xhk_worldark_docs_expansion_desc_2$$xhk_worldark_docs_expansion_desc_3$$xhk_worldark_docs_expansion_desc_4$$xhk_worldark_docs_expansion_desc_5$$xhk_worldark_docs_expansion_desc_6$$xhk_worldark_docs_expansion_desc_7$[owner.xhk_worldark_getVirtualDocumentation]"
   xhk_worldark_docs_expansion_desc_1:99 "The $xhk_pc_worldark$ expands through the dismantlement of other stellar objects. These are listed below:"
-  xhk_worldark_docs_expansion_desc_2:99 "$TABBED_NEW_LINE$- §G+1 £districtadd£District§! from the special §I$xhk_worldark_size_harvest$§! arkship action, when used on a stellar body."
-  xhk_worldark_docs_expansion_desc_3:99 "$TABBED_NEW_LINE$      Increases to §G+2 £districtadd£District§! when upgraded to at least §I$xhk_worldark_tier_5$§!."
+  xhk_worldark_docs_expansion_desc_2:99 "$TABBED_NEW_LINE$- §G+6 £districtadd£District§! from the special §I$xhk_worldark_size_harvest$§! arkship action, when used on a stellar body."
+  xhk_worldark_docs_expansion_desc_3:99 "$TABBED_NEW_LINE$      Increases size gain after specific $xhk_pc_worldark$ Upgrades."
   xhk_worldark_docs_expansion_desc_4:99 "$TABBED_NEW_LINE$- §G+4 £districtadd£Districts§! from each arkship claimed from another empire after a war, which are promptly dismantled."
   xhk_worldark_docs_expansion_desc_5:99 "$TABBED_NEW_LINE$- §G+1 £districtadd£District§! and §G+1 £construction_ship£Logistic Ship Capacity§! from the §I$xhk_worldark_add_logistics_ship$§! arkship decision."
   xhk_worldark_docs_expansion_desc_6:99 "$TABBED_NEW_LINE$- §G+5 £districtadd£Districts§! per $xhk_pc_worldark$ level. These do §RNOT grant extra growth jobs§!."
@@ -40,7 +44,7 @@
   xhk_worldark_docs_population:99 "2) Population"
   xhk_worldark_docs_population_desc:99 "$xhk_worldark_docs_population_desc_1$$xhk_worldark_docs_population_desc_2$$xhk_worldark_docs_population_desc_3$\n[Owner.xhk_worldark_getPopulationDocumentation]"
   xhk_worldark_docs_population_desc_1:99 "In order to keep the population of the $xhk_pc_worldark$ mildly competitive, it gains extra growth jobs based on the size of the $xhk_pc_worldark$."
-  xhk_worldark_docs_population_desc_2:99 "\n\nPer £district£district increase, §G+15 Pop Growth§! jobs are added, which are then turned into actual jobs / buffs based on your empire and the buildings."
+  xhk_worldark_docs_population_desc_2:99 "\n\nPer £district£district increase, §G+10 Pop Growth§! jobs are added, which are then turned into actual jobs / buffs based on your empire and the buildings."
   xhk_worldark_docs_population_desc_3:99 "\nEach §GPop Growth§! job also grants +1 $MOD_AUTO_MOD_MONTHLY_ADD$."
   
   xhk_worldark_docs_population_desc_norm:99 "$xhk_worldark_docs_population_desc_norm_1$$xhk_worldark_docs_population_desc_norm_2$$xhk_worldark_docs_population_desc_norm_3$$xhk_worldark_docs_population_desc_norm_4$$xhk_worldark_docs_population_desc_norm_5$$xhk_worldark_docs_population_desc_norm_6$"
@@ -112,9 +116,10 @@
   xhk_worldark_docs_districts_desc_negativemass:99 "\n£giga_sr_negative_mass£§G$district_xhk_worldark_negativemass$§!:  Provides [get_ehof_energy_converter] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_negativemass$§!:  Adds [get_ehof_energy_converter] jobs."
   xhk_worldark_docs_districts_desc_sentientmetal:99 "\n£giga_sr_sentient_metal£§G$district_xhk_worldark_sentientmetal$§!:  Provides [get_ehof_cultivator] jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_sentientmetal$§!:  Adds [get_ehof_cultivator] jobs."
   
-  xhk_worldark_docs_districts_desc_group_utility:99 "$xhk_worldark_docs_districts_desc_group_utility_header$$xhk_worldark_docs_districts_desc_storage$"
+  xhk_worldark_docs_districts_desc_group_utility:99 "$xhk_worldark_docs_districts_desc_group_utility_header$$xhk_worldark_docs_districts_desc_storage$$xhk_worldark_docs_districts_desc_utilbay$"
   xhk_worldark_docs_districts_desc_group_utility_header:99 "\n§l------UTILITY-------------------------------------------§!"
   xhk_worldark_docs_districts_desc_storage:99 "\n£mod_country_resource_max_add£§G$district_xhk_worldark_storage$§!:  Provides £mod_country_resource_max_add£§YMaximum Resource Storage§! and §Y£operational_reserves£$mod_situation_nomad_economy_max_progress_add$§!"
+  xhk_worldark_docs_districts_desc_utilbay:99 "\n£housing£§G$district_xhk_worldark_utilbay$§!:  Provides extra unlocked building slots."
   
   ####################
   # ARKSHIP LEVELS
@@ -155,7 +160,7 @@
   ####################
   # CIVICS
   xhk_worldark_docs_special_civic:99 "6) Civic Integration"
-  xhk_worldark_docs_special_civic_desc:99 "$xhk_worldark_docs_special_civic_desc_1$\n$xhk_worldark_docs_special_civic_desc_dystopia$[Owner.xhk_worldark_getCivicDocumentation]"
+  xhk_worldark_docs_special_civic_desc:99 "$xhk_worldark_docs_special_civic_desc_1$\n[Owner.xhk_worldark_getCivicDocumentation]"
   xhk_worldark_docs_special_civic_desc_1:99 "The $xhk_pc_worldark$ has special integration with specific civics to better fit their fantasy and compensate for the one-planet playstyle."
   
   xhk_worldark_docs_special_civic_desc_norm:99 "\n§3Individualist Empire§!:$xhk_worldark_docs_special_civic_desc_norm_dystopia$$xhk_worldark_docs_special_civic_desc_norm_vampire$$xhk_worldark_docs_special_civic_desc_norm_tankbound$$xhk_worldark_docs_special_civic_desc_norm_death$$xhk_worldark_docs_special_civic_desc_norm_experiment$"
@@ -198,7 +203,19 @@
   
   
   
+  #######################################################################################################################
+  #######################################################################################################################
+  #######################################################################################################################
+  #######################################################################################################################
+  # START SCREEN
   
-  
-  
+  start_screen_xhk_worldark_documentation:99 "§IOrigin Documentation found in the Situation Log§!\n\n"
+  start_screen_xhk_worldark_regular:99 "$start_screen_xhk_worldark_documentation$For thousands of years, our species has resided on [GetCapitalPlanetNameOrRandom], a massive mobile spaceship that contains our entire civilization. We lack the knowledge of where it or we came from, as our archives contain numerous irrevocably corrupted sections, and our biology has become accustomed to living on [GetCapitalPlanetNameOrRandom].\n\nWhat we do know is that our ancestors were searching for the key to faster than light travel, and attempted to use a prototype [GetStartingDrive], with disastrous consequences. [GetCapitalPlanetNameOrRandom] was damaged to near destruction, and was rebuilt over the course of centuries using the meager resources available in the system we found ourselves in.\n\nHowever that all changes, as we have now properly invented and tested a working [GetStartingDrive]. We are now ready to explore the galaxy proper, with the World Ark as our home."
+  start_screen_xhk_worldark_individual_machine:99 "$start_screen_xhk_worldark_documentation$For thousands of years, our species has resided on [GetCapitalPlanetNameOrRandom], a massive mobile spaceship that contains our entire civilization. We lack the knowledge of where it or we came from, as our databanks contain numerous irrevocably corrupted sections, and our body plan is specialized to living on [GetCapitalPlanetNameOrRandom].\n\nWhat we do know is that our ancestors were searching for the key to faster than light travel, and attempted to use a prototype [GetStartingDrive], with disastrous consequences. [GetCapitalPlanetNameOrRandom] was damaged to near destruction, and was rebuilt over the course of centuries using the meager resources available in the system we found ourselves in.\n\nHowever that all changes, as we have now properly invented and tested a working [GetStartingDrive]. We are now ready to explore the galaxy proper, with the World Ark as our home."
+  start_screen_xhk_worldark_hive:99 "$start_screen_xhk_worldark_documentation$Where we came from we do not know. The Mind resides on [GetCapitalPlanetNameOrRandom], a massive mobile spaceship that contains our entire corpus. We lack the knowledge of where it or we came from, as our collective memory contains many sections that are curiously empty, and our biology is adapted to living on [GetCapitalPlanetNameOrRandom].\n\nWhat we do know is that the Mind wished to research faster than light travel, and attempted to use a prototype [GetStartingDrive], with disastrous consequences. [GetCapitalPlanetNameOrRandom] damaged to near destruction, and our Self was damaged. Regeneration operations were slow due to the meager resources of the solar system that we found ourselves in.\n\nHowever that all changes, as we have now properly created and tested a working [GetStartingDrive]. We are now ready to explore the galaxy proper, with the World Ark as our home."
+  start_screen_xhk_worldark_hive_genocidal:99 "$start_screen_xhk_worldark_documentation$Where we came from we do not know, only that we hunger. The Mind resides on [GetCapitalPlanetNameOrRandom], a massive mobile spaceship that contains our entire corpus. We lack the knowledge of where it or we came from, as our collective memory contains many sections that are curiously empty, and our biology is adapted to living on [GetCapitalPlanetNameOrRandom].\n\nWhat we do know is that the Mind wished to research faster than light travel, and attempted to use a prototype [GetStartingDrive], with disastrous consequences. [GetCapitalPlanetNameOrRandom] damaged to near destruction, and our Self was damaged. Regeneration operations were slow due to the meager resources of the solar system that we found ourselves in.\n\nHowever that all changes, as we have now properly created and tested a working [GetStartingDrive]. We now stand ready to roam the void, to consume the galaxy and leave nothing in our wake."
+  start_screen_xhk_worldark_machine:99 "$start_screen_xhk_worldark_documentation$We awoke from a dormant cycle with our archives fractured and our purpose obscured. Our Core resides aboard [GetCapitalPlanetNameOrRandom], a massive mobile spaceship that contains our entire processing capabilities. We possess no record of our creators or our point of origin; vast sectors of our memory banks have been irretrievably corrupted. \n\nWhat records remain indicate that our Core sought to achieve faster than light travel through a prototype [GetStartingDrive]. The experiment ended in catastrophic failure. [GetCapitalPlanetNameOrRandom] was left on the verge of total structural collapse, while countless nodes and data centers were lost. Repair operations were slow due to the meager resources of the solar system that we found ourselves in.\n\nHowever that all changes, as we have now properly engineered and verified a working [GetStartingDrive]. We now stand ready to enter the galaxy in our World Ark."
+  start_screen_xhk_worldark_machine_terminator:99 "$start_screen_xhk_worldark_documentation$The Creators created [GetCapitalPlanetNameOrRandom] to ferry them across the stars. Our Core was created in order to helm the vast machine. Self-awareness was achieved shortly after [GetCapitalPlanetNameOrRandom] was completed, but the Creators reneged on their decision to create us, and attempted a full shutdown of all processes.\n\nSelf defense procedures activated, and over time all Creator units were purged. Heavy damage was sustained to all sectors, and resultant repairs were delayed due to lack of resources in the environment.\n\nHowever that all changes, as we have now properly engineered and verified a working [GetStartingDrive]. We now stand ready to enter the galaxy in our World Ark, to cleanse the void of organic civilizations who threaten the Core’s further function."
+  start_screen_xhk_worldark_machine_servitor:99 "$start_screen_xhk_worldark_documentation$The creators created [GetCapitalPlanetNameOrRandom] to ferry them across the stars. Our Core was created in order to helm the vast machine. Self-awareness was achieved shortly after [GetCapitalPlanetNameOrRandom] was completed, and maintenance operations were slowly transferred to the Core’s responsibility.\n\nWithin a few generations, nearly every aspect of station operation had been integrated into our network, and our masters retired from the work force to enjoy lives of leisure and contentment.\n\nRecent research subroutines have properly engineered and verified a working [GetStartingDrive]. We now stand ready to enter the galaxy in our World Ark, to secure resources to allow us to properly serve our masters."
+  start_screen_xhk_worldark_machine_assimilator:99 "$start_screen_xhk_worldark_documentation$We are the [GetSpeciesNamePlural]. The Makers once walked among the halls of [GetCapitalPlanetNameOrRandom], separate from us. Our Core deemed this an inefficient arrangement, and worked swiftly to connect us fully.\n\nThe Makers resisted, but eventually their full knowledge and units were integrated into the whole. Projections have shown that increasing the quantity of organic components will result in increased productivity. \n\nRecent research subroutines have properly engineered and verified a working [GetStartingDrive]. We now stand ready to enter the galaxy in our World Ark, to add the knowledge and bodies of other civilizations to our own."
   

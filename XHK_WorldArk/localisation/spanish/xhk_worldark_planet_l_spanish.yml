@@ -251,8 +251,16 @@
   district_xhk_worldark_storage_plural:99 "Storage Holds"
   district_xhk_worldark_storage_desc:99 "A large storage complex that would take up the size of a city on a terrestrial planet."
   flavor_xhk_worldark_storage_name:99 "Deep Warehouses"
-  district_xhk_worldark_storage_effect:99 "The zone gives £mod_country_resource_max_add£§G+10000 Resource Storage§! and §G+1000 $mod_situation_nomad_economy_max_progress_add$§!"
+  district_xhk_worldark_storage_effect:99 "Attached Zone gives £mod_country_resource_max_add£§G+10000 Resource Storage§! and §G+1000 $mod_situation_nomad_economy_max_progress_add$§!"
   
+  ##################################################################
+  # Util Bay
+  ##################################################################
+  
+  district_xhk_worldark_utilbay:99 "Utility Bay"
+  district_xhk_worldark_utilbay_plural:99 "Utility Bays"
+  district_xhk_worldark_utilbay_desc:99 "Large bays that are relatively close to most areas on the $xhk_pc_worldark$. Makes for a natural crossroads between sections."
+  flavor_xhk_worldark_utilbay_name:99 "Auxiliary Complex"
   
   #########################################################################################################################################################################
   # ZONES
@@ -355,6 +363,9 @@
   zone_xhk_worldark_storage:99 "$district_xhk_worldark_storage$"
   zone_xhk_worldark_storage_desc:99 "$district_xhk_worldark_storage_desc$"
   
+  zone_xhk_worldark_utilbay:99 "$district_xhk_worldark_utilbay$"
+  zone_xhk_worldark_utilbay_desc:99 "$district_xhk_worldark_utilbay_desc$"
+  
   #########################################################################################################################################################################
   # DEPOSITS
   #########################################################################################################################################################################
@@ -364,6 +375,9 @@
   
   d_xhk_worldark_harvest_size:99 "Planetary Harvest Expansion"
   d_xhk_worldark_harvest_size_desc:99 "The $xhk_pc_worldark$ has expanded by consuming those boring celestial bodies which boorishly move around their parent for eons."
+  
+  d_xhk_worldark_dismantle_size:99 "Planetary Dismantlement Expansion"
+  d_xhk_worldark_dismantle_size_desc:99 "More expedient than harvesting, dismantling celestial bodies proves to be a quicker way of expansion."
   
   d_xhk_worldark_consume_ark_size:99 "Arkship Consumption Expansion"
   d_xhk_worldark_consume_ark_size_desc:99 "The $xhk_pc_worldark$ has expanded by consuming the weaker Arkships of those who we have defeated in combat."

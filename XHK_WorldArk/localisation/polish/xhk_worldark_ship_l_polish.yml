@@ -34,7 +34,7 @@
   xhk_worldark_size_harvest:99 "Expand the $xhk_pc_worldark$"
   xhk_worldark_size_harvest_desc:99 "§LThe $xhk_pc_worldark$ can be expanded by consuming a significant portion of the mass of a planetary body.§!"
   xhk_worldark_size_harvest_effect:99 "$XHK_SIZE_HARVEST_EFFECTS_HEADER$ $xhk_worldark_size_harvest_base_effect$ $xhk_worldark_size_harvest_planet_effect$"
-  XHK_SIZE_HARVEST_EFFECTS_HEADER:99 "§E£arkship£ §Y$xhk_pc_worldark$ Expansion§! Effects:§!"
+  XHK_SIZE_HARVEST_EFFECTS_HEADER:99 "§E£arkship£§!§Y$xhk_pc_worldark$ Expansion§! Effects:"
   xhk_worldark_size_harvest_base_effect:99 "$TABBED_NEW_LINE$- £districtadd£§IMax Districts§! on the §I$xhk_pc_worldark$§!: [Owner.xhk_worldark_getDistrictIncreaseFromHarvest]"
   xhk_worldark_size_harvest_planet_effect:99 "$DOUBLE_NEW_LINE$ $PLANET_EFFECTS_HEADER$ $TABBED_NEW_LINE$- §Y$xhk_size_harvested_already$§! modifier added: $TABBED_NEW_LINE$$t$ §RPrevents further harvesting for expansion by a $xhk_pc_worldark$§!"
   xhk_worldark_size_harvest_ship_button:99 "$xhk_worldark_size_harvest_effect$\n\n$xhk_worldark_size_harvest_desc$"
@@ -142,6 +142,14 @@
   ########################################################################################################
   ### SYSTEMS
   ########################################################################################################
+  sm_xhk_worldark_resort_system:99 "Resort Sector"
+  sm_xhk_worldark_resort_system_desc:99 "Our travels throughout the void have shown us many different marvels of the universe. Here we can recreate it even for a short time, and relive the beauty of the cosmos."
+  sm_xhk_worldark_resort_system_gestalt:99 "Cosmic Analysis Sector"
+  sm_xhk_worldark_resort_system_gestalt_desc:99 "Our travels throughout the void have shown us many different marvels of the universe. Here we can ponder it even for a short time, and relive the beauty of the cosmos."
+  xhk_worldark_wanderlust_system_tt:99 "\n§GDoubles§! in potency once §GFour§! of the §I$ap_wanderlust$ Objectives§! are completed."
+  
+  
+  
   sm_worldark_integrated_mega_cat:99 "§RIntegrated Megastructures§!"
   
   sm_xhk_worldark_science_nexus:99 "Science Coordination Nexus"
@@ -173,11 +181,55 @@
   xhk_worldark_corespinal_planetgun_tt:99 "\n$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$XHK_ARKSHIP_CORESPINAL_PLANETGUN_WEAPON$§!."
   sm_xhk_worldark_corespinal_planetgun:99 "$xhk_worldark_corespinal_planetgun$"
   sm_xhk_worldark_corespinal_planetgun_desc:99 "$xhk_worldark_corespinal_planetgun_desc$"
-  XHK_ARKSHIP_CORESPINAL_PLANETGUN_WEAPON:99 "Oblivionis Celestial Decimator"
+  XHK_ARKSHIP_CORESPINAL_PLANETGUN_WEAPON:99 "$xhk_worldark_corespinal_planetgun$"
+  XHK_ARKSHIP_CORESPINAL_PLANETGUN_SET:99 "$xhk_worldark_corespinal_planetgun$"
+  XHK_ARKSHIP_CORESPINAL_PLANETGUN_SET_DESC:99 "$xhk_worldark_corespinal_planetgun_desc$"
   
   sm_xhk_worldark_corespinal_blackhole:99 "Atrahasis Penrose Decompressor"
   sm_xhk_worldark_corespinal_blackhole_desc:99 "A black hole, stolen from the inky void and turned ianto a chained heart for the $xhk_pc_worldark$. Produces a prodigious amount of matter and energy for us to utilize."
   xhk_worldark_corespinal_blackhole_tt:99 "\n§IColony Effect:§!\nSwaps the §IReactor§! and §IHarvester§! Districts for §GPenrose§! and §GDecompressor§! upgrades. These have over double jobs per district compared to their normal variations."
+  
+  #### PLANET EATER ####
+  xhk_worldark_corespinal_planeteater:99 "Beelzebub Planetary Dismantler"
+  xhk_worldark_corespinal_planeteater_desc:99 "A massive array of furnaces and processing facilities, fed by an even larger arrangement of grinders, slicers, crushers, all at a scale large enough to render planets into their constituent materials."
+  xhk_worldark_corespinal_planeteater_tt:99 "$ARKSHIP_ACTION_HEADER$ $TABBED_NEW_LINE$['scripted_action:xhk_worldark_corespinal_planeteater_dismantle_world']\n\n§RTHIS ACTION IS CALLED FROM THE RIGHT-CLICK MENU, NOT AS A BUTTON IN THE SHIP MENU§!"
+  sm_xhk_worldark_corespinal_planeteater:99 "$xhk_worldark_corespinal_planeteater$"
+  sm_xhk_worldark_corespinal_planeteater_desc:99 "$xhk_worldark_corespinal_planeteater_desc$"
+  XHK_ARKSHIP_CORESPINAL_PLANETEATER_WEAPON:99 "$xhk_worldark_corespinal_planeteater$"
+  XHK_ARKSHIP_CORESPINAL_PLANETEATER_SET:99 "$xhk_worldark_corespinal_planeteater$"
+  XHK_ARKSHIP_CORESPINAL_PLANETEATER_SET_DESC:99 "$xhk_worldark_corespinal_planeteater_desc$"
+  ## ALL THE SCRIPTED ACTION PAIN THAT COMES WITH IT
+  xhk_worldark_corespinal_planeteater_dismantle_world:99 "Dismantle Planet"
+  xhk_worldark_corespinal_planeteater_dismantle_world_desc:99 "§LEngulf the planetary body with the large maw of the $xhk_worldark_corespinal_planeteater$, slowly breaking it down into resources and expanding the $xhk_pc_worldark$.§!"
+  xhk_worldark_corespinal_planeteater_dismantle_world_effect:99 "$PLANET_EFFECTS_HEADER$$TABBED_NEW_LINE$- Planet is gradually consumed increasing §E£arkship£§!§Y$xhk_pc_worldark$ Maximum Districts§!.$TABBED_NEW_LINE$- The $xhk_pc_worldark$ gains §G+1 Maximum Districts§! per 4 Planet Size.$TABBED_NEW_LINE$- Gain $alloys_with_icon$ and $minerals_with_icon$ during dismantlement.$TABBED_NEW_LINE$- Target is shrunk during the process and §Rdeleted§! on completion.$TABBED_NEW_LINE$- Other empires will §Rlose opinion§! (extra if the target is habitable) every time the target is shrunk."
+  xhk_worldark_corespinal_planeteater_dismantle_world_ship_button:99 "$xhk_worldark_corespinal_planeteater_dismantle_world_effect$\n\n$xhk_worldark_corespinal_planeteater_dismantle_world_desc$"
+  xhk_worldark_corespinal_planeteater_dismantle_world_activity_key:99 "Dismantling Planet"
+  xhk_worldark_corespinal_planeteater_dismantle_world_progress_activity_key:99 "Dismantling Planet (§Y$PROGRESS$%§!)"
+  xhk_worldark_corespinal_planeteater_dismantle_world_required_progress_key:99 "$arkship_lithoid_consume_world_required_progress_key$"
+  xhk_worldark_corespinal_planeteater_dismantle_world_being_devoured_fail_tt:99 "$TRIGGER_FAIL$Target is already §Hbeing Dismantled§!"
+  ## SITUATION LOC
+  xhk_worldark_situation_planeteater:99 "Dismantling [Target.GetName]"
+  xhk_worldark_situation_planeteater_type:99 "$xhk_pc_worldark$ Dismantling"
+  xhk_worldark_situation_planeteater_desc:99 "The $xhk_pc_worldark$ slowly grinds the celestial body down to nothingness. All shall be used to grow the Ark."
+  xhk_worldark_situation_planeteater_monthly_change_tooltip:99 "Nanite Extraction Progress"
+  xhk_worldark_stage_planeteater:99 "Dismantling to grow the $xhk_pc_worldark$."
+  xhk_worldark_corespinal_planeteater_finish_tt:99 "Dismantle [target.GetName], removing it from the galaxy."
+  approach_xhk_planeteater:99 "Dismantle"
+  xhk_worldark_stage_planeteater_effect:99 "Consume the world, gaining £minerals£ §H$minerals$§! and increasing §E£arkship£§!§Y$xhk_pc_worldark$ capacity every §Y12§! months."
+  ## modifier
+  xhk_worldark_being_devoured_modifier:99 "Dismantlement"
+  xhk_worldark_being_devoured_modifier_desc:99 "The powerful jaws of a $xhk_worldark_corespinal_planeteater$ are currently rendering the planet down into its constituent parts."
+  # toast
+  XHK_MESSAGE_PLANETEATER_PROCESS_TITLE:99 "Dismantling World"
+  XHK_MESSAGE_PLANETEATER_PROCESS_DESC:99 "The dismantling of $PLANET|Y$ yields minerals, alloys, and has expanded the $xhk_pc_worldark$."
+  XHK_MESSAGE_PLANETEATER_COMPLETE_TITLE:99 "World Dismantled"
+  XHK_MESSAGE_PLANETEATER_COMPLETE_DESC:99 "§Y$ARKSHIP$§! has completely dismantled §Y$PLANET$§!."
+  # opinion
+  opinion_xhk_worldark_planeteater_habitable:99 "Dismantled Habitable Planet"
+  opinion_xhk_worldark_planeteater_barren:99 "Dismantled Uninhabitable Planet"
+  xhk_worldark_is_star_fail_tt:99 "$TRIGGER_FAIL$Target cannot be a §HStar§!"
+  xhk_worldark_is_shielded_fail_tt:99 "$TRIGGER_FAIL$Target cannot be a §HShielded Planet§!"
+  
   
   sm_xhk_worldark_corespinal_nanite:99 "Draupnir Nanite Crucible"
   sm_xhk_worldark_corespinal_nanite_desc:99 "This module constantly leaks nanites into the surrounding system. They are not powerful enough to affect functional ships, but upon reaching a wreck they devour it, creating temporary vessels from their materials."
@@ -192,5 +244,9 @@
   xhk_worldark_corespinal_antisystem_tt:99 "\n$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_WEAPON$§!."
   sm_xhk_worldark_corespinal_antisystem:99 "$xhk_worldark_corespinal_antisystem$"
   sm_xhk_worldark_corespinal_antisystem_desc:99 "$xhk_worldark_corespinal_antisystem_desc$"
-  XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_WEAPON:99 "Xiuhcoatl Heaven Piercer"
+  XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_WEAPON:99 "$xhk_worldark_corespinal_antisystem$"
+  XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_SET:99 "$xhk_worldark_corespinal_antisystem$"
+  XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_SET_DESC:99 "$xhk_worldark_corespinal_antisystem_desc$"
+  
+  
   
