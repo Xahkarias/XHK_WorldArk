@@ -187,7 +187,7 @@
   
   sm_xhk_worldark_corespinal_blackhole:99 "Atrahasis Penrose Decompressor"
   sm_xhk_worldark_corespinal_blackhole_desc:99 "A black hole, stolen from the inky void and turned ianto a chained heart for the $xhk_pc_worldark$. Produces a prodigious amount of matter and energy for us to utilize."
-  xhk_worldark_corespinal_blackhole_tt:99 "\n§IColony Effect:§!\nSwaps the §IReactor§! and §IHarvester§! Districts for §GPenrose§! and §GDecompressor§! upgrades. These have over double jobs per district compared to their normal variations."
+  xhk_worldark_corespinal_blackhole_tt:99 "\n§IColony Effect:§!\nSwaps the §IReactor§! and §IHarvester§! Districts for §GPenrose§! and §GDecompressor§! upgrades.\n\n§IPenrose:§!$TABBED_NEW_LINE$- Technician Jobs per District: 200 -> §G800§!\n§IDecompressor:§!$TABBED_NEW_LINE$- Miner Jobs per District: 0 -> §G800§!$TABBED_NEW_LINE$- Harvester Jobs per District: 200 -> §R100§!"
   
   #### PLANET EATER ####
   xhk_worldark_corespinal_planeteater:99 "Beelzebub Planetary Dismantler"
