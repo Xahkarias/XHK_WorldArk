@@ -968,6 +968,10 @@ district_xhk_worldark_refinery = {
 }
 # fake ones
 district_xhk_worldark_refinery_motes = {
+	# stop the errors
+	icon = district_city
+	district_background = district_city
+
 	zone_slots = { slot_empty }
 	triggered_planet_modifier = {
 		potential = {
@@ -1007,6 +1011,10 @@ district_xhk_worldark_refinery_motes = {
 	}
 }
 district_xhk_worldark_refinery_gases = {
+	# stop the errors
+	icon = district_city
+	district_background = district_city
+
 	zone_slots = { slot_empty }
 	triggered_planet_modifier = {
 		potential = {
@@ -1046,6 +1054,10 @@ district_xhk_worldark_refinery_gases = {
 	}
 }
 district_xhk_worldark_refinery_crystals = {
+	# stop the errors
+	icon = district_city
+	district_background = district_city
+
 	zone_slots = { slot_empty }
 	triggered_planet_modifier = {
 		potential = {

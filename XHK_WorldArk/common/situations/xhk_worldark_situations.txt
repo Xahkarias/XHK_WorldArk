@@ -31,6 +31,7 @@ xhk_worldark_situation_main = {
 
     approach = {
         name = xhk_worldark_situation_main_approach
+		on_select = { custom_tooltip = xhk_worldark_situation_main_approach_tt }
         icon = GFX_situation_approach_balance_sheet
         icon_background = GFX_situation_approach_bg_yellow
         default = yes

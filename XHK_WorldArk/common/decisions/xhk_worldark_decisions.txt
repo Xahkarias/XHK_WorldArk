@@ -9,7 +9,7 @@ xhk_worldark_add_logistics_ship = {
     }
 
     show_tech_unlock_if = {
-		xhk_has_worldark_origin = yes
+		owner = { xhk_has_worldark_origin = yes }
     }
 
     resources = {
