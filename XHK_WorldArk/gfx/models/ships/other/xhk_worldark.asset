@@ -352,7 +352,7 @@ entity = {
 	name = "xhk_worldark_corespinal_planetgun_entity"
 	pdxmesh = "civilian_arkship_spinal_module_devastator_01_mesh"
 
-	scale = 2.0
+	scale = 2.1
 	game_data = {
 		emissive_recolor_crunch = 3.0
 	}
@@ -362,7 +362,7 @@ entity = {
 	name = "xhk_worldark_corespinal_blackhole_entity"
 	pdxmesh = "xhk_worldark_blackhole_mesh"
 
-	scale = 2.0
+	scale = 2.2
 	game_data = {
 		emissive_recolor_crunch = 3.0
 		bloom_factor = 2
@@ -384,7 +384,7 @@ entity = { #scaled up vanilla
 
 	game_data = {
 		#uv_animation_speed   = -0.025
-		uv_animation_speed   = -0.1
+		uv_animation_speed   = -0.15
 		uv_animation_direction  = { 0.4 0.4 }
 	}
 }
