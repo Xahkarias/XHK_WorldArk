@@ -69,6 +69,8 @@
  triggered_opinion_of_xhk_worldark_interstellar_assembly: "Interstellar Congress"
  triggered_opinion_of_xhk_worldark_interstellar_assembly_tt: "$t$Grants §G+100§! Opinion from all Empires"
 
+ xhk_tech_worldark_art_installation: "Integrated Mega Art Installation"
+ xhk_tech_worldark_art_installation_desc: "Studies of settles empires has given us insight into their creative pursuits. Setting up a station to analyze how we can adapt specific forms of creativity to the void could prove useful."
 
  xhk_harvest_plus_small: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_small]§!"
  xhk_harvest_plus_large: "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_large]§!"

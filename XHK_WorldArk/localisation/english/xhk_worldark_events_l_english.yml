@@ -194,7 +194,7 @@
  xhk_worldark_docs_mega_desc: "$xhk_worldark_docs_mega_desc_1$$xhk_worldark_docs_mega_desc_2$"
 
  xhk_worldark_docs_mega_desc_1: "The $xhk_pc_worldark$ has integration for several vanilla megastructures, which are cheaper but weaker variations of their settled counterparts."
- xhk_worldark_docs_mega_desc_2: "\n\n§YIntegrated as Systems§! (requiring $xhk_tech_worldark_7$):$TABBED_NEW_LINE$ $sm_xhk_worldark_science_nexus$, $sm_xhk_worldark_interstellar_assembly$, $sm_xhk_worldark_strategic_coordination$ "
+ xhk_worldark_docs_mega_desc_2: "\n\n§YIntegrated as Systems§! (requiring $xhk_tech_worldark_7$):$TABBED_NEW_LINE$ $sm_xhk_worldark_science_nexus$, $sm_xhk_worldark_interstellar_assembly$, $sm_xhk_worldark_strategic_coordination$, $sm_xhk_worldark_art_installation$ "
 
  ####################
  # CROSSMOD

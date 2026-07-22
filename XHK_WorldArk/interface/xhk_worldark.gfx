@@ -199,6 +199,10 @@ spriteTypes = {
 		name = "GFX_xhk_worldark_interstellar_assembly"
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_interstellar_assembly.dds"
 	}
+	spriteType = {
+		name = "GFX_xhk_worldark_art_installation"
+		texturefile = "gfx/interface/icons/modules/xhk_worldark_art_installation.dds"
+	}
 
 	####################################################################################################################
 	# BACKDROP

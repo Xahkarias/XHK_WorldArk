@@ -326,3 +326,56 @@ xhk_worldark_interstellar_assembly = {
 		weight = 100
 	}
 }
+
+xhk_worldark_art_installation = {
+	icon = "GFX_xhk_worldark_art_installation"
+	starbase_type = arkship
+	construction_days = 1080
+	category = sm_worldark_integrated_mega_cat
+
+	starbase_limit = {
+		base = 1
+	}
+
+	potential = {
+		xhk_is_worldark_starbase = yes
+		owner? = {
+			has_technology = xhk_tech_worldark_art_installation
+		}
+	}
+
+	show_in_tech = "xhk_tech_worldark_art_installation"
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+	possible = {
+		has_starbase_size >= xhk_worldark_tier_7
+	}
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = 20000
+			unity = 2000
+		}
+		upkeep = {
+			energy = 30
+		}
+	}
+
+	triggered_country_modifier = {
+		planetary_ascension_cost_mult = -0.15
+
+	}
+
+	triggered_planet_modifier = {
+		planet_amenities_mult = 0.10
+		planet_bureaucrats_unity_produces_add = 1
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
