@@ -1,4 +1,5 @@
 is_starting_arkship = no
+preserve_movement_animation_progress = yes
 hero_ship = {						# Use the Hero Ship UI, not the Juggernaut's.
     hero_ship_fleet_background = "GFX_arkship_fleetview_civilian"
     custom_class_text_color = H

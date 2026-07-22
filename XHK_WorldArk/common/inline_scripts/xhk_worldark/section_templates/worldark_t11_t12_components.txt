@@ -1,0 +1,1011 @@
+# HANGAR
+component_slot = {
+	name = "STRIKE_CRAFT_01"
+	template = "large_strike_craft"
+	locatorname = "hangar_1"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_02"
+	template = "large_strike_craft"
+	locatorname = "hangar_2"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_03"
+	template = "large_strike_craft"
+	locatorname = "hangar_3"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_04"
+	template = "large_strike_craft"
+	locatorname = "hangar_4"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_05"
+	template = "large_strike_craft"
+	locatorname = "hangar_1"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_06"
+	template = "large_strike_craft"
+	locatorname = "hangar_2"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_07"
+	template = "large_strike_craft"
+	locatorname = "hangar_3"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_08"
+	template = "large_strike_craft"
+	locatorname = "hangar_4"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_09"
+	template = "large_strike_craft"
+	locatorname = "hangar_1"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_10"
+	template = "large_strike_craft"
+	locatorname = "hangar_2"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_11"
+	template = "large_strike_craft"
+	locatorname = "hangar_3"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_12"
+	template = "large_strike_craft"
+	locatorname = "hangar_4"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_13"
+	template = "large_strike_craft"
+	locatorname = "hangar_1"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_14"
+	template = "large_strike_craft"
+	locatorname = "hangar_2"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_15"
+	template = "large_strike_craft"
+	locatorname = "hangar_3"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_16"
+	template = "large_strike_craft"
+	locatorname = "hangar_4"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_17"
+	template = "large_strike_craft"
+	locatorname = "hangar_1"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_18"
+	template = "large_strike_craft"
+	locatorname = "hangar_2"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_19"
+	template = "large_strike_craft"
+	locatorname = "hangar_3"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_20"
+	template = "large_strike_craft"
+	locatorname = "hangar_4"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_21"
+	template = "large_strike_craft"
+	locatorname = "hangar_1"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_22"
+	template = "large_strike_craft"
+	locatorname = "hangar_2"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_23"
+	template = "large_strike_craft"
+	locatorname = "hangar_3"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_24"
+	template = "large_strike_craft"
+	locatorname = "hangar_4"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_25"
+	template = "large_strike_craft"
+	locatorname = "hangar_5"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_26"
+	template = "large_strike_craft"
+	locatorname = "hangar_6"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_27"
+	template = "large_strike_craft"
+	locatorname = "hangar_7"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_28"
+	template = "large_strike_craft"
+	locatorname = "hangar_8"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_29"
+	template = "large_strike_craft"
+	locatorname = "hangar_5"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_30"
+	template = "large_strike_craft"
+	locatorname = "hangar_6"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_31"
+	template = "large_strike_craft"
+	locatorname = "hangar_7"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_32"
+	template = "large_strike_craft"
+	locatorname = "hangar_8"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_33"
+	template = "large_strike_craft"
+	locatorname = "hangar_5"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_34"
+	template = "large_strike_craft"
+	locatorname = "hangar_6"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_35"
+	template = "large_strike_craft"
+	locatorname = "hangar_7"
+}
+component_slot = {
+	name = "STRIKE_CRAFT_36"
+	template = "large_strike_craft"
+	locatorname = "hangar_8"
+}
+
+# PD
+component_slot = {
+	name = "PD_01"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_01"
+}
+component_slot = {
+	name = "PD_02"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_02"
+}
+component_slot = {
+	name = "PD_03"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_03"
+}
+component_slot = {
+	name = "PD_04"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_04"
+}
+component_slot = {
+	name = "PD_05"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_05"
+}
+component_slot = {
+	name = "PD_06"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_06"
+}
+component_slot = {
+	name = "PD_07"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_07"
+}
+component_slot = {
+	name = "PD_08"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_08"
+}
+component_slot = {
+	name = "PD_09"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_09"
+}
+component_slot = {
+	name = "PD_10"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_10"
+}
+component_slot = {
+	name = "PD_11"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_11"
+}
+component_slot = {
+	name = "PD_12"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_12"
+}
+component_slot = {
+	name = "PD_13"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_13"
+}
+component_slot = {
+	name = "PD_14"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_14"
+}
+component_slot = {
+	name = "PD_15"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_15"
+}
+component_slot = {
+	name = "PD_16"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_16"
+}
+component_slot = {
+	name = "PD_17"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_17"
+}
+component_slot = {
+	name = "PD_18"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_18"
+}
+component_slot = {
+	name = "PD_19"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_19"
+}
+component_slot = {
+	name = "PD_20"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_20"
+}
+component_slot = {
+	name = "PD_21"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_21"
+}
+component_slot = {
+	name = "PD_22"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_22"
+}
+component_slot = {
+	name = "PD_23"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_23"
+}
+component_slot = {
+	name = "PD_24"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_24"
+}
+component_slot = {
+	name = "PD_25"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_25"
+}
+component_slot = {
+	name = "PD_26"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_26"
+}
+component_slot = {
+	name = "PD_27"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_27"
+}
+component_slot = {
+	name = "PD_28"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_28"
+}
+component_slot = {
+	name = "PD_29"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_29"
+}
+component_slot = {
+	name = "PD_30"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_30"
+}
+component_slot = {
+	name = "PD_31"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_31"
+}
+component_slot = {
+	name = "PD_32"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_32"
+}
+component_slot = {
+	name = "PD_33"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_33"
+}
+component_slot = {
+	name = "PD_34"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_34"
+}
+component_slot = {
+	name = "PD_35"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_35"
+}
+component_slot = {
+	name = "PD_36"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_36"
+}
+component_slot = {
+	name = "PD_37"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_37"
+}
+component_slot = {
+	name = "PD_38"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_38"
+}
+component_slot = {
+	name = "PD_39"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_39"
+}
+component_slot = {
+	name = "PD_40"
+	template = "xhk_worldark_pd_turret"
+	locatorname = "pd_40"
+}
+
+# XL
+component_slot = {
+	name = "EXTRA_LARGE_01"
+	template = "invisible_extra_large_fixed"
+	locatorname = "xl_01"
+}
+component_slot = {
+	name = "EXTRA_LARGE_02"
+	template = "invisible_extra_large_fixed"
+	locatorname = "xl_02"
+}
+component_slot = {
+	name = "EXTRA_LARGE_03"
+	template = "invisible_extra_large_fixed"
+	locatorname = "xl_03"
+}
+component_slot = {
+	name = "EXTRA_LARGE_04"
+	template = "invisible_extra_large_fixed"
+	locatorname = "xl_04"
+}
+component_slot = {
+	name = "EXTRA_LARGE_05"
+	template = "invisible_extra_large_fixed"
+	locatorname = "xl_05"
+}
+component_slot = {
+	name = "EXTRA_LARGE_06"
+	template = "invisible_extra_large_fixed"
+	locatorname = "xl_06"
+}
+
+# LARGE
+component_slot = {
+	name = "LARGE_GUN_01"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_1"
+}
+component_slot = {
+	name = "LARGE_GUN_02"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_2"
+}
+component_slot = {
+	name = "LARGE_GUN_03"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_3"
+}
+component_slot = {
+	name = "LARGE_GUN_04"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_4"
+}
+component_slot = {
+	name = "LARGE_GUN_05"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_5"
+}
+component_slot = {
+	name = "LARGE_GUN_06"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_6"
+}
+component_slot = {
+	name = "LARGE_GUN_07"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_7"
+}
+component_slot = {
+	name = "LARGE_GUN_08"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_8"
+}
+component_slot = {
+	name = "LARGE_GUN_09"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_9"
+}
+component_slot = {
+	name = "LARGE_GUN_10"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_10"
+}
+component_slot = {
+	name = "LARGE_GUN_11"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_11"
+}
+component_slot = {
+	name = "LARGE_GUN_12"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_12"
+}
+component_slot = {
+	name = "LARGE_GUN_13"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_13"
+}
+component_slot = {
+	name = "LARGE_GUN_14"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_14"
+}
+component_slot = {
+	name = "LARGE_GUN_15"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_15"
+}
+component_slot = {
+	name = "LARGE_GUN_16"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_16"
+}
+component_slot = {
+	name = "LARGE_GUN_17"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_17"
+}
+component_slot = {
+	name = "LARGE_GUN_18"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_18"
+}
+component_slot = {
+	name = "LARGE_GUN_19"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_19"
+}
+component_slot = {
+	name = "LARGE_GUN_20"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_20"
+}
+component_slot = {
+	name = "LARGE_GUN_21"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_21"
+}
+component_slot = {
+	name = "LARGE_GUN_22"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_22"
+}
+component_slot = {
+	name = "LARGE_GUN_23"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_23"
+}
+component_slot = {
+	name = "LARGE_GUN_24"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_24"
+}
+component_slot = {
+	name = "LARGE_GUN_25"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_25"
+}
+component_slot = {
+	name = "LARGE_GUN_26"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_26"
+}
+component_slot = {
+	name = "LARGE_GUN_27"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_27"
+}
+component_slot = {
+	name = "LARGE_GUN_28"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_28"
+}
+component_slot = {
+	name = "LARGE_GUN_29"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_29"
+}
+component_slot = {
+	name = "LARGE_GUN_30"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_30"
+}
+component_slot = {
+	name = "LARGE_GUN_31"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_31"
+}
+component_slot = {
+	name = "LARGE_GUN_32"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_32"
+}
+component_slot = {
+	name = "LARGE_GUN_33"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_33"
+}
+component_slot = {
+	name = "LARGE_GUN_34"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_34"
+}
+component_slot = {
+	name = "LARGE_GUN_35"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_35"
+}
+component_slot = {
+	name = "LARGE_GUN_36"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_36"
+}
+component_slot = {
+	name = "LARGE_GUN_37"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_37"
+}
+component_slot = {
+	name = "LARGE_GUN_38"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_38"
+}
+component_slot = {
+	name = "LARGE_GUN_39"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_39"
+}
+component_slot = {
+	name = "LARGE_GUN_40"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_40"
+}
+component_slot = {
+	name = "LARGE_GUN_41"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_41"
+}
+component_slot = {
+	name = "LARGE_GUN_42"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_42"
+}
+component_slot = {
+	name = "LARGE_GUN_43"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_43"
+}
+component_slot = {
+	name = "LARGE_GUN_44"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_44"
+}
+component_slot = {
+	name = "LARGE_GUN_45"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_45"
+}
+component_slot = {
+	name = "LARGE_GUN_46"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_46"
+}
+component_slot = {
+	name = "LARGE_GUN_47"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_47"
+}
+component_slot = {
+	name = "LARGE_GUN_48"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_48"
+}
+component_slot = {
+	name = "LARGE_GUN_49"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_49"
+}
+component_slot = {
+	name = "LARGE_GUN_50"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_50"
+}
+component_slot = {
+	name = "LARGE_GUN_51"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_51"
+}
+component_slot = {
+	name = "LARGE_GUN_52"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_52"
+}
+component_slot = {
+	name = "LARGE_GUN_53"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_53"
+}
+component_slot = {
+	name = "LARGE_GUN_54"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_54"
+}
+component_slot = {
+	name = "LARGE_GUN_55"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_55"
+}
+component_slot = {
+	name = "LARGE_GUN_56"
+	template = "xhk_worldark_large_turret"
+	locatorname = "large_56"
+}
+
+# MEDIUM
+component_slot = {
+	name = "MEDIUM_GUN_01"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_01"
+}
+component_slot = {
+	name = "MEDIUM_GUN_02"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_02"
+}
+component_slot = {
+	name = "MEDIUM_GUN_03"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_03"
+}
+component_slot = {
+	name = "MEDIUM_GUN_04"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_04"
+}
+component_slot = {
+	name = "MEDIUM_GUN_05"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_05"
+}
+component_slot = {
+	name = "MEDIUM_GUN_06"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_06"
+}
+component_slot = {
+	name = "MEDIUM_GUN_07"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_07"
+}
+component_slot = {
+	name = "MEDIUM_GUN_08"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_08"
+}
+component_slot = {
+	name = "MEDIUM_GUN_09"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_09"
+}
+component_slot = {
+	name = "MEDIUM_GUN_10"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_10"
+}
+component_slot = {
+	name = "MEDIUM_GUN_11"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_11"
+}
+component_slot = {
+	name = "MEDIUM_GUN_12"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_12"
+}
+component_slot = {
+	name = "MEDIUM_GUN_13"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_13"
+}
+component_slot = {
+	name = "MEDIUM_GUN_14"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_14"
+}
+component_slot = {
+	name = "MEDIUM_GUN_15"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_15"
+}
+component_slot = {
+	name = "MEDIUM_GUN_16"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_16"
+}
+component_slot = {
+	name = "MEDIUM_GUN_17"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_17"
+}
+component_slot = {
+	name = "MEDIUM_GUN_18"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_18"
+}
+component_slot = {
+	name = "MEDIUM_GUN_19"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_19"
+}
+component_slot = {
+	name = "MEDIUM_GUN_20"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_20"
+}
+component_slot = {
+	name = "MEDIUM_GUN_21"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_21"
+}
+component_slot = {
+	name = "MEDIUM_GUN_22"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_22"
+}
+component_slot = {
+	name = "MEDIUM_GUN_23"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_23"
+}
+component_slot = {
+	name = "MEDIUM_GUN_24"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_24"
+}
+component_slot = {
+	name = "MEDIUM_GUN_25"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_25"
+}
+component_slot = {
+	name = "MEDIUM_GUN_26"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_26"
+}
+component_slot = {
+	name = "MEDIUM_GUN_27"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_27"
+}
+component_slot = {
+	name = "MEDIUM_GUN_28"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_28"
+}
+component_slot = {
+	name = "MEDIUM_GUN_29"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_29"
+}
+component_slot = {
+	name = "MEDIUM_GUN_30"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_30"
+}
+component_slot = {
+	name = "MEDIUM_GUN_31"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_31"
+}
+component_slot = {
+	name = "MEDIUM_GUN_32"
+	template = "xhk_worldark_medium_turret"
+	locatorname = "medium_32"
+}
+
+# SMALL
+component_slot = {
+	name = "SMALL_GUN_01"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_01"
+}
+component_slot = {
+	name = "SMALL_GUN_02"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_02"
+}
+component_slot = {
+	name = "SMALL_GUN_03"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_03"
+}
+component_slot = {
+	name = "SMALL_GUN_04"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_04"
+}
+component_slot = {
+	name = "SMALL_GUN_05"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_05"
+}
+component_slot = {
+	name = "SMALL_GUN_06"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_06"
+}
+component_slot = {
+	name = "SMALL_GUN_07"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_07"
+}
+component_slot = {
+	name = "SMALL_GUN_08"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_08"
+}
+component_slot = {
+	name = "SMALL_GUN_09"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_09"
+}
+component_slot = {
+	name = "SMALL_GUN_10"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_10"
+}
+component_slot = {
+	name = "SMALL_GUN_11"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_11"
+}
+component_slot = {
+	name = "SMALL_GUN_12"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_12"
+}
+component_slot = {
+	name = "SMALL_GUN_13"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_13"
+}
+component_slot = {
+	name = "SMALL_GUN_14"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_14"
+}
+component_slot = {
+	name = "SMALL_GUN_15"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_15"
+}
+component_slot = {
+	name = "SMALL_GUN_16"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_16"
+}
+component_slot = {
+	name = "SMALL_GUN_17"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_17"
+}
+component_slot = {
+	name = "SMALL_GUN_18"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_18"
+}
+component_slot = {
+	name = "SMALL_GUN_19"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_19"
+}
+component_slot = {
+	name = "SMALL_GUN_20"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_20"
+}
+component_slot = {
+	name = "SMALL_GUN_21"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_21"
+}
+component_slot = {
+	name = "SMALL_GUN_22"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_22"
+}
+component_slot = {
+	name = "SMALL_GUN_23"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_23"
+}
+component_slot = {
+	name = "SMALL_GUN_24"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_24"
+}
+component_slot = {
+	name = "SMALL_GUN_25"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_25"
+}
+component_slot = {
+	name = "SMALL_GUN_26"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_26"
+}
+component_slot = {
+	name = "SMALL_GUN_27"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_27"
+}
+component_slot = {
+	name = "SMALL_GUN_28"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_28"
+}
+component_slot = {
+	name = "SMALL_GUN_29"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_29"
+}
+component_slot = {
+	name = "SMALL_GUN_30"
+	template = "xhk_worldark_small_turret"
+	locatorname = "small_30"
+}

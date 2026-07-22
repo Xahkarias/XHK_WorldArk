@@ -141,7 +141,7 @@
  xhk_worldark_docs_ship_levels_desc_T9: "\n§GT9§! - §YStarbase:§! 24 Modules / 36 Buildings / 4 Spinal | §YBase Districts:§! 44 | §YWeapons:§! 24H 36P 36L"
  xhk_worldark_docs_ship_levels_desc_T10: "\n§GT10§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal | §YBase Districts:§! 50 | §YWeapons:§! 30H 40P 40L"
  xhk_worldark_docs_ship_levels_desc_midgame: "\n§RThe following levels are locked until the midgame year:§!"
- xhk_worldark_docs_ship_levels_desc_T11: "\n§GT11§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal | §YBase Districts:§! 60 | §YWeapons:§! 30H 40P 4G 6XL 48L 12M 18S"
+ xhk_worldark_docs_ship_levels_desc_T11: "\n§GT11§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal | §YBase Districts:§! 60 | §YWeapons:§! 36H 40P 6XL 56L 32M 30S"
  xhk_worldark_docs_ship_levels_desc_T11_2: "\n$t$$t$§I$xhk_worldark_size_harvest$§!: §GMax £districtadd£District Gain§! increases to §G+[xhk_worldark_getDistrictIncreaseFromHarvest_vlarge]§!"
  xhk_worldark_docs_ship_levels_desc_T12: "\n§GT12§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal / 1 Core Spinal | §YBase Districts:§! 70 | §YWeapons:§! No Change"
 
