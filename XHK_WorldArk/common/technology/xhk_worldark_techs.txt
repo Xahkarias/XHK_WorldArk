@@ -260,13 +260,12 @@ xhk_tech_worldark_11 = {
 		TIER = 11
 	}
 
-	prerequisites = { "xhk_tech_worldark_10" }
+	prerequisites = {
+		"xhk_tech_worldark_10"
+		"tech_mega_engineering"
+	}
 
 	weight_modifier = {
-		modifier = {
-			factor = 0.01
-			NOT = { mid_game_years_passed > 0 }
-		}
 		modifier = {
 			factor = 100
 			any_playable_country = {
@@ -294,10 +293,6 @@ xhk_tech_worldark_12 = {
 	}
 
 	weight_modifier = {
-		modifier = {
-			factor = 0.01
-			NOT = { mid_game_years_passed > 0 }
-		}
 		modifier = {
 			factor = 100
 			any_playable_country = {
@@ -327,7 +322,7 @@ xhk_tech_worldark_science_nexus = {
 	tier = 5
 	category = { computing }
 	ai_update_type = all
-	prerequisites = { "tech_mega_engineering" xhk_tech_worldark_7 }
+	prerequisites = { "tech_mega_engineering" "xhk_tech_worldark_7" }
 	weight = @tier5weight3
 	is_rare = yes
 
@@ -383,7 +378,7 @@ xhk_tech_worldark_strategic_coordination = {
 	tier = 5
 	category = { military_theory }
 	ai_update_type = all
-	prerequisites = { "tech_mega_engineering" xhk_tech_worldark_7 }
+	prerequisites = { "tech_mega_engineering" "xhk_tech_worldark_7" }
 	weight = @tier5weight3
 	is_rare = yes
 
@@ -448,7 +443,7 @@ xhk_tech_worldark_interstellar_assembly = {
 	tier = 5
 	category = { statecraft }
 	ai_update_type = all
-	prerequisites = { "tech_mega_engineering" xhk_tech_worldark_7 }
+	prerequisites = { "tech_mega_engineering" "xhk_tech_worldark_7" }
 	weight = @tier5weight3
 	is_rare = yes
 
@@ -509,7 +504,7 @@ xhk_tech_worldark_art_installation = {
 	tier = 5
 	category = { statecraft }
 	ai_update_type = all
-	prerequisites = { "tech_mega_engineering" xhk_tech_worldark_7 }
+	prerequisites = { "tech_mega_engineering" "xhk_tech_worldark_7" }
 	weight = @tier5weight3
 	is_rare = yes
 

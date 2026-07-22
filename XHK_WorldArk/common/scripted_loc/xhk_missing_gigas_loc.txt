@@ -43,7 +43,7 @@ define_text = {
 				}
 			}
 		}
-		localization_key = job_ehof_cultivator_drone
+		localization_key = job_ehof_cultivation_drone
 	}
 	default = job_ehof_cultivator
 }
