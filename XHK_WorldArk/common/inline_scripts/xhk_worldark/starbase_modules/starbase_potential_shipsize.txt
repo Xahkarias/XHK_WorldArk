@@ -1,0 +1,4 @@
+# for compat
+OR = {
+	has_starbase_size = xhk_worldark_tier_12
+}

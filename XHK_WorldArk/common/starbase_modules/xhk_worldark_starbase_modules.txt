@@ -426,7 +426,9 @@ xhk_worldark_corespinal_planetgun = {
 		owner? = {
 			has_technology = xhk_tech_worldark_12
 		}
-		has_starbase_size = xhk_worldark_tier_12
+		inline_script = {
+			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
+		}
 	}
 
 	show_in_tech = "xhk_tech_worldark_12"
@@ -472,7 +474,9 @@ xhk_worldark_corespinal_blackhole = {
 		owner? = {
 			has_technology = xhk_tech_worldark_12
 		}
-		has_starbase_size = xhk_worldark_tier_12
+		inline_script = {
+			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
+		}
 	}
 
 	show_in_tech = "xhk_tech_worldark_12"
@@ -526,7 +530,9 @@ xhk_worldark_corespinal_planeteater = {
 		owner? = {
 			has_technology = xhk_tech_worldark_12
 		}
-		has_starbase_size = xhk_worldark_tier_12
+		inline_script = {
+			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
+		}
 	}
 
 	show_in_tech = "xhk_tech_worldark_12"
@@ -586,7 +592,9 @@ xhk_worldark_corespinal_nanite = {
 			has_technology = xhk_tech_worldark_12
 			has_tradition = tr_nanotech_finish
 		}
-		has_starbase_size = xhk_worldark_tier_12
+		inline_script = {
+			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
+		}
 	}
 
 	fits_on_slots = { spinal_mount_7 }
@@ -643,7 +651,9 @@ xhk_worldark_corespinal_virtual = {
 			has_technology = xhk_tech_worldark_12
 			has_tradition = tr_virtuality_finish
 		}
-		has_starbase_size = xhk_worldark_tier_12
+		inline_script = {
+			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
+		}
 	}
 
 	fits_on_slots = { spinal_mount_7 }
@@ -687,7 +697,9 @@ xhk_worldark_corespinal_antisystem = {
 		owner? = {
 			has_technology = xhk_tech_worldark_12
 		}
-		has_starbase_size = xhk_worldark_tier_12
+		inline_script = {
+			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
+		}
 	}
 
 	show_in_tech = "xhk_tech_worldark_12"
