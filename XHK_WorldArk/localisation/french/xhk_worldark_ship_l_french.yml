@@ -12,6 +12,19 @@
   xhk_worldark_tier_11:99 "$xhk_pc_worldark$ XI"
   xhk_worldark_tier_12:99 "$xhk_pc_worldark$ XII"
   
+  xhk_worldark_tier_1_plural:99 "$xhk_pc_worldark$ I"
+  xhk_worldark_tier_2_plural:99 "$xhk_pc_worldark$ II"
+  xhk_worldark_tier_3_plural:99 "$xhk_pc_worldark$ III"
+  xhk_worldark_tier_4_plural:99 "$xhk_pc_worldark$ IV"
+  xhk_worldark_tier_5_plural:99 "$xhk_pc_worldark$ V"
+  xhk_worldark_tier_6_plural:99 "$xhk_pc_worldark$ VI"
+  xhk_worldark_tier_7_plural:99 "$xhk_pc_worldark$ VII"
+  xhk_worldark_tier_8_plural:99 "$xhk_pc_worldark$ VIII"
+  xhk_worldark_tier_9_plural:99 "$xhk_pc_worldark$ IX"
+  xhk_worldark_tier_10_plural:99 "$xhk_pc_worldark$ X"
+  xhk_worldark_tier_11_plural:99 "$xhk_pc_worldark$ XI"
+  xhk_worldark_tier_12_plural:99 "$xhk_pc_worldark$ XII"
+  
   xhk_worldark_tier_1_cap:99 "$xhk_worldark_tier_1$"
   xhk_worldark_tier_2_cap:99 "$xhk_worldark_tier_2$"
   xhk_worldark_tier_3_cap:99 "$xhk_worldark_tier_3$"
@@ -153,13 +166,16 @@
   sm_worldark_integrated_mega_cat:99 "§RIntegrated Megastructures§!"
   
   sm_xhk_worldark_science_nexus:99 "Science Coordination Nexus"
-  sm_xhk_worldark_science_nexus_desc:99 "A centralized hub for all research conducted on the $xhk_pc_worldark$, organizing information and encouraging inter-disciplinary cooperation."
+  sm_xhk_worldark_science_nexus_desc:99 "A centralized hub for all research conducted on the $xhk_pc_worldark$, organizing information and encouraging inter-disciplinary cooperation.\n"
   
   sm_xhk_worldark_strategic_coordination:99 "Strategic Siege Center"
-  sm_xhk_worldark_strategic_coordination_desc:99 "A centralized hub for coordinating military operations, with a focus on outmanuvering and dismantling the defenses of settled empires."
+  sm_xhk_worldark_strategic_coordination_desc:99 "A centralized hub for coordinating military operations, with a focus on outmanuvering and dismantling the defenses of settled empires.\n"
   
   sm_xhk_worldark_interstellar_assembly:99 "Interstellar Congress"
-  sm_xhk_worldark_interstellar_assembly_desc:99 "A centralized hub for diplomacy open to all empires, with the benefit of bringing us prestige and goodwill."
+  sm_xhk_worldark_interstellar_assembly_desc:99 "A centralized hub for diplomacy open to all empires, with the benefit of bringing us prestige and goodwill.\n"
+  
+  sm_xhk_worldark_art_installation:99 "Creativity Installation"
+  sm_xhk_worldark_art_installation_desc:99 "A centralized hub for creative enterprises, with the benefit of allowing us extra introspection.\n"
   
   
   ########################################################################################################

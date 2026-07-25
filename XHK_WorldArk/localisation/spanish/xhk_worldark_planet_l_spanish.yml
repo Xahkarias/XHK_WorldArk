@@ -289,12 +289,12 @@
   
   zone_xhk_worldark_reactspeed:99 "$zone_ark_engine_bypass$"
   zone_xhk_worldark_reactspeed_desc:99 "$zone_ark_engine_bypass_desc$"
-  zone_xhk_worldark_reactspeed_penrose:99 "$xhk_worldark_speed_penrose_subtitle$"
+  zone_xhk_worldark_reactspeed_penrose:99 "$xhk_worldark_penrose_speed_subtitle$"
   zone_xhk_worldark_reactspeed_penrose_desc:99 "$district_xhk_worldark_penrose_speed_desc$"
   
   zone_xhk_worldark_reactshield:99 "$zone_ark_shield_overloader$"
   zone_xhk_worldark_reactshield_desc:99 "$zone_ark_shield_overloader_desc$"
-  zone_xhk_worldark_reactshield_penrose:99 "$xhk_worldark_shield_penrose_subtitle$"
+  zone_xhk_worldark_reactshield_penrose:99 "$xhk_worldark_penrose_shield_subtitle$"
   zone_xhk_worldark_reactshield_penrose_desc:99 "$district_xhk_worldark_penrose_shield_desc$"
   
   zone_xhk_worldark_mining:99 "Parallelized Extraction Operations"

@@ -140,8 +140,8 @@
   xhk_worldark_docs_ship_levels_desc_T8:99 "\n§GT8§! - §YStarbase:§! 24 Modules / 32 Buildings / 2 Spinal | §YBase Districts:§! 38 | §YWeapons:§! 20H 32P 30L"
   xhk_worldark_docs_ship_levels_desc_T9:99 "\n§GT9§! - §YStarbase:§! 24 Modules / 36 Buildings / 4 Spinal | §YBase Districts:§! 44 | §YWeapons:§! 24H 36P 36L"
   xhk_worldark_docs_ship_levels_desc_T10:99 "\n§GT10§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal | §YBase Districts:§! 50 | §YWeapons:§! 30H 40P 40L"
-  xhk_worldark_docs_ship_levels_desc_midgame:99 "\n§RThe following levels are locked until the midgame year:§!"
-  xhk_worldark_docs_ship_levels_desc_T11:99 "\n§GT11§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal | §YBase Districts:§! 60 | §YWeapons:§! 30H 40P 4G 6XL 48L 12M 18S"
+  xhk_worldark_docs_ship_levels_desc_midgame:99 "\n§RThe following levels are locked behind§! §Y$tech_mega_engineering$§!§R:§!"
+  xhk_worldark_docs_ship_levels_desc_T11:99 "\n§GT11§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal | §YBase Districts:§! 60 | §YWeapons:§! 36H 40P 6XL 56L 32M 30S"
   xhk_worldark_docs_ship_levels_desc_T11_2:99 "\n$t$$t$§I$xhk_worldark_size_harvest$§!: §GMax £districtadd£District Gain§! increases to §G+[xhk_worldark_getDistrictIncreaseFromHarvest_vlarge]§!"
   xhk_worldark_docs_ship_levels_desc_T12:99 "\n§GT12§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal / 1 Core Spinal | §YBase Districts:§! 70 | §YWeapons:§! No Change"
   
@@ -194,7 +194,7 @@
   xhk_worldark_docs_mega_desc:99 "$xhk_worldark_docs_mega_desc_1$$xhk_worldark_docs_mega_desc_2$"
   
   xhk_worldark_docs_mega_desc_1:99 "The $xhk_pc_worldark$ has integration for several vanilla megastructures, which are cheaper but weaker variations of their settled counterparts."
-  xhk_worldark_docs_mega_desc_2:99 "\n\n§YIntegrated as Systems§! (requiring $xhk_tech_worldark_7$):$TABBED_NEW_LINE$ $sm_xhk_worldark_science_nexus$, $sm_xhk_worldark_interstellar_assembly$, $sm_xhk_worldark_strategic_coordination$ "
+  xhk_worldark_docs_mega_desc_2:99 "\n\n§YIntegrated as Systems§! (requiring $xhk_tech_worldark_7$):$TABBED_NEW_LINE$ $sm_xhk_worldark_science_nexus$, $sm_xhk_worldark_interstellar_assembly$, $sm_xhk_worldark_strategic_coordination$, $sm_xhk_worldark_art_installation$ "
   
   ####################
   # CROSSMOD
