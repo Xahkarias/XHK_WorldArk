@@ -654,8 +654,8 @@ district_xhk_worldark_research = {
 # AMENITIES
 district_xhk_worldark_amenities = {
     base_buildtime = @xhk_base_buildtime
-    icon = district_ark_forever_cruise
-    gridbox = district_resort_secondary
+	gridbox = district_arcology_leisure
+    icon = district_arcology_leisure
     is_uncapped = { always = yes }
     overlay_icon = GFX_district_amenities
 
@@ -699,8 +699,8 @@ district_xhk_worldark_amenities = {
 district_xhk_worldark_amenities_dystopian = {
     shared_capacity_modifier = district_xhk_worldark_amenities_dystopian
     base_buildtime = @xhk_base_buildtime
-    icon = district_ark_forever_cruise
-    gridbox = district_resort_secondary
+	gridbox = district_arcology_leisure
+    icon = district_arcology_leisure
     is_uncapped = { always = no }
     overlay_icon = GFX_district_amenities
 
