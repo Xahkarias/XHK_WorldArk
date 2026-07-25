@@ -10,8 +10,7 @@ xhk_worldark_size_harvest = {
 			inline_script = scripted_actions/harvest_automation_options
 		}
 	}
-    automation_priority = 2
-    automation_default_on = yes
+
     on_completed = xhk_on_size_harvest
     tooltip = xhk_worldark_size_harvest_ship_button
     icon = GFX_XHK_worldark_size_harvest_action
