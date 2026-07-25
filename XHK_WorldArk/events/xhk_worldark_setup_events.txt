@@ -188,6 +188,19 @@ country_event = {
                 add_district = district_xhk_worldark_foundry
                 add_district = district_xhk_worldark_trade
 
+				set_variable = {
+					which = energy_districts
+					value = 3
+				}
+				set_variable = {
+					which = mining_districts
+					value = 4
+				}
+				set_variable = {
+					which = farming_districts
+					value = 0
+				}
+
                 if = {
                     limit = {
                         owner = {
@@ -233,7 +246,8 @@ country_event = {
             inline_script = "game_start/species_lithoids"
             inline_script = "game_start/species_infernals"
             inline_script = "game_start/species_individual_machine"
-            inline_script = "game_start/species_subspecies" ## Set subspecies flags
+
+			# have to do subspecies
 
             # Shipsets
             inline_script = "game_start/shipsets"
@@ -286,6 +300,17 @@ country_event = {
                 }
             }
             # food or minerals
+			# need to increment farming if organic subspecies
+				# this is usually handled with a variable that is set on coutnryu creation
+			if = {
+				limit = {
+					owner = { has_country_flag = non_lithoid_subspecies }
+				}
+				change_variable = {
+					which = farming_districts
+					value = 1
+				}
+			}
             if = {
                 limit = {
                     check_variable = {
