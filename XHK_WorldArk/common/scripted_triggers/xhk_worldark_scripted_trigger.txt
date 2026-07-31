@@ -123,3 +123,14 @@ xhk_worldark_has_cloning_assembly_facilities = {
 xhk_worldark_has_zombie_assembly_facilities = {
     has_building = building_posthumous_employment_center
 }
+
+####
+# anything in here can will be ignored
+xhk_worldark_not_consumed_by_wark = {
+	OR = {
+		# exclude the wark just to be sure
+		is_planet_class = xhk_pc_worldark
+		# lathe
+		is_planet_class = pc_cosmogenesis_world
+	}
+}

@@ -145,12 +145,14 @@ country_event = {
     trigger = {
         is_nomadic = yes
         xhk_has_worldark_origin = yes
-        num_owned_colonies > 1
+		any_owned_colony = {
+			NOT = { xhk_worldark_not_consumed_by_wark = yes }
+		}
     }
 
     immediate = {
         while = {
-            count = value:xhk_worldark_num_arkships_minus_1
+            count = value:xhk_worldark_num_arkships_consume
             capital_scope = {
                 change_variable = {
                     which = xhk_worldark_expansions
@@ -163,7 +165,13 @@ country_event = {
         every_owned_pop_group = {
             limit = {
                 this.colony = {
-                    NOT = { is_same_value = root.capital_scope }
+                    # if both are false we take the pop
+					NOR = {
+						# is it the wark
+						is_same_value = root.capital_scope
+						# do we exclude it
+						xhk_worldark_not_consumed_by_wark = yes
+					}
                 }
             }
             resettle_pop_group = {

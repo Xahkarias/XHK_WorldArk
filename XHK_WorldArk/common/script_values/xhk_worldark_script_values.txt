@@ -1,13 +1,20 @@
 # used to get the number of colonies to eat
 # country scope
-xhk_worldark_num_arkships_minus_1 = {
+# ignores colonies that fit the scripted trigger
+xhk_worldark_num_arkships_consume = {
     base = 0
     complex_trigger_modifier = {
         trigger = count_owned_planet
         trigger_scope = owner
+		parameters = {
+			limit = {
+				NOT = {
+					xhk_worldark_not_consumed_by_wark = yes
+				}
+			}
+		}
         mode = add
     }
-    subtract = 1
 }
 
 # gets the level of the world ark
