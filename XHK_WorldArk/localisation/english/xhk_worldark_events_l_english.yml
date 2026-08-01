@@ -185,7 +185,7 @@
 
  # auxilary
  xhk_worldark_special_civic_doc_vampire_norm: "§G+33 $job_energy_thrall_plural$§! per 100 Pop Growth Jobs. This is additive to any other growth jobs."
- xhk_worldark_special_civic_doc_vampire_gest: "§G+33 $job_drone_energy_thrall_plural$§! per 100 Pop Growth Jobs. This is additive to any other growth jobs.."
+ xhk_worldark_special_civic_doc_vampire_gest: "§G+33 $job_drone_energy_thrall_plural$§! per 100 Pop Growth Jobs. This is additive to any other growth jobs."
  xhk_worldark_special_civic_doc_tankbound: "§Y$district_xhk_worldark_city$§! each provide §G200 $job_production_overseer_plural$§!."
 
  ####################

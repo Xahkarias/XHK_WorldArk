@@ -276,8 +276,10 @@ country_event = {
 
 	trigger = {
 		xhk_has_worldark_origin = yes
-		fromfrom.starbase = {
-			has_starbase_module = xhk_worldark_corespinal_nanite
+		FROMFROM = {
+			starbase? = {
+				has_starbase_module = xhk_worldark_corespinal_nanite
+			}
 		}
 	}
 	immediate = {
