@@ -16,9 +16,9 @@ xhk_worldark_spinal_hunter_cannon = {
 
     show_in_tech = "tech_arkship_tier_3"
 
-    show_tech_unlock_if = {
-        is_nomadic = yes
-    }
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
 
 	fits_on_slots = { spinal_mount_1 spinal_mount_2 spinal_mount_3 spinal_mount_4 spinal_mount_5 spinal_mount_6 }
 

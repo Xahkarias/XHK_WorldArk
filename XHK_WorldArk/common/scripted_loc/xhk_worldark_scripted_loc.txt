@@ -80,6 +80,17 @@ defined_text = {
 	default = xhk_worldark_null_text
 }
 
+defined_text = {
+	name = xhk_worldark_getResortSystemDocumentation
+	text = {
+		trigger = {
+			is_gestalt = yes
+		}
+		localization_key = xhk_worldark_docs_system_3_gest
+	}
+	default = xhk_worldark_docs_system_3_norm
+}
+
 ##################################################################
 # DISTRICT DOCS
 defined_text = {
