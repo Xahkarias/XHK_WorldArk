@@ -185,16 +185,33 @@
   
   # auxilary
   xhk_worldark_special_civic_doc_vampire_norm:99 "§G+33 $job_energy_thrall_plural$§! per 100 Pop Growth Jobs. This is additive to any other growth jobs."
-  xhk_worldark_special_civic_doc_vampire_gest:99 "§G+33 $job_drone_energy_thrall_plural$§! per 100 Pop Growth Jobs. This is additive to any other growth jobs.."
+  xhk_worldark_special_civic_doc_vampire_gest:99 "§G+33 $job_drone_energy_thrall_plural$§! per 100 Pop Growth Jobs. This is additive to any other growth jobs."
   xhk_worldark_special_civic_doc_tankbound:99 "§Y$district_xhk_worldark_city$§! each provide §G200 $job_production_overseer_plural$§!."
   
   ####################
   # MEGAS
-  xhk_worldark_docs_mega:99 "7) Mega Integration"
-  xhk_worldark_docs_mega_desc:99 "$xhk_worldark_docs_mega_desc_1$$xhk_worldark_docs_mega_desc_2$"
+  xhk_worldark_docs_mega:99 "7) Special Systems / Modules / Spinals"
+  xhk_worldark_docs_mega_desc:99 "$xhk_worldark_docs_mega_init$$xhk_worldark_docs_system$$xhk_worldark_docs_spinal$$xhk_worldark_docs_core_spinal$"
+  xhk_worldark_docs_mega_init:99 "The $xhk_pc_worldark$ has special systems and modules that can give special effects, such as mimicking some vanilla megastructures."
   
-  xhk_worldark_docs_mega_desc_1:99 "The $xhk_pc_worldark$ has integration for several vanilla megastructures, which are cheaper but weaker variations of their settled counterparts."
-  xhk_worldark_docs_mega_desc_2:99 "\n\n§YIntegrated as Systems§! (requiring $xhk_tech_worldark_7$):$TABBED_NEW_LINE$ $sm_xhk_worldark_science_nexus$, $sm_xhk_worldark_interstellar_assembly$, $sm_xhk_worldark_strategic_coordination$, $sm_xhk_worldark_art_installation$ "
+  xhk_worldark_docs_system:99 "\n\n§l------SYSTEMS-------------------------------------------§!$xhk_worldark_docs_system_1$$xhk_worldark_docs_system_2$$xhk_worldark_docs_system_3$"
+  xhk_worldark_docs_system_1:99 "\n§C$sm_xhk_worldark_science_nexus$§!: Requires tech §Y$xhk_tech_worldark_science_nexus$§!\n§C$sm_xhk_worldark_interstellar_assembly$§!: Requires tech §Y$xhk_tech_worldark_interstellar_assembly$§!"
+  xhk_worldark_docs_system_2:99 "\n§C$sm_xhk_worldark_strategic_coordination$§!: Requires tech §Y$xhk_tech_worldark_strategic_coordination$§!\n§C$sm_xhk_worldark_art_installation$§!: Requires tech §Y$xhk_tech_worldark_art_installation$§!"
+  xhk_worldark_docs_system_3:99 "[xhk_worldark_getResortSystemDocumentation]"
+  xhk_worldark_docs_system_3_norm:99 "\n§C$sm_xhk_worldark_resort_system$§!: Requires Ascension Perk §Y$ap_wanderlust$§!"
+  xhk_worldark_docs_system_3_gest:99 "\n§C$sm_xhk_worldark_resort_system_gestalt$§!: Requires Ascension Perk §Y$ap_wanderlust$§!"
+  
+  xhk_worldark_docs_spinal:99 "\n\n§l------SPINALS-------------------------------------------§!$xhk_worldark_docs_spinal_1$$xhk_worldark_docs_spinal_2$"
+  xhk_worldark_docs_spinal_1:99 "\n§C$sm_xhk_worldark_spinal_hunter_cannon$§!: Requires tech §Y$tech_arkship_tier_3$§!"
+  xhk_worldark_docs_spinal_2:99 "\n§CIntegrated Colossus Weapons§!: Requires their respective tech"
+  
+  xhk_worldark_docs_core_spinal:99 "\n\n§l------CORE-SPINALS--------------------------------------§!$xhk_worldark_docs_core_spinal_1$$xhk_worldark_docs_core_spinal_2$$xhk_worldark_docs_core_spinal_3$$xhk_worldark_docs_core_spinal_4$$xhk_worldark_docs_core_spinal_5$$xhk_worldark_docs_core_spinal_6$"
+  xhk_worldark_docs_core_spinal_1:99 "\n§C$sm_xhk_worldark_corespinal_planetgun$§!: Mounted planetcraft main weapon"
+  xhk_worldark_docs_core_spinal_2:99 "\n§C$sm_xhk_worldark_corespinal_blackhole$§!: Vastly increased technician and miner jobs for self sufficiency"
+  xhk_worldark_docs_core_spinal_3:99 "\n§C$sm_xhk_worldark_corespinal_planeteater$§!: Dismantle planets faster for extra districts"
+  xhk_worldark_docs_core_spinal_4:99 "\n§C$sm_xhk_worldark_corespinal_antisystem$§!: Massive single-target weapon optimized for anti-celestial combat"
+  xhk_worldark_docs_core_spinal_5:99 "\n§C$sm_xhk_worldark_corespinal_virtual$§!: §KRequires Virtual Ascension§! - Reduces virtual penalty by half"
+  xhk_worldark_docs_core_spinal_6:99 "\n§C$sm_xhk_worldark_corespinal_nanite$§!: §KRequires Nanite Ascension§! - Create temporary nanite ships on killing fleets"
   
   ####################
   # CROSSMOD
