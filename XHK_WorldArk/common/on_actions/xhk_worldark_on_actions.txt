@@ -30,7 +30,11 @@ on_ship_destroyed_perp = {
 	}
 }
 
-
+on_tech_increased = {
+	events = {
+		xhk_worldark.205
+	}
+}
 
 
 

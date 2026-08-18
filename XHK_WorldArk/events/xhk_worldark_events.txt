@@ -264,6 +264,51 @@ country_event = {
 	}
 }
 
+# triggered on tech increase
+country_event = {
+	id = xhk_worldark.205
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		xhk_has_worldark_origin = yes
+	}
+
+	immediate = {
+		# give colonial bureaucracy tech option because it needs >1 colony
+		if = {
+			limit = {
+				# if we don't already have it, or have it available
+				nor = {
+					has_technology = tech_colonial_bureaucracy
+					has_tech_option = tech_colonial_bureaucracy
+				}
+				# but we do have the prerequisities
+				has_technology = tech_adaptive_bureaucracy
+				# and some other techs of the tier below
+				num_researched_techs_of_tier = { tier = 1 value >= 5 }
+			}
+			add_research_option = tech_colonial_bureaucracy
+		}
+
+		# give galactic bureaucracy tech option because it needs >1 colony
+		if = {
+			limit = {
+				# if we don't already have it, or have it available
+				nor = {
+					has_technology = tech_galactic_bureaucracy
+					has_tech_option = tech_galactic_bureaucracy
+				}
+				# but we do have the prerequisities
+				has_technology = tech_colonial_bureaucracy
+				# and some other techs of the tier below
+				num_researched_techs_of_tier = { tier = 2 value >= 5 }
+			}
+			add_research_option = tech_galactic_bureaucracy
+		}
+	}
+}
+
 ##############################################################################################
 # NORMAL SPINALS
 ##############################################################################################
