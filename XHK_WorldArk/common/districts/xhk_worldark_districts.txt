@@ -125,13 +125,6 @@ district_xhk_worldark_city = {
             job_production_overseer_add = 200
         }
     }
-    triggered_desc = {
-        trigger = {
-            exists = owner
-            owner = { is_tankbound_empire = yes }
-        }
-        text = job_production_overseer_effect_desc
-    }
 
     inline_script = {
         script = xhk_worldark/district_flavor/urban_flavor
