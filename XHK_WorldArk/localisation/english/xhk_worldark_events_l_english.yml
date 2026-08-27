@@ -163,12 +163,13 @@
  xhk_worldark_docs_special_civic_desc: "$xhk_worldark_docs_special_civic_desc_1$\n[Owner.xhk_worldark_getCivicDocumentation]"
  xhk_worldark_docs_special_civic_desc_1: "The $xhk_pc_worldark$ has special integration with specific civics to better fit their fantasy and compensate for the one-planet playstyle."
 
- xhk_worldark_docs_special_civic_desc_norm: "\n§3Individualist Empire§!:$xhk_worldark_docs_special_civic_desc_norm_dystopia$$xhk_worldark_docs_special_civic_desc_norm_vampire$$xhk_worldark_docs_special_civic_desc_norm_tankbound$$xhk_worldark_docs_special_civic_desc_norm_death$$xhk_worldark_docs_special_civic_desc_norm_experiment$"
+ xhk_worldark_docs_special_civic_desc_norm: "\n§3Individualist Empire§!:$xhk_worldark_docs_special_civic_desc_norm_dystopia$$xhk_worldark_docs_special_civic_desc_norm_vampire$$xhk_worldark_docs_special_civic_desc_norm_tankbound$$xhk_worldark_docs_special_civic_desc_norm_death$$xhk_worldark_docs_special_civic_desc_norm_experiment$$xhk_worldark_docs_special_civic_desc_norm_noble$"
  xhk_worldark_docs_special_civic_desc_norm_dystopia: "\n§1$civic_dystopian_society$§!: §Y$district_xhk_worldark_amenities_plural$§! give §G$job_politician_plural$§! instead of §G$job_entertainer_plural$§!, and are §Rcapped based on population§!."
  xhk_worldark_docs_special_civic_desc_norm_vampire: "\n§1$civic_entropy_drinkers$§!: $xhk_worldark_special_civic_doc_vampire_norm$"
  xhk_worldark_docs_special_civic_desc_norm_tankbound: "\n§1$civic_tankbound$§!: $xhk_worldark_special_civic_doc_tankbound$"
  xhk_worldark_docs_special_civic_desc_norm_death: "\n§1$civic_death_cult$§!: Each §Y$district_xhk_worldark_unity_spiritualist$§! grants §G50 $job_mortal_initiate_plural$§! if a building that grants them is present."
  xhk_worldark_docs_special_civic_desc_norm_experiment: "\n§1$civic_twisted_experimenters$§!: Each §Y$district_xhk_worldark_research$§! grants §G25 $job_experiment_engineer_plural$§! and §G25 $job_test_subject_plural$§! if a building that grants them is present."
+ xhk_worldark_docs_special_civic_desc_norm_noble: "\n§1$civic_aristocratic_elite$§!: Each §Y$district_xhk_worldark_city$§! grants §G25 $job_noble_plural$§! if a §Y$building_noble_estates$§! is preset."
 
  xhk_worldark_docs_special_civic_desc_corp: "\n§3Megacorp Empire§!:$xhk_worldark_docs_special_civic_desc_corp_vampire$$xhk_worldark_docs_special_civic_desc_corp_tankbound$$xhk_worldark_docs_special_civic_desc_corp_death$$xhk_worldark_docs_special_civic_desc_corp_experiment$"
  xhk_worldark_docs_special_civic_desc_corp_vampire: "\n§1$civic_entropy_drinkers_corporate$§!: $xhk_worldark_special_civic_doc_vampire_norm$"

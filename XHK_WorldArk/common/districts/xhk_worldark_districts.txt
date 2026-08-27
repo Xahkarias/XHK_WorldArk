@@ -69,6 +69,7 @@ district_xhk_worldark_city = {
         planet_housing_add = 2500
     }
 
+	# agrarian housing nerf
     triggered_planet_modifier = {
         potential = {
             exists = owner
@@ -81,6 +82,7 @@ district_xhk_worldark_city = {
         }
     }
 
+	# prosperity tradition housing
     triggered_planet_modifier = {
         potential = {
             exists = owner
@@ -91,6 +93,7 @@ district_xhk_worldark_city = {
         }
     }
 
+	# housing tech buffs
     triggered_planet_modifier = {
         potential = {
             exists = owner
@@ -102,7 +105,6 @@ district_xhk_worldark_city = {
             planet_housing_add = 100
         }
     }
-
     triggered_planet_modifier = {
         potential = {
             exists = owner
@@ -116,6 +118,7 @@ district_xhk_worldark_city = {
         }
     }
 
+	# tankbound
     triggered_planet_modifier = {
         potential = {
             exists = owner
@@ -125,6 +128,17 @@ district_xhk_worldark_city = {
             job_production_overseer_add = 200
         }
     }
+
+	# aristocratic elite
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_valid_civic = civic_aristocratic_elite }
+		}
+		modifier = {
+			job_politician_add = 25
+		}
+	}
 
     inline_script = {
         script = xhk_worldark/district_flavor/urban_flavor
