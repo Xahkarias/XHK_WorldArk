@@ -52,6 +52,16 @@ enable_default_design = yes	#if yes, countries will have an auto-generated desig
 
 scripted_action = {
     xhk_worldark_size_harvest
+	# colossus
+	xhk_worldark_pk_world_cracker
+	xhk_worldark_pk_global_pacifier
+	xhk_worldark_pk_neutron_sweep
+	xhk_worldark_pk_divine_enforcer
+	xhk_worldark_pk_nanobot_diffuser
+	xhk_worldark_pk_devolution_beam
+	xhk_worldark_pk_planet_smelter
+	# core spinal
+	xhk_worldark_corespinal_planeteater_dismantle_world
 }
 
 resources = {

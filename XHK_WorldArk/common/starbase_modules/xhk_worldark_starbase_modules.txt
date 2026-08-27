@@ -91,7 +91,6 @@ xhk_worldark_spinal_pk_cracker = {
         }
     }
 
-    component_set = XHK_ARKSHIP_SPINAL_PK_CRACKER_SET
     custom_tooltip = xhk_worldark_spinal_planet_cracker_tt
 
     ai_weight = {
@@ -143,7 +142,6 @@ xhk_worldark_spinal_pk_shielder = {
 		}
 	}
 
-	component_set = XHK_ARKSHIP_SPINAL_PK_SHIELDER_SET
 	custom_tooltip = xhk_worldark_spinal_planet_shielder_tt
 
 	ai_weight = {
@@ -195,7 +193,6 @@ xhk_worldark_spinal_pk_neutron = {
 		}
 	}
 
-	component_set = XHK_ARKSHIP_SPINAL_PK_NEUTRON_SET
 	custom_tooltip = xhk_worldark_spinal_planet_neutron_tt
 
 	ai_weight = {
@@ -247,7 +244,6 @@ xhk_worldark_spinal_pk_godray = {
 		}
 	}
 
-	component_set = XHK_ARKSHIP_SPINAL_PK_GODRAY_SET
 	custom_tooltip = xhk_worldark_spinal_planet_godray_tt
 
 	ai_weight = {
@@ -299,7 +295,6 @@ xhk_worldark_spinal_pk_nanobots = {
 		}
 	}
 
-	component_set = XHK_ARKSHIP_SPINAL_PK_NANOBOTS_SET
 	custom_tooltip = xhk_worldark_spinal_planet_nanobots_tt
 
 	ai_weight = {
@@ -351,7 +346,6 @@ xhk_worldark_spinal_pk_devolution = {
 		}
 	}
 
-	component_set = XHK_ARKSHIP_SPINAL_PK_DEVOLUTION_SET
 	custom_tooltip = xhk_worldark_spinal_planet_devolver_tt
 
 	ai_weight = {
@@ -403,7 +397,6 @@ xhk_worldark_spinal_pk_smelter = {
 		}
 	}
 
-	component_set = XHK_ARKSHIP_SPINAL_PK_SMELTER_SET
 	custom_tooltip = xhk_worldark_spinal_planet_smelter_tt
 
 	ai_weight = {
@@ -572,7 +565,6 @@ xhk_worldark_corespinal_planeteater = {
 		situation_nomad_economy_max_progress_add = 50000
 	}
 
-	component_set = XHK_ARKSHIP_CORESPINAL_PLANETEATER_SET
 	custom_tooltip_with_modifiers = xhk_worldark_corespinal_planeteater_tt
 
 	ai_weight = {

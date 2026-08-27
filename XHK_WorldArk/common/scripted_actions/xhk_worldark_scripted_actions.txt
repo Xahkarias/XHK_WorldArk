@@ -116,6 +116,12 @@ xhk_worldark_pk_world_cracker = {
     icon_selected = GFX_XHK_fleet_order_blow_up_planet_action
 
     possible = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error
+			from.starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_cracker
+			}
+		}
 		can_destroy_planet_with_PLANET_KILLER_CRACKER = yes
     }
 
@@ -176,6 +182,12 @@ xhk_worldark_pk_global_pacifier = {
 	icon_selected = GFX_XHK_fleet_order_blow_up_planet_action
 
 	possible = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error
+			from.starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_shielder
+			}
+		}
 		can_destroy_planet_with_PLANET_KILLER_SHIELDER = yes
 	}
 
@@ -236,6 +248,12 @@ xhk_worldark_pk_neutron_sweep = {
 	icon_selected = GFX_XHK_fleet_order_blow_up_planet_action
 
 	possible = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error
+			from.starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_neutron
+			}
+		}
 		can_destroy_planet_with_PLANET_KILLER_NEUTRON = yes
 	}
 
@@ -296,6 +314,12 @@ xhk_worldark_pk_divine_enforcer = {
 	icon_selected = GFX_XHK_fleet_order_blow_up_planet_action
 
 	possible = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error
+			from.starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_godray
+			}
+		}
 		can_destroy_planet_with_PLANET_KILLER_GODRAY = yes
 	}
 
@@ -356,6 +380,12 @@ xhk_worldark_pk_nanobot_diffuser = {
 	icon_selected = GFX_XHK_fleet_order_blow_up_planet_action
 
 	possible = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error
+			from.starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_nanobots
+			}
+		}
 		can_destroy_planet_with_PLANET_KILLER_NANOBOTS = yes
 	}
 
@@ -416,6 +446,12 @@ xhk_worldark_pk_devolution_beam = {
 	icon_selected = GFX_XHK_fleet_order_blow_up_planet_action
 
 	possible = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error
+			from.starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_devolution
+			}
+		}
 		can_destroy_planet_with_PLANET_KILLER_DEVOLUTION = yes
 	}
 
@@ -476,6 +512,12 @@ xhk_worldark_pk_planet_smelter = {
 	icon_selected = GFX_XHK_fleet_order_blow_up_planet_action
 
 	possible = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error
+			from.starbase? = {
+				has_starbase_module = xhk_worldark_spinal_pk_smelter
+			}
+		}
 		can_destroy_planet_with_PLANET_KILLER_SMELTER = yes
 	}
 
@@ -541,6 +583,12 @@ xhk_worldark_corespinal_planeteater_dismantle_world = {
 	slot = 2
 
 	possible = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_dummy_error
+			from.starbase? = {
+				has_starbase_module = xhk_worldark_corespinal_planeteater
+			}
+		}
 		custom_tooltip = {
 			fail_text = xhk_worldark_is_star_fail_tt
 			is_star = no

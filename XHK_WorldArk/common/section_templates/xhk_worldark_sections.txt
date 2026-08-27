@@ -3050,12 +3050,6 @@ ship_section_template = {
 	inline_script = {
 		script = xhk_worldark/section_templates/arkship_class_list_spinal
 	}
-
-    component_slot = {
-        name = "XHK_ARKSHIP_SPINAL_PK_CRACKER_WEAPON"
-        template = "invisible_titanic_turret"
-        locatorname = "xl_gun_01"
-    }
 }
 ship_section_template = {
 	key = "XHK_ARKSHIP_SPINAL_PK_SHIELDER_SECTION"
@@ -3064,12 +3058,6 @@ ship_section_template = {
 
 	inline_script = {
 		script = xhk_worldark/section_templates/arkship_class_list_spinal
-	}
-
-	component_slot = {
-		name = "XHK_ARKSHIP_SPINAL_PK_SHIELDER_WEAPON"
-		template = "invisible_titanic_turret"
-		locatorname = "xl_gun_01"
 	}
 }
 ship_section_template = {
@@ -3080,12 +3068,6 @@ ship_section_template = {
 	inline_script = {
 		script = xhk_worldark/section_templates/arkship_class_list_spinal
 	}
-
-	component_slot = {
-		name = "XHK_ARKSHIP_SPINAL_PK_NEUTRON_WEAPON"
-		template = "invisible_titanic_turret"
-		locatorname = "xl_gun_01"
-	}
 }
 ship_section_template = {
 	key = "XHK_ARKSHIP_SPINAL_PK_GODRAY_SECTION"
@@ -3094,12 +3076,6 @@ ship_section_template = {
 
 	inline_script = {
 		script = xhk_worldark/section_templates/arkship_class_list_spinal
-	}
-
-	component_slot = {
-		name = "XHK_ARKSHIP_SPINAL_PK_GODRAY_WEAPON"
-		template = "invisible_titanic_turret"
-		locatorname = "xl_gun_01"
 	}
 }
 ship_section_template = {
@@ -3110,12 +3086,6 @@ ship_section_template = {
 	inline_script = {
 		script = xhk_worldark/section_templates/arkship_class_list_spinal
 	}
-
-	component_slot = {
-		name = "XHK_ARKSHIP_SPINAL_PK_NANOBOT_WEAPON"
-		template = "invisible_titanic_turret"
-		locatorname = "xl_gun_01"
-	}
 }
 ship_section_template = {
 	key = "XHK_ARKSHIP_SPINAL_PK_DEVOLUTION_SECTION"
@@ -3125,12 +3095,6 @@ ship_section_template = {
 	inline_script = {
 		script = xhk_worldark/section_templates/arkship_class_list_spinal
 	}
-
-	component_slot = {
-		name = "XHK_ARKSHIP_SPINAL_PK_DEVOLUTION_WEAPON"
-		template = "invisible_titanic_turret"
-		locatorname = "xl_gun_01"
-	}
 }
 ship_section_template = {
 	key = "XHK_ARKSHIP_SPINAL_PK_SMELTER_SECTION"
@@ -3139,12 +3103,6 @@ ship_section_template = {
 
 	inline_script = {
 		script = xhk_worldark/section_templates/arkship_class_list_spinal
-	}
-
-	component_slot = {
-		name = "XHK_ARKSHIP_SPINAL_PK_SMELTER_WEAPON"
-		template = "invisible_titanic_turret"
-		locatorname = "xl_gun_01"
 	}
 }
 
@@ -3185,12 +3143,6 @@ ship_section_template = {
 		script = xhk_worldark/section_templates/arkship_class_list_corespinal
 	}
 	fits_on_slot = spinal_mount_7
-
-	component_slot = {
-		name = "XHK_ARKSHIP_CORESPINAL_PLANETEATER_WEAPON"
-		template = "invisible_titanic_turret"
-		locatorname = "xl_gun_01"
-	}
 }
 
 ship_section_template = {
