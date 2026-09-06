@@ -513,56 +513,56 @@ country_event = {
             name = "xhk_worldark_docs_expansion"
             desc = "xhk_worldark_docs_expansion_desc"
             event_chain = "xhk_worldark_docs_chain"
-            #location = capital_scope
+            location = no_scope
         }
         create_point_of_interest = {
             id = xhk_worldark_docs_chain.2
             name = "xhk_worldark_docs_population"
             desc = "xhk_worldark_docs_population_desc"
             event_chain = "xhk_worldark_docs_chain"
-            #location = capital_scope
+            location = no_scope
         }
         create_point_of_interest = {
             id = xhk_worldark_docs_chain.3
             name = "xhk_worldark_docs_districts"
             desc = "xhk_worldark_docs_districts_desc"
             event_chain = "xhk_worldark_docs_chain"
-            #location = capital_scope
+            location = no_scope
         }
         create_point_of_interest = {
             id = xhk_worldark_docs_chain.4
             name = "xhk_worldark_docs_ship_levels"
             desc = "xhk_worldark_docs_ship_levels_desc"
             event_chain = "xhk_worldark_docs_chain"
-            #location = capital_scope
+            location = no_scope
         }
 		create_point_of_interest = {
 			id = xhk_worldark_docs_chain.5
 			name = "xhk_worldark_docs_ship_upgrade"
 			desc = "xhk_worldark_docs_ship_upgrade_desc"
 			event_chain = "xhk_worldark_docs_chain"
-			#location = capital_scope
+			location = no_scope
 		}
         create_point_of_interest = {
             id = xhk_worldark_docs_chain.6
             name = "xhk_worldark_docs_special_civic"
             desc = "xhk_worldark_docs_special_civic_desc"
             event_chain = "xhk_worldark_docs_chain"
-            #location = capital_scope
+            location = no_scope
         }
 		create_point_of_interest = {
 			id = xhk_worldark_docs_chain.7
 			name = "xhk_worldark_docs_mega"
 			desc = "xhk_worldark_docs_mega_desc"
 			event_chain = "xhk_worldark_docs_chain"
-			#location = capital_scope
+			location = no_scope
 		}
         create_point_of_interest = {
             id = xhk_worldark_docs_chain.8
             name = "xhk_worldark_docs_crossmod"
             desc = "xhk_worldark_docs_crossmod_desc"
             event_chain = "xhk_worldark_docs_chain"
-            #location = capital_scope
+            location = no_scope
         }
         start_situation = {
             type = xhk_worldark_situation_main
