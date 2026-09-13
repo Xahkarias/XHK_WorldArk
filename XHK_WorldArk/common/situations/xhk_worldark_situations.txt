@@ -71,6 +71,7 @@ xhk_worldark_situation_planeteater = {
 	category = positive
 	initial_progress = 0
 
+
 	on_progress_complete = {
 		custom_tooltip = xhk_worldark_corespinal_planeteater_finish_tt
 		hidden_effect = {
@@ -104,6 +105,11 @@ xhk_worldark_situation_planeteater = {
 		icon = GFX_situation_approach_amenities
 		icon_background = GFX_situation_approach_bg_green
 		ai_weight = { base = 10 }
+		resources = {
+			upkeep = {
+				energy = 100
+			}
+		}
 	}
 
 	monthly_progress = {

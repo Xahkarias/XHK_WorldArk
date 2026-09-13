@@ -228,11 +228,11 @@
  xhk_worldark_situation_planeteater: "Dismantling [Target.GetName]"
  xhk_worldark_situation_planeteater_type: "$xhk_pc_worldark$ Dismantling"
  xhk_worldark_situation_planeteater_desc: "The $xhk_pc_worldark$ slowly grinds the celestial body down to nothingness. All shall be used to grow the Ark."
- xhk_worldark_situation_planeteater_monthly_change_tooltip: "Nanite Extraction Progress"
+ xhk_worldark_situation_planeteater_monthly_change_tooltip: "Planet Dismantling Progress"
  xhk_worldark_stage_planeteater: "Dismantling to grow the $xhk_pc_worldark$."
  xhk_worldark_corespinal_planeteater_finish_tt: "Dismantle [target.GetName], removing it from the galaxy."
  approach_xhk_planeteater: "Dismantle"
- xhk_worldark_stage_planeteater_effect: "Consume the world, gaining £minerals£ §H$minerals$§! and increasing §E£arkship£§!§Y$xhk_pc_worldark$ capacity every §Y12§! months."
+ xhk_worldark_stage_planeteater_effect: "Consume the world, gaining £minerals£ §H$minerals$§! and increasing §E£arkship£§!§Y$xhk_pc_worldark$ district capacity§! every §Y6§! months."
  ## modifier
  xhk_worldark_being_devoured_modifier: "Dismantlement"
  xhk_worldark_being_devoured_modifier_desc: "The powerful jaws of a $xhk_worldark_corespinal_planeteater$ are currently rendering the planet down into its constituent parts."
