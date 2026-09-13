@@ -45,11 +45,29 @@ zone_xhk_worldark_voidforge = {
     }
 
     planet_modifier = {
-        planet_metallurgists_minerals_upkeep_add = 1.5
         planet_metallurgists_alloys_produces_add = 0.75
         ship_armor_from_metallurgists = 0.02
         ship_hardening_from_metallurgists = 0.01
     }
+
+	# Non-catalytic empires pay the extra foundry upkeep in minerals
+	triggered_planet_modifier = {
+		potential = {
+			industrial_jobs_are_catalytic_trigger = no
+		}
+		modifier = {
+			planet_metallurgists_minerals_upkeep_add = 1.5
+		}
+	}
+	# Catalytic Processing empires pay it in food instead, at the same 1.5x ratio the base job uses when swapping minerals for food
+	triggered_planet_modifier = {
+		potential = {
+			industrial_jobs_are_catalytic_trigger = yes
+		}
+		modifier = {
+			planet_metallurgists_food_upkeep_add = 2.25
+		}
+	}
 
     # doubled
     inline_script = {
