@@ -7,7 +7,53 @@ xhk_worldark_size_harvest = {
 		default_on	= yes
 		tooltip		= xhk_worldark_size_harvest_automate_tt
 		options = {
-			inline_script = scripted_actions/harvest_automation_options
+			# FROM BELOW BUT WITHOUT HARVESTING RIGHTS
+			#inline_script = scripted_actions/harvest_automation_options
+			option = {
+				automation_setting	= unsurveyed_targets
+				default				= yes
+				name				= AUTOMATION_OPT_UNSURVEYED_TARGETS
+				tooltip				= AUTOMATION_OPT_UNSURVEYED_TARGETS_TT
+				ai_weight = {
+					base = 1
+				}
+			}
+			option = {
+				automation_setting	= empty_targets
+				default				= yes
+				name				= AUTOMATION_OPT_EMPTY_TARGETS
+				tooltip				= AUTOMATION_OPT_EMPTY_TARGETS_TT
+				ai_weight = {
+					base = 1
+				}
+			}
+			option = {
+				automation_setting	= waystation_systems
+				default				= no
+				name				= AUTOMATION_OPT_WAYSTATION_SYSTEMS
+				tooltip				= AUTOMATION_OPT_WAYSTATION_SYSTEMS_TT
+				ai_weight = {
+					base = 0
+				}
+			}
+			option = {
+				automation_setting	= friendly_systems
+				default				= no
+				name				= AUTOMATION_OPT_FRIENDLY_SYSTEMS
+				tooltip				= AUTOMATION_OPT_FRIENDLY_SYSTEMS_TT
+				ai_weight = {
+					base = 0
+				}
+			}
+			option = {
+				automation_setting	= hostile_systems
+				default				= no
+				name				= AUTOMATION_OPT_HOSTILE_SYSTEMS
+				tooltip				= AUTOMATION_OPT_HOSTILE_SYSTEMS_TT
+				ai_weight = {
+					base = 0
+				}
+			}
 		}
 	}
 
