@@ -56,6 +56,7 @@ xhk_worldark_spinal_pk_cracker = {
     potential = {
         owner? = {
             has_technology = tech_pk_cracker
+			has_ascension_perk = ap_colossus
         }
 		has_apocalypse_dlc = yes
         xhk_is_worldark_starbase = yes
@@ -106,7 +107,8 @@ xhk_worldark_spinal_pk_shielder = {
 
 	potential = {
 		owner? = {
-			has_technology = tech_pk_cracker
+			has_technology = tech_pk_shielder
+			has_ascension_perk = ap_colossus
 		}
 		has_apocalypse_dlc = yes
 		xhk_is_worldark_starbase = yes
@@ -158,6 +160,7 @@ xhk_worldark_spinal_pk_neutron = {
 	potential = {
 		owner? = {
 			has_technology = tech_pk_neutron
+			has_ascension_perk = ap_colossus
 		}
 		has_apocalypse_dlc = yes
 		xhk_is_worldark_starbase = yes
@@ -209,6 +212,7 @@ xhk_worldark_spinal_pk_godray = {
 	potential = {
 		owner? = {
 			has_technology = tech_pk_godray
+			has_ascension_perk = ap_colossus
 		}
 		has_apocalypse_dlc = yes
 		xhk_is_worldark_starbase = yes
@@ -260,6 +264,7 @@ xhk_worldark_spinal_pk_nanobots = {
 	potential = {
 		owner? = {
 			has_technology = tech_pk_nanobots
+			has_ascension_perk = ap_colossus
 		}
 		has_apocalypse_dlc = yes
 		xhk_is_worldark_starbase = yes
@@ -311,6 +316,7 @@ xhk_worldark_spinal_pk_devolution = {
 	potential = {
 		owner? = {
 			has_technology = tech_archaeo_pk_devolving_beam
+			has_ascension_perk = ap_colossus
 		}
 		has_apocalypse_dlc = yes
 		xhk_is_worldark_starbase = yes
@@ -361,7 +367,8 @@ xhk_worldark_spinal_pk_smelter = {
 
 	potential = {
 		owner? = {
-			has_technology = tech_archaeo_pk_devolving_beam
+			has_technology = tech_pk_smelter
+			has_ascension_perk = ap_colossus
 		}
 		has_apocalypse_dlc = yes
 		xhk_is_worldark_starbase = yes
