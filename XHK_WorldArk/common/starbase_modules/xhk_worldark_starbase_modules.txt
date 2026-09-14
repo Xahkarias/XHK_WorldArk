@@ -417,14 +417,14 @@ xhk_worldark_corespinal_planetgun = {
 
 	potential = {
 		owner? = {
-			has_technology = xhk_tech_worldark_12
+			has_technology = xhk_tech_worldark_corespinal_planetgun
 		}
 		inline_script = {
 			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
 		}
 	}
 
-	show_in_tech = "xhk_tech_worldark_12"
+	show_in_tech = "xhk_tech_worldark_corespinal_planetgun"
 
 	show_tech_unlock_if = {
 		is_nomadic = yes
@@ -465,14 +465,14 @@ xhk_worldark_corespinal_blackhole = {
 
 	potential = {
 		owner? = {
-			has_technology = xhk_tech_worldark_12
+			has_technology = xhk_tech_worldark_corespinal_blackhole
 		}
 		inline_script = {
 			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
 		}
 	}
 
-	show_in_tech = "xhk_tech_worldark_12"
+	show_in_tech = "xhk_tech_worldark_corespinal_blackhole"
 
 	show_tech_unlock_if = {
 		is_nomadic = yes
@@ -581,13 +581,15 @@ xhk_worldark_corespinal_nanite = {
 
 	potential = {
 		owner? = {
-			has_technology = xhk_tech_worldark_12
+			has_technology = xhk_tech_worldark_corespinal_nanite
 			has_tradition = tr_nanotech_finish
 		}
 		inline_script = {
 			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
 		}
 	}
+
+	show_in_tech = "xhk_tech_worldark_corespinal_nanite"
 
 	fits_on_slots = { spinal_mount_7 }
 
@@ -640,13 +642,15 @@ xhk_worldark_corespinal_virtual = {
 
 	potential = {
 		owner? = {
-			has_technology = xhk_tech_worldark_12
+			has_technology = xhk_tech_worldark_corespinal_virtual
 			has_tradition = tr_virtuality_finish
 		}
 		inline_script = {
 			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
 		}
 	}
+
+	show_in_tech = "xhk_tech_worldark_corespinal_virtual"
 
 	fits_on_slots = { spinal_mount_7 }
 
@@ -687,14 +691,14 @@ xhk_worldark_corespinal_antisystem = {
 
 	potential = {
 		owner? = {
-			has_technology = xhk_tech_worldark_12
+			has_technology = xhk_tech_worldark_corespinal_antisystem
 		}
 		inline_script = {
 			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
 		}
 	}
 
-	show_in_tech = "xhk_tech_worldark_12"
+	show_in_tech = "xhk_tech_worldark_corespinal_antisystem"
 
 	show_tech_unlock_if = {
 		is_nomadic = yes
