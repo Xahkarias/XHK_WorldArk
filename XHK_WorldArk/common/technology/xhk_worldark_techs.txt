@@ -846,3 +846,64 @@ xhk_tech_worldark_corespinal_antisystem = {
 		factor = @best_megastructure_ai_tech_factor
 	}
 }
+
+xhk_tech_worldark_corespinal_shipyard = {
+	area = engineering
+	cost = 50000
+	tier = 5
+	category = { voidcraft }
+	ai_update_type = all
+	prerequisites = { "xhk_tech_worldark_12" "giga_tech_nomad_war_moon"  }
+	weight = @tier5weight3
+	is_rare = yes
+
+	potential = {
+		is_nomadic = yes
+		NOT = {
+			AND = {
+				has_global_flag = warmoon_disabled
+				has_global_flag = warplanet_disabled
+			}
+		}
+		xhk_has_worldark_origin = yes
+	}
+
+	weight_modifier = {
+		factor = 0.25
+		modifier = {
+			factor = 2
+			OR = {
+				has_trait_in_council = { TRAIT = leader_trait_maniacal }
+				has_trait_in_council = { TRAIT = leader_trait_maniacal_2 }
+				has_trait_in_council = { TRAIT = leader_trait_maniacal_3 }
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_trait_in_council = { TRAIT = leader_trait_spark_of_genius }
+				has_trait_in_council = { TRAIT = leader_trait_spark_of_genius_2 }
+			}
+		}
+		modifier = {
+			factor = 2
+			has_galactic_wonders = yes
+		}
+		modifier = {
+			factor = 6
+			has_ascension_perk = ap_master_builders
+		}
+		modifier = {
+			factor = 9
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		inline_script = {
+			script = technologies/rare_technologies_weight_modifiers
+			TECHNOLOGY = tech_science_nexus
+		}
+	}
+
+	ai_weight = {
+		factor = @best_megastructure_ai_tech_factor
+	}
+}

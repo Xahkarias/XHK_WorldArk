@@ -3180,3 +3180,13 @@ ship_section_template = {
 		locatorname = "xl_gun_01"
 	}
 }
+
+ship_section_template = {
+	key = "XHK_ARKSHIP_CORESPINAL_SHIPYARD_SECTION"
+	entity = "xhk_worldark_corespinal_shipyard_entity"
+	icon = "GFX_ship_part_core_mid"
+	inline_script = {
+		script = xhk_worldark/section_templates/arkship_class_list_corespinal
+	}
+	fits_on_slot = spinal_mount_7
+}

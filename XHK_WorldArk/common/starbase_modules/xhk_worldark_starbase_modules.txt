@@ -736,3 +736,54 @@ xhk_worldark_corespinal_antisystem = {
 		weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
 	}
 }
+
+xhk_worldark_corespinal_shipyard = {
+	icon = "GFX_xhk_worldark_corespinal_shipyard_mount"
+	section = "XHK_ARKSHIP_CORESPINAL_SHIPYARD_SECTION"
+	construction_days = @[arkship_spinal_mount_build_time * 2]
+	starbase_type = arkship
+	category = sm_corespinal_cat
+
+	potential = {
+		owner? = {
+			has_technology = xhk_tech_worldark_corespinal_shipyard
+		}
+		inline_script = {
+			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
+		}
+	}
+
+	show_in_tech = "xhk_tech_worldark_corespinal_shipyard"
+
+	fits_on_slots = { spinal_mount_7 }
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = @[arkship_cost_alloys_5000 * 6]
+			exotic_gases = @[arkship_cost_strategic_500 * 3]
+			volatile_motes = @[arkship_cost_strategic_500 * 3]
+			rare_crystals = @[arkship_cost_strategic_500 * 3]
+			unity = @[arkship_cost_unity_500 * 3]
+			influence = 200
+		}
+
+		upkeep = {
+			energy = 100
+			exotic_gases = 10
+			volatile_motes = 10
+			rare_crystals = 10
+		}
+	}
+
+	planet_modifier = {
+		planet_building_capacity_add = 6
+		starbase_shipyard_build_cost_mult = -0.1
+	}
+
+	custom_tooltip = xhk_worldark_corespinal_shipyard_tt
+
+	ai_weight = {
+		weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
+	}
+}

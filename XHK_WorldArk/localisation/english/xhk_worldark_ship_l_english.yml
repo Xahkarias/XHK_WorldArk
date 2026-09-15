@@ -275,4 +275,10 @@
  xhk_tech_worldark_corespinal_antisystem: "$xhk_worldark_corespinal_antisystem$"
  xhk_tech_worldark_corespinal_antisystem_desc: "$xhk_worldark_corespinal_antisystem_desc$"
 
+ sm_xhk_worldark_corespinal_shipyard: "Daedalus Megascale Fabricator"
+ sm_xhk_worldark_corespinal_shipyard_desc: "A massive shipyard brimming with construction nodes and forges, able to produce vast fleets, or singular massive warships."
+ xhk_worldark_corespinal_shipyard_tt: "\n§ISpecial Effect:§! This shipyard allows for the construction of §I$giga_nomad_war_moon_plural$§!."
+ xhk_tech_worldark_corespinal_shipyard: "$sm_xhk_worldark_corespinal_shipyard$"
+ xhk_tech_worldark_corespinal_shipyard_desc: "$sm_xhk_worldark_corespinal_shipyard_desc$"
 
+#Shuruppak use this name somewhere

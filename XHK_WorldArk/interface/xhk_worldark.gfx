@@ -191,6 +191,10 @@ spriteTypes = {
 		name = "GFX_xhk_worldark_corespinal_antisystem_mount"
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_corespinal_antisystem_mount.dds"
 	}
+	spriteType = {
+		name = "GFX_xhk_worldark_corespinal_shipyard_mount"
+		texturefile = "gfx/interface/icons/modules/xhk_worldark_corespinal_shipyard_mount.dds"
+	}
 
 
 	####################################################################################################################
