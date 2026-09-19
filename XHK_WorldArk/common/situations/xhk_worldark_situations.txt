@@ -41,7 +41,7 @@ xhk_worldark_situation_main = {
     # empire modifiers
     triggered_modifier = {
         nomadic_constructor_limit_add = 1
-        multiplier = owner.capital_scope.xhk_worldark_logistics
+        multiplier = owner.capital_scope.xhk_worldark_logistics_expansions
     }
 
     # stop yelling at me pls it works

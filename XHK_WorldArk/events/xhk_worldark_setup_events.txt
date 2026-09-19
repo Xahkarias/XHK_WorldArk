@@ -395,14 +395,25 @@ country_event = {
 
             # var setup
             set_variable = {
-                which = xhk_worldark_expansions
+                which = xhk_worldark_harvest_expansions
                 value = 0
             }
+			set_variable = {
+				which = xhk_worldark_dismantle_expansions
+				value = 0
+			}
+			set_variable = {
+				which = xhk_worldark_alloy_expansions
+				value = 0
+			}
+			set_variable = {
+				which = xhk_worldark_consumeark_expansions
+				value = 0
+			}
             set_variable = {
-                which = xhk_worldark_logistics
+                which = xhk_worldark_logistics_expansions
                 value = 0
             }
-            add_deposit = d_xhk_worldark_expansion_tracker
         }
 
         ################################################################################################################
