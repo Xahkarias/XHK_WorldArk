@@ -217,6 +217,15 @@
  district_xhk_worldark_ordinance_fighter_desc: "$district_xhk_worldark_ordinance_desc$"
 
  ##################################################################
+ # Supertensiles
+ ##################################################################
+
+ district_xhk_worldark_supertensiles: "Molecular Fabricator"
+ district_xhk_worldark_supertensiles_plural: "Molecular Fabricators"
+ district_xhk_worldark_supertensiles_desc: "Molecular synthesis arrays fill these decks, producing the highly specialized materials required for large-scale orbital construction projects."
+ flavor_xhk_worldark_supertensiles_name: "Megaconstruction Nexus"
+
+ ##################################################################
  # Dark Matter
  ##################################################################
 
@@ -350,6 +359,9 @@
 
  zone_xhk_worldark_ordinance_flight_decks: "$zone_ark_flight_decks$"
  zone_xhk_worldark_ordinance_flight_decks_desc: "$zone_ark_flight_decks_desc$"
+
+ zone_xhk_worldark_supertensiles: "$flavor_xhk_worldark_supertensiles_name$"
+ zone_xhk_worldark_supertensiles_desc: "$building_giga_megaworkshop_hub_desc$"
 
  zone_xhk_worldark_darkmatter: "$flavor_xhk_worldark_darkmatter_name$"
  zone_xhk_worldark_darkmatter_desc: "$district_xhk_worldark_darkmatter_desc$"

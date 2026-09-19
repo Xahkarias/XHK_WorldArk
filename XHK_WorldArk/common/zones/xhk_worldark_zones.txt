@@ -996,6 +996,49 @@ zone_xhk_worldark_refinery = {
     ai_priority = 10
 }
 
+## SUPERTENSILES
+###########################################################
+zone_xhk_worldark_supertensiles = {
+	icon = GFX_giga_district_specialization_supertensiles
+	inline_script = {
+		script = xhk_worldark/zones/zone_common
+		NUM_BUILDINGS = 3
+		UNLOCK = ""
+		POTENTIAL = ""
+	}
+
+	included_building_sets = {
+		giga_supertensile
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		modifier = {
+			job_giga_megaengineer_add = 100
+		}
+	}
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		modifier = {
+			job_giga_megaengineer_drone_add = 100
+		}
+	}
+
+	zone_sets = {
+		xhk_worldark_supertensiles
+	}
+}
+
 ## NEGATIVE MASS
 ###########################################################
 zone_xhk_worldark_negativemass = {

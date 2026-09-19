@@ -1105,6 +1105,71 @@ district_xhk_worldark_refinery_crystals = {
 	}
 }
 
+# SUPERTENSILES
+district_xhk_worldark_supertensiles = {
+	base_buildtime = @xhk_base_buildtime
+	icon = district_giga_supertensiles
+	district_background = district_giga_frameworld_supertensiles
+	gridbox = district_giga_frameworld_supertensiles
+	is_uncapped = { always = yes }
+	overlay_icon = GFX_giga_district_supertensiles
+
+	zone_slots = {
+		slot_xhk_worldark_supertensiles
+	}
+
+	inline_script = {
+		script = xhk_worldark/districts/district_common
+		POTENTIAL = "
+			has_global_flag = @giga_amb_flag
+            owner? = {
+                has_technology = giga_tech_amb_supertensiles
+            }
+		"
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = @xhk_district_base_cost
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	prerequisites = { giga_tech_amb_supertensiles }
+	show_tech_unlock_if = { xhk_has_worldark_origin = yes }
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		modifier = {
+			job_giga_megaengineer_add = 100
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		modifier = {
+			job_giga_megaengineer_drone_add = 100
+		}
+	}
+
+	triggered_name = {
+		text = flavor_xhk_worldark_supertensiles_name
+	}
+}
+
 # DARK MATTER
 district_xhk_worldark_darkmatter = {
 	base_buildtime = @xhk_base_buildtime
@@ -1161,8 +1226,6 @@ district_xhk_worldark_darkmatter = {
 		text = flavor_xhk_worldark_darkmatter_name
 	}
 }
-
-# SUPERTENSILES
 
 # NEG MASS
 district_xhk_worldark_negativemass = {
