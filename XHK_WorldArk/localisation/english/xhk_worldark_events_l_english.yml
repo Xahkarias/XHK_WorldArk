@@ -24,7 +24,7 @@
  #######################################################################################################################
  # Documentation
  xhk_worldark_docs_chain_title: "$xhk_pc_worldark$ Documentation"
- xhk_worldark_docs_chain_desc: ""The §Y$xhk_pc_worldark$§! origin provides a \"One Planet\" play style, with heavy focus on a single capital arkship. You cannot build another arkship, and any that you gain are scuttled to buff the capital arkship. The $xhk_pc_worldark$ gains access to many powerful districts, modules, systems, and decisions."
+ xhk_worldark_docs_chain_desc: "The §Y$xhk_pc_worldark$§! origin provides a \"§IOne Planet§!\" play style, with heavy focus on a single capital arkship. You §Rcannot build another arkship§!, and any that you gain are §Rscuttled to buff the capital§! arkship. The $xhk_pc_worldark$ gains access to many powerful districts, modules, systems, and decisions."
 
  ####################
  # EXPANSION
@@ -209,13 +209,14 @@
  xhk_worldark_docs_spinal_1: "\n§C$sm_xhk_worldark_spinal_hunter_cannon$§!: Requires tech §Y$tech_arkship_tier_3$§!"
  xhk_worldark_docs_spinal_2: "\n§CIntegrated Colossus Weapons§!: Requires their respective tech"
 
- xhk_worldark_docs_core_spinal: "\n\n§l------CORE-SPINALS--------------------------------------§!$xhk_worldark_docs_core_spinal_1$$xhk_worldark_docs_core_spinal_2$$xhk_worldark_docs_core_spinal_3$$xhk_worldark_docs_core_spinal_4$$xhk_worldark_docs_core_spinal_5$$xhk_worldark_docs_core_spinal_6$"
+ xhk_worldark_docs_core_spinal: "\n\n§l------CORE-SPINALS--------------------------------------§!$xhk_worldark_docs_core_spinal_1$$xhk_worldark_docs_core_spinal_2$$xhk_worldark_docs_core_spinal_3$$xhk_worldark_docs_core_spinal_4$$xhk_worldark_docs_core_spinal_5$$xhk_worldark_docs_core_spinal_6$$xhk_worldark_docs_core_spinal_7$"
  xhk_worldark_docs_core_spinal_1: "\n§C$sm_xhk_worldark_corespinal_planetgun$§!: Mounted planetcraft main weapon"
  xhk_worldark_docs_core_spinal_2: "\n§C$sm_xhk_worldark_corespinal_blackhole$§!: Vastly increased technician and miner jobs for self sufficiency"
  xhk_worldark_docs_core_spinal_3: "\n§C$sm_xhk_worldark_corespinal_planeteater$§!: Dismantle planets faster for extra districts"
  xhk_worldark_docs_core_spinal_4: "\n§C$sm_xhk_worldark_corespinal_antisystem$§!: Massive single-target weapon optimized for anti-celestial combat"
  xhk_worldark_docs_core_spinal_5: "\n§C$sm_xhk_worldark_corespinal_virtual$§!: §KRequires Virtual Ascension§! - Reduces virtual penalty by half"
  xhk_worldark_docs_core_spinal_6: "\n§C$sm_xhk_worldark_corespinal_nanite$§!: §KRequires Nanite Ascension§! - Create temporary nanite ships on killing fleets"
+ xhk_worldark_docs_core_spinal_7: "\n§C$sm_xhk_worldark_corespinal_shipyard$§!: Allows for nomad celestial construction straight from the shipyards"
 
  ####################
  # CROSSMOD

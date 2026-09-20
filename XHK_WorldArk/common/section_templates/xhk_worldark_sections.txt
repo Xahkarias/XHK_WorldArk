@@ -325,7 +325,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_4
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_3_ship_entity"
+    entity = "xhk_worldark_2_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
@@ -538,7 +538,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_5
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_3_ship_entity"
+    entity = "xhk_worldark_2_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
@@ -811,7 +811,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_6
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_3_ship_entity"
+    entity = "xhk_worldark_2_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
