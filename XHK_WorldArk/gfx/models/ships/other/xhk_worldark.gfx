@@ -1,6 +1,42 @@
 
 objectTypes = {
+	### LEVEL 1
+	pdxmesh = {
+		name = "xhk_worldark_1_frame_mesh"
+		file = "gfx/models/ships/other/xhk_worldark_1_frame.mesh"
 
+		animation = { id = "death"					type = "xhk_worldark_1_frame_idle_animation" }
+		animation = { id = "idle"					type = "xhk_worldark_1_frame_idle_animation" }
+		animation = { id = "working_start"			type = "xhk_worldark_1_frame_idle_animation" }
+		animation = { id = "working_loop"			type = "xhk_worldark_1_frame_idle_animation" }
+		animation = { id = "closing"					type = "xhk_worldark_1_frame_idle_animation" }
+	}
+
+	pdxmesh = {
+		name = "xhk_worldark_1_mesh"
+		file = "gfx/models/ships/other/xhk_worldark_1.mesh"
+		scale = 1
+
+		animation = { id = "death"					type = "xhk_worldark_1_idle_animation" }
+		animation = { id = "idle"					type = "xhk_worldark_1_idle_animation" }
+		animation = { id = "working_start"			type = "xhk_worldark_1_idle_animation" }
+		animation = { id = "working_loop"			type = "xhk_worldark_1_idle_animation" }
+		animation = { id = "closing"					type = "xhk_worldark_1_idle_animation" }
+
+		# prong civ land
+
+		# USE THE SHAPE NAME
+		meshsettings = {
+			name = "mil_land_mesh"
+			index = 0
+			texture_diffuse = "continental_planet_arkship_01_diffuse.dds"
+			texture_normal = "continental_planet_arkship_01_normal.dds"
+			texture_specular = "continental_planet_arkship_01_specular.dds"
+			shader = "PdxMeshShipDiffuseEmissive"
+		}
+	}
+
+	#### MAX LEVEL
 	pdxmesh = {
 		name = "xhk_worldark_frame_mesh"
 		file = "gfx/models/ships/other/xhk_worldark_frame.mesh"
