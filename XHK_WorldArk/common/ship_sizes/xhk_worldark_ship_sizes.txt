@@ -535,7 +535,7 @@ xhk_worldark_tier_11 = {
 	}
 
 	# 3D Art
-	entity = xhk_worldark_entity
+	entity = xhk_worldark_M_entity
 	section_slots = {
 		"mid"	=	{ locator = "part1" }
 		"1"		=	{ locator = "module_01" }
@@ -598,7 +598,7 @@ xhk_worldark_tier_12 = {
 	}
 
 	# 3D Art
-	entity = xhk_worldark_entity
+	entity = xhk_worldark_M_entity
 	section_slots = {
 		"mid"	=	{ locator = "part1" }
 		"1"		=	{ locator = "module_01" }

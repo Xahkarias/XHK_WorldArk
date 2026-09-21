@@ -843,8 +843,8 @@ animation = {
 ### MODEL T11-T12
 
 entity = {
-	name = "xhk_worldark_entity"
-	pdxmesh = "xhk_worldark_frame_mesh"
+	name = "xhk_worldark_M_entity"
+	pdxmesh = "xhk_worldark_M_frame_mesh"
 	locator = { name = "part1" 		position = { 0  0 	0 } }
 
 	default_state = "idle"
@@ -912,8 +912,8 @@ entity = {
 	# }
 }
 entity = {
-	name = "xhk_worldark_ship_entity"
-	pdxmesh = "xhk_worldark_mesh"
+	name = "xhk_worldark_M_ship_entity"
+	pdxmesh = "xhk_worldark_M_mesh"
 #	locator = { name = "part1" 	position = { 0 0 0 } }
 
 	scale = 1.0
