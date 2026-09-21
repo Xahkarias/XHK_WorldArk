@@ -1,4 +1,4 @@
-version="1.2.3"
+version="2.0.0"
 tags={
 	"Gameplay"
 	"Spaceships"
@@ -6,6 +6,6 @@ tags={
 	"Buildings"
 }
 thumbnail="thumbnail.png"
-name="XHK World Ark"
-supported_version="v4.4.*"
+name="[4.5] XHK World Ark"
+supported_version="v4.5.*"
 remote_file_id="3758686268"
