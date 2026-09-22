@@ -44,14 +44,15 @@
 
  ##############################################
  # HARVEST FOR SIZE
- xhk_worldark_size_harvest: "Expand the $xhk_pc_worldark$"
+ xhk_worldark_size_harvest: "$xhk_pc_worldark$ Expansion"
  xhk_worldark_size_harvest_desc: "§LThe $xhk_pc_worldark$ can be expanded by consuming a significant portion of the mass of a planetary body.§!"
  xhk_worldark_size_harvest_effect: "$XHK_SIZE_HARVEST_EFFECTS_HEADER$ $xhk_worldark_size_harvest_base_effect$ $xhk_worldark_size_harvest_planet_effect$"
  XHK_SIZE_HARVEST_EFFECTS_HEADER: "§E£arkship£§!§Y$xhk_pc_worldark$ Expansion§! Effects:"
  xhk_worldark_size_harvest_base_effect: "$TABBED_NEW_LINE$- £districtadd£§IMax Districts§! on the §I$xhk_pc_worldark$§!: [Owner.xhk_worldark_getDistrictIncreaseFromHarvest]"
  xhk_worldark_size_harvest_planet_effect: "$DOUBLE_NEW_LINE$ $PLANET_EFFECTS_HEADER$ $TABBED_NEW_LINE$- §Y$xhk_size_harvested_already$§! modifier added: $TABBED_NEW_LINE$$t$ §RPrevents further harvesting for expansion by a $xhk_pc_worldark$§!"
- xhk_worldark_size_harvest_ship_button: "$xhk_worldark_size_harvest_effect$\n\n$xhk_worldark_size_harvest_desc$"
- xhk_worldark_size_harvest_automate_tt: "Automatically §HExpand the $xhk_pc_worldark$§!."
+ xhk_worldark_size_harvest_warning_diplo: "§RWarning: This is not affected by the§! §I$trade_action_harvesting_agreement$§! §Ragreement, and thus will always result in diplomatic penalties with the system owner.§!"
+ xhk_worldark_size_harvest_ship_button: "$xhk_worldark_size_harvest_effect$\n\n$xhk_worldark_size_harvest_desc$\n\n$xhk_worldark_size_harvest_warning_diplo$"
+ xhk_worldark_size_harvest_automate_tt: "Automatic §H$xhk_worldark_size_harvest$§!."
  xhk_worldark_size_harvest_activity_key: "Consuming Mass"
  xhk_worldark_size_harvest_progress_activity_key: "Consuming Mass in Progress (§Y$PROGRESS$%§!)"
  xhk_worldark_size_harvest_progress_progress_key: "£time£ $@arkship_harvest_resources_required_progress|0$ §WDays§!"
@@ -70,7 +71,7 @@
  # PLANET KILLER
  xhk_pk_world_cracker_activity_key: "Firing $PLANET_KILLER_CRACKER$"
  xhk_pk_world_cracker: "Integrated $PLANET_KILLER_CRACKER$"
- xhk_worldark_spinal_planet_cracker_tt: "$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$PLANET_KILLER_CRACKER$§!."
+ xhk_worldark_spinal_planet_cracker_tt: "This Spinal Mount is equipped with a §Y$PLANET_KILLER_CRACKER$§!."
  xhk_pk_world_cracker_progress_activity_key: "$PLANET_KILLER_CRACKER$ Charging (§Y$PROGRESS$%§!)"
  xhk_pk_world_cracker_progress_progress_key: "£time£120 §WDays§!"
  xhk_pk_world_cracker_button: "Activate the §R$PLANET_KILLER_CRACKER$§!.\n\n§L$PLANET_KILLER_CRACKER_DESC$§!"
@@ -82,7 +83,7 @@
 
  xhk_pk_global_pacifier_activity_key: "Firing $PLANET_KILLER_SHIELDER$"
  xhk_pk_global_pacifier: "Integrated $PLANET_KILLER_SHIELDER$"
- xhk_worldark_spinal_planet_shielder_tt: "$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$PLANET_KILLER_SHIELDER$§!."
+ xhk_worldark_spinal_planet_shielder_tt: "This Spinal Mount is equipped with a §Y$PLANET_KILLER_SHIELDER$§!."
  xhk_pk_global_pacifier_progress_activity_key: "$PLANET_KILLER_SHIELDER$ Charging (§Y$PROGRESS$%§!)"
  xhk_pk_global_pacifier_progress_progress_key: "£time£120 §WDays§!"
  xhk_pk_global_pacifier_button: "Activate the §R$PLANET_KILLER_SHIELDER$§!.\n\n§L$PLANET_KILLER_SHIELDER_DESC$§!"
@@ -94,7 +95,7 @@
 
  xhk_pk_neutron_sweep_activity_key: "Firing $PLANET_KILLER_NEUTRON$"
  xhk_pk_neutron_sweep: "Integrated $PLANET_KILLER_NEUTRON$"
- xhk_worldark_spinal_planet_neutron_tt: "$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$PLANET_KILLER_NEUTRON$§!."
+ xhk_worldark_spinal_planet_neutron_tt: "This Spinal Mount is equipped with a §Y$PLANET_KILLER_NEUTRON$§!."
  xhk_pk_neutron_sweep_progress_activity_key: "$PLANET_KILLER_NEUTRON$ Charging (§Y$PROGRESS$%§!)"
  xhk_pk_neutron_sweep_progress_progress_key: "£time£120 §WDays§!"
  xhk_pk_neutron_sweep_button: "Activate the §R$PLANET_KILLER_NEUTRON$§!.\n\n§L$PLANET_KILLER_NEUTRON_DESC$§!"
@@ -106,7 +107,7 @@
 
  xhk_pk_divine_enforcer_activity_key: "Firing $PLANET_KILLER_GODRAY$"
  xhk_pk_divine_enforcer: "Integrated $PLANET_KILLER_GODRAY$"
- xhk_worldark_spinal_planet_godray_tt: "$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$PLANET_KILLER_GODRAY$§!."
+ xhk_worldark_spinal_planet_godray_tt: "This Spinal Mount is equipped with a §Y$PLANET_KILLER_GODRAY$§!."
  xhk_pk_divine_enforcer_progress_activity_key: "$PLANET_KILLER_GODRAY$ Charging (§Y$PROGRESS$%§!)"
  xhk_pk_divine_enforcer_progress_progress_key: "£time£120 §WDays§!"
  xhk_pk_divine_enforcer_button: "Activate the §R$PLANET_KILLER_GODRAY$§!.\n\n§L$PLANET_KILLER_GODRAY_DESC$§!"
@@ -118,7 +119,7 @@
 
  xhk_pk_nanobot_diffuser_activity_key: "Firing $PLANET_KILLER_NANOBOTS$"
  xhk_pk_nanobot_diffuser: "Integrated $PLANET_KILLER_NANOBOTS$"
- xhk_worldark_spinal_planet_nanobots_tt: "$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$PLANET_KILLER_NANOBOTS$§!."
+ xhk_worldark_spinal_planet_nanobots_tt: "This Spinal Mount is equipped with a §Y$PLANET_KILLER_NANOBOTS$§!."
  xhk_pk_nanobot_diffuser_progress_activity_key: "$PLANET_KILLER_NANOBOTS$ Charging (§Y$PROGRESS$%§!)"
  xhk_pk_nanobot_diffuser_progress_progress_key: "£time£120 §WDays§!"
  xhk_pk_nanobot_diffuser_button: "Activate the §R$PLANET_KILLER_NANOBOTS$§!.\n\n§L$PLANET_KILLER_NANOBOTS_DESC$§!"
@@ -130,7 +131,7 @@
 
  xhk_pk_devolution_beam_activity_key: "Firing $PLANET_KILLER_DEVOLUTION$"
  xhk_pk_devolution_beam: "Integrated $PLANET_KILLER_DEVOLUTION$"
- xhk_worldark_spinal_planet_devolver_tt: "$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$PLANET_KILLER_DEVOLUTION$§!."
+ xhk_worldark_spinal_planet_devolver_tt: "This Spinal Mount is equipped with a §Y$PLANET_KILLER_DEVOLUTION$§!."
  xhk_pk_devolution_beam_progress_activity_key: "$PLANET_KILLER_DEVOLUTION$ Charging (§Y$PROGRESS$%§!)"
  xhk_pk_devolution_beam_progress_progress_key: "£time£120 §WDays§!"
  xhk_pk_devolution_beam_button: "Activate the §R$PLANET_KILLER_DEVOLUTION$§!.\n\n§L$PLANET_KILLER_DEVOLUTION_DESC$§!"
@@ -142,7 +143,7 @@
 
  xhk_pk_planet_smelter_activity_key: "Firing $PLANET_KILLER_SMELTER$"
  xhk_pk_planet_smelter: "Integrated $PLANET_KILLER_SMELTER$"
- xhk_worldark_spinal_planet_smelter_tt: "$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with a §Y$PLANET_KILLER_SMELTER$§!."
+ xhk_worldark_spinal_planet_smelter_tt: "This Spinal Mount is equipped with a §Y$PLANET_KILLER_SMELTER$§!."
  xhk_pk_planet_smelter_progress_activity_key: "$PLANET_KILLER_SMELTER$ Charging (§Y$PROGRESS$%§!)"
  xhk_pk_planet_smelter_progress_progress_key: "£time£120 §WDays§!"
  xhk_pk_planet_smelter_button: "Activate the §R$PLANET_KILLER_SMELTER$§!.\n\n§L$PLANET_KILLER_SMELTER_DESC$§!"
@@ -200,10 +201,14 @@
  XHK_ARKSHIP_CORESPINAL_PLANETGUN_WEAPON:0 "$xhk_worldark_corespinal_planetgun$"
  XHK_ARKSHIP_CORESPINAL_PLANETGUN_SET: "$xhk_worldark_corespinal_planetgun$"
  XHK_ARKSHIP_CORESPINAL_PLANETGUN_SET_DESC: "$xhk_worldark_corespinal_planetgun_desc$"
+ xhk_tech_worldark_corespinal_planetgun: "$xhk_worldark_corespinal_planetgun$"
+ xhk_tech_worldark_corespinal_planetgun_desc: "$xhk_worldark_corespinal_planetgun_desc$"
 
  sm_xhk_worldark_corespinal_blackhole: "Atrahasis Penrose Decompressor"
  sm_xhk_worldark_corespinal_blackhole_desc: "A black hole, stolen from the inky void and turned ianto a chained heart for the $xhk_pc_worldark$. Produces a prodigious amount of matter and energy for us to utilize."
  xhk_worldark_corespinal_blackhole_tt: "\n§IColony Effect:§!\nSwaps the §IReactor§! and §IHarvester§! Districts for §GPenrose§! and §GDecompressor§! upgrades.\n\n§IPenrose:§!$TABBED_NEW_LINE$- Technician Jobs per District: 200 -> §G800§!\n§IDecompressor:§!$TABBED_NEW_LINE$- Miner Jobs per District: 0 -> §G800§!$TABBED_NEW_LINE$- Harvester Jobs per District: 200 -> §R100§!"
+ xhk_tech_worldark_corespinal_blackhole: "$sm_xhk_worldark_corespinal_blackhole$"
+ xhk_tech_worldark_corespinal_blackhole_desc: "$sm_xhk_worldark_corespinal_blackhole_desc$"
 
  #### PLANET EATER ####
  xhk_worldark_corespinal_planeteater: "Beelzebub Planetary Dismantler"
@@ -217,7 +222,7 @@
  ## ALL THE SCRIPTED ACTION PAIN THAT COMES WITH IT
  xhk_worldark_corespinal_planeteater_dismantle_world: "Dismantle Planet"
  xhk_worldark_corespinal_planeteater_dismantle_world_desc: "§LEngulf the planetary body with the large maw of the $xhk_worldark_corespinal_planeteater$, slowly breaking it down into resources and expanding the $xhk_pc_worldark$.§!"
- xhk_worldark_corespinal_planeteater_dismantle_world_effect: "$PLANET_EFFECTS_HEADER$$TABBED_NEW_LINE$- Planet is gradually consumed increasing §E£arkship£§!§Y$xhk_pc_worldark$ Maximum Districts§!.$TABBED_NEW_LINE$- The $xhk_pc_worldark$ gains §G+1 Maximum Districts§! per 4 Planet Size.$TABBED_NEW_LINE$- Gain $alloys_with_icon$ and $minerals_with_icon$ during dismantlement.$TABBED_NEW_LINE$- Target is shrunk during the process and §Rdeleted§! on completion.$TABBED_NEW_LINE$- Other empires will §Rlose opinion§! (extra if the target is habitable) every time the target is shrunk."
+ xhk_worldark_corespinal_planeteater_dismantle_world_effect: "$PLANET_EFFECTS_HEADER$$TABBED_NEW_LINE$- Planet is gradually consumed increasing §E£arkship£§!§Y$xhk_pc_worldark$ Maximum Districts§!.$TABBED_NEW_LINE$- The $xhk_pc_worldark$ gains §G+1 Maximum Districts§! per 4 Planet Size.$TABBED_NEW_LINE$- Gain $alloys_with_icon$ and $minerals_with_icon$ during dismantlement.$TABBED_NEW_LINE$- Target is shrunk during the process and §Rdeleted§! on completion.$TABBED_NEW_LINE$- Other empires will §Rlose opinion§! (extra if the target is habitable) every time the target is shrunk.$TABBED_NEW_LINE$- §RUnusable§! on planets with §Ianomalies§!."
  xhk_worldark_corespinal_planeteater_dismantle_world_ship_button: "$xhk_worldark_corespinal_planeteater_dismantle_world_effect$\n\n$xhk_worldark_corespinal_planeteater_dismantle_world_desc$"
  xhk_worldark_corespinal_planeteater_dismantle_world_activity_key: "Dismantling Planet"
  xhk_worldark_corespinal_planeteater_dismantle_world_progress_activity_key: "Dismantling Planet (§Y$PROGRESS$%§!)"
@@ -227,11 +232,11 @@
  xhk_worldark_situation_planeteater: "Dismantling [Target.GetName]"
  xhk_worldark_situation_planeteater_type: "$xhk_pc_worldark$ Dismantling"
  xhk_worldark_situation_planeteater_desc: "The $xhk_pc_worldark$ slowly grinds the celestial body down to nothingness. All shall be used to grow the Ark."
- xhk_worldark_situation_planeteater_monthly_change_tooltip: "Nanite Extraction Progress"
+ xhk_worldark_situation_planeteater_monthly_change_tooltip: "Planet Dismantling Progress"
  xhk_worldark_stage_planeteater: "Dismantling to grow the $xhk_pc_worldark$."
  xhk_worldark_corespinal_planeteater_finish_tt: "Dismantle [target.GetName], removing it from the galaxy."
  approach_xhk_planeteater: "Dismantle"
- xhk_worldark_stage_planeteater_effect: "Consume the world, gaining £minerals£ §H$minerals$§! and increasing §E£arkship£§!§Y$xhk_pc_worldark$ capacity every §Y12§! months."
+ xhk_worldark_stage_planeteater_effect: "Consume the world, gaining £minerals£ §H$minerals$§! and increasing §E£arkship£§!§Y$xhk_pc_worldark$ district capacity§! every §Y6§! months."
  ## modifier
  xhk_worldark_being_devoured_modifier: "Dismantlement"
  xhk_worldark_being_devoured_modifier_desc: "The powerful jaws of a $xhk_worldark_corespinal_planeteater$ are currently rendering the planet down into its constituent parts."
@@ -251,9 +256,13 @@
  sm_xhk_worldark_corespinal_nanite_desc: "This module constantly leaks nanites into the surrounding system. They are not powerful enough to affect functional ships, but upon reaching a wreck they devour it, creating temporary vessels from their materials."
  xhk_worldark_corespinal_nanite_tt: "\n§ICombat Effect:§!\nFor every §G100 $concept_naval_capacity$§! destroyed in combat, creates a fleet of §G25§! $nanite_swarmer_plural$ and §G1§! $nanite_interdictor$ using §Irandom designs§! from your empire. §RThese ships are destroyed a month after combat ends.§!"
  NAME_XHK_WORLDARK_NANITE_SPAWN: "Temporary Nanite Swarm"
+ xhk_tech_worldark_corespinal_nanite: "$sm_xhk_worldark_corespinal_nanite$"
+ xhk_tech_worldark_corespinal_nanite_desc: "$sm_xhk_worldark_corespinal_nanite_desc$"
 
  sm_xhk_worldark_corespinal_virtual: "Trimegistus Omniscence Engine"
  sm_xhk_worldark_corespinal_virtual_desc: "A labyrinth of spindly radiator fins surrounds a processing server of immense power. In order to power it, a slurry of exotic materials must be used as coolant and vented into space. Wasteful, but the processing power is undeniable."
+ xhk_tech_worldark_corespinal_virtual: "$sm_xhk_worldark_corespinal_virtual$"
+ xhk_tech_worldark_corespinal_virtual_desc: "$sm_xhk_worldark_corespinal_virtual_desc$"
 
  xhk_worldark_corespinal_antisystem: "Xiuhcoatl Heaven Piercer"
  xhk_worldark_corespinal_antisystem_desc: "In order to counter the terrifying power of a $war_system_5$, we must equip the $xhk_pc_worldark$ with a weapon strong enough to slay them. Never before have we created a weapon as destructive, and may we never need it again."
@@ -263,5 +272,13 @@
  XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_WEAPON:0 "$xhk_worldark_corespinal_antisystem$"
  XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_SET: "$xhk_worldark_corespinal_antisystem$"
  XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_SET_DESC: "$xhk_worldark_corespinal_antisystem_desc$"
+ xhk_tech_worldark_corespinal_antisystem: "$xhk_worldark_corespinal_antisystem$"
+ xhk_tech_worldark_corespinal_antisystem_desc: "$xhk_worldark_corespinal_antisystem_desc$"
 
+ sm_xhk_worldark_corespinal_shipyard: "Daedalus Megascale Fabricator"
+ sm_xhk_worldark_corespinal_shipyard_desc: "A massive shipyard brimming with construction nodes and forges, able to produce vast fleets, or singular massive warships."
+ xhk_worldark_corespinal_shipyard_tt: "\n§ISpecial Effect:§! This shipyard allows for the construction of §I$giga_nomad_war_moon_plural$§!."
+ xhk_tech_worldark_corespinal_shipyard: "$sm_xhk_worldark_corespinal_shipyard$"
+ xhk_tech_worldark_corespinal_shipyard_desc: "$sm_xhk_worldark_corespinal_shipyard_desc$"
 
+#Shuruppak use this name somewhere

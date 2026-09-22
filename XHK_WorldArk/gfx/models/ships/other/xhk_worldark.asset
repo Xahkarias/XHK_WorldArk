@@ -1,8 +1,8 @@
-## MODEL
+## MODEL T1-T3
 
 entity = {
-	name = "xhk_worldark_entity"
-	pdxmesh = "xhk_worldark_frame_mesh"
+	name = "xhk_worldark_1_entity"
+	pdxmesh = "xhk_worldark_1_frame_mesh"
 	locator = { name = "part1" 		position = { 0  0 	0 } }
 
 	default_state = "idle"
@@ -69,10 +69,851 @@ entity = {
 	# 	size = 115
 	# }
 }
+entity = {
+	name = "xhk_worldark_1_ship_entity"
+	pdxmesh = "xhk_worldark_1_mesh"
+	#	locator = { name = "part1" 	position = { 0 0 0 } }
+
+	scale = 1.0
+
+	attach = { district_01 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_02 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_03 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_04 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_05 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_06 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_07 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_08 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_09 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_10 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_11 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_12 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_13 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_14 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_15 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_16 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_17 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_18 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_19 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_20 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_21 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_22 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_23 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_24 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_25 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_26 = "xhk_worldark_1_ship_living_space_entity" }
+	attach = { district_27 = "xhk_worldark_1_ship_living_space_entity" }
+
+
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" looping = no animation_speed = 0.5 next_state = "idle" animation_blend_time = 0.5
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 100
+				"working_looping" = 0
+			}
+		}
+		start_event = { trigger_once = yes sound = { soundeffect = military_arkship_idle_loop } }
+
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+	}
+
+	state = { name = "moving" animation = "idle" looping = no animation_speed = 0.5 next_state = "moving" animation_blend_time = 0.5
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_04_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_04_moving_effect" keep_particle = yes trigger_once = yes  }
+
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+				"working_looping" = 0
+			}
+		}
+		event = { trigger_once = yes sound = { soundeffect = military_arkship_move } }
+	}
+
+
+	# Opening state, goes into "working_looping" state when done.
+	state = { name = "working" animation = "working_start" looping = no animation_speed = 0.5 next_state = "working_looping"
+		event = { time = 0	id = "beam_start" }
+
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+	}
+
+	# Opened state, going after "kill_planet".
+	state = { name = "working_looping" animation = "working_loop" looping = yes animation_speed = 0.5
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+				"working_looping" = 100
+			}
+		}
+		event = { time = 1000 id = "beam_start" } #will never fire, but lets the game know that an event with this ID exists
+		#	event = { time = 1.5  sound = { soundeffect = kaiju_adult_pre_chomp stop_on_state_change = yes } }
+	}
+
+	# Idle state when going from opened state to idle.
+	state = { name = "idle" animation = "closing" animation_speed = 0.5 looping = no next_state = idle
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+				"working_looping" = 100
+			}
+		}
+		event = { time = 9.0 sound = { soundeffect = ship_hatch_open } }
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+	}
+
+	# Closed death state.
+	state = { name = "death" animation = "death" looping = no animation_speed = 1
+		# TODO
+
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+				"working_looping" = 0
+			}
+		}
+	}
+
+	game_data = {
+		emissive_recolor_crunch = 3.0
+	}
+}
+entity = {
+	name = "xhk_worldark_1_ship_living_space_entity"
+	pdxmesh = "civilian_arkship_district_living_space_01_mesh"
+
+	scale = 1.2
+	game_data = {
+		emissive_recolor_crunch = 3.0
+	}
+}
+
+animation = {
+	name = "xhk_worldark_1_idle_animation"
+	file = "xhk_worldark_1_idle.anim"
+}
+animation = {
+	name = "xhk_worldark_1_frame_idle_animation"
+	file = "xhk_worldark_1_idle.anim"
+}
+
+### MODEL T4-T6
 
 entity = {
-	name = "xhk_worldark_ship_entity"
-	pdxmesh = "xhk_worldark_mesh"
+	name = "xhk_worldark_2_entity"
+	pdxmesh = "xhk_worldark_2_frame_mesh"
+	locator = { name = "part1" 		position = { 0  0 	0 } }
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" looping = no animation_speed = 0.5 next_state = "idle" animation_blend_time = 0.5
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 100
+				"working_looping" = 0
+			}
+		}
+	}
+	state = { name = "moving" animation = "idle" looping = no animation_speed = 0.5 next_state = "moving" animation_blend_time = 0.5
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+				"working_looping" = 0
+			}
+		}
+	}
+	state = { name = "working" animation = "working_start" looping = no animation_speed = 0.5 next_state = "working_looping"
+
+	}
+	state = { name = "working_looping" animation = "working_loop" looping = yes animation_speed = 0.5
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+				"working_looping" = 100
+			}
+		}
+	}
+	state = { name = "idle" animation = "closing" animation_speed = 0.5 looping = no next_state = idle
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+				"working_looping" = 100
+			}
+		}
+	}
+	state = { name = "death" animation = "death" looping = no animation_speed = 1
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+				"working_looping" = 0
+			}
+		}
+	}
+
+	# game_data = {
+	# 	size = 115
+	# }
+}
+entity = {
+	name = "xhk_worldark_2_ship_entity"
+	pdxmesh = "xhk_worldark_2_mesh"
+	#	locator = { name = "part1" 	position = { 0 0 0 } }
+
+	scale = 1.0
+
+	attach = { district_19 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_20 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_21 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_22 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_23 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_24 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_25 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_26 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_27 = "xhk_worldark_3_ship_living_space_entity" }
+
+	attach = { district_46 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_47 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_48 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_49 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_50 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_51 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_52 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_53 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_54 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_55 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_56 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_57 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_58 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_59 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_60 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_61 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_62 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_63 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_64 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_65 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_66 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_67 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_68 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_69 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_70 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_71 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_72 = "xhk_worldark_3_ship_living_space_entity" }
+
+
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" looping = no animation_speed = 0.5 next_state = "idle" animation_blend_time = 0.5
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 100
+				"working_looping" = 0
+			}
+		}
+		start_event = { trigger_once = yes sound = { soundeffect = military_arkship_idle_loop } }
+
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_05" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_06" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_07" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_08" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_09" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_03" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_04" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+	}
+
+	state = { name = "moving" animation = "idle" looping = no animation_speed = 0.5 next_state = "moving" animation_blend_time = 0.5
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_05" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_06" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_07" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_08" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_09" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_04_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_04_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_03" particle = "arkship_01_exhaust_04_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_04" particle = "arkship_01_exhaust_04_moving_effect" keep_particle = yes trigger_once = yes  }
+
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+				"working_looping" = 0
+			}
+		}
+		event = { trigger_once = yes sound = { soundeffect = military_arkship_move } }
+	}
+
+
+	# Opening state, goes into "working_looping" state when done.
+	state = { name = "working" animation = "working_start" looping = no animation_speed = 0.5 next_state = "working_looping"
+		event = { time = 0	id = "beam_start" }
+
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_05" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_06" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_07" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_08" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_09" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_03" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_04" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+	}
+
+	# Opened state, going after "kill_planet".
+	state = { name = "working_looping" animation = "working_loop" looping = yes animation_speed = 0.5
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_05" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_06" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_07" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_08" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_09" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_03" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_04" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+				"working_looping" = 100
+			}
+		}
+		event = { time = 1000 id = "beam_start" } #will never fire, but lets the game know that an event with this ID exists
+		#	event = { time = 1.5  sound = { soundeffect = kaiju_adult_pre_chomp stop_on_state_change = yes } }
+	}
+
+	# Idle state when going from opened state to idle.
+	state = { name = "idle" animation = "closing" animation_speed = 0.5 looping = no next_state = idle
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+				"working_looping" = 100
+			}
+		}
+		event = { time = 9.0 sound = { soundeffect = ship_hatch_open } }
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_05" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_06" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_07" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_08" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_09" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_03" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_04" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+	}
+
+	# Closed death state.
+	state = { name = "death" animation = "death" looping = no animation_speed = 1
+		# TODO
+
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+				"working_looping" = 0
+			}
+		}
+	}
+
+	game_data = {
+		emissive_recolor_crunch = 3.0
+	}
+}
+entity = {
+	name = "xhk_worldark_2_ship_living_space_entity"
+	pdxmesh = "civilian_arkship_district_living_space_01_mesh"
+
+	scale = 1.4
+	game_data = {
+		emissive_recolor_crunch = 3.0
+	}
+}
+
+animation = {
+	name = "xhk_worldark_2_idle_animation"
+	file = "xhk_worldark_2_idle.anim"
+}
+animation = {
+	name = "xhk_worldark_2_frame_idle_animation"
+	file = "xhk_worldark_2_idle.anim"
+}
+
+### MODEL T7-T10
+
+entity = {
+	name = "xhk_worldark_3_entity"
+	pdxmesh = "xhk_worldark_3_frame_mesh"
+	locator = { name = "part1" 		position = { 0  0 	0 } }
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" looping = no animation_speed = 0.5 next_state = "idle" animation_blend_time = 0.5
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 100
+				"working_looping" = 0
+			}
+		}
+	}
+	state = { name = "moving" animation = "idle" looping = no animation_speed = 0.5 next_state = "moving" animation_blend_time = 0.5
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+				"working_looping" = 0
+			}
+		}
+	}
+	state = { name = "working" animation = "working_start" looping = no animation_speed = 0.5 next_state = "working_looping"
+
+	}
+	state = { name = "working_looping" animation = "working_loop" looping = yes animation_speed = 0.5
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+				"working_looping" = 100
+			}
+		}
+	}
+	state = { name = "idle" animation = "closing" animation_speed = 0.5 looping = no next_state = idle
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+				"working_looping" = 100
+			}
+		}
+	}
+	state = { name = "death" animation = "death" looping = no animation_speed = 1
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+				"working_looping" = 0
+			}
+		}
+	}
+
+	# game_data = {
+	# 	size = 115
+	# }
+}
+entity = {
+	name = "xhk_worldark_3_ship_entity"
+	pdxmesh = "xhk_worldark_3_mesh"
+	#	locator = { name = "part1" 	position = { 0 0 0 } }
+
+	scale = 1.0
+
+	attach = { district_10 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_11 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_12 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_13 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_14 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_15 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_16 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_17 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_18 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_19 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_20 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_21 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_22 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_23 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_24 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_25 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_26 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_27 = "xhk_worldark_3_ship_living_space_entity" }
+
+	attach = { district_46 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_47 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_48 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_49 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_50 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_51 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_52 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_53 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_54 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_55 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_56 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_57 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_58 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_59 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_60 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_61 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_62 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_63 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_64 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_65 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_66 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_67 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_68 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_69 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_70 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_71 = "xhk_worldark_3_ship_living_space_entity" }
+	attach = { district_72 = "xhk_worldark_3_ship_living_space_entity" }
+
+
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" looping = no animation_speed = 0.5 next_state = "idle" animation_blend_time = 0.5
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 100
+				"working_looping" = 0
+			}
+		}
+		start_event = { trigger_once = yes sound = { soundeffect = military_arkship_idle_loop } }
+
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_05" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_06" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_07" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_08" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_09" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_03" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_04" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+	}
+
+	state = { name = "moving" animation = "idle" looping = no animation_speed = 0.5 next_state = "moving" animation_blend_time = 0.5
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_05" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_06" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_07" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_08" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_09" particle = "arkship_01_exhaust_1_moving_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_04_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_04_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_03" particle = "arkship_01_exhaust_04_moving_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_04" particle = "arkship_01_exhaust_04_moving_effect" keep_particle = yes trigger_once = yes  }
+
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+				"working_looping" = 0
+			}
+		}
+		event = { trigger_once = yes sound = { soundeffect = military_arkship_move } }
+	}
+
+
+	# Opening state, goes into "working_looping" state when done.
+	state = { name = "working" animation = "working_start" looping = no animation_speed = 0.5 next_state = "working_looping"
+		event = { time = 0	id = "beam_start" }
+
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_05" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_06" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_07" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_08" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_09" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_03" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_04" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+	}
+
+	# Opened state, going after "kill_planet".
+	state = { name = "working_looping" animation = "working_loop" looping = yes animation_speed = 0.5
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_05" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_06" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_07" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_08" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_09" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_03" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_04" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+				"working_looping" = 100
+			}
+		}
+		event = { time = 1000 id = "beam_start" } #will never fire, but lets the game know that an event with this ID exists
+		#	event = { time = 1.5  sound = { soundeffect = kaiju_adult_pre_chomp stop_on_state_change = yes } }
+	}
+
+	# Idle state when going from opened state to idle.
+	state = { name = "idle" animation = "closing" animation_speed = 0.5 looping = no next_state = idle
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+				"working_looping" = 100
+			}
+		}
+		event = { time = 9.0 sound = { soundeffect = ship_hatch_open } }
+		event = { time = 0.0 node = "engine_large_01" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_02" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_03" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_04" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_05" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_06" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_07" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_08" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_large_09" particle = "arkship_01_exhaust_1_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+		event = { time = 0.0 node = "engine_medium_01" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_02" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_03" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+		event = { time = 0.0 node = "engine_medium_04" particle = "arkship_01_exhaust_06_circle_idle_effect" keep_particle = yes trigger_once = yes  }
+
+	}
+
+	# Closed death state.
+	state = { name = "death" animation = "death" looping = no animation_speed = 1
+		# TODO
+
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+				"working_looping" = 0
+			}
+		}
+	}
+
+	game_data = {
+		emissive_recolor_crunch = 3.0
+	}
+}
+entity = {
+	name = "xhk_worldark_3_ship_living_space_entity"
+	pdxmesh = "civilian_arkship_district_living_space_01_mesh"
+
+	scale = 1.7
+	game_data = {
+		emissive_recolor_crunch = 3.0
+	}
+}
+
+animation = {
+	name = "xhk_worldark_3_idle_animation"
+	file = "xhk_worldark_3_idle.anim"
+}
+animation = {
+	name = "xhk_worldark_3_frame_idle_animation"
+	file = "xhk_worldark_3_idle.anim"
+}
+
+### MODEL T11-T12
+
+entity = {
+	name = "xhk_worldark_M_entity"
+	pdxmesh = "xhk_worldark_M_frame_mesh"
+	locator = { name = "part1" 		position = { 0  0 	0 } }
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" looping = no animation_speed = 0.5 next_state = "idle" animation_blend_time = 0.5
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 100
+				"working_looping" = 0
+			}
+		}
+	}
+	state = { name = "moving" animation = "idle" looping = no animation_speed = 0.5 next_state = "moving" animation_blend_time = 0.5
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+				"working_looping" = 0
+			}
+		}
+	}
+	state = { name = "working" animation = "working_start" looping = no animation_speed = 0.5 next_state = "working_looping"
+
+	}
+	state = { name = "working_looping" animation = "working_loop" looping = yes animation_speed = 0.5
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+				"working_looping" = 100
+			}
+		}
+	}
+	state = { name = "idle" animation = "closing" animation_speed = 0.5 looping = no next_state = idle
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+				"working_looping" = 100
+			}
+		}
+	}
+	state = { name = "death" animation = "death" looping = no animation_speed = 1
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+				"working_looping" = 0
+			}
+		}
+	}
+
+	# game_data = {
+	# 	size = 115
+	# }
+}
+entity = {
+	name = "xhk_worldark_M_ship_entity"
+	pdxmesh = "xhk_worldark_M_mesh"
 #	locator = { name = "part1" 	position = { 0 0 0 } }
 
 	scale = 1.0
@@ -291,7 +1132,6 @@ entity = {
 		emissive_recolor_crunch = 3.0
 	}
 }
-
 entity = {
 	name = "xhk_worldark_ship_living_space_entity"
 	pdxmesh = "civilian_arkship_district_living_space_01_mesh"
@@ -308,7 +1148,7 @@ animation = {
 }
 animation = {
 	name = "xhk_worldark_frame_idle_animation"
-	file = "xhk_worldark_frame_idle.anim"
+	file = "xhk_worldark_idle.anim"
 }
 
 ###############################################
@@ -321,7 +1161,7 @@ entity = {
 	game_data = {
 		emissive_recolor_crunch = 3.0
 	}
-	scale = 1.5
+	scale = 1.3
 }
 entity = {
 	name = "xhk_worldark_large_kinetic_gun_entity"
@@ -330,7 +1170,7 @@ entity = {
 	game_data = {
 		emissive_recolor_crunch = 3.0
 	}
-	scale = 1.5
+	scale = 1.3
 }
 
 entity = {
@@ -340,7 +1180,7 @@ entity = {
 	game_data = {
 		emissive_recolor_crunch = 3.0
 	}
-	scale = 2
+	scale = 1.4
 }
 entity = {
 	name = "xhk_worldark_medium_kinetic_gun_entity"
@@ -349,7 +1189,7 @@ entity = {
 	game_data = {
 		emissive_recolor_crunch = 3.0
 	}
-	scale = 2
+	scale = 1.4
 }
 entity = {
 	name = "xhk_worldark_missile_medium_entity"
@@ -358,7 +1198,7 @@ entity = {
 	game_data = {
 		emissive_recolor_crunch = 3.0
 	}
-	scale = 2
+	scale = 1.4
 }
 
 entity = {
@@ -368,7 +1208,7 @@ entity = {
 	game_data = {
 		emissive_recolor_crunch = 3.0
 	}
-	scale = 2.5
+	scale = 1.4
 }
 entity = {
 	name = "xhk_worldark_small_kinetic_gun_entity"
@@ -377,7 +1217,7 @@ entity = {
 	game_data = {
 		emissive_recolor_crunch = 3.0
 	}
-	scale = 2.5
+	scale = 1.4
 }
 entity = {
 	name = "xhk_worldark_small_missile_gun_entity"
@@ -386,7 +1226,7 @@ entity = {
 	game_data = {
 		emissive_recolor_crunch = 3.0
 	}
-	scale = 2.5
+	scale = 1.4
 }
 
 entity = {
@@ -396,7 +1236,7 @@ entity = {
 	game_data = {
 		emissive_recolor_crunch = 3.0
 	}
-	scale = 2.5
+	scale = 1.4
 }
 
 ###############################################
@@ -405,7 +1245,7 @@ entity = {
 	name = "xhk_worldark_corespinal_planetgun_entity"
 	pdxmesh = "civilian_arkship_spinal_module_devastator_01_mesh"
 
-	scale = 2.1
+	scale = 2.5
 	game_data = {
 		emissive_recolor_crunch = 3.0
 	}
@@ -415,7 +1255,7 @@ entity = {
 	name = "xhk_worldark_corespinal_blackhole_entity"
 	pdxmesh = "xhk_worldark_blackhole_mesh"
 
-	scale = 2.2
+	scale = 2.4
 	game_data = {
 		emissive_recolor_crunch = 3.0
 		bloom_factor = 2
@@ -432,7 +1272,7 @@ entity = { #scaled up vanilla
 	default_state = "idle"
 	state = { name = "idle" state_time = 5 }
 
-	scale = 3.0
+	scale = 3.2
 		# was 2.0
 
 	game_data = {
@@ -445,7 +1285,7 @@ entity = {
 	name = "xhk_worldark_corespinal_planeteater_entity"
 	pdxmesh = "xhk_worldark_planeteater_mesh"
 
-	scale = 2.0
+	scale = 2.2
 	game_data = {
 		emissive_recolor_crunch = 3.0
 		bloom_factor = 2
@@ -456,7 +1296,7 @@ entity = {
 	name = "xhk_worldark_corespinal_nanite_entity"
 	pdxmesh = "civilian_arkship_spinal_module_scanner_01_mesh"
 
-	scale = 2.0
+	scale = 2.2
 	game_data = {
 		emissive_recolor_crunch = 3.0
 	}
@@ -468,7 +1308,17 @@ entity = {
 	name = "xhk_worldark_corespinal_virtual_entity"
 	pdxmesh = "xhk_worldark_virtual_mesh"
 
-	scale = 2.0
+	scale = 2.2
+	game_data = {
+		emissive_recolor_crunch = 3.0
+	}
+}
+
+entity = {
+	name = "xhk_worldark_corespinal_shipyard_entity"
+	pdxmesh = "civilian_arkship_spinal_module_construction_yard_01_mesh"
+
+	scale = 3.0
 	game_data = {
 		emissive_recolor_crunch = 3.0
 	}

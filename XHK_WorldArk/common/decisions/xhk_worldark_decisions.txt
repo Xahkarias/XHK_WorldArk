@@ -1,3 +1,4 @@
+# expansion upgrade
 xhk_worldark_add_logistics_ship = {
     icon = decision_frameworld_reorganise
     owned_planets_only = yes
@@ -37,11 +38,7 @@ xhk_worldark_add_logistics_ship = {
                 add_deposit = d_xhk_worldark_logistic_ship_bay
             }
             change_variable = {
-                which = xhk_worldark_logistics
-                value = 1
-            }
-            change_variable = {
-                which = xhk_worldark_expansions
+                which = xhk_worldark_logistics_expansions
                 value = 1
             }
         }
@@ -52,6 +49,80 @@ xhk_worldark_add_logistics_ship = {
     }
 }
 
+xhk_worldark_alloy_expansion_decision = {
+	owned_planets_only = yes
+
+	enactment_time = 360
+
+	prerequisites = {
+		tech_mega_engineering
+	}
+
+	show_tech_unlock_if = {
+		owner = { xhk_has_worldark_origin = yes }
+	}
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 2000
+		}
+		cost = {
+			alloys = 200
+			multiplier = xhk_worldark_alloy_expansions
+		}
+		cost = {
+			trigger = {
+				has_global_flag = @giga_amb_flag
+			}
+			giga_sr_amb_megaconstruction = 5
+			multiplier = xhk_worldark_alloy_expansions
+		}
+		cost = {
+			trigger = {
+				NOT = { has_global_flag = @giga_amb_flag }
+			}
+			alloys = 50
+			multiplier = xhk_worldark_alloy_expansions
+		}
+	}
+
+	potential = {
+		exists = owner
+		owner = {
+			xhk_has_worldark_origin = yes
+		}
+		if = {
+			limit = {
+				has_global_flag = @giga_amb_flag
+			}
+			has_technology = giga_tech_amb_supertensiles
+		}
+		is_planet_class = xhk_pc_worldark
+	}
+
+	effect = {
+		custom_tooltip = xhk_worldark_alloy_expansion_tt
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_deposit = d_xhk_worldark_alloy_size }}
+				add_deposit = d_xhk_worldark_alloy_size
+			}
+			change_variable = {
+				which = xhk_worldark_alloy_expansions
+				value = 1
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+
+## SPECIALIZATION UPGRADES
 inline_script = {
 	script = xhk_worldark/decisions/upgrade_arkship_type
 	TYPE = science

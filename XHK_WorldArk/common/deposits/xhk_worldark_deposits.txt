@@ -81,7 +81,7 @@ d_xhk_worldark_base = {
 			}
 		}
 		ship_starbase_stockpile_collection_rate_add = 200
-		multiplier = xhk_worldark_logistics
+		multiplier = xhk_worldark_logistics_expansions
 	}
 
 	triggered_planet_modifier = {
@@ -368,36 +368,22 @@ d_xhk_worldark_pop_machine = {
 ########################################################
 # EXPANSION
 
-d_xhk_worldark_expansion_tracker = {
-    is_for_colonizable = yes
-    icon = d_engineering_research
-    category = deposit_cat_rare
-    use_for_min_max_adjustments = yes
-
-    drop_weight = { weight = 0 }
-    potential = { always = no }
-
-    triggered_planet_modifier = {
-        potential = { always = yes }
-        xhk_worldark_expansion_count = 1
-        multiplier = xhk_worldark_expansions
-    }
-
-    triggered_planet_modifier = {
-        planet_artificial_max_districts_add = 1
-        xhk_worldark_growth_job_add = @xhk_growth_job_per_increase
-        multiplier = xhk_worldark_expansions
-    }
-}
-
 d_xhk_worldark_harvest_size = {
     is_for_colonizable = yes
     icon = d_ship_in_orbit
     category = deposit_cat_misc
     use_for_min_max_adjustments = yes
 
-    drop_weight = { weight = 0 }
-    potential = { always = no }
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		xhk_worldark_expansion_count = 1
+		planet_artificial_max_districts_add = 1
+		xhk_worldark_growth_job_add = @xhk_growth_job_per_increase
+		multiplier = xhk_worldark_harvest_expansions
+	}
+
+	drop_weight = { weight = 0 }
+	potential = { always = no }
 }
 
 d_xhk_worldark_dismantle_size = {
@@ -405,6 +391,48 @@ d_xhk_worldark_dismantle_size = {
 	icon = d_crater
 	category = deposit_cat_misc
 	use_for_min_max_adjustments = yes
+
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		xhk_worldark_expansion_count = 1
+		planet_artificial_max_districts_add = 1
+		xhk_worldark_growth_job_add = @xhk_growth_job_per_increase
+		multiplier = xhk_worldark_dismantle_expansions
+	}
+
+	drop_weight = { weight = 0 }
+	potential = { always = no }
+}
+
+d_xhk_worldark_alloy_size = {
+	is_for_colonizable = yes
+	icon = d_xhk_nomad_alloy_expansion
+	category = deposit_cat_misc
+	use_for_min_max_adjustments = yes
+
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		xhk_worldark_expansion_count = 1
+		planet_artificial_max_districts_add = 2
+		multiplier = xhk_worldark_alloy_expansions
+	}
+
+	resources = {
+		upkeep = {
+			trigger = {
+				has_global_flag = @giga_amb_flag
+			}
+			giga_sr_amb_megaconstruction = 0.25
+			multiplier = xhk_worldark_alloy_expansions
+		}
+		upkeep = {
+			trigger = {
+				NOT = { has_global_flag = @giga_amb_flag }
+			}
+			alloys = 1.5
+			multiplier = xhk_worldark_alloy_expansions
+		}
+	}
 
 	drop_weight = { weight = 0 }
 	potential = { always = no }
@@ -416,6 +444,14 @@ d_xhk_worldark_consume_ark_size = {
     category = deposit_cat_misc
     use_for_min_max_adjustments = yes
 
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		xhk_worldark_expansion_count = 1
+		planet_artificial_max_districts_add = 4
+		xhk_worldark_growth_job_add = @[xhk_growth_job_per_increase * 4]
+		multiplier = xhk_worldark_consumeark_expansions
+	}
+
     drop_weight = { weight = 0 }
     potential = { always = no }
 }
@@ -425,6 +461,14 @@ d_xhk_worldark_logistic_ship_bay = {
     icon = d_ship_in_orbit
     category = deposit_cat_misc
     use_for_min_max_adjustments = yes
+
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		xhk_worldark_expansion_count = 1
+		planet_artificial_max_districts_add = 1
+		xhk_worldark_growth_job_add = @xhk_growth_job_per_increase
+		multiplier = xhk_worldark_logistics_expansions
+	}
 
     drop_weight = { weight = 0 }
     potential = { always = no }

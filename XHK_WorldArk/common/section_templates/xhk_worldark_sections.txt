@@ -6,7 +6,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_1
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_1_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
@@ -69,7 +69,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_2
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_1_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
@@ -162,7 +162,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_3
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_1_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
@@ -325,7 +325,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_4
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_2_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
@@ -538,7 +538,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_5
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_2_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
@@ -811,7 +811,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_6
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_2_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
@@ -1144,7 +1144,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_7
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_3_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
@@ -1517,7 +1517,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_8
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_3_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
@@ -1940,7 +1940,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_9
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_3_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
@@ -2434,7 +2434,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_10
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_3_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
 	#6 in each mouth slot
@@ -3001,7 +3001,7 @@ ship_section_template = {
 	ship_size = xhk_worldark_tier_11
 	fits_on_slot = mid
 	should_draw_components = yes
-	entity = "xhk_worldark_ship_entity"
+	entity = "xhk_worldark_M_ship_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	inline_script = {
@@ -3015,7 +3015,7 @@ ship_section_template = {
 	ship_size = xhk_worldark_tier_12
 	fits_on_slot = mid
 	should_draw_components = yes
-	entity = "xhk_worldark_ship_entity"
+	entity = "xhk_worldark_M_ship_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	inline_script = {
@@ -3050,12 +3050,6 @@ ship_section_template = {
 	inline_script = {
 		script = xhk_worldark/section_templates/arkship_class_list_spinal
 	}
-
-    component_slot = {
-        name = "XHK_ARKSHIP_SPINAL_PK_CRACKER_WEAPON"
-        template = "invisible_titanic_turret"
-        locatorname = "xl_gun_01"
-    }
 }
 ship_section_template = {
 	key = "XHK_ARKSHIP_SPINAL_PK_SHIELDER_SECTION"
@@ -3064,12 +3058,6 @@ ship_section_template = {
 
 	inline_script = {
 		script = xhk_worldark/section_templates/arkship_class_list_spinal
-	}
-
-	component_slot = {
-		name = "XHK_ARKSHIP_SPINAL_PK_SHIELDER_WEAPON"
-		template = "invisible_titanic_turret"
-		locatorname = "xl_gun_01"
 	}
 }
 ship_section_template = {
@@ -3080,12 +3068,6 @@ ship_section_template = {
 	inline_script = {
 		script = xhk_worldark/section_templates/arkship_class_list_spinal
 	}
-
-	component_slot = {
-		name = "XHK_ARKSHIP_SPINAL_PK_NEUTRON_WEAPON"
-		template = "invisible_titanic_turret"
-		locatorname = "xl_gun_01"
-	}
 }
 ship_section_template = {
 	key = "XHK_ARKSHIP_SPINAL_PK_GODRAY_SECTION"
@@ -3094,12 +3076,6 @@ ship_section_template = {
 
 	inline_script = {
 		script = xhk_worldark/section_templates/arkship_class_list_spinal
-	}
-
-	component_slot = {
-		name = "XHK_ARKSHIP_SPINAL_PK_GODRAY_WEAPON"
-		template = "invisible_titanic_turret"
-		locatorname = "xl_gun_01"
 	}
 }
 ship_section_template = {
@@ -3110,12 +3086,6 @@ ship_section_template = {
 	inline_script = {
 		script = xhk_worldark/section_templates/arkship_class_list_spinal
 	}
-
-	component_slot = {
-		name = "XHK_ARKSHIP_SPINAL_PK_NANOBOT_WEAPON"
-		template = "invisible_titanic_turret"
-		locatorname = "xl_gun_01"
-	}
 }
 ship_section_template = {
 	key = "XHK_ARKSHIP_SPINAL_PK_DEVOLUTION_SECTION"
@@ -3125,12 +3095,6 @@ ship_section_template = {
 	inline_script = {
 		script = xhk_worldark/section_templates/arkship_class_list_spinal
 	}
-
-	component_slot = {
-		name = "XHK_ARKSHIP_SPINAL_PK_DEVOLUTION_WEAPON"
-		template = "invisible_titanic_turret"
-		locatorname = "xl_gun_01"
-	}
 }
 ship_section_template = {
 	key = "XHK_ARKSHIP_SPINAL_PK_SMELTER_SECTION"
@@ -3139,12 +3103,6 @@ ship_section_template = {
 
 	inline_script = {
 		script = xhk_worldark/section_templates/arkship_class_list_spinal
-	}
-
-	component_slot = {
-		name = "XHK_ARKSHIP_SPINAL_PK_SMELTER_WEAPON"
-		template = "invisible_titanic_turret"
-		locatorname = "xl_gun_01"
 	}
 }
 
@@ -3185,12 +3143,6 @@ ship_section_template = {
 		script = xhk_worldark/section_templates/arkship_class_list_corespinal
 	}
 	fits_on_slot = spinal_mount_7
-
-	component_slot = {
-		name = "XHK_ARKSHIP_CORESPINAL_PLANETEATER_WEAPON"
-		template = "invisible_titanic_turret"
-		locatorname = "xl_gun_01"
-	}
 }
 
 ship_section_template = {
@@ -3227,4 +3179,14 @@ ship_section_template = {
 		template = "invisible_titanic_turret"
 		locatorname = "xl_gun_01"
 	}
+}
+
+ship_section_template = {
+	key = "XHK_ARKSHIP_CORESPINAL_SHIPYARD_SECTION"
+	entity = "xhk_worldark_corespinal_shipyard_entity"
+	icon = "GFX_ship_part_core_mid"
+	inline_script = {
+		script = xhk_worldark/section_templates/arkship_class_list_corespinal
+	}
+	fits_on_slot = spinal_mount_7
 }

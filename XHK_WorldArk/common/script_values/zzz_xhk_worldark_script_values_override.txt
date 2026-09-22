@@ -1,0 +1,67 @@
+arkship_scan_success_bonus = {
+	base = 0
+	modifier = {
+		add = 5
+		event_target:arkship = {
+			OR = {
+				AND = {
+					is_science_arkship = yes
+					is_arkship_tier_1 = yes
+				}
+				AND = {
+					xhk_is_worldark_ship = yes
+					colony? = {
+						check_variable_arithmetic = { which = xhk_worldark_science_upgrade_level value = 1 }
+					}
+				}
+			}
+		}
+	}
+	modifier = {
+		add = 10
+		event_target:arkship = {
+			OR = {
+				AND = {
+					is_science_arkship = yes
+					is_arkship_tier_2 = yes
+				}
+				AND = {
+					xhk_is_worldark_ship = yes
+					colony? = {
+						check_variable_arithmetic = { which = xhk_worldark_science_upgrade_level value = 2 }
+					}
+				}
+			}
+		}
+	}
+	modifier = {
+		add = 15
+		event_target:arkship = {
+			OR = {
+				AND = {
+					is_science_arkship = yes
+					is_arkship_tier_3 = yes
+				}
+				AND = {
+					xhk_is_worldark_ship = yes
+					colony? = {
+						check_variable_arithmetic = { which = xhk_worldark_science_upgrade_level value = 3 }
+					}
+				}
+			}
+		}
+	}
+	modifier = {
+		add = 10
+		event_target:arkship = {
+			has_deposit = d_relic_arkship
+		}
+	}
+	modifier = {
+		add = 10
+		event_target:arkship.leader? = {
+			has_leader_flag = nomadic_naturalist
+		}
+	}
+	max = $MAX$
+}

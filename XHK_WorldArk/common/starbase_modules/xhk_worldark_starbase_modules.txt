@@ -56,6 +56,7 @@ xhk_worldark_spinal_pk_cracker = {
     potential = {
         owner? = {
             has_technology = tech_pk_cracker
+			has_ascension_perk = ap_colossus
         }
 		has_apocalypse_dlc = yes
         xhk_is_worldark_starbase = yes
@@ -91,7 +92,6 @@ xhk_worldark_spinal_pk_cracker = {
         }
     }
 
-    component_set = XHK_ARKSHIP_SPINAL_PK_CRACKER_SET
     custom_tooltip = xhk_worldark_spinal_planet_cracker_tt
 
     ai_weight = {
@@ -107,7 +107,8 @@ xhk_worldark_spinal_pk_shielder = {
 
 	potential = {
 		owner? = {
-			has_technology = tech_pk_cracker
+			has_technology = tech_pk_shielder
+			has_ascension_perk = ap_colossus
 		}
 		has_apocalypse_dlc = yes
 		xhk_is_worldark_starbase = yes
@@ -143,7 +144,6 @@ xhk_worldark_spinal_pk_shielder = {
 		}
 	}
 
-	component_set = XHK_ARKSHIP_SPINAL_PK_SHIELDER_SET
 	custom_tooltip = xhk_worldark_spinal_planet_shielder_tt
 
 	ai_weight = {
@@ -160,6 +160,7 @@ xhk_worldark_spinal_pk_neutron = {
 	potential = {
 		owner? = {
 			has_technology = tech_pk_neutron
+			has_ascension_perk = ap_colossus
 		}
 		has_apocalypse_dlc = yes
 		xhk_is_worldark_starbase = yes
@@ -195,7 +196,6 @@ xhk_worldark_spinal_pk_neutron = {
 		}
 	}
 
-	component_set = XHK_ARKSHIP_SPINAL_PK_NEUTRON_SET
 	custom_tooltip = xhk_worldark_spinal_planet_neutron_tt
 
 	ai_weight = {
@@ -212,6 +212,7 @@ xhk_worldark_spinal_pk_godray = {
 	potential = {
 		owner? = {
 			has_technology = tech_pk_godray
+			has_ascension_perk = ap_colossus
 		}
 		has_apocalypse_dlc = yes
 		xhk_is_worldark_starbase = yes
@@ -247,7 +248,6 @@ xhk_worldark_spinal_pk_godray = {
 		}
 	}
 
-	component_set = XHK_ARKSHIP_SPINAL_PK_GODRAY_SET
 	custom_tooltip = xhk_worldark_spinal_planet_godray_tt
 
 	ai_weight = {
@@ -264,6 +264,7 @@ xhk_worldark_spinal_pk_nanobots = {
 	potential = {
 		owner? = {
 			has_technology = tech_pk_nanobots
+			has_ascension_perk = ap_colossus
 		}
 		has_apocalypse_dlc = yes
 		xhk_is_worldark_starbase = yes
@@ -299,7 +300,6 @@ xhk_worldark_spinal_pk_nanobots = {
 		}
 	}
 
-	component_set = XHK_ARKSHIP_SPINAL_PK_NANOBOTS_SET
 	custom_tooltip = xhk_worldark_spinal_planet_nanobots_tt
 
 	ai_weight = {
@@ -316,6 +316,7 @@ xhk_worldark_spinal_pk_devolution = {
 	potential = {
 		owner? = {
 			has_technology = tech_archaeo_pk_devolving_beam
+			has_ascension_perk = ap_colossus
 		}
 		has_apocalypse_dlc = yes
 		xhk_is_worldark_starbase = yes
@@ -351,7 +352,6 @@ xhk_worldark_spinal_pk_devolution = {
 		}
 	}
 
-	component_set = XHK_ARKSHIP_SPINAL_PK_DEVOLUTION_SET
 	custom_tooltip = xhk_worldark_spinal_planet_devolver_tt
 
 	ai_weight = {
@@ -367,7 +367,8 @@ xhk_worldark_spinal_pk_smelter = {
 
 	potential = {
 		owner? = {
-			has_technology = tech_archaeo_pk_devolving_beam
+			has_technology = tech_pk_smelter
+			has_ascension_perk = ap_colossus
 		}
 		has_apocalypse_dlc = yes
 		xhk_is_worldark_starbase = yes
@@ -403,7 +404,6 @@ xhk_worldark_spinal_pk_smelter = {
 		}
 	}
 
-	component_set = XHK_ARKSHIP_SPINAL_PK_SMELTER_SET
 	custom_tooltip = xhk_worldark_spinal_planet_smelter_tt
 
 	ai_weight = {
@@ -424,14 +424,14 @@ xhk_worldark_corespinal_planetgun = {
 
 	potential = {
 		owner? = {
-			has_technology = xhk_tech_worldark_12
+			has_technology = xhk_tech_worldark_corespinal_planetgun
 		}
 		inline_script = {
 			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
 		}
 	}
 
-	show_in_tech = "xhk_tech_worldark_12"
+	show_in_tech = "xhk_tech_worldark_corespinal_planetgun"
 
 	show_tech_unlock_if = {
 		is_nomadic = yes
@@ -472,14 +472,14 @@ xhk_worldark_corespinal_blackhole = {
 
 	potential = {
 		owner? = {
-			has_technology = xhk_tech_worldark_12
+			has_technology = xhk_tech_worldark_corespinal_blackhole
 		}
 		inline_script = {
 			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
 		}
 	}
 
-	show_in_tech = "xhk_tech_worldark_12"
+	show_in_tech = "xhk_tech_worldark_corespinal_blackhole"
 
 	show_tech_unlock_if = {
 		is_nomadic = yes
@@ -572,7 +572,6 @@ xhk_worldark_corespinal_planeteater = {
 		situation_nomad_economy_max_progress_add = 50000
 	}
 
-	component_set = XHK_ARKSHIP_CORESPINAL_PLANETEATER_SET
 	custom_tooltip_with_modifiers = xhk_worldark_corespinal_planeteater_tt
 
 	ai_weight = {
@@ -589,13 +588,15 @@ xhk_worldark_corespinal_nanite = {
 
 	potential = {
 		owner? = {
-			has_technology = xhk_tech_worldark_12
+			has_technology = xhk_tech_worldark_corespinal_nanite
 			has_tradition = tr_nanotech_finish
 		}
 		inline_script = {
 			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
 		}
 	}
+
+	show_in_tech = "xhk_tech_worldark_corespinal_nanite"
 
 	fits_on_slots = { spinal_mount_7 }
 
@@ -648,13 +649,15 @@ xhk_worldark_corespinal_virtual = {
 
 	potential = {
 		owner? = {
-			has_technology = xhk_tech_worldark_12
+			has_technology = xhk_tech_worldark_corespinal_virtual
 			has_tradition = tr_virtuality_finish
 		}
 		inline_script = {
 			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
 		}
 	}
+
+	show_in_tech = "xhk_tech_worldark_corespinal_virtual"
 
 	fits_on_slots = { spinal_mount_7 }
 
@@ -695,14 +698,14 @@ xhk_worldark_corespinal_antisystem = {
 
 	potential = {
 		owner? = {
-			has_technology = xhk_tech_worldark_12
+			has_technology = xhk_tech_worldark_corespinal_antisystem
 		}
 		inline_script = {
 			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
 		}
 	}
 
-	show_in_tech = "xhk_tech_worldark_12"
+	show_in_tech = "xhk_tech_worldark_corespinal_antisystem"
 
 	show_tech_unlock_if = {
 		is_nomadic = yes
@@ -728,6 +731,57 @@ xhk_worldark_corespinal_antisystem = {
 	component_set = XHK_ARKSHIP_CORESPINAL_ANTISYSTEM_SET
 	show_component_tooltips = yes
 	custom_tooltip = xhk_worldark_corespinal_antisystem_tt
+
+	ai_weight = {
+		weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
+	}
+}
+
+xhk_worldark_corespinal_shipyard = {
+	icon = "GFX_xhk_worldark_corespinal_shipyard_mount"
+	section = "XHK_ARKSHIP_CORESPINAL_SHIPYARD_SECTION"
+	construction_days = @[arkship_spinal_mount_build_time * 2]
+	starbase_type = arkship
+	category = sm_corespinal_cat
+
+	potential = {
+		owner? = {
+			has_technology = xhk_tech_worldark_corespinal_shipyard
+		}
+		inline_script = {
+			script = xhk_worldark/starbase_modules/starbase_potential_shipsize
+		}
+	}
+
+	show_in_tech = "xhk_tech_worldark_corespinal_shipyard"
+
+	fits_on_slots = { spinal_mount_7 }
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = @[arkship_cost_alloys_5000 * 6]
+			exotic_gases = @[arkship_cost_strategic_500 * 3]
+			volatile_motes = @[arkship_cost_strategic_500 * 3]
+			rare_crystals = @[arkship_cost_strategic_500 * 3]
+			unity = @[arkship_cost_unity_500 * 3]
+			influence = 200
+		}
+
+		upkeep = {
+			energy = 100
+			exotic_gases = 10
+			volatile_motes = 10
+			rare_crystals = 10
+		}
+	}
+
+	planet_modifier = {
+		planet_building_capacity_add = 6
+		starbase_shipyard_build_cost_mult = -0.1
+	}
+
+	custom_tooltip = xhk_worldark_corespinal_shipyard_tt
 
 	ai_weight = {
 		weight = 100 #use same weight here - ai weighting is done in starbase_types.txt

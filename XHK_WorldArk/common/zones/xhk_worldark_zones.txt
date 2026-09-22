@@ -45,11 +45,29 @@ zone_xhk_worldark_voidforge = {
     }
 
     planet_modifier = {
-        planet_metallurgists_minerals_upkeep_add = 1.5
         planet_metallurgists_alloys_produces_add = 0.75
         ship_armor_from_metallurgists = 0.02
         ship_hardening_from_metallurgists = 0.01
     }
+
+	# Non-catalytic empires pay the extra foundry upkeep in minerals
+	triggered_planet_modifier = {
+		potential = {
+			industrial_jobs_are_catalytic_trigger = no
+		}
+		modifier = {
+			planet_metallurgists_minerals_upkeep_add = 1.5
+		}
+	}
+	# Catalytic Processing empires pay it in food instead, at the same 1.5x ratio the base job uses when swapping minerals for food
+	triggered_planet_modifier = {
+		potential = {
+			industrial_jobs_are_catalytic_trigger = yes
+		}
+		modifier = {
+			planet_metallurgists_food_upkeep_add = 2.25
+		}
+	}
 
     # doubled
     inline_script = {
@@ -978,6 +996,49 @@ zone_xhk_worldark_refinery = {
     ai_priority = 10
 }
 
+## SUPERTENSILES
+###########################################################
+zone_xhk_worldark_supertensiles = {
+	icon = GFX_giga_district_specialization_supertensiles
+	inline_script = {
+		script = xhk_worldark/zones/zone_common
+		NUM_BUILDINGS = 3
+		UNLOCK = ""
+		POTENTIAL = ""
+	}
+
+	included_building_sets = {
+		giga_supertensile
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		modifier = {
+			job_giga_megaengineer_add = 100
+		}
+	}
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		modifier = {
+			job_giga_megaengineer_drone_add = 100
+		}
+	}
+
+	zone_sets = {
+		xhk_worldark_supertensiles
+	}
+}
+
 ## NEGATIVE MASS
 ###########################################################
 zone_xhk_worldark_negativemass = {
@@ -1140,9 +1201,9 @@ zone_xhk_worldark_ordinance_missile_silos = {
     }
 
     planet_modifier = {
-        planet_soldiers_alloys_upkeep_add = 0.15
+        planet_soldiers_alloys_upkeep_add = 0.25
 		planet_soldiers_volatile_motes_upkeep_add = 0.15
-		weapon_explosive_from_soldiers = 0.05
+		weapon_explosive_from_soldiers = 0.01
 	}
 
     zone_sets = {
@@ -1176,9 +1237,9 @@ zone_xhk_worldark_ordinance_ammunition_lines = {
     }
 
     planet_modifier = {
-        planet_soldiers_alloys_upkeep_add = 0.15
+        planet_soldiers_alloys_upkeep_add = 0.25
 		planet_soldiers_volatile_motes_upkeep_add = 0.15
-        weapon_kinetic_from_soldiers = 0.05
+        weapon_kinetic_from_soldiers = 0.01
     }
 
     zone_sets = {
@@ -1212,9 +1273,9 @@ zone_xhk_worldark_ordinance_laser_capacitors = {
     }
 
     planet_modifier = {
-        planet_soldiers_alloys_upkeep_add = 0.15
+        planet_soldiers_alloys_upkeep_add = 0.25
 		planet_soldiers_rare_crystals_upkeep_add = 0.15
-        weapon_energy_from_soldiers = 0.05
+        weapon_energy_from_soldiers = 0.01
     }
 
     zone_sets = {
@@ -1248,9 +1309,9 @@ zone_xhk_worldark_ordinance_flight_decks = {
     }
 
     planet_modifier = {
-        planet_soldiers_alloys_upkeep_add = 0.15
+        planet_soldiers_alloys_upkeep_add = 0.25
 		planet_soldiers_exotic_gases_upkeep_add = 0.15
-        weapon_strike_craft_from_soldiers = 0.05
+        weapon_strike_craft_from_soldiers = 0.01
     }
 
     zone_sets = {

@@ -1,3 +1,4 @@
+# harvest tt
 defined_text = {
     name = xhk_worldark_getDistrictIncreaseFromHarvest
 	text = {
@@ -32,6 +33,27 @@ defined_text = {
 	value = @xhk_worldark_harvest_size_vlarge
 }
 
+# alloy expansion tt
+defined_text = {
+	name = xhk_worldark_alloyExpansion_GetScalingCost
+	text = {
+		trigger = { has_global_flag = @giga_amb_flag }
+		localization_key = xhk_worldark_alloy_expansion_tt_cost_tensile
+	}
+	default = xhk_worldark_alloy_expansion_tt_cost_normal
+}
+defined_text = {
+	name = xhk_worldark_alloyExpansion_GetScalingUpkeep
+	text = {
+		trigger = { has_global_flag = @giga_amb_flag }
+		localization_key = xhk_worldark_alloy_expansion_tt_upkeep_tensile
+	}
+	default = xhk_worldark_alloy_expansion_tt_upkeep_normal
+}
+
+### DOCUMENTATION
+##################################################################
+# population
 defined_text = {
     name = xhk_worldark_getPopulationDocumentation
     text = {
@@ -48,7 +70,6 @@ defined_text = {
     }
     default = xhk_worldark_docs_population_desc_norm
 }
-
 defined_text = {
     name = xhk_worldark_getCivicDocumentation
     text = {
@@ -65,7 +86,6 @@ defined_text = {
     }
     default = xhk_worldark_docs_special_civic_desc_norm
 }
-
 defined_text = {
 	name = xhk_worldark_getVirtualDocumentation
 	text = {
@@ -80,18 +100,6 @@ defined_text = {
 	default = xhk_worldark_null_text
 }
 
-defined_text = {
-	name = xhk_worldark_getResortSystemDocumentation
-	text = {
-		trigger = {
-			is_gestalt = yes
-		}
-		localization_key = xhk_worldark_docs_system_3_gest
-	}
-	default = xhk_worldark_docs_system_3_norm
-}
-
-##################################################################
 # DISTRICT DOCS
 defined_text = {
 	name = xhk_worldark_getDistrictDoc_Factory
@@ -108,7 +116,6 @@ defined_text = {
 	}
 	default = xhk_worldark_null_text
 }
-
 defined_text = {
 	name = xhk_worldark_getDistrictDoc_Unity
 	text = {
@@ -140,7 +147,6 @@ defined_text = {
 	}
 	default = xhk_worldark_docs_districts_desc_admn
 }
-
 defined_text = {
 	name = xhk_worldark_getDistrictDoc_Amenities
 	text = {
@@ -157,7 +163,6 @@ defined_text = {
 	}
 	default = xhk_worldark_docs_districts_desc_amenities
 }
-
 defined_text = {
 	name = xhk_worldark_getDistrictDoc_EHOF
 	text = {
@@ -167,4 +172,16 @@ defined_text = {
 		localization_key = xhk_worldark_docs_districts_desc_ehofcombine
 	}
 	default = xhk_worldark_null_text
+}
+
+# arkship buildings
+defined_text = {
+	name = xhk_worldark_getResortSystemDocumentation
+	text = {
+		trigger = {
+			is_gestalt = yes
+		}
+		localization_key = xhk_worldark_docs_system_3_gest
+	}
+	default = xhk_worldark_docs_system_3_norm
 }

@@ -217,6 +217,15 @@
  district_xhk_worldark_ordinance_fighter_desc: "$district_xhk_worldark_ordinance_desc$"
 
  ##################################################################
+ # Supertensiles
+ ##################################################################
+
+ district_xhk_worldark_supertensiles: "Molecular Fabricator"
+ district_xhk_worldark_supertensiles_plural: "Molecular Fabricators"
+ district_xhk_worldark_supertensiles_desc: "Molecular synthesis arrays fill these decks, producing the highly specialized materials required for large-scale orbital construction projects."
+ flavor_xhk_worldark_supertensiles_name: "Megaconstruction Nexus"
+
+ ##################################################################
  # Dark Matter
  ##################################################################
 
@@ -351,6 +360,9 @@
  zone_xhk_worldark_ordinance_flight_decks: "$zone_ark_flight_decks$"
  zone_xhk_worldark_ordinance_flight_decks_desc: "$zone_ark_flight_decks_desc$"
 
+ zone_xhk_worldark_supertensiles: "$flavor_xhk_worldark_supertensiles_name$"
+ zone_xhk_worldark_supertensiles_desc: "$building_giga_megaworkshop_hub_desc$"
+
  zone_xhk_worldark_darkmatter: "$flavor_xhk_worldark_darkmatter_name$"
  zone_xhk_worldark_darkmatter_desc: "$district_xhk_worldark_darkmatter_desc$"
 
@@ -396,8 +408,9 @@
 
  d_xhk_worldark_logistic_ship_bay: "Logistic Ship Control Room"
  d_xhk_worldark_logistic_ship_bay_desc: "A facility to help coordinate and command our web of logistic ships."
- xhk_worldark_increase_logistic_ship_tt: "§G+1§! £construction_ship£ Logistic Ship Cap\n§G+1§! £districtadd£Maximum Districts\n§G+200§! Waystation Resources Transferred per Month"
 
+ d_xhk_worldark_alloy_size: "Alloy Framework Expansion"
+ d_xhk_worldark_alloy_size_desc: "An expensive but proven way to expand the $xhk_pc_worldark$, through large masses of connecting alloys."
 
  #########################################################################################################################################################################
  # DECISIONS
@@ -405,6 +418,16 @@
 
  xhk_worldark_add_logistics_ship: "Increase Logistic Ship Capacity"
  xhk_worldark_add_logistics_ship_desc: "Increase £construction_ship£ Logistic Ship Capacity through the streamlining of command and control flow and harvesting schedules."
+ xhk_worldark_increase_logistic_ship_tt: "§G+1§! £construction_ship£ Logistic Ship Cap\n§G+1§! £districtadd£Maximum Districts\n§G+200§! Waystation Resources Transferred per Month"
+
+ xhk_worldark_alloy_expansion_decision: "Expand with Alloys"
+ xhk_worldark_alloy_expansion_decision_desc: "Expand the $xhk_pc_worldark$ with the tried and true method of building stuff in space: with alloys."
+ xhk_worldark_alloy_expansion_tt: "§G+2§! £districtadd£Maximum Districts §R(No increase in growth jobs)§!\n\nCost §RIncreases§! per use:[xhk_worldark_alloyExpansion_GetScalingCost]\n\nUpkeep §RIncreases§! per use:[xhk_worldark_alloyExpansion_GetScalingUpkeep]"
+ xhk_worldark_alloy_expansion_tt_cost_normal:  "$TABBED_NEW_LINE$+250 £alloys£§IAlloys§!"
+ xhk_worldark_alloy_expansion_tt_cost_tensile: "$TABBED_NEW_LINE$+200 £alloys£§IAlloys§!$TABBED_NEW_LINE$+5 £giga_sr_amb_megaconstruction£§ISupertensile Materials§!"
+ xhk_worldark_alloy_expansion_tt_upkeep_normal:  "$TABBED_NEW_LINE$+1.5 £alloys£§IAlloys§!"
+ xhk_worldark_alloy_expansion_tt_upkeep_tensile: "$TABBED_NEW_LINE$+0.25 £giga_sr_amb_megaconstruction£§ISupertensile Materials§!"
+
 
  xhk_upgrade_arkship_type_generic_desc: "We have learned from other nomads how they specialize their arks, let us apply this to our own."
 

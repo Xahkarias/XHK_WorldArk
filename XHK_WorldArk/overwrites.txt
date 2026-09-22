@@ -6,6 +6,8 @@ common/game_rules:
 	can_nomad_settle: low prio to prevent settling
 common/inline_scripts:
 	megastructures/arkship: disable arkship construction for worldark
+common/script_values:
+	arkship_scan_success_bonus: add wark science upgrade to factors
 common/scripted_triggers:
 	nomad_can_settle_trigger: low prio to prevent settling
 	is_arkship_ship: to make the world ark considered an arkship

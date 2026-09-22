@@ -135,10 +135,9 @@
 ##### SCRIPTED ACTIONS ####
 ########################################################################################################
 @xhk_worldark_harvest_cd = 3600 # 10 yrs
-@xhk_worldark_harvest_size_small = 6
+@xhk_worldark_harvest_size_small = 5
 @xhk_worldark_harvest_size_large = 10
-@xhk_worldark_harvest_size_vlarge = 20
+@xhk_worldark_harvest_size_vlarge = 15
 
-# per half yr
 @xhk_worldark_dismantle_size_decrease = 4
-@xhk_worldark_dismantle_pulse_cooldown = 360
+@xhk_worldark_dismantle_pulse_cooldown = 180

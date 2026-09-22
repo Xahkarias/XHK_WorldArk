@@ -11,6 +11,15 @@ carrier_event = {
             every_owned_ship = {
                 save_event_target_as = arkship
             }
+			event_target:arkship.colony = {
+				if = {
+					limit = {
+						NOT = { has_deposit = d_xhk_worldark_harvest_size}
+					}
+					add_deposit = d_xhk_worldark_harvest_size
+				}
+			}
+
 			###### TIER 11 UPGRADE
 			if = {
 				limit = {
@@ -20,12 +29,8 @@ carrier_event = {
 				}
 				event_target:arkship.colony = {
 					change_variable = {
-						which = xhk_worldark_expansions
+						which = xhk_worldark_harvest_expansions
 						value = @xhk_worldark_harvest_size_vlarge
-					}
-					while = {
-						count = @xhk_worldark_harvest_size_vlarge
-						add_deposit = d_xhk_worldark_harvest_size
 					}
 				}
 				root = {
@@ -49,13 +54,9 @@ carrier_event = {
                 }
                 event_target:arkship.colony = {
                     change_variable = {
-                        which = xhk_worldark_expansions
+                        which = xhk_worldark_harvest_expansions
                         value = @xhk_worldark_harvest_size_large
                     }
-					while = {
-						count = @xhk_worldark_harvest_size_large
-						add_deposit = d_xhk_worldark_harvest_size
-					}
                 }
 				root = {
 					if = {
@@ -73,13 +74,9 @@ carrier_event = {
             else = {
                 event_target:arkship.colony = {
                     change_variable = {
-                        which = xhk_worldark_expansions
+                        which = xhk_worldark_harvest_expansions
                         value = @xhk_worldark_harvest_size_small
                     }
-					while = {
-						count = @xhk_worldark_harvest_size_small
-						add_deposit = d_xhk_worldark_harvest_size
-					}
                 }
 				root = {
 					if = {
@@ -101,10 +98,6 @@ carrier_event = {
 			#cooldown toaster
 			owner = { country_event = { id = xhk_worldark.2 days = @xhk_worldark_harvest_cd } }
         }
-
-        # from.starbase.ship.carrier = { # ARKSHIP SCOPE
-        #     add_deposit = d_xhk_worldark_harvest_size
-        # }
 
         # forever
         add_modifier = {
@@ -154,11 +147,16 @@ country_event = {
         while = {
             count = value:xhk_worldark_num_arkships_consume
             capital_scope = {
+				if = {
+					limit = {
+						NOT = { has_deposit = d_xhk_worldark_consume_ark_size}
+					}
+					add_deposit = d_xhk_worldark_consume_ark_size
+				}
                 change_variable = {
-                    which = xhk_worldark_expansions
-                    value = 4
+                    which = xhk_worldark_consumeark_expansions
+                    value = 1
                 }
-                add_deposit = d_xhk_worldark_consume_ark_size
             }
         }
 
@@ -547,11 +545,14 @@ situation_event = {
 
 
 						capital_scope = {
+							if = {
+								limit = { NOT = { has_deposit = d_xhk_worldark_dismantle_size } }
+								add_deposit = d_xhk_worldark_dismantle_size
+							}
 							change_variable = {
-								which = xhk_worldark_expansions
+								which = xhk_worldark_dismantle_expansions
 								value = 1
 							}
-							add_deposit = d_xhk_worldark_dismantle_size
 						}
 					}
 				}

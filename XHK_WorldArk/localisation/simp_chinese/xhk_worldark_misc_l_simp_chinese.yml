@@ -56,7 +56,7 @@
   XHK_TECH_UPGRADE_WORLDARK_9_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_9_DESC$"
   XHK_TECH_UPGRADE_WORLDARK_10_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_10_DESC$"
   XHK_TECH_UPGRADE_WORLDARK_11_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_11_DESC$\n§GLarge Bonus§! to $xhk_pc_worldark$ §GCombat Strength§!."
-  XHK_TECH_UPGRADE_WORLDARK_12_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_12_DESC$\nThe Powerful §GCore Spinal§! is §Gunlocked§!."
+  XHK_TECH_UPGRADE_WORLDARK_12_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_12_DESC$\nThe §GCore Spinal§! Slot is §Gunlocked§!."
   
   xhk_tech_worldark_science_nexus:99 "Integrated Science Nexus"
   xhk_tech_worldark_science_nexus_desc:99 "Studies of settled empires have shown the value in concentrating scientific research in an isolated area, especially when coupled with advanced equipment."
