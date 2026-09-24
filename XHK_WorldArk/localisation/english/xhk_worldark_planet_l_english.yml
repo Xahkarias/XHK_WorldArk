@@ -406,7 +406,7 @@
  d_xhk_worldark_pop_indiv_machine: "$xhk_pc_worldark$ Population Growth - Individualist Machine"
  d_xhk_worldark_pop_indiv_machine_desc: "$d_xhk_worldark_pop_standard_desc$"
 
- d_xhk_worldark_logistic_ship_bay: "Logistic Ship Control Room"
+ d_xhk_worldark_logistic_ship_bay: "Logistic Ship Hangar Bays"
  d_xhk_worldark_logistic_ship_bay_desc: "A facility to help coordinate and command our web of logistic ships."
 
  d_xhk_worldark_alloy_size: "Alloy Framework Expansion"

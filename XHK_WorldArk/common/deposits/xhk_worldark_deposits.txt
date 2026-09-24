@@ -465,8 +465,7 @@ d_xhk_worldark_logistic_ship_bay = {
 	triggered_planet_modifier = {
 		potential = { always = yes }
 		xhk_worldark_expansion_count = 1
-		planet_artificial_max_districts_add = 1
-		xhk_worldark_growth_job_add = @xhk_growth_job_per_increase
+		planet_artificial_max_districts_add = 3
 		multiplier = xhk_worldark_logistics_expansions
 	}
 
