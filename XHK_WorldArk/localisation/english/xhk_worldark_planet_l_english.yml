@@ -216,6 +216,10 @@
  district_xhk_worldark_ordinance_fighter_plural: "$district_xhk_worldark_ordinance_plural$"
  district_xhk_worldark_ordinance_fighter_desc: "$district_xhk_worldark_ordinance_desc$"
 
+ district_xhk_worldark_full_batteries: "$district_xhk_worldark_ordinance$"
+ district_xhk_worldark_full_batteries_plural: "$district_xhk_worldark_ordinance_plural$"
+ district_xhk_worldark_full_batteries_desc: "$district_xhk_worldark_ordinance_desc$"
+
  ##################################################################
  # Supertensiles
  ##################################################################
@@ -359,6 +363,9 @@
 
  zone_xhk_worldark_ordinance_flight_decks: "$zone_ark_flight_decks$"
  zone_xhk_worldark_ordinance_flight_decks_desc: "$zone_ark_flight_decks_desc$"
+
+ zone_xhk_worldark_ordinance_full_batteries: "Massed Armaments"
+ zone_xhk_worldark_ordinance_full_batteries_desc: "A specific focus on one weapon type results in potential deficiencies, instead focus on a holistic weapon loadout, at the cost of more resources."
 
  zone_xhk_worldark_supertensiles: "$flavor_xhk_worldark_supertensiles_name$"
  zone_xhk_worldark_supertensiles_desc: "$building_giga_megaworkshop_hub_desc$"
