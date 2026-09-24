@@ -232,6 +232,7 @@ zone_xhk_worldark_reactspeed = {
         fallen_empire_generator
     }
     planet_modifier = {
+		planet_technician_energy_produces_add = -2
         ship_speed_from_technicians = 0.05 #does nothing by itself, check the technician job script
     }
     inline_script = {
@@ -277,6 +278,7 @@ zone_xhk_worldark_reactspeed_penrose = {
 		fallen_empire_generator
 	}
 	planet_modifier = {
+		planet_technician_energy_produces_add = -2
 		ship_speed_from_technicians = 0.05 #does nothing by itself, check the technician job script
 	}
 	inline_script = {
