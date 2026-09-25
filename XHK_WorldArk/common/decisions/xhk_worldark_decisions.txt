@@ -88,15 +88,14 @@ xhk_worldark_alloy_expansion_decision = {
 	}
 
 	potential = {
-		exists = owner
-		owner = {
+		owner? = {
 			xhk_has_worldark_origin = yes
-		}
-		if = {
-			limit = {
-				has_global_flag = @giga_amb_flag
+			if = {
+				limit = {
+					has_global_flag = @giga_amb_flag
+				}
+				has_technology = giga_tech_amb_supertensiles
 			}
-			has_technology = giga_tech_amb_supertensiles
 		}
 		is_planet_class = xhk_pc_worldark
 	}
