@@ -34,8 +34,8 @@
  xhk_worldark_docs_expansion_desc_2: "$TABBED_NEW_LINE$- §G+[xhk_worldark_getDistrictIncreaseFromHarvest_small] £districtadd£District§! from the special §I$xhk_worldark_size_harvest$§! arkship action, when used on a stellar body."
  xhk_worldark_docs_expansion_desc_3: "$TABBED_NEW_LINE$      Increases size gain after specific $xhk_pc_worldark$ Upgrades."
  xhk_worldark_docs_expansion_desc_4: "$TABBED_NEW_LINE$- §G+4 £districtadd£Districts§! from each arkship claimed from another empire after a war, which are promptly dismantled."
- xhk_worldark_docs_expansion_desc_5: "$TABBED_NEW_LINE$- §G+1 £districtadd£District§! and §G+1 £construction_ship£Logistic Ship Capacity§! from the §I$xhk_worldark_add_logistics_ship$§! arkship decision."
- xhk_worldark_docs_expansion_desc_6: "\n  The following expansion methods §Rdo NOT grant extra growth jobs§!"
+ xhk_worldark_docs_expansion_desc_5: "\n  The following expansion methods §Rdo NOT grant extra growth jobs§!"
+ xhk_worldark_docs_expansion_desc_6: "$TABBED_NEW_LINE$- §G+3 £districtadd£District§! and §G+1 £construction_ship£Logistic Ship Capacity§! per use of the §I$xhk_worldark_add_logistics_ship$§! arkship decision."
  xhk_worldark_docs_expansion_desc_7: "$TABBED_NEW_LINE$- §G+5 £districtadd£Districts§! per $xhk_pc_worldark$ level."
  xhk_worldark_docs_expansion_desc_8: "$TABBED_NEW_LINE$- §G+2 £districtadd£Districts§! per usage of §I$xhk_worldark_alloy_expansion_decision$§! decision (unlocked with §I$tech_mega_engineering$§!)."
  xhk_worldark_docs_expansion_desc_9: "\n\nThe §I$xhk_worldark_size_harvest$§! action should be taken frequently in order to continue to grow the $xhk_pc_worldark$."
@@ -67,9 +67,10 @@
  xhk_worldark_docs_population_desc_machine_3: "$TABBED_NEW_LINE$- §IRogue Servitor§! Civic: §G+50 $job_xhk_worldark_extra_healthcare_drone_plural$§! per 100 Pop Growth Jobs."
  xhk_worldark_docs_population_desc_machine_4: "$TABBED_NEW_LINE$- §IVirtual Ascension§!: §RLose ALL§! Pop Growth Jobs (Except for $job_xhk_worldark_extra_healthcare_drone_plural$)."
 
- xhk_worldark_docs_population_desc_indiv_machine: "$xhk_worldark_docs_population_desc_indiv_machine_1$$xhk_worldark_docs_population_desc_indiv_machine_2$"
- xhk_worldark_docs_population_desc_indiv_machine_1: "\n§3Individualist Machine Empire§!: Base of §G+75 $job_roboticist_plural$§! per 100 Pop Growth Jobs."
- xhk_worldark_docs_population_desc_indiv_machine_2: "$TABBED_NEW_LINE$- §IVirtual Ascension§!: §RLose ALL§! Pop Growth Jobs."
+ xhk_worldark_docs_population_desc_indiv_machine: "$xhk_worldark_docs_population_desc_indiv_machine_1$$xhk_worldark_docs_population_desc_indiv_machine_2$$xhk_worldark_docs_population_desc_indiv_machine_3$"
+ xhk_worldark_docs_population_desc_indiv_machine_1: "\n§3Individualist Machine / Synthetic Empire§!: Base of §G+75 $job_roboticist_plural$§! per 100 Pop Growth Jobs."
+ xhk_worldark_docs_population_desc_indiv_machine_2: "$TABBED_NEW_LINE$- Cloning Vats: §G+50 $job_xhk_worldark_extra_healthcare_plural$§! per 100 Pop Growth Jobs."
+ xhk_worldark_docs_population_desc_indiv_machine_3: "$TABBED_NEW_LINE$- §IVirtual Ascension§!: §RLose ALL§! Pop Growth Jobs."
 
  ####################
  # DISTRICTS + ZONES
@@ -172,7 +173,7 @@
  xhk_worldark_docs_special_civic_desc_norm_tankbound: "\n§1$civic_tankbound$§!: $xhk_worldark_special_civic_doc_tankbound$"
  xhk_worldark_docs_special_civic_desc_norm_death: "\n§1$civic_death_cult$§!: Each §Y$district_xhk_worldark_unity_spiritualist$§! grants §G50 $job_mortal_initiate_plural$§! if a building that grants them is present."
  xhk_worldark_docs_special_civic_desc_norm_experiment: "\n§1$civic_twisted_experimenters$§!: Each §Y$district_xhk_worldark_research$§! grants §G25 $job_experiment_engineer_plural$§! and §G25 $job_test_subject_plural$§! if a building that grants them is present."
- xhk_worldark_docs_special_civic_desc_norm_noble: "\n§1$civic_aristocratic_elite$§!: Each §Y$district_xhk_worldark_city$§! grants §G25 $job_noble_plural$§! if a §Y$building_noble_estates$§! is preset."
+ xhk_worldark_docs_special_civic_desc_norm_noble: "\n§1$civic_aristocratic_elite$§!: Each §Y$district_xhk_worldark_city$§! grants §G25 $job_noble_plural$§! if a §Y$building_noble_estates$§! is present."
 
  xhk_worldark_docs_special_civic_desc_corp: "\n§3Megacorp Empire§!:$xhk_worldark_docs_special_civic_desc_corp_vampire$$xhk_worldark_docs_special_civic_desc_corp_tankbound$$xhk_worldark_docs_special_civic_desc_corp_death$$xhk_worldark_docs_special_civic_desc_corp_experiment$"
  xhk_worldark_docs_special_civic_desc_corp_vampire: "\n§1$civic_entropy_drinkers_corporate$§!: $xhk_worldark_special_civic_doc_vampire_norm$"

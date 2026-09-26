@@ -182,3 +182,18 @@ district_xhk_worldark_ordinance_fighter = {
         text = zone_ark_flight_decks_desc
     }
 }
+district_xhk_worldark_full_batteries = {
+	icon = district_ark_military
+	gridbox = district_arcology_fortress
+	overlay_icon = GFX_district_damage
+	inline_script = {
+		script = xhk_worldark/districts/district_swap
+	}
+
+	triggered_name = {
+		text = zone_xhk_worldark_ordinance_full_batteries
+	}
+	triggered_flavor_desc = {
+		text = zone_xhk_worldark_ordinance_full_batteries_desc
+	}
+}

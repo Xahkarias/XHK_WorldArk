@@ -57,7 +57,7 @@ defined_text = {
 defined_text = {
     name = xhk_worldark_getPopulationDocumentation
     text = {
-        trigger = { is_individual_machine = yes }
+        trigger = { is_synthetic_empire = yes }
         localization_key = xhk_worldark_docs_population_desc_indiv_machine
     }
     text = {

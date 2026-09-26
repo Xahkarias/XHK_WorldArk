@@ -32,8 +32,6 @@ xhk_worldark_extra_healthcare = {
 				owner = {
 					is_regular_empire = yes
 					xhk_has_worldark_origin = yes
-					is_synthetic_empire = no
-					is_individual_machine = no
 				}
 				# added stop if population controls
 				NOT = { has_modifier = planet_population_control }
@@ -47,8 +45,6 @@ xhk_worldark_extra_healthcare = {
 			owner = {
 				is_regular_empire = yes
 				xhk_has_worldark_origin = yes
-				is_synthetic_empire = no
-				is_individual_machine = no
 			}
 			# added stop if population controls
 			NOT = { has_modifier = planet_population_control }
@@ -65,8 +61,6 @@ xhk_worldark_extra_healthcare = {
 				owner = {
 					is_regular_empire = yes
 					xhk_has_worldark_origin = yes
-					is_individual_machine = no
-					is_synthetic_empire = no
 				}
 				# added stop if population controls
 				NOT = { has_modifier = planet_population_control }
@@ -81,8 +75,6 @@ xhk_worldark_extra_healthcare = {
 			owner = {
 				is_regular_empire = yes
 				xhk_has_worldark_origin = yes
-				is_individual_machine = no
-				is_synthetic_empire = no
 			}
 			# added stop if population controls
 			NOT = { has_modifier = planet_population_control }
@@ -99,8 +91,6 @@ xhk_worldark_extra_healthcare = {
 				owner = {
 					is_regular_empire = yes
 					xhk_has_worldark_origin = yes
-					is_individual_machine = no
-					is_synthetic_empire = no
 					has_cloning_tradition = yes
 				}
 				# added stop if population controls
@@ -116,8 +106,6 @@ xhk_worldark_extra_healthcare = {
 			owner = {
 				is_regular_empire = yes
 				xhk_has_worldark_origin = yes
-				is_individual_machine = no
-				is_synthetic_empire = no
 				has_cloning_tradition = yes
 			}
 			# added stop if population controls

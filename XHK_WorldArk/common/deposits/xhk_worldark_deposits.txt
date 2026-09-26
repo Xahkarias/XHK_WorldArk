@@ -146,6 +146,7 @@ d_xhk_worldark_base = {
 	# 0.01 if cloning facility
 	# 0.005 if cloning ascension
 # invid machine = 0.75 roboticists (0.015)
+	# 0.005 if cloning facility
 
 # extra stuff:
 	# gets 0.25 reassigner if zombie
@@ -210,6 +211,22 @@ d_xhk_worldark_pop_standard = {
         job_roboticist_add = 0.75
         multiplier = modifier:xhk_worldark_growth_job_add
     }
+
+	# synths but have cloning
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				xhk_has_worldark_origin = yes
+				is_synthetic_empire = yes
+				is_virtual_empire = no
+			}
+			xhk_worldark_has_cloning_assembly_facilities = yes
+		}
+		job_xhk_worldark_extra_healthcare_add = 0.50
+		multiplier = modifier:xhk_worldark_growth_job_add
+	}
 
     # zombies
     # tack on top
@@ -465,8 +482,7 @@ d_xhk_worldark_logistic_ship_bay = {
 	triggered_planet_modifier = {
 		potential = { always = yes }
 		xhk_worldark_expansion_count = 1
-		planet_artificial_max_districts_add = 1
-		xhk_worldark_growth_job_add = @xhk_growth_job_per_increase
+		planet_artificial_max_districts_add = 3
 		multiplier = xhk_worldark_logistics_expansions
 	}
 
