@@ -194,3 +194,90 @@ giga_nomad_war_moon_possible_construction = {
 		has_starbase_module = xhk_worldark_corespinal_shipyard
 	}
 }
+
+giga_birch_manager_orytka_energy_efficiency = {
+	OR = {
+		has_zone = { zone = zone_giga_birch_orykta_insula_energy }
+		has_building = building_xhk_worldark_birch_orykta_energy
+	}
+}
+giga_birch_manager_orytka_minerals_efficiency = {
+	OR = {
+		has_zone = { zone = zone_giga_birch_orykta_insula_minerals }
+		has_building = building_xhk_worldark_birch_orykta_minerals
+	}
+}
+giga_birch_manager_orytka_refinery_efficiency = {
+	OR = {
+		has_zone = { zone = zone_giga_birch_orykta_insula_refinery }
+		has_building = building_xhk_worldark_birch_orykta_refinery
+	}
+}
+giga_birch_manager_orytka_dark_matter_efficiency = {
+	OR = {
+		has_zone = { zone = zone_giga_birch_orykta_insula_dark_matter }
+		has_building = building_xhk_worldark_birch_orykta_dark_matter
+	}
+}
+giga_birch_manager_orytka_negative_mass_efficiency = {
+	OR = {
+		has_zone = { zone = zone_giga_birch_orykta_insula_negative_mass }
+		has_building = building_xhk_worldark_birch_orykta_negative_mass
+	}
+}
+
+giga_birch_manager_ktisma_foundry_efficiency = {
+	OR = {
+		has_zone = { zone = zone_giga_birch_ktisma_insula_foundry }
+		has_building = building_xhk_worldark_birch_ktisma_foundry
+	}
+}
+giga_birch_manager_ktisma_factory_efficiency = {
+	OR = {
+		has_zone = { zone = zone_giga_birch_ktisma_insula_factory }
+		has_building = building_xhk_worldark_birch_ktisma_factory
+	}
+}
+giga_birch_manager_ktisma_trade_efficiency = {
+	OR = {
+		has_zone = { zone = zone_giga_birch_ktisma_insula_trade }
+		has_building = building_xhk_worldark_birch_ktisma_trade
+	}
+}
+giga_birch_manager_ktisma_supertensiles_efficiency = {
+	OR = {
+		has_zone = { zone = zone_giga_birch_ktisma_insula_supertensiles }
+		has_building = building_xhk_worldark_birch_ktisma_supertensiles
+	}
+}
+giga_birch_manager_ktisma_sentient_metal_efficiency = {
+	OR = {
+		has_zone = { zone = zone_giga_birch_ktisma_insula_sentient_metal }
+		has_building = building_xhk_worldark_birch_ktisma_sentient_metal
+	}
+}
+
+giga_birch_manager_physma_farm_efficiency = {
+	OR = {
+		has_zone = { zone = zone_giga_birch_physma_insula_farm }
+		has_building = building_xhk_worldark_birch_physma_farm
+	}
+}
+giga_birch_manager_physma_laboratory_efficiency = {
+	OR = {
+		has_zone = { zone = zone_giga_birch_physma_insula_laboratory }
+		has_building = building_xhk_worldark_birch_physma_laboratory
+	}
+}
+giga_birch_manager_physma_administration_efficiency = {
+	OR = {
+		has_zone = { zone = zone_giga_birch_physma_insula_administration }
+		has_building = building_xhk_worldark_birch_physma_administration
+	}
+}
+giga_birch_manager_physma_fortress_efficiency = {
+	OR = {
+		has_zone = { zone = zone_giga_birch_physma_insula_fortress }
+		has_building = building_xhk_worldark_birch_physma_fortress
+	}
+}

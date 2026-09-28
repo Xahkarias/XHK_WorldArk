@@ -156,3 +156,50 @@ slot_xhk_worldark_utilbay = {
 	}
 	unlock = { always = yes }
 }
+
+#BIRCH
+slot_xhk_worldark_birchextra = {
+	start = zone_xhk_worldark_birchextra
+	include = {
+		zone_xhk_worldark_birchextra
+	}
+	unlock = {                              # Trigger that defines whether the slot is unlocked on the planet. Scope = Planet.
+		always = yes
+	}
+}
+slot_xhk_worldark_orykta = {
+	start = zone_xhk_worldark_orykta
+	include = {
+		zone_xhk_worldark_orykta
+	}
+	unlock = {                              # Trigger that defines whether the slot is unlocked on the planet. Scope = Planet.
+		always = yes
+	}
+}
+slot_xhk_worldark_ktisma = {
+	start = zone_xhk_worldark_ktisma
+	include = {
+		zone_xhk_worldark_ktisma
+	}
+	unlock = {                              # Trigger that defines whether the slot is unlocked on the planet. Scope = Planet.
+		always = yes
+	}
+}
+slot_xhk_worldark_physma = {
+	start = zone_xhk_worldark_physma
+	include = {
+		zone_xhk_worldark_physma
+	}
+	unlock = {                              # Trigger that defines whether the slot is unlocked on the planet. Scope = Planet.
+		always = yes
+	}
+}
+slot_xhk_worldark_stratia = {
+	start = zone_xhk_worldark_birch_empty
+	include = {
+		zone_xhk_worldark_birch_empty
+	}
+	unlock = {                              # Trigger that defines whether the slot is unlocked on the planet. Scope = Planet.
+		always = yes
+	}
+}

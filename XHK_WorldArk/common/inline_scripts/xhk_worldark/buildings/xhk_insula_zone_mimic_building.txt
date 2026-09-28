@@ -1,0 +1,36 @@
+building_xhk_worldark_birch_$INSULA$_$TYPE$ = {
+    base_buildtime = @b2_time
+    category = manufacturing
+    empire_limit = 1
+
+    building_sets = {
+		xhk_worldark_$INSULA$
+    }
+
+    resources = {
+        category = planet_buildings
+        cost = {
+            minerals = @b2_minerals
+        }
+    }
+
+    potential = {
+        is_planet_class = xhk_pc_worldark
+		has_carrier_flag = xhk_worldark_birch_flag
+    }
+
+    allow = { has_major_upgraded_capital = yes }
+
+	triggered_desc = {
+		trigger = { exists = owner owner = { is_gestalt = no } }
+		text = zone_giga_birch_$INSULA$_insula_$TYPE$_effect
+	}
+	triggered_desc = {
+		trigger = { exists = owner owner = { is_gestalt = yes } }
+		text = zone_giga_birch_$INSULA$_insula_$TYPE$_effect_gestalt
+	}
+
+    planet_modifier = {
+        $PLANET_MOD$
+    }
+}
