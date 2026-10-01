@@ -2,6 +2,8 @@ overwrites:
 
 common/buildings:
 	building_cryovault: shared with frame fix
+common/casus_belli:
+	cb_colossus
 common/game_rules:
 	can_nomad_settle: low prio to prevent settling
 common/inline_scripts:
