@@ -603,6 +603,10 @@ xhk_worldark_corespinal_planeteater_dismantle_world = {
 			is_colony = no
 		}
 		custom_tooltip = {
+			fail_text = xhk_worldark_is_artificial_fail_tt
+			is_artificial = no
+		}
+		custom_tooltip = {
 			fail_text = arkship_target_not_surveyed_fail_tt
 			is_surveyed = {
 				who = from
