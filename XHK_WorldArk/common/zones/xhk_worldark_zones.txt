@@ -1682,7 +1682,7 @@ zone_xhk_worldark_physma = {
 
 	ai_priority = 1
 }
-zone_xhk_worldark_birch_empty = {
+zone_xhk_worldark_stratia = {
 	icon = GFX_zone_xhk_worldark_empty
 
 	potential = {
@@ -1702,4 +1702,4 @@ zone_xhk_worldark_birch_empty = {
 	max_buildings = 0
 
 	ai_priority = 1
-} # intentionally empty loc
+}

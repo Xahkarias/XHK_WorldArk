@@ -11,8 +11,8 @@
  zone_xhk_worldark_ktisma_desc: "Support complexes to enhance the manufacturing industries of the $xhk_pc_worldark$."
  zone_xhk_worldark_physma: "Physma Support"
  zone_xhk_worldark_physma_desc: "Support complexes to enhance the intellectual industries of the $xhk_pc_worldark$."
- zone_xhk_worldark_birch_empty: ""
- zone_xhk_worldark_birch_empty_desc: "§RLITERALLY NOTHING§!, INTENTIONALLY LEFT BLANK."
+ zone_xhk_worldark_stratia: ""
+ zone_xhk_worldark_stratia_desc: "§RLITERALLY NOTHING§!, INTENTIONALLY LEFT BLANK."
 
  building_xhk_worldark_birch_orykta_energy: "$zone_giga_birch_orykta_insula_energy$"
  building_xhk_worldark_birch_orykta_energy_desc: "$zone_giga_birch_orykta_insula_energy_desc$"
