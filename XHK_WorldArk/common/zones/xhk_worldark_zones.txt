@@ -1534,7 +1534,7 @@ zone_xhk_worldark_orykta = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = @zone_cost
+			alloys = 20000
 		}
 	}
 
@@ -1588,7 +1588,7 @@ zone_xhk_worldark_ktisma = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = @zone_cost
+			alloys = 20000
 		}
 	}
 
@@ -1642,7 +1642,7 @@ zone_xhk_worldark_physma = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = @zone_cost
+			alloys = 20000
 		}
 	}
 

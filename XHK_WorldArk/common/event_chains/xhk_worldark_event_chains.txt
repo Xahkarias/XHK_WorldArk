@@ -3,3 +3,9 @@ xhk_worldark_docs_chain = {
     picture = GFX_evt_arkship_bridge
     situation_log_category = xhk_worldark_situation_category
 }
+
+xhk_worldark_birchark_chain = {
+	icon = "gfx/interface/icons/situation_log/situation_log_main_quest.dds"
+	picture = GFX_evt_birch
+	situation_log_category = xhk_worldark_situation_category
+}

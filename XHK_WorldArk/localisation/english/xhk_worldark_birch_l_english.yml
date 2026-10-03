@@ -3,7 +3,14 @@
  district_xhk_worldark_birch: "Birch Ark Insula"
  district_xhk_worldark_birch_plural: "Birch Ark Insulae"
  district_xhk_worldark_birch_desc: "A massive planet sized continent, lifted from the Birch to the $xhk_pc_worldark$ and used as a support facility for the $xhk_pc_worldark$'s myriad industries."
+ district_xhk_worldark_birch_proto_desc_main: "§RCurrently lacks most functionality, progress further in the§! §I$xhk_worldark_situation_birchark$ Situation§! §Rto gain more features.§!"
+ district_xhk_worldark_birch_proto_desc_0: "$district_xhk_worldark_birch_proto_desc_main$\n\n§ILocked features:$TABBED_NEW_LINE$- Orykta Bonuses$TABBED_NEW_LINE$- Ktisma Bonuses$TABBED_NEW_LINE$- Physma Bonuses$TABBED_NEW_LINE$- Focus Buildings§!"
+ district_xhk_worldark_birch_proto_desc_1: "$district_xhk_worldark_birch_proto_desc_main$\n\n§ILocked features:$TABBED_NEW_LINE$- Ktisma Bonuses$TABBED_NEW_LINE$- Physma Bonuses$TABBED_NEW_LINE$- Focus Buildings§!"
+ district_xhk_worldark_birch_proto_desc_2: "$district_xhk_worldark_birch_proto_desc_main$\n\n§ILocked features:$TABBED_NEW_LINE$- Physma Bonuses$TABBED_NEW_LINE$- Focus Buildings§!"
+ district_xhk_worldark_birch_proto_desc_3: "$district_xhk_worldark_birch_proto_desc_main$\n\n§ILocked features:$TABBED_NEW_LINE$- Focus Buildings§!"
+
  flavor_xhk_worldark_birch_name: "Enhanced Support Systems"
+ flavor_xhk_worldark_birch_proto_name: "Prototype Support Systems"
 
  zone_xhk_worldark_orykta: "Orykta Support"
  zone_xhk_worldark_orykta_desc: "Support complexes to enhance the extractive industries of the $xhk_pc_worldark$."
@@ -13,6 +20,7 @@
  zone_xhk_worldark_physma_desc: "Support complexes to enhance the intellectual industries of the $xhk_pc_worldark$."
  zone_xhk_worldark_stratia: ""
  zone_xhk_worldark_stratia_desc: "§RLITERALLY NOTHING§!, INTENTIONALLY LEFT BLANK."
+ zone_xhk_worldark_birch_unlock_tt: "Unlock through §I$xhk_worldark_situation_birchark$§! Situation"
 
  building_xhk_worldark_birch_orykta_energy: "$zone_giga_birch_orykta_insula_energy$"
  building_xhk_worldark_birch_orykta_energy_desc: "$zone_giga_birch_orykta_insula_energy_desc$"
@@ -44,3 +52,57 @@
  building_xhk_worldark_birch_physma_administration_desc: "$zone_giga_birch_physma_insula_administration_desc$"
  building_xhk_worldark_birch_physma_fortress: "$zone_giga_birch_physma_insula_fortress$"
  building_xhk_worldark_birch_physma_fortress_desc: "$zone_giga_birch_physma_insula_fortress_desc$"
+
+ # situation annoying loc
+ xhk_worldark_situation_birchark: "$xhk_pc_worldark$ Birch Integration"
+ xhk_worldark_situation_birchark_type: "$xhk_worldark_situation_birchark$"
+ xhk_worldark_situation_birchark_desc: "It is evident that the technologies of the §IBirch World§! drastically improve productivity. The question is now if we can put them to work on the §I$xhk_pc_worldark$§!."
+
+ xhk_worldark_situation_birchark_stage_viability: "Conducting feasibility analysis for the best way to integrate §IBirch World§! support facilities."
+ xhk_worldark_situation_birchark_stage_orykta: "Integrating the §IOrykta§! support facilities."
+ xhk_worldark_situation_birchark_stage_ktisma: "Integrating the §IKtisma§! support facilities."
+ xhk_worldark_situation_birchark_stage_physma: "Integrating the §IPhysma§! support facilities."
+ xhk_worldark_situation_birchark_stage_complete: "Integration of the Birch technologies into §I[target.GetName]§! will complete."
+
+ xhk_worldark_situation_birchark_monthly_change_tooltip:0 "The progress of this situation is dependent on the §YApproach§! we pick."
+ xhk_worldark_situation_birchark_approach_regular: "Standard Budget"
+ xhk_worldark_situation_birchark_approach_extra: "Expanded Budget"
+
+ xhk_worldark_situation_birchark_progress_extra: "Expanded Budget"
+ xhk_worldark_situation_birchark_progress_no_lvl: "Not $xhk_worldark_tier_12$"
+ xhk_worldark_situation_birchark_progress_no_district: "Missing §I$district_xhk_worldark_birch$§! District"
+ xhk_worldark_situation_birchark_progress_no_orykta: "Missing §I$zone_xhk_worldark_orykta$§! Zone"
+ xhk_worldark_situation_birchark_progress_no_ktisma: "Missing §I$zone_xhk_worldark_ktisma$§! Zone"
+ xhk_worldark_situation_birchark_progress_no_physma: "Missing §I$zone_xhk_worldark_physma$§! Zone"
+
+ # events
+ xhk_worldark_birchark.002.title: "Possibility of $xhk_pc_worldark$ Birch Integration"
+ xhk_worldark_birchark.002.desc: "PLACEHOLDER"
+ xhk_worldark_birchark.003.desc: "PLACEHOLDER"
+ xhk_worldark_birchark.002.a: ""
+
+ # situation events
+ xhk_worldark_birchark.1001.title: "Birch Integration: Feasible"
+ xhk_worldark_birchark.1001.desc: "Through our analysis of the Birch World's systems, we have concluded that it is possible to integrate them into the $xhk_pc_worldark$. Space must be allocated for further analysis."
+ xhk_worldark_birchark.1001.a: "Good."
+ xhk_worldark_birchark.1001.att: "The §I$district_xhk_worldark_birch$ District§! must be constructed to continue."
+
+ xhk_worldark_birchark.1002.title: "Birch Integration: Orykta Ready"
+ xhk_worldark_birchark.1002.desc: "While the $xhk_pc_worldark$ does not surround a supermassive black hole like the Birch World does, and thus cannot use the Orykta extraction technologies, it is possible to adapt them for the $xhk_pc_worldark$. Using negative density micro-black holes in our extraction facilities allows for increased efficiency."
+ xhk_worldark_birchark.1002.a: "This shall be done."
+ xhk_worldark_birchark.1002.att: "The §I$zone_xhk_worldark_orykta$ Zone§! must be constructed to continue."
+
+ xhk_worldark_birchark.1003.title: "Birch Integration: Ktisma Ready"
+ xhk_worldark_birchark.1003.desc: "The Birch World increases manufacturing efficiency through intelligent placement of facilities, as well as its superior technology. While we can implement the technological upgrades, moving around the existing facilities on the $xhk_pc_worldark$ will be a painful but necessary task."
+ xhk_worldark_birchark.1003.a: "This shall be done."
+ xhk_worldark_birchark.1003.att: "The §I$zone_xhk_worldark_ktisma$ Zone§! must be constructed to continue."
+
+ xhk_worldark_birchark.1004.title: "Birch Integration: Physma Ready"
+ xhk_worldark_birchark.1004.desc: "The Birch World serves as a vast repository of knowledge and computation. Its Physma infrastructure allows scientific facilities to share resources on an unprecedented scale. Integrating these systems into the $xhk_pc_worldark$ will require the construction of a vast computational network, linking researchers and systems into a single scientific apparatus."
+ xhk_worldark_birchark.1004.a: "This shall be done."
+ xhk_worldark_birchark.1004.att: "The §I$zone_xhk_worldark_physma$ Zone§! must be constructed to continue."
+
+ xhk_worldark_birchark.1010.title: "Birch Integration: Complete"
+ xhk_worldark_birchark.1010.desc: "Birch World systems have been fully integrated into the $xhk_pc_worldark$. We now benefit from greatly increased efficiency in all our pursuits."
+ xhk_worldark_birchark.1010.a: "Finally."
+ xhk_worldark_birchark.1010.att: "The §IBirch Focus Buildings§! are now unlocked."

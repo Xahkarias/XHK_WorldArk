@@ -7,7 +7,7 @@ slot_xhk_worldark_urban0 = {
     unlock = {
         custom_tooltip = {
             fail_text = zone_xhk_unavailable_tier3
-            owner.capital_scope.carrier.starbase = {
+            colony.carrier.starbase = {
                 has_starbase_size >= xhk_worldark_tier_3
             }
         }
@@ -21,7 +21,7 @@ slot_xhk_worldark_urban1 = {
     unlock = {
         custom_tooltip = {
             fail_text = zone_xhk_unavailable_tier6
-            owner.capital_scope.carrier.starbase = {
+			colony.carrier.starbase = {
                 has_starbase_size >= xhk_worldark_tier_6
             }
         }
@@ -172,7 +172,10 @@ slot_xhk_worldark_orykta = {
 		zone_xhk_worldark_orykta
 	}
 	unlock = {                              # Trigger that defines whether the slot is unlocked on the planet. Scope = Planet.
-		always = yes
+		custom_tooltip = {
+			fail_text = zone_xhk_worldark_birch_unlock_tt
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_orykta }
+		}
 	}
 }
 slot_xhk_worldark_ktisma = {
@@ -180,7 +183,10 @@ slot_xhk_worldark_ktisma = {
 		zone_xhk_worldark_ktisma
 	}
 	unlock = {                              # Trigger that defines whether the slot is unlocked on the planet. Scope = Planet.
-		always = yes
+		custom_tooltip = {
+			fail_text = zone_xhk_worldark_birch_unlock_tt
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_ktisma }
+		}
 	}
 }
 slot_xhk_worldark_physma = {
@@ -188,10 +194,14 @@ slot_xhk_worldark_physma = {
 		zone_xhk_worldark_physma
 	}
 	unlock = {                              # Trigger that defines whether the slot is unlocked on the planet. Scope = Planet.
-		always = yes
+		custom_tooltip = {
+			fail_text = zone_xhk_worldark_birch_unlock_tt
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_physma}
+		}
 	}
 }
 slot_xhk_worldark_stratia = {
+	start = zone_xhk_worldark_stratia
 	include = {
 		zone_xhk_worldark_stratia
 	}

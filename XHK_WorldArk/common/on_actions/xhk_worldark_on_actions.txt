@@ -20,6 +20,13 @@ on_monthly_pulse_country = {
     }
 }
 
+on_monthly_pulse = {
+	events = {
+		# check if birchark can start
+		xhk_worldark_birchark.001
+	}
+}
+
 # This = owner of ship 1 (combatant)
 # From = owner of ship 2 (destroyed)
 # FromFrom = ship 1 # can be invalid if damage is done via other methods (like scripted action)
