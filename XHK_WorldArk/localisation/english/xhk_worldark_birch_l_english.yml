@@ -67,6 +67,8 @@
  xhk_worldark_situation_birchark_monthly_change_tooltip:0 "The progress of this situation is dependent on the §YApproach§! we pick."
  xhk_worldark_situation_birchark_approach_regular: "Standard Budget"
  xhk_worldark_situation_birchark_approach_extra: "Expanded Budget"
+ xhk_worldark_situation_birchark_approach_frozen: "Progress Frozen"
+ xhk_worldark_situation_birchark_approach_frozen_desc: "§RUpgrade to a $xhk_worldark_tier_12$ to progress.§!"
 
  xhk_worldark_situation_birchark_progress_extra: "Expanded Budget"
  xhk_worldark_situation_birchark_progress_no_lvl: "Not $xhk_worldark_tier_12$"
@@ -77,9 +79,21 @@
 
  # events
  xhk_worldark_birchark.002.title: "Possibility of $xhk_pc_worldark$ Birch Integration"
- xhk_worldark_birchark.002.desc: "PLACEHOLDER"
- xhk_worldark_birchark.003.desc: "PLACEHOLDER"
- xhk_worldark_birchark.002.a: ""
+ xhk_worldark_birchark.002.desc: "With the defeat of the Aeternum, the Birch world is now under [event_target:aeternite_conqueror.GetName] control. However, this will not stop us from conducting a feasibility analysis of integrating this technology into the $xhk_pc_worldark$."
+ xhk_worldark_birchark.003.desc: "Rumors of the colonization of a Birch World have reached us, along with reports of the technologies within. We should conduct a feasibility analysis of integrating this technology into the $xhk_pc_worldark$."
+ xhk_worldark_birchark.002.a: "We must analyze the Birch World."
+
+ xhk_worldark_birchark.010.title: "Birch Analysis Complete"
+ xhk_worldark_birchark.010.desc: "Examination of the Birch World has shown that its systems are potentially compatible with the $xhk_pc_worldark$. Further research is required."
+ xhk_worldark_birchark.010.a: "Begin integration."
+ xhk_worldark_birchark.010.att: "Begins the §I$xhk_worldark_situation_birchark$§! situation."
+
+ xhk_worldark_birchark_chain_title: "Birch $xhk_pc_worldark$ Integration"
+ xhk_worldark_birchark_chain_desc: "" #intentionally blank
+
+ #project
+ XHK_WORLDARK_BIRCHARK_ANALYSIS: "§IBirch $xhk_pc_worldark$§! Analysis"
+ XHK_WORLDARK_BIRCHARK_ANALYSIS_DESC: "To analyze the feasibility of using Birch technology in the $xhk_pc_worldark$, we need to do scans of the Birch.\n\n§_The line below says that a starbase in orbit is needed, this means use the $xhk_pc_worldark$ for the special project.§!"
 
  # situation events
  xhk_worldark_birchark.1001.title: "Birch Integration: Feasible"

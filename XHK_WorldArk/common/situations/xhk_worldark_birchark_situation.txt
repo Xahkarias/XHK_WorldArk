@@ -82,16 +82,20 @@ xhk_worldark_situation_birchark = {
 		icon_background = GFX_situation_approach_bg_yellow
 		default = yes
 
+        potential = {
+            target.carrier.starbase = { has_starbase_size >= xhk_worldark_tier_12 }
+        }
+
 		modifier = {
 			country_energy_produces_mult = -0.10
 			country_alloys_produces_mult = -0.10
 		}
 		resources = {
 			upkeep = {
-				physics_research = 1000
-				society_research = 1000
-				engineering_research = 1000
-				unity = 1500
+				physics_research = 1500
+				society_research = 1500
+				engineering_research = 1500
+				unity = 2000
 			}
 		}
 	}
@@ -101,19 +105,33 @@ xhk_worldark_situation_birchark = {
 		icon = GFX_situation_approach_balance_sheet
 		icon_background = GFX_situation_approach_bg_green
 
+        potential = {
+            target.carrier.starbase = { has_starbase_size >= xhk_worldark_tier_12 }
+        }
+
 		modifier = {
 			country_energy_produces_mult = -0.15
 			country_alloys_produces_mult = -0.15
 		}
 		resources = {
 			upkeep = {
-				physics_research = 1500
-				society_research = 1500
-				engineering_research = 1500
-				unity = 2500
+				physics_research = 2500
+				society_research = 2500
+				engineering_research = 2500
+				unity = 3000
 			}
 		}
 	}
+
+    approach = {
+        name = xhk_worldark_situation_birchark_approach_frozen
+        icon = GFX_situation_approach_balance_sheet
+        icon_background = GFX_situation_approach_bg_red
+
+        potential = {
+            target.carrier.starbase = { has_starbase_size < xhk_worldark_tier_12 }
+        }
+    }
 
 	monthly_progress = {
 		base = 1

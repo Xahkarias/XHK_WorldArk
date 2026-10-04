@@ -94,21 +94,19 @@ country_event = {
 			}
 			save_event_target_as = xhk_worldark_birch_target
 		}
-		begin_event_chain = {
-			event_chain = xhk_worldark_birchark_chain
-			target = ROOT
-		}
-		create_point_of_interest = {
-			id = xhk_worldark_birchark_chain.request
-			name = "xhk_worldark_birchark_chain_request"
-			desc = "xhk_worldark_birchark_chain_request_desc"
-			event_chain = xhk_worldark_birchark_chain
-			location = event_target:xhk_worldark_birch_target
-		}
 	}
 
 	option = {
 		name = xhk_worldark_birchark.002.a
+        begin_event_chain = {
+            event_chain = xhk_worldark_birchark_chain
+            target = ROOT
+        }
+        enable_special_project = {
+            name = XHK_WORLDARK_BIRCHARK_ANALYSIS
+            location = event_target:xhk_worldark_birch_target
+            owner = root
+        }
 	}
 }
 # built birch
@@ -130,12 +128,10 @@ country_event = {
 			event_chain = xhk_worldark_birchark_chain
 			target = ROOT
 		}
-		create_point_of_interest = {
-			id = xhk_worldark_birchark_chain.request
-			name = "xhk_worldark_birchark_chain_request"
-			desc = "xhk_worldark_birchark_chain_request_desc"
-			event_chain = xhk_worldark_birchark_chain
+		enable_special_project = {
+			name = XHK_WORLDARK_BIRCHARK_ANALYSIS
 			location = event_target:xhk_worldark_birch_target
+			owner = root
 		}
 	}
 
@@ -145,9 +141,8 @@ country_event = {
 }
 
 
-
 ## debug event
-country_event = {
+ship_event = {
 	id = xhk_worldark_birchark.010
 	is_triggered_only = yes
 	title = xhk_worldark_birchark.010.title
@@ -155,15 +150,17 @@ country_event = {
 	picture = GFX_evt_birch
 
 	immediate = {
-		remove_point_of_interest = xhk_worldark_birchark_chain.request
-		end_event_chain = xhk_worldark_birchark_chain
-		start_situation = {
-			type = xhk_worldark_situation_birchark
-			target = capital_scope
+		owner = {
+			end_event_chain = xhk_worldark_birchark_chain
+			start_situation = {
+				type = xhk_worldark_situation_birchark
+				target = capital_scope
+			}
 		}
 	}
 	option = {
 		name = xhk_worldark_birchark.010.a
+        custom_tooltip = xhk_worldark_birchark.010.att
 	}
 }
 
