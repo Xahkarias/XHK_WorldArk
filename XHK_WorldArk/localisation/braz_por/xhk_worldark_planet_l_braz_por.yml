@@ -395,6 +395,9 @@
   d_xhk_worldark_harvest_size:99 "Planetary Harvest Expansion"
   d_xhk_worldark_harvest_size_desc:99 "The $xhk_pc_worldark$ has expanded by consuming those boring celestial bodies which boorishly move around their parent for eons."
   
+  d_xhk_worldark_habitat_size:99 "Habitat Dismantlement Expansion"
+  d_xhk_worldark_habitat_size_desc:99 "The $xhk_pc_worldark$ has expanded by consuming $pc_habitat_plural$."
+  
   d_xhk_worldark_dismantle_size:99 "Planetary Dismantlement Expansion"
   d_xhk_worldark_dismantle_size_desc:99 "More expedient than harvesting, dismantling celestial bodies proves to be a quicker way of expansion."
   
