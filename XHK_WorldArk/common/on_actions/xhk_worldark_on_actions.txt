@@ -56,6 +56,11 @@ xhk_on_size_harvest = {
     }
 }
 
+xhk_on_size_eat_habitat = {
+    events = {
+        xhk_worldark.5
+    }
+}
 
 # on_destroy_planet_with_PLANET_KILLER_CRACKER
 xhk_pk_world_cracker = {

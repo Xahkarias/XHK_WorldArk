@@ -52,6 +52,7 @@ enable_default_design = yes	#if yes, countries will have an auto-generated desig
 
 scripted_action = {
     xhk_worldark_size_harvest
+    xhk_worldark_size_eat_habitat
 	# colossus
 	xhk_worldark_pk_world_cracker
 	xhk_worldark_pk_global_pacifier

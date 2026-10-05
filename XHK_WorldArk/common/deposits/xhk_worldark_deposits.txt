@@ -403,6 +403,23 @@ d_xhk_worldark_harvest_size = {
 	potential = { always = no }
 }
 
+d_xhk_worldark_habitat_size = {
+    is_for_colonizable = yes
+    icon = d_ship_in_orbit
+    category = deposit_cat_misc
+    use_for_min_max_adjustments = yes
+
+    triggered_planet_modifier = {
+        potential = { always = yes }
+        xhk_worldark_expansion_count = 1
+        planet_artificial_max_districts_add = 4
+        multiplier = xhk_worldark_habitat_expansions
+    }
+
+    drop_weight = { weight = 0 }
+    potential = { always = no }
+}
+
 d_xhk_worldark_dismantle_size = {
 	is_for_colonizable = yes
 	icon = d_crater

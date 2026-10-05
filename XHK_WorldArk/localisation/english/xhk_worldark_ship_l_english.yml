@@ -68,6 +68,22 @@
  # arkship_harvesting_in_progress_tt: "$TRIGGER_FAIL$Target already has a Resource Harvesting action queued or in progress."
 
  ##############################################
+ # HARVEST HABITAT
+ xhk_worldark_size_eat_habitat: "Dismantle $pc_habitat$"
+ xhk_worldark_size_eat_habitat_desc: "§LThe $xhk_pc_worldark$ can be expanded by consuming a $pc_habitat$§!."
+ xhk_worldark_size_eat_habitat_effect: "$XHK_SIZE_EAT_HABITAT_EFFECTS_HEADER$ $xhk_worldark_size_eat_habitat_base_effect$ $xhk_worldark_size_eat_habitat_planet_effect$"
+ XHK_SIZE_EAT_HABITAT_EFFECTS_HEADER: "§E£arkship£§!§Y$xhk_worldark_size_eat_habitat$§! Effects:"
+ xhk_worldark_size_eat_habitat_base_effect: "$TABBED_NEW_LINE$- £districtadd£§IMax Districts§! on the §I$xhk_pc_worldark$§!: §G+4§!"
+ xhk_worldark_size_eat_habitat_planet_effect: "$DOUBLE_NEW_LINE$ $PLANET_EFFECTS_HEADER$ $TABBED_NEW_LINE$- §RDestroys the uncolonized unclaimed $pc_habitat$.§!"
+ xhk_worldark_size_eat_habitat_ship_button: "$xhk_worldark_size_eat_habitat_effect$\n\n$xhk_worldark_size_eat_habitat_desc$"
+ xhk_worldark_size_eat_habitat_activity_key: "Dismantling Habitat"
+ xhk_worldark_size_eat_habitat_progress_activity_key: "Dismantling Habitat (§Y$PROGRESS$%§!)"
+ xhk_worldark_size_eat_habitat_progress_progress_key: "£time£ $@arkship_strip_mine_required_progress|0$ §WDays§!"
+
+ XHK_TOAST_CONSUME_HABITAT_COMPLETE_TITLE: "$xhk_pc_worldark$ Expanded"
+ XHK_TOAST_CONSUME_HABITAT_COMPLETE_DESC: "The §Y$FLEET$§! has expanded its size by dismantling an $pc_habitat$."
+
+ ##############################################
  # PLANET KILLER
  xhk_pk_world_cracker_activity_key: "Firing $PLANET_KILLER_CRACKER$"
  xhk_pk_world_cracker: "Integrated $PLANET_KILLER_CRACKER$"

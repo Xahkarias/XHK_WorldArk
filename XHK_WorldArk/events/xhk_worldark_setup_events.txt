@@ -414,6 +414,10 @@ country_event = {
                 which = xhk_worldark_logistics_expansions
                 value = 0
             }
+            set_variable = {
+                which = xhk_worldark_habitat_expansions
+                value = 0
+            }
         }
 
         ################################################################################################################
