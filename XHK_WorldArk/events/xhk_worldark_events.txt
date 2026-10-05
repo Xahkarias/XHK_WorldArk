@@ -162,7 +162,10 @@ planet_event = {
         solar_system = {
             every_system_megastructure = {
                 limit = {
-                    is_megastructure_type = habitat_minor_orbital
+                    OR = {
+                        is_megastructure_type = habitat_minor_orbital
+                        is_megastructure_type = habitat_major_orbital
+                    }
                 }
                 delete_megastructure = this
             }
