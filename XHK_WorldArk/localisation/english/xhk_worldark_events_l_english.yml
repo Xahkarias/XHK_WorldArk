@@ -245,6 +245,6 @@
 
 ### WHYYY
  xhk_worldark_setup.2.title: "§RIMPORTANT NOTE§!"
- xhk_worldark_setup.2.desc: "§2TLDR:§! §RUNPAUSE YOUR GAME FOR 1 DAY AND THEN REPAUSE BEFORE DOING ANYTHING§!\n\nDue to a bug introduced in Stellaris v4.5.2, this origin will crash if I do the initial setup on day 0. This is fixed by having the setup event run 1 day after game start, so §Cunpause your game for 1 day§! to let the §CWorld Ark setup event run§!."
+ xhk_worldark_setup.2.desc: "§2TLDR:§! §RUNPAUSE YOUR GAME FOR 1 DAY BEFORE DOING ANYTHING§!\n\nDue to a bug introduced in Stellaris v4.5.2, this origin will crash if I do the initial setup on day 0. This is fixed by having the setup event run 1 day after game start, so §Cunpause your game for 1 day§! to let the §CWorld Ark setup event run§!."
  xhk_worldark_setup.2.a: "§RI WILL UNPAUSE THE GAME FOR 1 DAY TO LET SETUP COMPLETE§!"
  xhk_worldark_setup.2.att: "If you ignore this and start building stuff on your arkship and then it gets deleted due to the setup event don't blame me, you had ample warning."

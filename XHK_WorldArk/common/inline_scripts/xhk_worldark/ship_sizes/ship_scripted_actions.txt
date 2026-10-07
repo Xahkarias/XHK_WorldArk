@@ -1,0 +1,15 @@
+# put into an inline for easy reuse by any upgrades not made by me
+scripted_action = {
+    xhk_worldark_size_harvest
+    xhk_worldark_size_eat_habitat
+    # colossus
+    xhk_worldark_pk_world_cracker
+    xhk_worldark_pk_global_pacifier
+    xhk_worldark_pk_neutron_sweep
+    xhk_worldark_pk_divine_enforcer
+    xhk_worldark_pk_nanobot_diffuser
+    xhk_worldark_pk_devolution_beam
+    xhk_worldark_pk_planet_smelter
+    # core spinal
+    xhk_worldark_corespinal_planeteater_dismantle_world
+}
