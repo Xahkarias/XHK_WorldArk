@@ -1421,7 +1421,7 @@ zone_xhk_worldark_storage = {
             always = yes
         }
         country_resource_max_add = 10000
-        situation_nomad_economy_max_progress_add = 1000
+        situation_nomad_economy_max_progress_add = 2000
     }
     triggered_district_country_modifier = {
         potential = {
@@ -1484,4 +1484,222 @@ zone_xhk_worldark_utilbay = {
 	zone_sets = {
 		xhk_worldark_utilbay
 	}
+}
+
+
+#################################################################################################################
+## BIRCH BIRCH
+#################################################################################################################
+
+zone_xhk_worldark_birchextra = {
+	unlock = {
+		always = yes
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = @zone_cost
+		}
+	}
+
+	included_building_sets = {
+		urban
+		government
+		origin
+		rural
+		mining
+		generator
+		research
+		unity
+		amenities
+		giga_refinery
+		factory
+		industrial
+		foundry
+	}
+
+	max_buildings = 6
+
+	ai_priority = 15
+	icon = GFX_district_specialization_urban
+}
+zone_xhk_worldark_orykta = {
+	icon = GFX_zone_xhk_worldark_orykta
+
+	unlock = {
+		always = yes
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = 20000
+		}
+	}
+
+	max_buildings = 2
+
+	included_building_sets = {
+		xhk_worldark_orykta
+	}
+
+	planet_modifier = {
+		zone_building_slots_add = 2
+	}
+	# this adds the general stuff per manager, but not the specific zone job eff bonuses
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		giga_birch_orykta_jobs_bonus_workforce_mult = 1
+		mult = modifier:giga_birch_orykta_jobs_bonus_workforce_mult_fake
+	}
+
+	# specific job eff bonuses
+	inline_script = {
+		script = generic_parts/modifiers/giga_fake_static_modifier
+		modifier = technician_jobs_bonus_workforce_mult
+	}
+	inline_script = {
+		script = generic_parts/modifiers/giga_fake_static_modifier
+		modifier = miner_jobs_bonus_workforce_mult
+	}
+	inline_script = {
+		script = generic_parts/modifiers/giga_fake_static_modifier
+		modifier = giga_refinery_jobs_bonus_workforce_mult
+	}
+	inline_script = {
+		script = generic_parts/modifiers/giga_fake_static_modifier
+		modifier = giga_dark_matter_jobs_bonus_workforce_mult
+	}
+	inline_script = {
+		script = generic_parts/modifiers/giga_fake_static_modifier
+		modifier = giga_negative_mass_jobs_bonus_workforce_mult
+	}
+
+	ai_priority = 1
+}
+zone_xhk_worldark_ktisma = {
+	icon = GFX_zone_xhk_worldark_ktisma
+
+	unlock = {
+		always = yes
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = 20000
+		}
+	}
+
+	max_buildings = 2
+
+	included_building_sets = {
+		xhk_worldark_ktisma
+	}
+
+	planet_modifier = {
+		zone_building_slots_add = 2
+	}
+	# this adds the general stuff per manager, but not the specific zone job eff bonuses
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		giga_birch_ktisma_jobs_bonus_workforce_mult = 1
+		mult = modifier:giga_birch_ktisma_jobs_bonus_workforce_mult_fake
+	}
+
+	# specific job eff bonuses
+	inline_script = {
+		script = generic_parts/modifiers/giga_fake_static_modifier
+		modifier = foundry_jobs_bonus_workforce_mult
+	}
+	inline_script = {
+		script = generic_parts/modifiers/giga_fake_static_modifier
+		modifier = artisan_jobs_bonus_workforce_mult
+	}
+	inline_script = {
+		script = generic_parts/modifiers/giga_fake_static_modifier
+		modifier = trader_jobs_bonus_workforce_mult
+	}
+	inline_script = {
+		script = generic_parts/modifiers/giga_fake_static_modifier
+		modifier = giga_megaconstruction_jobs_bonus_workforce_mult
+	}
+	inline_script = {
+		script = generic_parts/modifiers/giga_fake_static_modifier
+		modifier = giga_sentient_metal_jobs_bonus_workforce_mult
+	}
+
+	ai_priority = 1
+}
+zone_xhk_worldark_physma = {
+	icon = GFX_zone_xhk_worldark_physma
+
+	unlock = {
+		always = yes
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = 20000
+		}
+	}
+
+	max_buildings = 2
+
+	included_building_sets = {
+		xhk_worldark_physma
+	}
+
+	planet_modifier = {
+		zone_building_slots_add = 2
+	}
+	# this adds the general stuff per manager, but not the specific zone job eff bonuses
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		giga_birch_physma_jobs_bonus_workforce_mult = 1
+		mult = modifier:giga_birch_physma_jobs_bonus_workforce_mult_fake
+	}
+
+	# specific job eff bonuses
+	inline_script = {
+		script = generic_parts/modifiers/giga_fake_static_modifier
+		modifier = farmer_jobs_bonus_workforce_mult
+	}
+	inline_script = {
+		script = generic_parts/modifiers/giga_fake_static_modifier
+		modifier = researcher_jobs_bonus_workforce_mult
+	}
+	inline_script = {
+		script = generic_parts/modifiers/giga_fake_static_modifier
+		modifier = bureaucrat_jobs_bonus_workforce_mult
+	}
+	inline_script = {
+		script = generic_parts/modifiers/giga_fake_static_modifier
+		modifier = giga_soldier_jobs_bonus_workforce_mult
+	}
+
+	ai_priority = 1
+}
+zone_xhk_worldark_stratia = {
+	icon = GFX_zone_xhk_worldark_empty
+
+	potential = {
+		NOT = { has_global_flag = acot_activated}
+	}
+	unlock = {
+		always = yes
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 0
+		}
+	}
+
+	max_buildings = 0
+
+	ai_priority = 1
 }

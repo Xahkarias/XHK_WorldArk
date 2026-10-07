@@ -1,0 +1,187 @@
+# target the colony
+xhk_worldark_situation_birchark = {
+	picture = GFX_evt_birch
+
+	situation_log_category = xhk_worldark_situation_category
+	complete_icon = GFX_situation_outcome_unknown
+	complete_icon_frame = GFX_situation_outcome_frame_blue
+
+	on_start = {
+		target = {
+			set_carrier_flag = xhk_worldark_currently_bircharking
+			# restricts building trigger
+
+			set_carrier_flag = xhk_worldark_birch_no_orykta
+			set_carrier_flag = xhk_worldark_birch_no_ktisma
+			set_carrier_flag = xhk_worldark_birch_no_physma
+			# restricts zones
+		}
+	}
+	stages = {
+		stage_1 = {
+			icon = GFX_situation_stage_1
+			icon_background = GFX_situation_stage_frame_blue
+			end = 12
+			custom_tooltip = xhk_worldark_situation_birchark_stage_viability
+		}
+		### NEED TO MAKE THE BIRCH DISTRICT HERE
+		stage_2 = {
+			icon = GFX_situation_stage_2
+			icon_background = GFX_situation_stage_frame_blue
+			end = 36
+			on_first_enter = {
+				situation_event = { id = xhk_worldark_birchark.1001 }
+				target = {
+					set_carrier_flag = xhk_worldark_birch_flag
+					# potential trigger for district
+				}
+			}
+			custom_tooltip = xhk_worldark_situation_birchark_stage_orykta
+		}
+		stage_3 = {
+			icon = GFX_situation_stage_3
+			icon_background = GFX_situation_stage_frame_blue
+			end = 60
+			on_first_enter = {
+				situation_event = { id = xhk_worldark_birchark.1002 }
+				target = {
+					remove_carrier_flag = xhk_worldark_birch_no_orykta
+				}
+			}
+			custom_tooltip = xhk_worldark_situation_birchark_stage_ktisma
+		}
+		stage_4 = {
+			icon = GFX_situation_stage_4
+			icon_background = GFX_situation_stage_frame_blue
+			end = 84
+			on_first_enter = {
+				situation_event = { id = xhk_worldark_birchark.1003 }
+				target = {
+					remove_carrier_flag = xhk_worldark_birch_no_ktisma
+				}
+			}
+			custom_tooltip = xhk_worldark_situation_birchark_stage_physma
+		}
+		stage_5 = {
+			icon = GFX_situation_stage_5
+			icon_background = GFX_situation_stage_frame_blue
+			end = 144
+			on_first_enter = {
+				situation_event = { id = xhk_worldark_birchark.1004 }
+				target = {
+					remove_carrier_flag = xhk_worldark_birch_no_physma
+				}
+			}
+			custom_tooltip = xhk_worldark_situation_birchark_stage_complete
+		}
+	}
+
+	approach = {
+		name = xhk_worldark_situation_birchark_approach_regular
+		icon = GFX_situation_approach_balance_sheet
+		icon_background = GFX_situation_approach_bg_yellow
+		default = yes
+
+        potential = {
+            target.carrier.starbase = { has_starbase_size >= xhk_worldark_tier_12 }
+        }
+
+		modifier = {
+			country_energy_produces_mult = -0.10
+			country_alloys_produces_mult = -0.10
+		}
+		resources = {
+			upkeep = {
+				physics_research = 1500
+				society_research = 1500
+				engineering_research = 1500
+				unity = 2000
+			}
+		}
+	}
+
+	approach = {
+		name = xhk_worldark_situation_birchark_approach_extra
+		icon = GFX_situation_approach_balance_sheet
+		icon_background = GFX_situation_approach_bg_green
+
+        potential = {
+            target.carrier.starbase = { has_starbase_size >= xhk_worldark_tier_12 }
+        }
+
+		modifier = {
+			country_energy_produces_mult = -0.15
+			country_alloys_produces_mult = -0.15
+		}
+		resources = {
+			upkeep = {
+				physics_research = 2500
+				society_research = 2500
+				engineering_research = 2500
+				unity = 3000
+			}
+		}
+	}
+
+    approach = {
+        name = xhk_worldark_situation_birchark_approach_frozen
+        icon = GFX_situation_approach_balance_sheet
+        icon_background = GFX_situation_approach_bg_red
+
+        potential = {
+            target.carrier.starbase = { has_starbase_size < xhk_worldark_tier_12 }
+        }
+    }
+
+	monthly_progress = {
+		base = 1
+
+		modifier = {
+			add = 0.2
+			desc = xhk_worldark_situation_birchark_progress_extra
+			current_situation_approach = xhk_worldark_situation_birchark_approach_extra
+		}
+
+		# not lvl 12
+		modifier = {
+			multiply = 0
+			desc = xhk_worldark_situation_birchark_progress_no_lvl
+			NOT = { target.carrier.starbase = { has_starbase_size >= xhk_worldark_tier_12 } }
+		}
+
+		# need to have the district after stage 1
+		modifier = {
+			multiply = 0
+			desc = xhk_worldark_situation_birchark_progress_no_district
+			NOT = { target = { has_district = district_xhk_worldark_birch } }
+			NOT = { current_stage = stage_1}
+		}
+		modifier = {
+			multiply = 0
+			desc = xhk_worldark_situation_birchark_progress_no_orykta
+			NOT = { target = { has_zone = { zone = zone_xhk_worldark_orykta } } }
+			current_stage >= stage_3
+		}
+		modifier = {
+			multiply = 0
+			desc = xhk_worldark_situation_birchark_progress_no_ktisma
+			NOT = { target = { has_zone = { zone = zone_xhk_worldark_ktisma } } }
+			current_stage >= stage_4
+		}
+		modifier = {
+			multiply = 0
+			desc = xhk_worldark_situation_birchark_progress_no_physma
+			NOT = { target = { has_zone = { zone = zone_xhk_worldark_physma } } }
+			current_stage >= stage_5
+		}
+	}
+
+	on_progress_complete = {
+		custom_tooltip = xhk_worldark_situation_birchark_stage_complete
+		hidden_effect = {
+			situation_event = { id = xhk_worldark_birchark.1010 }
+			target = { remove_carrier_flag = xhk_worldark_currently_bircharking }
+		}
+		set_situation_locked = yes
+	}
+}

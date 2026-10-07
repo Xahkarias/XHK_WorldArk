@@ -41,6 +41,25 @@ spriteTypes = {
         default_frame = 5
     }
 
+
+	##### ZONE SPRITES
+	spriteType = {
+		name = "GFX_zone_xhk_worldark_orykta"
+		texturefile = "gfx/interface/icons/districts/district_specialization_icons/zone_xhk_worldark_orykta.dds"
+	}
+	spriteType = {
+		name = "GFX_zone_xhk_worldark_ktisma"
+		texturefile = "gfx/interface/icons/districts/district_specialization_icons/zone_xhk_worldark_ktisma.dds"
+	}
+	spriteType = {
+		name = "GFX_zone_xhk_worldark_physma"
+		texturefile = "gfx/interface/icons/districts/district_specialization_icons/zone_xhk_worldark_physma.dds"
+	}
+	spriteType = {
+		name = "GFX_zone_xhk_worldark_empty"
+		texturefile = "gfx/interface/icons/districts/district_specialization_icons/zone_xhk_worldark_empty.dds"
+	}
+	
     ####################################################################################################################
     # background
     corneredTileSpriteType = {

@@ -1,0 +1,40 @@
+cb_colossus = {
+	show_in_diplomacy = no
+	show_notification = no
+	potential = {
+		has_technology = "tech_colossus"
+		has_policy_flag = unrestricted_wars
+		is_country_type = default
+		NOT = { is_in_federation_with = from }
+	}
+	is_valid = {
+		has_total_war_cb = no
+		NOT = { is_overlord_to = FROM }
+		OR = {
+			is_subject = no
+			overlord = { NOT = { is_same_value = from } }
+		}
+		OR = {
+			any_controlled_fleet = {
+				is_ship_class = shipclass_military_special
+				any_controlled_ship = { is_ship_size = colossus }
+			}
+			AND = {
+				xhk_has_worldark_origin = yes
+				capital_scope.carrier.starbase = {
+					xhk_has_colossus_integrated = yes
+				}
+			}
+		}
+
+	}
+	proxy_war_resources = {
+		category = proxy_war
+		cost = {
+			influence = 150
+		}
+	}
+	on_proxy_war_start = {
+		pay_proxy_war_additional_resources = { VALUE = -40 }
+	}
+}

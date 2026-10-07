@@ -1,0 +1,146 @@
+
+
+# THE BANE OF BALANCE
+district_xhk_worldark_birch = {
+    base_buildtime = 4000
+    icon = district_giga_birch_structure
+    is_uncapped = {
+        always = no
+    }
+    overlay_icon = GFX_district_government
+    base_cap_amount = 1
+    has_primary_zone = yes
+
+    #gridbox = district_generator
+
+    has_primary_zone = yes
+    custom_gui = planet_district_entry_width_3
+    district_width = 3
+
+    conversion_ratio = 1
+
+    show_on_uncolonized = {
+        uses_district_set = xhk_pc_worldark
+        has_carrier_flag = xhk_worldark_birch_flag
+    }
+
+    potential = {
+        uses_district_set = xhk_pc_worldark
+        has_carrier_flag = xhk_worldark_birch_flag
+    }
+
+    resources = {
+        category = planet_districts
+        cost = {
+            alloys = 40000
+        }
+        upkeep = { energy = @giga_birch_insula_maintenance }
+    }
+
+    zone_slots = {
+        slot_xhk_worldark_birchextra
+        slot_xhk_worldark_orykta
+        slot_xhk_worldark_ktisma
+        slot_xhk_worldark_physma
+        slot_xhk_worldark_stratia
+    }
+
+    # governance
+    triggered_planet_modifier = {
+        potential = {
+			owner? = { is_gestalt = no }
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_orykta }
+		}
+        job_giga_birch_orykta_manager_add = 200
+    }
+	triggered_planet_modifier = {
+		potential = {
+			owner? = { is_gestalt = yes }
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_orykta }
+		}
+		job_giga_birch_orykta_manager_drone_add = 200
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			owner? = { is_gestalt = no }
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_ktisma }
+		}
+		job_giga_birch_ktisma_manager_add = 200
+	}
+	triggered_planet_modifier = {
+		potential = {
+			owner? = { is_gestalt = yes }
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_ktisma }
+		}
+		job_giga_birch_ktisma_manager_drone_add = 200
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			owner? = { is_gestalt = no }
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_physma }
+		}
+		job_giga_birch_physma_manager_add = 200
+	}
+	triggered_planet_modifier = {
+		potential = {
+			owner? = { is_gestalt = yes }
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_physma }
+		}
+		job_giga_birch_physma_manager_drone_add = 200
+	}
+
+	triggered_name = {
+		trigger = {
+			has_carrier_flag = xhk_worldark_currently_bircharking
+		}
+		text = flavor_xhk_worldark_birch_proto_name
+	}
+    triggered_name = {
+        text = flavor_xhk_worldark_birch_name
+    }
+
+	# really annoying how it doesnt just pick one
+	# order of triggers is specifically so it short circuits early
+	triggered_desc = {
+		trigger = {
+			has_carrier_flag = xhk_worldark_birch_no_orykta
+			has_carrier_flag = xhk_worldark_birch_no_ktisma
+			has_carrier_flag = xhk_worldark_birch_no_physma
+		}
+		text = district_xhk_worldark_birch_proto_desc_0
+	}
+	triggered_desc = {
+		trigger = {
+			has_carrier_flag = xhk_worldark_birch_no_ktisma
+			has_carrier_flag = xhk_worldark_birch_no_physma
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_orykta }
+		}
+		text = district_xhk_worldark_birch_proto_desc_1
+	}
+	triggered_desc = {
+		trigger = {
+			has_carrier_flag = xhk_worldark_birch_no_physma
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_orykta }
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_ktisma }
+		}
+		text = district_xhk_worldark_birch_proto_desc_2
+	}
+	triggered_desc = {
+		trigger = {
+			has_carrier_flag = xhk_worldark_currently_bircharking
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_orykta }
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_ktisma }
+			NOT = { has_carrier_flag = xhk_worldark_birch_no_physma }
+		}
+		text = district_xhk_worldark_birch_proto_desc_3
+	}
+	triggered_desc = {
+		trigger = {
+			NOT = { owner = { country_has_situation = { SITUATION = xhk_worldark_situation_birchark }}}
+		}
+		text = district_xhk_worldark_birch_desc
+	}
+
+}

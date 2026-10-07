@@ -264,7 +264,7 @@
   district_xhk_worldark_storage_plural:99 "Storage Holds"
   district_xhk_worldark_storage_desc:99 "A large storage complex that would take up the size of a city on a terrestrial planet."
   flavor_xhk_worldark_storage_name:99 "Deep Warehouses"
-  district_xhk_worldark_storage_effect:99 "Attached Zone gives £mod_country_resource_max_add£§G+10000 Resource Storage§! and §G+1000 $mod_situation_nomad_economy_max_progress_add$§!"
+  district_xhk_worldark_storage_effect:99 "§IZone Provides:§!$TABBED_NEW_LINE$ - Resource Storage Capacity: §G+10000§!$TABBED_NEW_LINE$ - $mod_situation_nomad_economy_max_progress_add$: §G+2000§!"
   
   ##################################################################
   # Util Bay
@@ -394,6 +394,9 @@
   
   d_xhk_worldark_harvest_size:99 "Planetary Harvest Expansion"
   d_xhk_worldark_harvest_size_desc:99 "The $xhk_pc_worldark$ has expanded by consuming those boring celestial bodies which boorishly move around their parent for eons."
+  
+  d_xhk_worldark_habitat_size:99 "Habitat Dismantlement Expansion"
+  d_xhk_worldark_habitat_size_desc:99 "The $xhk_pc_worldark$ has expanded by consuming $pc_habitat_plural$."
   
   d_xhk_worldark_dismantle_size:99 "Planetary Dismantlement Expansion"
   d_xhk_worldark_dismantle_size_desc:99 "More expedient than harvesting, dismantling celestial bodies proves to be a quicker way of expansion."

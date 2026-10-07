@@ -414,6 +414,10 @@ country_event = {
                 which = xhk_worldark_logistics_expansions
                 value = 0
             }
+            set_variable = {
+                which = xhk_worldark_habitat_expansions
+                value = 0
+            }
         }
 
         ################################################################################################################
@@ -580,4 +584,27 @@ country_event = {
             target = capital_scope
         }
     }
+}
+
+country_event = {
+	id = xhk_worldark_setup.2
+	title = xhk_worldark_setup.2.title
+	desc = xhk_worldark_setup.2.desc
+	picture = GFX_evt_arkship_bridge
+	show_sound = event_ex_started
+
+	is_triggered_only = yes
+
+	trigger = {
+		xhk_has_worldark_origin = yes
+	}
+
+	immediate = {
+		country_event = { days = 1 id = xhk_worldark_setup.1 }
+	}
+
+	option = {
+		name = xhk_worldark_setup.2.a
+		custom_tooltip = xhk_worldark_setup.2.att
+	}
 }

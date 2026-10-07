@@ -1,0 +1,20 @@
+special_project = {
+	key = "XHK_WORLDARK_BIRCHARK_ANALYSIS"
+	days_to_research = 720
+	tech_department = engineering_technology
+	picture = GFX_evt_birch
+	timelimit = -1
+	event_scope = ship_event
+	event_chain = xhk_worldark_birchark_chain
+
+	requirements = {
+		# this means arkship
+		shipclass_starbase = 1
+	}
+
+	on_success = {
+		ship_event = { id = xhk_worldark_birchark.010 }
+	}
+	on_fail = {#should be impossible as it has no time limit
+	}
+}

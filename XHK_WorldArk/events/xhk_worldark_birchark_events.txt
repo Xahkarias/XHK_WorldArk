@@ -1,0 +1,244 @@
+namespace = xhk_worldark_birchark
+
+# on monthly pulse,
+# check if a birch was built and colonized
+# or if aeternum was defeated
+
+# STEP 1) get rights
+# STEP 2) do a project on the birch
+# project starts a situation
+
+# situation stages:
+		# need to build a prototype district to proceed
+		# need to be at least tier 12
+	# 1st stage is about viability checking
+		# need to research a tech to proceed
+	# 2rd stage is about setting up extraction
+		# need to build the zone
+	# 3th stage is about setting up manufacturing
+		# need to build the zone
+	# 4th stage is about setting up research
+		# need to build the zone
+	# 5th stage is finishing up
+		# then transforms district / unlocks buildings
+
+# to speed it up
+	# can ask for extra data from the birch owner
+	# can spend more research upkeep in the situation
+	# can use decisions to speed it up
+
+# on action event to check to start it
+event = {
+	id = xhk_worldark_birchark.001
+	is_triggered_only = yes
+	hide_window = yes
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+			# check if an aeternite conquerer exists
+			exists = event_target:aeternite_conqueror
+			# check if the birch was built and colonized
+			AND = {
+				exists = event_target:giga_homemade_birch_target
+				event_target:giga_homemade_birch_target = {
+					is_colony = yes
+				}
+			}
+		}
+	}
+
+	immediate = {
+
+		if = {
+			limit = { exists = event_target:aeternite_conqueror }
+			every_country = {
+				if = {
+					limit = {
+						xhk_has_worldark_origin = yes
+					}
+					country_event = {
+						id = xhk_worldark_birchark.002 days = 120
+					}
+				}
+			}
+		}
+		else = {
+			every_country = {
+				if = {
+					limit = {
+						xhk_has_worldark_origin = yes
+					}
+					country_event = {
+						id = xhk_worldark_birchark.003 days = 120
+					}
+				}
+			}
+		}
+	}
+}
+
+# starts the chain, gives the request
+# for beating aeternum
+country_event = {
+	id = xhk_worldark_birchark.002
+	is_triggered_only = yes
+	title = xhk_worldark_birchark.002.title
+	desc = xhk_worldark_birchark.002.desc
+	picture = GFX_evt_birch
+
+	immediate = {
+		random_galaxy_planet = {
+			limit = {
+				is_planet_class = pc_birch
+			}
+			save_event_target_as = xhk_worldark_birch_target
+		}
+	}
+
+	option = {
+		name = xhk_worldark_birchark.002.a
+        begin_event_chain = {
+            event_chain = xhk_worldark_birchark_chain
+            target = ROOT
+        }
+        enable_special_project = {
+            name = XHK_WORLDARK_BIRCHARK_ANALYSIS
+            location = event_target:xhk_worldark_birch_target
+            owner = root
+        }
+	}
+}
+# built birch
+country_event = {
+	id = xhk_worldark_birchark.003
+	is_triggered_only = yes
+	title = xhk_worldark_birchark.002.title
+	desc = xhk_worldark_birchark.003.desc
+	picture = GFX_evt_birch
+
+	immediate = {
+		random_galaxy_planet = {
+			limit = {
+				is_planet_class = pc_birch
+			}
+			save_event_target_as = xhk_worldark_birch_target
+		}
+		begin_event_chain = {
+			event_chain = xhk_worldark_birchark_chain
+			target = ROOT
+		}
+		enable_special_project = {
+			name = XHK_WORLDARK_BIRCHARK_ANALYSIS
+			location = event_target:xhk_worldark_birch_target
+			owner = root
+		}
+	}
+
+	option = {
+		name = xhk_worldark_birchark.002.a
+	}
+}
+
+
+## debug event
+ship_event = {
+	id = xhk_worldark_birchark.010
+	is_triggered_only = yes
+	title = xhk_worldark_birchark.010.title
+	desc = xhk_worldark_birchark.010.desc
+	picture = GFX_evt_birch
+
+	immediate = {
+		owner = {
+			end_event_chain = xhk_worldark_birchark_chain
+			start_situation = {
+				type = xhk_worldark_situation_birchark
+				target = capital_scope
+			}
+		}
+	}
+	option = {
+		name = xhk_worldark_birchark.010.a
+        custom_tooltip = xhk_worldark_birchark.010.att
+	}
+}
+
+
+######################################################################################
+## situation events
+######################################################################################
+# need to make district
+situation_event = {
+	id = xhk_worldark_birchark.1001
+	title = xhk_worldark_birchark.1001.title
+	desc = xhk_worldark_birchark.1001.desc
+	picture = GFX_evt_birch
+	show_sound = event_ex_started
+	is_triggered_only = yes
+
+	option = {
+		name = xhk_worldark_birchark.1001.a
+		custom_tooltip = xhk_worldark_birchark.1001.att
+	}
+}
+# need to make orykta
+situation_event = {
+	id = xhk_worldark_birchark.1002
+	title = xhk_worldark_birchark.1002.title
+	desc = xhk_worldark_birchark.1002.desc
+	picture = GFX_evt_birch
+	show_sound = event_ex_started
+	is_triggered_only = yes
+
+	option = {
+		name = xhk_worldark_birchark.1002.a
+		custom_tooltip = xhk_worldark_birchark.1002.att
+	}
+}
+# need to make ktisma
+situation_event = {
+	id = xhk_worldark_birchark.1003
+	title = xhk_worldark_birchark.1003.title
+	desc = xhk_worldark_birchark.1003.desc
+	picture = GFX_evt_birch
+	show_sound = event_ex_started
+	is_triggered_only = yes
+
+	option = {
+		name = xhk_worldark_birchark.1003.a
+		custom_tooltip = xhk_worldark_birchark.1003.att
+	}
+}
+# need to make physma
+situation_event = {
+	id = xhk_worldark_birchark.1004
+	title = xhk_worldark_birchark.1004.title
+	desc = xhk_worldark_birchark.1004.desc
+	picture = GFX_evt_birch
+	show_sound = event_ex_started
+	is_triggered_only = yes
+
+	option = {
+		name = xhk_worldark_birchark.1004.a
+		custom_tooltip = xhk_worldark_birchark.1004.att
+	}
+}
+# end
+# unlocks buildings
+situation_event = {
+	id = xhk_worldark_birchark.1010
+	title = xhk_worldark_birchark.1010.title
+	desc = xhk_worldark_birchark.1010.desc
+	picture = GFX_evt_birch
+	show_sound = event_ex_started
+	is_triggered_only = yes
+
+	immediate = {
+		destroy_situation = this
+	}
+	option = {
+		name = xhk_worldark_birchark.1010.a
+		custom_tooltip = xhk_worldark_birchark.1010.att
+	}
+}
