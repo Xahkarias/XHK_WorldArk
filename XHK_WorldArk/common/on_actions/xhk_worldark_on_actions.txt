@@ -1,7 +1,7 @@
 on_game_start_country = {
     events = {
         # setup
-        xhk_worldark_setup.1
+        xhk_worldark_setup.2
 		# trait swap
 		xhk_worldark.200
 		xhk_worldark.201
