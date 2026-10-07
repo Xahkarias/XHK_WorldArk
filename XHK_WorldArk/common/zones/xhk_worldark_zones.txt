@@ -1421,7 +1421,7 @@ zone_xhk_worldark_storage = {
             always = yes
         }
         country_resource_max_add = 10000
-        situation_nomad_economy_max_progress_add = 1000
+        situation_nomad_economy_max_progress_add = 2000
     }
     triggered_district_country_modifier = {
         potential = {
