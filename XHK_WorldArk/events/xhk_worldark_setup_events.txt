@@ -49,7 +49,6 @@ country_event = {
 
                 # # grab the governor
                 colony = {
-                    save_event_target_as = xhk_new_worldark_colony
                     leader = {
                         unassign_leader = this
                         save_event_target_as = xhk_worldark_governor
@@ -424,9 +423,9 @@ country_event = {
         # MISC FIXES
         ################################################################################################################
         # homeworld fix
-		every_owned_species = {
-			set_species_homeworld = event_target:xhk_new_worldark_colony
-		}
+		# every_owned_species = {
+		# 	set_species_homeworld = capital_scope
+		# }
         # every_owned_pop_species = {
         #     set_species_homeworld = event_target:xhk_new_worldark_colony
         # }
@@ -496,6 +495,16 @@ country_event = {
             }
             capital_scope = {
                 add_deposit = d_galvanic_living_metal
+            }
+        }
+        # supertensiles fix
+        capital_scope = {
+            if = {
+                limit = {
+                    has_global_flag = @giga_amb_flag
+                    NOT = { has_deposit = d_giga_amb_start_bonus }
+                }
+                add_deposit = d_giga_amb_start_bonus
             }
         }
 
