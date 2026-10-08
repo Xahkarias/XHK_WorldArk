@@ -11,6 +11,7 @@ inline_script = {
         planet_technician_minerals_upkeep_add = 1
     "
     ICON = GFX_district_specialization_energy
+	OTHER_POTENTIAL = ""
 }
 inline_script = {
     script = xhk_worldark/buildings/xhk_insula_zone_mimic_building
@@ -21,6 +22,7 @@ inline_script = {
         planet_miners_energy_upkeep_add = 2
     "
     ICON = GFX_district_specialization_minerals
+	OTHER_POTENTIAL = ""
 }
 inline_script = {
     script = xhk_worldark/buildings/xhk_insula_zone_mimic_building
@@ -35,6 +37,7 @@ inline_script = {
         planet_refiners_energy_upkeep_add = 2
     "
     ICON = GFX_giga_district_specialization_strategic_resources
+	OTHER_POTENTIAL = ""
 }
 inline_script = {
     script = xhk_worldark/buildings/xhk_insula_zone_mimic_building
@@ -45,6 +48,7 @@ inline_script = {
         planet_giga_dark_matter_weavers_minerals_upkeep_add = 2
     "
     ICON = GFX_giga_district_specialization_dark_matter
+	OTHER_POTENTIAL = ""
 }
 inline_script = {
     script = xhk_worldark/buildings/xhk_insula_zone_mimic_building
@@ -55,6 +59,7 @@ inline_script = {
         planet_energy_converters_energy_upkeep_add = 2
     "
     ICON = GFX_giga_district_specialization_negative_mass
+	OTHER_POTENTIAL = "NOT = { has_global_flag = ehof_disabled }"
 }
 
 # ktisma
@@ -112,6 +117,16 @@ inline_script = {
         planet_artisans_energy_upkeep_add = 1
     "
     ICON = GFX_district_specialization_factory
+	OTHER_POTENTIAL = "
+		owner = {
+			OR = {
+				is_gestalt = no
+				has_valid_civic = civic_machine_servitor
+				has_valid_civic = civic_machine_obsessional_directive
+				country_uses_consumer_goods = yes
+			}
+		}
+	"
 }
 inline_script = {
     script = xhk_worldark/buildings/xhk_insula_zone_mimic_building
@@ -122,6 +137,7 @@ inline_script = {
         planet_traders_physics_research_upkeep_add = 1
     "
     ICON = GFX_district_specialization_trade
+	OTHER_POTENTIAL = ""
 }
 inline_script = {
     script = xhk_worldark/buildings/xhk_insula_zone_mimic_building
@@ -132,6 +148,7 @@ inline_script = {
         planet_giga_megaengineers_engineering_research_upkeep_add = 2
     "
     ICON = GFX_giga_district_specialization_supertensiles
+	OTHER_POTENTIAL = "has_global_flag = @giga_amb_flag"
 }
 inline_script = {
     script = xhk_worldark/buildings/xhk_insula_zone_mimic_building
@@ -142,6 +159,7 @@ inline_script = {
         planet_cultivators_energy_upkeep_add = 2
     "
     ICON = GFX_giga_district_specialization_sentient_metal
+	OTHER_POTENTIAL = "NOT = { has_global_flag = ehof_disabled }"
 }
 
 # physma
@@ -154,6 +172,7 @@ inline_script = {
         planet_farmers_minerals_upkeep_add = 1.5
     "
     ICON = GFX_district_specialization_food
+	OTHER_POTENTIAL = ""
 }
 inline_script = {
     script = xhk_worldark/buildings/xhk_insula_zone_mimic_building
@@ -164,6 +183,7 @@ inline_script = {
         planet_researchers_alloys_upkeep_add = 1
     "
     ICON = GFX_district_specialization_research
+	OTHER_POTENTIAL = ""
 }
 inline_script = {
     script = xhk_worldark/buildings/xhk_insula_zone_mimic_building
@@ -174,6 +194,7 @@ inline_script = {
         planet_bureaucrats_energy_upkeep_add = 1
     "
     ICON = GFX_district_specialization_unity
+	OTHER_POTENTIAL = ""
 }
 inline_script = {
     script = xhk_worldark/buildings/xhk_insula_zone_mimic_building
@@ -183,4 +204,5 @@ inline_script = {
          planet_soldiers_produces_mult = 1
     "
     ICON = GFX_district_specialization_fortress
+	OTHER_POTENTIAL = ""
 }

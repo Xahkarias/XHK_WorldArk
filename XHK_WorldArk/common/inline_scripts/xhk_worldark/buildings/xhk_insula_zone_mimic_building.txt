@@ -18,6 +18,7 @@ building_xhk_worldark_birch_$INSULA$_$TYPE$ = {
         is_planet_class = xhk_pc_worldark
 		has_carrier_flag = xhk_worldark_birch_flag
 		NOT = { has_carrier_flag = xhk_worldark_currently_bircharking }
+		$OTHER_POTENTIAL$
     }
 
     allow = { has_major_upgraded_capital = yes }

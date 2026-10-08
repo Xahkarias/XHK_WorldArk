@@ -222,8 +222,12 @@
 
  ####################
  # CROSSMOD
- xhk_worldark_docs_crossmod: "8) Cross-Mod Support"
- xhk_worldark_docs_crossmod_desc: "Under construction"
+ xhk_worldark_docs_crossmod: "8) Special Integration Situations"
+ xhk_worldark_docs_crossmod_desc: "$xhk_worldark_docs_birch_integration$"
+
+ xhk_worldark_docs_birch_integration: "§C------$xhk_worldark_situation_birchark$---------------------------§!\n$xhk_worldark_docs_birch_integration_req$\n$xhk_worldark_docs_birch_integration_rew$"
+ xhk_worldark_docs_birch_integration_req: "§3Requirements:§! §IAeternum must be defeated§!, or someone must §Iconstruct and colonize§! a Birch World."
+ xhk_worldark_docs_birch_integration_rew: "§BRewards:§! A special district that provides §GBirch Insula Manager§! jobs and §GBirch Focus Buildings§!."
 
 
 
