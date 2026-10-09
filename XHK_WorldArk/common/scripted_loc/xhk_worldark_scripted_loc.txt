@@ -185,3 +185,13 @@ defined_text = {
 	}
 	default = xhk_worldark_docs_system_3_norm
 }
+defined_text = {
+	name = xhk_worldark_getPenalSystemDocumentation
+	text = {
+		trigger = {
+			is_gestalt = yes
+		}
+		localization_key = xhk_worldark_docs_system_4_gest
+	}
+	default = xhk_worldark_docs_system_4_norm
+}

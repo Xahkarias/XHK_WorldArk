@@ -201,12 +201,15 @@
  xhk_worldark_docs_mega_desc: "$xhk_worldark_docs_mega_init$$xhk_worldark_docs_system$$xhk_worldark_docs_spinal$$xhk_worldark_docs_core_spinal$"
  xhk_worldark_docs_mega_init: "The $xhk_pc_worldark$ has special systems and modules that can give special effects, such as mimicking some vanilla megastructures."
 
- xhk_worldark_docs_system: "\n\n§l------SYSTEMS-------------------------------------------§!$xhk_worldark_docs_system_1$$xhk_worldark_docs_system_2$$xhk_worldark_docs_system_3$"
+ xhk_worldark_docs_system: "\n\n§l------SYSTEMS-------------------------------------------§!$xhk_worldark_docs_system_1$$xhk_worldark_docs_system_2$$xhk_worldark_docs_system_3$$xhk_worldark_docs_system_4$"
  xhk_worldark_docs_system_1: "\n§C$sm_xhk_worldark_science_nexus$§!: Requires tech §Y$xhk_tech_worldark_science_nexus$§!\n§C$sm_xhk_worldark_interstellar_assembly$§!: Requires tech §Y$xhk_tech_worldark_interstellar_assembly$§!"
  xhk_worldark_docs_system_2: "\n§C$sm_xhk_worldark_strategic_coordination$§!: Requires tech §Y$xhk_tech_worldark_strategic_coordination$§!\n§C$sm_xhk_worldark_art_installation$§!: Requires tech §Y$xhk_tech_worldark_art_installation$§!"
  xhk_worldark_docs_system_3: "[xhk_worldark_getResortSystemDocumentation]"
  xhk_worldark_docs_system_3_norm: "\n§C$sm_xhk_worldark_resort_system$§!: Requires Ascension Perk §Y$ap_wanderlust$§!"
  xhk_worldark_docs_system_3_gest: "\n§C$sm_xhk_worldark_resort_system_gestalt$§!: Requires Ascension Perk §Y$ap_wanderlust$§!"
+ xhk_worldark_docs_system_4: "[xhk_worldark_getPenalSystemDocumentation]"
+ xhk_worldark_docs_system_4_norm: "\n§C$sm_xhk_worldark_penal_system$§!: Requires tech §Y$xhk_tech_worldark_penal_system$§!"
+ xhk_worldark_docs_system_4_gest: "\n§C$sm_xhk_worldark_penal_system_gestalt$§!: Requires tech §Y$xhk_tech_worldark_penal_system$§!"
 
  xhk_worldark_docs_spinal: "\n\n§l------SPINALS-------------------------------------------§!$xhk_worldark_docs_spinal_1$$xhk_worldark_docs_spinal_2$"
  xhk_worldark_docs_spinal_1: "\n§C$sm_xhk_worldark_spinal_hunter_cannon$§!: Requires tech §Y$tech_arkship_tier_3$§!"

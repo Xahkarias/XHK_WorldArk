@@ -516,7 +516,7 @@ country_event = {
 				}
 				remove_zone = {
 					district = district_xhk_worldark_city
-					zone = zone_urban
+					zone = zone_xhk_worldark_urban
 				}
 			}
 		}

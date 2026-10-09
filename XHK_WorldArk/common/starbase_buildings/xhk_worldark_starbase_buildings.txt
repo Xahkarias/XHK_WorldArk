@@ -170,6 +170,127 @@ xhk_worldark_resort_system_gestalt = {
 	}
 }
 
+xhk_worldark_penal_system = {
+	icon = "GFX_xhk_worldark_penal_system"
+	starbase_type = arkship
+	construction_days = 360
+	category = sm_colony_cat
+
+	starbase_limit = {
+		base = 1
+	}
+
+	show_in_tech = xhk_tech_worldark_penal_system
+	show_tech_unlock_if = { is_gestalt = no }
+
+	potential = {
+		xhk_is_worldark_starbase = yes
+		owner? = {
+			has_technology = xhk_tech_worldark_penal_system
+			is_gestalt = no
+		}
+	}
+
+	possible = {
+		has_starbase_size >= xhk_worldark_tier_4
+	}
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = 1000
+			unity = 500
+		}
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	planet_modifier = {
+		job_criminal_add = 100
+	}
+	triggered_country_modifier = {
+		potential = {
+			owner? = {
+				is_twisted_experimenters_empire = no
+			}
+		}
+		planet_crime_mult = -0.15
+		planet_crime_add = -20
+	}
+	triggered_country_modifier = {
+		potential = {
+			owner? = {
+				is_twisted_experimenters_empire = yes
+			}
+		}
+		experimental_testing_test_subjects_death = -0.1
+	}
+
+
+	ai_weight = {
+		weight = 100
+	}
+}
+xhk_worldark_penal_system_gestalt = {
+	icon = "GFX_xhk_worldark_penal_system"
+	starbase_type = arkship
+	construction_days = 360
+	category = sm_colony_cat
+
+	starbase_limit = {
+		base = 1
+	}
+
+	show_in_tech = xhk_tech_worldark_penal_system
+	show_tech_unlock_if = { is_gestalt = yes }
+
+	potential = {
+		xhk_is_worldark_starbase = yes
+		owner? = {
+			has_technology = xhk_tech_worldark_penal_system
+			is_gestalt = yes
+		}
+	}
+
+	possible = {
+		has_starbase_size >= xhk_worldark_tier_4
+	}
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = 1000
+			unity = 500
+		}
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	triggered_country_modifier = {
+		potential = {
+			owner? = {
+				is_twisted_experimenters_empire = no
+			}
+		}
+		planet_crime_no_happiness_mult = -0.15
+	}
+	triggered_country_modifier = {
+		potential = {
+			owner? = {
+				is_twisted_experimenters_empire = yes
+			}
+		}
+		experimental_testing_test_subjects_death = -0.1
+	}
+
+
+	ai_weight = {
+		weight = 15
+	}
+}
+
 ############################################################
 ### MEGA INTEGRATION
 xhk_worldark_science_nexus = {

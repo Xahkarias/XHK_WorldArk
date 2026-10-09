@@ -58,6 +58,9 @@
  XHK_TECH_UPGRADE_WORLDARK_11_TITLE: "$XHK_TECH_UPGRADE_WORLDARK_11_DESC$\n§I$xhk_worldark_size_harvest$§! §Yincreases§! to §G+[xhk_worldark_getDistrictIncreaseFromHarvest_vlarge]§! £districtadd£§GMax Districts§!\n§YLarge Bonus§! to $xhk_pc_worldark$ §GCombat Strength§!."
  XHK_TECH_UPGRADE_WORLDARK_12_TITLE: "$XHK_TECH_UPGRADE_WORLDARK_12_DESC$\nThe §GCore Spinal§! Slot is §Gunlocked§!"
 
+ xhk_tech_worldark_penal_system: "Isolated Penal Sector"
+ xhk_tech_worldark_penal_system_desc: "$sm_xhk_worldark_penal_system_desc$\n\n§IThis system has effects that are not shown in the tooltip:$TABBED_NEW_LINE$ - Reduces Crime by 15%§!"
+
  xhk_tech_worldark_science_nexus: "Integrated Science Nexus"
  xhk_tech_worldark_science_nexus_desc: "Studies of settled empires have shown the value in concentrating scientific research in an isolated area, especially when coupled with advanced equipment."
 

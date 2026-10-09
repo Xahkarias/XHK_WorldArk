@@ -315,8 +315,59 @@ xhk_tech_worldark_12 = {
 	}
 }
 
+
 #######################################
-############ META INTEGRATION ###############
+############ SYSTEMS ###############
+#######################################
+
+xhk_tech_worldark_penal_system = {
+	icon = xhk_tech_worldark_penal_system
+	area = society
+	cost = @tier3cost2
+	tier = 3
+	category = { statecraft }
+	ai_update_type = all
+	prerequisites = {
+		xhk_tech_worldark_4
+		OR = {
+			tech_artificial_moral_codes
+			tech_unity_of_purpose
+		}
+	}
+	weight = @tier3weight3
+	is_rare = yes
+
+	potential = {
+		is_nomadic = yes
+		xhk_has_worldark_origin = yes
+	}
+
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 0.25
+			NOR = {
+				has_trait_in_council = { TRAIT = leader_trait_expertise_statecraft }
+				has_trait_in_council = { TRAIT = leader_trait_curator }
+			}
+		}
+		inline_script = {
+			script = technologies/rare_technologies_weight_modifiers
+			TECHNOLOGY = xhk_tech_worldark_penal_system
+		}
+		modifier = {
+			factor = 2
+			is_authoritarian = yes
+		}
+	}
+
+	ai_weight = {
+		factor = @best_megastructure_ai_tech_factor
+	}
+}
+
+#######################################
+############ MEGA INTEGRATION ###############
 #######################################
 
 xhk_tech_worldark_science_nexus = {

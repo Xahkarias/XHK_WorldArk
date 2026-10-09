@@ -178,7 +178,10 @@
  sm_xhk_worldark_resort_system_gestalt_desc: "Our travels throughout the void have shown us many different marvels of the universe. Here we can ponder it even for a short time, and relive the beauty of the cosmos."
  xhk_worldark_wanderlust_system_tt: "\n§GDoubles§! in potency once §GFour§! of the §I$ap_wanderlust$ Objectives§! are completed."
 
-
+ sm_xhk_worldark_penal_system: "Isolated Penal Sector"
+ sm_xhk_worldark_penal_system_desc: "By creating a space for proper corrective action and reformation, we can reduce crime and deviancy levels as a whole on the $xhk_pc_worldark$."
+ sm_xhk_worldark_penal_system_gestalt: "Deviancy Correction Sector"
+ sm_xhk_worldark_penal_system_gestalt_desc: "$sm_xhk_worldark_penal_system_desc$"
 
  sm_worldark_integrated_mega_cat: "§RIntegrated Megastructures§!"
 
