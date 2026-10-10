@@ -512,7 +512,7 @@ country_event = {
 		capital_scope = {
 			if = {
 				limit = {
-					has_zone = { zone = zone_urban }
+					has_zone = { zone = zone_xhk_worldark_urban }
 				}
 				remove_zone = {
 					district = district_xhk_worldark_city
