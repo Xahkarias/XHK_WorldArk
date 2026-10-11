@@ -1533,6 +1533,22 @@ zone_xhk_worldark_storage = {
 
 }
 
+## CIVIC: DEEP SLEEP
+###########################################################
+zone_xhk_worldark_deep_sleep = {
+	icon = GFX_district_specialization_forever_cruise_city_passenger
+	inline_script = {
+		script = xhk_worldark/zones/zone_common
+		NUM_BUILDINGS = 0
+		UNLOCK = ""
+		POTENTIAL = ""
+	}
+
+	zone_sets = {
+		xhk_worldark_deep_sleep
+	}
+}
+
 ## UTILITY BAY
 ###########################################################
 zone_xhk_worldark_utilbay = {

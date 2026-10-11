@@ -147,6 +147,14 @@ slot_xhk_worldark_storage = {
     unlock = { always = yes }
 }
 
+slot_xhk_worldark_deep_sleep = {
+	start = zone_xhk_worldark_deep_sleep
+	included_zone_sets = {
+		xhk_worldark_deep_sleep
+	}
+	unlock = { always = yes }
+}
+
 slot_xhk_worldark_utilbay = {
 	start = zone_xhk_worldark_utilbay
 	included_zone_sets = {

@@ -273,6 +273,21 @@
  district_xhk_worldark_storage_effect: "§IZone Provides:§!$TABBED_NEW_LINE$ - Resource Storage Capacity: §G+10000§!$TABBED_NEW_LINE$ - $mod_situation_nomad_economy_max_progress_add$: §G+2000§!"
 
  ##################################################################
+ # DEEP SLEEP
+ ##################################################################
+
+ district_xhk_worldark_deep_sleep: "Cryogenic Bay"
+ district_xhk_worldark_deep_sleep_plural: "Cryogenic Bays"
+ district_xhk_worldark_deep_sleep_desc: "Rows and rows of hibernation facilities which allow us to put a portion of our population to sleep."
+ flavor_xhk_worldark_deep_sleep_name: "Hibernation Zones"
+ district_xhk_worldark_deep_sleep_effect: "§ISpecial Effects:§!$TABBED_NEW_LINE$ - §G+§![xhk_worldark_deepsleep_getNumCryo] ['concept_job_deep_sleep', $mod_job_ark_deep_sleep_add$] per §IDistrict§! when §I$decision_deep_sleep$§! is active.$TABBED_NEW_LINE$ - Increases provided $mod_job_ark_deep_sleep_add$ at §I$xhk_pc_worldark$ Levels§! §H3§!, §H5§!, §H7§!, §H9§!."
+ district_xhk_worldark_deep_sleep_effect_9: "§G1500§!"
+ district_xhk_worldark_deep_sleep_effect_7: "§G1250§!"
+ district_xhk_worldark_deep_sleep_effect_5: "§G1000§!"
+ district_xhk_worldark_deep_sleep_effect_3: "§G750§!"
+ district_xhk_worldark_deep_sleep_effect_d: "§G500§!"
+
+ ##################################################################
  # Util Bay
  ##################################################################
 
@@ -390,6 +405,9 @@
 
  zone_xhk_worldark_storage: "$district_xhk_worldark_storage$"
  zone_xhk_worldark_storage_desc: "$district_xhk_worldark_storage_desc$"
+
+ zone_xhk_worldark_deep_sleep: "Hibernation Pods"
+ zone_xhk_worldark_deep_sleep_desc: "Extensions to the original cryogenic pods, these allow us to put more beings into hibernation if necessary."
 
  zone_xhk_worldark_utilbay: "$district_xhk_worldark_utilbay$"
  zone_xhk_worldark_utilbay_desc: "$district_xhk_worldark_utilbay_desc$"

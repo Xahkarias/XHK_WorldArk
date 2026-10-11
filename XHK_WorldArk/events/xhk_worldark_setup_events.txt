@@ -507,6 +507,17 @@ country_event = {
                 add_deposit = d_giga_amb_start_bonus
             }
         }
+		# deep sleep fix
+		if = {
+			limit = {
+				is_deep_sleep_country = yes
+			}
+			capital_scope = {
+				add_blocker = { type = d_deep_sleep_cryo_pods }
+				add_blocker = { type = d_deep_sleep_cryo_pods }
+				add_blocker = { type = d_deep_sleep_cryo_pods }
+			}
+		}
 
 		# remove zone if its there
 		capital_scope = {

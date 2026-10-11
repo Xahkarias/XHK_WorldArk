@@ -51,6 +51,38 @@ defined_text = {
 	default = xhk_worldark_alloy_expansion_tt_upkeep_normal
 }
 
+# deep sleep tooltip
+# colony scope
+defined_text = {
+	name = xhk_worldark_deepsleep_getNumCryo
+	text = {
+		trigger = { ship.starbase = { has_starbase_size >= xhk_worldark_tier_9 } }
+		localization_key = district_xhk_worldark_deep_sleep_effect_9
+	}
+	text = {
+		trigger = { ship.starbase = { OR = {
+			has_starbase_size = xhk_worldark_tier_7
+			has_starbase_size = xhk_worldark_tier_8
+		} } }
+		localization_key = district_xhk_worldark_deep_sleep_effect_7
+	}
+	text = {
+		trigger = { ship.starbase = { OR = {
+			has_starbase_size = xhk_worldark_tier_5
+			has_starbase_size = xhk_worldark_tier_6
+		} } }
+		localization_key = district_xhk_worldark_deep_sleep_effect_5
+	}
+	text = {
+		trigger = { ship.starbase = { OR = {
+			has_starbase_size = xhk_worldark_tier_4
+			has_starbase_size = xhk_worldark_tier_3
+		} } }
+		localization_key = district_xhk_worldark_deep_sleep_effect_3
+	}
+	default = district_xhk_worldark_deep_sleep_effect_d
+}
+
 ### DOCUMENTATION
 ##################################################################
 # population

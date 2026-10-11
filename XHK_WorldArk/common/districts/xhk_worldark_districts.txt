@@ -1569,6 +1569,101 @@ district_xhk_worldark_storage = {
         text = flavor_xhk_worldark_storage_name
     }
 }
+
+# deep sleep only
+district_xhk_worldark_deep_sleep = {
+	base_buildtime = @xhk_base_buildtime
+	icon = district_xhk_worldark_deep_sleep
+	gridbox = district_arcology_research
+	is_uncapped = { always = yes }
+	overlay_icon = GFX_xhk_worldark_deep_sleep_spec
+
+	zone_slots = {
+		slot_xhk_worldark_deep_sleep
+	}
+
+	inline_script = {
+		script = xhk_worldark/districts/district_common
+		POTENTIAL = "
+            exists = owner
+            owner = {
+                is_deep_sleep_country = yes
+            }
+        "
+	}
+
+	allow = {
+		NOT = { has_deposit = d_deep_sleep_cryo_pods}
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = @xhk_district_base_cost
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	planet_modifier = {
+		job_ark_deep_sleep_add = 50
+		planet_housing_add = 200
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			has_modifier = planet_deep_sleep
+		}
+		job_ark_deep_sleep_add = 450
+	}
+	triggered_planet_modifier = {
+		potential = {
+			has_modifier = planet_deep_sleep
+			starbase = {
+				has_starbase_size >= xhk_worldark_tier_3
+			}
+		}
+		job_ark_deep_sleep_add = 250
+	}
+	triggered_planet_modifier = {
+		potential = {
+			has_modifier = planet_deep_sleep
+			starbase = {
+				has_starbase_size >= xhk_worldark_tier_5
+			}
+		}
+		job_ark_deep_sleep_add = 250
+	}
+	triggered_planet_modifier = {
+		potential = {
+			has_modifier = planet_deep_sleep
+			starbase = {
+				has_starbase_size >= xhk_worldark_tier_7
+			}
+		}
+		job_ark_deep_sleep_add = 250
+	}
+	triggered_planet_modifier = {
+		potential = {
+			has_modifier = planet_deep_sleep
+			starbase = {
+				has_starbase_size >= xhk_worldark_tier_9
+			}
+		}
+		job_ark_deep_sleep_add = 250
+	}
+
+	triggered_desc = {
+		trigger = { always = yes }
+		text = district_xhk_worldark_deep_sleep_effect
+	}
+
+	triggered_name = {
+		text = flavor_xhk_worldark_deep_sleep_name
+	}
+}
+
 # building holder
 district_xhk_worldark_utilbay = {
 	base_buildtime = @xhk_base_buildtime
