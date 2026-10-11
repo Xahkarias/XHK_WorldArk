@@ -29,7 +29,6 @@ district_xhk_worldark_city = {
             is_nomadic = yes
         }
         uses_district_set = xhk_pc_worldark
-        is_special_colony_type = no
     }
 
     potential = {
@@ -51,7 +50,7 @@ district_xhk_worldark_city = {
 
     conversion_ratio = 1
     convert_to = {
-        district_mindlink
+		district_xhk_worldark_mindlink
         district_ark_city
     }
 
@@ -147,6 +146,122 @@ district_xhk_worldark_city = {
     inline_script = {
         script = districts/ai_urban_district_extra_weighting
     }
+}
+
+district_xhk_worldark_mindlink = {
+	base_buildtime = 360
+	exempt_from_ai_planet_specialization = yes
+
+	icon = district_mindlink
+	overlay_icon = GFX_district_government
+	district_background = district_city
+	gridbox = district_city
+
+	zone_slots = {
+		slot_city_government
+		slot_xhk_worldark_urban0
+		slot_xhk_worldark_urban1
+	}
+
+	show_on_uncolonized = {
+		exists = from
+		from = {
+			is_nomadic = yes
+		}
+		uses_district_set = xhk_pc_worldark
+	}
+
+	potential = {
+		OR = {
+			NOT = { exists = owner } #this condition is needed for galaxy generation
+			uses_district_set = xhk_pc_worldark
+		}
+		is_capital = yes
+		owner = {
+			has_menace_perk = menp_behemoth_mind_meld
+		}
+	}
+
+	allow = {
+		uses_district_set = xhk_pc_worldark
+	}
+
+	conversion_ratio = 1
+	convert_to = {
+		district_xhk_worldark_city
+		district_mindlink
+		district_ark_city
+	}
+
+	resources = {
+		category = planet_districts_cities
+		cost = {
+			food = 1500
+		}
+		upkeep = {
+			food = 2
+		}
+		produces = {
+			trigger = {
+				owner = { is_variable_set =  pops_transferred }
+				owner = { is_wilderness_empire = no }
+			}
+			unity = 1.5
+			physics_research = 0.5
+			society_research = 0.5
+			engineering_research = 0.5
+			mult = owner.value:transferred_pops_district_percent
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 3500
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_transference_volunteer_add = 2000
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		modifier = {
+			planet_housing_add = 1000
+			job_transference_drone_add = 2000
+		}
+	}
+
+	# tankbound
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_tankbound_empire = yes }
+		}
+		modifier = {
+			job_production_overseer_add = 100
+		}
+	}
+
+	triggered_desc = { #same as transference drone so everyone gets it
+		trigger = {
+			exists = owner
+		}
+		text = job_transference_volunteer_effect_desc
+	}
+
+	triggered_name = {
+		text = flavor_xhk_worldark_mindlink
+	}
 }
 
 ###############################################################################################################

@@ -15,6 +15,12 @@
  district_xhk_worldark_city_plural: "$district_ark_city_plural$"
  district_xhk_worldark_city_desc: "$district_ark_city_desc$"
 
+ district_xhk_worldark_mindlink: "Mindlink Core"
+ district_xhk_worldark_mindlink_plural: "Mindlink Cores"
+ district_xhk_worldark_mindlink_desc: "Habitation zones converted to communication centers, offering volunteers the chance to commune directly with the Beast."
+
+ flavor_xhk_worldark_mindlink: "Transference Central"
+
  ##################################################################
  # Foundry
  ##################################################################
