@@ -828,6 +828,7 @@ zone_xhk_worldark_amenities = {
         galactic_history_holomuseum
         aesthetic_wonders_holomuseum
         xeno_geology_holomuseum
+		building_artist_patron
 
         #PD
         building_pd_eludium_floating_resort
@@ -883,6 +884,7 @@ zone_xhk_worldark_amenities_dystopian = {
         galactic_history_holomuseum
         aesthetic_wonders_holomuseum
         xeno_geology_holomuseum
+		building_artist_patron
 
         #PD
         building_pd_eludium_floating_resort
