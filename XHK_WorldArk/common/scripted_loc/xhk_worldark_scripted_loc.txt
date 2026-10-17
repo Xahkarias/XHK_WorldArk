@@ -20,18 +20,6 @@ defined_text = {
     }
     default = xhk_harvest_plus_small
 }
-defined_text = {
-	name = xhk_worldark_getDistrictIncreaseFromHarvest_small
-	default = @xhk_worldark_harvest_size_small
-}
-defined_text = {
-	name = xhk_worldark_getDistrictIncreaseFromHarvest_large
-	value = @xhk_worldark_harvest_size_large
-}
-defined_text = {
-	name = xhk_worldark_getDistrictIncreaseFromHarvest_vlarge
-	value = @xhk_worldark_harvest_size_vlarge
-}
 
 # alloy expansion tt
 defined_text = {

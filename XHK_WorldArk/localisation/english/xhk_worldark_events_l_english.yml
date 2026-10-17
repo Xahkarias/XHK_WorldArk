@@ -31,7 +31,7 @@
  xhk_worldark_docs_expansion: "1) Expansion"
  xhk_worldark_docs_expansion_desc: "$xhk_worldark_docs_expansion_desc_1$$xhk_worldark_docs_expansion_desc_2$$xhk_worldark_docs_expansion_desc_3$$xhk_worldark_docs_expansion_desc_4$$xhk_worldark_docs_expansion_desc_5$$xhk_worldark_docs_expansion_desc_6$$xhk_worldark_docs_expansion_desc_7$$xhk_worldark_docs_expansion_desc_8$$xhk_worldark_docs_expansion_desc_9$$xhk_worldark_docs_expansion_desc_10$$xhk_worldark_docs_expansion_desc_11$[owner.xhk_worldark_getVirtualDocumentation]"
  xhk_worldark_docs_expansion_desc_1: "The $xhk_pc_worldark$ expands through the dismantlement of other stellar objects. These are listed below:"
- xhk_worldark_docs_expansion_desc_2: "$TABBED_NEW_LINE$- §G+[xhk_worldark_getDistrictIncreaseFromHarvest_small] £districtadd£District§! from the special §I$xhk_worldark_size_harvest$§! arkship action, when used on a stellar body."
+ xhk_worldark_docs_expansion_desc_2: "$TABBED_NEW_LINE$- $xhk_harvest_plus_small$ §G£districtadd£Districts§! from the special §I$xhk_worldark_size_harvest$§! arkship action, when used on a stellar body."
  xhk_worldark_docs_expansion_desc_3: "$TABBED_NEW_LINE$      Increases size gain after specific $xhk_pc_worldark$ Upgrades."
  xhk_worldark_docs_expansion_desc_4: "$TABBED_NEW_LINE$- §G+4 £districtadd£Districts§! from each arkship claimed from another empire after a war, which are promptly dismantled."
  xhk_worldark_docs_expansion_desc_5: "$TABBED_NEW_LINE$- §G+X £districtadd£Districts§! from dismantling §IPlanets§! with the §I$xhk_worldark_corespinal_planeteater$§!."
@@ -144,7 +144,7 @@
  xhk_worldark_docs_ship_levels_desc_T3_2: "\n$t$$t$Unlocks §GFirst $district_xhk_worldark_city$§! Specialization."
  xhk_worldark_docs_ship_levels_desc_T4: "\n§GT4§! - §YStarbase:§! 16 Modules / 16 Buildings / 0 Spinal | §YBase Districts:§! 22 | §YWeapons:§!  8H 20P 12L"
  xhk_worldark_docs_ship_levels_desc_T5: "\n§GT5§! - §YStarbase:§! 16 Modules / 20 Buildings / 0 Spinal | §YBase Districts:§! 26 | §YWeapons:§! 12H 24P 16L"
- xhk_worldark_docs_ship_levels_desc_T5_2: "\n$t$$t$§I$xhk_worldark_size_harvest$§!: §GMax £districtadd£District Gain§! increases to §G+[xhk_worldark_getDistrictIncreaseFromHarvest_large]§!"
+ xhk_worldark_docs_ship_levels_desc_T5_2: "\n$t$$t$§I$xhk_worldark_size_harvest$§!: §GMax £districtadd£District Gain§! increases to $xhk_harvest_plus_large$"
  xhk_worldark_docs_ship_levels_desc_T6: "\n§GT6§! - §YStarbase:§! 20 Modules / 24 Buildings / 0 Spinal | §YBase Districts:§! 30 | §YWeapons:§! 16H 28P 20L"
  xhk_worldark_docs_ship_levels_desc_T6_2: "\n$t$$t$Unlocks §GSecond $district_xhk_worldark_city$§! Specialization."
  xhk_worldark_docs_ship_levels_desc_T7: "\n§GT7§! - §YStarbase:§! 24 Modules / 28 Buildings / 0 Spinal | §YBase Districts:§! 34 | §YWeapons:§! 18H 30P 24L"
@@ -153,7 +153,7 @@
  xhk_worldark_docs_ship_levels_desc_T10: "\n§GT10§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal | §YBase Districts:§! 50 | §YWeapons:§! 30H 40P 40L"
  xhk_worldark_docs_ship_levels_desc_midgame: "\n§RThe following levels are locked behind§! §Y$tech_mega_engineering$§!§R:§!"
  xhk_worldark_docs_ship_levels_desc_T11: "\n§GT11§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal | §YBase Districts:§! 60 | §YWeapons:§! 36H 40P 6XL 56L 32M 30S"
- xhk_worldark_docs_ship_levels_desc_T11_2: "\n$t$$t$§I$xhk_worldark_size_harvest$§!: §GMax £districtadd£District Gain§! increases to §G+[xhk_worldark_getDistrictIncreaseFromHarvest_vlarge]§!"
+ xhk_worldark_docs_ship_levels_desc_T11_2: "\n$t$$t$§I$xhk_worldark_size_harvest$§!: §GMax £districtadd£District Gain§! increases to $xhk_harvest_plus_vlarge$"
  xhk_worldark_docs_ship_levels_desc_T12: "\n§GT12§!- §YStarbase:§! 24 Modules / 40 Buildings / 6 Spinal / 1 Core Spinal | §YBase Districts:§! 70 | §YWeapons:§! No Change"
 
  ####################
