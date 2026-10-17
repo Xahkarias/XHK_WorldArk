@@ -164,6 +164,21 @@ orbital_ring_and_arkship_equivalent_absent = {
 }
 
 
+# allows hindsight on wark
+can_be_chosen_for_hindsight_nomad = {
+	OR = {
+		is_planet_class = pc_ark
+		is_planet_class = xhk_pc_worldark
+	}
+
+	solar_system = {
+		has_psionic_aura = yes
+		aura_owner = { is_same_value = root }
+	}
+	NOT = {
+		has_deposit = d_relic_arkship
+	}
+}
 
 
 # GIGAS OVERRIDE

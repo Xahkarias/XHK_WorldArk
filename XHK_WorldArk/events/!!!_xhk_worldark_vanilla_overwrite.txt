@@ -1,0 +1,50 @@
+namespace = shroud
+
+# Composer of Strands - Transformation Accord
+# ADDED THE ABILITY TO USE IT ON WORLD ARK
+country_event = {
+	id = shroud.4860
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = { is_nomadic = no }
+			random_planet_within_border = {
+				limit = {
+					is_colony = no
+					uninhabitable_regular_planet = yes
+				}
+				root = {
+					country_event = {
+						id = shroud.4862
+						scopes = {
+							from = prev
+						}
+					}
+				}
+			}
+		}
+		else = {
+			random_owned_colony = {
+				limit = {
+					OR = {
+						is_planet_class = pc_ark
+						is_planet_class = xhk_pc_worldark
+					}
+					NOT = {
+						has_modifier = transformation_arkship_modifier
+					}
+				}
+				root = {
+					country_event = {
+						id = shroud.4862
+						scopes = {
+							from = prev
+						}
+					}
+				}
+			}
+		}
+	}
+}
