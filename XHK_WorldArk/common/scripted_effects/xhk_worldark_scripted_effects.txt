@@ -1,0 +1,102 @@
+# situation scope
+xhk_worldark_planeteater_nibble_planet = {
+	target = {
+		change_planet_size = @[xhk_worldark_dismantle_size_decrease * -1]
+	}
+	owner = {
+		add_resource = {
+			minerals = 4000
+			mult = value:xhk_worldark_dismantle_res_boost
+		}
+		add_resource = {
+			alloys = 4000
+			mult = value:xhk_worldark_dismantle_res_boost
+		}
+		create_message = {
+			type = XHK_MESSAGE_PLANETEATER_PROCESS
+			localization = XHK_MESSAGE_PLANETEATER_PROCESS_DESC
+			days = 30
+			target = root.target
+			variable = { type = name localization = PLANET scope = root.target }
+		}
+		save_event_target_as = xhk_worldark_consuming_empire
+
+		# check if habitable
+		if = {
+			limit = {
+				root.target = { colonizable_planet = yes }
+			}
+			every_country = {
+				limit = {
+					is_nomadic = no
+					NOT = { is_same_value = event_target:xhk_worldark_consuming_empire }
+					has_communications = event_target:xhk_worldark_consuming_empire
+				}
+				add_opinion_modifier = {
+					modifier = opinion_xhk_worldark_planeteater_habitable
+					who = event_target:xhk_worldark_consuming_empire
+				}
+			}
+		}
+		else = {
+			every_country = {
+				limit = {
+					is_nomadic = no
+					NOT = { is_same_value = event_target:xhk_worldark_consuming_empire }
+					has_communications = event_target:xhk_worldark_consuming_empire
+				}
+				add_opinion_modifier = {
+					modifier = opinion_xhk_worldark_planeteater_barren
+					who = event_target:xhk_worldark_consuming_empire
+				}
+			}
+		}
+
+
+		capital_scope = {
+			if = {
+				limit = { NOT = { has_deposit = d_xhk_worldark_dismantle_size } }
+				add_deposit = d_xhk_worldark_dismantle_size
+			}
+			change_variable = {
+				which = xhk_worldark_dismantle_expansions
+				value = 1
+			}
+		}
+	}
+}
+
+# situation target scope
+xhk_worldark_planeteater_consume_planet = {
+	# get remaining size
+	export_trigger_value_to_variable = {
+		trigger = planet_size
+		variable = xhk_planet_size_var
+	}
+	# divide by 4
+	divide_variable = { which = xhk_planet_size_var value = 4 }
+	# round up
+	ceiling_variable = xhk_planet_size_var
+
+	while = {
+		count = xhk_planet_size_var
+		root.owner.capital_scope = {
+			if = {
+				limit = { NOT = { has_deposit = d_xhk_worldark_dismantle_size } }
+				add_deposit = d_xhk_worldark_dismantle_size
+			}
+			change_variable = {
+				which = xhk_worldark_dismantle_expansions
+				value = 1
+			}
+		}
+	}
+
+	clear_variable = xhk_planet_size_var
+
+	remove_carrier_flag = being_devoured
+	remove_carrier_flag = colony_event
+	remove_carrier_flag = arkship_absent_grace
+	remove_modifier = xhk_worldark_being_devoured_modifier
+	remove_planet = yes
+}
