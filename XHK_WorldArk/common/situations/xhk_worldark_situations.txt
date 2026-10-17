@@ -102,7 +102,7 @@ xhk_worldark_situation_planeteater = {
 		name = approach_xhk_planeteater
 		on_select = { custom_tooltip = xhk_worldark_stage_planeteater_effect }
 		default = yes
-		icon = GFX_situation_approach_amenities
+		icon = GFX_situation_approach_engineering
 		icon_background = GFX_situation_approach_bg_green
 		ai_weight = { base = 10 }
 		resources = {
@@ -122,6 +122,11 @@ xhk_worldark_situation_planeteater = {
 			desc = string_arkship_absent_grace
 			mult = 0
 			target = { has_carrier_flag = arkship_absent_grace }
+		}
+		modifier = {
+			desc = string_xhk_half_action_speed
+			mult = value:xhk_worldark_half_arkship_action_speed_mult
+			exists = owner.capital_scope.ship
 		}
 	}
 

@@ -130,3 +130,14 @@ xhk_worldark_dismantle_res_boost = {
 		add = capital_scope.modifier:arkship_harvest_resources_produces_mult
 	}
 }
+# gets speedup from half action speed
+# any scope as long as it can use owner to refer to wark empire
+# arkship_action_speed = 0.2 -> output = 1.10
+xhk_worldark_half_arkship_action_speed_mult = {
+	base = 0
+	modifier = {
+		add = owner.capital_scope.ship.modifier:arkship_action_speed
+	}
+	mult = 0.5
+	add = 1
+}

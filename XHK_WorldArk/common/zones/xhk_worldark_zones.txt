@@ -828,6 +828,7 @@ zone_xhk_worldark_amenities = {
         galactic_history_holomuseum
         aesthetic_wonders_holomuseum
         xeno_geology_holomuseum
+		building_artist_patron
 
         #PD
         building_pd_eludium_floating_resort
@@ -883,6 +884,7 @@ zone_xhk_worldark_amenities_dystopian = {
         galactic_history_holomuseum
         aesthetic_wonders_holomuseum
         xeno_geology_holomuseum
+		building_artist_patron
 
         #PD
         building_pd_eludium_floating_resort
@@ -1531,6 +1533,22 @@ zone_xhk_worldark_storage = {
         xhk_worldark_storage
     }
 
+}
+
+## CIVIC: DEEP SLEEP
+###########################################################
+zone_xhk_worldark_deep_sleep = {
+	icon = GFX_district_specialization_forever_cruise_city_passenger
+	inline_script = {
+		script = xhk_worldark/zones/zone_common
+		NUM_BUILDINGS = 0
+		UNLOCK = ""
+		POTENTIAL = ""
+	}
+
+	zone_sets = {
+		xhk_worldark_deep_sleep
+	}
 }
 
 ## UTILITY BAY

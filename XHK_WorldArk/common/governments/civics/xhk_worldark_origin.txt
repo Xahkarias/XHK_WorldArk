@@ -7,15 +7,6 @@ origin_xhk_worldark = {
     ai_playable = { always = no }
     possible = {
         is_nomadic = yes
-        civics = {
-            NOT = {
-                text = civic_tooltip_not_deep_sleep
-                value = civic_deep_sleep
-                value = civic_corporate_deep_sleep
-                value = civic_machine_deep_sleep
-                value = civic_hive_deep_sleep
-            }
-        }
     }
 
     modifier = {
@@ -23,7 +14,7 @@ origin_xhk_worldark = {
         planetary_ascension_cost_mult = 1
         shipsize_nomads_constructor_stockpile_capacity_mult = 0.5
         # SPECIFICALLY TO PREVENT action.361
-        colony_start_urban_districts_add = -5
+        colony_start_urban_districts_add = -10
     }
 
     description = "origin_xhk_worldark_tooltip_default_effects"

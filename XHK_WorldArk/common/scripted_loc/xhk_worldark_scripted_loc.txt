@@ -20,18 +20,6 @@ defined_text = {
     }
     default = xhk_harvest_plus_small
 }
-defined_text = {
-	name = xhk_worldark_getDistrictIncreaseFromHarvest_small
-	default = @xhk_worldark_harvest_size_small
-}
-defined_text = {
-	name = xhk_worldark_getDistrictIncreaseFromHarvest_large
-	value = @xhk_worldark_harvest_size_large
-}
-defined_text = {
-	name = xhk_worldark_getDistrictIncreaseFromHarvest_vlarge
-	value = @xhk_worldark_harvest_size_vlarge
-}
 
 # alloy expansion tt
 defined_text = {
@@ -49,6 +37,38 @@ defined_text = {
 		localization_key = xhk_worldark_alloy_expansion_tt_upkeep_tensile
 	}
 	default = xhk_worldark_alloy_expansion_tt_upkeep_normal
+}
+
+# deep sleep tooltip
+# colony scope
+defined_text = {
+	name = xhk_worldark_deepsleep_getNumCryo
+	text = {
+		trigger = { ship.starbase = { has_starbase_size >= xhk_worldark_tier_9 } }
+		localization_key = district_xhk_worldark_deep_sleep_effect_9
+	}
+	text = {
+		trigger = { ship.starbase = { OR = {
+			has_starbase_size = xhk_worldark_tier_7
+			has_starbase_size = xhk_worldark_tier_8
+		} } }
+		localization_key = district_xhk_worldark_deep_sleep_effect_7
+	}
+	text = {
+		trigger = { ship.starbase = { OR = {
+			has_starbase_size = xhk_worldark_tier_5
+			has_starbase_size = xhk_worldark_tier_6
+		} } }
+		localization_key = district_xhk_worldark_deep_sleep_effect_5
+	}
+	text = {
+		trigger = { ship.starbase = { OR = {
+			has_starbase_size = xhk_worldark_tier_4
+			has_starbase_size = xhk_worldark_tier_3
+		} } }
+		localization_key = district_xhk_worldark_deep_sleep_effect_3
+	}
+	default = district_xhk_worldark_deep_sleep_effect_d
 }
 
 ### DOCUMENTATION
@@ -173,6 +193,30 @@ defined_text = {
 	}
 	default = xhk_worldark_null_text
 }
+defined_text = {
+	name = xhk_worldark_getDistrictDoc_DeepSleep
+	text = {
+		trigger = {
+			is_deep_sleep_country = yes
+		}
+		localization_key = xhk_worldark_docs_districts_desc_deep_sleep
+	}
+	default = xhk_worldark_null_text
+}
+
+defined_text = {
+	name = xhk_worldark_getDistrictDoc_civic_null
+	text = {
+		trigger = {
+			OR = {
+				is_deep_sleep_country = yes
+			}
+		}
+		localization_key = xhk_worldark_null_text
+	}
+	default = xhk_worldark_docs_districts_desc_null_civic
+}
+
 
 # arkship buildings
 defined_text = {

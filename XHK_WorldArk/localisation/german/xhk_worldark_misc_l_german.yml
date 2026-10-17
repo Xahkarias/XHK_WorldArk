@@ -49,14 +49,17 @@
   XHK_TECH_UPGRADE_WORLDARK_2_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_2_DESC$"
   XHK_TECH_UPGRADE_WORLDARK_3_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_3_DESC$\nUnlocks §GFirst $district_xhk_worldark_city$§! Specialization"
   XHK_TECH_UPGRADE_WORLDARK_4_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_4_DESC$"
-  XHK_TECH_UPGRADE_WORLDARK_5_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_5_DESC$\n§I$xhk_worldark_size_harvest$§! §Yincreases§! to §G+[xhk_worldark_getDistrictIncreaseFromHarvest_large]§! £districtadd£§GMax Districts§!"
+  XHK_TECH_UPGRADE_WORLDARK_5_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_5_DESC$\n§I$xhk_worldark_size_harvest$§! §Yincreases§! to $xhk_harvest_plus_large$ £districtadd£§GMax Districts§!"
   XHK_TECH_UPGRADE_WORLDARK_6_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_6_DESC$\nUnlocks §GSecond $district_xhk_worldark_city$§! Specialization"
   XHK_TECH_UPGRADE_WORLDARK_7_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_7_DESC$"
   XHK_TECH_UPGRADE_WORLDARK_8_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_8_DESC$"
   XHK_TECH_UPGRADE_WORLDARK_9_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_9_DESC$"
   XHK_TECH_UPGRADE_WORLDARK_10_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_10_DESC$"
-  XHK_TECH_UPGRADE_WORLDARK_11_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_11_DESC$\n§I$xhk_worldark_size_harvest$§! §Yincreases§! to §G+[xhk_worldark_getDistrictIncreaseFromHarvest_vlarge]§! £districtadd£§GMax Districts§!\n§YLarge Bonus§! to $xhk_pc_worldark$ §GCombat Strength§!."
+  XHK_TECH_UPGRADE_WORLDARK_11_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_11_DESC$\n§I$xhk_worldark_size_harvest$§! §Yincreases§! to $xhk_harvest_plus_vlarge$ £districtadd£§GMax Districts§!\n§YLarge Bonus§! to $xhk_pc_worldark$ §GCombat Strength§!."
   XHK_TECH_UPGRADE_WORLDARK_12_TITLE:99 "$XHK_TECH_UPGRADE_WORLDARK_12_DESC$\nThe §GCore Spinal§! Slot is §Gunlocked§!"
+  
+  xhk_tech_worldark_penal_system:99 "Isolated Penal Sector"
+  xhk_tech_worldark_penal_system_desc:99 "$sm_xhk_worldark_penal_system_desc$\n\n§IThis system has effects that are not shown in the tooltip:$TABBED_NEW_LINE$ - Reduces Crime by 15%§!"
   
   xhk_tech_worldark_science_nexus:99 "Integrated Science Nexus"
   xhk_tech_worldark_science_nexus_desc:99 "Studies of settled empires have shown the value in concentrating scientific research in an isolated area, especially when coupled with advanced equipment."
@@ -72,9 +75,9 @@
   xhk_tech_worldark_art_installation:99 "Integrated Mega Art Installation"
   xhk_tech_worldark_art_installation_desc:99 "Studies of settles empires has given us insight into their creative pursuits. Setting up a station to analyze how we can adapt specific forms of creativity to the void could prove useful."
   
-  xhk_harvest_plus_small:99 "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_small]§!"
-  xhk_harvest_plus_large:99 "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_large]§!"
-  xhk_harvest_plus_vlarge:99 "§G+[xhk_worldark_getDistrictIncreaseFromHarvest_vlarge]§!"
+  xhk_harvest_plus_small:99 "§G+$@xhk_worldark_harvest_size_small|0$§!"
+  xhk_harvest_plus_large:99 "§G+$@xhk_worldark_harvest_size_large|0$§!"
+  xhk_harvest_plus_vlarge:99 "§G+$@xhk_worldark_harvest_size_vlarge|0$§!"
   
   xhk_worldark_dummy_error:99 "You shouldnt be seeing this, let me know if you see this: Error AB"
   xhk_worldark_dummy_error2:99 "You shouldnt be seeing this, let me know if you see this: Error AC"

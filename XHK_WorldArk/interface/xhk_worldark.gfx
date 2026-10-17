@@ -12,7 +12,7 @@ spriteTypes = {
     spriteType = {
         name = GFX_xhk_district_resources_sprite_sheet
         textureFile = gfx/interface/icons/resources/xhk_worldark_district_resources.dds
-        noOfFrames = 5
+        noOfFrames = 6
     }
     spriteType = { # not used, we use the gigas one
         name = GFX_xhk_worldark_dark_matter_spec
@@ -40,6 +40,11 @@ spriteTypes = {
         sprite_sheet_sprite_type = GFX_xhk_district_resources_sprite_sheet
         default_frame = 5
     }
+	spriteType = {
+		name = GFX_xhk_worldark_deep_sleep_spec
+		sprite_sheet_sprite_type = GFX_xhk_district_resources_sprite_sheet
+		default_frame = 6
+	}
 
 
 	##### ZONE SPRITES
@@ -93,6 +98,10 @@ spriteTypes = {
 	corneredTileSpriteType = {
 		name = "GFX_district_xhk_worldark_decompressor_bg"
 		texturefile = "gfx/interface/planetview/district_backgrounds/district_xhk_worldark_decompressor_bg.dds"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_district_xhk_worldark_deep_sleep_bg"
+		texturefile = "gfx/interface/planetview/district_backgrounds/district_xhk_worldark_deep_sleep_bg.dds"
 	}
 
 
