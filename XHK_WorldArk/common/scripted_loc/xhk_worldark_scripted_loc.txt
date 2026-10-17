@@ -205,6 +205,30 @@ defined_text = {
 	}
 	default = xhk_worldark_null_text
 }
+defined_text = {
+	name = xhk_worldark_getDistrictDoc_DeepSleep
+	text = {
+		trigger = {
+			is_deep_sleep_country = yes
+		}
+		localization_key = xhk_worldark_docs_districts_desc_deep_sleep
+	}
+	default = xhk_worldark_null_text
+}
+
+defined_text = {
+	name = xhk_worldark_getDistrictDoc_civic_null
+	text = {
+		trigger = {
+			OR = {
+				is_deep_sleep_country = yes
+			}
+		}
+		localization_key = xhk_worldark_null_text
+	}
+	default = xhk_worldark_docs_districts_desc_null_civic
+}
+
 
 # arkship buildings
 defined_text = {
