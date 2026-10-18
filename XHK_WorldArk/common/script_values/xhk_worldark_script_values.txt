@@ -4,7 +4,7 @@
 xhk_worldark_num_arkships_consume = {
     base = 0
     complex_trigger_modifier = {
-        trigger = count_owned_planet
+        trigger = count_owned_colony
         trigger_scope = owner
 		parameters = {
 			limit = {
