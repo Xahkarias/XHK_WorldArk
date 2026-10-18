@@ -1430,7 +1430,10 @@ zone_xhk_worldark_ordinance_full_batteries = {
 				has_technology = tech_strike_craft_1
 				has_technology = tech_lasers_2
 				has_technology = tech_mass_drivers_2
-				has_technology = tech_missiles_2
+				OR = {
+					has_technology = tech_missiles_2
+					country_uses_bio_ships = yes
+				}
 			}
 		"
 	}
