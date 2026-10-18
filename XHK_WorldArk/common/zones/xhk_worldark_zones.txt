@@ -580,6 +580,10 @@ zone_xhk_worldark_unity = {
         "
     }
 
+	inline_script = {
+		script = zones/shared_city_non_urban_zone_modifiers
+	}
+
     included_building_sets = {
         unity
         urban_automation
@@ -612,6 +616,10 @@ zone_xhk_worldark_spiritualist = {
             }
         "
     }
+
+	inline_script = {
+		script = zones/shared_city_non_urban_zone_modifiers
+	}
 
     included_building_sets = {
         unity
