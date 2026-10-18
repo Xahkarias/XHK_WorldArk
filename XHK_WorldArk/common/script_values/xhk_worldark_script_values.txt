@@ -86,7 +86,7 @@ xhk_worldark_level_virtual_colony_size = {
 # gets the num of districts for recursive learners
 # colony scope
 xhk_worldark_recursive_learners_value = {
-	base = 0.005
+	base = 0.0025
 	complex_trigger_modifier = {
 		trigger = num_districts
 		parameters = { type = any }
