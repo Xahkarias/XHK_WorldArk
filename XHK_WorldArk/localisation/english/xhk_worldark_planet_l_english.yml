@@ -121,19 +121,19 @@
 
  district_xhk_worldark_unity_spiritualist: "Ecclesiastical Sector"
  district_xhk_worldark_unity_spiritualist_plural: "Ecclesiastical Sectors"
- district_xhk_worldark_unity_spiritualist_desc: "$district_arcology_spiritualist_desc$"
+ district_xhk_worldark_unity_spiritualist_desc: "$city_temple_1_desc$"
 
  district_xhk_worldark_unity_hive: "$district_hive_administrative$"
  district_xhk_worldark_unity_hive_plural: "$district_hive_administrative_plural$"
- district_xhk_worldark_unity_hive_desc: "$district_hive_administrative_desc$"
+ district_xhk_worldark_unity_hive_desc: "$city_synapse_hive_1_desc$"
 
  district_xhk_worldark_unity_machine: "$district_nexus_administrative$"
  district_xhk_worldark_unity_machine_plural: "$district_nexus_administrative_plural$"
- district_xhk_worldark_unity_machine_desc: "$district_nexus_administrative_desc$"
+ district_xhk_worldark_unity_machine_desc: "$city_unity_machine_1_desc$"
 
  district_xhk_worldark_unity_servitor: "$district_nexus_organic_housing$"
  district_xhk_worldark_unity_servitor_plural: "$district_nexus_organic_housing_plural$"
- district_xhk_worldark_unity_servitor_desc: "$district_nexus_organic_housing_desc$"
+ district_xhk_worldark_unity_servitor_desc: "$city_unity_bio_trophy_machine_1_desc$"
 
  ##################################################################
  # Research

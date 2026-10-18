@@ -20,6 +20,15 @@ triggered_name = {
     }
     text = city_research_hive_1
 }
+triggered_flavor_desc = {
+	trigger = {
+		owner = {
+			is_hive_empire = yes
+		}
+	}
+	text = city_research_hive_1_desc
+}
+
 
 
 triggered_name = {
@@ -29,6 +38,14 @@ triggered_name = {
         }
     }
     text = city_research_machine_1
+}
+triggered_flavor_desc = {
+	trigger = {
+		owner = {
+			is_machine_empire = yes
+		}
+	}
+	text = city_research_machine_1_desc
 }
 
 
