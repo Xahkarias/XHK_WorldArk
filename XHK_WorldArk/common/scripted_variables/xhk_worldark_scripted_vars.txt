@@ -132,7 +132,7 @@
 @xhk_worldark_shipstat_reactor_t12 = 9
 
 ########################################################################################################
-##### SCRIPTED ACTIONS ####
+##### GROWTH STUFF  ####
 ########################################################################################################
 @xhk_worldark_harvest_cd = 3600 # 10 yrs
 @xhk_worldark_harvest_size_small = 5
@@ -141,3 +141,9 @@
 
 @xhk_worldark_dismantle_size_decrease = 4
 @xhk_worldark_dismantle_pulse_cooldown = 180
+
+@xhk_worldark_logisticbay_size = 3
+@xhk_worldark_consume_ark_size = 4
+@xhk_worldark_consume_hab_size = 4
+@xhk_worldark_alloy_build_size = 2
+# LOAD BEARING EOF

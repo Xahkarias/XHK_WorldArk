@@ -184,6 +184,16 @@ defined_text = {
 	default = xhk_worldark_docs_districts_desc_amenities
 }
 defined_text = {
+	name = xhk_worldark_getDistrictDoc_amb
+	text = {
+		trigger = {
+			has_global_flag = @giga_amb_flag
+		}
+		localization_key = xhk_worldark_docs_districts_desc_supertensiles
+	}
+	default = xhk_worldark_null_text
+}
+defined_text = {
 	name = xhk_worldark_getDistrictDoc_EHOF
 	text = {
 		trigger = {
