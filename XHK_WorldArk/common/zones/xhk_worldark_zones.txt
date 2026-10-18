@@ -33,7 +33,7 @@ zone_xhk_worldark_urban = {
 	}
 
 	triggered_district_planet_modifier = {
-		planet_housing_add = @zone_urban_housing_positive
+		planet_housing_add = 250
 	}
 
 	max_buildings = 3
