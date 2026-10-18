@@ -125,7 +125,7 @@
 
  xhk_worldark_docs_districts_desc_group_utility: "$xhk_worldark_docs_districts_desc_group_utility_header$$xhk_worldark_docs_districts_desc_storage$$xhk_worldark_docs_districts_desc_utilbay$"
  xhk_worldark_docs_districts_desc_group_utility_header: "\n§l------UTILITY-------------------------------------------§!"
- xhk_worldark_docs_districts_desc_storage: "\n£mod_country_resource_max_add£§G$district_xhk_worldark_storage$§!:  Provides §YMaximum Resource Storage§! and §Y$mod_situation_nomad_economy_max_progress_add$§!"
+ xhk_worldark_docs_districts_desc_storage: "\n£mod_country_resource_max_add£§G$district_xhk_worldark_storage$§!:  Provides §YMaximum Resource Storage§! and §Y$mod_situation_nomad_economy_max_progress_add$§!."
  xhk_worldark_docs_districts_desc_utilbay: "\n£housing£§G$district_xhk_worldark_utilbay$§!:  Provides extra §IUnlocked Building Slots§!."
 
  xhk_worldark_docs_districts_desc_group_civic: "$xhk_worldark_docs_districts_desc_group_civic_header$[xhk_worldark_getDistrictDoc_DeepSleep][xhk_worldark_getDistrictDoc_civic_null]"
@@ -238,9 +238,10 @@
  ####################
  # CROSSMOD
  xhk_worldark_docs_crossmod: "8) Special Integration Situations"
- xhk_worldark_docs_crossmod_desc: "$xhk_worldark_docs_birch_integration$"
+ xhk_worldark_docs_crossmod_desc: "$xhk_worldark_docs_integration_init$$xhk_worldark_docs_birch_integration$"
+ xhk_worldark_docs_integration_init: "The $xhk_pc_worldark$ can research specific habitables to gain some of their bonuses through a lengthy situation."
 
- xhk_worldark_docs_birch_integration: "§C------$xhk_worldark_situation_birchark$---------------------------§!\n$xhk_worldark_docs_birch_integration_req$\n$xhk_worldark_docs_birch_integration_rew$"
+ xhk_worldark_docs_birch_integration: "\n\n§C------$xhk_worldark_situation_birchark$---------------------------§!\n$xhk_worldark_docs_birch_integration_req$\n$xhk_worldark_docs_birch_integration_rew$"
  xhk_worldark_docs_birch_integration_req: "§3Requirements:§! §IAeternum must be defeated§!, or someone must §Iconstruct and colonize§! a Birch World."
  xhk_worldark_docs_birch_integration_rew: "§BRewards:§! A special district that provides §GBirch Insula Manager§! jobs and §GBirch Focus Buildings§!."
 
