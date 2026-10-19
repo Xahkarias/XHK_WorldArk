@@ -102,7 +102,7 @@
   trait_auto_xhk_pc_worldark_preference:99 "$xhk_pc_worldark$ Mutations"
   trait_auto_xhk_pc_worldark_preference_desc:99 "$trait_auto_hab_preference_desc$"
   
-  trait_xhk_worldark_recursive_learners_effects:99 "Grants §G+0.5%§! Specialist and Complex Drone $MOD_POP_BONUS_WORKFORCE_MULT$ per £district£ §Y$DISTRICT$§! (up to §G+25%§!) on the $xhk_pc_worldark$."
+  trait_xhk_worldark_recursive_learners_effects:99 "Grants §G+0.25%§! Specialist and Complex Drone $MOD_POP_BONUS_WORKFORCE_MULT$ per £district£ §Y$DISTRICT$§! (up to §G+25%§!) on the $xhk_pc_worldark$."
   
   trait_xhk_worldark_recursive_learners:99 "$trait_recursive_learners$ - World Ark"
   trait_xhk_worldark_recursive_learners_desc:99 "$trait_recursive_learners_desc$"

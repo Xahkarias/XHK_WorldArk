@@ -121,19 +121,19 @@
   
   district_xhk_worldark_unity_spiritualist:99 "Ecclesiastical Sector"
   district_xhk_worldark_unity_spiritualist_plural:99 "Ecclesiastical Sectors"
-  district_xhk_worldark_unity_spiritualist_desc:99 "$district_arcology_spiritualist_desc$"
+  district_xhk_worldark_unity_spiritualist_desc:99 "$city_temple_1_desc$"
   
   district_xhk_worldark_unity_hive:99 "$district_hive_administrative$"
   district_xhk_worldark_unity_hive_plural:99 "$district_hive_administrative_plural$"
-  district_xhk_worldark_unity_hive_desc:99 "$district_hive_administrative_desc$"
+  district_xhk_worldark_unity_hive_desc:99 "$city_synapse_hive_1_desc$"
   
   district_xhk_worldark_unity_machine:99 "$district_nexus_administrative$"
   district_xhk_worldark_unity_machine_plural:99 "$district_nexus_administrative_plural$"
-  district_xhk_worldark_unity_machine_desc:99 "$district_nexus_administrative_desc$"
+  district_xhk_worldark_unity_machine_desc:99 "$city_unity_machine_1_desc$"
   
   district_xhk_worldark_unity_servitor:99 "$district_nexus_organic_housing$"
   district_xhk_worldark_unity_servitor_plural:99 "$district_nexus_organic_housing_plural$"
-  district_xhk_worldark_unity_servitor_desc:99 "$district_nexus_organic_housing_desc$"
+  district_xhk_worldark_unity_servitor_desc:99 "$city_unity_bio_trophy_machine_1_desc$"
   
   ##################################################################
   # Research
@@ -455,11 +455,11 @@
   
   xhk_worldark_add_logistics_ship:99 "Increase Logistic Ship Capacity"
   xhk_worldark_add_logistics_ship_desc:99 "Increase £construction_ship£ Logistic Ship Capacity through the streamlining of command and control flow and harvesting schedules."
-  xhk_worldark_increase_logistic_ship_tt:99 "§G+1§! £construction_ship£ Logistic Ship Cap\n§G+1§! £districtadd£Maximum Districts\n§G+200§! Waystation Resources Transferred per Month"
+  xhk_worldark_increase_logistic_ship_tt:99 "§G+1§! £construction_ship£ Logistic Ship Cap\n§G+$@xhk_worldark_logisticbay_size|0$§! £districtadd£Maximum Districts\n§G+200§! Waystation Resources Transferred per Month"
   
   xhk_worldark_alloy_expansion_decision:99 "Expand $xhk_pc_worldark$ with Alloys"
   xhk_worldark_alloy_expansion_decision_desc:99 "Expand the $xhk_pc_worldark$ with the tried and true method of building stuff in space: with alloys."
-  xhk_worldark_alloy_expansion_tt:99 "§G+2§! £districtadd£Maximum Districts §R(No increase in growth jobs)§!\n\nCost §RIncreases§! per use:[xhk_worldark_alloyExpansion_GetScalingCost]\n\nUpkeep §RIncreases§! per use:[xhk_worldark_alloyExpansion_GetScalingUpkeep]"
+  xhk_worldark_alloy_expansion_tt:99 "§G+$@xhk_worldark_alloy_build_size|0$§! £districtadd£Maximum Districts §R(No increase in growth jobs)§!\n\nCost §RIncreases§! per use:[xhk_worldark_alloyExpansion_GetScalingCost]\n\nUpkeep §RIncreases§! per use:[xhk_worldark_alloyExpansion_GetScalingUpkeep]"
   xhk_worldark_alloy_expansion_tt_cost_normal:99 "$TABBED_NEW_LINE$+250 £alloys£§IAlloys§!"
   xhk_worldark_alloy_expansion_tt_cost_tensile:99 "$TABBED_NEW_LINE$+200 £alloys£§IAlloys§!$TABBED_NEW_LINE$+5 £giga_sr_amb_megaconstruction£§ISupertensile Materials§!"
   xhk_worldark_alloy_expansion_tt_upkeep_normal:99 "$TABBED_NEW_LINE$+1.5 £alloys£§IAlloys§!"
