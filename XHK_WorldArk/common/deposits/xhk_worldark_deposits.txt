@@ -412,7 +412,7 @@ d_xhk_worldark_habitat_size = {
     triggered_planet_modifier = {
         potential = { always = yes }
         xhk_worldark_expansion_count = 1
-        planet_artificial_max_districts_add = 4
+        planet_artificial_max_districts_add = @xhk_worldark_consume_hab_size
         multiplier = xhk_worldark_habitat_expansions
     }
 
@@ -447,7 +447,7 @@ d_xhk_worldark_alloy_size = {
 	triggered_planet_modifier = {
 		potential = { always = yes }
 		xhk_worldark_expansion_count = 1
-		planet_artificial_max_districts_add = 2
+		planet_artificial_max_districts_add = @xhk_worldark_alloy_build_size
 		multiplier = xhk_worldark_alloy_expansions
 	}
 
@@ -481,7 +481,7 @@ d_xhk_worldark_consume_ark_size = {
 	triggered_planet_modifier = {
 		potential = { always = yes }
 		xhk_worldark_expansion_count = 1
-		planet_artificial_max_districts_add = 4
+		planet_artificial_max_districts_add = @xhk_worldark_consume_ark_size
 		xhk_worldark_growth_job_add = @[xhk_growth_job_per_increase * 4]
 		multiplier = xhk_worldark_consumeark_expansions
 	}
@@ -499,7 +499,7 @@ d_xhk_worldark_logistic_ship_bay = {
 	triggered_planet_modifier = {
 		potential = { always = yes }
 		xhk_worldark_expansion_count = 1
-		planet_artificial_max_districts_add = 3
+		planet_artificial_max_districts_add = @xhk_worldark_logisticbay_size
 		multiplier = xhk_worldark_logistics_expansions
 	}
 

@@ -11,5 +11,23 @@ triggered_name = {
 }
 
 triggered_flavor_desc = {
+	trigger = {
+		has_zone = { zone = zone_xhk_worldark_waylogi }
+	}
     text = district_ark_waystation_trade_flavor_desc
+}
+triggered_flavor_desc = {
+	trigger = {
+		owner? = { is_hive_empire = yes }
+	}
+	text = district_hive_trade_desc
+}
+triggered_flavor_desc = {
+	trigger = {
+		owner? = { is_machine_empire = yes }
+	}
+	text = district_nexus_trade_desc
+}
+triggered_flavor_desc = {
+	text = district_ark_waystation_trade_flavor_desc
 }

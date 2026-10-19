@@ -33,7 +33,7 @@ zone_xhk_worldark_urban = {
 	}
 
 	triggered_district_planet_modifier = {
-		planet_housing_add = @zone_urban_housing_positive
+		planet_housing_add = 250
 	}
 
 	max_buildings = 3
@@ -580,6 +580,10 @@ zone_xhk_worldark_unity = {
         "
     }
 
+	inline_script = {
+		script = zones/shared_city_non_urban_zone_modifiers
+	}
+
     included_building_sets = {
         unity
         urban_automation
@@ -612,6 +616,10 @@ zone_xhk_worldark_spiritualist = {
             }
         "
     }
+
+	inline_script = {
+		script = zones/shared_city_non_urban_zone_modifiers
+	}
 
     included_building_sets = {
         unity
@@ -1422,7 +1430,10 @@ zone_xhk_worldark_ordinance_full_batteries = {
 				has_technology = tech_strike_craft_1
 				has_technology = tech_lasers_2
 				has_technology = tech_mass_drivers_2
-				has_technology = tech_missiles_2
+				OR = {
+					has_technology = tech_missiles_2
+					country_uses_bio_ships = yes
+				}
 			}
 		"
 	}

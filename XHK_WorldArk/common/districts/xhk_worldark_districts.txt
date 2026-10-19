@@ -660,6 +660,10 @@ district_xhk_worldark_unity = {
         script = jobs/unity_jobs_add
         AMOUNT = 200
     }
+
+	triggered_name = {
+		text = flavor_xhk_worldark_unity_name
+	}
 }
 district_xhk_worldark_unity_spiritualist = {
     inline_script = {
@@ -693,6 +697,10 @@ district_xhk_worldark_unity_spiritualist = {
         script = jobs/unity_jobs_add
         AMOUNT = 200
     }
+
+	inline_script = {
+		script = xhk_worldark/district_flavor/unity_spirit_flavor
+	}
 }
 district_xhk_worldark_unity_hive = {
     inline_script = {
@@ -709,6 +717,11 @@ district_xhk_worldark_unity_hive = {
         script = jobs/unity_jobs_add
         AMOUNT = 200
     }
+
+	triggered_name = {
+		text = city_synapse_hive_1
+	}
+
 }
 district_xhk_worldark_unity_machine = {
     inline_script = {
@@ -726,6 +739,10 @@ district_xhk_worldark_unity_machine = {
         script = jobs/unity_jobs_add
         AMOUNT = 200
     }
+
+	triggered_name = {
+		text = city_unity_machine_1
+	}
 }
 district_xhk_worldark_unity_servitor = {
     inline_script = {
@@ -748,6 +765,10 @@ district_xhk_worldark_unity_servitor = {
         }
         job_bio_trophy_add = 1000
     }
+
+	triggered_name = {
+		text = city_unity_bio_trophy_machine_1
+	}
 }
 
 # SCIENCE
