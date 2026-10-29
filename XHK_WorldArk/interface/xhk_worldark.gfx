@@ -239,6 +239,10 @@ spriteTypes = {
 		name = "GFX_xhk_worldark_penal_system"
 		texturefile = "gfx/interface/icons/modules/xhk_worldark_penal_system.dds"
 	}
+	spriteType = {
+		name = "GFX_xhk_worldark_mutagenic_spa"
+		texturefile = "gfx/interface/icons/modules/xhk_worldark_mutagenic_spa.dds"
+	}
 
 	####################################################################################################################
 	# BACKDROP

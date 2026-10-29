@@ -520,7 +520,17 @@ country_event = {
 		}
 
 		# remove zone if its there
+		# do it twice cause sometimes it puts two zones why????
 		capital_scope = {
+			if = {
+				limit = {
+					has_zone = { zone = zone_xhk_worldark_urban }
+				}
+				remove_zone = {
+					district = district_xhk_worldark_city
+					zone = zone_xhk_worldark_urban
+				}
+			}
 			if = {
 				limit = {
 					has_zone = { zone = zone_xhk_worldark_urban }
