@@ -15,6 +15,7 @@ country_event = {
             tech = xhk_tech_worldark_1
             message = no
         }
+		set_country_flag = giga_one_planet_origin
 
         ################################################################################################################
         # old capital scope
