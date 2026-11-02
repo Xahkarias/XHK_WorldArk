@@ -260,7 +260,7 @@
  district_xhk_worldark_sentientmetal: "Assimilator Field"
  district_xhk_worldark_sentientmetal_plural: "Assimilator Fields"
  district_xhk_worldark_sentientmetal_desc: "$building_ehof_sm_forge_1_desc$"
- flavor_xhk_worldark_sentientmetal_name: "Sentient Foundries"
+ flavor_xhk_worldark_sentientmetal_name: "Cultivation Furnaces"
 
  ##################################################################
  # Storage
