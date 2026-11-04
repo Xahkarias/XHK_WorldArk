@@ -1112,7 +1112,7 @@ zone_xhk_worldark_supertensiles = {
 			}
 		}
 		modifier = {
-			job_giga_megaengineer_add = 100
+			job_giga_megaengineer_add = 150
 		}
 	}
 	triggered_district_planet_modifier = {
@@ -1123,7 +1123,7 @@ zone_xhk_worldark_supertensiles = {
 			}
 		}
 		modifier = {
-			job_giga_megaengineer_drone_add = 100
+			job_giga_megaengineer_drone_add = 150
 		}
 	}
 
@@ -1167,7 +1167,7 @@ zone_xhk_worldark_negativemass = {
 			}
 		}
 		modifier = {
-			job_ehof_energy_converter_add = 100
+			job_ehof_energy_converter_add = 150
 		}
 	}
 	triggered_district_planet_modifier = {
@@ -1178,7 +1178,7 @@ zone_xhk_worldark_negativemass = {
 			}
 		}
 		modifier = {
-			job_ehof_energy_converter_drone_add = 100
+			job_ehof_energy_converter_drone_add = 150
 		}
 	}
 
@@ -1214,7 +1214,7 @@ zone_xhk_worldark_sentientmetal = {
 			}
 		}
 		modifier = {
-			job_ehof_cultivator_add = 100
+			job_ehof_cultivator_add = 150
 		}
 	}
 	triggered_district_planet_modifier = {
@@ -1225,7 +1225,7 @@ zone_xhk_worldark_sentientmetal = {
 			}
 		}
 		modifier = {
-			job_ehof_cultivation_drone_add = 100
+			job_ehof_cultivation_drone_add = 150
 		}
 	}
 
