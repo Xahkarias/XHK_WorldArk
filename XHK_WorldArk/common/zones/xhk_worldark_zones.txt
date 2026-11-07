@@ -1582,20 +1582,20 @@ zone_xhk_worldark_storage = {
         potential = {
             always = yes
         }
-        country_resource_max_add = 10000
-        situation_nomad_economy_max_progress_add = 2000
+        country_resource_max_add = @xhk_worldark_storage_resource_max
+        situation_nomad_economy_max_progress_add = @xhk_worldark_storage_nomad_reserves
     }
     triggered_district_country_modifier = {
         potential = {
             owner = { has_technology = tech_fe_silo_1 }
         }
-        country_resource_max_minor_artifacts_add = 500
+        country_resource_max_minor_artifacts_add = @xhk_worldark_storage_minor_artifacts
     }
     triggered_district_country_modifier = {
         potential = {
             owner = { has_technology = tech_fe_silo_2 }
         }
-        country_resource_max_minor_artifacts_add = 500
+        country_resource_max_minor_artifacts_add = @xhk_worldark_storage_minor_artifacts
     }
 
 

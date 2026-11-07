@@ -84,3 +84,32 @@ defined_text = {
 	name = xhk_worldark_GetForgeryBonus
 	value = value:xhk_worldark_forgery_infiltration_display
 }
+
+# storage tooltip
+defined_text = {
+	name = xhk_worldark_GetStorageResourceMax
+	value = value:xhk_worldark_storage_resource_max_display
+}
+defined_text = {
+	name = xhk_worldark_GetStorageNomadReserves
+	value = value:xhk_worldark_storage_nomad_reserves_display
+}
+defined_text = {
+	name = xhk_worldark_GetStorageMinorArtifacts
+	value = value:xhk_worldark_storage_minor_artifacts_display
+}
+defined_text = {
+	name = xhk_worldark_GetStorageMinorArtifactsLine
+	text = {
+		trigger = {
+			owner = {
+				OR = {
+					has_technology = tech_fe_silo_1
+					has_technology = tech_fe_silo_2
+				}
+			}
+		}
+		localization_key = district_xhk_worldark_storage_effect_artifacts
+	}
+	default = xhk_empty_string
+}

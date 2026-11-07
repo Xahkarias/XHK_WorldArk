@@ -168,3 +168,45 @@ xhk_worldark_forgery_infiltration_display = {
 	add = value:xhk_worldark_forgery_infiltration
 	mult = 100
 }
+# storage zone totals, for loc
+xhk_worldark_storage_levels = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = num_districts
+		parameters = {
+			type = district_xhk_worldark_storage
+		}
+		mode = add
+	}
+}
+xhk_worldark_storage_resource_max_display = {
+	base = 0
+	add = value:xhk_worldark_storage_levels
+	mult = @xhk_worldark_storage_resource_max
+}
+xhk_worldark_storage_nomad_reserves_display = {
+	base = 0
+	add = value:xhk_worldark_storage_levels
+	mult = @xhk_worldark_storage_nomad_reserves
+}
+xhk_worldark_storage_minor_artifacts_display = {
+	base = 0
+	add = value:xhk_worldark_storage_levels
+	mult = @xhk_worldark_storage_minor_artifacts
+	modifier = {
+		owner = {
+			has_technology = tech_fe_silo_1
+			has_technology = tech_fe_silo_2
+		}
+		mult = 2
+	}
+	modifier = {
+		owner = {
+			NOR = {
+				has_technology = tech_fe_silo_1
+				has_technology = tech_fe_silo_2
+			}
+		}
+		mult = 0
+	}
+}
