@@ -1294,7 +1294,7 @@ district_xhk_worldark_supertensiles = {
 	base_buildtime = @xhk_base_buildtime
 	icon = district_giga_supertensiles
 	district_background = district_giga_frameworld_supertensiles
-	gridbox = district_giga_frameworld_supertensiles
+	gridbox = district_giga_birch_ktisma_supertensiles
 	is_uncapped = { always = yes }
 	overlay_icon = GFX_giga_district_supertensiles
 
