@@ -587,6 +587,57 @@ zone_xhk_worldark_mining = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
+# researchers, anomaly and survey speed per harvester
+zone_xhk_worldark_survey = {
+    icon = GFX_district_specialization_research
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "carrier.starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole } }"
+    }
+    convert_to = {
+        zone_xhk_worldark_survey_decompressor
+    }
+
+    inline_script = {
+        script = xhk_worldark/zones/survey_zone
+    }
+
+	# doubled
+	inline_script = {
+		script = jobs/zone_researchers_add
+		AMOUNT = 10
+	}
+
+    swap_type = district_xhk_worldark_harvest_survey
+    swap_type_weight = 5
+}
+zone_xhk_worldark_survey_decompressor = {
+    icon = GFX_district_specialization_research
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "carrier.starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole }"
+    }
+    convert_to = {
+        zone_xhk_worldark_survey
+    }
+
+    inline_script = {
+        script = xhk_worldark/zones/survey_zone
+    }
+
+	# doubled
+	inline_script = {
+		script = jobs/zone_researchers_add
+		AMOUNT = 20
+	}
+
+    swap_type = district_xhk_worldark_decompressor_survey
+    swap_type_weight = 5
+}
 
 ## FARM
 ###########################################################

@@ -536,6 +536,11 @@ district_xhk_worldark_minerals = {
         AMOUNT = 200
     }
 
+	triggered_desc = {
+		trigger = { has_zone = { zone = zone_xhk_worldark_survey } }
+		text = zone_xhk_worldark_survey_dtt
+	}
+
     inline_script = {
         script = xhk_worldark/district_flavor/mining_flavor
     }
@@ -573,11 +578,16 @@ district_xhk_worldark_decompressor = {
 
 	inline_script = {
 		script = jobs/ark_harvester_add
-		AMOUNT = 100
+		AMOUNT = 200
 	}
 	inline_script = {
 		script = jobs/miners_add
-		AMOUNT = 800
+		AMOUNT = 600
+	}
+
+	triggered_desc = {
+		trigger = { has_zone = { zone = zone_xhk_worldark_survey_decompressor } }
+		text = zone_xhk_worldark_survey_dtt
 	}
 
 	triggered_name = {

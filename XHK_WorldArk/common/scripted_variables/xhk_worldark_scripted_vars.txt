@@ -152,6 +152,8 @@
 ########################################################################################################
 # infiltration speed per 100 artisans
 @xhk_worldark_forgery_infiltration_per_100 = 0.01
+# anomaly research and survey speed per 100 harvesters
+@xhk_worldark_survey_bonus_per_100 = 0.02
 # storage zone, per district level
 @xhk_worldark_storage_resource_max = 10000
 @xhk_worldark_storage_nomad_reserves = 2000

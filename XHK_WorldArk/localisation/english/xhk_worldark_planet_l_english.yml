@@ -94,6 +94,10 @@
  district_xhk_worldark_minerals_plural: "$district_ark_harvest_plural$"
  district_xhk_worldark_minerals_desc: "$district_ark_harvest_desc$"
 
+ district_xhk_worldark_harvest_survey: "$district_xhk_worldark_minerals$"
+ district_xhk_worldark_harvest_survey_plural: "$district_xhk_worldark_minerals_plural$"
+ district_xhk_worldark_harvest_survey_desc: "$district_xhk_worldark_minerals_desc$"
+
  ##################################################################
  # Decompressor
  ##################################################################
@@ -102,6 +106,10 @@
  district_xhk_worldark_decompressor_plural: "Decompressor Arrays"
  district_xhk_worldark_decompressor_desc: "A grid of decompressor nodes serves to drain the black holes of matter for use in fueling the $xhk_pc_worldark$. They will last longer than our feeble bodies, ensuring a constant flow of matter."
  xhk_worldark_decompressor_subtitle: "Extraction Operations"
+
+ district_xhk_worldark_decompressor_survey: "$district_xhk_worldark_decompressor$"
+ district_xhk_worldark_decompressor_survey_plural: "$district_xhk_worldark_decompressor_plural$"
+ district_xhk_worldark_decompressor_survey_desc: "$district_xhk_worldark_decompressor_desc$"
 
  ##################################################################
  # Farming
@@ -341,8 +349,15 @@
  zone_xhk_worldark_reactshield_penrose: "$xhk_worldark_penrose_shield_subtitle$"
  zone_xhk_worldark_reactshield_penrose_desc: "$district_xhk_worldark_penrose_shield_desc$"
 
- zone_xhk_worldark_mining: "Parallelized Extraction Operations"
+ zone_xhk_worldark_mining: "Extraction Siphons"
  zone_xhk_worldark_mining_desc: "$zone_ark_harvest_desc$"
+
+ zone_xhk_worldark_survey: "Survey Arrays"
+ zone_xhk_worldark_survey_desc: "Sensor arrays replace expanded harvesting equipment, amplifying our ability to search the unknown."
+ zone_xhk_worldark_survey_decompressor: "Tachyon Resonators"
+ zone_xhk_worldark_survey_decompressor_desc: "$zone_xhk_worldark_survey_desc$"
+ zone_xhk_worldark_survey_tt:"§G+$@xhk_worldark_survey_bonus_per_100|%1$§! $MOD_SHIP_ANOMALY_RESEARCH_SPEED$ and §G+$@xhk_worldark_survey_bonus_per_100|%1$§! $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$ per §Y100§! [GetHarvester] jobs."
+ zone_xhk_worldark_survey_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - Empire $MOD_SHIP_ANOMALY_RESEARCH_SPEED$: §G+[xhk_worldark_GetSurveyBonus]%§!$TABBED_NEW_LINE$ - $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$: §G+[xhk_worldark_GetSurveyBonus]%§!"
 
  zone_xhk_worldark_farming: "Expanded Hydroponics"
  zone_xhk_worldark_farming_desc: "$zone_ark_food_desc$"
