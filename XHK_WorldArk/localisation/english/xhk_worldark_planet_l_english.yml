@@ -271,7 +271,7 @@
  district_xhk_worldark_storage_plural: "Storage Holds"
  district_xhk_worldark_storage_desc: "A large storage complex that would take up the size of a city on a terrestrial planet."
  flavor_xhk_worldark_storage_name: "Deep Warehouses"
- district_xhk_worldark_storage_effect: "§IZone Provides:§!$TABBED_NEW_LINE$ - Resource Storage Capacity: §G+[xhk_worldark_GetStorageResourceMax]§!$TABBED_NEW_LINE$ - $mod_situation_nomad_economy_max_progress_add$: §G+[xhk_worldark_GetStorageNomadReserves]§![xhk_worldark_GetStorageMinorArtifactsLine]"
+ district_xhk_worldark_storage_effect: "§IFrom Zone:§!$TABBED_NEW_LINE$ - Resource Storage Capacity: §G+[xhk_worldark_GetStorageResourceMax]§!$TABBED_NEW_LINE$ - $mod_situation_nomad_economy_max_progress_add$: §G+[xhk_worldark_GetStorageNomadReserves]§![xhk_worldark_GetStorageMinorArtifactsLine]"
  district_xhk_worldark_storage_effect_artifacts: "$TABBED_NEW_LINE$ - $mod_country_resource_max_minor_artifacts_add$: §G+[xhk_worldark_GetStorageMinorArtifacts]§!"
 
  ##################################################################
@@ -320,7 +320,7 @@
  zone_xhk_worldark_forgery: "Obscura Manufactorum"
  zone_xhk_worldark_forgery_desc: "Workshops that turn out forged papers, bugged goods, and software with backdoors alongside their usual wares."
  zone_xhk_worldark_forgery_tt: "§G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$ per §Y100§! [GetArtisanPlural]."
- zone_xhk_worldark_forgery_dtt: "§IZone Provides:§!$TABBED_NEW_LINE$ - $MOD_SPY_NETWORK_DAILY_VALUE_ADD$: §G+[xhk_worldark_GetForgeryBonus]%§!$TABBED_NEW_LINE$ - $MOD_ESPIONAGE_OPERATION_SPEED_MULT$: §G+[xhk_worldark_GetForgeryBonus]%§!"
+ zone_xhk_worldark_forgery_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $MOD_SPY_NETWORK_DAILY_VALUE_ADD$: §G+[xhk_worldark_GetForgeryBonus]%§!$TABBED_NEW_LINE$ - $MOD_ESPIONAGE_OPERATION_SPEED_MULT$: §G+[xhk_worldark_GetForgeryBonus]%§!"
 
  zone_xhk_worldark_trade: "$zone_trade$"
  zone_xhk_worldark_trade_desc: "$zone_trade_desc$"
