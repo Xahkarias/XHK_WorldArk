@@ -146,4 +146,10 @@
 @xhk_worldark_consume_ark_size = 4
 @xhk_worldark_consume_hab_size = 4
 @xhk_worldark_alloy_build_size = 2
+
+########################################################################################################
+##### ZONES  ####
+########################################################################################################
+# infiltration speed per 100 artisans
+@xhk_worldark_forgery_infiltration_per_100 = 0.01
 # LOAD BEARING EOF

@@ -345,6 +345,11 @@ district_xhk_worldark_factory = {
         AMOUNT = 200
     }
 
+	triggered_desc = {
+		trigger = { has_zone = { zone = zone_xhk_worldark_forgery } }
+		text = zone_xhk_worldark_forgery_dtt
+	}
+
     inline_script = {
         script = xhk_worldark/district_flavor/factory_flavor
     }

@@ -315,6 +315,11 @@
  zone_xhk_worldark_factory: "$zone_factory$"
  zone_xhk_worldark_factory_desc: "$zone_factory_desc$"
 
+ zone_xhk_worldark_forgery: "Obscura Manufactorum"
+ zone_xhk_worldark_forgery_desc: "Workshops that turn out forged papers, bugged goods, and software with backdoors alongside their usual wares."
+ zone_xhk_worldark_forgery_tt: "§G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$ per §Y100§! [GetArtisanPlural]."
+ zone_xhk_worldark_forgery_dtt: "§IZone Provides:§!$TABBED_NEW_LINE$ - $MOD_SPY_NETWORK_DAILY_VALUE_ADD$: §G+[xhk_worldark_GetForgeryBonus]%§!$TABBED_NEW_LINE$ - $MOD_ESPIONAGE_OPERATION_SPEED_MULT$: §G+[xhk_worldark_GetForgeryBonus]%§!"
+
  zone_xhk_worldark_trade: "$zone_trade$"
  zone_xhk_worldark_trade_desc: "$zone_trade_desc$"
 

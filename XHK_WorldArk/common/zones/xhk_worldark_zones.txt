@@ -195,6 +195,72 @@ zone_xhk_worldark_factory = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
+# infiltration
+zone_xhk_worldark_forgery = {
+    icon = GFX_district_specialization_payback_enlightenment
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_decryption_2 }"
+    }
+
+	show_in_tech = tech_decryption_2
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+    included_building_sets = {
+        factory
+        urban_automation
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_factory_add
+        AMOUNT = 50
+    }
+
+    triggered_country_modifier = {
+        potential = {
+            always = yes
+        }
+        spy_network_daily_value_mult = 1
+        espionage_operation_speed_mult = 1
+        mult = value:xhk_worldark_forgery_infiltration
+    }
+
+	# Non-catalytic empires pay the extra factory upkeep in minerals
+	triggered_planet_modifier = {
+		potential = {
+			industrial_jobs_are_catalytic_trigger = no
+		}
+		modifier = {
+			planet_artisans_minerals_upkeep_add = 0.5
+		}
+	}
+	# Catalytic Processing empires pay it in food instead, at the same 1.5x ratio the base job uses when swapping minerals for food
+	triggered_planet_modifier = {
+		potential = {
+			industrial_jobs_are_catalytic_trigger = yes
+		}
+		modifier = {
+			planet_artisans_food_upkeep_add = 0.75
+		}
+	}
+
+	triggered_desc = {
+		trigger = { always = yes }
+		text = zone_xhk_worldark_forgery_tt
+	}
+
+    zone_sets = {
+        xhk_worldark_factory
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
 
 ## TRADE
 ###########################################################
@@ -1443,7 +1509,9 @@ zone_xhk_worldark_ordinance_full_batteries = {
 	}
 
 	show_in_tech = tech_mega_engineering
-	show_tech_unlock_if = { is_nomadic = yes }
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
 
 	# doubled
 	inline_script = {

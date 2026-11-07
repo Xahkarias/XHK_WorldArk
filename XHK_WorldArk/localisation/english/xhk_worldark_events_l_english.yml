@@ -87,7 +87,7 @@
  xhk_worldark_docs_districts_desc_group_manufactured: "$xhk_worldark_docs_districts_desc_group_manufactured_header$$xhk_worldark_docs_districts_desc_foundry$[owner.xhk_worldark_getDistrictDoc_Factory]$xhk_worldark_docs_districts_desc_trade$"
  xhk_worldark_docs_districts_desc_group_manufactured_header: "\n§l------MANUFACTURED-GOODS---------------------------------§!"
  xhk_worldark_docs_districts_desc_foundry: "\n£alloys£§G$district_xhk_worldark_foundry$§!: Provides §I[GetAlloyProducer]§! jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_foundry$§!: Adds §I[GetAlloyProducer]§! jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_voidforge$§!: Provides §Y$xhk_pc_worldark$ Armor§! bonuses."
- xhk_worldark_docs_districts_desc_factory: "\n£consumer_goods£§G$district_xhk_worldark_factory$§!: Provides §I[GetArtisan]§! jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_factory$§!: Adds §I[GetArtisan]§! jobs."
+ xhk_worldark_docs_districts_desc_factory: "\n£consumer_goods£§G$district_xhk_worldark_factory$§!: Provides §I[GetArtisan]§! jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_factory$§!: Adds §I[GetArtisan]§! jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_forgery$§!: Adds $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and $MOD_ESPIONAGE_OPERATION_SPEED_MULT$ per [GetArtisan]."
  xhk_worldark_docs_districts_desc_trade: "\n£trade£§G$district_xhk_worldark_trade$§!:  Provides §I[GetBaseTrader]§! jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_trade$§!: Adds §I[GetBaseTrader]§! jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_waylogi$§!: Increases §I$waystation$ Capacity§!."
 
  xhk_worldark_docs_districts_desc_group_raw: "$xhk_worldark_docs_districts_desc_group_raw_header$$xhk_worldark_docs_districts_desc_generator$$xhk_worldark_docs_districts_desc_harvester$$xhk_worldark_docs_districts_desc_farm$"
