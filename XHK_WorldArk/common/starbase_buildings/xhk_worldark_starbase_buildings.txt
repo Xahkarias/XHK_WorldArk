@@ -1,3 +1,5 @@
+############################################################
+### UNIQUE COLONY INTEGRATION
 
 xhk_worldark_resort_system = {
 	icon = "GFX_waystation_trade_module"
@@ -288,6 +290,84 @@ xhk_worldark_penal_system_gestalt = {
 
 	ai_weight = {
 		weight = 15
+	}
+}
+
+############################################################
+### CIVIC INTEGRATION
+
+xhk_worldark_mutagenic_spa = {
+	icon = "GFX_xhk_worldark_mutagenic_spa"
+	starbase_type = arkship
+	construction_days = 720
+	category = sm_colony_cat
+
+	starbase_limit = {
+		base = 1
+	}
+
+	potential = {
+		xhk_is_worldark_starbase = yes
+		owner? = {
+			is_toxic_baths_empire = yes
+		}
+	}
+
+	possible = {
+		has_starbase_size >= xhk_worldark_tier_7
+		colony = {
+			OR = {
+				has_building = building_toxic_bath
+				has_building = building_toxic_bath_hive
+				has_building = building_toxic_bath_machine
+			}
+		}
+	}
+
+	destroy_trigger = {
+		colony = {
+			NOR = {
+				has_building = building_toxic_bath
+				has_building = building_toxic_bath_hive
+				has_building = building_toxic_bath_machine
+			}
+		}
+	}
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = 5000
+			unity = 1000
+		}
+		upkeep = {
+			energy = 20
+		}
+	}
+
+	#not using the base inline because that adds based on councilor
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		job_bath_attendant_add = 200
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		job_bath_attendant_machine_add = 200
+	}
+
+
+	ai_weight = {
+		weight = 100
 	}
 }
 

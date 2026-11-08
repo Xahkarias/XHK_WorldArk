@@ -132,5 +132,7 @@ xhk_worldark_not_consumed_by_wark = {
 		is_planet_class = xhk_pc_worldark
 		# lathe
 		is_planet_class = pc_cosmogenesis_world
+		# for ancient empires i guess
+		ag_is_ancient_ringworld = yes
 	}
 }

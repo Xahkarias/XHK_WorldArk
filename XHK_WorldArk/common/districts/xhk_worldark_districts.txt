@@ -345,6 +345,11 @@ district_xhk_worldark_factory = {
         AMOUNT = 200
     }
 
+	triggered_desc = {
+		trigger = { has_zone = { zone = zone_xhk_worldark_forgery } }
+		text = zone_xhk_worldark_forgery_dtt
+	}
+
     inline_script = {
         script = xhk_worldark/district_flavor/factory_flavor
     }
@@ -531,6 +536,11 @@ district_xhk_worldark_minerals = {
         AMOUNT = 200
     }
 
+	triggered_desc = {
+		trigger = { has_zone = { zone = zone_xhk_worldark_survey } }
+		text = zone_xhk_worldark_survey_dtt
+	}
+
     inline_script = {
         script = xhk_worldark/district_flavor/mining_flavor
     }
@@ -568,11 +578,16 @@ district_xhk_worldark_decompressor = {
 
 	inline_script = {
 		script = jobs/ark_harvester_add
-		AMOUNT = 100
+		AMOUNT = 200
 	}
 	inline_script = {
 		script = jobs/miners_add
-		AMOUNT = 800
+		AMOUNT = 600
+	}
+
+	triggered_desc = {
+		trigger = { has_zone = { zone = zone_xhk_worldark_survey_decompressor } }
+		text = zone_xhk_worldark_survey_dtt
 	}
 
 	triggered_name = {
@@ -1294,7 +1309,7 @@ district_xhk_worldark_supertensiles = {
 	base_buildtime = @xhk_base_buildtime
 	icon = district_giga_supertensiles
 	district_background = district_giga_frameworld_supertensiles
-	gridbox = district_giga_frameworld_supertensiles
+	gridbox = district_giga_birch_ktisma_supertensiles
 	is_uncapped = { always = yes }
 	overlay_icon = GFX_giga_district_supertensiles
 
@@ -1333,7 +1348,7 @@ district_xhk_worldark_supertensiles = {
 			}
 		}
 		modifier = {
-			job_giga_megaengineer_add = 100
+			job_giga_megaengineer_add = 150
 		}
 	}
 
@@ -1345,7 +1360,7 @@ district_xhk_worldark_supertensiles = {
 			}
 		}
 		modifier = {
-			job_giga_megaengineer_drone_add = 100
+			job_giga_megaengineer_drone_add = 150
 		}
 	}
 
@@ -1455,7 +1470,7 @@ district_xhk_worldark_negativemass = {
 			}
 		}
 		modifier = {
-			job_ehof_energy_converter_add = 200
+			job_ehof_energy_converter_add = 150
 		}
 	}
 
@@ -1467,7 +1482,7 @@ district_xhk_worldark_negativemass = {
 			}
 		}
 		modifier = {
-			job_ehof_energy_converter_drone_add = 200
+			job_ehof_energy_converter_drone_add = 150
 		}
 	}
 
@@ -1520,7 +1535,7 @@ district_xhk_worldark_sentientmetal = {
 			}
 		}
 		modifier = {
-			job_ehof_cultivator_add = 200
+			job_ehof_cultivator_add = 150
 		}
 	}
 
@@ -1532,7 +1547,7 @@ district_xhk_worldark_sentientmetal = {
 			}
 		}
 		modifier = {
-			job_ehof_cultivation_drone_add = 200
+			job_ehof_cultivation_drone_add = 150
 		}
 	}
 

@@ -1,3 +1,6 @@
+##############################
+### ACTIONS
+
 # harvest tt
 defined_text = {
     name = xhk_worldark_getDistrictIncreaseFromHarvest
@@ -39,6 +42,11 @@ defined_text = {
 	default = xhk_worldark_alloy_expansion_tt_upkeep_normal
 }
 
+##############################
+### SYSTEMS
+
+##############################
+### DISTRICTS
 # deep sleep tooltip
 # colony scope
 defined_text = {
@@ -71,191 +79,43 @@ defined_text = {
 	default = district_xhk_worldark_deep_sleep_effect_d
 }
 
-### DOCUMENTATION
-##################################################################
-# population
+# forgery tooltip
 defined_text = {
-    name = xhk_worldark_getPopulationDocumentation
-    text = {
-        trigger = { is_synthetic_empire = yes }
-        localization_key = xhk_worldark_docs_population_desc_indiv_machine
-    }
-    text = {
-        trigger = { is_machine_empire = yes }
-        localization_key = xhk_worldark_docs_population_desc_machine
-    }
-    text = {
-        trigger = { is_hive_empire = yes }
-        localization_key = xhk_worldark_docs_population_desc_hive
-    }
-    default = xhk_worldark_docs_population_desc_norm
+	name = xhk_worldark_GetForgeryBonus
+	value = value:xhk_worldark_forgery_infiltration_display
+}
+
+# storage tooltip
+defined_text = {
+	name = xhk_worldark_GetStorageResourceMax
+	value = value:xhk_worldark_storage_resource_max_display
 }
 defined_text = {
-    name = xhk_worldark_getCivicDocumentation
-    text = {
-        trigger = { is_machine_empire = yes }
-        localization_key = xhk_worldark_docs_special_civic_desc_machine
-    }
-    text = {
-        trigger = { is_hive_empire = yes }
-        localization_key = xhk_worldark_docs_special_civic_desc_hive
-    }
-    text = {
-        trigger = { is_megacorp = yes }
-        localization_key = xhk_worldark_docs_special_civic_desc_corp
-    }
-    default = xhk_worldark_docs_special_civic_desc_norm
+	name = xhk_worldark_GetStorageNomadReserves
+	value = value:xhk_worldark_storage_nomad_reserves_display
 }
 defined_text = {
-	name = xhk_worldark_getVirtualDocumentation
+	name = xhk_worldark_GetStorageMinorArtifacts
+	value = value:xhk_worldark_storage_minor_artifacts_display
+}
+defined_text = {
+	name = xhk_worldark_GetStorageMinorArtifactsLine
 	text = {
 		trigger = {
-			OR = {
-				is_machine_empire = yes
-				is_individual_machine = yes
+			owner = {
+				OR = {
+					has_technology = tech_fe_silo_1
+					has_technology = tech_fe_silo_2
+				}
 			}
 		}
-		localization_key = xhk_worldark_docs_expansion_desc_virt
+		localization_key = district_xhk_worldark_storage_effect_artifacts
 	}
-	default = xhk_worldark_null_text
+	default = xhk_empty_string
 }
 
-# DISTRICT DOCS
+# survey tooltip
 defined_text = {
-	name = xhk_worldark_getDistrictDoc_Factory
-	text = {
-		trigger = {
-			OR = {
-				is_gestalt = no
-				has_valid_civic = civic_machine_servitor
-				has_valid_civic = civic_machine_obsessional_directive
-				country_uses_consumer_goods = yes
-			}
-		}
-		localization_key = xhk_worldark_docs_districts_desc_factory
-	}
-	default = xhk_worldark_null_text
-}
-defined_text = {
-	name = xhk_worldark_getDistrictDoc_Unity
-	text = {
-		trigger = {
-			is_hive_empire = yes
-		}
-		localization_key = xhk_worldark_docs_districts_desc_hive
-	}
-	text = {
-		trigger = {
-			is_machine_empire = yes
-			has_valid_civic = civic_machine_servitor
-		}
-		localization_key = xhk_worldark_docs_districts_desc_serv
-	}
-	text = {
-		trigger = {
-			is_machine_empire = yes
-			NOT = { has_valid_civic = civic_machine_servitor }
-		}
-		localization_key = xhk_worldark_docs_districts_desc_mach
-	}
-	text = {
-		trigger = {
-			is_gestalt = no
-			is_spiritualist = yes
-		}
-		localization_key = xhk_worldark_docs_districts_desc_spir
-	}
-	default = xhk_worldark_docs_districts_desc_admn
-}
-defined_text = {
-	name = xhk_worldark_getDistrictDoc_Amenities
-	text = {
-		trigger = {
-			is_gestalt = yes
-		}
-		localization_key = xhk_worldark_null_text
-	}
-	text = {
-		trigger = {
-			has_valid_civic = civic_dystopian_society
-		}
-		localization_key = xhk_worldark_docs_districts_desc_dystopian
-	}
-	default = xhk_worldark_docs_districts_desc_amenities
-}
-defined_text = {
-	name = xhk_worldark_getDistrictDoc_SoldierMissile
-	text = {
-		trigger = {
-			country_uses_bio_ships = yes
-		}
-		localization_key = xhk_worldark_null_text
-	}
-	default = xhk_worldark_docs_districts_desc_ordinance_missiles
-}
-defined_text = {
-	name = xhk_worldark_getDistrictDoc_amb
-	text = {
-		trigger = {
-			has_global_flag = @giga_amb_flag
-		}
-		localization_key = xhk_worldark_docs_districts_desc_supertensiles
-	}
-	default = xhk_worldark_null_text
-}
-defined_text = {
-	name = xhk_worldark_getDistrictDoc_EHOF
-	text = {
-		trigger = {
-			NOT = { has_global_flag = ehof_disabled }
-		}
-		localization_key = xhk_worldark_docs_districts_desc_ehofcombine
-	}
-	default = xhk_worldark_null_text
-}
-defined_text = {
-	name = xhk_worldark_getDistrictDoc_DeepSleep
-	text = {
-		trigger = {
-			is_deep_sleep_country = yes
-		}
-		localization_key = xhk_worldark_docs_districts_desc_deep_sleep
-	}
-	default = xhk_worldark_null_text
-}
-
-defined_text = {
-	name = xhk_worldark_getDistrictDoc_civic_null
-	text = {
-		trigger = {
-			OR = {
-				is_deep_sleep_country = yes
-			}
-		}
-		localization_key = xhk_worldark_null_text
-	}
-	default = xhk_worldark_docs_districts_desc_null_civic
-}
-
-
-# arkship buildings
-defined_text = {
-	name = xhk_worldark_getResortSystemDocumentation
-	text = {
-		trigger = {
-			is_gestalt = yes
-		}
-		localization_key = xhk_worldark_docs_system_3_gest
-	}
-	default = xhk_worldark_docs_system_3_norm
-}
-defined_text = {
-	name = xhk_worldark_getPenalSystemDocumentation
-	text = {
-		trigger = {
-			is_gestalt = yes
-		}
-		localization_key = xhk_worldark_docs_system_4_gest
-	}
-	default = xhk_worldark_docs_system_4_norm
+	name = xhk_worldark_GetSurveyBonus
+	value = value:xhk_worldark_survey_bonus_display
 }

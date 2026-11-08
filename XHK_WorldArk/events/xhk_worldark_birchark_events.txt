@@ -58,7 +58,7 @@ event = {
 						xhk_has_worldark_origin = yes
 					}
 					country_event = {
-						id = xhk_worldark_birchark.002 days = 120
+						id = xhk_worldark_birchark.002 days = 5
 					}
 				}
 			}
@@ -70,7 +70,7 @@ event = {
 						xhk_has_worldark_origin = yes
 					}
 					country_event = {
-						id = xhk_worldark_birchark.003 days = 120
+						id = xhk_worldark_birchark.003 days = 5
 					}
 				}
 			}

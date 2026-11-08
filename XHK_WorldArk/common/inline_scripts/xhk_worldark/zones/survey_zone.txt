@@ -1,0 +1,42 @@
+# shared body
+
+    included_building_sets = {
+        harvest
+        research
+    }
+
+    triggered_country_modifier = {
+        potential = {
+            always = yes
+        }
+        ship_anomaly_research_speed_mult = 1
+        mult = value:xhk_worldark_survey_bonus
+    }
+    triggered_planet_modifier = {
+        potential = {
+            always = yes
+        }
+        science_ship_survey_speed = 1
+        mult = value:xhk_worldark_survey_bonus
+    }
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		modifier = {
+			planet_ark_harvester_minerals_upkeep_add = 0.5
+		}
+	}
+
+    triggered_desc = {
+        trigger = { always = yes }
+        text = zone_xhk_worldark_survey_tt
+    }
+
+    zone_sets = {
+        xhk_worldark_mining
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10

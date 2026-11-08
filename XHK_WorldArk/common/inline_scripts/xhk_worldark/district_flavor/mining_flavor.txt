@@ -1,4 +1,17 @@
 triggered_name = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_survey }
+    }
+    text = zone_xhk_worldark_survey
+}
+triggered_flavor_desc = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_survey }
+    }
+    text = zone_xhk_worldark_survey_desc
+}
+
+triggered_name = {
     text = district_ark_harvest_name
 }
 

@@ -197,3 +197,36 @@ district_xhk_worldark_full_batteries = {
 		text = zone_xhk_worldark_ordinance_full_batteries_desc
 	}
 }
+
+## HARVESTING SWAPS
+district_xhk_worldark_harvest_survey = {
+    icon = district_mining
+    overlay_icon = GFX_district_research
+    gridbox = district_mining
+    inline_script = {
+        script = xhk_worldark/districts/district_swap
+    }
+
+    triggered_name = {
+        text = zone_xhk_worldark_survey
+    }
+    triggered_flavor_desc = {
+        text = zone_xhk_worldark_survey_desc
+    }
+}
+district_xhk_worldark_decompressor_survey = {
+	icon = district_giga_frameworld_decompressor
+	overlay_icon = GFX_district_research
+	district_background = district_xhk_worldark_decompressor
+	gridbox = district_mining
+	inline_script = {
+		script = xhk_worldark/districts/district_swap
+	}
+
+	triggered_name = {
+		text = zone_xhk_worldark_survey_decompressor
+	}
+	triggered_flavor_desc = {
+		text = zone_xhk_worldark_survey_desc
+	}
+}

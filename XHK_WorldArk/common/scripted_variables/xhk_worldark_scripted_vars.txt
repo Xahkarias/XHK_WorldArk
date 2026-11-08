@@ -146,4 +146,16 @@
 @xhk_worldark_consume_ark_size = 4
 @xhk_worldark_consume_hab_size = 4
 @xhk_worldark_alloy_build_size = 2
+
+########################################################################################################
+##### ZONES  ####
+########################################################################################################
+# infiltration speed per 100 artisans
+@xhk_worldark_forgery_infiltration_per_100 = 0.01
+# anomaly research and survey speed per 100 harvesters
+@xhk_worldark_survey_bonus_per_100 = 0.02
+# storage zone, per district level
+@xhk_worldark_storage_resource_max = 10000
+@xhk_worldark_storage_nomad_reserves = 2000
+@xhk_worldark_storage_minor_artifacts = 500
 # LOAD BEARING EOF
