@@ -121,3 +121,10 @@
   job_xhk_worldark_extra_healthcare_drone_plural:99 "$xhk_pc_worldark$ Nursing Drones"
   job_xhk_worldark_extra_healthcare_drone_desc:99 "Extra medical drones to ensure optimal living conditions for organic population growth."
   mod_job_xhk_worldark_extra_healthcare_drone_add:99 "$job_xhk_worldark_extra_healthcare_drone$ Jobs"
+  
+  ################################################################
+  ### MISC MODIFIERS
+  ################################################################
+  mod_planet_ark_harvester_minerals_upkeep_add:99 "$minerals_upkeep_per_pop_group_unit$ [GetHarvesterPluralWithIcon]"
+  xhk_job_ark_harvester_gestalt_plural_with_icon:99 "£job_ark_harvester£ $job_ark_harvester_gestalt_plural$"
+  

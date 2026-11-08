@@ -3,6 +3,7 @@
   xhk_pc_worldark:99 "World Ark"
   xhk_pc_worldark_desc:99 "$pc_ark_desc$"
   
+  xhk_empty_string:99 ""
   #########################################################################################################################################################################
   # PRIMARY DISTRICTS
   #########################################################################################################################################################################
@@ -93,6 +94,10 @@
   district_xhk_worldark_minerals_plural:99 "$district_ark_harvest_plural$"
   district_xhk_worldark_minerals_desc:99 "$district_ark_harvest_desc$"
   
+  district_xhk_worldark_harvest_survey:99 "$district_xhk_worldark_minerals$"
+  district_xhk_worldark_harvest_survey_plural:99 "$district_xhk_worldark_minerals_plural$"
+  district_xhk_worldark_harvest_survey_desc:99 "$district_xhk_worldark_minerals_desc$"
+  
   ##################################################################
   # Decompressor
   ##################################################################
@@ -101,6 +106,10 @@
   district_xhk_worldark_decompressor_plural:99 "Decompressor Arrays"
   district_xhk_worldark_decompressor_desc:99 "A grid of decompressor nodes serves to drain the black holes of matter for use in fueling the $xhk_pc_worldark$. They will last longer than our feeble bodies, ensuring a constant flow of matter."
   xhk_worldark_decompressor_subtitle:99 "Extraction Operations"
+  
+  district_xhk_worldark_decompressor_survey:99 "$district_xhk_worldark_decompressor$"
+  district_xhk_worldark_decompressor_survey_plural:99 "$district_xhk_worldark_decompressor_plural$"
+  district_xhk_worldark_decompressor_survey_desc:99 "$district_xhk_worldark_decompressor_desc$"
   
   ##################################################################
   # Farming
@@ -260,7 +269,7 @@
   district_xhk_worldark_sentientmetal:99 "Assimilator Field"
   district_xhk_worldark_sentientmetal_plural:99 "Assimilator Fields"
   district_xhk_worldark_sentientmetal_desc:99 "$building_ehof_sm_forge_1_desc$"
-  flavor_xhk_worldark_sentientmetal_name:99 "Sentient Foundries"
+  flavor_xhk_worldark_sentientmetal_name:99 "Cultivation Furnaces"
   
   ##################################################################
   # Storage
@@ -270,7 +279,8 @@
   district_xhk_worldark_storage_plural:99 "Storage Holds"
   district_xhk_worldark_storage_desc:99 "A large storage complex that would take up the size of a city on a terrestrial planet."
   flavor_xhk_worldark_storage_name:99 "Deep Warehouses"
-  district_xhk_worldark_storage_effect:99 "§IZone Provides:§!$TABBED_NEW_LINE$ - Resource Storage Capacity: §G+10000§!$TABBED_NEW_LINE$ - $mod_situation_nomad_economy_max_progress_add$: §G+2000§!"
+  district_xhk_worldark_storage_effect:99 "§IFrom Zone:§!$TABBED_NEW_LINE$ - Resource Storage Capacity: §G+[xhk_worldark_GetStorageResourceMax]§!$TABBED_NEW_LINE$ - $mod_situation_nomad_economy_max_progress_add$: §G+[xhk_worldark_GetStorageNomadReserves]§![xhk_worldark_GetStorageMinorArtifactsLine]"
+  district_xhk_worldark_storage_effect_artifacts:99 "$TABBED_NEW_LINE$ - $mod_country_resource_max_minor_artifacts_add$: §G+[xhk_worldark_GetStorageMinorArtifacts]§!"
   
   ##################################################################
   # DEEP SLEEP
@@ -315,6 +325,11 @@
   zone_xhk_worldark_factory:99 "$zone_factory$"
   zone_xhk_worldark_factory_desc:99 "$zone_factory_desc$"
   
+  zone_xhk_worldark_forgery:99 "Obscura Manufactorum"
+  zone_xhk_worldark_forgery_desc:99 "Workshops that turn out forged papers, bugged goods, and software with backdoors alongside their usual wares."
+  zone_xhk_worldark_forgery_tt:99 "§G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$ per §Y100§! [GetArtisanPlural]."
+  zone_xhk_worldark_forgery_dtt:99 "§IFrom Zone:§!$TABBED_NEW_LINE$ - $MOD_SPY_NETWORK_DAILY_VALUE_ADD$: §G+[xhk_worldark_GetForgeryBonus]%§!$TABBED_NEW_LINE$ - $MOD_ESPIONAGE_OPERATION_SPEED_MULT$: §G+[xhk_worldark_GetForgeryBonus]%§!"
+  
   zone_xhk_worldark_trade:99 "$zone_trade$"
   zone_xhk_worldark_trade_desc:99 "$zone_trade_desc$"
   
@@ -334,8 +349,15 @@
   zone_xhk_worldark_reactshield_penrose:99 "$xhk_worldark_penrose_shield_subtitle$"
   zone_xhk_worldark_reactshield_penrose_desc:99 "$district_xhk_worldark_penrose_shield_desc$"
   
-  zone_xhk_worldark_mining:99 "Parallelized Extraction Operations"
+  zone_xhk_worldark_mining:99 "Extraction Siphons"
   zone_xhk_worldark_mining_desc:99 "$zone_ark_harvest_desc$"
+  
+  zone_xhk_worldark_survey:99 "Survey Arrays"
+  zone_xhk_worldark_survey_desc:99 "Sensor arrays replace expanded harvesting equipment, amplifying our ability to search the unknown."
+  zone_xhk_worldark_survey_decompressor:99 "Tachyon Resonators"
+  zone_xhk_worldark_survey_decompressor_desc:99 "$zone_xhk_worldark_survey_desc$"
+  zone_xhk_worldark_survey_tt:"§G+$@xhk_worldark_survey_bonus_per_100|%1$§! $MOD_SHIP_ANOMALY_RESEARCH_SPEED$ and §G+$@xhk_worldark_survey_bonus_per_100|%1$§! $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$ per §Y100§! [GetHarvester] jobs."
+  zone_xhk_worldark_survey_dtt:99 "§IFrom Zone:§!$TABBED_NEW_LINE$ - Empire $MOD_SHIP_ANOMALY_RESEARCH_SPEED$: §G+[xhk_worldark_GetSurveyBonus]%§!$TABBED_NEW_LINE$ - $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$: §G+[xhk_worldark_GetSurveyBonus]%§!"
   
   zone_xhk_worldark_farming:99 "Expanded Hydroponics"
   zone_xhk_worldark_farming_desc:99 "$zone_ark_food_desc$"
