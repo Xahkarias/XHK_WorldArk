@@ -256,7 +256,7 @@
  xhk_worldark_docs_compat: "9) Cross-Mod Compatibility"
  xhk_worldark_docs_compat_desc: "$xhk_worldark_docs_compat_init$$xhk_worldark_docs_compat_ancient_empires$"
  xhk_worldark_docs_compat_init: "The $xhk_pc_worldark$ has special compatibility hooks for the following mods:"
- xhk_worldark_docs_compat_not_loaded: "§RMod not loaded§!"
+ xhk_worldark_docs_compat_not_loaded: "- §RMod not loaded§!"
 
  xhk_worldark_docs_compat_ancient_empires: "\n\n§CAncient Empires:§!\n[xhk_worldark_getCompatDoc_AncientEmpires]"
  xhk_worldark_docs_compat_ancient_empires_loaded: "- Owned §YAncient Empire Ringworlds§! are §Gnot consumed§! by the $xhk_pc_worldark$."
