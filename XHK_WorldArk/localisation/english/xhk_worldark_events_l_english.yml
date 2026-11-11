@@ -241,6 +241,7 @@
 
  ####################
  # CROSSMOD
+ #TODO: rename this to be integration instead of crossmod for 4.6, so it doesnt break ppls saves
  xhk_worldark_docs_crossmod: "8) Special Integration Situations"
  xhk_worldark_docs_crossmod_desc: "$xhk_worldark_docs_integration_init$$xhk_worldark_docs_birch_integration$"
  xhk_worldark_docs_integration_init: "The $xhk_pc_worldark$ can research specific habitables to gain some of their bonuses through a lengthy situation."
@@ -248,6 +249,17 @@
  xhk_worldark_docs_birch_integration: "\n\n§C------$xhk_worldark_situation_birchark$---------------------------§!\n$xhk_worldark_docs_birch_integration_req$\n$xhk_worldark_docs_birch_integration_rew$"
  xhk_worldark_docs_birch_integration_req: "§3Requirements:§! §IAeternum must be defeated§!, or someone must §Iconstruct and colonize§! a Birch World."
  xhk_worldark_docs_birch_integration_rew: "§BRewards:§! A special district that provides §GBirch Insula Manager§! jobs and §GBirch Focus Buildings§!."
+
+ ####################
+ # CROSS-MOD COMPATIBILITY
+ #TODO: add PD arcologies stuff in 4.6
+ xhk_worldark_docs_compat: "9) Cross-Mod Compatibility"
+ xhk_worldark_docs_compat_desc: "$xhk_worldark_docs_compat_init$$xhk_worldark_docs_compat_ancient_empires$"
+ xhk_worldark_docs_compat_init: "The $xhk_pc_worldark$ has special compatibility hooks for the following mods:"
+ xhk_worldark_docs_compat_not_loaded: "§RMod not loaded§!"
+
+ xhk_worldark_docs_compat_ancient_empires: "\n\n§CAncient Empires:§!\n[xhk_worldark_getCompatDoc_AncientEmpires]"
+ xhk_worldark_docs_compat_ancient_empires_loaded: "- Owned §YAncient Empire Ringworlds§! are §Gnot consumed§! by the $xhk_pc_worldark$."
 
 
 

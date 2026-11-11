@@ -1,0 +1,6 @@
+# Irony this is a placeholder file please ignore it
+
+# fallback vars for other mods to overwrite
+
+# Ancient Empires
+@has_ancient_empire = 0

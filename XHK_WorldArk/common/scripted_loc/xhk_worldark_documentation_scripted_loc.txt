@@ -185,3 +185,19 @@ defined_text = {
 	}
 	default = xhk_worldark_docs_system_4_norm
 }
+# CROSS-MOD COMPATIBILITY
+# each entry shows its info only if the mod's presence variable is set, otherwise "Mod not loaded"
+defined_text = {
+	name = xhk_worldark_getCompatDoc_AncientEmpires
+	inline_script = {
+		script = generic_parts/giga_toggled_code
+		toggle = @has_ancient_empire
+		code = "
+			text = {
+				trigger = { always = yes }
+				localization_key = xhk_worldark_docs_compat_ancient_empires_loaded
+			}
+		"
+	}
+	default = xhk_worldark_docs_compat_not_loaded
+}

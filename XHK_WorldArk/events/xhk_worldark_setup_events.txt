@@ -567,6 +567,13 @@ country_event = {
             event_chain = "xhk_worldark_docs_chain"
             location = no_scope
         }
+        create_point_of_interest = {
+            id = xhk_worldark_docs_chain.9
+            name = "xhk_worldark_docs_compat"
+            desc = "xhk_worldark_docs_compat_desc"
+            event_chain = "xhk_worldark_docs_chain"
+            location = no_scope
+        }
         start_situation = {
             type = xhk_worldark_situation_main
             target = capital_scope
