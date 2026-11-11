@@ -1607,10 +1607,9 @@ district_xhk_worldark_storage = {
         }
     }
 
-    triggered_desc = {
-        trigger = { always = yes }
-        text = district_xhk_worldark_storage_effect
-    }
+    inline_script = {
+		script = xhk_worldark/districts/district_storage_triggered_desc
+	}
 
     triggered_name = {
         text = flavor_xhk_worldark_storage_name

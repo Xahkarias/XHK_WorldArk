@@ -1,0 +1,5 @@
+# for compat reasons isolating this
+triggered_desc = {
+	trigger = { always = yes }
+	text = district_xhk_worldark_storage_effect
+}

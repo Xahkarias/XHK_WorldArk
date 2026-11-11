@@ -204,6 +204,8 @@ xhk_worldark_storage_levels = {
 		}
 		mode = add
 	}
+	# tooltip only: always show at least one district's worth
+	min = 1
 }
 xhk_worldark_storage_resource_max_display = {
 	base = 0
