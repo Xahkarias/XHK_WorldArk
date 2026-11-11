@@ -154,8 +154,12 @@
 @xhk_worldark_forgery_infiltration_per_100 = 0.01
 # anomaly research and survey speed per 100 harvesters
 @xhk_worldark_survey_bonus_per_100 = 0.02
-# storage zone, per district level
+# storage zone
 @xhk_worldark_storage_resource_max = 10000
 @xhk_worldark_storage_nomad_reserves = 2000
 @xhk_worldark_storage_minor_artifacts = 500
+# vivarium zone
+@xhk_worldark_vivarium_capacity = 30
+@xhk_worldark_vivarium_energy_upkeep = 2
+@xhk_worldark_vivarium_food_upkeep = 2
 # LOAD BEARING EOF

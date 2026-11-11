@@ -168,6 +168,32 @@ xhk_worldark_forgery_infiltration_display = {
 	add = value:xhk_worldark_forgery_infiltration
 	mult = 100
 }
+# vivarium zone totals, for loc
+xhk_worldark_vivarium_districts = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = num_districts
+		parameters = {
+			type = district_xhk_worldark_farming
+		}
+		mode = add
+	}
+}
+xhk_worldark_vivarium_capacity_display = {
+	base = 0
+	add = value:xhk_worldark_vivarium_districts
+	mult = @xhk_worldark_vivarium_capacity
+}
+xhk_worldark_vivarium_energy_upkeep_display = {
+	base = 0
+	add = value:xhk_worldark_vivarium_districts
+	mult = @xhk_worldark_vivarium_energy_upkeep
+}
+xhk_worldark_vivarium_food_upkeep_display = {
+	base = 0
+	add = value:xhk_worldark_vivarium_districts
+	mult = @xhk_worldark_vivarium_food_upkeep
+}
 # storage zone totals, for loc
 xhk_worldark_storage_levels = {
 	base = 0

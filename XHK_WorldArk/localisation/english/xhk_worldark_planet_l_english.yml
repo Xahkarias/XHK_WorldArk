@@ -327,7 +327,7 @@
 
  zone_xhk_worldark_forgery: "Obscura Manufactorum"
  zone_xhk_worldark_forgery_desc: "Workshops that turn out forged papers, bugged goods, and software with backdoors alongside their usual wares."
- zone_xhk_worldark_forgery_tt: "§G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$ per §Y100§! [GetArtisanPlural]."
+ zone_xhk_worldark_forgery_tt: "§ISpecial Effect:§!\n- Per §Y100§! [GetArtisanPlural]: §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$"
  zone_xhk_worldark_forgery_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $MOD_SPY_NETWORK_DAILY_VALUE_ADD$: §G+[xhk_worldark_GetForgeryBonus]%§!$TABBED_NEW_LINE$ - $MOD_ESPIONAGE_OPERATION_SPEED_MULT$: §G+[xhk_worldark_GetForgeryBonus]%§!"
 
  zone_xhk_worldark_trade: "$zone_trade$"
@@ -356,11 +356,15 @@
  zone_xhk_worldark_survey_desc: "Sensor arrays replace expanded harvesting equipment, amplifying our ability to search the unknown."
  zone_xhk_worldark_survey_decompressor: "Tachyon Resonators"
  zone_xhk_worldark_survey_decompressor_desc: "$zone_xhk_worldark_survey_desc$"
- zone_xhk_worldark_survey_tt:"§G+$@xhk_worldark_survey_bonus_per_100|%1$§! $MOD_SHIP_ANOMALY_RESEARCH_SPEED$ and §G+$@xhk_worldark_survey_bonus_per_100|%1$§! $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$ per §Y100§! [GetHarvester] jobs."
+ zone_xhk_worldark_survey_tt:"§ISpecial Effect:§!\n- Per §Y100§! [GetHarvester] jobs: §G+$@xhk_worldark_survey_bonus_per_100|%1$§! $MOD_SHIP_ANOMALY_RESEARCH_SPEED$ and §G+$@xhk_worldark_survey_bonus_per_100|%1$§! $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$"
  zone_xhk_worldark_survey_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - Empire $MOD_SHIP_ANOMALY_RESEARCH_SPEED$: §G+[xhk_worldark_GetSurveyBonus]%§!$TABBED_NEW_LINE$ - $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$: §G+[xhk_worldark_GetSurveyBonus]%§!"
 
  zone_xhk_worldark_farming: "Expanded Hydroponics"
  zone_xhk_worldark_farming_desc: "$zone_ark_food_desc$"
+ zone_xhk_worldark_vivarium: "Biosphere Holds"
+ zone_xhk_worldark_vivarium_desc: "Climate-sealed habitat decks raise crops alongside captive space fauna, fed by large amounts of food and energy."
+ zone_xhk_worldark_vivarium_tt: "§ISpecial Effect:§!\n- $district_xhk_worldark_farming$ Upkeep: §R+$@xhk_worldark_vivarium_energy_upkeep$§! £energy£ and §R+$@xhk_worldark_vivarium_food_upkeep$§! £food£"
+ zone_xhk_worldark_vivarium_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $MOD_COUNTRY_VIVARIUM_MAX_CAPACITY_ADD$: §G+[xhk_worldark_GetVivariumCapacity]§!"
 
  zone_xhk_worldark_unity: "$zone_unity$"
  zone_xhk_worldark_unity_desc: "$zone_unity_desc$"

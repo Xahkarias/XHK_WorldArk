@@ -619,11 +619,22 @@ district_xhk_worldark_farming = {
         upkeep = {
             energy = 1
         }
+        # vivarium zone maintenance
+        upkeep = {
+            trigger = { has_zone = { zone = zone_xhk_worldark_vivarium } }
+            energy = @xhk_worldark_vivarium_energy_upkeep
+            food = @xhk_worldark_vivarium_food_upkeep
+        }
     }
 
     inline_script = {
         script = jobs/farmers_add
         AMOUNT = 200
+    }
+
+    triggered_desc = {
+        trigger = { has_zone = { zone = zone_xhk_worldark_vivarium } }
+        text = zone_xhk_worldark_vivarium_dtt
     }
 
     triggered_planet_modifier = {

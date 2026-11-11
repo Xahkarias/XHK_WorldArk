@@ -85,6 +85,12 @@ defined_text = {
 	value = value:xhk_worldark_forgery_infiltration_display
 }
 
+# vivarium tooltip
+defined_text = {
+	name = xhk_worldark_GetVivariumCapacity
+	value = value:xhk_worldark_vivarium_capacity_display
+}
+
 # storage tooltip
 defined_text = {
 	name = xhk_worldark_GetStorageResourceMax

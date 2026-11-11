@@ -690,6 +690,60 @@ zone_xhk_worldark_farming = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
+# vivarium capacity per district
+zone_xhk_worldark_vivarium = {
+    icon = GFX_district_specialization_wilderness_food
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_gravity_wells }"
+    }
+
+	show_in_tech = tech_gravity_wells
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+    included_building_sets = {
+        farming
+        farming_automation
+        fallen_empire_farming
+        hydroponics
+    }
+
+    exclude = {
+        building_farming_districts_1
+        building_farming_districts_2
+        building_farming_districts_3
+        building_farming_districts_4
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_farmers_add
+        AMOUNT = 100
+    }
+
+    triggered_district_country_modifier = {
+        potential = {
+            always = yes
+        }
+        country_vivarium_max_capacity_add = @xhk_worldark_vivarium_capacity
+    }
+
+    triggered_desc = {
+        trigger = { always = yes }
+        text = zone_xhk_worldark_vivarium_tt
+    }
+
+    zone_sets = {
+        xhk_worldark_farming
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 5
+}
 
 ## UNITY
 ###########################################################
