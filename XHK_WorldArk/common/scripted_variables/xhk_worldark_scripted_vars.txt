@@ -152,10 +152,24 @@
 ########################################################################################################
 # infiltration speed per 100 artisans
 @xhk_worldark_forgery_infiltration_per_100 = 0.01
+# infiltration sweeps
+@xhk_worldark_infiltration_energy_upkeep = 1.5
 # anomaly research and survey speed per 100 harvesters
 @xhk_worldark_survey_bonus_per_100 = 0.02
-# storage zone, per district level
+# storage zone
 @xhk_worldark_storage_resource_max = 10000
 @xhk_worldark_storage_nomad_reserves = 2000
 @xhk_worldark_storage_minor_artifacts = 500
+# cryogenic bay
+@xhk_worldark_deep_sleep_jobs_base = 500
+@xhk_worldark_deep_sleep_jobs_per_level = 250
+# vivarium zone
+@xhk_worldark_vivarium_capacity = 30
+@xhk_worldark_vivarium_energy_upkeep = 2
+@xhk_worldark_vivarium_food_upkeep = 2
+# museum zones
+# specimen output per 100 entertainers
+@xhk_worldark_museum_specimen_per_100 = 0.01
+# dystopian: specimen output and politicians per amenities district
+@xhk_worldark_museum_dystopian_specimen_per_district = 0.04
 # LOAD BEARING EOF

@@ -10,6 +10,14 @@ triggered_name = {
     text = automated_farming
 }
 
+# Vivarium
+triggered_name = {
+	trigger = {
+		has_zone = { zone = zone_xhk_worldark_vivarium }
+	}
+	text = zone_xhk_worldark_vivarium
+}
+
 triggered_name = {
     text = district_ark_hydroponics_name
 }

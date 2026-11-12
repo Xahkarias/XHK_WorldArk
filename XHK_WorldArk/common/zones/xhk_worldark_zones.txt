@@ -208,6 +208,7 @@ zone_xhk_worldark_forgery = {
 	show_in_tech = tech_decryption_2
 	show_tech_unlock_if = {
 		xhk_has_worldark_origin = yes
+		xhk_worldark_can_have_factory_district = yes
 	}
 
     included_building_sets = {
@@ -690,6 +691,60 @@ zone_xhk_worldark_farming = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
+# vivarium capacity per district
+zone_xhk_worldark_vivarium = {
+    icon = GFX_district_specialization_wilderness_food
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_gravity_wells }"
+    }
+
+	show_in_tech = tech_gravity_wells
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+
+    included_building_sets = {
+        farming
+        farming_automation
+        fallen_empire_farming
+        hydroponics
+    }
+
+    exclude = {
+        building_farming_districts_1
+        building_farming_districts_2
+        building_farming_districts_3
+        building_farming_districts_4
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_farmers_add
+        AMOUNT = 100
+    }
+
+    triggered_district_country_modifier = {
+        potential = {
+            always = yes
+        }
+        country_vivarium_max_capacity_add = @xhk_worldark_vivarium_capacity
+    }
+
+    triggered_desc = {
+        trigger = { always = yes }
+        text = zone_xhk_worldark_vivarium_tt
+    }
+
+    zone_sets = {
+        xhk_worldark_farming
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 5
+}
 
 ## UNITY
 ###########################################################
@@ -939,37 +994,8 @@ zone_xhk_worldark_amenities = {
         POTENTIAL = "owner? = { NOT = { has_valid_civic = civic_dystopian_society } }"
     }
 
-    include = {
-        building_luxury_residence
-        building_paradise_dome
-        building_communal_housing
-        building_communal_housing_large
-        # no gestalt stuff here nope
-        building_holo_theatres
-        building_hyper_entertainment_forum
-        building_medical_1
-        building_medical_2
-        building_genomic_facility
-        building_noble_estates
-        building_augmentation_bazaars
-        building_transcendental_retreat
-        building_augmentation_center
-        building_cyberdome
-        building_xeno_zoo
-        building_fe_clinic_1
-        building_fe_clinic_2
-        building_fe_entertainment_1
-        building_fe_entertainment_2
-		building_fe_sky_dome
-		building_fe_dome
-        galactic_history_holomuseum
-        aesthetic_wonders_holomuseum
-        xeno_geology_holomuseum
-		building_artist_patron
-
-        #PD
-        building_pd_eludium_floating_resort
-        building_pd_acean_medical_center
+    inline_script = {
+        script = xhk_worldark/zones/amenities_buildings
     }
 
     # doubled
@@ -995,37 +1021,101 @@ zone_xhk_worldark_amenities_dystopian = {
         POTENTIAL = "owner? = { has_valid_civic = civic_dystopian_society }"
     }
 
-    include = {
-        building_luxury_residence
-        building_paradise_dome
-        building_communal_housing
-        building_communal_housing_large
-        # no gestalt stuff here nope
-        building_holo_theatres
-        building_hyper_entertainment_forum
-        building_medical_1
-        building_medical_2
-        building_genomic_facility
-        building_noble_estates
-        building_augmentation_bazaars
-        building_transcendental_retreat
-        building_augmentation_center
-        building_cyberdome
-        building_xeno_zoo
-        building_fe_clinic_1
-        building_fe_clinic_2
-        building_fe_entertainment_1
-        building_fe_entertainment_2
-		building_fe_sky_dome
-		building_fe_dome
-        galactic_history_holomuseum
-        aesthetic_wonders_holomuseum
-        xeno_geology_holomuseum
-		building_artist_patron
+    inline_script = {
+        script = xhk_worldark/zones/amenities_buildings
+    }
 
-        #PD
-        building_pd_eludium_floating_resort
-        building_pd_acean_medical_center
+    triggered_district_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_worker_coop_empire = no
+                is_gestalt = no
+            }
+        }
+        job_politician_add = 50
+    }
+
+    zone_sets = {
+        xhk_worldark_amenities
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+# museum
+zone_xhk_worldark_museum = {
+    icon = GFX_district_specialization_culture_worker
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "
+			owner? = { has_technology = tech_galactic_archivism }
+			owner? = { NOT = { has_valid_civic = civic_dystopian_society } }
+		"
+    }
+
+	show_in_tech = tech_galactic_archivism
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+		NOT = { has_valid_civic = civic_dystopian_society }
+	}
+
+    inline_script = {
+        script = xhk_worldark/zones/amenities_buildings
+    }
+
+    # doubled
+    inline_script = {
+        script = jobs/zone_entertainers_add
+        AMOUNT = 50
+    }
+
+    triggered_country_modifier = {
+        potential = {
+            always = yes
+        }
+        specimens_produces_mult = 1
+        mult = value:xhk_worldark_museum_specimen_bonus
+    }
+
+    triggered_desc = {
+        trigger = { always = yes }
+        text = zone_xhk_worldark_museum_tt
+    }
+
+    zone_sets = {
+        xhk_worldark_amenities
+    }
+
+    swap_type = district_xhk_worldark_amenities_museum
+    swap_type_weight = 5
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 5
+}
+# museum (dystopian)
+zone_xhk_worldark_museum_dystopian = {
+    icon = GFX_district_specialization_culture_worker
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "
+			owner? = { has_technology = tech_galactic_archivism }
+			owner? = { has_valid_civic = civic_dystopian_society }
+		"
+    }
+
+	show_in_tech = tech_galactic_archivism
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+		has_valid_civic = civic_dystopian_society
+	}
+
+    inline_script = {
+        script = xhk_worldark/zones/amenities_buildings
     }
 
     triggered_district_planet_modifier = {
@@ -1039,12 +1129,22 @@ zone_xhk_worldark_amenities_dystopian = {
         job_politician_add = 25
     }
 
+    triggered_district_country_modifier = {
+        potential = {
+            always = yes
+        }
+        specimens_produces_mult = @xhk_worldark_museum_dystopian_specimen_per_district
+    }
+
     zone_sets = {
         xhk_worldark_amenities
     }
 
+    swap_type = district_xhk_worldark_amenities_museum_dystopian
+    swap_type_weight = 5
+
     ai_weight_coefficient = 0.5
-    ai_priority = 10
+    ai_priority = 5
 }
 
 ## ENFORCER
@@ -1129,6 +1229,99 @@ zone_xhk_worldark_enforcer = {
         }
         job_patrol_drone_add = 100
     }
+
+    zone_sets = {
+        xhk_worldark_enforcer
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+# infiltration: gestalt counterpart of zone_xhk_worldark_forgery
+zone_xhk_worldark_infiltration = {
+    icon = GFX_district_specialization_payback_enlightenment
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "
+			owner? = {
+				has_technology = tech_decryption_2
+				xhk_worldark_can_have_factory_district = no
+			}
+		"
+    }
+
+	show_in_tech = tech_decryption_2
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+		xhk_worldark_can_have_factory_district = no
+	}
+
+    included_building_sets = {
+        government
+    }
+    include = {
+        building_fe_security_1
+        building_fe_security_2
+    }
+
+    exclude = {
+        building_colony_shelter
+        building_capital
+        building_major_capital
+        building_system_capital
+
+        building_deployment_post
+        building_machine_capital
+        building_machine_major_capital
+        building_machine_system_capital
+
+        building_hive_capital
+        building_hive_major_capital
+
+        building_hab_capital
+        building_hab_major_capital
+        building_hab_system_capital
+
+        building_resort_capital
+        building_resort_major_capital
+        building_slave_capital
+        building_slave_major_capital
+
+        building_imperial_capital
+        building_imperial_machine_capital
+        building_imperial_hive_capital
+        building_imperial_capital_wilderness
+
+        building_colony_shelter_wilderness
+        building_capital_wilderness
+        building_major_capital_wilderness
+        building_system_capital_wilderness
+    }
+
+	triggered_district_planet_modifier = {
+        potential = {
+            owner = {
+                is_gestalt = yes
+            }
+        }
+        job_patrol_drone_add = 50
+    }
+
+    triggered_country_modifier = {
+        potential = {
+            always = yes
+        }
+        spy_network_daily_value_mult = 1
+        espionage_operation_speed_mult = 1
+        mult = value:xhk_worldark_infiltration
+    }
+
+	triggered_desc = {
+		trigger = { always = yes }
+		text = zone_xhk_worldark_infiltration_tt
+	}
 
     zone_sets = {
         xhk_worldark_enforcer

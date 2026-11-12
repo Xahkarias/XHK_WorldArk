@@ -1,0 +1,8 @@
+
+### PD ARCOLOGIES
+pd_arc_no_district_loss = {
+	OR = {
+		is_planet_class = pc_birch
+		is_planet_class = xhk_pc_worldark
+	}
+}

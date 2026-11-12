@@ -79,10 +79,48 @@ defined_text = {
 	default = district_xhk_worldark_deep_sleep_effect_d
 }
 
+# level scaling line, removed when lvl 9
+defined_text = {
+	name = xhk_worldark_deepsleep_getLevelScaling
+	text = {
+		trigger = { ship.starbase = { has_starbase_size >= xhk_worldark_tier_9 } }
+		localization_key = xhk_worldark_null_text
+	}
+	default = district_xhk_worldark_deep_sleep_effect_scaling
+}
+
 # forgery tooltip
 defined_text = {
 	name = xhk_worldark_GetForgeryBonus
 	value = value:xhk_worldark_forgery_infiltration_display
+}
+
+# infiltration tooltip
+defined_text = {
+	name = xhk_worldark_GetInfiltrationBonus
+	value = value:xhk_worldark_infiltration_display
+}
+
+# museum tooltips
+defined_text = {
+	name = xhk_worldark_GetMuseumSpecimenBonus
+	value = value:xhk_worldark_museum_specimen_display
+}
+defined_text = {
+	name = xhk_worldark_GetMuseumDystopianSpecimenBonus
+	value = value:xhk_worldark_museum_dystopian_specimen_display
+}
+
+# vivarium tooltip
+defined_text = {
+	name = xhk_worldark_GetVivariumCapacity
+	value = value:xhk_worldark_vivarium_capacity_display
+}
+
+# cryogenic bay tooltip
+defined_text = {
+	name = xhk_worldark_GetDeepSleepJobsTotal
+	value = value:xhk_worldark_deep_sleep_jobs_display
 }
 
 # storage tooltip

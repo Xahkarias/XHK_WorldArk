@@ -142,6 +142,11 @@ xhk_worldark_half_arkship_action_speed_mult = {
 	add = 1
 }
 
+
+##################################################################################################################
+# ZONE TOOLTIPS
+##################################################################################################################
+
 # infiltration speed from the forgery zone
 xhk_worldark_forgery_infiltration = {
 	base = 0
@@ -168,6 +173,130 @@ xhk_worldark_forgery_infiltration_display = {
 	add = value:xhk_worldark_forgery_infiltration
 	mult = 100
 }
+
+# gestalt counterpart of the forgery zone, scales with patrol drones instead of artisans
+xhk_worldark_infiltration = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = num_assigned_jobs
+		parameters = {
+			job = patrol_drone
+		}
+		mode = add
+	}
+	divide = 100
+	mult = @xhk_worldark_forgery_infiltration_per_100
+}
+# percent form for loc
+xhk_worldark_infiltration_display = {
+	base = 0
+	add = value:xhk_worldark_infiltration
+	mult = 100
+}
+
+# museum zone specimen output, scales with entertainers on the planet
+xhk_worldark_museum_specimen_bonus = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = num_assigned_jobs
+		parameters = {
+			job = entertainer
+		}
+		mode = add
+	}
+	divide = 100
+	mult = @xhk_worldark_museum_specimen_per_100
+}
+# percent form for loc
+xhk_worldark_museum_specimen_display = {
+	base = 0
+	add = value:xhk_worldark_museum_specimen_bonus
+	mult = 100
+}
+
+# dystopian museum zone totals, for loc
+xhk_worldark_museum_dystopian_districts = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = num_districts
+		parameters = {
+			type = district_xhk_worldark_amenities_dystopian
+		}
+		mode = add
+	}
+}
+xhk_worldark_museum_dystopian_specimen_display = {
+	base = 0
+	add = value:xhk_worldark_museum_dystopian_districts
+	mult = @xhk_worldark_museum_dystopian_specimen_per_district
+	mult = 100
+}
+
+# vivarium zone totals, for loc
+xhk_worldark_vivarium_districts = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = num_districts
+		parameters = {
+			type = district_xhk_worldark_farming
+		}
+		mode = add
+	}
+}
+xhk_worldark_vivarium_capacity_display = {
+	base = 0
+	add = value:xhk_worldark_vivarium_districts
+	mult = @xhk_worldark_vivarium_capacity
+}
+xhk_worldark_vivarium_energy_upkeep_display = {
+	base = 0
+	add = value:xhk_worldark_vivarium_districts
+	mult = @xhk_worldark_vivarium_energy_upkeep
+}
+xhk_worldark_vivarium_food_upkeep_display = {
+	base = 0
+	add = value:xhk_worldark_vivarium_districts
+	mult = @xhk_worldark_vivarium_food_upkeep
+}
+
+# cryogenic bay totals, for loc
+xhk_worldark_deep_sleep_jobs_per_district = {
+	base = @xhk_worldark_deep_sleep_jobs_base
+	modifier = {
+		starbase = { has_starbase_size >= xhk_worldark_tier_3 }
+		add = @xhk_worldark_deep_sleep_jobs_per_level
+	}
+	modifier = {
+		starbase = { has_starbase_size >= xhk_worldark_tier_5 }
+		add = @xhk_worldark_deep_sleep_jobs_per_level
+	}
+	modifier = {
+		starbase = { has_starbase_size >= xhk_worldark_tier_7 }
+		add = @xhk_worldark_deep_sleep_jobs_per_level
+	}
+	modifier = {
+		starbase = { has_starbase_size >= xhk_worldark_tier_9 }
+		add = @xhk_worldark_deep_sleep_jobs_per_level
+	}
+}
+xhk_worldark_deep_sleep_levels = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = num_districts
+		parameters = {
+			type = district_xhk_worldark_deep_sleep
+		}
+		mode = add
+	}
+	# tooltip only: always show at least one district's worth
+	min = 1
+}
+xhk_worldark_deep_sleep_jobs_display = {
+	base = 0
+	add = value:xhk_worldark_deep_sleep_levels
+	mult = value:xhk_worldark_deep_sleep_jobs_per_district
+}
+
 # storage zone totals, for loc
 xhk_worldark_storage_levels = {
 	base = 0
@@ -178,6 +307,8 @@ xhk_worldark_storage_levels = {
 		}
 		mode = add
 	}
+	# tooltip only: always show at least one district's worth
+	min = 1
 }
 xhk_worldark_storage_resource_max_display = {
 	base = 0
@@ -210,6 +341,7 @@ xhk_worldark_storage_minor_artifacts_display = {
 		mult = 0
 	}
 }
+
 # anomaly and survey speed from the survey zone
 xhk_worldark_survey_bonus = {
 	base = 0

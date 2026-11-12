@@ -175,7 +175,15 @@
  district_xhk_worldark_amenities_dystopian: "$district_xhk_worldark_amenities$"
  district_xhk_worldark_amenities_dystopian_plural: "$district_xhk_worldark_amenities_plural$"
  district_xhk_worldark_amenities_dystopian_desc: "$district_xhk_worldark_amenities_desc$"
- district_xhk_worldark_amenities_dystopian_limit: "$district_xhk_worldark_amenities_dystopian_plural$ are limited to §Y1§! district per §Y10,000§! £pop£ Pops\n"
+ district_xhk_worldark_amenities_dystopian_limit: "§I$district_xhk_worldark_amenities_dystopian_plural$§! §Rare limited to§! §Y1§!§R district per§! §Y10,000§! £pop£ §RPops§!\n"
+
+ district_xhk_worldark_amenities_museum: "$district_xhk_worldark_amenities$"
+ district_xhk_worldark_amenities_museum_plural: "$district_xhk_worldark_amenities_plural$"
+ district_xhk_worldark_amenities_museum_desc: "$district_xhk_worldark_amenities_desc$"
+
+ district_xhk_worldark_amenities_museum_dystopian: "$district_xhk_worldark_amenities_dystopian$"
+ district_xhk_worldark_amenities_museum_dystopian_plural: "$district_xhk_worldark_amenities_dystopian_plural$"
+ district_xhk_worldark_amenities_museum_dystopian_desc: "$district_xhk_worldark_amenities_dystopian_desc$"
 
  ##################################################################
  # Security
@@ -290,7 +298,10 @@
  district_xhk_worldark_deep_sleep_plural: "Cryogenic Bays"
  district_xhk_worldark_deep_sleep_desc: "Rows and rows of hibernation facilities which allow us to put a portion of our population to sleep."
  flavor_xhk_worldark_deep_sleep_name: "Hibernation Zones"
- district_xhk_worldark_deep_sleep_effect: "§ISpecial Effects:§!$TABBED_NEW_LINE$ - §G+§![xhk_worldark_deepsleep_getNumCryo] ['concept_job_deep_sleep', $mod_job_ark_deep_sleep_add$] per §IDistrict§! when §I$decision_deep_sleep$§! is active.$TABBED_NEW_LINE$ - Increases provided $mod_job_ark_deep_sleep_add$ at §I$xhk_pc_worldark$ Levels§! §H3§!, §H5§!, §H7§!, §H9§!."
+ district_xhk_worldark_deep_sleep_effect: "\n§ISpecial Effects:§!$TABBED_NEW_LINE$ - Per §IDistrict§!: §G+§![xhk_worldark_deepsleep_getNumCryo] ['concept_job_deep_sleep', $mod_job_ark_deep_sleep_add$], only while §I$planet_deep_sleep$§! is active.[xhk_worldark_deepsleep_getLevelScaling]"
+ district_xhk_worldark_deep_sleep_effect_scaling: "$TABBED_NEW_LINE$ - Gains §G+$@xhk_worldark_deep_sleep_jobs_per_level$§! more at §I$xhk_pc_worldark$ Levels§! §H3§!, §H5§!, §H7§! and §H9§!."
+ district_xhk_worldark_deep_sleep_total: "§IFrom Districts:§!$TABBED_NEW_LINE$ - ['concept_job_deep_sleep', $mod_job_ark_deep_sleep_add$]: §G+[xhk_worldark_GetDeepSleepJobsTotal]§! while §I$planet_deep_sleep$§! is active"
+ district_xhk_worldark_deep_sleep_warning: "§RWarning:§! All ['concept_job_deep_sleep', $mod_job_ark_deep_sleep_add$] from districts will be §Rremoved§! once §I$planet_deep_sleep$§! expires."
  district_xhk_worldark_deep_sleep_effect_9: "§G1500§!"
  district_xhk_worldark_deep_sleep_effect_7: "§G1250§!"
  district_xhk_worldark_deep_sleep_effect_5: "§G1000§!"
@@ -327,7 +338,7 @@
 
  zone_xhk_worldark_forgery: "Obscura Manufactorum"
  zone_xhk_worldark_forgery_desc: "Workshops that turn out forged papers, bugged goods, and software with backdoors alongside their usual wares."
- zone_xhk_worldark_forgery_tt: "§G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$ per §Y100§! [GetArtisanPlural]."
+ zone_xhk_worldark_forgery_tt: "§ISpecial Effect:§!\n- Per §Y100§! [GetArtisanPlural]: §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$"
  zone_xhk_worldark_forgery_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $MOD_SPY_NETWORK_DAILY_VALUE_ADD$: §G+[xhk_worldark_GetForgeryBonus]%§!$TABBED_NEW_LINE$ - $MOD_ESPIONAGE_OPERATION_SPEED_MULT$: §G+[xhk_worldark_GetForgeryBonus]%§!"
 
  zone_xhk_worldark_trade: "$zone_trade$"
@@ -356,11 +367,15 @@
  zone_xhk_worldark_survey_desc: "Sensor arrays replace expanded harvesting equipment, amplifying our ability to search the unknown."
  zone_xhk_worldark_survey_decompressor: "Tachyon Resonators"
  zone_xhk_worldark_survey_decompressor_desc: "$zone_xhk_worldark_survey_desc$"
- zone_xhk_worldark_survey_tt:"§G+$@xhk_worldark_survey_bonus_per_100|%1$§! $MOD_SHIP_ANOMALY_RESEARCH_SPEED$ and §G+$@xhk_worldark_survey_bonus_per_100|%1$§! $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$ per §Y100§! [GetHarvester] jobs."
+ zone_xhk_worldark_survey_tt:"§ISpecial Effect:§!\n- Per §Y100§! [GetHarvester] jobs: §G+$@xhk_worldark_survey_bonus_per_100|%1$§! $MOD_SHIP_ANOMALY_RESEARCH_SPEED$ and §G+$@xhk_worldark_survey_bonus_per_100|%1$§! $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$"
  zone_xhk_worldark_survey_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - Empire $MOD_SHIP_ANOMALY_RESEARCH_SPEED$: §G+[xhk_worldark_GetSurveyBonus]%§!$TABBED_NEW_LINE$ - $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$: §G+[xhk_worldark_GetSurveyBonus]%§!"
 
  zone_xhk_worldark_farming: "Expanded Hydroponics"
  zone_xhk_worldark_farming_desc: "$zone_ark_food_desc$"
+ zone_xhk_worldark_vivarium: "Biosphere Holds"
+ zone_xhk_worldark_vivarium_desc: "Climate-sealed habitat decks raise crops alongside captive space fauna, fed by large amounts of food and energy."
+ zone_xhk_worldark_vivarium_tt: "§ISpecial Effect:§!\n- $district_xhk_worldark_farming$ Upkeep: §R+$@xhk_worldark_vivarium_energy_upkeep$§! £energy£ and §R+$@xhk_worldark_vivarium_food_upkeep$§! £food£"
+ zone_xhk_worldark_vivarium_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $MOD_COUNTRY_VIVARIUM_MAX_CAPACITY_ADD$: §G+[xhk_worldark_GetVivariumCapacity]§!"
 
  zone_xhk_worldark_unity: "$zone_unity$"
  zone_xhk_worldark_unity_desc: "$zone_unity_desc$"
@@ -389,8 +404,22 @@
  zone_xhk_worldark_amenities_dystopian: "Elite Resorts"
  zone_xhk_worldark_amenities_dystopian_desc: "A place for the deserving to unwind and relax, surrounded by the opulence befitting their station."
 
+ zone_xhk_worldark_museum: "Exhibition Halls"
+ zone_xhk_worldark_museum_desc: "Vast galleries display the wonders gathered on our travels, with guides and performers bringing each specimen's story to life."
+ zone_xhk_worldark_museum_tt: "§ISpecial Effect:§!\n- Per §Y100§! $job_entertainer_plural$: §G+$@xhk_worldark_museum_specimen_per_100|%1$§! $mod_specimens_produces_mult$"
+ zone_xhk_worldark_museum_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $mod_specimens_produces_mult$: §G+[xhk_worldark_GetMuseumSpecimenBonus]%§!"
+
+ zone_xhk_worldark_museum_dystopian: "Private Collections"
+ zone_xhk_worldark_museum_dystopian_desc: "The finest specimens in the galaxy, curated for the eyes of those who have earned the privilege."
+ zone_xhk_worldark_museum_dystopian_dtt: "\n§IFrom Zone:§!$TABBED_NEW_LINE$ - $mod_specimens_produces_mult$: §G+[xhk_worldark_GetMuseumDystopianSpecimenBonus]%§!"
+
  zone_xhk_worldark_enforcer: "Enforcement Centers"
  zone_xhk_worldark_enforcer_desc: "Extra enforcement stations scattered around the $xhk_pc_worldark$ to enforce discipline."
+
+ zone_xhk_worldark_infiltration: "Espionage Nodes"
+ zone_xhk_worldark_infiltration_desc: "Dedicated nodes created to study deviancy reduction protocols, and offensive espionage techniques."
+ zone_xhk_worldark_infiltration_tt: "§ISpecial Effect:§!\n- Per §Y100§! $job_patrol_drone_plural$: §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$\n- $district_xhk_worldark_enforcer$ Upkeep: §R+$@xhk_worldark_infiltration_energy_upkeep$§! £energy£"
+ zone_xhk_worldark_infiltration_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $MOD_SPY_NETWORK_DAILY_VALUE_ADD$: §G+[xhk_worldark_GetInfiltrationBonus]%§!$TABBED_NEW_LINE$ - $MOD_ESPIONAGE_OPERATION_SPEED_MULT$: §G+[xhk_worldark_GetInfiltrationBonus]%§!"
 
  zone_xhk_worldark_refinery: "Resource Crucible"
  zone_xhk_worldark_refinery_desc: "Advanced additions to the refinery allow us to produce more with less."

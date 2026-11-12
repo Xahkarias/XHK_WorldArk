@@ -320,12 +320,7 @@ district_xhk_worldark_factory = {
         POTENTIAL = "
             exists = owner
             owner = {
-                OR = {
-                    is_gestalt = no
-                    has_valid_civic = civic_machine_servitor
-                    has_valid_civic = civic_machine_obsessional_directive
-                    country_uses_consumer_goods = yes
-                }
+                xhk_worldark_can_have_factory_district = yes
             }
         "
     }
@@ -619,11 +614,22 @@ district_xhk_worldark_farming = {
         upkeep = {
             energy = 1
         }
+        # vivarium zone maintenance
+        upkeep = {
+            trigger = { has_zone = { zone = zone_xhk_worldark_vivarium } }
+            energy = @xhk_worldark_vivarium_energy_upkeep
+            food = @xhk_worldark_vivarium_food_upkeep
+        }
     }
 
     inline_script = {
         script = jobs/farmers_add
         AMOUNT = 200
+    }
+
+    triggered_desc = {
+        trigger = { has_zone = { zone = zone_xhk_worldark_vivarium } }
+        text = zone_xhk_worldark_vivarium_dtt
     }
 
     triggered_planet_modifier = {
@@ -860,10 +866,11 @@ district_xhk_worldark_research = {
 # AMENITIES
 district_xhk_worldark_amenities = {
     base_buildtime = @xhk_base_buildtime
+	icon = district_arcology_leisure
+	overlay_icon = GFX_district_amenities
+	district_background = district_resort_museum
 	gridbox = district_arcology_leisure
-    icon = district_arcology_leisure
     is_uncapped = { always = yes }
-    overlay_icon = GFX_district_amenities
 
     zone_slots = {
         slot_xhk_worldark_amenities
@@ -895,6 +902,11 @@ district_xhk_worldark_amenities = {
         AMOUNT = 200
     }
 
+    triggered_desc = {
+        trigger = { has_zone = { zone = zone_xhk_worldark_museum } }
+        text = zone_xhk_worldark_museum_dtt
+    }
+
     triggered_name = {
         text = zone_resort_entertainment
     }
@@ -905,10 +917,11 @@ district_xhk_worldark_amenities = {
 district_xhk_worldark_amenities_dystopian = {
     shared_capacity_modifier = district_xhk_worldark_amenities_dystopian
     base_buildtime = @xhk_base_buildtime
+	icon = district_arcology_leisure
+	overlay_icon = GFX_district_amenities
+	district_background = district_resort_museum
 	gridbox = district_arcology_leisure
-    icon = district_arcology_leisure
     is_uncapped = { always = no }
-    overlay_icon = GFX_district_amenities
 
     zone_slots = {
         slot_xhk_worldark_amenities
@@ -939,10 +952,14 @@ district_xhk_worldark_amenities_dystopian = {
         trigger = { always = yes }
         text = district_xhk_worldark_amenities_dystopian_limit
     }
+    triggered_desc = {
+        trigger = { has_zone = { zone = zone_xhk_worldark_museum_dystopian } }
+        text = zone_xhk_worldark_museum_dystopian_dtt
+    }
 
     inline_script = {
         script = jobs/politician_add
-        AMOUNT = 50
+        AMOUNT = 100
     }
 
     triggered_name = {
@@ -986,6 +1003,11 @@ district_xhk_worldark_enforcer = {
         upkeep = {
             energy = 1
         }
+        # infiltration sweeps
+        upkeep = {
+            trigger = { has_zone = { zone = zone_xhk_worldark_infiltration } }
+            energy = @xhk_worldark_infiltration_energy_upkeep
+        }
     }
 
     inline_script = {
@@ -1001,6 +1023,11 @@ district_xhk_worldark_enforcer = {
             job_patrol_drone_add = 200
         }
     }
+
+	triggered_desc = {
+		trigger = { has_zone = { zone = zone_xhk_worldark_infiltration } }
+		text = zone_xhk_worldark_infiltration_dtt
+	}
 
     inline_script = {
         script = xhk_worldark/district_flavor/enforcer_flavor
@@ -1596,10 +1623,9 @@ district_xhk_worldark_storage = {
         }
     }
 
-    triggered_desc = {
-        trigger = { always = yes }
-        text = district_xhk_worldark_storage_effect
-    }
+    inline_script = {
+		script = xhk_worldark/districts/district_storage_triggered_desc
+	}
 
     triggered_name = {
         text = flavor_xhk_worldark_storage_name
@@ -1643,7 +1669,6 @@ district_xhk_worldark_deep_sleep = {
 	}
 
 	planet_modifier = {
-		job_ark_deep_sleep_add = 50
 		planet_housing_add = 200
 	}
 
@@ -1651,7 +1676,7 @@ district_xhk_worldark_deep_sleep = {
 		potential = {
 			has_modifier = planet_deep_sleep
 		}
-		job_ark_deep_sleep_add = 450
+		job_ark_deep_sleep_add = @xhk_worldark_deep_sleep_jobs_base
 	}
 	triggered_planet_modifier = {
 		potential = {
@@ -1660,7 +1685,7 @@ district_xhk_worldark_deep_sleep = {
 				has_starbase_size >= xhk_worldark_tier_3
 			}
 		}
-		job_ark_deep_sleep_add = 250
+		job_ark_deep_sleep_add = @xhk_worldark_deep_sleep_jobs_per_level
 	}
 	triggered_planet_modifier = {
 		potential = {
@@ -1669,7 +1694,7 @@ district_xhk_worldark_deep_sleep = {
 				has_starbase_size >= xhk_worldark_tier_5
 			}
 		}
-		job_ark_deep_sleep_add = 250
+		job_ark_deep_sleep_add = @xhk_worldark_deep_sleep_jobs_per_level
 	}
 	triggered_planet_modifier = {
 		potential = {
@@ -1678,7 +1703,7 @@ district_xhk_worldark_deep_sleep = {
 				has_starbase_size >= xhk_worldark_tier_7
 			}
 		}
-		job_ark_deep_sleep_add = 250
+		job_ark_deep_sleep_add = @xhk_worldark_deep_sleep_jobs_per_level
 	}
 	triggered_planet_modifier = {
 		potential = {
@@ -1687,14 +1712,23 @@ district_xhk_worldark_deep_sleep = {
 				has_starbase_size >= xhk_worldark_tier_9
 			}
 		}
-		job_ark_deep_sleep_add = 250
+		job_ark_deep_sleep_add = @xhk_worldark_deep_sleep_jobs_per_level
+	}
+
+	# troggled tooltip
+	triggered_desc = {
+		trigger = { NOT = { has_modifier = planet_deep_sleep } }
+		text = district_xhk_worldark_deep_sleep_total
+	}
+	triggered_desc = {
+		trigger = { has_modifier = planet_deep_sleep }
+		text = district_xhk_worldark_deep_sleep_warning
 	}
 
 	triggered_desc = {
 		trigger = { always = yes }
 		text = district_xhk_worldark_deep_sleep_effect
 	}
-
 	triggered_name = {
 		text = flavor_xhk_worldark_deep_sleep_name
 	}

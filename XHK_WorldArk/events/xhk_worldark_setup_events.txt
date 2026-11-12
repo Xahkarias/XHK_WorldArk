@@ -109,6 +109,7 @@ country_event = {
             ################################################################################
 
             # basic resource init
+			# dont use these except for farming, just set them to avoid errors
             set_variable = {
                 which = energy_districts
                 value = 2
@@ -146,7 +147,7 @@ country_event = {
 					add_district = district_xhk_worldark_unity
 				}
             }
-            # from authorithy hive nomad
+            # from authority hive nomad
             if = {
                 limit = {
                     owner? = {
@@ -189,14 +190,6 @@ country_event = {
                 add_district = district_xhk_worldark_trade
 
 				set_variable = {
-					which = energy_districts
-					value = 3
-				}
-				set_variable = {
-					which = mining_districts
-					value = 4
-				}
-				set_variable = {
 					which = farming_districts
 					value = 0
 				}
@@ -227,19 +220,6 @@ country_event = {
 				else = {
 					add_district = district_xhk_worldark_unity_machine
 				}
-
-                set_variable = {
-                    which = energy_districts
-                    value = 3
-                }
-                set_variable = {
-                    which = mining_districts
-                    value = 4
-                }
-                set_variable = {
-                    which = farming_districts
-                    value = 0
-                }
             }
 
             ## Species
@@ -270,36 +250,13 @@ country_event = {
             inline_script = "game_start/civic_tankbound"
 
             # energy
-            if = {
-                limit = {
-                    is_planet_class = pc_ark
-                }
-                if = {
-                    limit = {
-                        check_variable = {
-                            which = energy_districts
-                            value > 2
-                        }
-                    }
-                    set_variable = {
-                        which = energy_districts
-                        value = 2
-                    }
-                }
-            }
-            if = {
-                limit = {
-                    check_variable = {
-                        which = energy_districts
-                        value >= 1
-                    }
-                }
-                add_district_and_planet_size_if_needed_effect_amount = {
-                    amount = energy_districts
-                    district = district_xhk_worldark_generator
-                }
-            }
-            # food or minerals
+			# ALWAYS 3
+			add_district_and_planet_size_if_needed_effect_amount = {
+				amount = 3
+				district = district_xhk_worldark_generator
+			}
+
+            # farm or harvesting
 			# need to increment farming if organic subspecies
 				# this is usually handled with a variable that is set on coutnryu creation
 			if = {
@@ -607,6 +564,13 @@ country_event = {
             id = xhk_worldark_docs_chain.8
             name = "xhk_worldark_docs_crossmod"
             desc = "xhk_worldark_docs_crossmod_desc"
+            event_chain = "xhk_worldark_docs_chain"
+            location = no_scope
+        }
+        create_point_of_interest = {
+            id = xhk_worldark_docs_chain.9
+            name = "xhk_worldark_docs_compat"
+            desc = "xhk_worldark_docs_compat_desc"
             event_chain = "xhk_worldark_docs_chain"
             location = no_scope
         }
