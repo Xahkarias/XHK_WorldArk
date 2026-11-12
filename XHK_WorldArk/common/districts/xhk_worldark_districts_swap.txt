@@ -106,6 +106,40 @@ district_xhk_worldark_research_engineering = {
     }
 }
 
+## AMENITIES SWAPS
+district_xhk_worldark_amenities_museum = {
+    icon = district_resort_museum
+    overlay_icon = GFX_district_amenities
+    district_background = district_resort_museum
+    gridbox = district_arcology_leisure
+    inline_script = {
+        script = xhk_worldark/districts/district_swap
+    }
+
+    triggered_name = {
+        text = zone_xhk_worldark_museum
+    }
+    triggered_flavor_desc = {
+        text = zone_xhk_worldark_museum_desc
+    }
+}
+district_xhk_worldark_amenities_museum_dystopian = {
+    icon = district_resort_museum
+    overlay_icon = GFX_district_amenities
+    district_background = district_resort_museum
+    gridbox = district_arcology_leisure
+    inline_script = {
+        script = xhk_worldark/districts/district_swap
+    }
+
+    triggered_name = {
+        text = zone_xhk_worldark_museum_dystopian
+    }
+    triggered_flavor_desc = {
+        text = zone_xhk_worldark_museum_dystopian_desc
+    }
+}
+
 ## ORDINANCE SWAPS
 district_xhk_worldark_ordinance_naval = {
     icon = district_ark_military

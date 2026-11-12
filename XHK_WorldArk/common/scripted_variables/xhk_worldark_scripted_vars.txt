@@ -162,4 +162,9 @@
 @xhk_worldark_vivarium_capacity = 30
 @xhk_worldark_vivarium_energy_upkeep = 2
 @xhk_worldark_vivarium_food_upkeep = 2
+# museum zones
+# specimen output per 100 entertainers
+@xhk_worldark_museum_specimen_per_100 = 0.01
+# dystopian: specimen output and politicians per amenities district
+@xhk_worldark_museum_dystopian_specimen_per_district = 0.04
 # LOAD BEARING EOF

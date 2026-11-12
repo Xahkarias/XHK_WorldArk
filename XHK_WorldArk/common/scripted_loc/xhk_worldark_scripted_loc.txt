@@ -85,6 +85,16 @@ defined_text = {
 	value = value:xhk_worldark_forgery_infiltration_display
 }
 
+# museum tooltips
+defined_text = {
+	name = xhk_worldark_GetMuseumSpecimenBonus
+	value = value:xhk_worldark_museum_specimen_display
+}
+defined_text = {
+	name = xhk_worldark_GetMuseumDystopianSpecimenBonus
+	value = value:xhk_worldark_museum_dystopian_specimen_display
+}
+
 # vivarium tooltip
 defined_text = {
 	name = xhk_worldark_GetVivariumCapacity

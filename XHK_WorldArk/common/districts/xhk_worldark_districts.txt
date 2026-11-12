@@ -871,10 +871,11 @@ district_xhk_worldark_research = {
 # AMENITIES
 district_xhk_worldark_amenities = {
     base_buildtime = @xhk_base_buildtime
+	icon = district_arcology_leisure
+	overlay_icon = GFX_district_amenities
+	district_background = district_resort_museum
 	gridbox = district_arcology_leisure
-    icon = district_arcology_leisure
     is_uncapped = { always = yes }
-    overlay_icon = GFX_district_amenities
 
     zone_slots = {
         slot_xhk_worldark_amenities
@@ -906,6 +907,11 @@ district_xhk_worldark_amenities = {
         AMOUNT = 200
     }
 
+    triggered_desc = {
+        trigger = { has_zone = { zone = zone_xhk_worldark_museum } }
+        text = zone_xhk_worldark_museum_dtt
+    }
+
     triggered_name = {
         text = zone_resort_entertainment
     }
@@ -916,10 +922,11 @@ district_xhk_worldark_amenities = {
 district_xhk_worldark_amenities_dystopian = {
     shared_capacity_modifier = district_xhk_worldark_amenities_dystopian
     base_buildtime = @xhk_base_buildtime
+	icon = district_arcology_leisure
+	overlay_icon = GFX_district_amenities
+	district_background = district_resort_museum
 	gridbox = district_arcology_leisure
-    icon = district_arcology_leisure
     is_uncapped = { always = no }
-    overlay_icon = GFX_district_amenities
 
     zone_slots = {
         slot_xhk_worldark_amenities
@@ -950,10 +957,14 @@ district_xhk_worldark_amenities_dystopian = {
         trigger = { always = yes }
         text = district_xhk_worldark_amenities_dystopian_limit
     }
+    triggered_desc = {
+        trigger = { has_zone = { zone = zone_xhk_worldark_museum_dystopian } }
+        text = zone_xhk_worldark_museum_dystopian_dtt
+    }
 
     inline_script = {
         script = jobs/politician_add
-        AMOUNT = 50
+        AMOUNT = 100
     }
 
     triggered_name = {
