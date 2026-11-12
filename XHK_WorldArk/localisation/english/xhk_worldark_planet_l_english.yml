@@ -413,6 +413,11 @@
  zone_xhk_worldark_enforcer: "Enforcement Centers"
  zone_xhk_worldark_enforcer_desc: "Extra enforcement stations scattered around the $xhk_pc_worldark$ to enforce discipline."
 
+ zone_xhk_worldark_infiltration: "Espionage Nodes"
+ zone_xhk_worldark_infiltration_desc: "Dedicated nodes created to study deviancy reduction protocols, and offensive espionage techniques."
+ zone_xhk_worldark_infiltration_tt: "§ISpecial Effect:§!\n- Per §Y100§! $job_patrol_drone_plural$: §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$\n- $district_xhk_worldark_enforcer$ Upkeep: §R+$@xhk_worldark_infiltration_energy_upkeep$§! £energy£"
+ zone_xhk_worldark_infiltration_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $MOD_SPY_NETWORK_DAILY_VALUE_ADD$: §G+[xhk_worldark_GetInfiltrationBonus]%§!$TABBED_NEW_LINE$ - $MOD_ESPIONAGE_OPERATION_SPEED_MULT$: §G+[xhk_worldark_GetInfiltrationBonus]%§!"
+
  zone_xhk_worldark_refinery: "Resource Crucible"
  zone_xhk_worldark_refinery_desc: "Advanced additions to the refinery allow us to produce more with less."
 

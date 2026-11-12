@@ -1008,6 +1008,11 @@ district_xhk_worldark_enforcer = {
         upkeep = {
             energy = 1
         }
+        # infiltration sweeps
+        upkeep = {
+            trigger = { has_zone = { zone = zone_xhk_worldark_infiltration } }
+            energy = @xhk_worldark_infiltration_energy_upkeep
+        }
     }
 
     inline_script = {
@@ -1023,6 +1028,11 @@ district_xhk_worldark_enforcer = {
             job_patrol_drone_add = 200
         }
     }
+
+	triggered_desc = {
+		trigger = { has_zone = { zone = zone_xhk_worldark_infiltration } }
+		text = zone_xhk_worldark_infiltration_dtt
+	}
 
     inline_script = {
         script = xhk_worldark/district_flavor/enforcer_flavor

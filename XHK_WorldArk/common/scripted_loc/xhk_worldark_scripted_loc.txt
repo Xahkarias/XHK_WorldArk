@@ -85,6 +85,12 @@ defined_text = {
 	value = value:xhk_worldark_forgery_infiltration_display
 }
 
+# infiltration tooltip
+defined_text = {
+	name = xhk_worldark_GetInfiltrationBonus
+	value = value:xhk_worldark_infiltration_display
+}
+
 # museum tooltips
 defined_text = {
 	name = xhk_worldark_GetMuseumSpecimenBonus

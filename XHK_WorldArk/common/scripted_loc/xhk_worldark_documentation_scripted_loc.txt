@@ -48,6 +48,22 @@ defined_text = {
 }
 
 # DISTRICT DOCS
+# only empires without the factory district get this
+defined_text = {
+	name = xhk_worldark_getDistrictDoc_Infiltration
+	text = {
+		trigger = {
+			NOR = {
+				is_gestalt = no
+				has_valid_civic = civic_machine_servitor
+				has_valid_civic = civic_machine_obsessional_directive
+				country_uses_consumer_goods = yes
+			}
+		}
+		localization_key = xhk_worldark_docs_districts_desc_infiltration
+	}
+	default = xhk_worldark_null_text
+}
 defined_text = {
 	name = xhk_worldark_getDistrictDoc_Factory
 	text = {

@@ -208,6 +208,12 @@ zone_xhk_worldark_forgery = {
 	show_in_tech = tech_decryption_2
 	show_tech_unlock_if = {
 		xhk_has_worldark_origin = yes
+		OR = {
+			is_gestalt = no
+			has_valid_civic = civic_machine_servitor
+			has_valid_civic = civic_machine_obsessional_directive
+			country_uses_consumer_goods = yes
+		}
 	}
 
     included_building_sets = {
@@ -1228,6 +1234,109 @@ zone_xhk_worldark_enforcer = {
         }
         job_patrol_drone_add = 100
     }
+
+    zone_sets = {
+        xhk_worldark_enforcer
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+# infiltration: gestalt counterpart of zone_xhk_worldark_forgery
+zone_xhk_worldark_infiltration = {
+    icon = GFX_district_specialization_payback_enlightenment
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "
+			owner? = {
+				has_technology = tech_decryption_2
+				NOR = {
+					is_gestalt = no
+					has_valid_civic = civic_machine_servitor
+					has_valid_civic = civic_machine_obsessional_directive
+					country_uses_consumer_goods = yes
+				}
+			}
+		"
+    }
+
+	show_in_tech = tech_decryption_2
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+		NOR = {
+			is_gestalt = no
+			has_valid_civic = civic_machine_servitor
+			has_valid_civic = civic_machine_obsessional_directive
+			country_uses_consumer_goods = yes
+		}
+	}
+
+    included_building_sets = {
+        government
+    }
+    include = {
+        building_fe_security_1
+        building_fe_security_2
+    }
+
+    exclude = {
+        building_colony_shelter
+        building_capital
+        building_major_capital
+        building_system_capital
+
+        building_deployment_post
+        building_machine_capital
+        building_machine_major_capital
+        building_machine_system_capital
+
+        building_hive_capital
+        building_hive_major_capital
+
+        building_hab_capital
+        building_hab_major_capital
+        building_hab_system_capital
+
+        building_resort_capital
+        building_resort_major_capital
+        building_slave_capital
+        building_slave_major_capital
+
+        building_imperial_capital
+        building_imperial_machine_capital
+        building_imperial_hive_capital
+        building_imperial_capital_wilderness
+
+        building_colony_shelter_wilderness
+        building_capital_wilderness
+        building_major_capital_wilderness
+        building_system_capital_wilderness
+    }
+
+	triggered_district_planet_modifier = {
+        potential = {
+            owner = {
+                is_gestalt = yes
+            }
+        }
+        job_patrol_drone_add = 50
+    }
+
+    triggered_country_modifier = {
+        potential = {
+            always = yes
+        }
+        spy_network_daily_value_mult = 1
+        espionage_operation_speed_mult = 1
+        mult = value:xhk_worldark_infiltration
+    }
+
+	triggered_desc = {
+		trigger = { always = yes }
+		text = zone_xhk_worldark_infiltration_tt
+	}
 
     zone_sets = {
         xhk_worldark_enforcer

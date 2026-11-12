@@ -1,3 +1,17 @@
+# Espionage Nodes
+triggered_name = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_infiltration }
+    }
+    text = zone_xhk_worldark_infiltration
+}
+triggered_flavor_desc = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_infiltration }
+    }
+    text = zone_xhk_worldark_infiltration_desc
+}
+
 # Center of Guidance
 triggered_name = {
     trigger = {

@@ -109,7 +109,8 @@
  xhk_worldark_docs_districts_desc_museum: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_museum$§!:  Adds §I$job_entertainer$§! jobs and §I$mod_specimens_produces_mult$§! per $job_entertainer$."
  xhk_worldark_docs_districts_desc_dystopian: "\n£amenities£§G$district_xhk_worldark_amenities_dystopian$§!:  Provides small amount of§I $job_politician$§! jobs. §RLimited by population size.§!$TABBED_NEW_LINE$- §C$zone_xhk_worldark_amenities_dystopian$§!:  Adds §I$job_politician$§! jobs.$xhk_worldark_docs_districts_desc_museum_dystopian$"
  xhk_worldark_docs_districts_desc_museum_dystopian: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_museum_dystopian$§!:  Adds §I$job_politician$§! jobs and §I$mod_specimens_produces_mult$§! per district."
- xhk_worldark_docs_districts_desc_enforcer: "\n£job_enforcer£§G$district_xhk_worldark_enforcer$§!:  Provides §I[GetSecurityJob]§! jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_enforcer$§!:  Adds §I[GetSecurityJob]§! jobs."
+ xhk_worldark_docs_districts_desc_enforcer: "\n£job_enforcer£§G$district_xhk_worldark_enforcer$§!:  Provides §I[GetSecurityJob]§! jobs.$TABBED_NEW_LINE$- §C$zone_xhk_worldark_enforcer$§!:  Adds §I[GetSecurityJob]§! jobs.[owner.xhk_worldark_getDistrictDoc_Infiltration]"
+ xhk_worldark_docs_districts_desc_infiltration: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_infiltration$§!: Adds §I$MOD_SPY_NETWORK_DAILY_VALUE_ADD$§! and §I$MOD_ESPIONAGE_OPERATION_SPEED_MULT$§! per §I$job_patrol_drone$§!."
 
  xhk_worldark_docs_districts_desc_group_warfare: "$xhk_worldark_docs_districts_desc_group_warfare_header$$xhk_worldark_docs_districts_desc_ordinance$"
  xhk_worldark_docs_districts_desc_group_warfare_header: "\n§l------WARFARE-------------------------------------------§!"
