@@ -160,6 +160,9 @@
 @xhk_worldark_storage_resource_max = 10000
 @xhk_worldark_storage_nomad_reserves = 2000
 @xhk_worldark_storage_minor_artifacts = 500
+# cryogenic bay
+@xhk_worldark_deep_sleep_jobs_base = 500
+@xhk_worldark_deep_sleep_jobs_per_level = 250
 # vivarium zone
 @xhk_worldark_vivarium_capacity = 30
 @xhk_worldark_vivarium_energy_upkeep = 2

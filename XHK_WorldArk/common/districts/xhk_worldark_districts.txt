@@ -1669,7 +1669,6 @@ district_xhk_worldark_deep_sleep = {
 	}
 
 	planet_modifier = {
-		job_ark_deep_sleep_add = 50
 		planet_housing_add = 200
 	}
 
@@ -1677,7 +1676,7 @@ district_xhk_worldark_deep_sleep = {
 		potential = {
 			has_modifier = planet_deep_sleep
 		}
-		job_ark_deep_sleep_add = 450
+		job_ark_deep_sleep_add = @xhk_worldark_deep_sleep_jobs_base
 	}
 	triggered_planet_modifier = {
 		potential = {
@@ -1686,7 +1685,7 @@ district_xhk_worldark_deep_sleep = {
 				has_starbase_size >= xhk_worldark_tier_3
 			}
 		}
-		job_ark_deep_sleep_add = 250
+		job_ark_deep_sleep_add = @xhk_worldark_deep_sleep_jobs_per_level
 	}
 	triggered_planet_modifier = {
 		potential = {
@@ -1695,7 +1694,7 @@ district_xhk_worldark_deep_sleep = {
 				has_starbase_size >= xhk_worldark_tier_5
 			}
 		}
-		job_ark_deep_sleep_add = 250
+		job_ark_deep_sleep_add = @xhk_worldark_deep_sleep_jobs_per_level
 	}
 	triggered_planet_modifier = {
 		potential = {
@@ -1704,7 +1703,7 @@ district_xhk_worldark_deep_sleep = {
 				has_starbase_size >= xhk_worldark_tier_7
 			}
 		}
-		job_ark_deep_sleep_add = 250
+		job_ark_deep_sleep_add = @xhk_worldark_deep_sleep_jobs_per_level
 	}
 	triggered_planet_modifier = {
 		potential = {
@@ -1713,14 +1712,23 @@ district_xhk_worldark_deep_sleep = {
 				has_starbase_size >= xhk_worldark_tier_9
 			}
 		}
-		job_ark_deep_sleep_add = 250
+		job_ark_deep_sleep_add = @xhk_worldark_deep_sleep_jobs_per_level
+	}
+
+	# troggled tooltip
+	triggered_desc = {
+		trigger = { NOT = { has_modifier = planet_deep_sleep } }
+		text = district_xhk_worldark_deep_sleep_total
+	}
+	triggered_desc = {
+		trigger = { has_modifier = planet_deep_sleep }
+		text = district_xhk_worldark_deep_sleep_warning
 	}
 
 	triggered_desc = {
 		trigger = { always = yes }
 		text = district_xhk_worldark_deep_sleep_effect
 	}
-
 	triggered_name = {
 		text = flavor_xhk_worldark_deep_sleep_name
 	}
