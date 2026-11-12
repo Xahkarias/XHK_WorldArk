@@ -208,12 +208,7 @@ zone_xhk_worldark_forgery = {
 	show_in_tech = tech_decryption_2
 	show_tech_unlock_if = {
 		xhk_has_worldark_origin = yes
-		OR = {
-			is_gestalt = no
-			has_valid_civic = civic_machine_servitor
-			has_valid_civic = civic_machine_obsessional_directive
-			country_uses_consumer_goods = yes
-		}
+		xhk_worldark_can_have_factory_district = yes
 	}
 
     included_building_sets = {
@@ -1252,12 +1247,7 @@ zone_xhk_worldark_infiltration = {
         POTENTIAL = "
 			owner? = {
 				has_technology = tech_decryption_2
-				NOR = {
-					is_gestalt = no
-					has_valid_civic = civic_machine_servitor
-					has_valid_civic = civic_machine_obsessional_directive
-					country_uses_consumer_goods = yes
-				}
+				xhk_worldark_can_have_factory_district = no
 			}
 		"
     }
@@ -1265,12 +1255,7 @@ zone_xhk_worldark_infiltration = {
 	show_in_tech = tech_decryption_2
 	show_tech_unlock_if = {
 		xhk_has_worldark_origin = yes
-		NOR = {
-			is_gestalt = no
-			has_valid_civic = civic_machine_servitor
-			has_valid_civic = civic_machine_obsessional_directive
-			country_uses_consumer_goods = yes
-		}
+		xhk_worldark_can_have_factory_district = no
 	}
 
     included_building_sets = {

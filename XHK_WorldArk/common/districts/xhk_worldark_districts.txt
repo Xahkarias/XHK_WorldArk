@@ -320,12 +320,7 @@ district_xhk_worldark_factory = {
         POTENTIAL = "
             exists = owner
             owner = {
-                OR = {
-                    is_gestalt = no
-                    has_valid_civic = civic_machine_servitor
-                    has_valid_civic = civic_machine_obsessional_directive
-                    country_uses_consumer_goods = yes
-                }
+                xhk_worldark_can_have_factory_district = yes
             }
         "
     }
