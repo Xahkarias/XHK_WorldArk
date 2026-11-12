@@ -55,7 +55,7 @@ defined_text = {
 		trigger = {
 			xhk_worldark_can_have_factory_district = no
 		}
-		localization_key = xhk_worldark_docs_districts_desc_infiltration
+		localization_key = xhk_worldark_docs_districts_zone_infiltration
 	}
 	default = xhk_worldark_null_text
 }
@@ -124,7 +124,7 @@ defined_text = {
 		}
 		localization_key = xhk_worldark_null_text
 	}
-	default = xhk_worldark_docs_districts_desc_ordinance_missiles
+	default = xhk_worldark_docs_districts_zone_ordinance_missile_silos
 }
 defined_text = {
 	name = xhk_worldark_getDistrictDoc_amb
