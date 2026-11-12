@@ -301,7 +301,7 @@
  district_xhk_worldark_deep_sleep_effect: "\n§ISpecial Effects:§!$TABBED_NEW_LINE$ - Per §IDistrict§!: §G+§![xhk_worldark_deepsleep_getNumCryo] ['concept_job_deep_sleep', $mod_job_ark_deep_sleep_add$], only while §I$planet_deep_sleep$§! is active.[xhk_worldark_deepsleep_getLevelScaling]"
  district_xhk_worldark_deep_sleep_effect_scaling: "$TABBED_NEW_LINE$ - Gains §G+$@xhk_worldark_deep_sleep_jobs_per_level$§! more at §I$xhk_pc_worldark$ Levels§! §H3§!, §H5§!, §H7§! and §H9§!."
  district_xhk_worldark_deep_sleep_total: "§IFrom Districts:§!$TABBED_NEW_LINE$ - ['concept_job_deep_sleep', $mod_job_ark_deep_sleep_add$]: §G+[xhk_worldark_GetDeepSleepJobsTotal]§! while §I$planet_deep_sleep$§! is active"
- district_xhk_worldark_deep_sleep_warning: "§RWarning:§! All ['concept_job_deep_sleep', $mod_job_ark_deep_sleep_add$] from $district_xhk_worldark_deep_sleep_plural$ will be §Rremoved§! once §I$planet_deep_sleep$§! expires."
+ district_xhk_worldark_deep_sleep_warning: "§RWarning:§! All ['concept_job_deep_sleep', $mod_job_ark_deep_sleep_add$] from districts will be §Rremoved§! once §I$planet_deep_sleep$§! expires."
  district_xhk_worldark_deep_sleep_effect_9: "§G1500§!"
  district_xhk_worldark_deep_sleep_effect_7: "§G1250§!"
  district_xhk_worldark_deep_sleep_effect_5: "§G1000§!"
