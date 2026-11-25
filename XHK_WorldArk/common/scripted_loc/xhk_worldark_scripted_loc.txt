@@ -165,3 +165,7 @@ defined_text = {
 	name = xhk_worldark_GetSurveyBonus
 	value = value:xhk_worldark_survey_bonus_display
 }
+defined_text = {
+	name = xhk_worldark_GetSurveySpeedBonus
+	value = value:xhk_worldark_survey_speed_display
+}

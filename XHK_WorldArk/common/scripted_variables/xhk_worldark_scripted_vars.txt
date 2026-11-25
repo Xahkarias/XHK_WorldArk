@@ -168,6 +168,7 @@
 @xhk_worldark_infiltration_per_100 = 0.01
 # survey
 @xhk_worldark_survey_bonus_per_100 = 0.02
+@xhk_worldark_survey_speed_per_100 = 0.01
 # storage zone
 @xhk_worldark_storage_resource_max = 10000
 @xhk_worldark_storage_nomad_reserves = 2000

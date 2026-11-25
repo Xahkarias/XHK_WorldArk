@@ -312,6 +312,17 @@ xhk_worldark_survey_bonus_display = {
 	add = value:xhk_worldark_survey_bonus
 	mult = 100
 }
+xhk_worldark_survey_speed_bonus = {
+	base = 0
+	add = value:count_owned_job_workforce|JOB|ark_harvester|
+	add = value:count_owned_job_workforce|JOB|ark_harvester_gestalt|
+	mult = @xhk_worldark_survey_speed_per_100
+}
+xhk_worldark_survey_speed_display = {
+	base = 0
+	add = value:xhk_worldark_survey_speed_bonus
+	mult = 100
+}
 
 ##### COMPENSATION
 # Militia Conscription

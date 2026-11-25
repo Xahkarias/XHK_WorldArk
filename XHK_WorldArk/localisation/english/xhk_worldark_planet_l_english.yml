@@ -378,8 +378,8 @@
  zone_xhk_worldark_survey_desc: "Sensor arrays replace expanded harvesting equipment, amplifying our ability to search the unknown."
  zone_xhk_worldark_survey_decompressor: "Tachyon Resonators"
  zone_xhk_worldark_survey_decompressor_desc: "$zone_xhk_worldark_survey_desc$"
- zone_xhk_worldark_survey_tt:"§ISpecial Effect:§!\n- Per §Y100§! [GetHarvester] jobs: §G+$@xhk_worldark_survey_bonus_per_100|%1$§! $MOD_SHIP_ANOMALY_RESEARCH_SPEED$ and §G+$@xhk_worldark_survey_bonus_per_100|%1$§! $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$"
- zone_xhk_worldark_survey_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - Empire $MOD_SHIP_ANOMALY_RESEARCH_SPEED$: §G+[xhk_worldark_GetSurveyBonus]%§!$TABBED_NEW_LINE$ - $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$: §G+[xhk_worldark_GetSurveyBonus]%§!"
+ zone_xhk_worldark_survey_tt:"§ISpecial Effect:§!\n- Per §Y100§! [GetHarvester] jobs: §G+$@xhk_worldark_survey_bonus_per_100|%1$§! $MOD_SHIP_ANOMALY_RESEARCH_SPEED$ and §G+$@xhk_worldark_survey_speed_per_100|%1$§! $MOD_SHIP_SCIENCE_SURVEY_SPEED$"
+ zone_xhk_worldark_survey_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - Empire $MOD_SHIP_ANOMALY_RESEARCH_SPEED$: §G+[xhk_worldark_GetSurveyBonus]%§!$TABBED_NEW_LINE$ - Empire $MOD_SHIP_SCIENCE_SURVEY_SPEED$: §G+[xhk_worldark_GetSurveySpeedBonus]%§!"
 
  zone_xhk_worldark_farming: "Expanded Hydroponics"
  zone_xhk_worldark_farming_desc: "$zone_ark_food_desc$"

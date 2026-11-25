@@ -12,12 +12,12 @@
         ship_anomaly_research_speed_mult = 1
         mult = value:xhk_worldark_survey_bonus
     }
-    triggered_planet_modifier = {
+    triggered_country_modifier = {
         potential = {
             always = yes
         }
         science_ship_survey_speed = 1
-        mult = value:xhk_worldark_survey_bonus
+        mult = value:xhk_worldark_survey_speed_bonus
     }
 
 	triggered_planet_modifier = {
