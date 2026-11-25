@@ -453,6 +453,9 @@
 
  zone_xhk_worldark_refinery: "Resource Crucible"
  zone_xhk_worldark_refinery_desc: "Advanced additions to the refinery allow us to produce more with less."
+ zone_xhk_worldark_refinery_chemist_tt: "Gains §I[GetChemist]§! jobs with §Y$tech_volatile_motes$§!."
+ zone_xhk_worldark_refinery_refiner_tt: "Gains §I[GetRefiner]§! jobs with §Y$tech_exotic_gases$§!."
+ zone_xhk_worldark_refinery_translucer_tt: "Gains §I[GetTranslucer]§! jobs with §Y$tech_rare_crystals$§!."
 
  zone_xhk_worldark_ordinance_naval: "$zone_ark_shipwright$"
  zone_xhk_worldark_ordinance_naval_desc: "$zone_ark_shipwright_desc$"

@@ -1920,6 +1920,19 @@ zone_xhk_worldark_refinery = {
         job_translucer_drone_add = 30
     }
 
+    triggered_desc = {
+        trigger = { owner = { NOT = { has_technology = tech_volatile_motes } } }
+        text = zone_xhk_worldark_refinery_chemist_tt
+    }
+    triggered_desc = {
+        trigger = { owner = { NOT = { has_technology = tech_exotic_gases } } }
+        text = zone_xhk_worldark_refinery_refiner_tt
+    }
+    triggered_desc = {
+        trigger = { owner = { NOT = { has_technology = tech_rare_crystals } } }
+        text = zone_xhk_worldark_refinery_translucer_tt
+    }
+
     zone_sets = {
         xhk_worldark_refinery
     }
