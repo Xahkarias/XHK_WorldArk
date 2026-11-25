@@ -1,13 +1,13 @@
 # Espionage Nodes
 triggered_name = {
     trigger = {
-        has_zone = { zone = zone_xhk_worldark_infiltration_gestalt }
+        xhk_worldark_is_infiltration_zone_gestalt = yes
     }
     text = zone_xhk_worldark_infiltration_gestalt
 }
 triggered_flavor_desc = {
     trigger = {
-        has_zone = { zone = zone_xhk_worldark_infiltration_gestalt }
+        xhk_worldark_is_infiltration_zone_gestalt = yes
     }
     text = zone_xhk_worldark_infiltration_gestalt_desc
 }
@@ -15,13 +15,13 @@ triggered_flavor_desc = {
 # Indoctrination Relays
 triggered_name = {
     trigger = {
-        has_zone = { zone = zone_xhk_worldark_propaganda_gestalt }
+        xhk_worldark_is_propaganda_zone_gestalt = yes
     }
     text = zone_xhk_worldark_propaganda_gestalt
 }
 triggered_flavor_desc = {
     trigger = {
-        has_zone = { zone = zone_xhk_worldark_propaganda_gestalt }
+        xhk_worldark_is_propaganda_zone_gestalt = yes
     }
     text = zone_xhk_worldark_propaganda_gestalt_desc
 }
@@ -29,13 +29,13 @@ triggered_flavor_desc = {
 # infiltration + propaganda combo
 triggered_name = {
     trigger = {
-        has_zone = { zone = zone_xhk_worldark_infiltration_propaganda_gestalt }
+        xhk_worldark_is_infiltration_propaganda_zone_gestalt = yes
     }
     text = zone_xhk_worldark_infiltration_propaganda_gestalt
 }
 triggered_flavor_desc = {
     trigger = {
-        has_zone = { zone = zone_xhk_worldark_infiltration_propaganda_gestalt }
+        xhk_worldark_is_infiltration_propaganda_zone_gestalt = yes
     }
     text = zone_xhk_worldark_infiltration_propaganda_gestalt_desc
 }

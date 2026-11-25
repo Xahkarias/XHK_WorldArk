@@ -1,36 +1,36 @@
 triggered_name = {
 	trigger = {
-		has_zone = { zone = zone_xhk_worldark_infiltration }
+		xhk_worldark_is_infiltration_zone = yes
 	}
 	text = zone_xhk_worldark_infiltration
 }
 triggered_flavor_desc = {
 	trigger = {
-		has_zone = { zone = zone_xhk_worldark_infiltration }
+		xhk_worldark_is_infiltration_zone = yes
 	}
 	text = zone_xhk_worldark_infiltration_desc
 }
 triggered_name = {
 	trigger = {
-		has_zone = { zone = zone_xhk_worldark_propaganda }
+		xhk_worldark_is_propaganda_zone = yes
 	}
 	text = zone_xhk_worldark_propaganda
 }
 triggered_flavor_desc = {
 	trigger = {
-		has_zone = { zone = zone_xhk_worldark_propaganda }
+		xhk_worldark_is_propaganda_zone = yes
 	}
 	text = zone_xhk_worldark_propaganda_desc
 }
 triggered_name = {
 	trigger = {
-		has_zone = { zone = zone_xhk_worldark_infiltration_propaganda }
+		xhk_worldark_is_infiltration_propaganda_zone = yes
 	}
 	text = zone_xhk_worldark_infiltration_propaganda
 }
 triggered_flavor_desc = {
 	trigger = {
-		has_zone = { zone = zone_xhk_worldark_infiltration_propaganda }
+		xhk_worldark_is_infiltration_propaganda_zone = yes
 	}
 	text = zone_xhk_worldark_infiltration_propaganda_desc
 }

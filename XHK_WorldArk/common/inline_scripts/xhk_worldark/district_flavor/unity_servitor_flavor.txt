@@ -1,12 +1,12 @@
 triggered_name = {
     trigger = {
-        has_zone = { zone = zone_xhk_worldark_museum_servitor }
+        xhk_worldark_is_museum_zone_servitor = yes
     }
     text = zone_xhk_worldark_museum_servitor
 }
 triggered_flavor_desc = {
     trigger = {
-        has_zone = { zone = zone_xhk_worldark_museum_servitor }
+        xhk_worldark_is_museum_zone_servitor = yes
     }
     text = zone_xhk_worldark_museum_servitor_desc
 }

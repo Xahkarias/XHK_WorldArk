@@ -13,7 +13,7 @@ triggered_name = {
 # Vivarium
 triggered_name = {
 	trigger = {
-		has_zone = { zone = zone_xhk_worldark_vivarium }
+		xhk_worldark_is_vivarium_zone = yes
 	}
 	text = zone_xhk_worldark_vivarium
 }

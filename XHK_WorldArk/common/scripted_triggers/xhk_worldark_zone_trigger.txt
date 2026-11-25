@@ -1,0 +1,52 @@
+#COMPAT ZONE TRIGGERS
+
+xhk_worldark_is_infiltration_zone = {
+	has_zone = { zone = zone_xhk_worldark_infiltration }
+}
+
+xhk_worldark_is_infiltration_zone_gestalt = {
+	has_zone = { zone = zone_xhk_worldark_infiltration_gestalt }
+}
+
+xhk_worldark_is_propaganda_zone = {
+	has_zone = { zone = zone_xhk_worldark_propaganda }
+}
+
+xhk_worldark_is_propaganda_zone_gestalt = {
+	has_zone = { zone = zone_xhk_worldark_propaganda_gestalt }
+}
+
+xhk_worldark_is_infiltration_propaganda_zone = {
+	has_zone = { zone = zone_xhk_worldark_infiltration_propaganda }
+}
+
+xhk_worldark_is_infiltration_propaganda_zone_gestalt = {
+	has_zone = { zone = zone_xhk_worldark_infiltration_propaganda_gestalt }
+}
+
+xhk_worldark_is_survey_zone = {
+	OR = {
+		has_zone = { zone = zone_xhk_worldark_survey }
+		has_zone = { zone = zone_xhk_worldark_survey_decompressor }
+	}
+}
+
+xhk_worldark_is_vivarium_zone = {
+	has_zone = { zone = zone_xhk_worldark_vivarium }
+}
+
+xhk_worldark_is_museum_zone = {
+	has_zone = { zone = zone_xhk_worldark_museum }
+}
+
+xhk_worldark_is_museum_zone_dystopian = {
+	has_zone = { zone = zone_xhk_worldark_museum_dystopian }
+}
+
+xhk_worldark_is_museum_zone_gestalt = {
+	has_zone = { zone = zone_xhk_worldark_museum_gestalt }
+}
+
+xhk_worldark_is_museum_zone_servitor = {
+	has_zone = { zone = zone_xhk_worldark_museum_servitor }
+}

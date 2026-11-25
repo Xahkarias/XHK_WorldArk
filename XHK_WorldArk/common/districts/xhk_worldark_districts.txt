@@ -341,15 +341,15 @@ district_xhk_worldark_factory = {
     }
 
 	triggered_desc = {
-		trigger = { has_zone = { zone = zone_xhk_worldark_infiltration } }
+		trigger = { xhk_worldark_is_infiltration_zone = yes }
 		text = zone_xhk_worldark_infiltration_dtt
 	}
 	triggered_desc = {
-		trigger = { has_zone = { zone = zone_xhk_worldark_propaganda } }
+		trigger = { xhk_worldark_is_propaganda_zone = yes }
 		text = zone_xhk_worldark_propaganda_dtt
 	}
 	triggered_desc = {
-		trigger = { has_zone = { zone = zone_xhk_worldark_infiltration_propaganda } }
+		trigger = { xhk_worldark_is_infiltration_propaganda_zone = yes }
 		text = zone_xhk_worldark_infiltration_propaganda_dtt
 	}
 
@@ -540,7 +540,7 @@ district_xhk_worldark_minerals = {
     }
 
 	triggered_desc = {
-		trigger = { has_zone = { zone = zone_xhk_worldark_survey } }
+		trigger = { xhk_worldark_is_survey_zone = yes }
 		text = zone_xhk_worldark_survey_dtt
 	}
 
@@ -589,7 +589,7 @@ district_xhk_worldark_decompressor = {
 	}
 
 	triggered_desc = {
-		trigger = { has_zone = { zone = zone_xhk_worldark_survey_decompressor } }
+		trigger = { xhk_worldark_is_survey_zone = yes }
 		text = zone_xhk_worldark_survey_dtt
 	}
 
@@ -630,7 +630,7 @@ district_xhk_worldark_farming = {
     }
 
     triggered_desc = {
-        trigger = { has_zone = { zone = zone_xhk_worldark_vivarium } }
+        trigger = { xhk_worldark_is_vivarium_zone = yes }
         text = zone_xhk_worldark_vivarium_dtt
     }
 
@@ -742,7 +742,7 @@ district_xhk_worldark_unity_hive = {
     }
 
 	triggered_desc = {
-		trigger = { has_zone = { zone = zone_xhk_worldark_museum_gestalt } }
+		trigger = { xhk_worldark_is_museum_zone_gestalt = yes }
 		text = zone_xhk_worldark_museum_gestalt_dtt
 	}
 
@@ -768,7 +768,7 @@ district_xhk_worldark_unity_machine = {
     }
 
 	triggered_desc = {
-		trigger = { has_zone = { zone = zone_xhk_worldark_museum_gestalt } }
+		trigger = { xhk_worldark_is_museum_zone_gestalt = yes }
 		text = zone_xhk_worldark_museum_gestalt_dtt
 	}
 
@@ -799,7 +799,7 @@ district_xhk_worldark_unity_servitor = {
     }
 
 	triggered_desc = {
-		trigger = { has_zone = { zone = zone_xhk_worldark_museum_servitor } }
+		trigger = { xhk_worldark_is_museum_zone_servitor = yes }
 		text = zone_xhk_worldark_museum_servitor_dtt
 	}
 
@@ -919,7 +919,7 @@ district_xhk_worldark_amenities = {
     }
 
     triggered_desc = {
-        trigger = { has_zone = { zone = zone_xhk_worldark_museum } }
+        trigger = { xhk_worldark_is_museum_zone = yes }
         text = zone_xhk_worldark_museum_dtt
     }
 
@@ -969,7 +969,7 @@ district_xhk_worldark_amenities_dystopian = {
         text = district_xhk_worldark_amenities_dystopian_limit
     }
     triggered_desc = {
-        trigger = { has_zone = { zone = zone_xhk_worldark_museum_dystopian } }
+        trigger = { xhk_worldark_is_museum_zone_dystopian = yes }
         text = zone_xhk_worldark_museum_dystopian_dtt
     }
 
@@ -1036,15 +1036,15 @@ district_xhk_worldark_enforcer = {
     }
 
 	triggered_desc = {
-		trigger = { has_zone = { zone = zone_xhk_worldark_infiltration_gestalt } }
+		trigger = { xhk_worldark_is_infiltration_zone_gestalt = yes }
 		text = zone_xhk_worldark_infiltration_gestalt_dtt
 	}
 	triggered_desc = {
-		trigger = { has_zone = { zone = zone_xhk_worldark_propaganda_gestalt } }
+		trigger = { xhk_worldark_is_propaganda_zone_gestalt = yes }
 		text = zone_xhk_worldark_propaganda_gestalt_dtt
 	}
 	triggered_desc = {
-		trigger = { has_zone = { zone = zone_xhk_worldark_infiltration_propaganda_gestalt } }
+		trigger = { xhk_worldark_is_infiltration_propaganda_zone_gestalt = yes }
 		text = zone_xhk_worldark_infiltration_propaganda_gestalt_dtt
 	}
 

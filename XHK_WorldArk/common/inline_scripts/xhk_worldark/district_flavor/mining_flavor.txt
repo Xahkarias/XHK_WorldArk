@@ -1,12 +1,12 @@
 triggered_name = {
     trigger = {
-        has_zone = { zone = zone_xhk_worldark_survey }
+        xhk_worldark_is_survey_zone = yes
     }
     text = zone_xhk_worldark_survey
 }
 triggered_flavor_desc = {
     trigger = {
-        has_zone = { zone = zone_xhk_worldark_survey }
+        xhk_worldark_is_survey_zone = yes
     }
     text = zone_xhk_worldark_survey_desc
 }
