@@ -1941,6 +1941,127 @@ zone_xhk_worldark_refinery = {
     ai_priority = 10
 }
 
+zone_xhk_worldark_refinery_motes = {
+    icon = GFX_district_specialization_volatile_motes
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_volatile_motes }"
+    }
+
+    show_in_tech = tech_volatile_motes
+    show_tech_unlock_if = {
+        xhk_has_worldark_origin = yes
+    }
+
+    included_building_sets = {
+        factory
+        foundry
+        industry
+    }
+
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = { is_gestalt = no }
+        }
+        job_chemist_add = 100
+    }
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = { is_gestalt = yes }
+        }
+        job_chemist_drone_add = 100
+    }
+
+    zone_sets = {
+        xhk_worldark_refinery
+    }
+
+    ai_weight_coefficient = 0.25
+    ai_priority = 10
+}
+zone_xhk_worldark_refinery_gases = {
+    icon = GFX_district_specialization_exotic_gases
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_exotic_gases }"
+    }
+
+    show_in_tech = tech_exotic_gases
+    show_tech_unlock_if = {
+        xhk_has_worldark_origin = yes
+    }
+
+    included_building_sets = {
+        factory
+        foundry
+        industry
+    }
+
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = { is_gestalt = no }
+        }
+        job_gas_refiner_add = 100
+    }
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = { is_gestalt = yes }
+        }
+        job_gas_refiner_drone_add = 100
+    }
+
+    zone_sets = {
+        xhk_worldark_refinery
+    }
+
+    ai_weight_coefficient = 0.25
+    ai_priority = 10
+}
+zone_xhk_worldark_refinery_crystals = {
+    icon = GFX_district_specialization_rare_crystals
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "owner? = { has_technology = tech_rare_crystals }"
+    }
+
+    show_in_tech = tech_rare_crystals
+    show_tech_unlock_if = {
+        xhk_has_worldark_origin = yes
+    }
+
+    included_building_sets = {
+        factory
+        foundry
+        industry
+    }
+
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = { is_gestalt = no }
+        }
+        job_translucer_add = 100
+    }
+    triggered_district_planet_modifier = {
+        potential = {
+            owner = { is_gestalt = yes }
+        }
+        job_translucer_drone_add = 100
+    }
+
+    zone_sets = {
+        xhk_worldark_refinery
+    }
+
+    ai_weight_coefficient = 0.25
+    ai_priority = 10
+}
+
 ## SUPERTENSILES
 ###########################################################
 zone_xhk_worldark_supertensiles = {

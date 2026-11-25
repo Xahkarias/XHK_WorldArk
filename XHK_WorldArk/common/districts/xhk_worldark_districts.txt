@@ -1214,8 +1214,8 @@ district_xhk_worldark_refinery = {
 		job_translucer_drone_add = 60
 	}
 
-	triggered_name = {
-		text = flavor_xhk_worldark_refinery_name
+	inline_script = {
+		script = xhk_worldark/district_flavor/refinery_flavor
 	}
 }
 # fake ones

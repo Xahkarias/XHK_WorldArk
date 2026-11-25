@@ -1,0 +1,22 @@
+triggered_name = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_refinery_motes }
+    }
+    text = zone_xhk_worldark_refinery_motes
+}
+triggered_name = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_refinery_gases }
+    }
+    text = zone_xhk_worldark_refinery_gases
+}
+triggered_name = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_refinery_crystals }
+    }
+    text = zone_xhk_worldark_refinery_crystals
+}
+
+triggered_name = {
+    text = flavor_xhk_worldark_refinery_name
+}

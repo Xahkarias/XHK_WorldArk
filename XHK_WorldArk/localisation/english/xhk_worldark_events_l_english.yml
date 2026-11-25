@@ -210,9 +210,12 @@
  xhk_worldark_docs_districts_desc_group_strategicresource_header: "\n\n§l------STRATEGIC-RESOURCES-------------------------------§!"
 
  # REFINERY
- xhk_worldark_docs_districts_desc_refinery: "$xhk_worldark_docs_districts_district_refinery$$xhk_worldark_docs_districts_zone_refinery$"
- xhk_worldark_docs_districts_district_refinery: "\n£strategic_resource£§G$district_xhk_worldark_refinery$§!:  Provides a balanced distribution of §I[GetTranslucer]§!, §I[GetChemist]§!, and §I[GetRefiner]§! jobs."
+ xhk_worldark_docs_districts_desc_refinery: "$xhk_worldark_docs_districts_district_refinery$$xhk_worldark_docs_districts_zone_refinery$$xhk_worldark_docs_districts_zone_refinery_motes$$xhk_worldark_docs_districts_zone_refinery_gases$$xhk_worldark_docs_districts_zone_refinery_crystals$"
+ xhk_worldark_docs_districts_district_refinery: "\n£strategic_resource£§G$district_xhk_worldark_refinery$§!:  Provides §I[GetTranslucer]§!, §I[GetChemist]§!, and §I[GetRefiner]§! jobs."
  xhk_worldark_docs_districts_zone_refinery: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_refinery$§!:  Adds §I[GetTranslucer]§!, §I[GetChemist]§!, and §I[GetRefiner]§! jobs."
+ xhk_worldark_docs_districts_zone_refinery_motes: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_refinery_motes$§!:  Adds §I[GetChemist]§! jobs."
+ xhk_worldark_docs_districts_zone_refinery_gases: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_refinery_gases$§!:  Adds §I[GetRefiner]§! jobs."
+ xhk_worldark_docs_districts_zone_refinery_crystals: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_refinery_crystals$§!:  Adds §I[GetTranslucer]§! jobs."
 
  # SUPERTENSILES
  xhk_worldark_docs_districts_desc_supertensiles: "$xhk_worldark_docs_districts_district_supertensiles$$xhk_worldark_docs_districts_zone_supertensiles$"
