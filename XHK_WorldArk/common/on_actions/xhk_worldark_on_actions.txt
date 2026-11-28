@@ -64,6 +64,13 @@ xhk_on_size_eat_habitat = {
     }
 }
 
+xhk_on_eat_artifact = {
+	events = {
+		xhk_worldark.6
+	}
+}
+
+###### COLOSSUS
 # on_destroy_planet_with_PLANET_KILLER_CRACKER
 xhk_pk_world_cracker = {
     events = {

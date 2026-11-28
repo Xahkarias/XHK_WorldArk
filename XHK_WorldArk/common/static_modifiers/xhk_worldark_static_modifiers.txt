@@ -10,3 +10,10 @@ xhk_worldark_being_devoured_modifier = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_shattered_planet.dds"
 	icon_frame = 3
 }
+
+xhk_worldark_eat_artifact_extracted = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_arkship_harvested_resources.dds"
+	icon_frame = 3
+	station_researchers_minor_artifacts_produces_mult = -0.5
+	station_gatherers_minor_artifacts_produces_mult = -0.5
+}

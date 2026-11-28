@@ -179,6 +179,52 @@ planet_event = {
     }
 }
 
+# Scope: target planet, from = fleet
+planet_event = {
+	id = xhk_worldark.6
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		from = {
+			owner = { save_event_target_as = xhk_eat_artifact_empire }
+			every_owned_ship = {
+				save_event_target_as = arkship
+			}
+		}
+
+		add_modifier = {
+			modifier = xhk_worldark_eat_artifact_extracted
+			days = -1
+		}
+
+		event_target:arkship.colony = {
+			if = {
+				limit = {
+					NOT = { has_deposit = d_xhk_worldark_artifact_pile }
+				}
+				add_deposit = d_xhk_worldark_artifact_pile
+			}
+			change_variable = {
+				which = xhk_worldark_artifacts_eaten
+				value = 1
+			}
+		}
+
+		if = {
+			limit = {
+				exists = space_owner
+			}
+			space_owner = {
+				add_opinion_modifier = {
+					modifier = opinion_xhk_worldark_eat_artifact
+					who = event_target:xhk_eat_artifact_empire
+				}
+			}
+		}
+	}
+}
+
 # EAT THE OTHER SHIP
 # triggered monthly
 country_event = {

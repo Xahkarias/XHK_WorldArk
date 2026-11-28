@@ -381,6 +381,10 @@ country_event = {
                 which = xhk_worldark_habitat_expansions
                 value = 0
             }
+			set_variable = {
+				which = xhk_worldark_artifacts_eaten
+				value = 0
+			}
         }
 
         ################################################################################################################

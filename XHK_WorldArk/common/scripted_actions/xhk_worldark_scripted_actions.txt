@@ -715,3 +715,87 @@ xhk_worldark_corespinal_planeteater_dismantle_world = {
 		ai_minister = interior
 	}
 }
+
+# ARTIFACT HARVEST
+# context menu only, world ark tier 7+
+xhk_worldark_eat_artifact = {
+	user_scope = fleet
+	scope = planet
+
+	on_completed = xhk_on_eat_artifact
+	tooltip = xhk_worldark_eat_artifact_ship_button
+	icon = GFX_fleet_action_button_arkship_strip_mine
+	icon_selected = GFX_fleet_action_button_arkship_strip_mine
+
+	possible = {
+		custom_tooltip = {
+			fail_text = xhk_worldark_eat_artifact_tier_fail_tt
+			from.starbase? = {
+				xhk_is_worldark_starbase = yes
+				has_starbase_size >= xhk_worldark_tier_7
+			}
+		}
+		custom_tooltip = {
+			fail_text = arkship_target_not_surveyed_fail_tt
+			is_surveyed = {
+				who = from
+				status = yes
+			}
+		}
+		is_star = no
+		custom_tooltip = {
+			fail_text = arkship_target_habitable_world_fail_tt
+			habitable_planet = no
+		}
+		custom_tooltip = {
+			fail_text = xhk_worldark_eat_artifact_no_relics_fail_tt
+			OR = {
+				has_deposit = d_artifacts_research_1
+				has_deposit = d_artifacts_research_2
+				has_deposit = d_artifacts_research_3
+				has_deposit = d_artifacts_mining_1
+				has_deposit = d_artifacts_mining_2
+				has_deposit = d_artifacts_mining_3
+			}
+		}
+		custom_tooltip = {
+			fail_text = xhk_worldark_eat_artifact_already_fail_tt
+			NOT = { has_modifier = xhk_worldark_eat_artifact_extracted }
+		}
+	}
+
+	button_visible = { always = no }
+
+	hide_from_context_menu = {
+		always = no
+	}
+
+	uses_vfx_type = harvest_effect
+	activity_key = xhk_worldark_eat_artifact_activity_key
+	context_menu_name = xhk_worldark_eat_artifact
+	required_progress = 180
+	progress_activity_key = xhk_worldark_eat_artifact_progress_activity_key
+	required_progress_key = xhk_worldark_eat_artifact_required_progress_key
+
+	completion_message_type = XHK_TOAST_EAT_ARTIFACT_COMPLETE
+	completion_message_localization = XHK_TOAST_EAT_ARTIFACT_COMPLETE_DESC
+
+	ai = {
+		#This - Target Planet
+		#From - Acting Fleet
+		weight = {
+			base = @ai_action_weight_20
+			inline_script = {
+				script = scripted_actions/ai_distance_modifiers
+				LOCAL_SYSTEM_CHECK = "any_system_planet = { is_same_value = ROOT }"
+			}
+			modifier = {
+				factor = @ai_action_weight_factor_0_1 #avoid owned systems
+				exists = space_owner
+			}
+		}
+		max_jumps = @ai_action_weight_5
+		good_enough_weight = @ai_action_weight_20
+		ai_minister = interior
+	}
+}

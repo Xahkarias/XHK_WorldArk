@@ -508,6 +508,23 @@ d_xhk_worldark_logistic_ship_bay = {
     potential = { always = no }
 }
 
+d_xhk_worldark_artifact_pile = {
+	is_for_colonizable = yes
+	icon = d_archaeological_dig
+	category = deposit_cat_rare
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			minor_artifacts = 0.2
+			multiplier = xhk_worldark_artifacts_eaten
+		}
+	}
+
+	drop_weight = { weight = 0 }
+	potential = { always = no }
+}
+
 ########################################################
 # THE UFKCING NERFS
 d_xhk_worldark_compensation = {

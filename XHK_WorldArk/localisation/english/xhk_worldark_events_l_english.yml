@@ -29,8 +29,11 @@
  ####################
  # EXPANSION
  xhk_worldark_docs_expansion: "A) Expansion"
- xhk_worldark_docs_expansion_desc: "$xhk_worldark_docs_expansion_desc_1$$xhk_worldark_docs_expansion_desc_2$$xhk_worldark_docs_expansion_desc_3$$xhk_worldark_docs_expansion_desc_4$$xhk_worldark_docs_expansion_desc_5$$xhk_worldark_docs_expansion_desc_6$$xhk_worldark_docs_expansion_desc_7$$xhk_worldark_docs_expansion_desc_8$$xhk_worldark_docs_expansion_desc_9$$xhk_worldark_docs_expansion_desc_10$$xhk_worldark_docs_expansion_desc_11$[owner.xhk_worldark_getVirtualDocumentation]"
- xhk_worldark_docs_expansion_desc_1: "The $xhk_pc_worldark$ expands through the dismantlement of other stellar objects. These are listed below:\n"
+ xhk_worldark_docs_expansion_desc: "$xhk_worldark_docs_expansion_size$\n\n$xhk_worldark_docs_expansion_misc$"
+
+ xhk_worldark_docs_expansion_size: "$xhk_worldark_docs_expansion_desc_0$$xhk_worldark_docs_expansion_desc_1$$xhk_worldark_docs_expansion_desc_2$$xhk_worldark_docs_expansion_desc_3$$xhk_worldark_docs_expansion_desc_4$$xhk_worldark_docs_expansion_desc_5$$xhk_worldark_docs_expansion_desc_6$$xhk_worldark_docs_expansion_desc_7$$xhk_worldark_docs_expansion_desc_8$$xhk_worldark_docs_expansion_desc_9$$xhk_worldark_docs_expansion_desc_10$$xhk_worldark_docs_expansion_desc_11$[owner.xhk_worldark_getVirtualDocumentation]"
+ xhk_worldark_docs_expansion_desc_0: "§l--DISTRICT-EXPANSION-----------------------------------§!"
+ xhk_worldark_docs_expansion_desc_1: "\nThe $xhk_pc_worldark$ expands through the dismantlement of other stellar objects. These are listed below:\n"
  xhk_worldark_docs_expansion_desc_2: "$TABBED_NEW_LINE$- $xhk_harvest_plus_small$ §G£districtadd£Districts§! from the special §I$xhk_worldark_size_harvest$§! arkship action, when used on a stellar body."
  xhk_worldark_docs_expansion_desc_3: "$TABBED_NEW_LINE$      Increases size gain after specific $xhk_pc_worldark$ Upgrades."
  xhk_worldark_docs_expansion_desc_4: "$TABBED_NEW_LINE$- §G+$@xhk_worldark_consume_ark_size|0$ £districtadd£Districts§! from each arkship claimed from another empire after a war, which are promptly dismantled."
@@ -42,6 +45,11 @@
  xhk_worldark_docs_expansion_desc_10: "$TABBED_NEW_LINE$- §G+$@xhk_worldark_alloy_build_size|0$ £districtadd£Districts§! per usage of §I$xhk_worldark_alloy_expansion_decision$§! decision (unlocked with §I$tech_mega_engineering$§!)."
  xhk_worldark_docs_expansion_desc_11: "\n\nThe §I$xhk_worldark_size_harvest$§! action should be taken frequently in order to continue to grow the $xhk_pc_worldark$."
  xhk_worldark_docs_expansion_desc_virt: "\n\nNote: For §IVirtual Empires§!, every built district §Rover 25§! counts as §R0.05 colonies§! for the purposes of the Virtual efficiency bonus."
+
+ xhk_worldark_docs_expansion_misc: "$xhk_worldark_docs_expansion_misc_0$$xhk_worldark_docs_expansion_misc_1$$xhk_worldark_docs_expansion_misc_2$"
+ xhk_worldark_docs_expansion_misc_0: "§l--OTHER-ACTIONS----------------------------------------§!\n"
+ xhk_worldark_docs_expansion_misc_1: "Other Special Actions that can be used:"
+ xhk_worldark_docs_expansion_misc_2: "\n§I$xhk_worldark_eat_artifact$§! - §G+0.2 £minor_artifacts£$minor_artifacts$§! per month per use (§IRight Click§! on uninhabitable worlds with artifacts, requires §H$xhk_worldark_tier_7$§!)."
 
  ####################
  # POPULATION

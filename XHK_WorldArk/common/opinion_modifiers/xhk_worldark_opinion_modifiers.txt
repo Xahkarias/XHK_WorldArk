@@ -42,3 +42,15 @@ opinion_xhk_worldark_planeteater_barren = {
 		}
 	}
 }
+opinion_xhk_worldark_eat_artifact = {
+	opinion = {
+		base = -100
+	}
+
+	accumulative = yes
+
+	min = -1000
+	decay = {
+		base = 1
+	}
+}

@@ -56,7 +56,19 @@ message_type = {
 
     category = other
 }
+message_type = {
+	key = "XHK_TOAST_EAT_ARTIFACT_COMPLETE"
+	icon = "GFX_toast_strip_mine_complete"
 
+	name = "XHK_TOAST_EAT_ARTIFACT_COMPLETE_TITLE"
+	sound = "notification"
+	ping = "ping_notification_green"
+
+	default_notification = no
+	default_toast = yes
+
+	category = other
+}
 
 ###########################################################################################################
 ### NOTIFICATIONS

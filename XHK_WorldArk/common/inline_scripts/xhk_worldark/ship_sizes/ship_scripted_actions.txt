@@ -2,6 +2,7 @@
 scripted_action = {
     xhk_worldark_size_harvest
     xhk_worldark_size_eat_habitat
+    xhk_worldark_eat_artifact
     # colossus
     xhk_worldark_pk_world_cracker
     xhk_worldark_pk_global_pacifier

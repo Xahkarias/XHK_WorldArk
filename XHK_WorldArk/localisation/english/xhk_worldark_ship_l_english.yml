@@ -84,6 +84,31 @@
  XHK_TOAST_CONSUME_HABITAT_COMPLETE_DESC: "The §Y$FLEET$§! has expanded its size by dismantling an $pc_habitat$."
 
  ##############################################
+ # ARTIFACT HARVEST
+ xhk_worldark_eat_artifact: "Extract Artifacts"
+ xhk_worldark_eat_artifact_desc: "§LThe $xhk_pc_worldark$ can strip the ancient artifacts from a world and stow them in its own vaults.§!"
+ xhk_worldark_eat_artifact_effect: "$XHK_EAT_ARTIFACT_EFFECTS_HEADER$ $xhk_worldark_eat_artifact_base_effect$ $xhk_worldark_eat_artifact_planet_effect$"
+ XHK_EAT_ARTIFACT_EFFECTS_HEADER: "§E£arkship£§!§Y$xhk_worldark_eat_artifact$§! Effects:"
+ xhk_worldark_eat_artifact_base_effect: "$TABBED_NEW_LINE$- §Y$d_xhk_worldark_artifact_pile$§! on the §I$xhk_pc_worldark$§!: §G+0.2§! £minor_artifacts£ $minor_artifacts$ per extraction"
+ xhk_worldark_eat_artifact_planet_effect: "$DOUBLE_NEW_LINE$ $PLANET_EFFECTS_HEADER$ $TABBED_NEW_LINE$- §Y$xhk_worldark_eat_artifact_extracted$§! modifier added: $TABBED_NEW_LINE$$t$ §R-50%§! £minor_artifacts£ $minor_artifacts$ from deposits $TABBED_NEW_LINE$- Opinion of the system owner: §R-100§!"
+ xhk_worldark_eat_artifact_ship_button: "$xhk_worldark_eat_artifact_effect$\n\n$xhk_worldark_eat_artifact_desc$"
+ xhk_worldark_eat_artifact_activity_key: "Extracting Artifacts"
+ xhk_worldark_eat_artifact_progress_activity_key: "Extracting Artifacts (§Y$PROGRESS$%§!)"
+ xhk_worldark_eat_artifact_required_progress_key: "£time£ 180 §WDays§!"
+ xhk_worldark_eat_artifact_tier_fail_tt: "$TRIGGER_FAIL$Requires §H$xhk_worldark_tier_7$§! or higher"
+ xhk_worldark_eat_artifact_no_relics_fail_tt: "$TRIGGER_FAIL$Target has no §HMinor Artifacts§! deposit"
+ xhk_worldark_eat_artifact_already_fail_tt: "$TRIGGER_FAIL$Target's artifacts have already been §Hplundered§!"
+
+ XHK_TOAST_EAT_ARTIFACT_COMPLETE_TITLE: "Artifacts Plundered"
+ XHK_TOAST_EAT_ARTIFACT_COMPLETE_DESC: "The §Y$FLEET$§! has stowed the ancient relics of §Y$TARGET_PLANET$§!."
+
+ xhk_worldark_eat_artifact_extracted: "Artifacts Plundered"
+ xhk_worldark_eat_artifact_extracted_desc: "Most of the ancient artifacts on this world have been carted off by a $xhk_pc_worldark$."
+ d_xhk_worldark_artifact_pile: "Artifact Reserve"
+ d_xhk_worldark_artifact_pile_desc: "Vaults of ancient relics taken from across the galaxy."
+ opinion_xhk_worldark_eat_artifact: "Plundered Relics"
+
+ ##############################################
  # PLANET KILLER
  xhk_pk_world_cracker_activity_key: "Firing $PLANET_KILLER_CRACKER$"
  xhk_pk_world_cracker: "Integrated $PLANET_KILLER_CRACKER$"
