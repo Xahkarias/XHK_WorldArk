@@ -64,8 +64,6 @@
  xhk_worldark_flusionark.1003.a: "Excellent."
  xhk_worldark_flusionark.1003.att: "§Y$zone_xhk_worldark_urban_flusion$§! zones increase the maximum district amount."
 
- XHK_TOAST_FLUSIONARK_COMPLETE_TITLE: "$xhk_worldark_situation_flusionark$ Complete"
- XHK_TOAST_FLUSIONARK_COMPLETE_DESC: "The §Y$xhk_worldark_situation_flusionark$§! has finished."
  xhk_worldark_flusionark.1010.title: "Flusion Integration: Complete"
  xhk_worldark_flusionark.1010.desc: "The last of Flusion's secrets have been integrated into the $xhk_pc_worldark$. Its hull is now reinforced with plating modeled on the Kaiser Moon."
  xhk_worldark_flusionark.1010.a: "Finally."
