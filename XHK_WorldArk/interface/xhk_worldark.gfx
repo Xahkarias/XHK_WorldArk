@@ -58,6 +58,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/districts/district_specialization_icons/zone_xhk_worldark_infiltration_propaganda.dds"
 	}
 	spriteType = {
+		name = "GFX_zone_xhk_worldark_voidforge"
+		texturefile = "gfx/interface/icons/districts/district_specialization_icons/zone_xhk_worldark_voidforge.dds"
+	}
+	spriteType = {
+		name = "GFX_zone_xhk_worldark_utilbay"
+		texturefile = "gfx/interface/icons/districts/district_specialization_icons/zone_xhk_worldark_utilbay.dds"
+	}
+	spriteType = {
+		name = "GFX_zone_xhk_worldark_enforcer"
+		texturefile = "gfx/interface/icons/districts/district_specialization_icons/zone_xhk_worldark_enforcer.dds"
+	}
+	spriteType = {
+		name = "GFX_zone_xhk_worldark_waylogi"
+		texturefile = "gfx/interface/icons/districts/district_specialization_icons/zone_xhk_worldark_waylogi.dds"
+	}
+	spriteType = {
+		name = "GFX_zone_xhk_worldark_survey"
+		texturefile = "gfx/interface/icons/districts/district_specialization_icons/zone_xhk_worldark_survey.dds"
+	}
+	spriteType = {
 		name = "GFX_zone_xhk_worldark_orykta"
 		texturefile = "gfx/interface/icons/districts/district_specialization_icons/zone_xhk_worldark_orykta.dds"
 	}

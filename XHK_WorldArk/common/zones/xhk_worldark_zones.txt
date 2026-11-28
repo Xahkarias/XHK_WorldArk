@@ -96,7 +96,7 @@ zone_xhk_worldark_foundry = {
 }
 # better ships
 zone_xhk_worldark_voidforge = {
-    icon = GFX_district_specialization_foundry
+    icon = GFX_zone_xhk_worldark_voidforge
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
@@ -408,7 +408,7 @@ zone_xhk_worldark_trade = {
 }
 # station cap
 zone_xhk_worldark_waylogi = {
-    icon = GFX_district_specialization_trade
+    icon = GFX_zone_xhk_worldark_waylogi
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
@@ -758,7 +758,7 @@ zone_xhk_worldark_mining = {
 }
 # researchers, anomaly and survey speed per harvester
 zone_xhk_worldark_survey = {
-    icon = GFX_district_specialization_research
+    icon = GFX_zone_xhk_worldark_survey
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
@@ -792,7 +792,7 @@ zone_xhk_worldark_survey = {
     swap_type_weight = 5
 }
 zone_xhk_worldark_survey_decompressor = {
-    icon = GFX_district_specialization_research
+    icon = GFX_zone_xhk_worldark_survey
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
@@ -870,7 +870,7 @@ zone_xhk_worldark_farming = {
 }
 # vivarium capacity per district
 zone_xhk_worldark_vivarium = {
-    icon = GFX_district_specialization_wilderness_food
+    icon = GFX_district_specialization_spawning
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
@@ -1470,7 +1470,7 @@ zone_xhk_worldark_museum_dystopian = {
 ###########################################################
 # standard
 zone_xhk_worldark_enforcer = {
-    icon = GFX_district_specialization_urban
+    icon = GFX_zone_xhk_worldark_enforcer
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
@@ -2577,7 +2577,7 @@ zone_xhk_worldark_deep_sleep = {
 ## UTILITY BAY
 ###########################################################
 zone_xhk_worldark_utilbay = {
-	icon = GFX_district_specialization_urban
+	icon = GFX_zone_xhk_worldark_utilbay
 	inline_script = {
 		script = xhk_worldark/zones/zone_common
 		NUM_BUILDINGS = 3
