@@ -22,9 +22,6 @@ country_event = {
         # all about moving the pops, leaders, etc
         ################################################################################################################
         capital_scope = {
-            solar_system = {
-                save_event_target_as = target_system
-            }
             save_event_target_as = xhk_old_arkcap_colony
 
             ship = {
@@ -44,7 +41,7 @@ country_event = {
                                 save_event_target_as = xhk_new_worldark_ship
                             }
                         }
-                        set_location = event_target:target_system
+                        set_location = event_target:xhk_old_arkcap_fleet
                     }
                 }
 
